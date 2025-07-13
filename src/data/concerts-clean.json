@@ -1,0 +1,1181 @@
+[
+  {
+    "season": "2025-2026",
+    "concerts": [
+      {
+        "title": "Tangled Whispers",
+        "date": "2025-10-27",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Whispers",
+            "year": 1996,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "sebastian-currier"
+          },
+          {
+            "title": "Tangled Madrigal",
+            "year": 2024,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "amy-williams"
+          },
+          {
+            "title": "Inchokkillissa for Guitar and Percussion",
+            "year": 1994,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "guitar", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "jerod-tate"
+          },
+          {
+            "title": "Triple Duo",
+            "year": 1983,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "elliott-carter"
+          }
+        ]
+      },
+      {
+        "title": "Songbird",
+        "date": "2025-12-08",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "procession- process:peace (dona nobis pacem)",
+            "year": 2017,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "reiko-futing"
+          },
+          {
+            "title": "Songbird",
+            "year": 2021,
+            "duration": "13'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "violas", "count": 2, "musicians": [] },
+              { "instrument": "cellos", "count": 2, "musicians": [] }
+            ],
+            "composerId": "juri-seo"
+          },
+          {
+            "title": "String Quartet No. 4: \"Insects and Machines\"",
+            "year": 2019,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "vivian-fung"
+          },
+          {
+            "title": "New Work",
+            "year": 2025,
+            "duration": "10'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "diallo-banks",
+            "commission": true
+          },
+          {
+            "title": "String Quartet No. 3 Songlines",
+            "year": 2012,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "michael-ippolito"
+          }
+        ]
+      },
+      {
+        "title": "Goldbeater's Skin",
+        "date": "2026-01-19",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Sun Propeller",
+            "year": 2012,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "live electronics", "musicians": [] }
+            ],
+            "composerId": "nina-young"
+          },
+          {
+            "title": "Learning",
+            "year": 1976,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 4, "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "tape", "musicians": [] }
+            ],
+            "composerId": "claude-vivier"
+          },
+          {
+            "title": "New Work",
+            "year": 2026,
+            "duration": "10'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "shawn-allison",
+            "commission": true
+          },
+          {
+            "title": "Goldbeater's Skin",
+            "year": 2016,
+            "duration": "21'",
+            "instrumentation": [
+              { "instrument": "percussion", "count": 4, "musicians": [] },
+              { "instrument": "mezzo-soprano", "musicians": [] }
+            ],
+            "composerId": "chris-cerrone"
+          }
+        ]
+      },
+      {
+        "title": "Retrospektiv",
+        "date": "2026-02-23",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Entr'acte",
+            "year": 2011,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "caroline-shaw"
+          },
+          {
+            "title": "New Work",
+            "year": 2026,
+            "duration": "15'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "che-buford",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "3 Transformations",
+            "year": 1998,
+            "duration": "20'",
+            "instrumentation": [{ "instrument": "ensemble", "musicians": [] }],
+            "composerId": "andrew-thomas"
+          },
+          {
+            "title": "Finding Equilibrium",
+            "year": 2025,
+            "duration": "15'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "bass clarinet", "musicians": [] }
+            ],
+            "composerId": "roger-zare",
+            "premiere": true
+          },
+          {
+            "title": "And Legions Will Rise",
+            "year": 2001,
+            "duration": "17'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "kevin-puts"
+          }
+        ]
+      },
+      {
+        "title": "Music for 18",
+        "date": "2026-04-24",
+        "venue": "Sarasota Opera House, 61 N. Pineapple Ave. Sarasota, FL 34236",
+        "program": [
+          {
+            "title": "Music for 18 Musicians",
+            "year": 1976,
+            "duration": "40-50'",
+            "instrumentation": [
+              { "instrument": "musicians", "count": 18, "musicians": [] }
+            ],
+            "composerId": "steve-reich"
+          }
+        ]
+      },
+      {
+        "title": "Music for New Bodies",
+        "date": "2026-05-22",
+        "venue": "Sarasota Opera House, 61 N. Pineapple Ave. Sarasota, FL 34236",
+        "program": [
+          {
+            "title": "Music for New Bodies",
+            "year": 2024,
+            "duration": "90'",
+            "instrumentation": [
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "matthew-aucoin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "2024-2025",
+    "concerts": [
+      {
+        "title": "Night, Reflected",
+        "date": "2024-09-23",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Glasshouse",
+            "year": 2023,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "kevin-day"
+          },
+          {
+            "title": "String Quartet No. 2",
+            "year": 1987,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "sofia-gubaidulina"
+          },
+          {
+            "title": "Avian Mirrors",
+            "year": 2013,
+            "duration": "13'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "arlene-sierra"
+          },
+          {
+            "title": "Stars in Dead Reflection",
+            "year": 2010,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "bass", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "chris-stark"
+          },
+          {
+            "title": "Night Rituals",
+            "year": 2012,
+            "duration": "15'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "shawn-allison"
+          }
+        ]
+      },
+      {
+        "title": "Suncoast Fellowship Concert",
+        "date": "2024-10-07",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Nothing Motorized",
+            "year": 2019,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "treya-nash"
+          },
+          {
+            "title": "The Piercing Blazing Bell Amidst Intertwined Swirls of Musical Shoal Water The Painting Drowned In Its Own Sound",
+            "year": 2023,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "daniel-gostelow"
+          },
+          {
+            "title": "Three and a Half Meditations",
+            "year": 2020,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "marimba", "solo": true, "musicians": [] }
+            ],
+            "composerId": "david-acevedo"
+          },
+          {
+            "title": "Playbox - Cadenza",
+            "year": 2024,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "daniel-gostelow"
+          },
+          {
+            "title": "can i forget the rising sun",
+            "year": "2022-2024",
+            "duration": "6'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "sean-quinn"
+          },
+          {
+            "title": "Mercurial Spell",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "viola", "solo": true, "musicians": [] }
+            ],
+            "composerId": "joshua-muetzel"
+          },
+          {
+            "title": "...those stones, watching, over lochs, through time…",
+            "year": 2024,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "max-gibson"
+          },
+          {
+            "title": "Bragdon Wood",
+            "year": 2024,
+            "duration": "2'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "prepared piano", "musicians": [] }
+            ],
+            "composerId": "david-acevedo"
+          },
+          {
+            "title": "Night",
+            "year": 2023,
+            "duration": "5'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "viola", "musicians": [] }
+            ],
+            "composerId": "joshua-muetzel"
+          }
+        ]
+      },
+      {
+        "title": "Ives and Schoenberg at 150",
+        "date": "2024-11-25",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Pierrot lunaire",
+            "year": 1912,
+            "duration": "38'",
+            "instrumentation": [
+              { "instrument": "voice", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "arnold-schoenberg"
+          },
+          {
+            "title": "Piano Sonata No. 2, Concord, Mass., 1840-60",
+            "year": 1915,
+            "duration": "45'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "charles-ives"
+          }
+        ]
+      },
+      {
+        "title": "Visions and Miracles",
+        "date": "2025-01-13",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Rest These Hands",
+            "year": 2021,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "anna-clyne"
+          },
+          {
+            "title": "Visions and Miracles",
+            "year": 1997,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "chris-theofanidis"
+          },
+          {
+            "title": "How the Stars Vanish",
+            "year": 2021,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "dai-wei"
+          },
+          {
+            "title": "How to Remember Seeds",
+            "year": 2017,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "han-lash"
+          },
+          {
+            "title": "Milagros",
+            "year": 2010,
+            "duration": "21'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "gabriela-lena-frank"
+          }
+        ]
+      },
+      {
+        "title": "Truth and Mayhem",
+        "date": "2025-02-17",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Music for the Temple",
+            "year": 2019,
+            "duration": "TBD",
+            "instrumentation": [
+              { "instrument": "marimba", "solo": true, "musicians": [] }
+            ],
+            "composerId": "jonathan-cziner"
+          },
+          {
+            "title": "Fear/Release",
+            "year": 2017,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "percussion", "count": 4, "musicians": [] }
+            ],
+            "composerId": "ellen-reid"
+          },
+          {
+            "title": "Pillaging Music",
+            "year": 2005,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "electronics", "musicians": [] }
+            ],
+            "composerId": "nico-muhly"
+          },
+          {
+            "title": "Elegy: Snow in June",
+            "year": 1991,
+            "duration": "25'",
+            "instrumentation": [
+              { "instrument": "cello", "solo": true, "musicians": [] },
+              { "instrument": "percussion", "count": 4, "musicians": [] }
+            ],
+            "composerId": "tan-dun"
+          }
+        ]
+      },
+      {
+        "title": "Critical Moments",
+        "date": "2025-03-17",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Until Next Time",
+            "year": 2010,
+            "duration": "5'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "kenji-bunch"
+          },
+          {
+            "title": "Critical Moments",
+            "year": 2001,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "flutes", "count": 2, "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "george-perle"
+          },
+          {
+            "title": "Rota Fortunae",
+            "year": 2024,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "percussion", "count": 2, "musicians": [] },
+              { "instrument": "bass clarinet", "musicians": [] }
+            ],
+            "composerId": "paul-mortilla",
+            "commission": true
+          },
+          {
+            "title": "Oceans in Oceans",
+            "year": 2014,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "bassoon", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "trombone", "musicians": [] },
+              { "instrument": "percussion", "count": 2, "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "bass", "musicians": [] }
+            ],
+            "composerId": "carolyn-chen"
+          },
+          {
+            "title": "Violin Concerto",
+            "year": 2016,
+            "duration": "17'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "composerId": "marcos-balter"
+          }
+        ]
+      },
+      {
+        "title": "Jagden und Formen",
+        "date": "2025-05-12",
+        "venue": "Sarasota Opera House, 61 N. Pineapple Ave. Sarasota, FL 34236",
+        "program": [
+          {
+            "title": "Jagden und Formen (Hunts and Forms)",
+            "year": 1995,
+            "duration": "55'",
+            "instrumentation": [
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "wolfgang-rihm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "2023-2024",
+    "concerts": [
+      {
+        "title": "Suncoast Composers Fellowship Concert",
+        "date": "2023-09-05",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Glimpse",
+            "year": 2023,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "nicolas-bentz"
+          },
+          {
+            "title": "Before Entrance and After Exits, Dreams Await",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "claire-hu"
+          },
+          {
+            "title": "Flickering Airs",
+            "year": 2023,
+            "duration": "6'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "angela-elizabeth-slater"
+          },
+          {
+            "title": "Luo Jiang Yuan – A bit blue",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "yangfan-xu"
+          },
+          {
+            "title": "Meditations",
+            "year": 2023,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "dulcimer", "musicians": [] }
+            ],
+            "composerId": "zachary-konick"
+          },
+          {
+            "title": "Surface",
+            "year": 2023,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "dulcimer", "solo": true, "musicians": [] }
+            ],
+            "composerId": "zachary-konick"
+          },
+          {
+            "title": "Daybreak of Dust",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "angela-elizabeth-slater"
+          },
+          {
+            "title": "Infinite Spinning",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "chris-neiner"
+          }
+        ]
+      },
+      {
+        "title": "Beyond the Veil",
+        "date": "2023-10-23",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Burgundy in Autumn",
+            "year": 2019,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "nia-imani-franklin"
+          },
+          {
+            "title": "Veil of Leaves",
+            "year": 2014,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "julia-adolphe"
+          },
+          {
+            "title": "Afterword",
+            "year": 2020,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "chris-rogerson"
+          },
+          {
+            "title": "Tensio",
+            "year": 2010,
+            "duration": "37'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "live electronics", "musicians": [] }
+            ],
+            "composerId": "philippe-manoury"
+          }
+        ]
+      },
+      {
+        "title": "Ligeti's 100th",
+        "subtitle": "Featuring Han Chen, piano",
+        "date": "2023-11-20",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "White on Black",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "vivian-fung",
+            "notes": "Inspired by White on White"
+          },
+          {
+            "title": "Étude No. 15 White on White",
+            "year": 1997,
+            "duration": "4'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "no way out but through",
+            "year": 2023,
+            "duration": "2'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "tom-morrison",
+            "notes": "Inspired by Fanfares"
+          },
+          {
+            "title": "Étude No. 4 Fanfares",
+            "year": 1985,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "it is within you that the ghosts acquire voices",
+            "year": 2023,
+            "duration": "2'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "nina-young",
+            "notes": "Inspired by Automne à Varsovie"
+          },
+          {
+            "title": "Étude No. 6 Automne à Varsovie",
+            "year": 1985,
+            "duration": "4'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "Slipstream",
+            "year": 2020,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "stacy-garrop"
+          },
+          {
+            "title": "The Solitude of Stars",
+            "year": 2020,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "stacy-garrop",
+            "notes": "Clarinet Version World Premiere"
+          },
+          {
+            "title": "Cello Sonata",
+            "year": 1953,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "cello", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "Wax and Wire",
+            "year": 2014,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "viet-cuong"
+          },
+          {
+            "title": "Horn Trio",
+            "year": 1982,
+            "duration": "22'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          }
+        ]
+      },
+      {
+        "title": "Night & Day",
+        "date": "2024-01-22",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "Karst",
+            "year": 2023,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "scott-lee",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "Ebb Tide",
+            "year": 2018,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "bass", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "molly-herron"
+          },
+          {
+            "title": "Night Time",
+            "year": 1998,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "harp", "musicians": [] }
+            ],
+            "composerId": "sebastian-currier"
+          },
+          {
+            "title": "Unknown Heavens",
+            "year": 1997,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cellos", "count": 2, "musicians": [] }
+            ],
+            "composerId": "einojuhani-rautavaara"
+          },
+          {
+            "title": "Sundial",
+            "year": 2021,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "sam-adams"
+          }
+        ]
+      },
+      {
+        "title": "You Are Free",
+        "date": "2024-03-25",
+        "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+        "program": [
+          {
+            "title": "You Are Free",
+            "year": 2016,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "sarah-kirkland-snider"
+          },
+          {
+            "title": "New Work",
+            "year": 2024,
+            "duration": "TBD",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "kyle-rivera",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "Distance",
+            "year": 2016,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "shawn-okpebholo"
+          },
+          {
+            "title": "Five in One",
+            "year": 2018,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "ania-vu"
+          },
+          {
+            "title": "Voiceless Mass",
+            "year": 2021,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "pipe organ", "musicians": [] },
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "raven-chacon"
+          }
+        ]
+      },
+      {
+        "title": "Angélica Negrón's Greenfield Prize Performance",
+        "date": "2024-04-15",
+        "venue": "The Hermitage Artist Retreat, Manasota Key, FL",
+        "program": [
+          {
+            "title": "Azul Naranja Salado",
+            "year": 2024,
+            "duration": "35'",
+            "instrumentation": [
+              { "instrument": "violas", "count": 6, "musicians": [] },
+              { "instrument": "cellos", "count": 4, "musicians": [] },
+              { "instrument": "double basses", "count": 4, "musicians": [] },
+              { "instrument": "harp", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "electronics", "musicians": [] }
+            ],
+            "composerId": "angelica-negron",
+            "premiere": true
+          }
+        ]
+      },
+      {
+        "title": "Parisian Refraction",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "dates": [
+          "2024-04-23 to 2024-04-29: Southern Methodist University, Dallas, Texas",
+          "2024-05-09 to 2024-05-11: Ringling Museum, Historic Asolo Theatre, Sarasota, Florida"
+        ],
+        "programs": [
+          {
+            "programTitle": "Program #1",
+            "description": "Conor Hanick: Solo Piano Recital",
+            "pieces": [
+              {
+                "title": "Book of Sounds",
+                "year": 1982,
+                "duration": "60'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] }
+                ],
+                "composerId": "hans-otte"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #2",
+            "description": "Spotlight on Unsuk Chin",
+            "pieces": [
+              {
+                "title": "Acrostic Wordplay",
+                "year": "1991 rev. 1993",
+                "duration": "16'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              },
+              {
+                "title": "Graal Theatre",
+                "year": 1991,
+                "duration": "24'",
+                "instrumentation": [
+                  { "instrument": "violin", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "kaija-saariaho"
+              },
+              {
+                "title": "Double Concerto",
+                "year": 2002,
+                "duration": "20'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] },
+                  { "instrument": "percussion", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #3",
+            "description": "Kafka Fragments",
+            "pieces": [
+              {
+                "title": "Kafka Fragments",
+                "year": "1985-1986",
+                "duration": "63'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "violin", "musicians": [] }
+                ],
+                "composerId": "gyorgy-kurtag"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #4",
+            "pieces": [
+              {
+                "title": "KLANG (Hour Two) Freude",
+                "year": 2005,
+                "duration": "41'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 2, "musicians": [] }
+                ],
+                "composerId": "karlheinz-stockhausen"
+              },
+              {
+                "title": "Sur Incises",
+                "year": 1998,
+                "duration": "40'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 3, "musicians": [] },
+                  { "instrument": "pianos", "count": 3, "musicians": [] },
+                  { "instrument": "percussion", "count": 3, "musicians": [] }
+                ],
+                "composerId": "pierre-boulez"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

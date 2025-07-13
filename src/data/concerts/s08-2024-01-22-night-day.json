@@ -1,0 +1,63 @@
+{
+  "title": "Night & Day",
+  "date": "2024-01-22",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Karst",
+      "year": 2023,
+      "duration": "11'",
+      "instrumentation": [
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] }
+      ],
+      "composerId": "scott-lee",
+      "commission": true,
+      "premiere": true
+    },
+    {
+      "title": "Ebb Tide",
+      "year": 2018,
+      "duration": "8'",
+      "instrumentation": [
+        { "instrument": "piano", "musicians": [] },
+        { "instrument": "bass", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] }
+      ],
+      "composerId": "molly-herron"
+    },
+    {
+      "title": "Night Time",
+      "year": 1998,
+      "duration": "16'",
+      "instrumentation": [
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "harp", "musicians": [] }
+      ],
+      "composerId": "sebastian-currier"
+    },
+    {
+      "title": "Unknown Heavens",
+      "year": 1997,
+      "duration": "9'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cellos", "count": 2, "musicians": [] }
+      ],
+      "composerId": "einojuhani-rautavaara"
+    },
+    {
+      "title": "Sundial",
+      "year": 2021,
+      "duration": "12'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] }
+      ],
+      "composerId": "sam-adams"
+    }
+  ]
+}

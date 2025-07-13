@@ -1,0 +1,103 @@
+{
+  "title": "Parisian Refraction",
+  "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+  "dates": [
+    "2024-04-23 to 2024-04-29: Southern Methodist University, Dallas, Texas",
+    "2024-05-09 to 2024-05-11: Ringling Museum, Historic Asolo Theatre, Sarasota, Florida"
+  ],
+  "programs": [
+    {
+      "programTitle": "Program #1",
+      "description": "Conor Hanick: Solo Piano Recital",
+      "pieces": [
+        {
+          "title": "Book of Sounds",
+          "year": 1982,
+          "duration": "60'",
+          "instrumentation": [
+            { "instrument": "piano", "solo": true, "musicians": [] }
+          ],
+          "composerId": "hans-otte"
+        }
+      ]
+    },
+    {
+      "programTitle": "Program #2",
+      "description": "Spotlight on Unsuk Chin",
+      "pieces": [
+        {
+          "title": "Acrostic Wordplay",
+          "year": "1991 rev. 1993",
+          "duration": "16'",
+          "instrumentation": [
+            { "instrument": "soprano", "musicians": [] },
+            { "instrument": "ensemble", "musicians": [] }
+          ],
+          "composerId": "unsuk-chin"
+        },
+        {
+          "title": "Graal Theatre",
+          "year": 1991,
+          "duration": "24'",
+          "instrumentation": [
+            { "instrument": "violin", "solo": true, "musicians": [] },
+            { "instrument": "ensemble", "musicians": [] }
+          ],
+          "composerId": "kaija-saariaho"
+        },
+        {
+          "title": "Double Concerto",
+          "year": 2002,
+          "duration": "20'",
+          "instrumentation": [
+            { "instrument": "piano", "solo": true, "musicians": [] },
+            { "instrument": "percussion", "solo": true, "musicians": [] },
+            { "instrument": "ensemble", "musicians": [] }
+          ],
+          "composerId": "unsuk-chin"
+        }
+      ]
+    },
+    {
+      "programTitle": "Program #3",
+      "description": "Kafka Fragments",
+      "pieces": [
+        {
+          "title": "Kafka Fragments",
+          "year": "1985-1986",
+          "duration": "63'",
+          "instrumentation": [
+            { "instrument": "soprano", "musicians": [] },
+            { "instrument": "violin", "musicians": [] }
+          ],
+          "composerId": "gyorgy-kurtag"
+        }
+      ]
+    },
+    {
+      "programTitle": "Program #4",
+      "pieces": [
+        {
+          "title": "KLANG (Hour Two) Freude",
+          "year": 2005,
+          "duration": "41'",
+          "instrumentation": [
+            { "instrument": "harps", "count": 2, "musicians": [] }
+          ],
+          "composerId": "karlheinz-stockhausen"
+        },
+        {
+          "title": "Sur Incises",
+          "year": 1998,
+          "duration": "40'",
+          "instrumentation": [
+            { "instrument": "harps", "count": 3, "musicians": [] },
+            { "instrument": "pianos", "count": 3, "musicians": [] },
+            { "instrument": "percussion", "count": 3, "musicians": [] }
+          ],
+          "composerId": "pierre-boulez"
+        }
+      ]
+    }
+  ]
+}

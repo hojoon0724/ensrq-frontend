@@ -1,23 +1,17 @@
-import Image from 'next/image';
-import localFont from 'next/font/local';
-
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
+import About from "./components/sections/00-about";
+import TypographyTestSection from "./components/sections/99-typography-test";
 
 export default function Home() {
   return (
-    <>
-      <section>stuff</section>
-      <section>stuff</section>
-      <section>stuff</section>
-    </>
+    <main className="flex flex-col items-center justify-start bg-slate-300">
+      <TypographyTestSection />
+      <About />
+      <section className="bg-slate-500">
+        <div>stuff</div>
+      </section>
+      <section className="bg-slate-100">
+        <div>stuff</div>
+      </section>
+    </main>
   );
 }

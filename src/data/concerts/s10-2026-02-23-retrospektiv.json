@@ -1,0 +1,58 @@
+{
+  "title": "Retrospektiv",
+  "date": "2026-02-23",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Entr'acte",
+      "year": 2011,
+      "duration": "10'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] }
+      ],
+      "composerId": "caroline-shaw"
+    },
+    {
+      "title": "New Work",
+      "year": 2026,
+      "duration": "15'",
+      "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+      "composerId": "che-buford",
+      "commission": true,
+      "premiere": true
+    },
+    {
+      "title": "3 Transformations",
+      "year": 1998,
+      "duration": "20'",
+      "instrumentation": [{ "instrument": "ensemble", "musicians": [] }],
+      "composerId": "andrew-thomas"
+    },
+    {
+      "title": "Finding Equilibrium",
+      "year": 2025,
+      "duration": "15'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "bass clarinet", "musicians": [] }
+      ],
+      "composerId": "roger-zare",
+      "premiere": true
+    },
+    {
+      "title": "And Legions Will Rise",
+      "year": 2001,
+      "duration": "17'",
+      "instrumentation": [
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "clarinet", "musicians": [] },
+        { "instrument": "marimba", "musicians": [] }
+      ],
+      "composerId": "kevin-puts"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Music for 18 Musicians",
+  "date": "2026-04-24",
+  "venue": "Sarasota Opera House, 61 N. Pineapple Ave. Sarasota, FL 34236",
+  "program": [
+    {
+      "title": "Music for 18 Musicians",
+      "year": 1976,
+      "duration": "40-50'",
+      "instrumentation": [
+        { "instrument": "musicians", "count": 18, "musicians": [] }
+      ],
+      "composerId": "steve-reich"
+    }
+  ]
+}

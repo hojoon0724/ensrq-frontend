@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        museo: ["museo", "serif"],
+        "museo-slab-rounded": ["museo-slab-rounded", "serif"],
+        "museo-slab": ["museo-slab", "serif"],
+        "kode-mono": ["Kode Mono", "monospace"],
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,46 @@
+{
+  "title": "Truth and Mayhem",
+  "date": "2025-02-17",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Music for the Temple",
+      "year": 2019,
+      "duration": "TBD",
+      "instrumentation": [
+        { "instrument": "marimba", "solo": true, "musicians": [] }
+      ],
+      "composerId": "jonathan-cziner"
+    },
+    {
+      "title": "Fear/Release",
+      "year": 2017,
+      "duration": "8'",
+      "instrumentation": [
+        { "instrument": "percussion", "count": 4, "musicians": [] }
+      ],
+      "composerId": "ellen-reid"
+    },
+    {
+      "title": "Pillaging Music",
+      "year": 2005,
+      "duration": "8'",
+      "instrumentation": [
+        { "instrument": "piano", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] },
+        { "instrument": "electronics", "musicians": [] }
+      ],
+      "composerId": "nico-muhly"
+    },
+    {
+      "title": "Elegy: Snow in June",
+      "year": 1991,
+      "duration": "25'",
+      "instrumentation": [
+        { "instrument": "cello", "solo": true, "musicians": [] },
+        { "instrument": "percussion", "count": 4, "musicians": [] }
+      ],
+      "composerId": "tan-dun"
+    }
+  ]
+}

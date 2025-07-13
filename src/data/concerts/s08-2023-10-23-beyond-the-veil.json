@@ -1,0 +1,51 @@
+{
+  "title": "Beyond the Veil",
+  "date": "2023-10-23",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Burgundy in Autumn",
+      "year": 2019,
+      "duration": "4'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] }
+      ],
+      "composerId": "nia-imani-franklin"
+    },
+    {
+      "title": "Veil of Leaves",
+      "year": 2014,
+      "duration": "9'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] }
+      ],
+      "composerId": "julia-adolphe"
+    },
+    {
+      "title": "Afterword",
+      "year": 2020,
+      "duration": "14'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "piano", "musicians": [] }
+      ],
+      "composerId": "chris-rogerson"
+    },
+    {
+      "title": "Tensio",
+      "year": 2010,
+      "duration": "37'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "live electronics", "musicians": [] }
+      ],
+      "composerId": "philippe-manoury"
+    }
+  ]
+}

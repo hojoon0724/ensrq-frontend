@@ -1,0 +1,54 @@
+{
+  "title": "Tangled Whispers",
+  "date": "2025-10-27",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Whispers",
+      "year": 1996,
+      "duration": "14'",
+      "instrumentation": [
+        { "instrument": "flute", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "piano", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] }
+      ],
+      "composerId": "sebastian-currier"
+    },
+    {
+      "title": "Tangled Madrigal",
+      "year": 2024,
+      "duration": "16'",
+      "instrumentation": [
+        { "instrument": "violins", "count": 2, "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] }
+      ],
+      "composerId": "amy-williams"
+    },
+    {
+      "title": "Inchokkillissa for Guitar and Percussion",
+      "year": 1994,
+      "duration": "12'",
+      "instrumentation": [
+        { "instrument": "guitar", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] }
+      ],
+      "composerId": "jerod-tate"
+    },
+    {
+      "title": "Triple Duo",
+      "year": 1983,
+      "duration": "20'",
+      "instrumentation": [
+        { "instrument": "flute", "musicians": [] },
+        { "instrument": "clarinet", "musicians": [] },
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] },
+        { "instrument": "piano", "musicians": [] }
+      ],
+      "composerId": "elliott-carter"
+    }
+  ]
+}

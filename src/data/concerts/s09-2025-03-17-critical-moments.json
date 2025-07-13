@@ -1,0 +1,71 @@
+{
+  "title": "Critical Moments",
+  "date": "2025-03-17",
+  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "program": [
+    {
+      "title": "Until Next Time",
+      "year": 2010,
+      "duration": "5'",
+      "instrumentation": [
+        { "instrument": "violin", "solo": true, "musicians": [] }
+      ],
+      "composerId": "kenji-bunch"
+    },
+    {
+      "title": "Critical Moments",
+      "year": 2001,
+      "duration": "10'",
+      "instrumentation": [
+        { "instrument": "flutes", "count": 2, "musicians": [] },
+        { "instrument": "clarinet", "musicians": [] },
+        { "instrument": "piano", "musicians": [] },
+        { "instrument": "percussion", "musicians": [] },
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "cello", "musicians": [] }
+      ],
+      "composerId": "george-perle"
+    },
+    {
+      "title": "Rota Fortunae",
+      "year": 2024,
+      "duration": "12'",
+      "instrumentation": [
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "percussion", "count": 2, "musicians": [] },
+        { "instrument": "bass clarinet", "musicians": [] }
+      ],
+      "composerId": "paul-mortilla",
+      "commission": true
+    },
+    {
+      "title": "Oceans in Oceans",
+      "year": 2014,
+      "duration": "14'",
+      "instrumentation": [
+        { "instrument": "flute", "musicians": [] },
+        { "instrument": "clarinet", "musicians": [] },
+        { "instrument": "bassoon", "musicians": [] },
+        { "instrument": "horn", "musicians": [] },
+        { "instrument": "trombone", "musicians": [] },
+        { "instrument": "percussion", "count": 2, "musicians": [] },
+        { "instrument": "piano", "musicians": [] },
+        { "instrument": "violin", "musicians": [] },
+        { "instrument": "viola", "musicians": [] },
+        { "instrument": "cello", "musicians": [] },
+        { "instrument": "bass", "musicians": [] }
+      ],
+      "composerId": "carolyn-chen"
+    },
+    {
+      "title": "Violin Concerto",
+      "year": 2016,
+      "duration": "17'",
+      "instrumentation": [
+        { "instrument": "violin", "solo": true, "musicians": [] },
+        { "instrument": "ensemble", "musicians": [] }
+      ],
+      "composerId": "marcos-balter"
+    }
+  ]
+}
