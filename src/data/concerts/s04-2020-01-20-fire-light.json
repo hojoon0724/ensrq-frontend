@@ -1,0 +1,161 @@
+{
+  "concertId": "s04-2020-01-20-fire-light",
+  "title": "Fire & Light",
+  "subtitle": "",
+  "date": "2020-01-20",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "Sparks fly in Fire and Light, featuring composer and violist Jessica Meyer in three of her deeply human works: Delta Sunrise, Tapped into the same vein, and Sagrada Familia. Conor Hanick and Samantha Bennett perform Eric Wubbels' epic and searching 'the children of fire come looking for fire' to set this concert ablaze.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Delta Sunrise",
+      "year": "2017",
+      "duration": "3''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Jessica Meyer"
+          ]
+        }
+      ],
+      "composerId": "jessica-meyer",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Ins Licht",
+      "year": "2007",
+      "duration": "4''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        }
+      ],
+      "composerId": "georg-friedrich-haas",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "\"the children of fire come looking for fire\"",
+      "year": "2012",
+      "duration": "25''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        }
+      ],
+      "composerId": "eric-wubbels",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Tapped into the same vein",
+      "year": "2017",
+      "duration": "7''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "count": 2,
+          "musicians": [
+            "Jessica Meyer",
+            "Rachel Halvorsen"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        }
+      ],
+      "composerId": "jessica-meyer",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Sagrada Familia",
+      "year": "2017",
+      "duration": "16''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Laura Petty"
+          ]
+        },
+        {
+          "instrument": "bass clarinet",
+          "musicians": [
+            "Laura Petty"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        },
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Jessica Meyer"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        }
+      ],
+      "composerId": "jessica-meyer",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

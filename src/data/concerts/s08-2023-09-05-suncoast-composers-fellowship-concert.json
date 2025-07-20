@@ -1,4 +1,5 @@
 {
+  "concertId": "s08-2023-09-05-suncoast-composers-fellowship-concert",
   "title": "Suncoast Composers Fellowship Concert",
   "date": "2023-09-05",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,10 +9,22 @@
       "year": 2023,
       "duration": "10'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "nicolas-bentz"
     },
@@ -20,9 +33,19 @@
       "year": 2023,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "claire-hu"
     },
@@ -31,11 +54,27 @@
       "year": 2023,
       "duration": "6'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "angela-elizabeth-slater"
     },
@@ -44,9 +83,19 @@
       "year": 2023,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "yangfan-xu"
     },
@@ -55,8 +104,14 @@
       "year": 2023,
       "duration": "4'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "dulcimer", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "dulcimer",
+          "musicians": []
+        }
       ],
       "composerId": "zachary-konick"
     },
@@ -65,7 +120,11 @@
       "year": 2023,
       "duration": "7'",
       "instrumentation": [
-        { "instrument": "dulcimer", "solo": true, "musicians": [] }
+        {
+          "instrument": "dulcimer",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "zachary-konick"
     },
@@ -74,8 +133,14 @@
       "year": 2023,
       "duration": "3'",
       "instrumentation": [
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "angela-elizabeth-slater"
     },
@@ -84,12 +149,30 @@
       "year": 2023,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] },
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "chris-neiner"
     }

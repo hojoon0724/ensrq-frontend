@@ -1,0 +1,82 @@
+{
+  "concertId": "s04-2020-03-23-enter-the-vortex",
+  "title": "Enter the Vortex",
+  "subtitle": "",
+  "date": "2020-03-23",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "It's past versus future as we Enter the Vortex with two of the twentieth-century's most enigmatic masters. 2017 Van Cliburn Semi-Finalist Han Chen joins enSRQ and Co-Artistic Director George Nickson for Philippe Hurel's virtuosic tribute, Tombeau to Gerard Grisey, an apropos preamble to our presentation of Grisey's seminal evening length work, Vortex Temporum.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Tombeau, In Memorium Gerard Grisey",
+      "year": "1999",
+      "duration": "15''",
+      "movements": [
+        "I. Énergique",
+        "II. Lointain",
+        "III. ♩ = 72",
+        "IV. ♩ = 40"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "philippe-hurel",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Vortex Temporum",
+      "year": "1996",
+      "duration": "40''",
+      "movements": [
+        "I. ♩= 130 (à Gérard Zinsstag)",
+        "Interlude",
+        "II. ♩= 50 (à Salvatore Sciarrino)",
+        "Interlude",
+        "III. ♩= (à Helmut Lachenmann)",
+        "Interlude"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Derek Mosloff"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Calvin Falwell"
+          ]
+        },
+        {
+          "instrument": "flute",
+          "musicians": [
+            "Jessi Rosinski"
+          ]
+        }
+      ],
+      "composerId": "gerard-grisey",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

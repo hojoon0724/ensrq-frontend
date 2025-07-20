@@ -1,0 +1,168 @@
+{
+  "concertId": "s07-2022-10-10-first-voices",
+  "title": "First Voices",
+  "subtitle": "",
+  "date": "2022-10-10",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "description": "A program featuring works by Jerod Impichchaachaaha’ Tate, inti figgis-vizueta, Elizabeth Ogonek, Michael Begay, and Gabriela Ortiz, performed by enSRQ musicians.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Talowa’ Hiloha (Thunder Song) (1994)",
+      "year": "",
+      "duration": "9'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "timpani",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "jerod-tate",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Imago (2021)",
+      "year": "",
+      "duration": "15'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Alex D’Amico"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Clare Monfredo"
+          ]
+        }
+      ],
+      "composerId": "inti-figgis-vizueta",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Lightenings (2016)",
+      "year": "",
+      "duration": "16'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Jesse Martins"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Bharat Chandra"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "Marcelina Suchocka"
+          ]
+        }
+      ],
+      "composerId": "elizabeth-ogonek",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Cloak of Autumn (2018)",
+      "year": "",
+      "duration": "5'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Alex D’Amico"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Clare Monfredo"
+          ]
+        }
+      ],
+      "composerId": "michael-begay",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Pico-Bite-Beat (2018)",
+      "year": "",
+      "duration": "19'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Alex D’Amico"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Clare Monfredo"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        },
+        {
+          "instrument": "electronics",
+          "count": true,
+          "musicians": []
+        }
+      ],
+      "composerId": "gabriela-ortiz",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

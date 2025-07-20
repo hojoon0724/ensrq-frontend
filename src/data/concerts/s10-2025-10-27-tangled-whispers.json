@@ -1,60 +1,101 @@
 {
-  "title": "Songbird",
-  "date": "2025-12-08",
+  "concertId": "s10-2025-10-27-tangled-whispers",
+  "title": "Tangled Whispers",
+  "date": "2025-10-27",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
   "program": [
     {
-      "title": "procession- process:peace (dona nobis pacem)",
-      "year": 2017,
-      "duration": "10'",
+      "title": "Whispers",
+      "year": 1996,
+      "duration": "14'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": ["samantha-bennett"] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
-      "composerId": "reiko-futing"
+      "composerId": "sebastian-currier"
     },
     {
-      "title": "Songbird",
-      "year": 2021,
-      "duration": "13'",
+      "title": "Tangled Madrigal",
+      "year": 2024,
+      "duration": "16'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "violas", "count": 2, "musicians": [] },
-        { "instrument": "cellos", "count": 2, "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
-      "composerId": "juri-seo"
+      "composerId": "amy-williams"
     },
     {
-      "title": "String Quartet No. 4: \"Insects and Machines\"",
-      "year": 2019,
+      "title": "Inchokkillissa for Guitar and Percussion",
+      "year": 1994,
       "duration": "12'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "guitar",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
-      "composerId": "vivian-fung"
+      "composerId": "jerod-tate"
     },
     {
-      "title": "New Work",
-      "year": 2025,
-      "duration": "10'",
-      "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
-      "composerId": "diallo-banks",
-      "commission": true
-    },
-    {
-      "title": "String Quartet No. 3 Songlines",
-      "year": 2012,
-      "duration": "11'",
+      "title": "Triple Duo",
+      "year": 1983,
+      "duration": "20'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
-      "composerId": "michael-ippolito"
+      "composerId": "elliott-carter"
     }
   ]
 }

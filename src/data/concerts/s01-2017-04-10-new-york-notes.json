@@ -1,0 +1,42 @@
+{
+  "concertId": "s01-2017-04-10-new-york-notes",
+  "title": "New York Notes",
+  "subtitle": "",
+  "date": "2017-04-10",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "The finale of our Inaugural Season! A powerful display of contemporary chamber music featuring New York's most exciting musical minds sharing the stage with Sarasota's stars.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Quartet",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "bohuslav-martinu",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "New York Notes",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "charles-wuorinen",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Selene",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "augusta-read-thomas",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

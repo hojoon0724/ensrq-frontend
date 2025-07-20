@@ -1,0 +1,223 @@
+{
+  "concertId": "s04-2020-04-13-digital-trees",
+  "title": "Digital Trees",
+  "subtitle": "",
+  "date": "2020-04-13",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "Digital Trees celebrates the diversity of style and duality of current American acoustic music with Marc Mellits' minimalist Splinter, Ken Ueno's intricate Pharmakon and Patrick Harlan's Digital. We're hardwired for creating masterpieces of the modern age with two new commissions. American trailblazer Max Grafe composes a new trio to showcase principal artists Samantha Bennett, George Nickson and Conor Hanick. enSRQ is also proud to join a consortium with Royal Birmingham Conservatoire, Music Academy of the West, and The Eastman School of Music to commission and perform the Florida Premiere of David Maric's Mallet Quartet.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Digital",
+      "year": "2013",
+      "duration": "5''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Rachel Halvorsen"
+          ]
+        },
+        {
+          "instrument": "flute",
+          "musicians": [
+            "Francesca Arnone"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Laura Petty"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        }
+      ],
+      "composerId": "patrick-harlin",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Nascent Forms",
+      "year": "2019",
+      "duration": "16''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "count": 4,
+          "musicians": [
+            "George Nickson",
+            "Mike Truesdell",
+            "Ye Young Yoon",
+            "Tomasz Kowalczyk"
+          ]
+        }
+      ],
+      "composerId": "david-maric",
+      "is_commission": true,
+      "is_premiere": false
+    },
+    {
+      "title": "Shadow Theater",
+      "year": "2020",
+      "duration": "12''",
+      "movements": [
+        "I. Toccata I",
+        "II. Improvisation",
+        "III. Monologues",
+        "IV. Toccata II",
+        "V. Passacaglia"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "max-grafe",
+      "is_commission": true,
+      "is_premiere": true
+    },
+    {
+      "title": "Splinter",
+      "year": "2014",
+      "duration": "17''",
+      "movements": [
+        "I. Scarlet Oak",
+        "II. Sugar Maple",
+        "III. Linden",
+        "IV. Black Ash",
+        "V. Cherry",
+        "VI. River Birch",
+        "VII. Weeping Willow",
+        "VIII. Red Pine"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Laura Petty"
+          ]
+        },
+        {
+          "instrument": "oboe",
+          "musicians": [
+            "Nicholas Arbolino"
+          ]
+        },
+        {
+          "instrument": "bass clarinet",
+          "musicians": [
+            "Calvin Falwell"
+          ]
+        },
+        {
+          "instrument": "alto saxophone",
+          "musicians": [
+            "Patrick Posey"
+          ]
+        },
+        {
+          "instrument": "bassoon",
+          "musicians": [
+            "Josh Baker"
+          ]
+        }
+      ],
+      "composerId": "marc-mellits",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Pharmakon",
+      "year": "2001",
+      "duration": "19''",
+      "movements": [
+        "I. XOX",
+        "II. XXO",
+        "III. OXX",
+        "IV. Main Movement"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Calvin Falwell"
+          ]
+        },
+        {
+          "instrument": "flute",
+          "musicians": [
+            "Francesca Arnone"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "Conor Hanick"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "ken-ueno",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

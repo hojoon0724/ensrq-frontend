@@ -1,4 +1,5 @@
 {
+  "concertId": "s09-2024-09-23-night-reflected",
   "title": "Night, Reflected",
   "date": "2024-09-23",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,12 +9,30 @@
       "year": 2023,
       "duration": "11'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "kevin-day"
     },
@@ -22,9 +41,19 @@
       "year": 1987,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "sofia-gubaidulina"
     },
@@ -33,8 +62,14 @@
       "year": 2013,
       "duration": "13'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "arlene-sierra"
     },
@@ -43,10 +78,22 @@
       "year": 2010,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "bass", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "bass",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
       "composerId": "chris-stark"
     },
@@ -55,12 +102,30 @@
       "year": 2012,
       "duration": "15'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "shawn-allison"
     }

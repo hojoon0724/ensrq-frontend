@@ -1,0 +1,59 @@
+{
+  "concertId": "s06-2022-01-31-void",
+  "title": "void",
+  "subtitle": "",
+  "date": "2022-01-31",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "description": "A co-commission from Atlanta's ensemble vim and enSRQ, New Renaissance Artist Elizabeth A. Baker's evening length work, void, combines the power of visual projection, electronic processing and acoustic performance in an experience that should not be missed. This is an intrepid, dual work, consisting of modular performances for each individual ensemble which then receives a unique performance for both groups, together.",
+  "sponsors": [
+    "Sarasota County Tourist Development Tax revenues",
+    "Susan Robinson"
+  ],
+  "program": [
+    {
+      "title": "void for violin, cello, percussion, electronics and projections (2021)",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        },
+        {
+          "instrument": "electronics",
+          "count": true,
+          "musicians": []
+        },
+        {
+          "instrument": "projections",
+          "count": true,
+          "musicians": []
+        }
+      ],
+      "composerId": "elizabeth-a-baker",
+      "is_commission": "co-commission with ensemble vim",
+      "is_premiere": false
+    }
+  ],
+  "streaminng": {
+    "url": "www.ensrq.org",
+    "platform": "",
+    "passcode": ""
+  }
+}

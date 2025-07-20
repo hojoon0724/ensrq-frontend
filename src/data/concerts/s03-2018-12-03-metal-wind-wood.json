@@ -1,0 +1,69 @@
+{
+  "concertId": "s03-2018-12-03-metal-wind-wood",
+  "title": "Metal, Wind, & Wood",
+  "subtitle": "",
+  "date": "2018-12-03",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "Metal of the vibraphone, wind of the oboe, and wood of the strings. Italian master Franco Donatoni shines in two important works. Features oboist Nicholas Arbolino continuing the Berio Sequenzas cycle.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Oboe Sequenza",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "oboe",
+          "musicians": [
+            "Nicholas Arbolino"
+          ]
+        }
+      ],
+      "composerId": "luciano-berio",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Omar",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "franco-donatoni",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Arpege",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "franco-donatoni",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Arcana",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "kevin-puts",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Scritch",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "melinda-wagner",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

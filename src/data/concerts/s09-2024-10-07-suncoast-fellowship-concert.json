@@ -1,4 +1,5 @@
 {
+  "concertId": "s09-2024-10-07-suncoast-fellowship-concert",
   "title": "Suncoast Fellowship Concert",
   "date": "2024-10-07",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,10 +9,23 @@
       "year": 2019,
       "duration": "10'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "treya-nash"
     },
@@ -20,10 +34,22 @@
       "year": 2023,
       "duration": "4'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "daniel-gostelow"
     },
@@ -32,7 +58,11 @@
       "year": 2020,
       "duration": "7'",
       "instrumentation": [
-        { "instrument": "marimba", "solo": true, "musicians": [] }
+        {
+          "instrument": "marimba",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "david-acevedo"
     },
@@ -41,7 +71,11 @@
       "year": 2024,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "daniel-gostelow"
     },
@@ -50,7 +84,11 @@
       "year": "2022-2024",
       "duration": "6'",
       "instrumentation": [
-        { "instrument": "violin", "solo": true, "musicians": [] }
+        {
+          "instrument": "violin",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "sean-quinn"
     },
@@ -59,7 +97,11 @@
       "year": 2023,
       "duration": "3'",
       "instrumentation": [
-        { "instrument": "viola", "solo": true, "musicians": [] }
+        {
+          "instrument": "viola",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "joshua-muetzel"
     },
@@ -68,9 +110,18 @@
       "year": 2024,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "max-gibson"
     },
@@ -79,9 +130,18 @@
       "year": 2024,
       "duration": "2'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "prepared piano", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "prepared piano",
+          "musicians": []
+        }
       ],
       "composerId": "david-acevedo"
     },
@@ -90,8 +150,14 @@
       "year": 2023,
       "duration": "5'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "viola", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        }
       ],
       "composerId": "joshua-muetzel"
     }

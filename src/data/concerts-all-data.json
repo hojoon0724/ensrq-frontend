@@ -1,0 +1,4313 @@
+[
+  {
+    "seasonId": 10,
+    "season": "2025-2026",
+    "concerts": [
+      {
+        "title": "Tangled Whispers",
+        "date": "2025-10-27",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Whispers",
+            "year": 1996,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "sebastian-currier"
+          },
+          {
+            "title": "Tangled Madrigal",
+            "year": 2024,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "amy-williams"
+          },
+          {
+            "title": "Inchokkillissa for Guitar and Percussion",
+            "year": 1994,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "guitar", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "jerod-tate"
+          },
+          {
+            "title": "Triple Duo",
+            "year": 1983,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "elliott-carter"
+          }
+        ]
+      },
+      {
+        "title": "Songbird",
+        "date": "2025-12-08",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "procession- process:peace (dona nobis pacem)",
+            "year": 2017,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "reiko-futing"
+          },
+          {
+            "title": "Songbird",
+            "year": 2021,
+            "duration": "13'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "violas", "count": 2, "musicians": [] },
+              { "instrument": "cellos", "count": 2, "musicians": [] }
+            ],
+            "composerId": "juri-seo"
+          },
+          {
+            "title": "String Quartet No. 4: \"Insects and Machines\"",
+            "year": 2019,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "vivian-fung"
+          },
+          {
+            "title": "New Work",
+            "year": 2025,
+            "duration": "10'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "diallo-banks",
+            "commission": true
+          },
+          {
+            "title": "String Quartet No. 3 Songlines",
+            "year": 2012,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "michael-ippolito"
+          }
+        ]
+      },
+      {
+        "title": "Goldbeater's Skin",
+        "date": "2026-01-19",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Sun Propeller",
+            "year": 2012,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "live electronics", "musicians": [] }
+            ],
+            "composerId": "nina-c-young"
+          },
+          {
+            "title": "Learning",
+            "year": 1976,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 4, "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "tape", "musicians": [] }
+            ],
+            "composerId": "claude-vivier"
+          },
+          {
+            "title": "New Work",
+            "year": 2026,
+            "duration": "10'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "shawn-allison",
+            "commission": true
+          },
+          {
+            "title": "Goldbeater's Skin",
+            "year": 2016,
+            "duration": "21'",
+            "instrumentation": [
+              { "instrument": "percussion", "count": 4, "musicians": [] },
+              { "instrument": "mezzo-soprano", "musicians": [] }
+            ],
+            "composerId": "christopher-cerrone"
+          }
+        ]
+      },
+      {
+        "title": "Retrospektiv",
+        "date": "2026-02-23",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Entr'acte",
+            "year": 2011,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "caroline-shaw"
+          },
+          {
+            "title": "New Work",
+            "year": 2026,
+            "duration": "15'",
+            "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
+            "composerId": "che-buford",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "3 Transformations",
+            "year": 1998,
+            "duration": "20'",
+            "instrumentation": [{ "instrument": "ensemble", "musicians": [] }],
+            "composerId": "andrew-thomas"
+          },
+          {
+            "title": "Finding Equilibrium",
+            "year": 2025,
+            "duration": "15'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "bass clarinet", "musicians": [] }
+            ],
+            "composerId": "roger-zare",
+            "premiere": true
+          },
+          {
+            "title": "And Legions Will Rise",
+            "year": 2001,
+            "duration": "17'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "kevin-puts"
+          }
+        ]
+      },
+      {
+        "title": "Music for 18 Musicians",
+        "date": "2026-04-24",
+        "venue": "sarasota-opera-house",
+        "program": [
+          {
+            "title": "Music for 18 Musicians",
+            "year": 1976,
+            "duration": "40-50'",
+            "instrumentation": [
+              { "instrument": "musicians", "count": 18, "musicians": [] }
+            ],
+            "composerId": "steve-reich"
+          }
+        ]
+      },
+      {
+        "title": "Music for New Bodies",
+        "date": "2026-05-22",
+        "venue": "sarasota-opera-house",
+        "program": [
+          {
+            "title": "Music for New Bodies",
+            "year": 2024,
+            "duration": "90'",
+            "instrumentation": [
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "matthew-aucoin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 9,
+    "season": "2024-2025",
+    "concerts": [
+      {
+        "title": "Night, Reflected",
+        "date": "2024-09-23",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Glasshouse",
+            "year": 2023,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "kevin-day"
+          },
+          {
+            "title": "String Quartet No. 2",
+            "year": 1987,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "sofia-gubaidulina"
+          },
+          {
+            "title": "Avian Mirrors",
+            "year": 2013,
+            "duration": "13'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "arlene-sierra"
+          },
+          {
+            "title": "Stars in Dead Reflection",
+            "year": 2010,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "bass", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "chris-stark"
+          },
+          {
+            "title": "Night Rituals",
+            "year": 2012,
+            "duration": "15'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "shawn-allison"
+          }
+        ]
+      },
+      {
+        "title": "Suncoast Fellowship Concert",
+        "date": "2024-10-07",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Nothing Motorized",
+            "year": 2019,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "treya-nash"
+          },
+          {
+            "title": "The Piercing Blazing Bell Amidst Intertwined Swirls of Musical Shoal Water The Painting Drowned In Its Own Sound",
+            "year": 2023,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "daniel-gostelow"
+          },
+          {
+            "title": "Three and a Half Meditations",
+            "year": 2020,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "marimba", "solo": true, "musicians": [] }
+            ],
+            "composerId": "david-acevedo"
+          },
+          {
+            "title": "Playbox - Cadenza",
+            "year": 2024,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "daniel-gostelow"
+          },
+          {
+            "title": "can i forget the rising sun",
+            "year": "2022-2024",
+            "duration": "6'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "sean-quinn"
+          },
+          {
+            "title": "Mercurial Spell",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "viola", "solo": true, "musicians": [] }
+            ],
+            "composerId": "joshua-muetzel"
+          },
+          {
+            "title": "...those stones, watching, over lochs, through time…",
+            "year": 2024,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "max-gibson"
+          },
+          {
+            "title": "Bragdon Wood",
+            "year": 2024,
+            "duration": "2'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "prepared piano", "musicians": [] }
+            ],
+            "composerId": "david-acevedo"
+          },
+          {
+            "title": "Night",
+            "year": 2023,
+            "duration": "5'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "viola", "musicians": [] }
+            ],
+            "composerId": "joshua-muetzel"
+          }
+        ]
+      },
+      {
+        "title": "Ives and Schoenberg at 150",
+        "date": "2024-11-25",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Pierrot lunaire",
+            "year": 1912,
+            "duration": "38'",
+            "instrumentation": [
+              { "instrument": "voice", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "arnold-schoenberg"
+          },
+          {
+            "title": "Piano Sonata No. 2, Concord, Mass., 1840-60",
+            "year": 1915,
+            "duration": "45'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "charles-ives"
+          }
+        ]
+      },
+      {
+        "title": "Visions and Miracles",
+        "date": "2025-01-13",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Rest These Hands",
+            "year": 2021,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "anna-clyne"
+          },
+          {
+            "title": "Visions and Miracles",
+            "year": 1997,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "chris-theofanidis"
+          },
+          {
+            "title": "How the Stars Vanish",
+            "year": 2021,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "dai-wei"
+          },
+          {
+            "title": "How to Remember Seeds",
+            "year": 2017,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "han-lash"
+          },
+          {
+            "title": "Milagros",
+            "year": 2010,
+            "duration": "21'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "gabriela-lena-frank"
+          }
+        ]
+      },
+      {
+        "title": "Truth and Mayhem",
+        "date": "2025-02-17",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Music for the Temple",
+            "year": 2019,
+            "duration": "TBD",
+            "instrumentation": [
+              { "instrument": "marimba", "solo": true, "musicians": [] }
+            ],
+            "composerId": "jonathan-cziner"
+          },
+          {
+            "title": "Fear/Release",
+            "year": 2017,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "percussion", "count": 4, "musicians": [] }
+            ],
+            "composerId": "ellen-reid"
+          },
+          {
+            "title": "Pillaging Music",
+            "year": 2005,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "electronics", "musicians": [] }
+            ],
+            "composerId": "nico-muhly"
+          },
+          {
+            "title": "Elegy: Snow in June",
+            "year": 1991,
+            "duration": "25'",
+            "instrumentation": [
+              { "instrument": "cello", "solo": true, "musicians": [] },
+              { "instrument": "percussion", "count": 4, "musicians": [] }
+            ],
+            "composerId": "tan-dun"
+          }
+        ]
+      },
+      {
+        "title": "Critical Moments",
+        "date": "2025-03-17",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Until Next Time",
+            "year": 2010,
+            "duration": "5'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] }
+            ],
+            "composerId": "kenji-bunch"
+          },
+          {
+            "title": "Critical Moments",
+            "year": 2001,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "flutes", "count": 2, "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "george-perle"
+          },
+          {
+            "title": "Rota Fortunae",
+            "year": 2024,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "percussion", "count": 2, "musicians": [] },
+              { "instrument": "bass clarinet", "musicians": [] }
+            ],
+            "composerId": "paul-mortilla",
+            "commission": true
+          },
+          {
+            "title": "Oceans in Oceans",
+            "year": 2014,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "bassoon", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "trombone", "musicians": [] },
+              { "instrument": "percussion", "count": 2, "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "bass", "musicians": [] }
+            ],
+            "composerId": "carolyn-chen"
+          },
+          {
+            "title": "Violin Concerto",
+            "year": 2016,
+            "duration": "17'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "composerId": "marcos-balter"
+          }
+        ]
+      },
+      {
+        "title": "Jagden und Formen",
+        "date": "2025-05-12",
+        "venue": "sarasota-opera-house",
+        "program": [
+          {
+            "title": "Jagden und Formen (Hunts and Forms)",
+            "year": 1995,
+            "duration": "55'",
+            "instrumentation": [
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "wolfgang-rihm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 8,
+    "season": "2023-2024",
+    "concerts": [
+      {
+        "title": "Suncoast Composers Fellowship Concert",
+        "date": "2023-09-05",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Glimpse",
+            "year": 2023,
+            "duration": "10'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "nicolas-bentz"
+          },
+          {
+            "title": "Before Entrance and After Exits, Dreams Await",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "claire-hu"
+          },
+          {
+            "title": "Flickering Airs",
+            "year": 2023,
+            "duration": "6'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "angela-elizabeth-slater"
+          },
+          {
+            "title": "Luo Jiang Yuan – A bit blue",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "yangfan-xu"
+          },
+          {
+            "title": "Meditations",
+            "year": 2023,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "dulcimer", "musicians": [] }
+            ],
+            "composerId": "zachary-konick"
+          },
+          {
+            "title": "Surface",
+            "year": 2023,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "dulcimer", "solo": true, "musicians": [] }
+            ],
+            "composerId": "zachary-konick"
+          },
+          {
+            "title": "Daybreak of Dust",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "angela-elizabeth-slater"
+          },
+          {
+            "title": "Infinite Spinning",
+            "year": 2023,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "chris-neiner"
+          }
+        ]
+      },
+      {
+        "title": "Beyond the Veil",
+        "date": "2023-10-23",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Burgundy in Autumn",
+            "year": 2019,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "nia-imani-franklin"
+          },
+          {
+            "title": "Veil of Leaves",
+            "year": 2014,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] }
+            ],
+            "composerId": "julia-adolphe"
+          },
+          {
+            "title": "Afterword",
+            "year": 2020,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "chris-rogerson"
+          },
+          {
+            "title": "Tensio",
+            "year": 2010,
+            "duration": "37'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "live electronics", "musicians": [] }
+            ],
+            "composerId": "philippe-manoury"
+          }
+        ]
+      },
+      {
+        "title": "Ligeti's 100th",
+        "subtitle": "Featuring Han Chen, piano",
+        "date": "2023-11-20",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "White on Black",
+            "year": 2023,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "vivian-fung",
+            "notes": "Inspired by White on White"
+          },
+          {
+            "title": "Étude No. 15 White on White",
+            "year": 1997,
+            "duration": "4'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "no way out but through",
+            "year": 2023,
+            "duration": "2'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "tom-morrison",
+            "notes": "Inspired by Fanfares"
+          },
+          {
+            "title": "Étude No. 4 Fanfares",
+            "year": 1985,
+            "duration": "4'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "it is within you that the ghosts acquire voices",
+            "year": 2023,
+            "duration": "2'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "nina-c-young",
+            "notes": "Inspired by Automne à Varsovie"
+          },
+          {
+            "title": "Étude No. 6 Automne à Varsovie",
+            "year": 1985,
+            "duration": "4'30\"",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "Slipstream",
+            "year": 2020,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "stacy-garrop"
+          },
+          {
+            "title": "The Solitude of Stars",
+            "year": 2020,
+            "duration": "3'",
+            "instrumentation": [
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "stacy-garrop",
+            "notes": "Clarinet Version World Premiere"
+          },
+          {
+            "title": "Cello Sonata",
+            "year": 1953,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "cello", "solo": true, "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          },
+          {
+            "title": "Wax and Wire",
+            "year": 2014,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "viet-cuong"
+          },
+          {
+            "title": "Horn Trio",
+            "year": 1982,
+            "duration": "22'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "horn", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "gyorgy-ligeti"
+          }
+        ]
+      },
+      {
+        "title": "Night & Day",
+        "date": "2024-01-22",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "Karst",
+            "year": 2023,
+            "duration": "11'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "scott-lee",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "Ebb Tide",
+            "year": 2018,
+            "duration": "8'",
+            "instrumentation": [
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "bass", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "molly-herron"
+          },
+          {
+            "title": "Night Time",
+            "year": 1998,
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "harp", "musicians": [] }
+            ],
+            "composerId": "sebastian-currier"
+          },
+          {
+            "title": "Unknown Heavens",
+            "year": 1997,
+            "duration": "9'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cellos", "count": 2, "musicians": [] }
+            ],
+            "composerId": "einojuhani-rautavaara"
+          },
+          {
+            "title": "Sundial",
+            "year": 2021,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "viola", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "sam-adams"
+          }
+        ]
+      },
+      {
+        "title": "You Are Free",
+        "date": "2024-03-25",
+        "venue": "first-congregational-church",
+        "program": [
+          {
+            "title": "You Are Free",
+            "year": 2016,
+            "duration": "7'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "sarah-kirkland-snider"
+          },
+          {
+            "title": "New Work",
+            "year": 2024,
+            "duration": "TBD",
+            "instrumentation": [
+              { "instrument": "violins", "count": 2, "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] }
+            ],
+            "composerId": "kyle-rivera",
+            "commission": true,
+            "premiere": true
+          },
+          {
+            "title": "Distance",
+            "year": 2016,
+            "duration": "14'",
+            "instrumentation": [
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "marimba", "musicians": [] }
+            ],
+            "composerId": "shawn-okpebholo"
+          },
+          {
+            "title": "Five in One",
+            "year": 2018,
+            "duration": "12'",
+            "instrumentation": [
+              { "instrument": "flute", "musicians": [] },
+              { "instrument": "clarinet", "musicians": [] },
+              { "instrument": "violin", "musicians": [] },
+              { "instrument": "cello", "musicians": [] },
+              { "instrument": "piano", "musicians": [] }
+            ],
+            "composerId": "ania-vu"
+          },
+          {
+            "title": "Voiceless Mass",
+            "year": 2021,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "pipe organ", "musicians": [] },
+              { "instrument": "large ensemble", "musicians": [] }
+            ],
+            "composerId": "raven-chacon"
+          }
+        ]
+      },
+      {
+        "title": "Angélica Negrón's Greenfield Prize Performance",
+        "date": "2024-04-15",
+        "venue": "the-hermitage-artist-retreat",
+        "program": [
+          {
+            "title": "Azul Naranja Salado",
+            "year": 2024,
+            "duration": "35'",
+            "instrumentation": [
+              { "instrument": "violas", "count": 6, "musicians": [] },
+              { "instrument": "cellos", "count": 4, "musicians": [] },
+              { "instrument": "double basses", "count": 4, "musicians": [] },
+              { "instrument": "harp", "musicians": [] },
+              { "instrument": "percussion", "musicians": [] },
+              { "instrument": "electronics", "musicians": [] }
+            ],
+            "composerId": "angelica-negron",
+            "premiere": true
+          }
+        ]
+      },
+      {
+        "title": "Parisian Refraction - Dallas",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "venue": "southern-methodist-university",
+        "date": "2024-04-23",
+        "is_festival": true,
+        "endDate": "2024-04-29",
+        "programs": [
+          {
+            "programTitle": "Program #1",
+            "subtitle": "Conor Hanick: Solo Piano Recital",
+            "program": [
+              {
+                "title": "Book of Sounds",
+                "year": 1982,
+                "duration": "60'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] }
+                ],
+                "composerId": "hans-otte"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #2",
+            "subtitle": "Spotlight on Unsuk Chin",
+            "program": [
+              {
+                "title": "Acrostic Wordplay",
+                "year": "1991 rev. 1993",
+                "duration": "16'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              },
+              {
+                "title": "Graal Theatre",
+                "year": 1991,
+                "duration": "24'",
+                "instrumentation": [
+                  { "instrument": "violin", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "kaija-saariaho"
+              },
+              {
+                "title": "Double Concerto",
+                "year": 2002,
+                "duration": "20'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] },
+                  { "instrument": "percussion", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #3",
+            "subtitle": "Kafka Fragments",
+            "program": [
+              {
+                "title": "Kafka Fragments",
+                "year": "1985-1986",
+                "duration": "63'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "violin", "musicians": [] }
+                ],
+                "composerId": "gyorgy-kurtag"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #4",
+            "program": [
+              {
+                "title": "KLANG (Hour Two) Freude",
+                "year": 2005,
+                "duration": "41'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 2, "musicians": [] }
+                ],
+                "composerId": "karlheinz-stockhausen"
+              },
+              {
+                "title": "Sur Incises",
+                "year": 1998,
+                "duration": "40'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 3, "musicians": [] },
+                  { "instrument": "pianos", "count": 3, "musicians": [] },
+                  { "instrument": "percussion", "count": 3, "musicians": [] }
+                ],
+                "composerId": "pierre-boulez"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Parisian Refraction - Sarasota",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "venue": "the-ringling-museum",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "programs": [
+          {
+            "programTitle": "Program #1",
+            "description": "Conor Hanick: Solo Piano Recital",
+            "pieces": [
+              {
+                "title": "Book of Sounds",
+                "year": 1982,
+                "duration": "60'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] }
+                ],
+                "composerId": "hans-otte"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #2",
+            "description": "Spotlight on Unsuk Chin",
+            "pieces": [
+              {
+                "title": "Acrostic Wordplay",
+                "year": "1991 rev. 1993",
+                "duration": "16'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              },
+              {
+                "title": "Graal Theatre",
+                "year": 1991,
+                "duration": "24'",
+                "instrumentation": [
+                  { "instrument": "violin", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "kaija-saariaho"
+              },
+              {
+                "title": "Double Concerto",
+                "year": 2002,
+                "duration": "20'",
+                "instrumentation": [
+                  { "instrument": "piano", "solo": true, "musicians": [] },
+                  { "instrument": "percussion", "solo": true, "musicians": [] },
+                  { "instrument": "ensemble", "musicians": [] }
+                ],
+                "composerId": "unsuk-chin"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #3",
+            "description": "Kafka Fragments",
+            "pieces": [
+              {
+                "title": "Kafka Fragments",
+                "year": "1985-1986",
+                "duration": "63'",
+                "instrumentation": [
+                  { "instrument": "soprano", "musicians": [] },
+                  { "instrument": "violin", "musicians": [] }
+                ],
+                "composerId": "gyorgy-kurtag"
+              }
+            ]
+          },
+          {
+            "programTitle": "Program #4",
+            "pieces": [
+              {
+                "title": "KLANG (Hour Two) Freude",
+                "year": 2005,
+                "duration": "41'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 2, "musicians": [] }
+                ],
+                "composerId": "karlheinz-stockhausen"
+              },
+              {
+                "title": "Sur Incises",
+                "year": 1998,
+                "duration": "40'",
+                "instrumentation": [
+                  { "instrument": "harps", "count": 3, "musicians": [] },
+                  { "instrument": "pianos", "count": 3, "musicians": [] },
+                  { "instrument": "percussion", "count": 3, "musicians": [] }
+                ],
+                "composerId": "pierre-boulez"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 7,
+    "season": "2022-2023",
+    "concerts": [
+      {
+        "title": "First Voices",
+        "subtitle": "",
+        "date": "2022-10-10",
+        "venue": "first-congregational-church",
+        "description": "A program featuring works by Jerod Impichchaachaaha\u2019 Tate, inti figgis-vizueta, Elizabeth Ogonek, Michael Begay, and Gabriela Ortiz, performed by enSRQ musicians.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Talowa\u2019 Hiloha (Thunder Song) (1994)",
+            "year": "",
+            "duration": "9'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "timpani",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "jerod-tate",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Imago (2021)",
+            "year": "",
+            "duration": "15'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Alex D\u2019Amico"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Clare Monfredo"]
+              }
+            ],
+            "composerId": "inti-figgis-vizueta",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Lightenings (2016)",
+            "year": "",
+            "duration": "16'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Jesse Martins"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Bharat Chandra"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["Marcelina Suchocka"]
+              }
+            ],
+            "composerId": "elizabeth-ogonek",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Cloak of Autumn (2018)",
+            "year": "",
+            "duration": "5'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Alex D\u2019Amico"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Clare Monfredo"]
+              }
+            ],
+            "composerId": "michael-begay",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Pico-Bite-Beat (2018)",
+            "year": "",
+            "duration": "19'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Alex D\u2019Amico"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Clare Monfredo"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              },
+              { "instrument": "electronics", "count": true, "musicians": [] }
+            ],
+            "composerId": "gabriela-ortiz",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "enSRQ + SCD",
+        "subtitle": "",
+        "date": "2022-12-01",
+        "venue": "tbd",
+        "venueAddress": "",
+        "description": "Collaboration between ensembleNEWSRQ and Sarasota Contemporary Dance. Program details not specified in source.",
+        "sponsors": [],
+        "program": []
+      },
+      {
+        "title": "Crumb",
+        "subtitle": "",
+        "date": "2023-01-16",
+        "venue": "first-congregational-church",
+        "description": "A tribute to George Crumb (1929-2022), featuring his Madrigals and Black Angels, and Margaret Brouwer's Demeter Prelude.",
+        "sponsors": [
+          "Susan Robinson",
+          "Robert & Deborah Hendel",
+          "Ben & Gigi Huberman"
+        ],
+        "program": [
+          {
+            "title": "Madrigals (1965-1969)",
+            "year": "",
+            "duration": "32'",
+            "movements": [
+              "Book 1 (1965)",
+              "Book 2 (1965)",
+              "Book 3 (1969)",
+              "Book 4 (1969)"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "soprano",
+                "musicians": ["Lucy Fitz Gibbon"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "bass",
+                "musicians": ["John Miller"]
+              },
+              {
+                "instrument": "harp",
+                "musicians": ["Naoko Nakamura"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "george-crumb",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Demeter Prelude (1997)",
+            "year": "",
+            "duration": "8'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Rachel Halvorson"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Jamie Clark"]
+              }
+            ],
+            "composerId": "margaret-brouwer",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Black Angels: Thirteen Images from the Dark Land (1970)",
+            "year": "",
+            "duration": "25'",
+            "movements": [
+              "I. Departure",
+              "Threnody I: Night of the Electric Insects Sounds of Bones and Flutes",
+              "Lost Bells",
+              "Devil-music",
+              "Danse Macabre",
+              "II. Absence",
+              "Pavana Lachrymae",
+              "Threnody II: Black Angels!",
+              "Sarabanda de la Muerte Oscura",
+              "Lost Bells (Echo)",
+              "III. Return",
+              "God-music",
+              "Ancient Voices",
+              "Ancient Voices (Echo)",
+              "Threnody III: Night of the Electric Insects"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Rachel Halvorson"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Jamie Clark"]
+              },
+              { "instrument": "percussion", "count": 4, "musicians": [] }
+            ],
+            "composerId": "george-crumb",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Vespers for a New Dark Age",
+        "subtitle": "",
+        "date": "2023-02-06",
+        "venue": "first-congregational-church",
+        "description": "Collaboration with Verdigris Ensemble, featuring Christopher Cerrone's The Branch Will Not Break and Missy Mazzoli's Vespers for a New Dark Age.",
+        "sponsors": [
+          "Sarasota County Tourist Development Cultural/Arts Grant",
+          "Robert & Debbie Hendel",
+          "Ben & Gigi Huberman"
+        ],
+        "program": [
+          {
+            "title": "The Branch Will Not Break (2015)",
+            "year": "",
+            "duration": "22'",
+            "movements": [
+              "I. Lying in a Hammock at William Duffy\u2019s",
+              "II. Two Horses Playing in the Orchard",
+              "III. Two Hangovers, Number One",
+              "IV. From a Bus Window in Central Ohio, Just Before a Thunder Shower",
+              "V. Having Lost My Sons, I Confront the Wreckage of the Moon: Christmas, 1960",
+              "VI. Two Hangovers, Number Two: I Try to Waken and Greet the World Once Again",
+              "VII. A Blessing"
+            ],
+            "instrumentation": [],
+            "composerId": "christopher-cerrone",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Vespers for a New Dark Age (2014)",
+            "year": "",
+            "duration": "23'",
+            "movements": [
+              "I. Wayward Free Radical Dreams",
+              "II. Hello Lord",
+              "III. Come On All You",
+              "IV. New Dark Age",
+              "V. Machine"
+            ],
+            "instrumentation": [],
+            "composerId": "missy-mazzoli",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "And the Hits Keep Coming",
+        "subtitle": "",
+        "date": "2023-03-13",
+        "venue": "first-congregational-church",
+        "description": "A celebration of percussion, featuring works by Emma O\u2019Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
+        "sponsors": ["Pamela MacFarlane Palmer"],
+        "program": [
+          {
+            "title": "Shell (2019)",
+            "year": "",
+            "duration": "7'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "count": 4,
+                "musicians": [
+                  "George Nickson",
+                  "Shaun Tilburg",
+                  "Marcelina Suchocka",
+                  "Ye Young Yoon"
+                ]
+              }
+            ],
+            "composerId": "emma-ohalloran",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Prelude and Ether (2019)",
+            "year": "",
+            "duration": "11'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "count": 4,
+                "musicians": [
+                  "Marcelina Suchocka",
+                  "Ye Young Yoon",
+                  "Shaun Tilburg",
+                  "Isaac Fernandez-Hernandez"
+                ]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "krists-auznieks",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Kagome Kagome (2022)",
+            "year": "",
+            "duration": "11'",
+            "movements": [
+              "I. Summons",
+              "II. The First Bardo",
+              "III. Mantra",
+              "IV. Summons",
+              "V. The Second Bardo",
+              "VI. Abhidhamma",
+              "VII. Eulogy",
+              "VIII. The Third Bardo"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "mezzo_soprano",
+                "musicians": ["Thea Lobo"]
+              },
+              {
+                "instrument": "percussion",
+                "count": 2,
+                "musicians": ["George Nickson", "Shaun Tilburg"]
+              }
+            ],
+            "composerId": "shaun-tilburg",
+            "is_commission": true,
+            "is_premiere": true
+          },
+          {
+            "title": "New England Etudes (2022)",
+            "year": "",
+            "duration": "18'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "count": 6,
+                "musicians": [
+                  "George Nickson",
+                  "Marcelina Suchocka",
+                  "Ye Young Yoon",
+                  "Aaron Nix",
+                  "Isaac Fernandez-Hernandez",
+                  "Shaun Tilburg"
+                ]
+              }
+            ],
+            "composerId": "mark-anthony-turnage",
+            "is_commission": "co-commission",
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "1976",
+        "subtitle": "",
+        "date": "2023-04-17",
+        "venue": "sarasota-opera-house",
+        "description": "A double bill of contemporary classics: HK Gruber\u2019s Frankenstein! and Louis Andriessen\u2019s De Staat, performed by the largest ensemble in enSRQ history.",
+        "sponsors": ["The Gardener Foundation"],
+        "program": [
+          {
+            "title": "Frankenstein! (1976)",
+            "year": "",
+            "duration": "26'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "chansonnier",
+                "musicians": ["Michael Truesdell"]
+              },
+              {
+                "instrument": "conductor",
+                "musicians": ["George Nickson"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Bharat Chandra"]
+              },
+              {
+                "instrument": "bassoon",
+                "musicians": ["Fernando Traba"]
+              },
+              {
+                "instrument": "horn",
+                "musicians": ["Kelsey Ross"]
+              },
+              {
+                "instrument": "trumpet",
+                "musicians": ["Aaron Romm"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["Marcelina Suchocka"]
+              },
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Mia Laity"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Camila Berg"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "bass",
+                "musicians": ["Vinny Svoboda"]
+              }
+            ],
+            "composerId": "hk-gruber",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "De Staat (1976)",
+            "year": "",
+            "duration": "35'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "soprano",
+                "count": 2,
+                "musicians": ["Lily Wohl", "Melissa Simmons"]
+              },
+              {
+                "instrument": "mezzo_soprano",
+                "count": 2,
+                "musicians": ["Thea Lobo", "TBD"]
+              },
+              {
+                "instrument": "oboe",
+                "count": 4,
+                "musicians": [
+                  "Amy Collins",
+                  "Cindy Barbanera-Wedel",
+                  "Nick Arbolino",
+                  "Shane Wedel"
+                ]
+              },
+              {
+                "instrument": "trumpet",
+                "count": 4,
+                "musicians": [
+                  "Aaron Romm",
+                  "Gianluca Farina",
+                  "Alan Evans",
+                  "Cindy Scaruffi-Klispie"
+                ]
+              },
+              {
+                "instrument": "horn",
+                "count": 4,
+                "musicians": [
+                  "Josh Horn",
+                  "Shelby Nugent",
+                  "Mark Trotter",
+                  "Kelsey Ross"
+                ]
+              },
+              {
+                "instrument": "trombone",
+                "count": 4,
+                "musicians": [
+                  "Michael Stanton",
+                  "Brad Williams",
+                  "Jemmie Roberston",
+                  "Casey Maday"
+                ]
+              },
+              {
+                "instrument": "guitar",
+                "count": 2,
+                "musicians": ["Mark Dacigers", "Jon Godfrey"]
+              },
+              {
+                "instrument": "harp",
+                "count": 2,
+                "musicians": ["Hannah Cope", "Melody Mae Stein"]
+              },
+              {
+                "instrument": "piano",
+                "count": 2,
+                "musicians": ["Sam Nelson", "TBD"]
+              },
+              {
+                "instrument": "viola",
+                "count": 4,
+                "musicians": [
+                  "Dan Urbanowicz",
+                  "Camila Berg",
+                  "Nathan Frantz",
+                  "Samantha Bennett"
+                ]
+              }
+            ],
+            "composerId": "louis-andriessen",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 6,
+    "season": "2021-2022",
+    "concerts": [
+      {
+        "title": "Don't Look Down",
+        "subtitle": "(featuring Conor Hanick)",
+        "date": "2021-10-11",
+        "venue": "first-congregational-church",
+        "description": "Yaz Lancaster's Sequoia opens our season with ethereal, reflective sounds that remind us of the importance and intimacy of being together in the concert hall. Conor Hanick returns with the second ever performance of Chris Cerrone's poignant work, Don't Look Down, for percussion quartet and piano, named one of The New York Times' Best Pieces of 2020. Two years in the making, Max Grafe's Shadow Theater, composed specifically for George, Samantha and Conor, will finally receive its premiere.",
+        "sponsors": ["The Gardener Foundation"],
+        "program": [
+          {
+            "title": "sequoia for percussion (2019)",
+            "year": "",
+            "duration": "7'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "count": 2,
+                "musicians": ["George Nickson", "Charlie Rosmarin"]
+              }
+            ],
+            "composerId": "yaz-lancaster",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Shadow Theater for violin, piano and percussion (2020)",
+            "year": "",
+            "duration": "12'",
+            "movements": [
+              "I. Toccata I",
+              "II. Improvisation",
+              "III. Monologues",
+              "IV. Toccata II",
+              "V. Passacaglia"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "max-grafe",
+            "is_commission": true,
+            "is_premiere": true
+          },
+          {
+            "title": "Don't Look Down for prepared piano and percussion quartet (2020)",
+            "year": "",
+            "duration": "17'",
+            "movements": [
+              "I. Hammerspace",
+              "II. The Great Empty",
+              "III. Caton Flats"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "percussion",
+                "count": 4,
+                "musicians": [
+                  "George Nickson",
+                  "Charlie Rosmarin",
+                  "Scott Crawford",
+                  "Isaac Fernandez Hernandez"
+                ]
+              }
+            ],
+            "composerId": "christopher-cerrone",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "void",
+        "subtitle": "",
+        "date": "2022-01-31",
+        "venue": "first-congregational-church",
+        "description": "A co-commission from Atlanta's ensemble vim and enSRQ, New Renaissance Artist Elizabeth A. Baker's evening length work, void, combines the power of visual projection, electronic processing and acoustic performance in an experience that should not be missed. This is an intrepid, dual work, consisting of modular performances for each individual ensemble which then receives a unique performance for both groups, together.",
+        "sponsors": [
+          "Sarasota County Tourist Development Tax revenues",
+          "Susan Robinson"
+        ],
+        "program": [
+          {
+            "title": "void for violin, cello, percussion, electronics and projections (2021)",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              },
+              { "instrument": "electronics", "count": true, "musicians": [] },
+              { "instrument": "projections", "count": true, "musicians": [] }
+            ],
+            "composerId": "elizabeth-a-baker",
+            "is_commission": "co-commission with ensemble vim",
+            "is_premiere": false
+          }
+        ],
+        "streaminng": {
+          "url": "www.ensrq.org",
+          "platform": "",
+          "passcode": ""
+        }
+      },
+      {
+        "title": "enSRQ + Chroma Trio",
+        "subtitle": "",
+        "date": "2022-02-21",
+        "venue": "first-congregational-church",
+        "description": "enSRQ's second commission of 21/22 is a team effort with Boston-based Chroma Trio, which shares founding member Samantha Bennett, bringing to life a new work by Tyson J. Davis, String Trio. Art-inspired works for strings flesh out this collaboration, including a duo from enSRQ favorite, Andreia Pinto Correia, Du Yun's string quartet, I Am My Own Achilles Heel and Freya Waley-Cohen's trio, Conjure.",
+        "sponsors": ["Robert and Debbie Hendel"],
+        "program": [
+          {
+            "title": "String Trio (2021)",
+            "year": "",
+            "duration": "11'",
+            "movements": [
+              "I. Introduction",
+              "II. Synchromism and Cadenza I (Viola)",
+              "III. Nocturne 1",
+              "IV. Synchromism and Cadenza II (Violin)",
+              "V. Nocturne II",
+              "VI. Synchromism and Cadenza III (Cello)",
+              "VII. Epilogue"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Mary Ferrillo"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Francesca McNeeley"]
+              }
+            ],
+            "composerId": "tyson-gholston-davis",
+            "is_commission": "co-commission with Chroma Trio",
+            "is_premiere": false
+          },
+          {
+            "title": "Tres Quadros de Viera Da Silva/Fragmentos Multiplos (2009)",
+            "year": "",
+            "duration": "4'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Mary Ferrillo"]
+              }
+            ],
+            "composerId": "andreia-pinto-correia",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Conjure (2019)",
+            "year": "",
+            "duration": "11'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Mary Ferrillo"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Francesca McNeeley"]
+              }
+            ],
+            "composerId": "freya-waley-cohen",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "I Am My Own Achilles Heel (2019)",
+            "year": "",
+            "duration": "13'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Chris Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Mary Ferrillo"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Francesca McNeeley"]
+              }
+            ],
+            "composerId": "du-yun",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Vortex Temporum",
+        "subtitle": "(featuring Han Chen)",
+        "date": "2022-03-28",
+        "venue": "first-congregational-church",
+        "description": "Our journey into the French spectral compositional movement comes full circle with this presentation of G\u00e9rard Grisey's Vortex Temporum, featuring Van Cliburn Semi-Finalist and frequent enSRQ pianist, Han Chen. Witness the completion of the arc drawn from last season's works (Grisey's Stele, P\u00e9riodes and Philippe Hurel's Loops II) with Hurel's musical reflection on Grisey's towering presence throughout 20th century composition, Tombeau in Memoriam G\u00e9rard Grisey and a return of enSRQ friend, Nina C. Young's, \u00c0 bout de souffle for solo piano.",
+        "sponsors": ["Eric Dean and Pat Michelsen"],
+        "program": [
+          {
+            "title": "Tombeau: In Memoriam G\u00e9rard Grisey (1999)",
+            "year": "",
+            "duration": "15'",
+            "movements": [
+              "I. \u00c9nergique",
+              "II. Lointain",
+              "III. \u2669 = 72",
+              "IV. \u2669 = 40"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "philippe-hurel",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "\u00c0 bout de souffle for piano scordatura (2016)",
+            "year": "",
+            "duration": "6'",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "nina-c-young",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Vortex Temporum for six instruments (1996)",
+            "year": "",
+            "duration": "40'",
+            "movements": [
+              "I. \u2669= 130 (\u00e0 G\u00e9rard Zinsstag)",
+              "Interlude",
+              "II. \u2669= 50 (\u00e0 Salvatore Sciarrino)",
+              "Interlude",
+              "III. \u2669= (\u00e0 Helmut Lachenmann)",
+              "Interlude"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Derek Mosloff"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Jamie Clark"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Thomas Frey"]
+              }
+            ],
+            "composerId": "gerard-grisey",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Waves",
+        "subtitle": "",
+        "date": "2022-04-18",
+        "venue": "mildred-sainer-auditorium",
+        "description": "To cap off the return of live audiences and end our 6th season, enSRQ premieres a final co-commission, WAVES, by Sebastian Currier. Based on the eponymous book by Virginia Woolf, this work for soprano, small ensemble and electronics, enters the thoughts of various women and girls, from a young child to an eighty year old woman, ultimately representing just one woman's conscious life, not unfolding over decades, but coexisting within a single day. WAVES is paired with Anna Thorvaldsdottir's Entropic Arrows and firn, the second work of our season exploration of Yaz Lancaster's music.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Digital (2013 rev. 2020)",
+            "year": "",
+            "duration": "7'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Trace Johnson"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["Mike Truesdell"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              }
+            ],
+            "composerId": "patrick-harlin",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Entropic Arrows (2019)",
+            "year": "",
+            "duration": "9'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Mia Laity"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Derek Mosloff"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Trace Johnson"]
+              },
+              {
+                "instrument": "bass_clarinet",
+                "musicians": ["Calvin Falwell"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["Mike Truesdell"]
+              }
+            ],
+            "composerId": "anna-thorvaldsdottir",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "firn (2019)",
+            "year": "",
+            "duration": "7'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Trace Johnson"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "yaz-lancaster",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "WAVES (2020)",
+            "year": "",
+            "duration": "26'",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "soprano",
+                "musicians": ["Lucy Fitz Gibbon"]
+              },
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Trace Johnson"]
+              },
+              {
+                "instrument": "bass",
+                "musicians": ["John Miller"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "trumpet",
+                "musicians": ["Aaron Romm"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["Mike Truesdell"]
+              },
+              { "instrument": "electronics", "count": true, "musicians": [] }
+            ],
+            "composerId": "sebastian-currier",
+            "is_commission": "co-commission",
+            "is_premiere": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 5,
+    "season": "2020-2021",
+    "concerts": [
+      {
+        "title": "It's About Time",
+        "subtitle": "",
+        "date": "2020-10-19",
+        "venue": "virtual",
+        "description": "We return to our roots in our season-opener presenting a program of solo and duo works by a diverse field of composers performed by Co-Artistic Directors Samantha Bennett, violin and George Nickson, percussion.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "The Mind Is Like Water",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              }
+            ],
+            "composerId": "kevin-day",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "De Color",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "tania-leon",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Responding to the Waves",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "katherine-balch",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "It's About Time",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              }
+            ],
+            "composerId": "nico-muhly",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Solace on My Mind #3",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "francis-schwartz",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "An Hour of Change",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "shaun-tilburg",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Solitude and Suffrage",
+        "subtitle": "",
+        "date": "2021-01-18",
+        "venue": "virtual",
+        "description": "This program for clarinet, strings, mezzo-soprano, and piano celebrates the historic event of womens' suffrage in the United States and a time to reflect on the solitude that the COVID-19 quarantine era has caused for many across the world.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Fugitive Songs",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "ulysses-kay",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Iaspis",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "katherine-balch",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Kivalina",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "kamala-sankaram",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "The 19th Amendment",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "quinn-mason",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Enter the Vortex",
+        "subtitle": "",
+        "date": "2021-02-15",
+        "venue": "virtual",
+        "description": "Two of the twentieth century's most enigmatic masters come together for Phillipe Hurel's virtuosic tribute and Gerard Grisey's seminal evening length work in this program that has been rescheduled from our 2019-2020 season.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Tombeau, In Memorium Gerard Grisey",
+            "year": "1999",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "philippe-hurel",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Vortex Temporum",
+            "year": "1996",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "viola", "count": 0, "musicians": [] },
+              { "instrument": "cello", "count": 0, "musicians": [] },
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "flute", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
+            ],
+            "composerId": "gerard-grisey",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Nightfall!",
+        "subtitle": "",
+        "date": "2021-03-15",
+        "venue": "virtual",
+        "description": "Rescheduled from the 2019-2020 season, we celebrate the diversity of style and duality of current American acoustic music. With two new commissions, we're hardwired for creating masterpieces of the modern age.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Stel\u00e9",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "ensemble", "count": 0, "musicians": [] }
+            ],
+            "composerId": "gerard-grisey",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Nascent Forms",
+            "year": "2019",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion quartet",
+                "count": 0,
+                "musicians": []
+              }
+            ],
+            "composerId": "david-maric",
+            "is_commission": true,
+            "is_premiere": false
+          },
+          {
+            "title": "Haunt of Last Nightfall",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion quartet",
+                "count": 0,
+                "musicians": []
+              },
+              { "instrument": "electronics", "count": 0, "musicians": [] }
+            ],
+            "composerId": "david-t-little",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Sun Colors",
+        "subtitle": "",
+        "date": "2021-05-10",
+        "venue": "virtual",
+        "description": "SUN COLORS celebrates the warmth and diversity of contemporary string writing, with music of Reena Esmail, Michael Djupstrom, Jessica Meyer, and Tan Dun. Building up in instrumentation from one solo violin, to duo, trio and finally full quartet, the works on this program take inspiration from poetry, folk song and the sun's ever unifying and life-giving presence. Don't miss our last virtual concert of the season!",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Darshan",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] }
+            ],
+            "composerId": "reena-esmail",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Daydreams and Nightvisions",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "violin", "count": 0, "musicians": [] }
+            ],
+            "composerId": "michael-djupstrom",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "I Only Speak of the Sun",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "viola", "count": 0, "musicians": [] },
+              { "instrument": "cello", "count": 0, "musicians": [] }
+            ],
+            "composerId": "jessica-meyer",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "8 Colors for String Quartet",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "string quartet", "count": 0, "musicians": [] }
+            ],
+            "composerId": "tan-dun",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 4,
+    "season": "2019-2020",
+    "concerts": [
+      {
+        "title": "Frequent Flyers",
+        "subtitle": "",
+        "date": "2019-09-30",
+        "venue": "first-united-methodist-church",
+        "description": "Winds and Brass take flight from the lone voice of Berio's Trumpet Sequenza, to the full complement of orchestral brass in Magnus Lindberg's Ottoni and Peteris Vasks' Music for Fleeting Birds. Pianist Conor Hanick shines in technicolor with Messiaen's Colors of the Celestial City, an ode to the stars in this fanfare of a Season Opener.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza X for solo C trumpet and piano resonance",
+            "year": "1984",
+            "duration": "17''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "trumpet",
+                "musicians": ["Anthony Limoncelli"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Wind Quintet #1 \"Music for Fleeting Birds\"",
+            "year": "1977",
+            "duration": "9''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "flute",
+                "musicians": ["Betsy Hudson Traba"]
+              },
+              {
+                "instrument": "oboe",
+                "musicians": ["Nicholas Arbolino"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Laura Petty"]
+              },
+              {
+                "instrument": "bassoon",
+                "musicians": ["Fernando Traba"]
+              },
+              {
+                "instrument": "french horn",
+                "musicians": ["Joshua Horne"]
+              }
+            ],
+            "composerId": "peteris-vasks",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Ottoni",
+            "year": "2005",
+            "duration": "13''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "horn",
+                "count": 4,
+                "musicians": [
+                  "Joshua Horne",
+                  "Priscilla Rinehart",
+                  "Feliks Gmitruk",
+                  "Andrew Karr"
+                ]
+              },
+              {
+                "instrument": "trumpet",
+                "count": 4,
+                "musicians": [
+                  "Sam Jones",
+                  "Federico Montes",
+                  "Anthony Limoncelli",
+                  "Dan Kasteen"
+                ]
+              },
+              {
+                "instrument": "trombone",
+                "count": 3,
+                "musicians": ["Brad Williams", "Steven Osborne", "Marc Morgan"]
+              },
+              {
+                "instrument": "tuba",
+                "musicians": ["Aaron Tindall"]
+              }
+            ],
+            "composerId": "magnus-lindberg",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Couleurs de la Cit\u00e9 C\u00e9leste",
+            "year": "1963",
+            "duration": "16''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "clarinet",
+                "count": 3,
+                "musicians": ["Bharat Chandra", "Laura Petty", "Calvin Falwell"]
+              },
+              {
+                "instrument": "trumpet",
+                "count": 4,
+                "musicians": [
+                  "Anthony Limoncelli",
+                  "Dan Kasteen",
+                  "Federico Montes",
+                  "Sam Jones"
+                ]
+              },
+              {
+                "instrument": "horn",
+                "count": 2,
+                "musicians": ["Joshua Horne", "Priscilla Rinehart"]
+              },
+              {
+                "instrument": "trombone",
+                "count": 4,
+                "musicians": [
+                  "Brad Williams",
+                  "Steven Osborne",
+                  "Casey Maday",
+                  "Marc Morgan"
+                ]
+              },
+              {
+                "instrument": "percussion",
+                "count": 6,
+                "musicians": [
+                  "David Coash",
+                  "Isaac Fernandez-Hernandez",
+                  "Tomasz Kowalczyk",
+                  "John Shaw",
+                  "Mike Truesdell",
+                  "Ye Young Yoon"
+                ]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              }
+            ],
+            "composerId": "olivier-messiaen",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Peculiar Dreams",
+        "subtitle": "",
+        "date": "2019-10-20",
+        "venue": "studio-620",
+        "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza XIV for solo cello",
+            "year": "2002",
+            "duration": "13''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "An Index of Peculiar Strokes",
+            "year": "2011",
+            "duration": "12''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Hilary Gamble"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "andrew-norman",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Cosmic Dreams",
+            "year": "2013",
+            "duration": "14''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "vibraphone",
+                "musicians": ["George Nickson"]
+              },
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "count": 2,
+                "musicians": ["Rachel Halvorsen", "Hilary Gamble"]
+              },
+              {
+                "instrument": "cello",
+                "count": 2,
+                "musicians": ["Natalie Helm", "Christopher Schnell"]
+              }
+            ],
+            "composerId": "elizabeth-a-baker",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sextet",
+            "year": "2000",
+            "duration": "30''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "clarinet",
+                "musicians": ["Bharat Chandra"]
+              },
+              {
+                "instrument": "horn",
+                "musicians": ["Joshua Horne"]
+              },
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Rachel Halvorsen"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Christopher Schnell"]
+              }
+            ],
+            "composerId": "krzysztof-penderecki",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Peculiar Dreams",
+        "subtitle": "",
+        "date": "2019-10-21",
+        "venue": "first-congregational-church",
+        "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza XIV for solo cello",
+            "year": "2002",
+            "duration": "13''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "An Index of Peculiar Strokes",
+            "year": "2011",
+            "duration": "12''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Hilary Gamble"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "andrew-norman",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Cosmic Dreams",
+            "year": "2013",
+            "duration": "14''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "vibraphone",
+                "musicians": ["George Nickson"]
+              },
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "count": 2,
+                "musicians": ["Rachel Halvorsen", "Hilary Gamble"]
+              },
+              {
+                "instrument": "cello",
+                "count": 2,
+                "musicians": ["Natalie Helm", "Christopher Schnell"]
+              }
+            ],
+            "composerId": "elizabeth-a-baker",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sextet",
+            "year": "2000",
+            "duration": "30''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "clarinet",
+                "musicians": ["Bharat Chandra"]
+              },
+              {
+                "instrument": "horn",
+                "musicians": ["Joshua Horne"]
+              },
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Rachel Halvorsen"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Christopher Schnell"]
+              }
+            ],
+            "composerId": "krzysztof-penderecki",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Fire & Light",
+        "subtitle": "",
+        "date": "2020-01-20",
+        "venue": "first-congregational-church",
+        "description": "Sparks fly in Fire and Light, featuring composer and violist Jessica Meyer in three of her deeply human works: Delta Sunrise, Tapped into the same vein, and Sagrada Familia. Conor Hanick and Samantha Bennett perform Eric Wubbels' epic and searching 'the children of fire come looking for fire' to set this concert ablaze.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Delta Sunrise",
+            "year": "2017",
+            "duration": "3''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "viola",
+                "musicians": ["Jessica Meyer"]
+              }
+            ],
+            "composerId": "jessica-meyer",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Ins Licht",
+            "year": "2007",
+            "duration": "4''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              }
+            ],
+            "composerId": "georg-friedrich-haas",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "\"the children of fire come looking for fire\"",
+            "year": "2012",
+            "duration": "25''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              }
+            ],
+            "composerId": "eric-wubbels",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Tapped into the same vein",
+            "year": "2017",
+            "duration": "7''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "count": 2,
+                "musicians": ["Samantha Bennett", "Jennifer Best Takeda"]
+              },
+              {
+                "instrument": "viola",
+                "count": 2,
+                "musicians": ["Jessica Meyer", "Rachel Halvorsen"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "jessica-meyer",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sagrada Familia",
+            "year": "2017",
+            "duration": "16''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "clarinet",
+                "musicians": ["Laura Petty"]
+              },
+              {
+                "instrument": "bass clarinet",
+                "musicians": ["Laura Petty"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Jessica Meyer"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              }
+            ],
+            "composerId": "jessica-meyer",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Enter the Vortex",
+        "subtitle": "",
+        "date": "2020-03-23",
+        "venue": "first-congregational-church",
+        "description": "It's past versus future as we Enter the Vortex with two of the twentieth-century's most enigmatic masters. 2017 Van Cliburn Semi-Finalist Han Chen joins enSRQ and Co-Artistic Director George Nickson for Philippe Hurel's virtuosic tribute, Tombeau to Gerard Grisey, an apropos preamble to our presentation of Grisey's seminal evening length work, Vortex Temporum.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Tombeau, In Memorium Gerard Grisey",
+            "year": "1999",
+            "duration": "15''",
+            "movements": [
+              "I. \u00c9nergique",
+              "II. Lointain",
+              "III. \u2669 = 72",
+              "IV. \u2669 = 40"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "philippe-hurel",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Vortex Temporum",
+            "year": "1996",
+            "duration": "40''",
+            "movements": [
+              "I. \u2669= 130 (\u00e0 G\u00e9rard Zinsstag)",
+              "Interlude",
+              "II. \u2669= 50 (\u00e0 Salvatore Sciarrino)",
+              "Interlude",
+              "III. \u2669= (\u00e0 Helmut Lachenmann)",
+              "Interlude"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Derek Mosloff"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Calvin Falwell"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Jessi Rosinski"]
+              }
+            ],
+            "composerId": "gerard-grisey",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Digital Trees",
+        "subtitle": "",
+        "date": "2020-04-13",
+        "venue": "first-congregational-church",
+        "description": "Digital Trees celebrates the diversity of style and duality of current American acoustic music with Marc Mellits' minimalist Splinter, Ken Ueno's intricate Pharmakon and Patrick Harlan's Digital. We're hardwired for creating masterpieces of the modern age with two new commissions. American trailblazer Max Grafe composes a new trio to showcase principal artists Samantha Bennett, George Nickson and Conor Hanick. enSRQ is also proud to join a consortium with Royal Birmingham Conservatoire, Music Academy of the West, and The Eastman School of Music to commission and perform the Florida Premiere of David Maric's Mallet Quartet.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Digital",
+            "year": "2013",
+            "duration": "5''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "viola",
+                "musicians": ["Rachel Halvorsen"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Francesca Arnone"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Laura Petty"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              }
+            ],
+            "composerId": "patrick-harlin",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Nascent Forms",
+            "year": "2019",
+            "duration": "16''",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "count": 4,
+                "musicians": [
+                  "George Nickson",
+                  "Mike Truesdell",
+                  "Ye Young Yoon",
+                  "Tomasz Kowalczyk"
+                ]
+              }
+            ],
+            "composerId": "david-maric",
+            "is_commission": true,
+            "is_premiere": false
+          },
+          {
+            "title": "Shadow Theater",
+            "year": "2020",
+            "duration": "12''",
+            "movements": [
+              "I. Toccata I",
+              "II. Improvisation",
+              "III. Monologues",
+              "IV. Toccata II",
+              "V. Passacaglia"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "max-grafe",
+            "is_commission": true,
+            "is_premiere": true
+          },
+          {
+            "title": "Splinter",
+            "year": "2014",
+            "duration": "17''",
+            "movements": [
+              "I. Scarlet Oak",
+              "II. Sugar Maple",
+              "III. Linden",
+              "IV. Black Ash",
+              "V. Cherry",
+              "VI. River Birch",
+              "VII. Weeping Willow",
+              "VIII. Red Pine"
+            ],
+            "instrumentation": [
+              {
+                "instrument": "clarinet",
+                "musicians": ["Laura Petty"]
+              },
+              {
+                "instrument": "oboe",
+                "musicians": ["Nicholas Arbolino"]
+              },
+              {
+                "instrument": "bass clarinet",
+                "musicians": ["Calvin Falwell"]
+              },
+              {
+                "instrument": "alto saxophone",
+                "musicians": ["Patrick Posey"]
+              },
+              {
+                "instrument": "bassoon",
+                "musicians": ["Josh Baker"]
+              }
+            ],
+            "composerId": "marc-mellits",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Pharmakon",
+            "year": "2001",
+            "duration": "19''",
+            "movements": ["I. XOX", "II. XXO", "III. OXX", "IV. Main Movement"],
+            "instrumentation": [
+              {
+                "instrument": "violin",
+                "musicians": ["Samantha Bennett"]
+              },
+              {
+                "instrument": "cello",
+                "musicians": ["Natalie Helm"]
+              },
+              {
+                "instrument": "clarinet",
+                "musicians": ["Calvin Falwell"]
+              },
+              {
+                "instrument": "flute",
+                "musicians": ["Francesca Arnone"]
+              },
+              {
+                "instrument": "piano",
+                "musicians": ["Conor Hanick"]
+              },
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "ken-ueno",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 3,
+    "season": "2018-2019",
+    "concerts": [
+      {
+        "title": "enSRQ + HUB New Music",
+        "subtitle": "",
+        "date": "2018-10-29",
+        "venue": "first-congregational-church",
+        "description": "Great Groups Think Alike! enSRQ welcomes friends from Boston, HUB New Music, for an exciting collaboration to open the 2018-19 season. Pairing minimalist masters with adventurers in texture and darkness.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "ac/dc",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "michael-gordon",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "1987",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "anna-clyne",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Rising Tide",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "nina-c-young",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Double Sextet",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "steve-reich",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Metal, Wind, & Wood",
+        "subtitle": "",
+        "date": "2018-12-03",
+        "venue": "first-congregational-church",
+        "description": "Metal of the vibraphone, wind of the oboe, and wood of the strings. Italian master Franco Donatoni shines in two important works. Features oboist Nicholas Arbolino continuing the Berio Sequenzas cycle.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Oboe Sequenza",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "oboe",
+                "musicians": ["Nicholas Arbolino"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Omar",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "franco-donatoni",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Arpege",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "franco-donatoni",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Arcana",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "kevin-puts",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Scritch",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "melinda-wagner",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Holographic",
+        "subtitle": "Collaboration with New Music New College featuring Daniel Wohl, composer and pianist and Daniel Schwarz, visual artist",
+        "date": "2019-01-07",
+        "venue": "mildred-sainer-auditorium",
+        "description": "enSRQ teams up with New Music New College. This evening length work for live visual projections and electroacoustic ensemble explores different worlds of improbable combinations of sounds, hidden sonic landscapes both acoustic and electronic.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Holographic",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "live visual projections",
+                "musicians": ["Daniel Schwarz"]
+              },
+              {
+                "instrument": "electroacoustic ensemble",
+                "count": 0,
+                "musicians": []
+              }
+            ],
+            "composerId": "daniel-wohl",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Railroad 150",
+        "subtitle": "",
+        "date": "2019-02-11",
+        "venue": "first-congregational-church",
+        "description": "2019 marks the 150th Anniversary of the completion of the Transcontinental Railroad at Promontory Point, Utah. An inventive, deep and profound look at how trains, railroads, and humans have charted paths; both constructive and destructive.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "The Great Crush Collision March",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "scott-joplin",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Saltbox",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "tansy-davies",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "3 Songs on Carl Sandburg",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "ruth-crawford-seeger",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Different Trains",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "steve-reich",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Orpheus and His Lyre",
+        "subtitle": "",
+        "date": "2019-03-04",
+        "venue": "first-congregational-church",
+        "description": "A literal and figurative look at the myth of Orpheus, a story that has allured artists throughout the centuries. Features Katherine Siochi on harp and Matthew Aucoin performing and presenting his work. Thea Lobo solos with Samantha Bennett.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Bariolage",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "harp",
+                "musicians": ["Katherine Siochi"]
+              }
+            ],
+            "composerId": "elliott-carter",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Its Own Accord",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "matthew-aucoin",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Lyre of Orpheus",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "sofia-gubaidulina",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "The Orphic Moment",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "matthew-aucoin",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Working Notes",
+        "subtitle": "",
+        "date": "2019-04-22",
+        "venue": "first-congregational-church",
+        "description": "enSRQ's second commission receives its World Premiere - a percussion concerto from renowned Portuguese composer Andreia Pinto Correia, inspired by sketchbooks of Joan Miro. Features Brad Williams reprising his iconic performance in Berio's Trombone Sequenza.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "6th String Quartet",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "john-harbison",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Trombone Sequenza",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "trombone",
+                "musicians": ["Brad Williams"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Paintings in Four Movements",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion",
+                "musicians": ["George Nickson"]
+              }
+            ],
+            "composerId": "andreia-pinto-correia",
+            "is_commission": true,
+            "is_premiere": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 2,
+    "season": "2017-2018",
+    "concerts": [
+      {
+        "title": "Lost Landscapes",
+        "subtitle": "",
+        "date": "2017-09-18",
+        "venue": "first-congregational-church",
+        "description": "Journey from the New Mexico desert to the snowy north, to Tanglewood and New York City in this concert inspired by the spaces of nature around us.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Death Valley Junction",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "missy-mazzoli",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Untrammeled",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "stephen-wood",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Snow and Snow",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "helen-grime",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Lost Landscapes",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "einojuhani-rautavaara",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Life of Birds",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "mason-bates",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "The Space Around You",
+        "subtitle": "",
+        "date": "2017-10-19",
+        "venue": "the-ringling-museum",
+        "description": "Part of Ringling International Arts Festival. A macro view of our surroundings, interacting with James Turrell's Joseph's Coat, mirroring the atmosphere and changing light of the sky.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "The Magical World of Berio's Sequenzas",
+        "subtitle": "",
+        "date": "2017-10-21",
+        "venue": "the-ringling-museum",
+        "description": "Part of Ringling International Arts Festival. A micro view focusing intensely on individual performers as virtuoso soloists, weaving through deeply personal human and musical expression.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza(s)",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Lou Harrison at 100",
+        "subtitle": "",
+        "date": "2017-12-11",
+        "venue": "first-congregational-church",
+        "description": "A centennial homage to Lou Harrison, celebrated American composer and maverick of sound. Featuring acclaimed pianist Sarah Cahill and Artistic Director Samantha Bennett.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Grand Duo",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "lou-harrison",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Varied Trio",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "lou-harrison",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Uneasy Rapture",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "lou-harrison",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Solo to Anthony Cirone",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "lou-harrison",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Deep Red",
+        "subtitle": "",
+        "date": "2018-01-29",
+        "venue": "first-congregational-church",
+        "description": "Luciano Berio's Sequenzas cycle kicks off with Sequenza VIII for violin. Features composer Bright Sheng conducting his dreamscape marimba concerto.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza VIII",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Perpetual Chaconne",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "string quartet", "count": 0, "musicians": [] }
+            ],
+            "composerId": "aaron-jay-kernis",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Deep Red",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "marimba", "count": 0, "musicians": [] }
+            ],
+            "composerId": "bright-sheng",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Voice/Hammer",
+        "subtitle": "",
+        "date": "2018-03-26",
+        "venue": "first-congregational-church",
+        "description": "Two of Europe's most influential 20th Century masters. Features Sarasota's own mezzo-soprano Thea Lobo in Berio's Sequenza III.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Sequenza III",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "mezzo-soprano",
+                "musicians": ["Thea Lobo"]
+              }
+            ],
+            "composerId": "luciano-berio",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Le marteau sans ma\u00eetre",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "mixed ensemble", "count": 0, "musicians": [] }
+            ],
+            "composerId": "pierre-boulez",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Larger Forces",
+        "subtitle": "",
+        "date": "2018-04-23",
+        "venue": "first-united-methodist-church",
+        "description": "Season finale featuring enSRQ's first commissioned work and chamber orchestra works inspired by dance rhythms. Features oboist Adam de Sorgo.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "5, 6, 7, 8",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "michael-schacter",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Alchemy/Transmutation/Translation",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "oboe",
+                "musicians": ["Adam de Sorgo"]
+              }
+            ],
+            "composerId": "david-dies",
+            "is_commission": true,
+            "is_premiere": false
+          },
+          {
+            "title": "Son of Chamber Symphony",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "john-adams",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "seasonId": 1,
+    "season": "2016-2017",
+    "concerts": [
+      {
+        "title": "Locals",
+        "subtitle": "Sarasota composers. Sarasota musicians. Sarasota themed works.",
+        "date": "2016-10-10",
+        "venue": "first-congregational-church",
+        "description": "A concert featuring Sarasota composers, musicians, and themed works.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Lunation 1113",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "roger-zare",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Anhinga and Well-Enclowned",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "gil-katz",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Failing",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "tom-johnson",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sandpipers",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "nicole-gutman",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Songs of Loneliness",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "francis-schwartz",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Gardens, Clouds, Streams",
+        "subtitle": "Evocative works by female composers.",
+        "date": "2016-11-14",
+        "venue": "first-congregational-church",
+        "description": "A concert of evocative works by female composers.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Entr'acte",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "caroline-shaw",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Six Japanese Gardens",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "kaija-saariaho",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "all streams reach the sea at last",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "elizabeth-ogonek",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Prince of Clouds",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "anna-clyne",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Glass",
+        "subtitle": "",
+        "date": "2017-01-30",
+        "venue": "alfstad-contemporary",
+        "description": "An intimate performance in the gallery space among glass artwork by Kathleen Mulcahy and Ron Desmett, part of Sarasota's Art Glass Weekend.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Mirrors",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "kaija-saariaho",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "String Quartet #2",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "philip-glass",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Reflections on the Nature of Water",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "jacob-druchman",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Together",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "isang-yun",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Light Screens",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "andrew-norman",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "Glass",
+        "subtitle": "",
+        "date": "2017-02-20",
+        "venue": "alfstad-contemporary",
+        "description": "Second performance of the Glass concert, an intimate performance in the gallery space among glass artwork.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Mirrors",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "kaija-saariaho",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "String Quartet #2",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "philip-glass",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Reflections on the Nature of Water",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "jacob-druchman",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Together",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "isang-yun",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Light Screens",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "andrew-norman",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "The Music of David T. Little",
+        "subtitle": "",
+        "date": "2017-02-26",
+        "venue": "the-hermitage-artist-retreat",
+        "description": "A collaboration with The Hermitage Artist Retreat featuring resident composer David T. Little, who will be in attendance to offer perspective on his inspiration.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "and the sky was still there",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "electronics", "count": 0, "musicians": [] },
+              { "instrument": "video", "count": 0, "musicians": [] }
+            ],
+            "composerId": "david-t-little",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Haunt of Last Nightfall",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [
+              {
+                "instrument": "percussion quartet",
+                "count": 0,
+                "musicians": []
+              },
+              { "instrument": "electronics", "count": 0, "musicians": [] }
+            ],
+            "composerId": "david-t-little",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      },
+      {
+        "title": "New York Notes",
+        "subtitle": "",
+        "date": "2017-04-10",
+        "venue": "first-congregational-church",
+        "description": "The finale of our Inaugural Season! A powerful display of contemporary chamber music featuring New York's most exciting musical minds sharing the stage with Sarasota's stars.",
+        "sponsors": [],
+        "program": [
+          {
+            "title": "Quartet",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "bohuslav-martinu",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "New York Notes",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "charles-wuorinen",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Selene",
+            "year": "",
+            "duration": "",
+            "movements": [],
+            "instrumentation": [],
+            "composerId": "augusta-read-thomas",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ]
+      }
+    ]
+  }
+]

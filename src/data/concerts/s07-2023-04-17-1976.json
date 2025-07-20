@@ -1,0 +1,200 @@
+{
+  "concertId": "s07-2023-04-17-1976",
+  "title": "1976",
+  "subtitle": "",
+  "date": "2023-04-17",
+  "venue": "Sarasota Opera House",
+  "venueAddress": "61 N Pineapple Ave, Sarasota, FL 34236",
+  "description": "A double bill of contemporary classics: HK Gruber’s Frankenstein! and Louis Andriessen’s De Staat, performed by the largest ensemble in enSRQ history.",
+  "sponsors": [
+    "The Gardener Foundation"
+  ],
+  "program": [
+    {
+      "title": "Frankenstein! (1976)",
+      "year": "",
+      "duration": "26'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "chansonnier",
+          "musicians": [
+            "Michael Truesdell"
+          ]
+        },
+        {
+          "instrument": "conductor",
+          "musicians": [
+            "George Nickson"
+          ]
+        },
+        {
+          "instrument": "flute",
+          "musicians": [
+            "Betsy Hudson Traba"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Bharat Chandra"
+          ]
+        },
+        {
+          "instrument": "bassoon",
+          "musicians": [
+            "Fernando Traba"
+          ]
+        },
+        {
+          "instrument": "horn",
+          "musicians": [
+            "Kelsey Ross"
+          ]
+        },
+        {
+          "instrument": "trumpet",
+          "musicians": [
+            "Aaron Romm"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "Marcelina Suchocka"
+          ]
+        },
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Mia Laity"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Camila Berg"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        },
+        {
+          "instrument": "bass",
+          "musicians": [
+            "Vinny Svoboda"
+          ]
+        }
+      ],
+      "composerId": "hk-gruber",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "De Staat (1976)",
+      "year": "",
+      "duration": "35'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "soprano",
+          "count": 2,
+          "musicians": [
+            "Lily Wohl",
+            "Melissa Simmons"
+          ]
+        },
+        {
+          "instrument": "mezzo_soprano",
+          "count": 2,
+          "musicians": [
+            "Thea Lobo",
+            "TBD"
+          ]
+        },
+        {
+          "instrument": "oboe",
+          "count": 4,
+          "musicians": [
+            "Amy Collins",
+            "Cindy Barbanera-Wedel",
+            "Nick Arbolino",
+            "Shane Wedel"
+          ]
+        },
+        {
+          "instrument": "trumpet",
+          "count": 4,
+          "musicians": [
+            "Aaron Romm",
+            "Gianluca Farina",
+            "Alan Evans",
+            "Cindy Scaruffi-Klispie"
+          ]
+        },
+        {
+          "instrument": "horn",
+          "count": 4,
+          "musicians": [
+            "Josh Horn",
+            "Shelby Nugent",
+            "Mark Trotter",
+            "Kelsey Ross"
+          ]
+        },
+        {
+          "instrument": "trombone",
+          "count": 4,
+          "musicians": [
+            "Michael Stanton",
+            "Brad Williams",
+            "Jemmie Roberston",
+            "Casey Maday"
+          ]
+        },
+        {
+          "instrument": "guitar",
+          "count": 2,
+          "musicians": [
+            "Mark Dacigers",
+            "Jon Godfrey"
+          ]
+        },
+        {
+          "instrument": "harp",
+          "count": 2,
+          "musicians": [
+            "Hannah Cope",
+            "Melody Mae Stein"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "count": 2,
+          "musicians": [
+            "Sam Nelson",
+            "TBD"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "count": 4,
+          "musicians": [
+            "Dan Urbanowicz",
+            "Camila Berg",
+            "Nathan Frantz",
+            "Samantha Bennett"
+          ]
+        }
+      ],
+      "composerId": "louis-andriessen",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

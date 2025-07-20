@@ -1,0 +1,126 @@
+{
+  "concertId": "s05-2020-10-19-its-about-time",
+  "title": "It's About Time",
+  "subtitle": "",
+  "date": "2020-10-19",
+  "venue": "Virtual Concert",
+  "venueAddress": "",
+  "description": "We return to our roots in our season-opener presenting a program of solo and duo works by a diverse field of composers performed by Co-Artistic Directors Samantha Bennett, violin and George Nickson, percussion.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "The Mind Is Like Water",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        }
+      ],
+      "composerId": "kevin-day",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "De Color",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "tania-leon",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Responding to the Waves",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "katherine-balch",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "It's About Time",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        }
+      ],
+      "composerId": "nico-muhly",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Solace on My Mind #3",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "francis-schwartz",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "An Hour of Change",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "shaun-tilburg",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

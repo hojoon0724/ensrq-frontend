@@ -1,4 +1,5 @@
 {
+  "concertId": "s09-2025-02-17-truth-and-mayhem",
   "title": "Truth and Mayhem",
   "date": "2025-02-17",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,7 +9,11 @@
       "year": 2019,
       "duration": "TBD",
       "instrumentation": [
-        { "instrument": "marimba", "solo": true, "musicians": [] }
+        {
+          "instrument": "marimba",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "jonathan-cziner"
     },
@@ -17,7 +22,11 @@
       "year": 2017,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "percussion", "count": 4, "musicians": [] }
+        {
+          "instrument": "percussion",
+          "count": 4,
+          "musicians": []
+        }
       ],
       "composerId": "ellen-reid"
     },
@@ -26,9 +35,18 @@
       "year": 2005,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] },
-        { "instrument": "electronics", "musicians": [] }
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "electronics",
+          "musicians": []
+        }
       ],
       "composerId": "nico-muhly"
     },
@@ -37,8 +55,16 @@
       "year": 1991,
       "duration": "25'",
       "instrumentation": [
-        { "instrument": "cello", "solo": true, "musicians": [] },
-        { "instrument": "percussion", "count": 4, "musicians": [] }
+        {
+          "instrument": "cello",
+          "solo": true,
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "count": 4,
+          "musicians": []
+        }
       ],
       "composerId": "tan-dun"
     }

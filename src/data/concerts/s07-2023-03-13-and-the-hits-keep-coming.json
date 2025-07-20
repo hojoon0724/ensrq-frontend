@@ -1,0 +1,119 @@
+{
+  "concertId": "s07-2023-03-13-and-the-hits-keep-coming",
+  "title": "And the Hits Keep Coming",
+  "subtitle": "",
+  "date": "2023-03-13",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "description": "A celebration of percussion, featuring works by Emma O’Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
+  "sponsors": [
+    "Pamela MacFarlane Palmer"
+  ],
+  "program": [
+    {
+      "title": "Shell (2019)",
+      "year": "",
+      "duration": "7'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "count": 4,
+          "musicians": [
+            "George Nickson",
+            "Shaun Tilburg",
+            "Marcelina Suchocka",
+            "Ye Young Yoon"
+          ]
+        }
+      ],
+      "composerId": "emma-ohalloran",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Prelude and Ether (2019)",
+      "year": "",
+      "duration": "11'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "count": 4,
+          "musicians": [
+            "Marcelina Suchocka",
+            "Ye Young Yoon",
+            "Shaun Tilburg",
+            "Isaac Fernandez-Hernandez"
+          ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "krists-auznieks",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Kagome Kagome (2022)",
+      "year": "",
+      "duration": "11'",
+      "movements": [
+        "I. Summons",
+        "II. The First Bardo",
+        "III. Mantra",
+        "IV. Summons",
+        "V. The Second Bardo",
+        "VI. Abhidhamma",
+        "VII. Eulogy",
+        "VIII. The Third Bardo"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "mezzo_soprano",
+          "musicians": [
+            "Thea Lobo"
+          ]
+        },
+        {
+          "instrument": "percussion",
+          "count": 2,
+          "musicians": [
+            "George Nickson",
+            "Shaun Tilburg"
+          ]
+        }
+      ],
+      "composerId": "shaun-tilburg",
+      "is_commission": true,
+      "is_premiere": true
+    },
+    {
+      "title": "New England Etudes (2022)",
+      "year": "",
+      "duration": "18'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "count": 6,
+          "musicians": [
+            "George Nickson",
+            "Marcelina Suchocka",
+            "Ye Young Yoon",
+            "Aaron Nix",
+            "Isaac Fernandez-Hernandez",
+            "Shaun Tilburg"
+          ]
+        }
+      ],
+      "composerId": "mark-anthony-turnage",
+      "is_commission": "co-commission",
+      "is_premiere": false
+    }
+  ]
+}

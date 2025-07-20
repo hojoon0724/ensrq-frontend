@@ -1,0 +1,34 @@
+{
+  "concertId": "s03-2019-01-07-holographic",
+  "title": "Holographic",
+  "subtitle": "Collaboration with New Music New College featuring Daniel Wohl, composer and pianist and Daniel Schwarz, visual artist",
+  "date": "2019-01-07",
+  "venue": "Mildred Sainer Auditorium, New College of Florida, 5313 Bay Shore Road, Sarasota, FL 34243",
+  "venueAddress": "",
+  "description": "enSRQ teams up with New Music New College. This evening length work for live visual projections and electroacoustic ensemble explores different worlds of improbable combinations of sounds, hidden sonic landscapes both acoustic and electronic.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Holographic",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "live visual projections",
+          "musicians": [
+            "Daniel Schwarz"
+          ]
+        },
+        {
+          "instrument": "electroacoustic ensemble",
+          "count": 0,
+          "musicians": []
+        }
+      ],
+      "composerId": "daniel-wohl",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

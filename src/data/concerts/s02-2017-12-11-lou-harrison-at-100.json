@@ -1,0 +1,52 @@
+{
+  "concertId": "s02-2017-12-11-lou-harrison-at-100",
+  "title": "Lou Harrison at 100",
+  "subtitle": "",
+  "date": "2017-12-11",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "A centennial homage to Lou Harrison, celebrated American composer and maverick of sound. Featuring acclaimed pianist Sarah Cahill and Artistic Director Samantha Bennett.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Grand Duo",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "lou-harrison",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Varied Trio",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "lou-harrison",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Uneasy Rapture",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "lou-harrison",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Solo to Anthony Cirone",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "lou-harrison",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

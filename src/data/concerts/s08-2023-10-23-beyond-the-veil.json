@@ -1,4 +1,5 @@
 {
+  "concertId": "s08-2023-10-23-beyond-the-veil",
   "title": "Beyond the Veil",
   "date": "2023-10-23",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,9 +9,19 @@
       "year": 2019,
       "duration": "4'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "nia-imani-franklin"
     },
@@ -19,9 +30,19 @@
       "year": 2014,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "julia-adolphe"
     },
@@ -30,8 +51,15 @@
       "year": 2020,
       "duration": "14'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "chris-rogerson"
     },
@@ -40,10 +68,23 @@
       "year": 2010,
       "duration": "37'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "live electronics", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "live electronics",
+          "musicians": []
+        }
       ],
       "composerId": "philippe-manoury"
     }

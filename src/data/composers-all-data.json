@@ -1,0 +1,815 @@
+{
+  "aaron-jay-kernis": {
+    "id": "aaron-jay-kernis",
+    "name": "Aaron Jay Kernis",
+    "nationality": "American"
+  },
+  "amy-williams": {
+    "id": "amy-williams",
+    "name": "Amy Williams",
+    "nationality": "American",
+    "born": 1969
+  },
+  "andreia-pinto-correia": {
+    "id": "andreia-pinto-correia",
+    "name": "Andreia Pinto Correia",
+    "nationality": "Portuguese",
+    "born": 1971
+  },
+  "andrew-norman": {
+    "id": "andrew-norman",
+    "name": "Andrew Norman",
+    "nationality": "American",
+    "born": 1979
+  },
+  "andrew-thomas": {
+    "id": "andrew-thomas",
+    "name": "Andrew Thomas",
+    "nationality": "American",
+    "born": 1939
+  },
+  "angela-elizabeth-slater": {
+    "id": "angela-elizabeth-slater",
+    "name": "Angela Elizabeth Slater",
+    "nationality": "American"
+  },
+  "angelica-negron": {
+    "id": "angelica-negron",
+    "name": "Angélica Negrón",
+    "nationality": "Puerto Rican",
+    "born": 1981
+  },
+  "ania-vu": {
+    "id": "ania-vu",
+    "name": "Ania Vu",
+    "nationality": "American"
+  },
+  "anna-clyne": {
+    "id": "anna-clyne",
+    "name": "Anna Clyne",
+    "nationality": "British",
+    "born": 1980
+  },
+  "anna-thorvaldsdottir": {
+    "id": "anna-thorvaldsdottir",
+    "name": "Anna Thorvaldsdottir",
+    "nationality": "Icelandic"
+  },
+  "arlene-sierra": {
+    "id": "arlene-sierra",
+    "name": "Arlene Sierra",
+    "nationality": "American",
+    "born": 1970
+  },
+  "arnold-schoenberg": {
+    "id": "arnold-schoenberg",
+    "name": "Arnold Schoenberg",
+    "nationality": "Austrian",
+    "born": 1874,
+    "died": 1951
+  },
+  "augusta-read-thomas": {
+    "id": "augusta-read-thomas",
+    "name": "Augusta Read Thomas",
+    "nationality": "American",
+    "born": 1964
+  },
+  "bohuslav-martinu": {
+    "id": "bohuslav-martinu",
+    "name": "Bohuslav Martinu",
+    "nationality": "Czech",
+    "born": 1890,
+    "died": 1959
+  },
+  "bright-sheng": {
+    "id": "bright-sheng",
+    "name": "Bright Sheng",
+    "nationality": "American"
+  },
+  "caroline-shaw": {
+    "id": "caroline-shaw",
+    "name": "Caroline Shaw",
+    "nationality": "American",
+    "born": 1982
+  },
+  "carolyn-chen": {
+    "id": "carolyn-chen",
+    "name": "Carolyn Chen",
+    "nationality": "American",
+    "born": 1983
+  },
+  "charles-ives": {
+    "id": "charles-ives",
+    "name": "Charles Ives",
+    "nationality": "American",
+    "born": 1874,
+    "died": 1954
+  },
+  "charles-wuorinen": {
+    "id": "charles-wuorinen",
+    "name": "Charles Wuorinen",
+    "nationality": "American",
+    "born": 1938,
+    "died": 2020
+  },
+  "che-buford": {
+    "id": "che-buford",
+    "name": "Che Buford",
+    "nationality": "American"
+  },
+  "chris-neiner": {
+    "id": "chris-neiner",
+    "name": "Chris Neiner",
+    "nationality": "American"
+  },
+  "chris-rogerson": {
+    "id": "chris-rogerson",
+    "name": "Chris Rogerson",
+    "nationality": "American"
+  },
+  "chris-stark": {
+    "id": "chris-stark",
+    "name": "Chris Stark",
+    "nationality": "American"
+  },
+  "chris-theofanidis": {
+    "id": "chris-theofanidis",
+    "name": "Chris Theofanidis",
+    "nationality": "American",
+    "born": 1967
+  },
+  "christopher-cerrone": {
+    "id": "christopher-cerrone",
+    "name": "Christopher Cerrone",
+    "nationality": "American"
+  },
+  "claire-hu": {
+    "id": "claire-hu",
+    "name": "Claire Hu",
+    "nationality": "American"
+  },
+  "claude-vivier": {
+    "id": "claude-vivier",
+    "name": "Claude Vivier",
+    "nationality": "Canadian",
+    "born": 1948,
+    "died": 1983
+  },
+  "dai-wei": {
+    "id": "dai-wei",
+    "name": "Dai Wei",
+    "nationality": "Chinese"
+  },
+  "daniel-gostelow": {
+    "id": "daniel-gostelow",
+    "name": "Daniel Gostelow",
+    "nationality": "Australian"
+  },
+  "daniel-wohl": {
+    "id": "daniel-wohl",
+    "name": "Daniel Wohl",
+    "nationality": "Born"
+  },
+  "david-acevedo": {
+    "id": "david-acevedo",
+    "name": "David Acevedo",
+    "nationality": "American"
+  },
+  "david-dies": {
+    "id": "david-dies",
+    "name": "David Dies"
+  },
+  "david-maric": {
+    "id": "david-maric",
+    "name": "David Maric"
+  },
+  "david-t-little": {
+    "id": "david-t-little",
+    "name": "David T. Little",
+    "nationality": "American",
+    "born": 1978
+  },
+  "diallo-banks": {
+    "id": "diallo-banks",
+    "name": "Diallo Banks"
+  },
+  "du-yun": {
+    "id": "du-yun",
+    "name": "Du Yun",
+    "nationality": "American"
+  },
+  "einojuhani-rautavaara": {
+    "id": "einojuhani-rautavaara",
+    "name": "Einojuhani Rautavaara",
+    "nationality": "Finnish",
+    "born": 1928,
+    "died": 2016
+  },
+  "elizabeth-a-baker": {
+    "id": "elizabeth-a-baker",
+    "name": "Elizabeth A Baker"
+  },
+  "elizabeth-ogonek": {
+    "id": "elizabeth-ogonek",
+    "name": "Elizabeth Ogonek",
+    "nationality": "Classical"
+  },
+  "ellen-reid": {
+    "id": "ellen-reid",
+    "name": "Ellen Reid",
+    "nationality": "American",
+    "born": 1983
+  },
+  "elliott-carter": {
+    "id": "elliott-carter",
+    "name": "Elliott Carter",
+    "nationality": "American",
+    "born": 1908,
+    "died": 2012
+  },
+  "emma-ohalloran": {
+    "id": "emma-ohalloran",
+    "name": "Emma Ohalloran"
+  },
+  "eric-wubbels": {
+    "id": "eric-wubbels",
+    "name": "Eric Wubbels"
+  },
+  "francis-schwartz": {
+    "id": "francis-schwartz",
+    "name": "Francis Schwartz"
+  },
+  "franco-donatoni": {
+    "id": "franco-donatoni",
+    "name": "Franco Donatoni",
+    "nationality": "Italian"
+  },
+  "freya-waley-cohen": {
+    "id": "freya-waley-cohen",
+    "name": "Freya Waley Cohen"
+  },
+  "gabriela-lena-frank": {
+    "id": "gabriela-lena-frank",
+    "name": "Gabriela Lena Frank",
+    "nationality": "American",
+    "born": 1972
+  },
+  "gabriela-ortiz": {
+    "id": "gabriela-ortiz",
+    "name": "Gabriela Ortiz",
+    "nationality": "And",
+    "born": 1964
+  },
+  "georg-friedrich-haas": {
+    "id": "georg-friedrich-haas",
+    "name": "Georg Friedrich Haas",
+    "nationality": "Austrian",
+    "born": 2000
+  },
+  "george-crumb": {
+    "id": "george-crumb",
+    "name": "George Crumb",
+    "nationality": "American",
+    "born": 1929,
+    "died": 2022
+  },
+  "george-perle": {
+    "id": "george-perle",
+    "name": "George Perle",
+    "nationality": "American",
+    "born": 1915,
+    "died": 2009
+  },
+  "gerard-grisey": {
+    "id": "gerard-grisey",
+    "name": "Gerard Grisey",
+    "nationality": "French",
+    "born": 1946,
+    "died": 1998
+  },
+  "gil-katz": {
+    "id": "gil-katz",
+    "name": "Gil Katz"
+  },
+  "gyorgy-kurtag": {
+    "id": "gyorgy-kurtag",
+    "name": "György Kurtág",
+    "nationality": "Hungarian",
+    "born": 1926
+  },
+  "gyorgy-ligeti": {
+    "id": "gyorgy-ligeti",
+    "name": "György Ligeti",
+    "nationality": "Hungarian",
+    "born": 1923,
+    "died": 2006
+  },
+  "han-lash": {
+    "id": "han-lash",
+    "name": "Han Lash",
+    "nationality": "American",
+    "born": 1981
+  },
+  "hans-otte": {
+    "id": "hans-otte",
+    "name": "Hans Otte",
+    "nationality": "German",
+    "born": 1926,
+    "died": 2007
+  },
+  "helen-grime": {
+    "id": "helen-grime",
+    "name": "Helen Grime",
+    "nationality": "Scottish"
+  },
+  "hk-gruber": {
+    "id": "hk-gruber",
+    "name": "Hk Gruber",
+    "nationality": "Austrian"
+  },
+  "inti-figgis-vizueta": {
+    "id": "inti-figgis-vizueta",
+    "name": "Inti Figgis Vizueta"
+  },
+  "isang-yun": {
+    "id": "isang-yun",
+    "name": "Isang Yun",
+    "nationality": "German",
+    "born": 1917,
+    "died": 1995
+  },
+  "jacob-druchman": {
+    "id": "jacob-druchman",
+    "name": "Jacob Druchman"
+  },
+  "jerod-tate": {
+    "id": "jerod-tate",
+    "name": "Jerod Tate",
+    "nationality": "American",
+    "born": 1968
+  },
+  "jessica-meyer": {
+    "id": "jessica-meyer",
+    "name": "Jessica Meyer"
+  },
+  "john-adams": {
+    "id": "john-adams",
+    "name": "John Adams",
+    "nationality": "1797"
+  },
+  "john-harbison": {
+    "id": "john-harbison",
+    "name": "John Harbison",
+    "nationality": "American"
+  },
+  "jonathan-cziner": {
+    "id": "jonathan-cziner",
+    "name": "Jonathan Cziner",
+    "nationality": "American"
+  },
+  "joshua-muetzel": {
+    "id": "joshua-muetzel",
+    "name": "Joshua Muetzel",
+    "nationality": "American"
+  },
+  "julia-adolphe": {
+    "id": "julia-adolphe",
+    "name": "Julia Adolphe",
+    "nationality": "American",
+    "born": 1988
+  },
+  "juri-seo": {
+    "id": "juri-seo",
+    "name": "Juri Seo",
+    "nationality": "South Korean",
+    "born": 1981
+  },
+  "kaija-saariaho": {
+    "id": "kaija-saariaho",
+    "name": "Kaija Saariaho",
+    "nationality": "Finnish",
+    "born": 1952,
+    "died": 2023
+  },
+  "kamala-sankaram": {
+    "id": "kamala-sankaram",
+    "name": "Kamala Sankaram",
+    "nationality": "Classical"
+  },
+  "karlheinz-stockhausen": {
+    "id": "karlheinz-stockhausen",
+    "name": "Karlheinz Stockhausen",
+    "nationality": "German",
+    "born": 1928,
+    "died": 2007
+  },
+  "katherine-balch": {
+    "id": "katherine-balch",
+    "name": "Katherine Balch",
+    "nationality": "American",
+    "born": 1991
+  },
+  "ken-ueno": {
+    "id": "ken-ueno",
+    "name": "Ken Ueno",
+    "nationality": "American",
+    "born": 1970
+  },
+  "kenji-bunch": {
+    "id": "kenji-bunch",
+    "name": "Kenji Bunch",
+    "nationality": "American",
+    "born": 1973
+  },
+  "kevin-day": {
+    "id": "kevin-day",
+    "name": "Kevin Day",
+    "nationality": "American",
+    "born": 1996
+  },
+  "kevin-puts": {
+    "id": "kevin-puts",
+    "name": "Kevin Puts",
+    "nationality": "American",
+    "born": 1972
+  },
+  "krists-auznieks": {
+    "id": "krists-auznieks",
+    "name": "Krists Auznieks"
+  },
+  "krzysztof-penderecki": {
+    "id": "krzysztof-penderecki",
+    "name": "Krzysztof Penderecki",
+    "nationality": "Polish",
+    "born": 1933,
+    "died": 2020
+  },
+  "kyle-rivera": {
+    "id": "kyle-rivera",
+    "name": "Kyle Rivera",
+    "nationality": "American"
+  },
+  "lou-harrison": {
+    "id": "lou-harrison",
+    "name": "Lou Harrison",
+    "nationality": "American",
+    "born": 1917,
+    "died": 2003
+  },
+  "louis-andriessen": {
+    "id": "louis-andriessen",
+    "name": "Louis Andriessen",
+    "nationality": "Dutch"
+  },
+  "luciano-berio": {
+    "id": "luciano-berio",
+    "name": "Luciano Berio",
+    "nationality": "Italian",
+    "born": 1925,
+    "died": 2003
+  },
+  "magnus-lindberg": {
+    "id": "magnus-lindberg",
+    "name": "Magnus Lindberg",
+    "nationality": "Finnish"
+  },
+  "marc-mellits": {
+    "id": "marc-mellits",
+    "name": "Marc Mellits",
+    "nationality": "American",
+    "born": 1966
+  },
+  "marcos-balter": {
+    "id": "marcos-balter",
+    "name": "Marcos Balter",
+    "nationality": "Brazilian",
+    "born": 1974
+  },
+  "margaret-brouwer": {
+    "id": "margaret-brouwer",
+    "name": "Margaret Brouwer",
+    "nationality": "American"
+  },
+  "mark-anthony-turnage": {
+    "id": "mark-anthony-turnage",
+    "name": "Mark Anthony Turnage",
+    "nationality": "British",
+    "born": 1960
+  },
+  "mason-bates": {
+    "id": "mason-bates",
+    "name": "Mason Bates",
+    "nationality": "American",
+    "born": 1977
+  },
+  "matthew-aucoin": {
+    "id": "matthew-aucoin",
+    "name": "Matthew Aucoin",
+    "nationality": "American",
+    "born": 1990
+  },
+  "max-gibson": {
+    "id": "max-gibson",
+    "name": "Max Gibson",
+    "nationality": "American",
+    "born": 1999,
+    "died": 2001
+  },
+  "max-grafe": {
+    "id": "max-grafe",
+    "name": "Max Grafe"
+  },
+  "melinda-wagner": {
+    "id": "melinda-wagner",
+    "name": "Melinda Wagner",
+    "nationality": "American"
+  },
+  "michael-begay": {
+    "id": "michael-begay",
+    "name": "Michael Begay"
+  },
+  "michael-djupstrom": {
+    "id": "michael-djupstrom",
+    "name": "Michael Djupstrom",
+    "nationality": "American"
+  },
+  "michael-gordon": {
+    "id": "michael-gordon",
+    "name": "Michael Gordon"
+  },
+  "michael-ippolito": {
+    "id": "michael-ippolito",
+    "name": "Michael Ippolito"
+  },
+  "michael-schacter": {
+    "id": "michael-schacter",
+    "name": "Michael Schacter"
+  },
+  "missy-mazzoli": {
+    "id": "missy-mazzoli",
+    "name": "Missy Mazzoli",
+    "nationality": "American",
+    "born": 1980
+  },
+  "molly-herron": {
+    "id": "molly-herron",
+    "name": "Molly Herron",
+    "nationality": "American"
+  },
+  "nia-imani-franklin": {
+    "id": "nia-imani-franklin",
+    "name": "Nia Imani Franklin",
+    "nationality": "American"
+  },
+  "nico-muhly": {
+    "id": "nico-muhly",
+    "name": "Nico Muhly",
+    "nationality": "American",
+    "born": 1981
+  },
+  "nicolas-bentz": {
+    "id": "nicolas-bentz",
+    "name": "Nicolas Bentz",
+    "nationality": "American"
+  },
+  "nicole-gutman": {
+    "id": "nicole-gutman",
+    "name": "Nicole Gutman"
+  },
+  "nina-c-young": {
+    "id": "nina-c-young",
+    "name": "Nina C. Young",
+    "nationality": "American"
+  },
+  "olivier-messiaen": {
+    "id": "olivier-messiaen",
+    "name": "Olivier Messiaen",
+    "nationality": "French",
+    "born": 1908,
+    "died": 1992
+  },
+  "patrick-harlin": {
+    "id": "patrick-harlin",
+    "name": "Patrick Harlin"
+  },
+  "paul-mortilla": {
+    "id": "paul-mortilla",
+    "name": "Paul Mortilla",
+    "nationality": "American"
+  },
+  "peteris-vasks": {
+    "id": "peteris-vasks",
+    "name": "Peteris Vasks",
+    "nationality": "Latvian"
+  },
+  "philip-glass": {
+    "id": "philip-glass",
+    "name": "Philip Glass",
+    "nationality": "American",
+    "born": 1937
+  },
+  "philippe-hurel": {
+    "id": "philippe-hurel",
+    "name": "Philippe Hurel",
+    "nationality": "French"
+  },
+  "philippe-manoury": {
+    "id": "philippe-manoury",
+    "name": "Philippe Manoury",
+    "nationality": "French",
+    "born": 1952
+  },
+  "pierre-boulez": {
+    "id": "pierre-boulez",
+    "name": "Pierre Boulez",
+    "nationality": "French",
+    "born": 1925,
+    "died": 2016
+  },
+  "quinn-mason": {
+    "id": "quinn-mason",
+    "name": "Quinn Mason"
+  },
+  "raven-chacon": {
+    "id": "raven-chacon",
+    "name": "Raven Chacon",
+    "nationality": "American",
+    "born": 1977
+  },
+  "reena-esmail": {
+    "id": "reena-esmail",
+    "name": "Reena Esmail",
+    "nationality": "And"
+  },
+  "reiko-futing": {
+    "id": "reiko-futing",
+    "name": "Reiko Füting",
+    "nationality": "German",
+    "born": 1970
+  },
+  "roger-zare": {
+    "id": "roger-zare",
+    "name": "Roger Zare",
+    "nationality": "American",
+    "born": 1985
+  },
+  "ruth-crawford-seeger": {
+    "id": "ruth-crawford-seeger",
+    "name": "Ruth Crawford Seeger",
+    "nationality": "American",
+    "born": 1901,
+    "died": 1953
+  },
+  "sam-adams": {
+    "id": "sam-adams",
+    "name": "Sam Adams",
+    "nationality": "American",
+    "born": 1985
+  },
+  "sarah-kirkland-snider": {
+    "id": "sarah-kirkland-snider",
+    "name": "Sarah Kirkland Snider",
+    "nationality": "American",
+    "born": 1973
+  },
+  "scott-joplin": {
+    "id": "scott-joplin",
+    "name": "Scott Joplin",
+    "nationality": "American"
+  },
+  "scott-lee": {
+    "id": "scott-lee",
+    "name": "Scott Lee",
+    "nationality": "American"
+  },
+  "sean-quinn": {
+    "id": "sean-quinn",
+    "name": "Sean Quinn",
+    "nationality": "American"
+  },
+  "sebastian-currier": {
+    "id": "sebastian-currier",
+    "name": "Sebastian Currier",
+    "nationality": "American",
+    "born": 1959
+  },
+  "shaun-tilburg": {
+    "id": "shaun-tilburg",
+    "name": "Shaun Tilburg"
+  },
+  "shawn-allison": {
+    "id": "shawn-allison",
+    "name": "Shawn Allison",
+    "nationality": "American"
+  },
+  "shawn-okpebholo": {
+    "id": "shawn-okpebholo",
+    "name": "Shawn Okpebholo",
+    "nationality": "American",
+    "born": 1981
+  },
+  "sofia-gubaidulina": {
+    "id": "sofia-gubaidulina",
+    "name": "Sofia Gubaidulina",
+    "nationality": "Russian",
+    "born": 1931
+  },
+  "stacy-garrop": {
+    "id": "stacy-garrop",
+    "name": "Stacy Garrop",
+    "nationality": "American",
+    "born": 1969
+  },
+  "stephen-wood": {
+    "id": "stephen-wood",
+    "name": "Stephen Wood",
+    "nationality": "North",
+    "born": 1961,
+    "died": 1995
+  },
+  "steve-reich": {
+    "id": "steve-reich",
+    "name": "Steve Reich",
+    "nationality": "American",
+    "born": 1936
+  },
+  "tan-dun": {
+    "id": "tan-dun",
+    "name": "Tan Dun",
+    "nationality": "Chinese",
+    "born": 1957
+  },
+  "tania-leon": {
+    "id": "tania-leon",
+    "name": "Tania Leon"
+  },
+  "tansy-davies": {
+    "id": "tansy-davies",
+    "name": "Tansy Davies",
+    "nationality": "British"
+  },
+  "tom-johnson": {
+    "id": "tom-johnson",
+    "name": "Tom Johnson"
+  },
+  "tom-morrison": {
+    "id": "tom-morrison",
+    "name": "Tom Morrison",
+    "nationality": "American"
+  },
+  "treya-nash": {
+    "id": "treya-nash",
+    "name": "Treya Nash",
+    "nationality": "American"
+  },
+  "tyson-gholston-davis": {
+    "id": "tyson-gholston-davis",
+    "name": "Tyson Gholston Davis"
+  },
+  "ulysses-kay": {
+    "id": "ulysses-kay",
+    "name": "Ulysses Kay",
+    "nationality": "American",
+    "born": 1917,
+    "died": 1995
+  },
+  "unsuk-chin": {
+    "id": "unsuk-chin",
+    "name": "Unsuk Chin",
+    "nationality": "Korean",
+    "born": 1961
+  },
+  "viet-cuong": {
+    "id": "viet-cuong",
+    "name": "Viet Cuong",
+    "nationality": "American",
+    "born": 1990
+  },
+  "vivian-fung": {
+    "id": "vivian-fung",
+    "name": "Vivian Fung",
+    "nationality": "Canadian",
+    "born": 1975
+  },
+  "wolfgang-rihm": {
+    "id": "wolfgang-rihm",
+    "name": "Wolfgang Rihm",
+    "nationality": "German",
+    "born": 1952,
+    "died": 2024
+  },
+  "yangfan-xu": {
+    "id": "yangfan-xu",
+    "name": "Yangfan Xu",
+    "nationality": "Chinese"
+  },
+  "yaz-lancaster": {
+    "id": "yaz-lancaster",
+    "name": "Yaz Lancaster"
+  },
+  "zachary-konick": {
+    "id": "zachary-konick",
+    "name": "Zachary Konick",
+    "nationality": "American"
+  }
+}

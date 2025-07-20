@@ -1,4 +1,5 @@
 {
+  "concertId": "s08-2024-03-25-you-are-free",
   "title": "You Are Free",
   "date": "2024-03-25",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,12 +9,30 @@
       "year": 2016,
       "duration": "7'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "marimba", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "marimba",
+          "musicians": []
+        }
       ],
       "composerId": "sarah-kirkland-snider"
     },
@@ -22,11 +41,27 @@
       "year": 2024,
       "duration": "TBD",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
       "composerId": "kyle-rivera",
       "commission": true,
@@ -37,8 +72,14 @@
       "year": 2016,
       "duration": "14'",
       "instrumentation": [
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "marimba", "musicians": [] }
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "marimba",
+          "musicians": []
+        }
       ],
       "composerId": "shawn-okpebholo"
     },
@@ -47,11 +88,26 @@
       "year": 2018,
       "duration": "12'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "ania-vu"
     },
@@ -60,8 +116,14 @@
       "year": 2021,
       "duration": "20'",
       "instrumentation": [
-        { "instrument": "pipe organ", "musicians": [] },
-        { "instrument": "large ensemble", "musicians": [] }
+        {
+          "instrument": "pipe organ",
+          "musicians": []
+        },
+        {
+          "instrument": "large ensemble",
+          "musicians": []
+        }
       ],
       "composerId": "raven-chacon"
     }

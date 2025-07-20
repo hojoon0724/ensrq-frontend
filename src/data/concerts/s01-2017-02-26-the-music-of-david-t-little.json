@@ -1,0 +1,59 @@
+{
+  "concertId": "s01-2017-02-26-the-music-of-david-t-little",
+  "title": "The Music of David T. Little",
+  "subtitle": "",
+  "date": "2017-02-26",
+  "venue": "The Hermitage Artist Retreat",
+  "venueAddress": "6630 Manasota Key Road, Englewood, FL 34223",
+  "description": "A collaboration with The Hermitage Artist Retreat featuring resident composer David T. Little, who will be in attendance to offer perspective on his inspiration.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "and the sky was still there",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 0,
+          "musicians": []
+        },
+        {
+          "instrument": "electronics",
+          "count": 0,
+          "musicians": []
+        },
+        {
+          "instrument": "video",
+          "count": 0,
+          "musicians": []
+        }
+      ],
+      "composerId": "david-t-little",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Haunt of Last Nightfall",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "percussion quartet",
+          "count": 0,
+          "musicians": []
+        },
+        {
+          "instrument": "electronics",
+          "count": 0,
+          "musicians": []
+        }
+      ],
+      "composerId": "david-t-little",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

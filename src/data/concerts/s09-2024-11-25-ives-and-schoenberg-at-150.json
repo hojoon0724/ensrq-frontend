@@ -1,4 +1,5 @@
 {
+  "concertId": "s09-2024-11-25-ives-and-schoenberg-at-150",
   "title": "Ives and Schoenberg at 150",
   "date": "2024-11-25",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,12 +9,30 @@
       "year": 1912,
       "duration": "38'",
       "instrumentation": [
-        { "instrument": "voice", "musicians": [] },
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "voice",
+          "musicians": []
+        },
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "arnold-schoenberg"
     },
@@ -22,7 +41,11 @@
       "year": 1915,
       "duration": "45'",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "charles-ives"
     }

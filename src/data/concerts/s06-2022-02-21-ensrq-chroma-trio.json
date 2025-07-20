@@ -1,0 +1,134 @@
+{
+  "concertId": "s06-2022-02-21-ensrq-chroma-trio",
+  "title": "enSRQ + Chroma Trio",
+  "subtitle": "",
+  "date": "2022-02-21",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "description": "enSRQ's second commission of 21/22 is a team effort with Boston-based Chroma Trio, which shares founding member Samantha Bennett, bringing to life a new work by Tyson J. Davis, String Trio. Art-inspired works for strings flesh out this collaboration, including a duo from enSRQ favorite, Andreia Pinto Correia, Du Yun's string quartet, I Am My Own Achilles Heel and Freya Waley-Cohen's trio, Conjure.",
+  "sponsors": [
+    "Robert and Debbie Hendel"
+  ],
+  "program": [
+    {
+      "title": "String Trio (2021)",
+      "year": "",
+      "duration": "11'",
+      "movements": [
+        "I. Introduction",
+        "II. Synchromism and Cadenza I (Viola)",
+        "III. Nocturne 1",
+        "IV. Synchromism and Cadenza II (Violin)",
+        "V. Nocturne II",
+        "VI. Synchromism and Cadenza III (Cello)",
+        "VII. Epilogue"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Mary Ferrillo"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Francesca McNeeley"
+          ]
+        }
+      ],
+      "composerId": "tyson-gholston-davis",
+      "is_commission": "co-commission with Chroma Trio",
+      "is_premiere": false
+    },
+    {
+      "title": "Tres Quadros de Viera Da Silva/Fragmentos Multiplos (2009)",
+      "year": "",
+      "duration": "4'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Mary Ferrillo"
+          ]
+        }
+      ],
+      "composerId": "andreia-pinto-correia",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Conjure (2019)",
+      "year": "",
+      "duration": "11'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Mary Ferrillo"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Francesca McNeeley"
+          ]
+        }
+      ],
+      "composerId": "freya-waley-cohen",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "I Am My Own Achilles Heel (2019)",
+      "year": "",
+      "duration": "13'",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Chris Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Mary Ferrillo"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Francesca McNeeley"
+          ]
+        }
+      ],
+      "composerId": "du-yun",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "first-congregational-church": {
+    "id": "first-congregational-church",
+    "name": "First Congregational Church",
+    "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
+  },
+  "sarasota-opera-house": {
+    "id": "sarasota-opera-house",
+    "name": "Sarasota Opera House",
+    "address": "61 N. Pineapple Ave. Sarasota, FL 34236"
+  },
+  "the-hermitage-artist-retreat": {
+    "id": "the-hermitage-artist-retreat",
+    "name": "The Hermitage Artist Retreat",
+    "address": "6630 Manasota Key Rd, Englewood, FL 34223"
+  },
+  "southern-methodist-university": {
+    "id": "southern-methodist-university",
+    "name": "Southern Methodist University",
+    "address": "Dallas, TX 75205"
+  },
+  "the-ringling-museum": {
+    "id": "the-ringling-museum",
+    "name": "The Ringling Museum",
+    "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+  },
+  "historic-asolo-theater": {
+    "id": "historic-asolo-theater",
+    "name": "Historic Asolo Theater",
+    "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+  },
+  "mildred-sainer-pavilion": {
+    "id": "mildred-sainer-pavilion",
+    "name": "Mildred Sainer Pavilion",
+    "address": "5313 Bay Shore Rd, Sarasota, FL 34243"
+  },
+  "virtual": {
+    "id": "virtual",
+    "name": "Virtual Venue",
+    "address": "Online"
+  },
+  "studio-620": {
+    "id": "studio-620",
+    "name": "Studio@620",
+    "address": "620 1st Ave S, St. Petersburg, FL 33701"
+  },
+  "mildred-sainer-auditorium": {
+    "id": "mildred-sainer-auditorium",
+    "name": "Mildred Sainer Auditorium",
+    "address": "5313 Bay Shore Rd, Sarasota, FL 34243"
+  },
+  "first-united-methodist-church": {
+    "id": "first-united-methodist-church",
+    "name": "First United Methodist Church",
+    "address": "104 S. Pineapple Ave. Sarasota, FL 34236"
+  },
+  "alfstad-contemporary": {
+    "id": "alfstad-contemporary",
+    "name": "Alfstad& Contemporary",
+    "address": "1419 5th St, Sarasota, FL 34236"
+  },
+  "tbd": {
+    "id": "tbd",
+    "name": "TBD",
+    "address": "TBD"
+  }
+}

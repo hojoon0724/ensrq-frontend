@@ -1,4 +1,5 @@
 {
+  "concertId": "s08-2024-01-22-night-day",
   "title": "Night & Day",
   "date": "2024-01-22",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,8 +9,14 @@
       "year": 2023,
       "duration": "11'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
       "composerId": "scott-lee",
       "commission": true,
@@ -20,9 +27,18 @@
       "year": 2018,
       "duration": "8'",
       "instrumentation": [
-        { "instrument": "piano", "musicians": [] },
-        { "instrument": "bass", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] }
+        {
+          "instrument": "piano",
+          "musicians": []
+        },
+        {
+          "instrument": "bass",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
       "composerId": "molly-herron"
     },
@@ -31,8 +47,14 @@
       "year": 1998,
       "duration": "16'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "harp", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "harp",
+          "musicians": []
+        }
       ],
       "composerId": "sebastian-currier"
     },
@@ -41,9 +63,20 @@
       "year": 1997,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cellos", "count": 2, "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cellos",
+          "count": 2,
+          "musicians": []
+        }
       ],
       "composerId": "einojuhani-rautavaara"
     },
@@ -52,10 +85,23 @@
       "year": 2021,
       "duration": "12'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        }
       ],
       "composerId": "sam-adams"
     }

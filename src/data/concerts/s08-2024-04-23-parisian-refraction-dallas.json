@@ -1,21 +1,26 @@
 {
-  "title": "Parisian Refraction",
+  "concertId": "s08-2024-04-23-parisian-refraction-dallas",
+  "title": "Parisian Refraction - Dallas",
   "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
-  "dates": [
-    "2024-04-23 to 2024-04-29: Southern Methodist University, Dallas, Texas",
-    "2024-05-09 to 2024-05-11: Ringling Museum, Historic Asolo Theatre, Sarasota, Florida"
-  ],
+  "venue": "Southern Methodist University, Dallas, Texas",
+  "date": "2024-04-23",
+  "is_festival": true,
+  "endDate": "2024-04-29",
   "programs": [
     {
       "programTitle": "Program #1",
-      "description": "Conor Hanick: Solo Piano Recital",
-      "pieces": [
+      "subtitle": "Conor Hanick: Solo Piano Recital",
+      "program": [
         {
           "title": "Book of Sounds",
           "year": 1982,
           "duration": "60'",
           "instrumentation": [
-            { "instrument": "piano", "solo": true, "musicians": [] }
+            {
+              "instrument": "piano",
+              "solo": true,
+              "musicians": []
+            }
           ],
           "composerId": "hans-otte"
         }
@@ -23,15 +28,21 @@
     },
     {
       "programTitle": "Program #2",
-      "description": "Spotlight on Unsuk Chin",
-      "pieces": [
+      "subtitle": "Spotlight on Unsuk Chin",
+      "program": [
         {
           "title": "Acrostic Wordplay",
           "year": "1991 rev. 1993",
           "duration": "16'",
           "instrumentation": [
-            { "instrument": "soprano", "musicians": [] },
-            { "instrument": "ensemble", "musicians": [] }
+            {
+              "instrument": "soprano",
+              "musicians": []
+            },
+            {
+              "instrument": "ensemble",
+              "musicians": []
+            }
           ],
           "composerId": "unsuk-chin"
         },
@@ -40,8 +51,15 @@
           "year": 1991,
           "duration": "24'",
           "instrumentation": [
-            { "instrument": "violin", "solo": true, "musicians": [] },
-            { "instrument": "ensemble", "musicians": [] }
+            {
+              "instrument": "violin",
+              "solo": true,
+              "musicians": []
+            },
+            {
+              "instrument": "ensemble",
+              "musicians": []
+            }
           ],
           "composerId": "kaija-saariaho"
         },
@@ -50,9 +68,20 @@
           "year": 2002,
           "duration": "20'",
           "instrumentation": [
-            { "instrument": "piano", "solo": true, "musicians": [] },
-            { "instrument": "percussion", "solo": true, "musicians": [] },
-            { "instrument": "ensemble", "musicians": [] }
+            {
+              "instrument": "piano",
+              "solo": true,
+              "musicians": []
+            },
+            {
+              "instrument": "percussion",
+              "solo": true,
+              "musicians": []
+            },
+            {
+              "instrument": "ensemble",
+              "musicians": []
+            }
           ],
           "composerId": "unsuk-chin"
         }
@@ -60,15 +89,21 @@
     },
     {
       "programTitle": "Program #3",
-      "description": "Kafka Fragments",
-      "pieces": [
+      "subtitle": "Kafka Fragments",
+      "program": [
         {
           "title": "Kafka Fragments",
           "year": "1985-1986",
           "duration": "63'",
           "instrumentation": [
-            { "instrument": "soprano", "musicians": [] },
-            { "instrument": "violin", "musicians": [] }
+            {
+              "instrument": "soprano",
+              "musicians": []
+            },
+            {
+              "instrument": "violin",
+              "musicians": []
+            }
           ],
           "composerId": "gyorgy-kurtag"
         }
@@ -76,13 +111,17 @@
     },
     {
       "programTitle": "Program #4",
-      "pieces": [
+      "program": [
         {
           "title": "KLANG (Hour Two) Freude",
           "year": 2005,
           "duration": "41'",
           "instrumentation": [
-            { "instrument": "harps", "count": 2, "musicians": [] }
+            {
+              "instrument": "harps",
+              "count": 2,
+              "musicians": []
+            }
           ],
           "composerId": "karlheinz-stockhausen"
         },
@@ -91,9 +130,21 @@
           "year": 1998,
           "duration": "40'",
           "instrumentation": [
-            { "instrument": "harps", "count": 3, "musicians": [] },
-            { "instrument": "pianos", "count": 3, "musicians": [] },
-            { "instrument": "percussion", "count": 3, "musicians": [] }
+            {
+              "instrument": "harps",
+              "count": 3,
+              "musicians": []
+            },
+            {
+              "instrument": "pianos",
+              "count": 3,
+              "musicians": []
+            },
+            {
+              "instrument": "percussion",
+              "count": 3,
+              "musicians": []
+            }
           ],
           "composerId": "pierre-boulez"
         }

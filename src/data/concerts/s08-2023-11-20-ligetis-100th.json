@@ -1,4 +1,5 @@
 {
+  "concertId": "s08-2023-11-20-ligetis-100th",
   "title": "Ligeti's 100th",
   "subtitle": "Featuring Han Chen, piano",
   "date": "2023-11-20",
@@ -9,7 +10,11 @@
       "year": 2023,
       "duration": "3'",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "vivian-fung",
       "notes": "Inspired by White on White"
@@ -19,7 +24,11 @@
       "year": 1997,
       "duration": "4'30\"",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "gyorgy-ligeti"
     },
@@ -28,7 +37,11 @@
       "year": 2023,
       "duration": "2'30\"",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "tom-morrison",
       "notes": "Inspired by Fanfares"
@@ -38,7 +51,11 @@
       "year": 1985,
       "duration": "4'",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "gyorgy-ligeti"
     },
@@ -47,9 +64,13 @@
       "year": 2023,
       "duration": "2'30\"",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
-      "composerId": "nina-young",
+      "composerId": "nina-c-young",
       "notes": "Inspired by Automne à Varsovie"
     },
     {
@@ -57,7 +78,11 @@
       "year": 1985,
       "duration": "4'30\"",
       "instrumentation": [
-        { "instrument": "piano", "solo": true, "musicians": [] }
+        {
+          "instrument": "piano",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "gyorgy-ligeti"
     },
@@ -66,9 +91,18 @@
       "year": 2020,
       "duration": "14'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "horn", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "horn",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "stacy-garrop"
     },
@@ -77,8 +111,14 @@
       "year": 2020,
       "duration": "3'",
       "instrumentation": [
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "stacy-garrop",
       "notes": "Clarinet Version World Premiere"
@@ -88,7 +128,11 @@
       "year": 1953,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "cello", "solo": true, "musicians": [] }
+        {
+          "instrument": "cello",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "gyorgy-ligeti"
     },
@@ -97,9 +141,18 @@
       "year": 2014,
       "duration": "7'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "viet-cuong"
     },
@@ -108,9 +161,18 @@
       "year": 1982,
       "duration": "22'",
       "instrumentation": [
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "horn", "musicians": [] },
-        { "instrument": "piano", "musicians": [] }
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "horn",
+          "musicians": []
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
+        }
       ],
       "composerId": "gyorgy-ligeti"
     }

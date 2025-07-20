@@ -1,0 +1,94 @@
+{
+  "concertId": "s06-2022-03-28-vortex-temporum",
+  "title": "Vortex Temporum",
+  "subtitle": "(featuring Han Chen)",
+  "date": "2022-03-28",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "description": "Our journey into the French spectral compositional movement comes full circle with this presentation of Gérard Grisey's Vortex Temporum, featuring Van Cliburn Semi-Finalist and frequent enSRQ pianist, Han Chen. Witness the completion of the arc drawn from last season's works (Grisey's Stele, Périodes and Philippe Hurel's Loops II) with Hurel's musical reflection on Grisey's towering presence throughout 20th century composition, Tombeau in Memoriam Gérard Grisey and a return of enSRQ friend, Nina C. Young's, À bout de souffle for solo piano.",
+  "sponsors": [
+    "Eric Dean and Pat Michelsen"
+  ],
+  "program": [
+    {
+      "title": "Tombeau: In Memoriam Gérard Grisey (1999)",
+      "year": "",
+      "duration": "15'",
+      "movements": [
+        "I. Énergique",
+        "II. Lointain",
+        "III. ♩ = 72",
+        "IV. ♩ = 40"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "percussion",
+          "musicians": [
+            "George Nickson"
+          ]
+        }
+      ],
+      "composerId": "philippe-hurel",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "À bout de souffle for piano scordatura (2016)",
+      "year": "",
+      "duration": "6'",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "nina-c-young",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Vortex Temporum for six instruments (1996)",
+      "year": "",
+      "duration": "40'",
+      "movements": [
+        "I. ♩= 130 (à Gérard Zinsstag)",
+        "Interlude",
+        "II. ♩= 50 (à Salvatore Sciarrino)",
+        "Interlude",
+        "III. ♩= (à Helmut Lachenmann)",
+        "Interlude"
+      ],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Derek Mosloff"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Jamie Clark"
+          ]
+        },
+        {
+          "instrument": "flute",
+          "musicians": [
+            "Betsy Hudson Traba"
+          ]
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Thomas Frey"
+          ]
+        }
+      ],
+      "composerId": "gerard-grisey",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "concertId": "s09-2025-01-13-visions-and-miracles",
   "title": "Visions and Miracles",
   "date": "2025-01-13",
   "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
@@ -8,7 +9,11 @@
       "year": 2021,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "violin", "solo": true, "musicians": [] }
+        {
+          "instrument": "violin",
+          "solo": true,
+          "musicians": []
+        }
       ],
       "composerId": "anna-clyne"
     },
@@ -17,9 +22,19 @@
       "year": 1997,
       "duration": "16'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "chris-theofanidis"
     },
@@ -28,10 +43,22 @@
       "year": 2021,
       "duration": "9'",
       "instrumentation": [
-        { "instrument": "flute", "musicians": [] },
-        { "instrument": "clarinet", "musicians": [] },
-        { "instrument": "violin", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "flute",
+          "musicians": []
+        },
+        {
+          "instrument": "clarinet",
+          "musicians": []
+        },
+        {
+          "instrument": "violin",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "dai-wei"
     },
@@ -40,9 +67,19 @@
       "year": 2017,
       "duration": "12'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "han-lash"
     },
@@ -51,9 +88,19 @@
       "year": 2010,
       "duration": "21'",
       "instrumentation": [
-        { "instrument": "violins", "count": 2, "musicians": [] },
-        { "instrument": "viola", "musicians": [] },
-        { "instrument": "cello", "musicians": [] }
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
       ],
       "composerId": "gabriela-lena-frank"
     }

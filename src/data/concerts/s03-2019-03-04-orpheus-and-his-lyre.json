@@ -1,0 +1,59 @@
+{
+  "concertId": "s03-2019-03-04-orpheus-and-his-lyre",
+  "title": "Orpheus and His Lyre",
+  "subtitle": "",
+  "date": "2019-03-04",
+  "venue": "First Congregational Church",
+  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "description": "A literal and figurative look at the myth of Orpheus, a story that has allured artists throughout the centuries. Features Katherine Siochi on harp and Matthew Aucoin performing and presenting his work. Thea Lobo solos with Samantha Bennett.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Bariolage",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "harp",
+          "musicians": [
+            "Katherine Siochi"
+          ]
+        }
+      ],
+      "composerId": "elliott-carter",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Its Own Accord",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "matthew-aucoin",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Lyre of Orpheus",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "sofia-gubaidulina",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "The Orphic Moment",
+      "year": "",
+      "duration": "",
+      "movements": [],
+      "instrumentation": [],
+      "composerId": "matthew-aucoin",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}

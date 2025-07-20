@@ -1,0 +1,142 @@
+{
+  "concertId": "s04-2019-10-20-peculiar-dreams",
+  "title": "Peculiar Dreams",
+  "subtitle": "",
+  "date": "2019-10-20",
+  "venue": "Studio@620, 620 1st Avenue South, St. Petersburg, FL 33701",
+  "venueAddress": "",
+  "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+  "sponsors": [],
+  "program": [
+    {
+      "title": "Sequenza XIV for solo cello",
+      "year": "2002",
+      "duration": "13''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        }
+      ],
+      "composerId": "luciano-berio",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "An Index of Peculiar Strokes",
+      "year": "2011",
+      "duration": "12''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Hilary Gamble"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Natalie Helm"
+          ]
+        }
+      ],
+      "composerId": "andrew-norman",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Cosmic Dreams",
+      "year": "2013",
+      "duration": "14''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "vibraphone",
+          "musicians": [
+            "George Nickson"
+          ]
+        },
+        {
+          "instrument": "violin",
+          "count": 2,
+          "musicians": [
+            "Samantha Bennett",
+            "Jennifer Best Takeda"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "count": 2,
+          "musicians": [
+            "Rachel Halvorsen",
+            "Hilary Gamble"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "count": 2,
+          "musicians": [
+            "Natalie Helm",
+            "Christopher Schnell"
+          ]
+        }
+      ],
+      "composerId": "elizabeth-a-baker",
+      "is_commission": false,
+      "is_premiere": false
+    },
+    {
+      "title": "Sextet",
+      "year": "2000",
+      "duration": "30''",
+      "movements": [],
+      "instrumentation": [
+        {
+          "instrument": "clarinet",
+          "musicians": [
+            "Bharat Chandra"
+          ]
+        },
+        {
+          "instrument": "horn",
+          "musicians": [
+            "Joshua Horne"
+          ]
+        },
+        {
+          "instrument": "violin",
+          "musicians": [
+            "Samantha Bennett"
+          ]
+        },
+        {
+          "instrument": "viola",
+          "musicians": [
+            "Rachel Halvorsen"
+          ]
+        },
+        {
+          "instrument": "cello",
+          "musicians": [
+            "Christopher Schnell"
+          ]
+        }
+      ],
+      "composerId": "krzysztof-penderecki",
+      "is_commission": false,
+      "is_premiere": false
+    }
+  ]
+}
