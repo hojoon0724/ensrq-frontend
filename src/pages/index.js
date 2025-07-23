@@ -1,6 +1,6 @@
-import About from "./components/sections/00-about";
-import OklchColorTest from "./components/test-sections/99-oklch-color-test";
-import TypographyTestSection from "./components/test-sections/99-typography-test";
+import About from "@/components/sections/00-about";
+import OklchColorTest from "@/components/test-sections/99-oklch-color-test";
+import TypographyTestSection from "@/components/test-sections/99-typography-test";
 
 export default function Home() {
   return (

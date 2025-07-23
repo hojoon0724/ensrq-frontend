@@ -1,4 +1,4 @@
-import colorsJson from "../../../data/colors.js";
+import colorsJson from "@/data/colors.js";
 
 const hue = colorsJson.hues;
 const bgLightness = colorsJson.bgLightness;
