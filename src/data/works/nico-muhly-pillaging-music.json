@@ -1,0 +1,18 @@
+{
+  "workId": "nico-muhly-pillaging-music",
+  "title": "Pillaging Music",
+  "year": 2005,
+  "duration": "8'",
+  "instrumentation": [
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "electronics"
+    }
+  ],
+  "composerId": "nico-muhly"
+}

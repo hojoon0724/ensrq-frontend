@@ -1,0 +1,19 @@
+{
+  "workId": "gabriela-lena-frank-milagros",
+  "title": "Milagros",
+  "year": 2010,
+  "duration": "21'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "gabriela-lena-frank"
+}

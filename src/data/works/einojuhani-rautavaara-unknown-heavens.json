@@ -1,0 +1,20 @@
+{
+  "workId": "einojuhani-rautavaara-unknown-heavens",
+  "title": "Unknown Heavens",
+  "year": 1997,
+  "duration": "9'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cellos",
+      "count": 2
+    }
+  ],
+  "composerId": "einojuhani-rautavaara"
+}

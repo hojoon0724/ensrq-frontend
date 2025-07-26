@@ -1,0 +1,27 @@
+{
+  "workId": "gerard-grisey-vortex-temporum",
+  "title": "Vortex Temporum",
+  "year": "1996",
+  "duration": "",
+  "instrumentation": [
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "gerard-grisey"
+}

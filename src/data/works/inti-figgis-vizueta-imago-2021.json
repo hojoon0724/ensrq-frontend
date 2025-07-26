@@ -1,0 +1,19 @@
+{
+  "workId": "inti-figgis-vizueta-imago-2021",
+  "title": "Imago (2021)",
+  "year": "",
+  "duration": "15'",
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "inti-figgis-vizueta"
+}

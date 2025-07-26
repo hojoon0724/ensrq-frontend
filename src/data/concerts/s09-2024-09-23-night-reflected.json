@@ -2,12 +2,10 @@
   "concertId": "s09-2024-09-23-night-reflected",
   "title": "Night, Reflected",
   "date": "2024-09-23",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Glasshouse",
-      "year": 2023,
-      "duration": "11'",
+      "workId": "kevin-day-glasshouse",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -33,13 +31,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "kevin-day"
+      ]
     },
     {
-      "title": "String Quartet No. 2",
-      "year": 1987,
-      "duration": "9'",
+      "workId": "sofia-gubaidulina-string-quartet-no-2",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -54,13 +49,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "sofia-gubaidulina"
+      ]
     },
     {
-      "title": "Avian Mirrors",
-      "year": 2013,
-      "duration": "13'",
+      "workId": "arlene-sierra-avian-mirrors",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -70,13 +62,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "arlene-sierra"
+      ]
     },
     {
-      "title": "Stars in Dead Reflection",
-      "year": 2010,
-      "duration": "9'",
+      "workId": "chris-stark-stars-in-dead-reflection",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -94,13 +83,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "chris-stark"
+      ]
     },
     {
-      "title": "Night Rituals",
-      "year": 2012,
-      "duration": "15'",
+      "workId": "shawn-allison-night-rituals",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -126,8 +112,7 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "shawn-allison"
+      ]
     }
   ]
 }

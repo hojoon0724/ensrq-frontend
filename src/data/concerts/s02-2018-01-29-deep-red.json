@@ -3,58 +3,36 @@
   "title": "Deep Red",
   "subtitle": "",
   "date": "2018-01-29",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Luciano Berio's Sequenzas cycle kicks off with Sequenza VIII for violin. Features composer Bright Sheng conducting his dreamscape marimba concerto.",
   "sponsors": [],
   "program": [
     {
-      "title": "Sequenza VIII",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "luciano-berio-sequenza-viii",
       "instrumentation": [
         {
           "instrument": "violin",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Perpetual Chaconne",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "aaron-jay-kernis-perpetual-chaconne",
       "instrumentation": [
         {
           "instrument": "string quartet",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "aaron-jay-kernis",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Deep Red",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "bright-sheng-deep-red",
       "instrumentation": [
         {
           "instrument": "marimba",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "bright-sheng",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

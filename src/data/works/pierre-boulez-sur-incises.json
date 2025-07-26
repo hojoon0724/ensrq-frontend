@@ -1,0 +1,21 @@
+{
+  "workId": "pierre-boulez-sur-incises",
+  "title": "Sur Incises",
+  "year": 1998,
+  "duration": "40'",
+  "instrumentation": [
+    {
+      "instrument": "harps",
+      "count": 3
+    },
+    {
+      "instrument": "pianos",
+      "count": 3
+    },
+    {
+      "instrument": "percussion",
+      "count": 3
+    }
+  ],
+  "composerId": "pierre-boulez"
+}

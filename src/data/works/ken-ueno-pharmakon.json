@@ -1,0 +1,27 @@
+{
+  "workId": "ken-ueno-pharmakon",
+  "title": "Pharmakon",
+  "year": "2001",
+  "duration": "19''",
+  "instrumentation": [
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    }
+  ],
+  "composerId": "ken-ueno"
+}

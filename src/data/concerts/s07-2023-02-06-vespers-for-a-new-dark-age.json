@@ -3,8 +3,7 @@
   "title": "Vespers for a New Dark Age",
   "subtitle": "",
   "date": "2023-02-06",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "venue": "first-congregational-church",
   "description": "Collaboration with Verdigris Ensemble, featuring Christopher Cerrone's The Branch Will Not Break and Missy Mazzoli's Vespers for a New Dark Age.",
   "sponsors": [
     "Sarasota County Tourist Development Cultural/Arts Grant",
@@ -13,38 +12,12 @@
   ],
   "program": [
     {
-      "title": "The Branch Will Not Break (2015)",
-      "year": "",
-      "duration": "22'",
-      "movements": [
-        "I. Lying in a Hammock at William Duffy’s",
-        "II. Two Horses Playing in the Orchard",
-        "III. Two Hangovers, Number One",
-        "IV. From a Bus Window in Central Ohio, Just Before a Thunder Shower",
-        "V. Having Lost My Sons, I Confront the Wreckage of the Moon: Christmas, 1960",
-        "VI. Two Hangovers, Number Two: I Try to Waken and Greet the World Once Again",
-        "VII. A Blessing"
-      ],
-      "instrumentation": [],
-      "composerId": "christopher-cerrone",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "christopher-cerrone-the-branch-will-not-break-2015",
+      "instrumentation": []
     },
     {
-      "title": "Vespers for a New Dark Age (2014)",
-      "year": "",
-      "duration": "23'",
-      "movements": [
-        "I. Wayward Free Radical Dreams",
-        "II. Hello Lord",
-        "III. Come On All You",
-        "IV. New Dark Age",
-        "V. Machine"
-      ],
-      "instrumentation": [],
-      "composerId": "missy-mazzoli",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "missy-mazzoli-vespers-for-a-new-dark-age-2014",
+      "instrumentation": []
     }
   ]
 }

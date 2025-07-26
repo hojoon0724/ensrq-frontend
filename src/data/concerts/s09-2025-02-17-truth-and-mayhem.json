@@ -2,38 +2,29 @@
   "concertId": "s09-2025-02-17-truth-and-mayhem",
   "title": "Truth and Mayhem",
   "date": "2025-02-17",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Music for the Temple",
-      "year": 2019,
-      "duration": "TBD",
+      "workId": "jonathan-cziner-music-for-the-temple",
       "instrumentation": [
         {
           "instrument": "marimba",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "jonathan-cziner"
+      ]
     },
     {
-      "title": "Fear/Release",
-      "year": 2017,
-      "duration": "8'",
+      "workId": "ellen-reid-fear-release",
       "instrumentation": [
         {
           "instrument": "percussion",
           "count": 4,
           "musicians": []
         }
-      ],
-      "composerId": "ellen-reid"
+      ]
     },
     {
-      "title": "Pillaging Music",
-      "year": 2005,
-      "duration": "8'",
+      "workId": "nico-muhly-pillaging-music",
       "instrumentation": [
         {
           "instrument": "piano",
@@ -47,17 +38,13 @@
           "instrument": "electronics",
           "musicians": []
         }
-      ],
-      "composerId": "nico-muhly"
+      ]
     },
     {
-      "title": "Elegy: Snow in June",
-      "year": 1991,
-      "duration": "25'",
+      "workId": "tan-dun-elegy-snow-in-june",
       "instrumentation": [
         {
           "instrument": "cello",
-          "solo": true,
           "musicians": []
         },
         {
@@ -65,8 +52,7 @@
           "count": 4,
           "musicians": []
         }
-      ],
-      "composerId": "tan-dun"
+      ]
     }
   ]
 }

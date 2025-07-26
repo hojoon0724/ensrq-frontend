@@ -1,0 +1,19 @@
+{
+  "workId": "michael-ippolito-string-quartet-no-3-songlines",
+  "title": "String Quartet No. 3 Songlines",
+  "year": 2012,
+  "duration": "11'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "michael-ippolito"
+}

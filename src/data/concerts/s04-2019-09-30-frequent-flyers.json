@@ -3,16 +3,12 @@
   "title": "Frequent Flyers",
   "subtitle": "",
   "date": "2019-09-30",
-  "venue": "First United Methodist Church, 104 S. Pineapple Ave. Sarasota, FL 34236",
-  "venueAddress": "",
+  "venue": "first-united-methodist-church",
   "description": "Winds and Brass take flight from the lone voice of Berio's Trumpet Sequenza, to the full complement of orchestral brass in Magnus Lindberg's Ottoni and Peteris Vasks' Music for Fleeting Birds. Pianist Conor Hanick shines in technicolor with Messiaen's Colors of the Celestial City, an ode to the stars in this fanfare of a Season Opener.",
   "sponsors": [],
   "program": [
     {
-      "title": "Sequenza X for solo C trumpet and piano resonance",
-      "year": "1984",
-      "duration": "17''",
-      "movements": [],
+      "workId": "luciano-berio-sequenza-x-for-solo-c-trumpet-and-piano-resonance",
       "instrumentation": [
         {
           "instrument": "trumpet",
@@ -20,16 +16,10 @@
             "Anthony Limoncelli"
           ]
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Wind Quintet #1 \"Music for Fleeting Birds\"",
-      "year": "1977",
-      "duration": "9''",
-      "movements": [],
+      "workId": "peteris-vasks-wind-quintet-1-music-for-fleeting-birds",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -61,16 +51,10 @@
             "Joshua Horne"
           ]
         }
-      ],
-      "composerId": "peteris-vasks",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Ottoni",
-      "year": "2005",
-      "duration": "13''",
-      "movements": [],
+      "workId": "magnus-lindberg-ottoni",
       "instrumentation": [
         {
           "instrument": "horn",
@@ -107,16 +91,10 @@
             "Aaron Tindall"
           ]
         }
-      ],
-      "composerId": "magnus-lindberg",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Couleurs de la Cité Céleste",
-      "year": "1963",
-      "duration": "16''",
-      "movements": [],
+      "workId": "olivier-messiaen-couleurs-de-la-cit-c-leste",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -173,10 +151,7 @@
             "Conor Hanick"
           ]
         }
-      ],
-      "composerId": "olivier-messiaen",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

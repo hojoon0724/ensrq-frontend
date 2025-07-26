@@ -2,19 +2,27 @@
   "concertId": "s10-2026-05-22-music-for-new-bodies",
   "title": "Music for New Bodies",
   "date": "2026-05-22",
-  "venue": "Sarasota Opera House, 61 N. Pineapple Ave. Sarasota, FL 34236",
+  "venue": "sarasota-opera-house",
+  "streamingPageAccessPassword": "password",
   "program": [
     {
-      "title": "Music for New Bodies",
-      "year": 2024,
-      "duration": "90'",
+      "workId": "matthew-aucoin-music-for-new-bodies",
       "instrumentation": [
         {
           "instrument": "large ensemble",
           "musicians": []
         }
-      ],
-      "composerId": "matthew-aucoin"
+      ]
     }
-  ]
+  ],
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  }
 }

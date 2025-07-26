@@ -1,0 +1,12 @@
+{
+  "workId": "che-buford-new-work",
+  "title": "New Work",
+  "year": 2026,
+  "duration": "15'",
+  "instrumentation": [
+    {
+      "instrument": "tbd"
+    }
+  ],
+  "composerId": "che-buford"
+}

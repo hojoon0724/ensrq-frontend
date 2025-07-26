@@ -2,12 +2,10 @@
   "concertId": "s08-2024-01-22-night-day",
   "title": "Night & Day",
   "date": "2024-01-22",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Karst",
-      "year": 2023,
-      "duration": "11'",
+      "workId": "scott-lee-karst",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -17,15 +15,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "scott-lee",
-      "commission": true,
-      "premiere": true
+      ]
     },
     {
-      "title": "Ebb Tide",
-      "year": 2018,
-      "duration": "8'",
+      "workId": "molly-herron-ebb-tide",
       "instrumentation": [
         {
           "instrument": "piano",
@@ -39,13 +32,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "molly-herron"
+      ]
     },
     {
-      "title": "Night Time",
-      "year": 1998,
-      "duration": "16'",
+      "workId": "sebastian-currier-night-time",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -55,13 +45,10 @@
           "instrument": "harp",
           "musicians": []
         }
-      ],
-      "composerId": "sebastian-currier"
+      ]
     },
     {
-      "title": "Unknown Heavens",
-      "year": 1997,
-      "duration": "9'",
+      "workId": "einojuhani-rautavaara-unknown-heavens",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -77,13 +64,10 @@
           "count": 2,
           "musicians": []
         }
-      ],
-      "composerId": "einojuhani-rautavaara"
+      ]
     },
     {
-      "title": "Sundial",
-      "year": 2021,
-      "duration": "12'",
+      "workId": "sam-adams-sundial",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -102,8 +86,7 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "sam-adams"
+      ]
     }
   ]
 }

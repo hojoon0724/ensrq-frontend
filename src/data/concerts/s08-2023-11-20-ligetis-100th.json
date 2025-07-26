@@ -3,93 +3,64 @@
   "title": "Ligeti's 100th",
   "subtitle": "Featuring Han Chen, piano",
   "date": "2023-11-20",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "White on Black",
-      "year": 2023,
-      "duration": "3'",
+      "workId": "vivian-fung-white-on-black",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "vivian-fung",
-      "notes": "Inspired by White on White"
+      ]
     },
     {
-      "title": "Étude No. 15 White on White",
-      "year": 1997,
-      "duration": "4'30\"",
+      "workId": "gyorgy-ligeti-tude-no-15-white-on-white",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "gyorgy-ligeti"
+      ]
     },
     {
-      "title": "no way out but through",
-      "year": 2023,
-      "duration": "2'30\"",
+      "workId": "tom-morrison-no-way-out-but-through",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "tom-morrison",
-      "notes": "Inspired by Fanfares"
+      ]
     },
     {
-      "title": "Étude No. 4 Fanfares",
-      "year": 1985,
-      "duration": "4'",
+      "workId": "gyorgy-ligeti-tude-no-4-fanfares",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "gyorgy-ligeti"
+      ]
     },
     {
-      "title": "it is within you that the ghosts acquire voices",
-      "year": 2023,
-      "duration": "2'30\"",
+      "workId": "nina-c-young-it-is-within-you-that-the-ghosts-acquire-voices",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "nina-c-young",
-      "notes": "Inspired by Automne à Varsovie"
+      ]
     },
     {
-      "title": "Étude No. 6 Automne à Varsovie",
-      "year": 1985,
-      "duration": "4'30\"",
+      "workId": "gyorgy-ligeti-tude-no-6-automne-varsovie",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "gyorgy-ligeti"
+      ]
     },
     {
-      "title": "Slipstream",
-      "year": 2020,
-      "duration": "14'",
+      "workId": "stacy-garrop-slipstream",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -103,13 +74,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "stacy-garrop"
+      ]
     },
     {
-      "title": "The Solitude of Stars",
-      "year": 2020,
-      "duration": "3'",
+      "workId": "stacy-garrop-the-solitude-of-stars",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -119,27 +87,19 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "stacy-garrop",
-      "notes": "Clarinet Version World Premiere"
+      ]
     },
     {
-      "title": "Cello Sonata",
-      "year": 1953,
-      "duration": "9'",
+      "workId": "gyorgy-ligeti-cello-sonata",
       "instrumentation": [
         {
           "instrument": "cello",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "gyorgy-ligeti"
+      ]
     },
     {
-      "title": "Wax and Wire",
-      "year": 2014,
-      "duration": "7'",
+      "workId": "viet-cuong-wax-and-wire",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -153,13 +113,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "viet-cuong"
+      ]
     },
     {
-      "title": "Horn Trio",
-      "year": 1982,
-      "duration": "22'",
+      "workId": "gyorgy-ligeti-horn-trio",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -173,8 +130,7 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "gyorgy-ligeti"
+      ]
     }
   ]
 }

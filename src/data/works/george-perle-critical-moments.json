@@ -1,0 +1,28 @@
+{
+  "workId": "george-perle-critical-moments",
+  "title": "Critical Moments",
+  "year": 2001,
+  "duration": "10'",
+  "instrumentation": [
+    {
+      "instrument": "flutes",
+      "count": 2
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "george-perle"
+}

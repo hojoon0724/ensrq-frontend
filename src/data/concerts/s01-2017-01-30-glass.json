@@ -3,60 +3,29 @@
   "title": "Glass",
   "subtitle": "",
   "date": "2017-01-30",
-  "venue": "Alfstad& Contemporary",
-  "venueAddress": "1419 5th Street, Sarasota, FL 34236",
+  "venue": "alfstad-contemporary",
   "description": "An intimate performance in the gallery space among glass artwork by Kathleen Mulcahy and Ron Desmett, part of Sarasota's Art Glass Weekend.",
   "sponsors": [],
   "program": [
     {
-      "title": "Mirrors",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "kaija-saariaho",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "kaija-saariaho-mirrors",
+      "instrumentation": []
     },
     {
-      "title": "String Quartet #2",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "philip-glass",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "philip-glass-string-quartet-2",
+      "instrumentation": []
     },
     {
-      "title": "Reflections on the Nature of Water",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "jacob-druchman",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "jacob-druchman-reflections-on-the-nature-of-water",
+      "instrumentation": []
     },
     {
-      "title": "Together",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "isang-yun",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "isang-yun-together",
+      "instrumentation": []
     },
     {
-      "title": "Light Screens",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "andrew-norman",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "andrew-norman-light-screens",
+      "instrumentation": []
     }
   ]
 }

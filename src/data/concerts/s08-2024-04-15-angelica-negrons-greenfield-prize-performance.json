@@ -1,22 +1,40 @@
 {
+  "concertId": "s08-2024-04-15-angelica-negrons-greenfield-prize-performance",
   "title": "Angélica Negrón's Greenfield Prize Performance",
   "date": "2024-04-15",
-  "venue": "The Hermitage Artist Retreat, Manasota Key, FL",
+  "venue": "the-hermitage-artist-retreat",
   "program": [
     {
-      "title": "Azul Naranja Salado",
-      "year": 2024,
-      "duration": "35'",
+      "workId": "angelica-negron-azul-naranja-salado",
       "instrumentation": [
-        { "instrument": "violas", "count": 6, "musicians": [] },
-        { "instrument": "cellos", "count": 4, "musicians": [] },
-        { "instrument": "double basses", "count": 4, "musicians": [] },
-        { "instrument": "harp", "musicians": [] },
-        { "instrument": "percussion", "musicians": [] },
-        { "instrument": "electronics", "musicians": [] }
-      ],
-      "composerId": "angelica-negron",
-      "premiere": true
+        {
+          "instrument": "violas",
+          "count": 6,
+          "musicians": []
+        },
+        {
+          "instrument": "cellos",
+          "count": 4,
+          "musicians": []
+        },
+        {
+          "instrument": "double basses",
+          "count": 4,
+          "musicians": []
+        },
+        {
+          "instrument": "harp",
+          "musicians": []
+        },
+        {
+          "instrument": "percussion",
+          "musicians": []
+        },
+        {
+          "instrument": "electronics",
+          "musicians": []
+        }
+      ]
     }
   ]
 }

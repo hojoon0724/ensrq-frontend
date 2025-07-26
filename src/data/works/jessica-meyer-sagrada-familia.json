@@ -1,0 +1,27 @@
+{
+  "workId": "jessica-meyer-sagrada-familia",
+  "title": "Sagrada Familia",
+  "year": "2017",
+  "duration": "16''",
+  "instrumentation": [
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "bass clarinet"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "jessica-meyer"
+}

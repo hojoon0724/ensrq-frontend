@@ -1,0 +1,23 @@
+{
+  "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
+  "title": "Black Angels: Thirteen Images from the Dark Land (1970)",
+  "year": "",
+  "duration": "25'",
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "percussion",
+      "count": 4
+    }
+  ],
+  "composerId": "george-crumb"
+}

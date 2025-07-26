@@ -3,8 +3,7 @@
   "title": "Crumb",
   "subtitle": "",
   "date": "2023-01-16",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "venue": "first-congregational-church",
   "description": "A tribute to George Crumb (1929-2022), featuring his Madrigals and Black Angels, and Margaret Brouwer's Demeter Prelude.",
   "sponsors": [
     "Susan Robinson",
@@ -13,15 +12,7 @@
   ],
   "program": [
     {
-      "title": "Madrigals (1965-1969)",
-      "year": "",
-      "duration": "32'",
-      "movements": [
-        "Book 1 (1965)",
-        "Book 2 (1965)",
-        "Book 3 (1969)",
-        "Book 4 (1969)"
-      ],
+      "workId": "george-crumb-madrigals-1965-1969",
       "instrumentation": [
         {
           "instrument": "soprano",
@@ -53,16 +44,10 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "george-crumb",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Demeter Prelude (1997)",
-      "year": "",
-      "duration": "8'",
-      "movements": [],
+      "workId": "margaret-brouwer-demeter-prelude-1997",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -84,32 +69,10 @@
             "Jamie Clark"
           ]
         }
-      ],
-      "composerId": "margaret-brouwer",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Black Angels: Thirteen Images from the Dark Land (1970)",
-      "year": "",
-      "duration": "25'",
-      "movements": [
-        "I. Departure",
-        "Threnody I: Night of the Electric Insects Sounds of Bones and Flutes",
-        "Lost Bells",
-        "Devil-music",
-        "Danse Macabre",
-        "II. Absence",
-        "Pavana Lachrymae",
-        "Threnody II: Black Angels!",
-        "Sarabanda de la Muerte Oscura",
-        "Lost Bells (Echo)",
-        "III. Return",
-        "God-music",
-        "Ancient Voices",
-        "Ancient Voices (Echo)",
-        "Threnody III: Night of the Electric Insects"
-      ],
+      "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -136,10 +99,7 @@
           "count": 4,
           "musicians": []
         }
-      ],
-      "composerId": "george-crumb",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

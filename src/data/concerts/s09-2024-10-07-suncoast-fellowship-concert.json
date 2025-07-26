@@ -2,12 +2,10 @@
   "concertId": "s09-2024-10-07-suncoast-fellowship-concert",
   "title": "Suncoast Fellowship Concert",
   "date": "2024-10-07",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Nothing Motorized",
-      "year": 2019,
-      "duration": "10'",
+      "workId": "treya-nash-nothing-motorized",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -26,13 +24,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "treya-nash"
+      ]
     },
     {
-      "title": "The Piercing Blazing Bell Amidst Intertwined Swirls of Musical Shoal Water The Painting Drowned In Its Own Sound",
-      "year": 2023,
-      "duration": "4'",
+      "workId": "daniel-gostelow-the-piercing-blazing-bell-amidst-intertwined-swirls-of-musical-shoal-water-the-painting-drowned-in-its-own-sound",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -50,65 +45,46 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "daniel-gostelow"
+      ]
     },
     {
-      "title": "Three and a Half Meditations",
-      "year": 2020,
-      "duration": "7'",
+      "workId": "david-acevedo-three-and-a-half-meditations",
       "instrumentation": [
         {
           "instrument": "marimba",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "david-acevedo"
+      ]
     },
     {
-      "title": "Playbox - Cadenza",
-      "year": 2024,
-      "duration": "9'",
+      "workId": "daniel-gostelow-playbox-cadenza",
       "instrumentation": [
         {
           "instrument": "piano",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "daniel-gostelow"
+      ]
     },
     {
-      "title": "can i forget the rising sun",
-      "year": "2022-2024",
-      "duration": "6'",
+      "workId": "sean-quinn-can-i-forget-the-rising-sun",
       "instrumentation": [
         {
           "instrument": "violin",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "sean-quinn"
+      ]
     },
     {
-      "title": "Mercurial Spell",
-      "year": 2023,
-      "duration": "3'",
+      "workId": "joshua-muetzel-mercurial-spell",
       "instrumentation": [
         {
           "instrument": "viola",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "joshua-muetzel"
+      ]
     },
     {
-      "title": "...those stones, watching, over lochs, through time…",
-      "year": 2024,
-      "duration": "9'",
+      "workId": "max-gibson-those-stones-watching-over-lochs-through-time",
       "instrumentation": [
         {
           "instrument": "piano",
@@ -122,13 +98,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "max-gibson"
+      ]
     },
     {
-      "title": "Bragdon Wood",
-      "year": 2024,
-      "duration": "2'",
+      "workId": "david-acevedo-bragdon-wood",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -142,13 +115,10 @@
           "instrument": "prepared piano",
           "musicians": []
         }
-      ],
-      "composerId": "david-acevedo"
+      ]
     },
     {
-      "title": "Night",
-      "year": 2023,
-      "duration": "5'",
+      "workId": "joshua-muetzel-night",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -158,8 +128,7 @@
           "instrument": "viola",
           "musicians": []
         }
-      ],
-      "composerId": "joshua-muetzel"
+      ]
     }
   ]
 }

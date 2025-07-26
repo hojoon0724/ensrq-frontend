@@ -1,0 +1,19 @@
+{
+  "workId": "andrew-norman-an-index-of-peculiar-strokes",
+  "title": "An Index of Peculiar Strokes",
+  "year": "2011",
+  "duration": "12''",
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "andrew-norman"
+}

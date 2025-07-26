@@ -1,0 +1,25 @@
+{
+  "workId": "gabriela-ortiz-pico-bite-beat-2018",
+  "title": "Pico-Bite-Beat (2018)",
+  "year": "",
+  "duration": "19'",
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "electronics"
+    }
+  ],
+  "composerId": "gabriela-ortiz"
+}

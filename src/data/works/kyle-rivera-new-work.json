@@ -1,0 +1,25 @@
+{
+  "workId": "kyle-rivera-new-work",
+  "title": "New Work",
+  "year": 2024,
+  "duration": "TBD",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "percussion"
+    }
+  ],
+  "composerId": "kyle-rivera"
+}

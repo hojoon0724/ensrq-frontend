@@ -1,0 +1,15 @@
+{
+  "workId": "kaija-saariaho-graal-theatre",
+  "title": "Graal Theatre",
+  "year": 1991,
+  "duration": "24'",
+  "instrumentation": [
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "ensemble"
+    }
+  ],
+  "composerId": "kaija-saariaho"
+}

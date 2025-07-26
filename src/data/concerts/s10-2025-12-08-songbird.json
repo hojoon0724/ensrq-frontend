@@ -2,12 +2,11 @@
   "concertId": "s10-2025-12-08-songbird",
   "title": "Songbird",
   "date": "2025-12-08",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
   "program": [
     {
-      "title": "procession- process:peace (dona nobis pacem)",
-      "year": 2017,
-      "duration": "10'",
+      "workId": "reiko-futing-procession-process-peace-dona-nobis-pacem",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -25,13 +24,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "reiko-futing"
+      ]
     },
     {
-      "title": "Songbird",
-      "year": 2021,
-      "duration": "13'",
+      "workId": "juri-seo-songbird",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -48,13 +44,10 @@
           "count": 2,
           "musicians": []
         }
-      ],
-      "composerId": "juri-seo"
+      ]
     },
     {
-      "title": "String Quartet No. 4: \"Insects and Machines\"",
-      "year": 2019,
-      "duration": "12'",
+      "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -69,26 +62,19 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "vivian-fung"
+      ]
     },
     {
-      "title": "New Work",
-      "year": 2025,
-      "duration": "10'",
+      "workId": "diallo-banks-new-work",
       "instrumentation": [
         {
-          "instrument": "TBD",
+          "instrument": "tbd",
           "musicians": []
         }
-      ],
-      "composerId": "diallo-banks",
-      "commission": true
+      ]
     },
     {
-      "title": "String Quartet No. 3 Songlines",
-      "year": 2012,
-      "duration": "11'",
+      "workId": "michael-ippolito-string-quartet-no-3-songlines",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -103,8 +89,17 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "michael-ippolito"
+      ]
     }
-  ]
+  ],
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  }
 }

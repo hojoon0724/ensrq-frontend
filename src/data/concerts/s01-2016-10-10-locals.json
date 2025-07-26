@@ -3,60 +3,29 @@
   "title": "Locals",
   "subtitle": "Sarasota composers. Sarasota musicians. Sarasota themed works.",
   "date": "2016-10-10",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "A concert featuring Sarasota composers, musicians, and themed works.",
   "sponsors": [],
   "program": [
     {
-      "title": "Lunation 1113",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "roger-zare",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "roger-zare-lunation-1113",
+      "instrumentation": []
     },
     {
-      "title": "Anhinga and Well-Enclowned",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "gil-katz",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "gil-katz-anhinga-and-well-enclowned",
+      "instrumentation": []
     },
     {
-      "title": "Failing",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "tom-johnson",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "tom-johnson-failing",
+      "instrumentation": []
     },
     {
-      "title": "Sandpipers",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "nicole-gutman",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "nicole-gutman-sandpipers",
+      "instrumentation": []
     },
     {
-      "title": "Songs of Loneliness",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "francis-schwartz",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "francis-schwartz-songs-of-loneliness",
+      "instrumentation": []
     }
   ]
 }

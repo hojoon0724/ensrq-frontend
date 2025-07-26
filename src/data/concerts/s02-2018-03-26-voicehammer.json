@@ -3,16 +3,12 @@
   "title": "Voice/Hammer",
   "subtitle": "",
   "date": "2018-03-26",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Two of Europe's most influential 20th Century masters. Features Sarasota's own mezzo-soprano Thea Lobo in Berio's Sequenza III.",
   "sponsors": [],
   "program": [
     {
-      "title": "Sequenza III",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "luciano-berio-sequenza-iii",
       "instrumentation": [
         {
           "instrument": "mezzo-soprano",
@@ -20,26 +16,16 @@
             "Thea Lobo"
           ]
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Le marteau sans maître",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "pierre-boulez-le-marteau-sans-ma-tre",
       "instrumentation": [
         {
           "instrument": "mixed ensemble",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "pierre-boulez",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

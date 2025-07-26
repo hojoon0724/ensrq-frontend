@@ -1,0 +1,12 @@
+{
+  "workId": "hans-otte-book-of-sounds",
+  "title": "Book of Sounds",
+  "year": 1982,
+  "duration": "60'",
+  "instrumentation": [
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "hans-otte"
+}

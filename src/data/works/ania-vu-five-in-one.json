@@ -1,0 +1,24 @@
+{
+  "workId": "ania-vu-five-in-one",
+  "title": "Five in One",
+  "year": 2018,
+  "duration": "12'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "ania-vu"
+}

@@ -1,0 +1,30 @@
+{
+  "workId": "angelica-negron-azul-naranja-salado",
+  "title": "Azul Naranja Salado",
+  "year": 2024,
+  "duration": "35'",
+  "instrumentation": [
+    {
+      "instrument": "violas",
+      "count": 6
+    },
+    {
+      "instrument": "cellos",
+      "count": 4
+    },
+    {
+      "instrument": "double basses",
+      "count": 4
+    },
+    {
+      "instrument": "harp"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "electronics"
+    }
+  ],
+  "composerId": "angelica-negron"
+}

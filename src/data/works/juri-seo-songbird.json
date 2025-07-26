@@ -1,0 +1,21 @@
+{
+  "workId": "juri-seo-songbird",
+  "title": "Songbird",
+  "year": 2021,
+  "duration": "13'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "violas",
+      "count": 2
+    },
+    {
+      "instrument": "cellos",
+      "count": 2
+    }
+  ],
+  "composerId": "juri-seo"
+}

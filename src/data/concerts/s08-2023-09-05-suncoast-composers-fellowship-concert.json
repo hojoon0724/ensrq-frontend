@@ -2,12 +2,10 @@
   "concertId": "s08-2023-09-05-suncoast-composers-fellowship-concert",
   "title": "Suncoast Composers Fellowship Concert",
   "date": "2023-09-05",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Glimpse",
-      "year": 2023,
-      "duration": "10'",
+      "workId": "nicolas-bentz-glimpse",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -25,13 +23,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "nicolas-bentz"
+      ]
     },
     {
-      "title": "Before Entrance and After Exits, Dreams Await",
-      "year": 2023,
-      "duration": "8'",
+      "workId": "claire-hu-before-entrance-and-after-exits-dreams-await",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -46,13 +41,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "claire-hu"
+      ]
     },
     {
-      "title": "Flickering Airs",
-      "year": 2023,
-      "duration": "6'",
+      "workId": "angela-elizabeth-slater-flickering-airs",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -75,13 +67,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "angela-elizabeth-slater"
+      ]
     },
     {
-      "title": "Luo Jiang Yuan – A bit blue",
-      "year": 2023,
-      "duration": "8'",
+      "workId": "yangfan-xu-luo-jiang-yuan-a-bit-blue",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -96,13 +85,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "yangfan-xu"
+      ]
     },
     {
-      "title": "Meditations",
-      "year": 2023,
-      "duration": "4'",
+      "workId": "zachary-konick-meditations",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -112,26 +98,19 @@
           "instrument": "dulcimer",
           "musicians": []
         }
-      ],
-      "composerId": "zachary-konick"
+      ]
     },
     {
-      "title": "Surface",
-      "year": 2023,
-      "duration": "7'",
+      "workId": "zachary-konick-surface",
       "instrumentation": [
         {
           "instrument": "dulcimer",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "zachary-konick"
+      ]
     },
     {
-      "title": "Daybreak of Dust",
-      "year": 2023,
-      "duration": "3'",
+      "workId": "angela-elizabeth-slater-daybreak-of-dust",
       "instrumentation": [
         {
           "instrument": "cello",
@@ -141,13 +120,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "angela-elizabeth-slater"
+      ]
     },
     {
-      "title": "Infinite Spinning",
-      "year": 2023,
-      "duration": "8'",
+      "workId": "chris-neiner-infinite-spinning",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -173,8 +149,7 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "chris-neiner"
+      ]
     }
   ]
 }

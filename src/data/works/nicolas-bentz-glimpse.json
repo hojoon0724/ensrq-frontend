@@ -1,0 +1,21 @@
+{
+  "workId": "nicolas-bentz-glimpse",
+  "title": "Glimpse",
+  "year": 2023,
+  "duration": "10'",
+  "instrumentation": [
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "nicolas-bentz"
+}

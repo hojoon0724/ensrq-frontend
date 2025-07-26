@@ -1,0 +1,27 @@
+{
+  "workId": "elliott-carter-triple-duo",
+  "title": "Triple Duo",
+  "year": 1983,
+  "duration": "20'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "elliott-carter"
+}

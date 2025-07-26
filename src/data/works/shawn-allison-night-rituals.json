@@ -1,0 +1,27 @@
+{
+  "workId": "shawn-allison-night-rituals",
+  "title": "Night Rituals",
+  "year": 2012,
+  "duration": "15'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "shawn-allison"
+}

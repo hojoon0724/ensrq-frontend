@@ -3,16 +3,12 @@
   "title": "Waves",
   "subtitle": "",
   "date": "2022-04-18",
-  "venue": "Mildred Sainer Pavilion",
-  "venueAddress": "5313 Bay Shore Rd, Sarasota, FL 34243",
+  "venue": "mildred-sainer-auditorium",
   "description": "To cap off the return of live audiences and end our 6th season, enSRQ premieres a final co-commission, WAVES, by Sebastian Currier. Based on the eponymous book by Virginia Woolf, this work for soprano, small ensemble and electronics, enters the thoughts of various women and girls, from a young child to an eighty year old woman, ultimately representing just one woman's conscious life, not unfolding over decades, but coexisting within a single day. WAVES is paired with Anna Thorvaldsdottir's Entropic Arrows and firn, the second work of our season exploration of Yaz Lancaster's music.",
   "sponsors": [],
   "program": [
     {
-      "title": "Digital (2013 rev. 2020)",
-      "year": "",
-      "duration": "7'",
-      "movements": [],
+      "workId": "patrick-harlin-digital-2013-rev-2020",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -44,16 +40,10 @@
             "Conor Hanick"
           ]
         }
-      ],
-      "composerId": "patrick-harlin",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Entropic Arrows (2019)",
-      "year": "",
-      "duration": "9'",
-      "movements": [],
+      "workId": "anna-thorvaldsdottir-entropic-arrows-2019",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -87,16 +77,10 @@
             "Mike Truesdell"
           ]
         }
-      ],
-      "composerId": "anna-thorvaldsdottir",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "firn (2019)",
-      "year": "",
-      "duration": "7'",
-      "movements": [],
+      "workId": "yaz-lancaster-firn-2019",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -116,16 +100,10 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "yaz-lancaster",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "WAVES (2020)",
-      "year": "",
-      "duration": "26'",
-      "movements": [],
+      "workId": "sebastian-currier-waves-2020",
       "instrumentation": [
         {
           "instrument": "soprano",
@@ -177,13 +155,9 @@
         },
         {
           "instrument": "electronics",
-          "count": true,
           "musicians": []
         }
-      ],
-      "composerId": "sebastian-currier",
-      "is_commission": "co-commission",
-      "is_premiere": true
+      ]
     }
   ]
 }

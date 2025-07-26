@@ -3,50 +3,25 @@
   "title": "enSRQ + HUB New Music",
   "subtitle": "",
   "date": "2018-10-29",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Great Groups Think Alike! enSRQ welcomes friends from Boston, HUB New Music, for an exciting collaboration to open the 2018-19 season. Pairing minimalist masters with adventurers in texture and darkness.",
   "sponsors": [],
   "program": [
     {
-      "title": "ac/dc",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "michael-gordon",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "michael-gordon-ac-dc",
+      "instrumentation": []
     },
     {
-      "title": "1987",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "anna-clyne",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "anna-clyne-1987",
+      "instrumentation": []
     },
     {
-      "title": "Rising Tide",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "nina-c-young",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "nina-c-young-rising-tide",
+      "instrumentation": []
     },
     {
-      "title": "Double Sextet",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "steve-reich",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "steve-reich-double-sextet",
+      "instrumentation": []
     }
   ]
 }

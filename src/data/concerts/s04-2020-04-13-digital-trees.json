@@ -3,16 +3,12 @@
   "title": "Digital Trees",
   "subtitle": "",
   "date": "2020-04-13",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Digital Trees celebrates the diversity of style and duality of current American acoustic music with Marc Mellits' minimalist Splinter, Ken Ueno's intricate Pharmakon and Patrick Harlan's Digital. We're hardwired for creating masterpieces of the modern age with two new commissions. American trailblazer Max Grafe composes a new trio to showcase principal artists Samantha Bennett, George Nickson and Conor Hanick. enSRQ is also proud to join a consortium with Royal Birmingham Conservatoire, Music Academy of the West, and The Eastman School of Music to commission and perform the Florida Premiere of David Maric's Mallet Quartet.",
   "sponsors": [],
   "program": [
     {
-      "title": "Digital",
-      "year": "2013",
-      "duration": "5''",
-      "movements": [],
+      "workId": "patrick-harlin-digital",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -56,43 +52,19 @@
             "Conor Hanick"
           ]
         }
-      ],
-      "composerId": "patrick-harlin",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Nascent Forms",
-      "year": "2019",
-      "duration": "16''",
-      "movements": [],
+      "workId": "david-maric-nascent-forms",
       "instrumentation": [
         {
-          "instrument": "percussion",
-          "count": 4,
-          "musicians": [
-            "George Nickson",
-            "Mike Truesdell",
-            "Ye Young Yoon",
-            "Tomasz Kowalczyk"
-          ]
+          "instrument": "percussion quartet",
+          "musicians": []
         }
-      ],
-      "composerId": "david-maric",
-      "is_commission": true,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Shadow Theater",
-      "year": "2020",
-      "duration": "12''",
-      "movements": [
-        "I. Toccata I",
-        "II. Improvisation",
-        "III. Monologues",
-        "IV. Toccata II",
-        "V. Passacaglia"
-      ],
+      "workId": "max-grafe-shadow-theater",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -112,25 +84,10 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "max-grafe",
-      "is_commission": true,
-      "is_premiere": true
+      ]
     },
     {
-      "title": "Splinter",
-      "year": "2014",
-      "duration": "17''",
-      "movements": [
-        "I. Scarlet Oak",
-        "II. Sugar Maple",
-        "III. Linden",
-        "IV. Black Ash",
-        "V. Cherry",
-        "VI. River Birch",
-        "VII. Weeping Willow",
-        "VIII. Red Pine"
-      ],
+      "workId": "marc-mellits-splinter",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -162,21 +119,10 @@
             "Josh Baker"
           ]
         }
-      ],
-      "composerId": "marc-mellits",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Pharmakon",
-      "year": "2001",
-      "duration": "19''",
-      "movements": [
-        "I. XOX",
-        "II. XXO",
-        "III. OXX",
-        "IV. Main Movement"
-      ],
+      "workId": "ken-ueno-pharmakon",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -214,10 +160,7 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "ken-ueno",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

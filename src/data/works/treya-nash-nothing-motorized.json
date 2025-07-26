@@ -1,0 +1,22 @@
+{
+  "workId": "treya-nash-nothing-motorized",
+  "title": "Nothing Motorized",
+  "year": 2019,
+  "duration": "10'",
+  "instrumentation": [
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "treya-nash"
+}

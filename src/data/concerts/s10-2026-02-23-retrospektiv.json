@@ -2,12 +2,11 @@
   "concertId": "s10-2026-02-23-retrospektiv",
   "title": "Retrospektiv",
   "date": "2026-02-23",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
   "program": [
     {
-      "title": "Entr'acte",
-      "year": 2011,
-      "duration": "10'",
+      "workId": "caroline-shaw-entr-acte",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -22,39 +21,28 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "caroline-shaw"
+      ]
     },
     {
-      "title": "New Work",
-      "year": 2026,
-      "duration": "15'",
+      "workId": "che-buford-new-work",
       "instrumentation": [
         {
-          "instrument": "TBD",
+          "instrument": "tbd",
           "musicians": []
         }
-      ],
-      "composerId": "che-buford",
-      "commission": true,
-      "premiere": true
+      ]
     },
     {
-      "title": "3 Transformations",
-      "year": 1998,
-      "duration": "20'",
+      "workId": "andrew-thomas-3-transformations",
       "instrumentation": [
         {
           "instrument": "ensemble",
           "musicians": []
         }
-      ],
-      "composerId": "andrew-thomas"
+      ]
     },
     {
-      "title": "Finding Equilibrium",
-      "year": 2025,
-      "duration": "15'",
+      "workId": "roger-zare-finding-equilibrium",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -73,14 +61,10 @@
           "instrument": "bass clarinet",
           "musicians": []
         }
-      ],
-      "composerId": "roger-zare",
-      "premiere": true
+      ]
     },
     {
-      "title": "And Legions Will Rise",
-      "year": 2001,
-      "duration": "17'",
+      "workId": "kevin-puts-and-legions-will-rise",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -94,8 +78,17 @@
           "instrument": "marimba",
           "musicians": []
         }
-      ],
-      "composerId": "kevin-puts"
+      ]
     }
-  ]
+  ],
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  }
 }

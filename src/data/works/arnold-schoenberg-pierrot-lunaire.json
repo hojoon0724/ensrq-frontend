@@ -1,0 +1,27 @@
+{
+  "workId": "arnold-schoenberg-pierrot-lunaire",
+  "title": "Pierrot lunaire",
+  "year": 1912,
+  "duration": "38'",
+  "instrumentation": [
+    {
+      "instrument": "voice"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "piano"
+    }
+  ],
+  "composerId": "arnold-schoenberg"
+}

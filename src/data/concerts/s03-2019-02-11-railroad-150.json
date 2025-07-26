@@ -3,50 +3,25 @@
   "title": "Railroad 150",
   "subtitle": "",
   "date": "2019-02-11",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "2019 marks the 150th Anniversary of the completion of the Transcontinental Railroad at Promontory Point, Utah. An inventive, deep and profound look at how trains, railroads, and humans have charted paths; both constructive and destructive.",
   "sponsors": [],
   "program": [
     {
-      "title": "The Great Crush Collision March",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "scott-joplin",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "scott-joplin-the-great-crush-collision-march",
+      "instrumentation": []
     },
     {
-      "title": "Saltbox",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "tansy-davies",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "tansy-davies-saltbox",
+      "instrumentation": []
     },
     {
-      "title": "3 Songs on Carl Sandburg",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "ruth-crawford-seeger",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "ruth-crawford-seeger-3-songs-on-carl-sandburg",
+      "instrumentation": []
     },
     {
-      "title": "Different Trains",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "steve-reich",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "steve-reich-different-trains",
+      "instrumentation": []
     }
   ]
 }

@@ -3,50 +3,39 @@
   "title": "Gardens, Clouds, Streams",
   "subtitle": "Evocative works by female composers.",
   "date": "2016-11-14",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "A concert of evocative works by female composers.",
   "sponsors": [],
   "program": [
     {
-      "title": "Entr'acte",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "caroline-shaw",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "caroline-shaw-entr-acte",
+      "instrumentation": [
+        {
+          "instrument": "violins",
+          "count": 2,
+          "musicians": []
+        },
+        {
+          "instrument": "viola",
+          "musicians": []
+        },
+        {
+          "instrument": "cello",
+          "musicians": []
+        }
+      ]
     },
     {
-      "title": "Six Japanese Gardens",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "kaija-saariaho",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "kaija-saariaho-six-japanese-gardens",
+      "instrumentation": []
     },
     {
-      "title": "all streams reach the sea at last",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "elizabeth-ogonek",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "elizabeth-ogonek-all-streams-reach-the-sea-at-last",
+      "instrumentation": []
     },
     {
-      "title": "Prince of Clouds",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "anna-clyne",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "anna-clyne-prince-of-clouds",
+      "instrumentation": []
     }
   ]
 }

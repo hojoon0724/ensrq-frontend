@@ -1,0 +1,43 @@
+{
+  "workId": "carolyn-chen-oceans-in-oceans",
+  "title": "Oceans in Oceans",
+  "year": 2014,
+  "duration": "14'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "bassoon"
+    },
+    {
+      "instrument": "horn"
+    },
+    {
+      "instrument": "trombone"
+    },
+    {
+      "instrument": "percussion",
+      "count": 2
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "bass"
+    }
+  ],
+  "composerId": "carolyn-chen"
+}

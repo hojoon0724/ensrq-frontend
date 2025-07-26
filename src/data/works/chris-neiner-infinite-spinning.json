@@ -1,0 +1,27 @@
+{
+  "workId": "chris-neiner-infinite-spinning",
+  "title": "Infinite Spinning",
+  "year": 2023,
+  "duration": "8'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "chris-neiner"
+}

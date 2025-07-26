@@ -1,0 +1,25 @@
+{
+  "workId": "angela-elizabeth-slater-flickering-airs",
+  "title": "Flickering Airs",
+  "year": 2023,
+  "duration": "6'",
+  "instrumentation": [
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "angela-elizabeth-slater"
+}

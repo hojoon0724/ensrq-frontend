@@ -1,0 +1,27 @@
+{
+  "workId": "kevin-day-glasshouse",
+  "title": "Glasshouse",
+  "year": 2023,
+  "duration": "11'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "kevin-day"
+}

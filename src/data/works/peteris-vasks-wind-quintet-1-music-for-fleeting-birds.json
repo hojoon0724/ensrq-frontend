@@ -1,0 +1,24 @@
+{
+  "workId": "peteris-vasks-wind-quintet-1-music-for-fleeting-birds",
+  "title": "Wind Quintet #1 \"Music for Fleeting Birds\"",
+  "year": "1977",
+  "duration": "9''",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "oboe"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "bassoon"
+    },
+    {
+      "instrument": "french horn"
+    }
+  ],
+  "composerId": "peteris-vasks"
+}

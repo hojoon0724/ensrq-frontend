@@ -1,0 +1,46 @@
+{
+  "workId": "hk-gruber-frankenstein-1976",
+  "title": "Frankenstein! (1976)",
+  "year": "",
+  "duration": "26'",
+  "instrumentation": [
+    {
+      "instrument": "chansonnier"
+    },
+    {
+      "instrument": "conductor"
+    },
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "clarinet"
+    },
+    {
+      "instrument": "bassoon"
+    },
+    {
+      "instrument": "horn"
+    },
+    {
+      "instrument": "trumpet"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "bass"
+    }
+  ],
+  "composerId": "hk-gruber"
+}

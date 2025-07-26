@@ -7,6 +7,7 @@
         "title": "Tangled Whispers",
         "date": "2025-10-27",
         "venue": "first-congregational-church",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "Whispers",
@@ -55,12 +56,23 @@
             ],
             "composerId": "elliott-carter"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       },
       {
         "title": "Songbird",
         "date": "2025-12-08",
         "venue": "first-congregational-church",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "procession- process:peace (dona nobis pacem)",
@@ -115,12 +127,23 @@
             ],
             "composerId": "michael-ippolito"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       },
       {
         "title": "Goldbeater's Skin",
         "date": "2026-01-19",
         "venue": "first-congregational-church",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "Sun Propeller",
@@ -161,12 +184,23 @@
             ],
             "composerId": "christopher-cerrone"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       },
       {
         "title": "Retrospektiv",
         "date": "2026-02-23",
         "venue": "first-congregational-church",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "Entr'acte",
@@ -219,12 +253,23 @@
             ],
             "composerId": "kevin-puts"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       },
       {
         "title": "Music for 18 Musicians",
         "date": "2026-04-24",
         "venue": "sarasota-opera-house",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "Music for 18 Musicians",
@@ -235,12 +280,23 @@
             ],
             "composerId": "steve-reich"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       },
       {
         "title": "Music for New Bodies",
         "date": "2026-05-22",
         "venue": "sarasota-opera-house",
+        "streamingPageAccessPassword": "password",
         "program": [
           {
             "title": "Music for New Bodies",
@@ -251,7 +307,17 @@
             ],
             "composerId": "matthew-aucoin"
           }
-        ]
+        ],
+        "ticketsLinks": {
+          "singleLive": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          },
+          "singleStreaming": {
+            "price": 30,
+            "url": "https://www.ticketspice.com"
+          }
+        }
       }
     ]
   },

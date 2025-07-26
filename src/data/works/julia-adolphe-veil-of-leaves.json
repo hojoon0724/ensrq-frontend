@@ -1,0 +1,19 @@
+{
+  "workId": "julia-adolphe-veil-of-leaves",
+  "title": "Veil of Leaves",
+  "year": 2014,
+  "duration": "9'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "julia-adolphe"
+}

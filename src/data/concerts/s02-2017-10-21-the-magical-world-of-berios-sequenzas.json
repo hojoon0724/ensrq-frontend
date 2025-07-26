@@ -3,20 +3,13 @@
   "title": "The Magical World of Berio's Sequenzas",
   "subtitle": "",
   "date": "2017-10-21",
-  "venue": "The Ringling Museum",
-  "venueAddress": "5401 Bay Shore Rd, Sarasota, FL 34243",
+  "venue": "the-ringling-museum",
   "description": "Part of Ringling International Arts Festival. A micro view focusing intensely on individual performers as virtuoso soloists, weaving through deeply personal human and musical expression.",
   "sponsors": [],
   "program": [
     {
-      "title": "Sequenza(s)",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "luciano-berio-sequenza-s",
+      "instrumentation": []
     }
   ]
 }

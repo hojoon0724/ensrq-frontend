@@ -3,26 +3,16 @@
   "title": "Working Notes",
   "subtitle": "",
   "date": "2019-04-22",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "enSRQ's second commission receives its World Premiere - a percussion concerto from renowned Portuguese composer Andreia Pinto Correia, inspired by sketchbooks of Joan Miro. Features Brad Williams reprising his iconic performance in Berio's Trombone Sequenza.",
   "sponsors": [],
   "program": [
     {
-      "title": "6th String Quartet",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "john-harbison",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "john-harbison-6th-string-quartet",
+      "instrumentation": []
     },
     {
-      "title": "Trombone Sequenza",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "luciano-berio-trombone-sequenza",
       "instrumentation": [
         {
           "instrument": "trombone",
@@ -30,16 +20,10 @@
             "Brad Williams"
           ]
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Paintings in Four Movements",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "andreia-pinto-correia-paintings-in-four-movements",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -47,10 +31,7 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "andreia-pinto-correia",
-      "is_commission": true,
-      "is_premiere": true
+      ]
     }
   ]
 }

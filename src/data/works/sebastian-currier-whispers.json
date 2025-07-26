@@ -1,0 +1,21 @@
+{
+  "workId": "sebastian-currier-whispers",
+  "title": "Whispers",
+  "year": 1996,
+  "duration": "14'",
+  "instrumentation": [
+    {
+      "instrument": "flute"
+    },
+    {
+      "instrument": "cello"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    }
+  ],
+  "composerId": "sebastian-currier"
+}

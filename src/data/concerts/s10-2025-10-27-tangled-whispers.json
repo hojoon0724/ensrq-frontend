@@ -2,12 +2,11 @@
   "concertId": "s10-2025-10-27-tangled-whispers",
   "title": "Tangled Whispers",
   "date": "2025-10-27",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
   "program": [
     {
-      "title": "Whispers",
-      "year": 1996,
-      "duration": "14'",
+      "workId": "sebastian-currier-whispers",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -25,13 +24,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "sebastian-currier"
+      ]
     },
     {
-      "title": "Tangled Madrigal",
-      "year": 2024,
-      "duration": "16'",
+      "workId": "amy-williams-tangled-madrigal",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -46,13 +42,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "amy-williams"
+      ]
     },
     {
-      "title": "Inchokkillissa for Guitar and Percussion",
-      "year": 1994,
-      "duration": "12'",
+      "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
       "instrumentation": [
         {
           "instrument": "guitar",
@@ -62,13 +55,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "jerod-tate"
+      ]
     },
     {
-      "title": "Triple Duo",
-      "year": 1983,
-      "duration": "20'",
+      "workId": "elliott-carter-triple-duo",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -94,8 +84,17 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "elliott-carter"
+      ]
     }
-  ]
+  ],
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  }
 }

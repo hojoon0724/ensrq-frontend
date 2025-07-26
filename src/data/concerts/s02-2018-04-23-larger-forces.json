@@ -3,26 +3,16 @@
   "title": "Larger Forces",
   "subtitle": "",
   "date": "2018-04-23",
-  "venue": "First United Methodist Church, 104 South Pineapple Avenue, Sarasota, FL 34236",
-  "venueAddress": "104 South Pineapple Avenue, Sarasota, FL 34236",
+  "venue": "first-united-methodist-church",
   "description": "Season finale featuring enSRQ's first commissioned work and chamber orchestra works inspired by dance rhythms. Features oboist Adam de Sorgo.",
   "sponsors": [],
   "program": [
     {
-      "title": "5, 6, 7, 8",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "michael-schacter",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "michael-schacter-5-6-7-8",
+      "instrumentation": []
     },
     {
-      "title": "Alchemy/Transmutation/Translation",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "david-dies-alchemy-transmutation-translation",
       "instrumentation": [
         {
           "instrument": "oboe",
@@ -30,20 +20,11 @@
             "Adam de Sorgo"
           ]
         }
-      ],
-      "composerId": "david-dies",
-      "is_commission": true,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Son of Chamber Symphony",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "john-adams",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "john-adams-son-of-chamber-symphony",
+      "instrumentation": []
     }
   ]
 }

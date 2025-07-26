@@ -3,45 +3,27 @@
   "title": "Enter the Vortex",
   "subtitle": "",
   "date": "2020-03-23",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "It's past versus future as we Enter the Vortex with two of the twentieth-century's most enigmatic masters. 2017 Van Cliburn Semi-Finalist Han Chen joins enSRQ and Co-Artistic Director George Nickson for Philippe Hurel's virtuosic tribute, Tombeau to Gerard Grisey, an apropos preamble to our presentation of Grisey's seminal evening length work, Vortex Temporum.",
   "sponsors": [],
   "program": [
     {
-      "title": "Tombeau, In Memorium Gerard Grisey",
-      "year": "1999",
-      "duration": "15''",
-      "movements": [
-        "I. Énergique",
-        "II. Lointain",
-        "III. ♩ = 72",
-        "IV. ♩ = 40"
-      ],
+      "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
       "instrumentation": [
         {
           "instrument": "percussion",
           "musicians": [
             "George Nickson"
           ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
         }
-      ],
-      "composerId": "philippe-hurel",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Vortex Temporum",
-      "year": "1996",
-      "duration": "40''",
-      "movements": [
-        "I. ♩= 130 (à Gérard Zinsstag)",
-        "Interlude",
-        "II. ♩= 50 (à Salvatore Sciarrino)",
-        "Interlude",
-        "III. ♩= (à Helmut Lachenmann)",
-        "Interlude"
-      ],
+      "workId": "gerard-grisey-vortex-temporum",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -72,11 +54,12 @@
           "musicians": [
             "Jessi Rosinski"
           ]
+        },
+        {
+          "instrument": "piano",
+          "musicians": []
         }
-      ],
-      "composerId": "gerard-grisey",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

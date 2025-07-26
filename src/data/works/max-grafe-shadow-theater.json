@@ -1,0 +1,18 @@
+{
+  "workId": "max-grafe-shadow-theater",
+  "title": "Shadow Theater",
+  "year": "2020",
+  "duration": "12''",
+  "instrumentation": [
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    }
+  ],
+  "composerId": "max-grafe"
+}

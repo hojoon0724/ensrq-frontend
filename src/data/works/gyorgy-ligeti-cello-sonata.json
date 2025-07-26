@@ -1,0 +1,12 @@
+{
+  "workId": "gyorgy-ligeti-cello-sonata",
+  "title": "Cello Sonata",
+  "year": 1953,
+  "duration": "9'",
+  "instrumentation": [
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "gyorgy-ligeti"
+}

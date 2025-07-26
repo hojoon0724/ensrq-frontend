@@ -1,0 +1,19 @@
+{
+  "workId": "paul-mortilla-rota-fortunae",
+  "title": "Rota Fortunae",
+  "year": 2024,
+  "duration": "12'",
+  "instrumentation": [
+    {
+      "instrument": "violin"
+    },
+    {
+      "instrument": "percussion",
+      "count": 2
+    },
+    {
+      "instrument": "bass clarinet"
+    }
+  ],
+  "composerId": "paul-mortilla"
+}

@@ -3,16 +3,12 @@
   "title": "Fire & Light",
   "subtitle": "",
   "date": "2020-01-20",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Sparks fly in Fire and Light, featuring composer and violist Jessica Meyer in three of her deeply human works: Delta Sunrise, Tapped into the same vein, and Sagrada Familia. Conor Hanick and Samantha Bennett perform Eric Wubbels' epic and searching 'the children of fire come looking for fire' to set this concert ablaze.",
   "sponsors": [],
   "program": [
     {
-      "title": "Delta Sunrise",
-      "year": "2017",
-      "duration": "3''",
-      "movements": [],
+      "workId": "jessica-meyer-delta-sunrise",
       "instrumentation": [
         {
           "instrument": "viola",
@@ -20,16 +16,10 @@
             "Jessica Meyer"
           ]
         }
-      ],
-      "composerId": "jessica-meyer",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Ins Licht",
-      "year": "2007",
-      "duration": "4''",
-      "movements": [],
+      "workId": "georg-friedrich-haas-ins-licht",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -49,16 +39,10 @@
             "Conor Hanick"
           ]
         }
-      ],
-      "composerId": "georg-friedrich-haas",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "\"the children of fire come looking for fire\"",
-      "year": "2012",
-      "duration": "25''",
-      "movements": [],
+      "workId": "eric-wubbels-the-children-of-fire-come-looking-for-fire",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -72,16 +56,10 @@
             "Conor Hanick"
           ]
         }
-      ],
-      "composerId": "eric-wubbels",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Tapped into the same vein",
-      "year": "2017",
-      "duration": "7''",
-      "movements": [],
+      "workId": "jessica-meyer-tapped-into-the-same-vein",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -105,16 +83,10 @@
             "Natalie Helm"
           ]
         }
-      ],
-      "composerId": "jessica-meyer",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Sagrada Familia",
-      "year": "2017",
-      "duration": "16''",
-      "movements": [],
+      "workId": "jessica-meyer-sagrada-familia",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -152,10 +124,7 @@
             "Natalie Helm"
           ]
         }
-      ],
-      "composerId": "jessica-meyer",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

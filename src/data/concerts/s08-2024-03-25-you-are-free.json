@@ -2,12 +2,10 @@
   "concertId": "s08-2024-03-25-you-are-free",
   "title": "You Are Free",
   "date": "2024-03-25",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "You Are Free",
-      "year": 2016,
-      "duration": "7'",
+      "workId": "sarah-kirkland-snider-you-are-free",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -33,13 +31,10 @@
           "instrument": "marimba",
           "musicians": []
         }
-      ],
-      "composerId": "sarah-kirkland-snider"
+      ]
     },
     {
-      "title": "New Work",
-      "year": 2024,
-      "duration": "TBD",
+      "workId": "kyle-rivera-new-work",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -62,15 +57,10 @@
           "instrument": "percussion",
           "musicians": []
         }
-      ],
-      "composerId": "kyle-rivera",
-      "commission": true,
-      "premiere": true
+      ]
     },
     {
-      "title": "Distance",
-      "year": 2016,
-      "duration": "14'",
+      "workId": "shawn-okpebholo-distance",
       "instrumentation": [
         {
           "instrument": "cello",
@@ -80,13 +70,10 @@
           "instrument": "marimba",
           "musicians": []
         }
-      ],
-      "composerId": "shawn-okpebholo"
+      ]
     },
     {
-      "title": "Five in One",
-      "year": 2018,
-      "duration": "12'",
+      "workId": "ania-vu-five-in-one",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -108,13 +95,10 @@
           "instrument": "piano",
           "musicians": []
         }
-      ],
-      "composerId": "ania-vu"
+      ]
     },
     {
-      "title": "Voiceless Mass",
-      "year": 2021,
-      "duration": "20'",
+      "workId": "raven-chacon-voiceless-mass",
       "instrumentation": [
         {
           "instrument": "pipe organ",
@@ -124,8 +108,7 @@
           "instrument": "large ensemble",
           "musicians": []
         }
-      ],
-      "composerId": "raven-chacon"
+      ]
     }
   ]
 }

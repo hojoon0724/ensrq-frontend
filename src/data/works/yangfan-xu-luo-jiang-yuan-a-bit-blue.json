@@ -1,0 +1,19 @@
+{
+  "workId": "yangfan-xu-luo-jiang-yuan-a-bit-blue",
+  "title": "Luo Jiang Yuan – A bit blue",
+  "year": 2023,
+  "duration": "8'",
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola"
+    },
+    {
+      "instrument": "cello"
+    }
+  ],
+  "composerId": "yangfan-xu"
+}

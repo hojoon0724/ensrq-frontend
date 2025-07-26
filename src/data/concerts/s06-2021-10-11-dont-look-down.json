@@ -3,18 +3,14 @@
   "title": "Don't Look Down",
   "subtitle": "(featuring Conor Hanick)",
   "date": "2021-10-11",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "venue": "first-congregational-church",
   "description": "Yaz Lancaster's Sequoia opens our season with ethereal, reflective sounds that remind us of the importance and intimacy of being together in the concert hall. Conor Hanick returns with the second ever performance of Chris Cerrone's poignant work, Don't Look Down, for percussion quartet and piano, named one of The New York Times' Best Pieces of 2020. Two years in the making, Max Grafe's Shadow Theater, composed specifically for George, Samantha and Conor, will finally receive its premiere.",
   "sponsors": [
     "The Gardener Foundation"
   ],
   "program": [
     {
-      "title": "sequoia for percussion (2019)",
-      "year": "",
-      "duration": "7'",
-      "movements": [],
+      "workId": "yaz-lancaster-sequoia-for-percussion-2019",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -24,22 +20,10 @@
             "Charlie Rosmarin"
           ]
         }
-      ],
-      "composerId": "yaz-lancaster",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Shadow Theater for violin, piano and percussion (2020)",
-      "year": "",
-      "duration": "12'",
-      "movements": [
-        "I. Toccata I",
-        "II. Improvisation",
-        "III. Monologues",
-        "IV. Toccata II",
-        "V. Passacaglia"
-      ],
+      "workId": "max-grafe-shadow-theater-for-violin-piano-and-percussion-2020",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -59,20 +43,10 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "max-grafe",
-      "is_commission": true,
-      "is_premiere": true
+      ]
     },
     {
-      "title": "Don't Look Down for prepared piano and percussion quartet (2020)",
-      "year": "",
-      "duration": "17'",
-      "movements": [
-        "I. Hammerspace",
-        "II. The Great Empty",
-        "III. Caton Flats"
-      ],
+      "workId": "christopher-cerrone-don-t-look-down-for-prepared-piano-and-percussion-quartet-2020",
       "instrumentation": [
         {
           "instrument": "piano",
@@ -90,10 +64,7 @@
             "Isaac Fernandez Hernandez"
           ]
         }
-      ],
-      "composerId": "christopher-cerrone",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

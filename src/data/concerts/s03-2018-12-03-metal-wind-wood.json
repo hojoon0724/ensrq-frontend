@@ -3,16 +3,12 @@
   "title": "Metal, Wind, & Wood",
   "subtitle": "",
   "date": "2018-12-03",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "Metal of the vibraphone, wind of the oboe, and wood of the strings. Italian master Franco Donatoni shines in two important works. Features oboist Nicholas Arbolino continuing the Berio Sequenzas cycle.",
   "sponsors": [],
   "program": [
     {
-      "title": "Oboe Sequenza",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "luciano-berio-oboe-sequenza",
       "instrumentation": [
         {
           "instrument": "oboe",
@@ -20,50 +16,23 @@
             "Nicholas Arbolino"
           ]
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Omar",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "franco-donatoni",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "franco-donatoni-omar",
+      "instrumentation": []
     },
     {
-      "title": "Arpege",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "franco-donatoni",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "franco-donatoni-arpege",
+      "instrumentation": []
     },
     {
-      "title": "Arcana",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "kevin-puts",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "kevin-puts-arcana",
+      "instrumentation": []
     },
     {
-      "title": "Scritch",
-      "year": "",
-      "duration": "",
-      "movements": [],
-      "instrumentation": [],
-      "composerId": "melinda-wagner",
-      "is_commission": false,
-      "is_premiere": false
+      "workId": "melinda-wagner-scritch",
+      "instrumentation": []
     }
   ]
 }

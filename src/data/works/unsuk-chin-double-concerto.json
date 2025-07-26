@@ -1,0 +1,18 @@
+{
+  "workId": "unsuk-chin-double-concerto",
+  "title": "Double Concerto",
+  "year": 2002,
+  "duration": "20'",
+  "instrumentation": [
+    {
+      "instrument": "piano"
+    },
+    {
+      "instrument": "percussion"
+    },
+    {
+      "instrument": "ensemble"
+    }
+  ],
+  "composerId": "unsuk-chin"
+}

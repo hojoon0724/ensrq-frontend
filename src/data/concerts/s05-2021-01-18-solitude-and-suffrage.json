@@ -3,124 +3,85 @@
   "title": "Solitude and Suffrage",
   "subtitle": "",
   "date": "2021-01-18",
-  "venue": "Virtual Concert",
-  "venueAddress": "",
+  "venue": "virtual",
   "description": "This program for clarinet, strings, mezzo-soprano, and piano celebrates the historic event of womens' suffrage in the United States and a time to reflect on the solitude that the COVID-19 quarantine era has caused for many across the world.",
   "sponsors": [],
   "program": [
     {
-      "title": "Fugitive Songs",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "ulysses-kay-fugitive-songs",
       "instrumentation": [
         {
           "instrument": "clarinet",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "strings",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "mezzo-soprano",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "piano",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "ulysses-kay",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Iaspis",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "katherine-balch-iaspis",
       "instrumentation": [
         {
           "instrument": "clarinet",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "strings",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "piano",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "katherine-balch",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Kivalina",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "kamala-sankaram-kivalina",
       "instrumentation": [
         {
           "instrument": "mezzo-soprano",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "strings",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "piano",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "kamala-sankaram",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "The 19th Amendment",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "quinn-mason-the-19th-amendment",
       "instrumentation": [
         {
           "instrument": "clarinet",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "strings",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "mezzo-soprano",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "piano",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "quinn-mason",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

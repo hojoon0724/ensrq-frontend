@@ -3,89 +3,54 @@
   "title": "Sun Colors",
   "subtitle": "",
   "date": "2021-05-10",
-  "venue": "Virtual Concert",
-  "venueAddress": "",
+  "venue": "virtual",
   "description": "SUN COLORS celebrates the warmth and diversity of contemporary string writing, with music of Reena Esmail, Michael Djupstrom, Jessica Meyer, and Tan Dun. Building up in instrumentation from one solo violin, to duo, trio and finally full quartet, the works on this program take inspiration from poetry, folk song and the sun's ever unifying and life-giving presence. Don't miss our last virtual concert of the season!",
   "sponsors": [],
   "program": [
     {
-      "title": "Darshan",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "reena-esmail-darshan",
       "instrumentation": [
         {
           "instrument": "violin",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "reena-esmail",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Daydreams and Nightvisions",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "michael-djupstrom-daydreams-and-nightvisions",
       "instrumentation": [
         {
           "instrument": "violin",
-          "count": 0,
-          "musicians": []
-        },
-        {
-          "instrument": "violin",
-          "count": 0,
+          "count": 2,
           "musicians": []
         }
-      ],
-      "composerId": "michael-djupstrom",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "I Only Speak of the Sun",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "jessica-meyer-i-only-speak-of-the-sun",
       "instrumentation": [
         {
           "instrument": "violin",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "viola",
-          "count": 0,
           "musicians": []
         },
         {
           "instrument": "cello",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "jessica-meyer",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "8 Colors for String Quartet",
-      "year": "",
-      "duration": "",
-      "movements": [],
+      "workId": "tan-dun-8-colors-for-string-quartet",
       "instrumentation": [
         {
           "instrument": "string quartet",
-          "count": 0,
           "musicians": []
         }
-      ],
-      "composerId": "tan-dun",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }

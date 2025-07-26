@@ -2,29 +2,24 @@
   "concertId": "s10-2026-01-19-goldbeaters-skin",
   "title": "Goldbeater's Skin",
   "date": "2026-01-19",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
   "program": [
     {
-      "title": "Sun Propeller",
-      "year": 2012,
-      "duration": "10'",
+      "workId": "nina-c-young-sun-propeller",
       "instrumentation": [
         {
           "instrument": "violin",
-          "solo": true,
           "musicians": []
         },
         {
           "instrument": "live electronics",
           "musicians": []
         }
-      ],
-      "composerId": "nina-c-young"
+      ]
     },
     {
-      "title": "Learning",
-      "year": 1976,
-      "duration": "20'",
+      "workId": "claude-vivier-learning",
       "instrumentation": [
         {
           "instrument": "violins",
@@ -39,26 +34,19 @@
           "instrument": "tape",
           "musicians": []
         }
-      ],
-      "composerId": "claude-vivier"
+      ]
     },
     {
-      "title": "New Work",
-      "year": 2026,
-      "duration": "10'",
+      "workId": "shawn-allison-new-work",
       "instrumentation": [
         {
-          "instrument": "TBD",
+          "instrument": "tbd",
           "musicians": []
         }
-      ],
-      "composerId": "shawn-allison",
-      "commission": true
+      ]
     },
     {
-      "title": "Goldbeater's Skin",
-      "year": 2016,
-      "duration": "21'",
+      "workId": "christopher-cerrone-goldbeater-s-skin",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -69,8 +57,17 @@
           "instrument": "mezzo-soprano",
           "musicians": []
         }
-      ],
-      "composerId": "christopher-cerrone"
+      ]
     }
-  ]
+  ],
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  }
 }

@@ -3,18 +3,14 @@
   "title": "And the Hits Keep Coming",
   "subtitle": "",
   "date": "2023-03-13",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave, Sarasota FL 34237",
+  "venue": "first-congregational-church",
   "description": "A celebration of percussion, featuring works by Emma O’Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
   "sponsors": [
     "Pamela MacFarlane Palmer"
   ],
   "program": [
     {
-      "title": "Shell (2019)",
-      "year": "",
-      "duration": "7'",
-      "movements": [],
+      "workId": "emma-ohalloran-shell-2019",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -26,16 +22,10 @@
             "Ye Young Yoon"
           ]
         }
-      ],
-      "composerId": "emma-ohalloran",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Prelude and Ether (2019)",
-      "year": "",
-      "duration": "11'",
-      "movements": [],
+      "workId": "krists-auznieks-prelude-and-ether-2019",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -53,25 +43,10 @@
             "George Nickson"
           ]
         }
-      ],
-      "composerId": "krists-auznieks",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Kagome Kagome (2022)",
-      "year": "",
-      "duration": "11'",
-      "movements": [
-        "I. Summons",
-        "II. The First Bardo",
-        "III. Mantra",
-        "IV. Summons",
-        "V. The Second Bardo",
-        "VI. Abhidhamma",
-        "VII. Eulogy",
-        "VIII. The Third Bardo"
-      ],
+      "workId": "shaun-tilburg-kagome-kagome-2022",
       "instrumentation": [
         {
           "instrument": "mezzo_soprano",
@@ -87,16 +62,10 @@
             "Shaun Tilburg"
           ]
         }
-      ],
-      "composerId": "shaun-tilburg",
-      "is_commission": true,
-      "is_premiere": true
+      ]
     },
     {
-      "title": "New England Etudes (2022)",
-      "year": "",
-      "duration": "18'",
-      "movements": [],
+      "workId": "mark-anthony-turnage-new-england-etudes-2022",
       "instrumentation": [
         {
           "instrument": "percussion",
@@ -110,10 +79,7 @@
             "Shaun Tilburg"
           ]
         }
-      ],
-      "composerId": "mark-anthony-turnage",
-      "is_commission": "co-commission",
-      "is_premiere": false
+      ]
     }
   ]
 }

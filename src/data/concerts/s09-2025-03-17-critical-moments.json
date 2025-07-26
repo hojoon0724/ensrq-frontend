@@ -2,25 +2,19 @@
   "concertId": "s09-2025-03-17-critical-moments",
   "title": "Critical Moments",
   "date": "2025-03-17",
-  "venue": "First Congregational Church, 1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "program": [
     {
-      "title": "Until Next Time",
-      "year": 2010,
-      "duration": "5'",
+      "workId": "kenji-bunch-until-next-time",
       "instrumentation": [
         {
           "instrument": "violin",
-          "solo": true,
           "musicians": []
         }
-      ],
-      "composerId": "kenji-bunch"
+      ]
     },
     {
-      "title": "Critical Moments",
-      "year": 2001,
-      "duration": "10'",
+      "workId": "george-perle-critical-moments",
       "instrumentation": [
         {
           "instrument": "flutes",
@@ -47,13 +41,10 @@
           "instrument": "cello",
           "musicians": []
         }
-      ],
-      "composerId": "george-perle"
+      ]
     },
     {
-      "title": "Rota Fortunae",
-      "year": 2024,
-      "duration": "12'",
+      "workId": "paul-mortilla-rota-fortunae",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -68,14 +59,10 @@
           "instrument": "bass clarinet",
           "musicians": []
         }
-      ],
-      "composerId": "paul-mortilla",
-      "commission": true
+      ]
     },
     {
-      "title": "Oceans in Oceans",
-      "year": 2014,
-      "duration": "14'",
+      "workId": "carolyn-chen-oceans-in-oceans",
       "instrumentation": [
         {
           "instrument": "flute",
@@ -122,25 +109,20 @@
           "instrument": "bass",
           "musicians": []
         }
-      ],
-      "composerId": "carolyn-chen"
+      ]
     },
     {
-      "title": "Violin Concerto",
-      "year": 2016,
-      "duration": "17'",
+      "workId": "marcos-balter-violin-concerto",
       "instrumentation": [
         {
           "instrument": "violin",
-          "solo": true,
           "musicians": []
         },
         {
           "instrument": "ensemble",
           "musicians": []
         }
-      ],
-      "composerId": "marcos-balter"
+      ]
     }
   ]
 }

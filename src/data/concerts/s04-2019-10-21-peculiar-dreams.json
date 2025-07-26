@@ -3,16 +3,12 @@
   "title": "Peculiar Dreams",
   "subtitle": "",
   "date": "2019-10-21",
-  "venue": "First Congregational Church",
-  "venueAddress": "1031 S. Euclid Ave. Sarasota, FL 34237",
+  "venue": "first-congregational-church",
   "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
   "sponsors": [],
   "program": [
     {
-      "title": "Sequenza XIV for solo cello",
-      "year": "2002",
-      "duration": "13''",
-      "movements": [],
+      "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
       "instrumentation": [
         {
           "instrument": "cello",
@@ -20,16 +16,10 @@
             "Natalie Helm"
           ]
         }
-      ],
-      "composerId": "luciano-berio",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "An Index of Peculiar Strokes",
-      "year": "2011",
-      "duration": "12''",
-      "movements": [],
+      "workId": "andrew-norman-an-index-of-peculiar-strokes",
       "instrumentation": [
         {
           "instrument": "violin",
@@ -51,16 +41,10 @@
             "Natalie Helm"
           ]
         }
-      ],
-      "composerId": "andrew-norman",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Cosmic Dreams",
-      "year": "2013",
-      "duration": "14''",
-      "movements": [],
+      "workId": "elizabeth-a-baker-cosmic-dreams",
       "instrumentation": [
         {
           "instrument": "vibraphone",
@@ -92,16 +76,10 @@
             "Christopher Schnell"
           ]
         }
-      ],
-      "composerId": "elizabeth-a-baker",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     },
     {
-      "title": "Sextet",
-      "year": "2000",
-      "duration": "30''",
-      "movements": [],
+      "workId": "krzysztof-penderecki-sextet",
       "instrumentation": [
         {
           "instrument": "clarinet",
@@ -133,10 +111,7 @@
             "Christopher Schnell"
           ]
         }
-      ],
-      "composerId": "krzysztof-penderecki",
-      "is_commission": false,
-      "is_premiere": false
+      ]
     }
   ]
 }
