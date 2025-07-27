@@ -1,0 +1,181 @@
+:root {
+  --sand-950: oklch(0.3 0 70);
+  --sand-900: oklch(0.4094 0.03 70);
+  --sand-800: oklch(0.4904 0.06 70);
+  --sand-700: oklch(0.5634 0.09 70);
+  --sand-600: oklch(0.6315 0.12 70);
+  --sand-500: oklch(0.6963 0.15 70);
+  --sand-400: oklch(0.7585 0.18 70);
+  --sand-300: oklch(0.8187 0.21 70);
+  --sand-200: oklch(0.8772 0.24 70);
+  --sand-100: oklch(0.9342 0.27 70);
+  --sand-50: oklch(0.99 0.3 70);
+
+  --water-950: oklch(0.2 0 175);
+  --water-900: oklch(0.3109 0.03 175);
+  --water-800: oklch(0.3932 0.06 175);
+  --water-700: oklch(0.4672 0.09 175);
+  --water-600: oklch(0.5363 0.12 175);
+  --water-500: oklch(0.602 0.15 175);
+  --water-400: oklch(0.6652 0.18 175);
+  --water-300: oklch(0.7262 0.21 175);
+  --water-200: oklch(0.7856 0.24 175);
+  --water-100: oklch(0.8434 0.27 175);
+  --water-50: oklch(0.9 0.3 175);
+
+  --sky-950: oklch(0.15 0 230);
+  --sky-900: oklch(0.2689 0.03 230);
+  --sky-800: oklch(0.357 0.06 230);
+  --sky-700: oklch(0.4363 0.09 230);
+  --sky-600: oklch(0.5103 0.12 230);
+  --sky-500: oklch(0.5808 0.15 230);
+  --sky-400: oklch(0.6484 0.18 230);
+  --sky-300: oklch(0.7138 0.21 230);
+  --sky-200: oklch(0.7774 0.24 230);
+  --sky-100: oklch(0.8394 0.27 230);
+  --sky-50: oklch(0.9 0.3 230);
+
+  --sand-muted-950: oklch(0.3 0 70);
+  --sand-muted-900: oklch(0.4094 0.013 70);
+  --sand-muted-800: oklch(0.4904 0.026 70);
+  --sand-muted-700: oklch(0.5634 0.039 70);
+  --sand-muted-600: oklch(0.6315 0.052 70);
+  --sand-muted-500: oklch(0.6963 0.065 70);
+  --sand-muted-400: oklch(0.7585 0.078 70);
+  --sand-muted-300: oklch(0.8187 0.091 70);
+  --sand-muted-200: oklch(0.8772 0.104 70);
+  --sand-muted-100: oklch(0.9342 0.117 70);
+  --sand-muted-50: oklch(0.99 0.13 70);
+
+  --water-muted-950: oklch(0.2 0 175);
+  --water-muted-900: oklch(0.3109 0.013 175);
+  --water-muted-800: oklch(0.3932 0.026 175);
+  --water-muted-700: oklch(0.4672 0.039 175);
+  --water-muted-600: oklch(0.5363 0.052 175);
+  --water-muted-500: oklch(0.602 0.065 175);
+  --water-muted-400: oklch(0.6652 0.078 175);
+  --water-muted-300: oklch(0.7262 0.091 175);
+  --water-muted-200: oklch(0.7856 0.104 175);
+  --water-muted-100: oklch(0.8434 0.117 175);
+  --water-muted-50: oklch(0.9 0.13 175);
+
+  --sky-muted-950: oklch(0.15 0 230);
+  --sky-muted-900: oklch(0.2689 0.013 230);
+  --sky-muted-800: oklch(0.357 0.026 230);
+  --sky-muted-700: oklch(0.4363 0.039 230);
+  --sky-muted-600: oklch(0.5103 0.052 230);
+  --sky-muted-500: oklch(0.5808 0.065 230);
+  --sky-muted-400: oklch(0.6484 0.078 230);
+  --sky-muted-300: oklch(0.7138 0.091 230);
+  --sky-muted-200: oklch(0.7774 0.104 230);
+  --sky-muted-100: oklch(0.8394 0.117 230);
+  --sky-muted-50: oklch(0.9 0.13 230);
+
+  --sand-bg-black: oklch(0.15 0.09 70);
+  --sand-bg-dark: oklch(0.25 0.09 70);
+  --sand-bg-neutral: oklch(0.5 0.09 70);
+  --sand-bg-bright: oklch(0.75 0.09 70);
+  --sand-bg-white: oklch(0.99 0.09 70);
+
+  --water-bg-black: oklch(0.15 0.09 175);
+  --water-bg-dark: oklch(0.25 0.09 175);
+  --water-bg-neutral: oklch(0.5 0.09 175);
+  --water-bg-bright: oklch(0.75 0.09 175);
+  --water-bg-white: oklch(0.99 0.09 175);
+
+  --sky-bg-black: oklch(0.15 0.09 230);
+  --sky-bg-dark: oklch(0.25 0.09 230);
+  --sky-bg-neutral: oklch(0.5 0.09 230);
+  --sky-bg-bright: oklch(0.75 0.09 230);
+  --sky-bg-white: oklch(0.99 0.09 230);
+
+  --sand-950: #2e2e2e;
+  --sand-900: #554839;
+  --sand-800: #775b3a;
+  --sand-700: #976c35;
+  --sand-600: #b77b29;
+  --sand-500: #d78a04;
+  --sand-400: #f79800;
+  --sand-300: #ffa500;
+  --sand-200: #ffb200;
+  --sand-100: #ffbe00;
+  --sand-50: #ffca00;
+
+  --water-950: #161616;
+  --water-900: #203630;
+  --water-800: #1b5044;
+  --water-700: #006a57;
+  --water-600: #00836a;
+  --water-500: #009c7c;
+  --water-400: #00b58d;
+  --water-300: #00ce9f;
+  --water-200: #00e7b0;
+  --water-100: #00ffc1;
+  --water-50: #00ffd3;
+
+  --sky-950: #0b0b0b;
+  --sky-900: #162932;
+  --sky-800: #134256;
+  --sky-700: #005a79;
+  --sky-600: #00719d;
+  --sky-500: #0088c1;
+  --sky-400: #009fe6;
+  --sky-300: #00b5ff;
+  --sky-200: #00cbff;
+  --sky-100: #00e1ff;
+  --sky-50: #00f8ff;
+
+  --sand-muted-950: #2e2e2e;
+  --sand-muted-900: #4f4943;
+  --sand-muted-800: #6a5e51;
+  --sand-muted-700: #85725d;
+  --sand-muted-600: #9e8567;
+  --sand-muted-500: #b89771;
+  --sand-muted-400: #d1a87a;
+  --sand-muted-300: #eaba82;
+  --sand-muted-200: #ffcb89;
+  --sand-muted-100: #ffdc90;
+  --sand-muted-50: #ffec97;
+
+  --water-muted-950: #161616;
+  --water-muted-900: #2a3330;
+  --water-muted-800: #374b45;
+  --water-muted-700: #436159;
+  --water-muted-600: #4c786c;
+  --water-muted-500: #558e7f;
+  --water-muted-400: #5ca491;
+  --water-muted-300: #63b9a3;
+  --water-muted-200: #68cfb5;
+  --water-muted-100: #6de5c7;
+  --water-muted-50: #70fad9;
+
+  --sky-muted-950: #0b0b0b;
+  --sky-muted-900: #20272b;
+  --sky-muted-800: #2e3f47;
+  --sky-muted-700: #3b5663;
+  --sky-muted-600: #466c7e;
+  --sky-muted-500: #50829a;
+  --sky-muted-400: #5998b5;
+  --sky-muted-300: #62add1;
+  --sky-muted-200: #6ac3ec;
+  --sky-muted-100: #71d9ff;
+  --sky-muted-50: #77eeff;
+
+  --sand-bg-black: #200000;
+  --sand-bg-dark: #3b1600;
+  --sand-bg-neutral: #845922;
+  --sand-bg-bright: #d3a46e;
+  --sand-bg-white: #fff2b9;
+
+  --water-bg-black: #001509;
+  --water-bg-dark: #002e1f;
+  --water-bg-neutral: #107460;
+  --water-bg-bright: #6bc1ab;
+  --water-bg-white: #bafff8;
+
+  --sky-bg-black: #000d29;
+  --sky-bg-dark: #002744;
+  --sky-bg-neutral: #1b6c8c;
+  --sky-bg-bright: #6eb9dc;
+  --sky-bg-white: #bcffff;
+}
