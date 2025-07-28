@@ -1,0 +1,93 @@
+{
+  "concertId": "s05-2020-10-19-its-about-time",
+  "title": "It's About Time",
+  "subtitle": "",
+  "description": "We return to our roots in our season-opener presenting a program of solo and duo works by a diverse field of composers performed by Co-Artistic Directors Samantha Bennett, violin and George Nickson, percussion.",
+  "date": "2020-10-19",
+  "ticketsLinks": [],
+  "venueId": "virtual",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "kevin-day-the-mind-is-like-water",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "tania-leon-de-color",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "katherine-balch-responding-to-the-waves",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "nico-muhly-its-about-time",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "francis-schwartz-solace-on-my-mind-3",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "shaun-tilburg-an-hour-of-change",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "kevin-day-the-mind-is-like-water": {
+        "violin": [
+          "samantha-bennett"
+        ]
+      }
+    },
+    {
+      "tania-leon-de-color": {
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "katherine-balch-responding-to-the-waves": {
+        "violin": [
+          "samantha-bennett"
+        ],
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "nico-muhly-its-about-time": {
+        "violin": [
+          "samantha-bennett"
+        ]
+      }
+    },
+    {
+      "francis-schwartz-solace-on-my-mind-3": {
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "shaun-tilburg-an-hour-of-change": {
+        "violin": [
+          "samantha-bennett"
+        ],
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    }
+  ]
+}

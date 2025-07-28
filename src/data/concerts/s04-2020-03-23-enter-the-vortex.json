@@ -1,0 +1,51 @@
+{
+  "concertId": "s04-2020-03-23-enter-the-vortex",
+  "title": "Enter the Vortex",
+  "subtitle": "",
+  "description": "It's past versus future as we Enter the Vortex with two of the twentieth-century's most enigmatic masters. 2017 Van Cliburn Semi-Finalist Han Chen joins enSRQ and Co-Artistic Director George Nickson for Philippe Hurel's virtuosic tribute, Tombeau to Gerard Grisey, an apropos preamble to our presentation of Grisey's seminal evening length work, Vortex Temporum.",
+  "date": "2020-03-23",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "gerard-grisey-vortex-temporum",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "philippe-hurel-tombeau-in-memorium-gerard-grisey": {
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "gerard-grisey-vortex-temporum": {
+        "violin": [
+          "samantha-bennett"
+        ],
+        "viola": [
+          "derek-mosloff"
+        ],
+        "cello": [
+          "natalie-helm"
+        ],
+        "clarinet": [
+          "calvin-falwell"
+        ],
+        "flute": [
+          "jessi-rosinski"
+        ]
+      }
+    }
+  ]
+}

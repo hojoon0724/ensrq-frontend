@@ -1,0 +1,47 @@
+{
+  "concertId": "s02-2017-12-11-lou-harrison-at-100",
+  "title": "Lou Harrison at 100",
+  "subtitle": "",
+  "description": "A centennial homage to Lou Harrison, celebrated American composer and maverick of sound. Featuring acclaimed pianist Sarah Cahill and Artistic Director Samantha Bennett.",
+  "date": "2017-12-11",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "lou-harrison-grand-duo",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "lou-harrison-varied-trio",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "lou-harrison-uneasy-rapture",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "lou-harrison-solo-to-anthony-cirone",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "lou-harrison-grand-duo": {}
+    },
+    {
+      "lou-harrison-varied-trio": {}
+    },
+    {
+      "lou-harrison-uneasy-rapture": {}
+    },
+    {
+      "lou-harrison-solo-to-anthony-cirone": {}
+    }
+  ]
+}

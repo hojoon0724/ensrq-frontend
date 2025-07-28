@@ -1,0 +1,18 @@
+{
+  "workId": "raven-chacon-voiceless-mass",
+  "composerId": "raven-chacon",
+  "title": "Voiceless Mass",
+  "year": 2021,
+  "duration": "20'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "pipe organ",
+      "count": 1
+    },
+    {
+      "instrument": "large ensemble",
+      "count": 1
+    }
+  ]
+}

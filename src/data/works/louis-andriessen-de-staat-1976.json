@@ -1,0 +1,50 @@
+{
+  "workId": "louis-andriessen-de-staat-1976",
+  "composerId": "louis-andriessen",
+  "title": "De Staat (1976)",
+  "year": "",
+  "duration": "35'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "soprano",
+      "count": 2
+    },
+    {
+      "instrument": "mezzo_soprano",
+      "count": 2
+    },
+    {
+      "instrument": "oboe",
+      "count": 4
+    },
+    {
+      "instrument": "trumpet",
+      "count": 4
+    },
+    {
+      "instrument": "horn",
+      "count": 4
+    },
+    {
+      "instrument": "trombone",
+      "count": 4
+    },
+    {
+      "instrument": "guitar",
+      "count": 2
+    },
+    {
+      "instrument": "harp",
+      "count": 2
+    },
+    {
+      "instrument": "piano",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 4
+    }
+  ]
+}

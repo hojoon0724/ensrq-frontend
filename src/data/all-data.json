@@ -1,6 +1,6 @@
 [
   {
-    "seasonId": 10,
+    "seasonId": "s10",
     "season": "2025-2026",
     "concerts": [
       {
@@ -19,7 +19,7 @@
               { "instrument": "percussion", "musicians": [] }
             ],
             "composer": {
-              "id": "sebastian-currier",
+              "composerId": "sebastian-currier",
               "name": "Sebastian Currier",
               "nationality": "American",
               "born": 1959
@@ -35,7 +35,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "amy-williams",
+              "composerId": "amy-williams",
               "name": "Amy Williams",
               "nationality": "American",
               "born": 1969
@@ -50,7 +50,7 @@
               { "instrument": "percussion", "musicians": [] }
             ],
             "composer": {
-              "id": "jerod-tate",
+              "composerId": "jerod-tate",
               "name": "Jerod Tate",
               "nationality": "American",
               "born": 1968
@@ -69,7 +69,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "elliott-carter",
+              "composerId": "elliott-carter",
               "name": "Elliott Carter",
               "nationality": "American",
               "born": 1908,
@@ -85,7 +85,7 @@
           }
         },
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -106,7 +106,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "reiko-futing",
+              "composerId": "reiko-futing",
               "name": "Reiko Füting",
               "nationality": "German",
               "born": 1970
@@ -122,7 +122,7 @@
               { "instrument": "cellos", "count": 2, "musicians": [] }
             ],
             "composer": {
-              "id": "juri-seo",
+              "composerId": "juri-seo",
               "name": "Juri Seo",
               "nationality": "South Korean",
               "born": 1981
@@ -138,7 +138,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "vivian-fung",
+              "composerId": "vivian-fung",
               "name": "Vivian Fung",
               "nationality": "Canadian",
               "born": 1975
@@ -150,7 +150,7 @@
             "duration": "10'",
             "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
             "commission": true,
-            "composer": { "id": "diallo-banks", "name": "Diallo Banks" }
+            "composer": { "composerId": "diallo-banks", "name": "Diallo Banks" }
           },
           {
             "title": "String Quartet No. 3 Songlines",
@@ -161,7 +161,7 @@
               { "instrument": "viola", "musicians": [] },
               { "instrument": "cello", "musicians": [] }
             ],
-            "composer": { "id": "michael-ippolito", "name": "Michael Ippolito" }
+            "composer": { "composerId": "michael-ippolito", "name": "Michael Ippolito" }
           }
         ],
         "ticketsLinks": {
@@ -172,7 +172,7 @@
           }
         },
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -191,7 +191,7 @@
               { "instrument": "live electronics", "musicians": [] }
             ],
             "composer": {
-              "id": "nina-c-young",
+              "composerId": "nina-c-young",
               "name": "Nina C. Young",
               "nationality": "American",
               "born": 1984
@@ -207,7 +207,7 @@
               { "instrument": "tape", "musicians": [] }
             ],
             "composer": {
-              "id": "claude-vivier",
+              "composerId": "claude-vivier",
               "name": "Claude Vivier",
               "nationality": "Canadian",
               "born": 1948,
@@ -221,7 +221,7 @@
             "instrumentation": [{ "instrument": "TBD", "musicians": [] }],
             "commission": true,
             "composer": {
-              "id": "shawn-allison",
+              "composerId": "shawn-allison",
               "name": "Shawn Allison",
               "nationality": "American"
             }
@@ -235,7 +235,7 @@
               { "instrument": "mezzo-soprano", "musicians": [] }
             ],
             "composer": {
-              "id": "christopher-cerrone",
+              "composerId": "christopher-cerrone",
               "name": "Christopher Cerrone",
               "nationality": "American"
             }
@@ -249,7 +249,7 @@
           }
         },
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -269,7 +269,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "caroline-shaw",
+              "composerId": "caroline-shaw",
               "name": "Caroline Shaw",
               "nationality": "American",
               "born": 1982
@@ -283,7 +283,7 @@
             "commission": true,
             "premiere": true,
             "composer": {
-              "id": "che-buford",
+              "composerId": "che-buford",
               "name": "Che Buford",
               "nationality": "American"
             }
@@ -294,7 +294,7 @@
             "duration": "20'",
             "instrumentation": [{ "instrument": "ensemble", "musicians": [] }],
             "composer": {
-              "id": "andrew-thomas",
+              "composerId": "andrew-thomas",
               "name": "Andrew Thomas",
               "nationality": "American",
               "born": 1939
@@ -312,7 +312,7 @@
             ],
             "premiere": true,
             "composer": {
-              "id": "roger-zare",
+              "composerId": "roger-zare",
               "name": "Roger Zare",
               "nationality": "American",
               "born": 1985
@@ -328,7 +328,7 @@
               { "instrument": "marimba", "musicians": [] }
             ],
             "composer": {
-              "id": "kevin-puts",
+              "composerId": "kevin-puts",
               "name": "Kevin Puts",
               "nationality": "American",
               "born": 1972
@@ -343,7 +343,7 @@
           }
         },
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -359,7 +359,7 @@
             "duration": "40-50'",
             "instrumentation": [{ "instrument": "musicians", "count": 18, "musicians": [] }],
             "composer": {
-              "id": "steve-reich",
+              "composerId": "steve-reich",
               "name": "Steve Reich",
               "nationality": "American",
               "born": 1936
@@ -374,7 +374,7 @@
           }
         },
         "venue": {
-          "id": "sarasota-opera-house",
+          "venueId": "sarasota-opera-house",
           "name": "Sarasota Opera House",
           "address": "61 N. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -390,7 +390,7 @@
             "duration": "90'",
             "instrumentation": [{ "instrument": "large ensemble", "musicians": [] }],
             "composer": {
-              "id": "matthew-aucoin",
+              "composerId": "matthew-aucoin",
               "name": "Matthew Aucoin",
               "nationality": "American",
               "born": 1990
@@ -405,7 +405,7 @@
           }
         },
         "venue": {
-          "id": "sarasota-opera-house",
+          "venueId": "sarasota-opera-house",
           "name": "Sarasota Opera House",
           "address": "61 N. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -413,7 +413,7 @@
     ]
   },
   {
-    "seasonId": 9,
+    "seasonId": "s09",
     "season": "2024-2025",
     "concerts": [
       {
@@ -433,7 +433,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "kevin-day",
+              "composerId": "kevin-day",
               "name": "Kevin Day",
               "nationality": "American",
               "born": 1996
@@ -449,7 +449,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "sofia-gubaidulina",
+              "composerId": "sofia-gubaidulina",
               "name": "Sofia Gubaidulina",
               "nationality": "Russian",
               "born": 1931
@@ -464,7 +464,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "arlene-sierra",
+              "composerId": "arlene-sierra",
               "name": "Arlene Sierra",
               "nationality": "American",
               "born": 1970
@@ -481,7 +481,7 @@
               { "instrument": "percussion", "musicians": [] }
             ],
             "composer": {
-              "id": "chris-stark",
+              "composerId": "chris-stark",
               "name": "Chris Stark",
               "nationality": "American"
             }
@@ -499,14 +499,14 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "shawn-allison",
+              "composerId": "shawn-allison",
               "name": "Shawn Allison",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -526,7 +526,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "treya-nash",
+              "composerId": "treya-nash",
               "name": "Treya Nash",
               "nationality": "American"
             }
@@ -542,7 +542,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "daniel-gostelow",
+              "composerId": "daniel-gostelow",
               "name": "Daniel Gostelow",
               "nationality": "Australian"
             }
@@ -553,7 +553,7 @@
             "duration": "7'",
             "instrumentation": [{ "instrument": "marimba", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "david-acevedo",
+              "composerId": "david-acevedo",
               "name": "David Acevedo",
               "nationality": "American"
             }
@@ -564,7 +564,7 @@
             "duration": "9'",
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "daniel-gostelow",
+              "composerId": "daniel-gostelow",
               "name": "Daniel Gostelow",
               "nationality": "Australian"
             }
@@ -575,7 +575,7 @@
             "duration": "6'",
             "instrumentation": [{ "instrument": "violin", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "sean-quinn",
+              "composerId": "sean-quinn",
               "name": "Sean Quinn",
               "nationality": "American"
             }
@@ -586,7 +586,7 @@
             "duration": "3'",
             "instrumentation": [{ "instrument": "viola", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "joshua-muetzel",
+              "composerId": "joshua-muetzel",
               "name": "Joshua Muetzel",
               "nationality": "American"
             }
@@ -601,7 +601,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "max-gibson",
+              "composerId": "max-gibson",
               "name": "Max Gibson",
               "nationality": "American",
               "born": 1999,
@@ -618,7 +618,7 @@
               { "instrument": "prepared piano", "musicians": [] }
             ],
             "composer": {
-              "id": "david-acevedo",
+              "composerId": "david-acevedo",
               "name": "David Acevedo",
               "nationality": "American"
             }
@@ -632,14 +632,14 @@
               { "instrument": "viola", "musicians": [] }
             ],
             "composer": {
-              "id": "joshua-muetzel",
+              "composerId": "joshua-muetzel",
               "name": "Joshua Muetzel",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -661,7 +661,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "arnold-schoenberg",
+              "composerId": "arnold-schoenberg",
               "name": "Arnold Schoenberg",
               "nationality": "Austrian",
               "born": 1874,
@@ -674,7 +674,7 @@
             "duration": "45'",
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "charles-ives",
+              "composerId": "charles-ives",
               "name": "Charles Ives",
               "nationality": "American",
               "born": 1874,
@@ -683,7 +683,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -698,7 +698,7 @@
             "duration": "9'",
             "instrumentation": [{ "instrument": "violin", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "anna-clyne",
+              "composerId": "anna-clyne",
               "name": "Anna Clyne",
               "nationality": "British",
               "born": 1980
@@ -714,7 +714,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "chris-theofanidis",
+              "composerId": "chris-theofanidis",
               "name": "Chris Theofanidis",
               "nationality": "American",
               "born": 1967
@@ -731,7 +731,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "dai-wei",
+              "composerId": "dai-wei",
               "name": "Dai Wei",
               "nationality": "Chinese"
             }
@@ -746,7 +746,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "han-lash",
+              "composerId": "han-lash",
               "name": "Han Lash",
               "nationality": "American",
               "born": 1981
@@ -762,7 +762,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "gabriela-lena-frank",
+              "composerId": "gabriela-lena-frank",
               "name": "Gabriela Lena Frank",
               "nationality": "American",
               "born": 1972
@@ -770,7 +770,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -785,7 +785,7 @@
             "duration": "TBD",
             "instrumentation": [{ "instrument": "marimba", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "jonathan-cziner",
+              "composerId": "jonathan-cziner",
               "name": "Jonathan Cziner",
               "nationality": "American"
             }
@@ -796,7 +796,7 @@
             "duration": "8'",
             "instrumentation": [{ "instrument": "percussion", "count": 4, "musicians": [] }],
             "composer": {
-              "id": "ellen-reid",
+              "composerId": "ellen-reid",
               "name": "Ellen Reid",
               "nationality": "American",
               "born": 1983
@@ -812,7 +812,7 @@
               { "instrument": "electronics", "musicians": [] }
             ],
             "composer": {
-              "id": "nico-muhly",
+              "composerId": "nico-muhly",
               "name": "Nico Muhly",
               "nationality": "American",
               "born": 1981
@@ -827,7 +827,7 @@
               { "instrument": "percussion", "count": 4, "musicians": [] }
             ],
             "composer": {
-              "id": "tan-dun",
+              "composerId": "tan-dun",
               "name": "Tan Dun",
               "nationality": "Chinese",
               "born": 1957
@@ -835,7 +835,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -850,7 +850,7 @@
             "duration": "5'",
             "instrumentation": [{ "instrument": "violin", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "kenji-bunch",
+              "composerId": "kenji-bunch",
               "name": "Kenji Bunch",
               "nationality": "American",
               "born": 1973
@@ -869,7 +869,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "george-perle",
+              "composerId": "george-perle",
               "name": "George Perle",
               "nationality": "American",
               "born": 1915,
@@ -887,7 +887,7 @@
             ],
             "commission": true,
             "composer": {
-              "id": "paul-mortilla",
+              "composerId": "paul-mortilla",
               "name": "Paul Mortilla",
               "nationality": "American"
             }
@@ -910,7 +910,7 @@
               { "instrument": "bass", "musicians": [] }
             ],
             "composer": {
-              "id": "carolyn-chen",
+              "composerId": "carolyn-chen",
               "name": "Carolyn Chen",
               "nationality": "American",
               "born": 1983
@@ -925,7 +925,7 @@
               { "instrument": "ensemble", "musicians": [] }
             ],
             "composer": {
-              "id": "marcos-balter",
+              "composerId": "marcos-balter",
               "name": "Marcos Balter",
               "nationality": "Brazilian",
               "born": 1974
@@ -933,7 +933,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -948,7 +948,7 @@
             "duration": "55'",
             "instrumentation": [{ "instrument": "large ensemble", "musicians": [] }],
             "composer": {
-              "id": "wolfgang-rihm",
+              "composerId": "wolfgang-rihm",
               "name": "Wolfgang Rihm",
               "nationality": "German",
               "born": 1952,
@@ -957,7 +957,7 @@
           }
         ],
         "venue": {
-          "id": "sarasota-opera-house",
+          "venueId": "sarasota-opera-house",
           "name": "Sarasota Opera House",
           "address": "61 N. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -965,7 +965,7 @@
     ]
   },
   {
-    "seasonId": 8,
+    "seasonId": "s08",
     "season": "2023-2024",
     "concerts": [
       {
@@ -983,7 +983,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "nicolas-bentz",
+              "composerId": "nicolas-bentz",
               "name": "Nicolas Bentz",
               "nationality": "American"
             }
@@ -998,7 +998,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "claire-hu",
+              "composerId": "claire-hu",
               "name": "Claire Hu",
               "nationality": "American"
             }
@@ -1015,7 +1015,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "angela-elizabeth-slater",
+              "composerId": "angela-elizabeth-slater",
               "name": "Angela Elizabeth Slater",
               "nationality": "American"
             }
@@ -1030,7 +1030,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "yangfan-xu",
+              "composerId": "yangfan-xu",
               "name": "Yangfan Xu",
               "nationality": "Chinese"
             }
@@ -1044,7 +1044,7 @@
               { "instrument": "dulcimer", "musicians": [] }
             ],
             "composer": {
-              "id": "zachary-konick",
+              "composerId": "zachary-konick",
               "name": "Zachary Konick",
               "nationality": "American"
             }
@@ -1055,7 +1055,7 @@
             "duration": "7'",
             "instrumentation": [{ "instrument": "dulcimer", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "zachary-konick",
+              "composerId": "zachary-konick",
               "name": "Zachary Konick",
               "nationality": "American"
             }
@@ -1069,7 +1069,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "angela-elizabeth-slater",
+              "composerId": "angela-elizabeth-slater",
               "name": "Angela Elizabeth Slater",
               "nationality": "American"
             }
@@ -1087,14 +1087,14 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "chris-neiner",
+              "composerId": "chris-neiner",
               "name": "Chris Neiner",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1113,7 +1113,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "nia-imani-franklin",
+              "composerId": "nia-imani-franklin",
               "name": "Nia Imani Franklin",
               "nationality": "American"
             }
@@ -1128,7 +1128,7 @@
               { "instrument": "cello", "musicians": [] }
             ],
             "composer": {
-              "id": "julia-adolphe",
+              "composerId": "julia-adolphe",
               "name": "Julia Adolphe",
               "nationality": "American",
               "born": 1988
@@ -1143,7 +1143,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "chris-rogerson",
+              "composerId": "chris-rogerson",
               "name": "Chris Rogerson",
               "nationality": "American"
             }
@@ -1159,7 +1159,7 @@
               { "instrument": "live electronics", "musicians": [] }
             ],
             "composer": {
-              "id": "philippe-manoury",
+              "composerId": "philippe-manoury",
               "name": "Philippe Manoury",
               "nationality": "French",
               "born": 1952
@@ -1167,7 +1167,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1184,7 +1184,7 @@
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "notes": "Inspired by White on White",
             "composer": {
-              "id": "vivian-fung",
+              "composerId": "vivian-fung",
               "name": "Vivian Fung",
               "nationality": "Canadian",
               "born": 1975
@@ -1196,7 +1196,7 @@
             "duration": "4'30\"",
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "gyorgy-ligeti",
+              "composerId": "gyorgy-ligeti",
               "name": "György Ligeti",
               "nationality": "Hungarian",
               "born": 1923,
@@ -1210,7 +1210,7 @@
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "notes": "Inspired by Fanfares",
             "composer": {
-              "id": "tom-morrison",
+              "composerId": "tom-morrison",
               "name": "Tom Morrison",
               "nationality": "American"
             }
@@ -1221,7 +1221,7 @@
             "duration": "4'",
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "gyorgy-ligeti",
+              "composerId": "gyorgy-ligeti",
               "name": "György Ligeti",
               "nationality": "Hungarian",
               "born": 1923,
@@ -1235,7 +1235,7 @@
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "notes": "Inspired by Automne à Varsovie",
             "composer": {
-              "id": "nina-c-young",
+              "composerId": "nina-c-young",
               "name": "Nina C. Young",
               "nationality": "American",
               "born": 1984
@@ -1247,7 +1247,7 @@
             "duration": "4'30\"",
             "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "gyorgy-ligeti",
+              "composerId": "gyorgy-ligeti",
               "name": "György Ligeti",
               "nationality": "Hungarian",
               "born": 1923,
@@ -1264,7 +1264,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "stacy-garrop",
+              "composerId": "stacy-garrop",
               "name": "Stacy Garrop",
               "nationality": "American",
               "born": 1969
@@ -1280,7 +1280,7 @@
             ],
             "notes": "Clarinet Version World Premiere",
             "composer": {
-              "id": "stacy-garrop",
+              "composerId": "stacy-garrop",
               "name": "Stacy Garrop",
               "nationality": "American",
               "born": 1969
@@ -1292,7 +1292,7 @@
             "duration": "9'",
             "instrumentation": [{ "instrument": "cello", "solo": true, "musicians": [] }],
             "composer": {
-              "id": "gyorgy-ligeti",
+              "composerId": "gyorgy-ligeti",
               "name": "György Ligeti",
               "nationality": "Hungarian",
               "born": 1923,
@@ -1309,7 +1309,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "viet-cuong",
+              "composerId": "viet-cuong",
               "name": "Viet Cuong",
               "nationality": "American",
               "born": 1990
@@ -1325,7 +1325,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "gyorgy-ligeti",
+              "composerId": "gyorgy-ligeti",
               "name": "György Ligeti",
               "nationality": "Hungarian",
               "born": 1923,
@@ -1334,7 +1334,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1354,7 +1354,7 @@
             "commission": true,
             "premiere": true,
             "composer": {
-              "id": "scott-lee",
+              "composerId": "scott-lee",
               "name": "Scott Lee",
               "nationality": "American"
             }
@@ -1369,7 +1369,7 @@
               { "instrument": "percussion", "musicians": [] }
             ],
             "composer": {
-              "id": "molly-herron",
+              "composerId": "molly-herron",
               "name": "Molly Herron",
               "nationality": "American"
             }
@@ -1383,7 +1383,7 @@
               { "instrument": "harp", "musicians": [] }
             ],
             "composer": {
-              "id": "sebastian-currier",
+              "composerId": "sebastian-currier",
               "name": "Sebastian Currier",
               "nationality": "American",
               "born": 1959
@@ -1399,7 +1399,7 @@
               { "instrument": "cellos", "count": 2, "musicians": [] }
             ],
             "composer": {
-              "id": "einojuhani-rautavaara",
+              "composerId": "einojuhani-rautavaara",
               "name": "Einojuhani Rautavaara",
               "nationality": "Finnish",
               "born": 1928,
@@ -1417,7 +1417,7 @@
               { "instrument": "percussion", "musicians": [] }
             ],
             "composer": {
-              "id": "sam-adams",
+              "composerId": "sam-adams",
               "name": "Sam Adams",
               "nationality": "American",
               "born": 1985
@@ -1425,7 +1425,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1447,7 +1447,7 @@
               { "instrument": "marimba", "musicians": [] }
             ],
             "composer": {
-              "id": "sarah-kirkland-snider",
+              "composerId": "sarah-kirkland-snider",
               "name": "Sarah Kirkland Snider",
               "nationality": "American",
               "born": 1973
@@ -1467,7 +1467,7 @@
             "commission": true,
             "premiere": true,
             "composer": {
-              "id": "kyle-rivera",
+              "composerId": "kyle-rivera",
               "name": "Kyle Rivera",
               "nationality": "American"
             }
@@ -1481,7 +1481,7 @@
               { "instrument": "marimba", "musicians": [] }
             ],
             "composer": {
-              "id": "shawn-okpebholo",
+              "composerId": "shawn-okpebholo",
               "name": "Shawn Okpebholo",
               "nationality": "American",
               "born": 1981
@@ -1499,7 +1499,7 @@
               { "instrument": "piano", "musicians": [] }
             ],
             "composer": {
-              "id": "ania-vu",
+              "composerId": "ania-vu",
               "name": "Ania Vu",
               "nationality": "American"
             }
@@ -1513,7 +1513,7 @@
               { "instrument": "large ensemble", "musicians": [] }
             ],
             "composer": {
-              "id": "raven-chacon",
+              "composerId": "raven-chacon",
               "name": "Raven Chacon",
               "nationality": "American",
               "born": 1977
@@ -1521,7 +1521,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1544,7 +1544,7 @@
             ],
             "premiere": true,
             "composer": {
-              "id": "angelica-negron",
+              "composerId": "angelica-negron",
               "name": "Angélica Negrón",
               "nationality": "Puerto Rican",
               "born": 1981
@@ -1552,255 +1552,299 @@
           }
         ],
         "venue": {
-          "id": "the-hermitage-artist-retreat",
+          "venueId": "the-hermitage-artist-retreat",
           "name": "The Hermitage Artist Retreat",
           "address": "6630 Manasota Key Rd, Englewood, FL 34223"
         }
       },
       {
-        "title": "Parisian Refraction - Dallas",
+        "title": "Parisian Refraction - Dallas: Program #1",
         "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
-        "date": "2024-04-23",
+        "date": "2024-05-09",
         "is_festival": true,
-        "endDate": "2024-04-29",
-        "programs": [
+        "endDate": "2024-05-11",
+        "description": "Conor Hanick: Solo Piano Recital",
+        "program": [
           {
-            "programTitle": "Program #1",
-            "description": "Conor Hanick: Solo Piano Recital",
-            "pieces": [
-              {
-                "title": "Book of Sounds",
-                "year": 1982,
-                "duration": "60'",
-                "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
-                "movements": [],
-                "composerId": "hans-otte",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
-          },
-          {
-            "programTitle": "Program #2",
-            "description": "Spotlight on Unsuk Chin",
-            "pieces": [
-              {
-                "title": "Acrostic Wordplay",
-                "year": "1991 rev. 1993",
-                "duration": "16'",
-                "instrumentation": [
-                  { "instrument": "soprano", "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "unsuk-chin",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Graal Theatre",
-                "year": 1991,
-                "duration": "24'",
-                "instrumentation": [
-                  { "instrument": "violin", "solo": true, "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "kaija-saariaho",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Double Concerto",
-                "year": 2002,
-                "duration": "20'",
-                "instrumentation": [
-                  { "instrument": "piano", "solo": true, "musicians": [] },
-                  { "instrument": "percussion", "solo": true, "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "unsuk-chin",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
-          },
-          {
-            "programTitle": "Program #3",
-            "description": "Kafka Fragments",
-            "pieces": [
-              {
-                "title": "Kafka Fragments",
-                "year": "1985-1986",
-                "duration": "63'",
-                "instrumentation": [
-                  { "instrument": "soprano", "musicians": [] },
-                  { "instrument": "violin", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "gyorgy-kurtag",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
-          },
-          {
-            "programTitle": "Program #4",
-            "pieces": [
-              {
-                "title": "KLANG (Hour Two) Freude",
-                "year": 2005,
-                "duration": "41'",
-                "instrumentation": [{ "instrument": "harps", "count": 2, "musicians": [] }],
-                "movements": [],
-                "composerId": "karlheinz-stockhausen",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Sur Incises",
-                "year": 1998,
-                "duration": "40'",
-                "instrumentation": [
-                  { "instrument": "harps", "count": 3, "musicians": [] },
-                  { "instrument": "pianos", "count": 3, "musicians": [] },
-                  { "instrument": "percussion", "count": 3, "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "pierre-boulez",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
+            "title": "Book of Sounds",
+            "year": 1982,
+            "duration": "60'",
+            "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
+            "movements": [],
+            "composerId": "hans-otte",
+            "is_commission": false,
+            "is_premiere": false
           }
         ],
         "venue": {
-          "id": "southern-methodist-university",
+          "venueId": "southern-methodist-university",
           "name": "Southern Methodist University",
           "address": "Dallas, TX 75205"
         }
       },
       {
-        "title": "Parisian Refraction - Sarasota",
+        "title": "Parisian Refraction - Dallas: Program #2",
         "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
         "date": "2024-05-09",
         "is_festival": true,
         "endDate": "2024-05-11",
-        "programs": [
+        "description": "Spotlight on Unsuk Chin",
+        "program": [
           {
-            "programTitle": "Program #1",
-            "description": "Conor Hanick: Solo Piano Recital",
-            "pieces": [
-              {
-                "title": "Book of Sounds",
-                "year": 1982,
-                "duration": "60'",
-                "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
-                "movements": [],
-                "composerId": "hans-otte",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
+            "title": "Acrostic Wordplay",
+            "year": "1991 rev. 1993",
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "soprano", "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "unsuk-chin",
+            "is_commission": false,
+            "is_premiere": false
           },
           {
-            "programTitle": "Program #2",
-            "description": "Spotlight on Unsuk Chin",
-            "pieces": [
-              {
-                "title": "Acrostic Wordplay",
-                "year": "1991 rev. 1993",
-                "duration": "16'",
-                "instrumentation": [
-                  { "instrument": "soprano", "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "unsuk-chin",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Graal Theatre",
-                "year": 1991,
-                "duration": "24'",
-                "instrumentation": [
-                  { "instrument": "violin", "solo": true, "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "kaija-saariaho",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Double Concerto",
-                "year": 2002,
-                "duration": "20'",
-                "instrumentation": [
-                  { "instrument": "piano", "solo": true, "musicians": [] },
-                  { "instrument": "percussion", "solo": true, "musicians": [] },
-                  { "instrument": "ensemble", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "unsuk-chin",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
+            "title": "Graal Theatre",
+            "year": 1991,
+            "duration": "24'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "kaija-saariaho",
+            "is_commission": false,
+            "is_premiere": false
           },
           {
-            "programTitle": "Program #3",
-            "description": "Kafka Fragments",
-            "pieces": [
-              {
-                "title": "Kafka Fragments",
-                "year": "1985-1986",
-                "duration": "63'",
-                "instrumentation": [
-                  { "instrument": "soprano", "musicians": [] },
-                  { "instrument": "violin", "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "gyorgy-kurtag",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
-          },
-          {
-            "programTitle": "Program #4",
-            "pieces": [
-              {
-                "title": "KLANG (Hour Two) Freude",
-                "year": 2005,
-                "duration": "41'",
-                "instrumentation": [{ "instrument": "harps", "count": 2, "musicians": [] }],
-                "movements": [],
-                "composerId": "karlheinz-stockhausen",
-                "is_commission": false,
-                "is_premiere": false
-              },
-              {
-                "title": "Sur Incises",
-                "year": 1998,
-                "duration": "40'",
-                "instrumentation": [
-                  { "instrument": "harps", "count": 3, "musicians": [] },
-                  { "instrument": "pianos", "count": 3, "musicians": [] },
-                  { "instrument": "percussion", "count": 3, "musicians": [] }
-                ],
-                "movements": [],
-                "composerId": "pierre-boulez",
-                "is_commission": false,
-                "is_premiere": false
-              }
-            ]
+            "title": "Double Concerto",
+            "year": 2002,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] },
+              { "instrument": "percussion", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "unsuk-chin",
+            "is_commission": false,
+            "is_premiere": false
           }
         ],
         "venue": {
-          "id": "the-ringling-museum",
+          "venueId": "southern-methodist-university",
+          "name": "Southern Methodist University",
+          "address": "Dallas, TX 75205"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Dallas: Program #3",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "description": "Kafka Fragments",
+        "program": [
+          {
+            "title": "Kafka Fragments",
+            "year": "1985-1986",
+            "duration": "63'",
+            "instrumentation": [
+              { "instrument": "soprano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "gyorgy-kurtag",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "southern-methodist-university",
+          "name": "Southern Methodist University",
+          "address": "Dallas, TX 75205"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Dallas: Program #4",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "program": [
+          {
+            "title": "KLANG (Hour Two) Freude",
+            "year": 2005,
+            "duration": "41'",
+            "instrumentation": [{ "instrument": "harps", "count": 2, "musicians": [] }],
+            "movements": [],
+            "composerId": "karlheinz-stockhausen",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sur Incises",
+            "year": 1998,
+            "duration": "40'",
+            "instrumentation": [
+              { "instrument": "harps", "count": 3, "musicians": [] },
+              { "instrument": "pianos", "count": 3, "musicians": [] },
+              { "instrument": "percussion", "count": 3, "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "pierre-boulez",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "southern-methodist-university",
+          "name": "Southern Methodist University",
+          "address": "Dallas, TX 75205"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Sarasota: Program #1",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "description": "Conor Hanick: Solo Piano Recital",
+        "program": [
+          {
+            "title": "Book of Sounds",
+            "year": 1982,
+            "duration": "60'",
+            "instrumentation": [{ "instrument": "piano", "solo": true, "musicians": [] }],
+            "movements": [],
+            "composerId": "hans-otte",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "the-ringling-museum",
+          "name": "The Ringling Museum",
+          "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Sarasota: Program #2",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "description": "Spotlight on Unsuk Chin",
+        "program": [
+          {
+            "title": "Acrostic Wordplay",
+            "year": "1991 rev. 1993",
+            "duration": "16'",
+            "instrumentation": [
+              { "instrument": "soprano", "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "unsuk-chin",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Graal Theatre",
+            "year": 1991,
+            "duration": "24'",
+            "instrumentation": [
+              { "instrument": "violin", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "kaija-saariaho",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Double Concerto",
+            "year": 2002,
+            "duration": "20'",
+            "instrumentation": [
+              { "instrument": "piano", "solo": true, "musicians": [] },
+              { "instrument": "percussion", "solo": true, "musicians": [] },
+              { "instrument": "ensemble", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "unsuk-chin",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "the-ringling-museum",
+          "name": "The Ringling Museum",
+          "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Sarasota: Program #3",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "description": "Kafka Fragments",
+        "program": [
+          {
+            "title": "Kafka Fragments",
+            "year": "1985-1986",
+            "duration": "63'",
+            "instrumentation": [
+              { "instrument": "soprano", "musicians": [] },
+              { "instrument": "violin", "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "gyorgy-kurtag",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "the-ringling-museum",
+          "name": "The Ringling Museum",
+          "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+        }
+      },
+      {
+        "title": "Parisian Refraction - Sarasota: Program #4",
+        "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+        "date": "2024-05-09",
+        "is_festival": true,
+        "endDate": "2024-05-11",
+        "program": [
+          {
+            "title": "KLANG (Hour Two) Freude",
+            "year": 2005,
+            "duration": "41'",
+            "instrumentation": [{ "instrument": "harps", "count": 2, "musicians": [] }],
+            "movements": [],
+            "composerId": "karlheinz-stockhausen",
+            "is_commission": false,
+            "is_premiere": false
+          },
+          {
+            "title": "Sur Incises",
+            "year": 1998,
+            "duration": "40'",
+            "instrumentation": [
+              { "instrument": "harps", "count": 3, "musicians": [] },
+              { "instrument": "pianos", "count": 3, "musicians": [] },
+              { "instrument": "percussion", "count": 3, "musicians": [] }
+            ],
+            "movements": [],
+            "composerId": "pierre-boulez",
+            "is_commission": false,
+            "is_premiere": false
+          }
+        ],
+        "venue": {
+          "venueId": "the-ringling-museum",
           "name": "The Ringling Museum",
           "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
         }
@@ -1808,7 +1852,7 @@
     ]
   },
   {
-    "seasonId": 7,
+    "seasonId": "s07",
     "season": "2022-2023",
     "concerts": [
       {
@@ -1827,7 +1871,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "jerod-tate",
+              "composerId": "jerod-tate",
               "name": "Jerod Tate",
               "nationality": "American",
               "born": 1968
@@ -1850,7 +1894,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "inti-figgis-vizueta",
+              "composerId": "inti-figgis-vizueta",
               "name": "Inti Figgis Vizueta"
             }
           },
@@ -1871,7 +1915,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "elizabeth-ogonek",
+              "composerId": "elizabeth-ogonek",
               "name": "Elizabeth Ogonek",
               "nationality": "Classical"
             }
@@ -1892,7 +1936,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "michael-begay", "name": "Michael Begay" }
+            "composer": { "composerId": "michael-begay", "name": "Michael Begay" }
           },
           {
             "title": "Pico-Bite-Beat (2018)",
@@ -1913,15 +1957,15 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "gabriela-ortiz",
+              "composerId": "gabriela-ortiz",
               "name": "Gabriela Ortiz",
-              "nationality": "And",
+              "nationality": "",
               "born": 1964
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -1934,7 +1978,7 @@
         "description": "Collaboration between ensembleNEWSRQ and Sarasota Contemporary Dance. Program details not specified in source.",
         "sponsors": [],
         "program": [],
-        "venue": { "id": "tbd", "name": "TBD", "address": "TBD" }
+        "venue": { "venueId": "tbd", "name": "TBD", "address": "TBD" }
       },
       {
         "title": "Crumb",
@@ -1958,7 +2002,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "george-crumb",
+              "composerId": "george-crumb",
               "name": "George Crumb",
               "nationality": "American",
               "born": 1929,
@@ -1982,7 +2026,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "margaret-brouwer",
+              "composerId": "margaret-brouwer",
               "name": "Margaret Brouwer",
               "nationality": "American"
             }
@@ -2021,7 +2065,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "george-crumb",
+              "composerId": "george-crumb",
               "name": "George Crumb",
               "nationality": "American",
               "born": 1929,
@@ -2030,7 +2074,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2063,7 +2107,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "christopher-cerrone",
+              "composerId": "christopher-cerrone",
               "name": "Christopher Cerrone",
               "nationality": "American"
             }
@@ -2083,7 +2127,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "missy-mazzoli",
+              "composerId": "missy-mazzoli",
               "name": "Missy Mazzoli",
               "nationality": "American",
               "born": 1980
@@ -2091,7 +2135,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2117,7 +2161,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "emma-ohalloran", "name": "Emma Ohalloran" }
+            "composer": { "composerId": "emma-ohalloran", "name": "Emma Ohalloran" }
           },
           {
             "title": "Prelude and Ether (2019)",
@@ -2134,7 +2178,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "krists-auznieks", "name": "Krists Auznieks" }
+            "composer": { "composerId": "krists-auznieks", "name": "Krists Auznieks" }
           },
           {
             "title": "Kagome Kagome (2022)",
@@ -2160,7 +2204,7 @@
             ],
             "is_commission": true,
             "is_premiere": true,
-            "composer": { "id": "shaun-tilburg", "name": "Shaun Tilburg" }
+            "composer": { "composerId": "shaun-tilburg", "name": "Shaun Tilburg" }
           },
           {
             "title": "New England Etudes (2022)",
@@ -2184,7 +2228,7 @@
             "is_commission": "co-commission",
             "is_premiere": false,
             "composer": {
-              "id": "mark-anthony-turnage",
+              "composerId": "mark-anthony-turnage",
               "name": "Mark Anthony Turnage",
               "nationality": "British",
               "born": 1960
@@ -2192,7 +2236,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2236,7 +2280,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "hk-gruber",
+              "composerId": "hk-gruber",
               "name": "HK Gruber",
               "nationality": "Austrian"
             }
@@ -2301,14 +2345,14 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "louis-andriessen",
+              "composerId": "louis-andriessen",
               "name": "Louis Andriessen",
               "nationality": "Dutch"
             }
           }
         ],
         "venue": {
-          "id": "sarasota-opera-house",
+          "venueId": "sarasota-opera-house",
           "name": "Sarasota Opera House",
           "address": "61 N. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -2316,7 +2360,7 @@
     ]
   },
   {
-    "seasonId": 6,
+    "seasonId": "s06",
     "season": "2021-2022",
     "concerts": [
       {
@@ -2340,7 +2384,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "yaz-lancaster", "name": "Yaz Lancaster" }
+            "composer": { "composerId": "yaz-lancaster", "name": "Yaz Lancaster" }
           },
           {
             "title": "Shadow Theater for violin, piano and percussion (2020)",
@@ -2354,7 +2398,7 @@
             ],
             "is_commission": true,
             "is_premiere": true,
-            "composer": { "id": "max-grafe", "name": "Max Grafe" }
+            "composer": { "composerId": "max-grafe", "name": "Max Grafe" }
           },
           {
             "title": "Don't Look Down for prepared piano and percussion quartet (2020)",
@@ -2372,14 +2416,14 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "christopher-cerrone",
+              "composerId": "christopher-cerrone",
               "name": "Christopher Cerrone",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2406,7 +2450,7 @@
             "is_commission": "co-commission with ensemble vim",
             "is_premiere": false,
             "composer": {
-              "id": "elizabeth-a-baker",
+              "composerId": "elizabeth-a-baker",
               "name": "Elizabeth A. Baker"
             }
           }
@@ -2417,7 +2461,7 @@
           "passcode": ""
         },
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2450,7 +2494,7 @@
             "is_commission": "co-commission with Chroma Trio",
             "is_premiere": false,
             "composer": {
-              "id": "tyson-gholston-davis",
+              "composerId": "tyson-gholston-davis",
               "name": "Tyson Gholston Davis"
             }
           },
@@ -2466,7 +2510,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "andreia-pinto-correia",
+              "composerId": "andreia-pinto-correia",
               "name": "Andreia Pinto Correia",
               "nationality": "Portuguese",
               "born": 1971
@@ -2485,7 +2529,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "freya-waley-cohen",
+              "composerId": "freya-waley-cohen",
               "name": "Freya Waley Cohen"
             }
           },
@@ -2506,14 +2550,14 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "du-yun",
+              "composerId": "du-yun",
               "name": "Du Yun",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2534,7 +2578,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "philippe-hurel",
+              "composerId": "philippe-hurel",
               "name": "Philippe Hurel",
               "nationality": "French"
             }
@@ -2548,7 +2592,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "nina-c-young",
+              "composerId": "nina-c-young",
               "name": "Nina C. Young",
               "nationality": "American",
               "born": 1984
@@ -2576,7 +2620,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "gerard-grisey",
+              "composerId": "gerard-grisey",
               "name": "Gerard Grisey",
               "nationality": "French",
               "born": 1946,
@@ -2585,7 +2629,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -2611,7 +2655,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "patrick-harlin", "name": "Patrick Harlin" }
+            "composer": { "composerId": "patrick-harlin", "name": "Patrick Harlin" }
           },
           {
             "title": "Entropic Arrows (2019)",
@@ -2635,7 +2679,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "anna-thorvaldsdottir",
+              "composerId": "anna-thorvaldsdottir",
               "name": "Anna Thorvaldsdottir",
               "nationality": "Icelandic"
             }
@@ -2652,7 +2696,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "yaz-lancaster", "name": "Yaz Lancaster" }
+            "composer": { "composerId": "yaz-lancaster", "name": "Yaz Lancaster" }
           },
           {
             "title": "WAVES (2020)",
@@ -2673,7 +2717,7 @@
             "is_commission": "co-commission",
             "is_premiere": true,
             "composer": {
-              "id": "sebastian-currier",
+              "composerId": "sebastian-currier",
               "name": "Sebastian Currier",
               "nationality": "American",
               "born": 1959
@@ -2681,7 +2725,7 @@
           }
         ],
         "venue": {
-          "id": "mildred-sainer-auditorium",
+          "venueId": "mildred-sainer-auditorium",
           "name": "Mildred Sainer Auditorium",
           "address": "5313 Bay Shore Rd, Sarasota, FL 34243"
         }
@@ -2689,7 +2733,7 @@
     ]
   },
   {
-    "seasonId": 5,
+    "seasonId": "s05",
     "season": "2020-2021",
     "concerts": [
       {
@@ -2708,7 +2752,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kevin-day",
+              "composerId": "kevin-day",
               "name": "Kevin Day",
               "nationality": "American",
               "born": 1996
@@ -2722,7 +2766,7 @@
             "instrumentation": [{ "instrument": "percussion", "musicians": ["George Nickson"] }],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "tania-leon", "name": "Tania Leon" }
+            "composer": { "composerId": "tania-leon", "name": "Tania Leon" }
           },
           {
             "title": "Responding to the Waves",
@@ -2736,7 +2780,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "katherine-balch",
+              "composerId": "katherine-balch",
               "name": "Katherine Balch",
               "nationality": "American",
               "born": 1991
@@ -2751,7 +2795,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "nico-muhly",
+              "composerId": "nico-muhly",
               "name": "Nico Muhly",
               "nationality": "American",
               "born": 1981
@@ -2765,7 +2809,7 @@
             "instrumentation": [{ "instrument": "percussion", "musicians": ["George Nickson"] }],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "francis-schwartz", "name": "Francis Schwartz" }
+            "composer": { "composerId": "francis-schwartz", "name": "Francis Schwartz" }
           },
           {
             "title": "An Hour of Change",
@@ -2778,11 +2822,11 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "shaun-tilburg", "name": "Shaun Tilburg" }
+            "composer": { "composerId": "shaun-tilburg", "name": "Shaun Tilburg" }
           }
         ],
         "venue": {
-          "id": "virtual",
+          "venueId": "virtual",
           "name": "Virtual Venue",
           "address": "Online"
         }
@@ -2800,15 +2844,15 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "clarinet", "musicians": [] },
-              { "instrument": "strings", "musicians": [] },
-              { "instrument": "mezzo-soprano", "musicians": [] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "ulysses-kay",
+              "composerId": "ulysses-kay",
               "name": "Ulysses Kay",
               "nationality": "American",
               "born": 1917,
@@ -2821,14 +2865,14 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "clarinet", "musicians": [] },
-              { "instrument": "strings", "musicians": [] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "katherine-balch",
+              "composerId": "katherine-balch",
               "name": "Katherine Balch",
               "nationality": "American",
               "born": 1991
@@ -2840,14 +2884,14 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "mezzo-soprano", "musicians": [] },
-              { "instrument": "strings", "musicians": [] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kamala-sankaram",
+              "composerId": "kamala-sankaram",
               "name": "Kamala Sankaram",
               "nationality": "Classical"
             }
@@ -2858,18 +2902,18 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "clarinet", "musicians": [] },
-              { "instrument": "strings", "musicians": [] },
-              { "instrument": "mezzo-soprano", "musicians": [] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "strings", "count": 0, "musicians": [] },
+              { "instrument": "mezzo-soprano", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "quinn-mason", "name": "Quinn Mason" }
+            "composer": { "composerId": "quinn-mason", "name": "Quinn Mason" }
           }
         ],
         "venue": {
-          "id": "virtual",
+          "venueId": "virtual",
           "name": "Virtual Venue",
           "address": "Online"
         }
@@ -2888,12 +2932,12 @@
             "movements": [],
             "instrumentation": [
               { "instrument": "percussion", "musicians": ["George Nickson"] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "philippe-hurel",
+              "composerId": "philippe-hurel",
               "name": "Philippe Hurel",
               "nationality": "French"
             }
@@ -2904,17 +2948,17 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "violin", "musicians": [] },
-              { "instrument": "viola", "musicians": [] },
-              { "instrument": "cello", "musicians": [] },
-              { "instrument": "clarinet", "musicians": [] },
-              { "instrument": "flute", "musicians": [] },
-              { "instrument": "piano", "musicians": [] }
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "viola", "count": 0, "musicians": [] },
+              { "instrument": "cello", "count": 0, "musicians": [] },
+              { "instrument": "clarinet", "count": 0, "musicians": [] },
+              { "instrument": "flute", "count": 0, "musicians": [] },
+              { "instrument": "piano", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "gerard-grisey",
+              "composerId": "gerard-grisey",
               "name": "Gerard Grisey",
               "nationality": "French",
               "born": 1946,
@@ -2923,7 +2967,7 @@
           }
         ],
         "venue": {
-          "id": "virtual",
+          "venueId": "virtual",
           "name": "Virtual Venue",
           "address": "Online"
         }
@@ -2940,11 +2984,11 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "ensemble", "musicians": [] }],
+            "instrumentation": [{ "instrument": "ensemble", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "gerard-grisey",
+              "composerId": "gerard-grisey",
               "name": "Gerard Grisey",
               "nationality": "French",
               "born": 1946,
@@ -2959,13 +3003,13 @@
             "instrumentation": [
               {
                 "instrument": "percussion quartet",
-
+                "count": 0,
                 "musicians": []
               }
             ],
             "is_commission": true,
             "is_premiere": false,
-            "composer": { "id": "david-maric", "name": "David Maric" }
+            "composer": { "composerId": "david-maric", "name": "David Maric" }
           },
           {
             "title": "Haunt of Last Nightfall",
@@ -2975,15 +3019,15 @@
             "instrumentation": [
               {
                 "instrument": "percussion quartet",
-
+                "count": 0,
                 "musicians": []
               },
-              { "instrument": "electronics", "musicians": [] }
+              { "instrument": "electronics", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "david-t-little",
+              "composerId": "david-t-little",
               "name": "David T. Little",
               "nationality": "American",
               "born": 1978
@@ -2991,7 +3035,7 @@
           }
         ],
         "venue": {
-          "id": "virtual",
+          "venueId": "virtual",
           "name": "Virtual Venue",
           "address": "Online"
         }
@@ -3008,11 +3052,11 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "violin", "musicians": [] }],
+            "instrumentation": [{ "instrument": "violin", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "reena-esmail",
+              "composerId": "reena-esmail",
               "name": "Reena Esmail",
               "nationality": "And"
             }
@@ -3023,13 +3067,13 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "violin", "musicians": [] },
-              { "instrument": "violin", "musicians": [] }
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "violin", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "michael-djupstrom",
+              "composerId": "michael-djupstrom",
               "name": "Michael Djupstrom",
               "nationality": "American"
             }
@@ -3040,24 +3084,24 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "violin", "musicians": [] },
-              { "instrument": "viola", "musicians": [] },
-              { "instrument": "cello", "musicians": [] }
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "viola", "count": 0, "musicians": [] },
+              { "instrument": "cello", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jessica-meyer", "name": "Jessica Meyer" }
+            "composer": { "composerId": "jessica-meyer", "name": "Jessica Meyer" }
           },
           {
             "title": "8 Colors for String Quartet",
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "string quartet", "musicians": [] }],
+            "instrumentation": [{ "instrument": "string quartet", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "tan-dun",
+              "composerId": "tan-dun",
               "name": "Tan Dun",
               "nationality": "Chinese",
               "born": 1957
@@ -3065,7 +3109,7 @@
           }
         ],
         "venue": {
-          "id": "virtual",
+          "venueId": "virtual",
           "name": "Virtual Venue",
           "address": "Online"
         }
@@ -3073,7 +3117,7 @@
     ]
   },
   {
-    "seasonId": 4,
+    "seasonId": "s04",
     "season": "2019-2020",
     "concerts": [
       {
@@ -3092,7 +3136,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -3114,7 +3158,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "peteris-vasks",
+              "composerId": "peteris-vasks",
               "name": "Peteris Vasks",
               "nationality": "Latvian"
             }
@@ -3145,7 +3189,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "magnus-lindberg",
+              "composerId": "magnus-lindberg",
               "name": "Magnus Lindberg",
               "nationality": "Finnish"
             }
@@ -3193,7 +3237,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "olivier-messiaen",
+              "composerId": "olivier-messiaen",
               "name": "Olivier Messiaen",
               "nationality": "French",
               "born": 1908,
@@ -3202,7 +3246,7 @@
           }
         ],
         "venue": {
-          "id": "first-united-methodist-church",
+          "venueId": "first-united-methodist-church",
           "name": "First United Methodist Church",
           "address": "104 S. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -3223,7 +3267,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -3247,7 +3291,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "andrew-norman",
+              "composerId": "andrew-norman",
               "name": "Andrew Norman",
               "nationality": "American",
               "born": 1979
@@ -3279,7 +3323,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "elizabeth-a-baker",
+              "composerId": "elizabeth-a-baker",
               "name": "Elizabeth A. Baker"
             }
           },
@@ -3298,7 +3342,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "krzysztof-penderecki",
+              "composerId": "krzysztof-penderecki",
               "name": "Krzysztof Penderecki",
               "nationality": "Polish",
               "born": 1933,
@@ -3307,7 +3351,7 @@
           }
         ],
         "venue": {
-          "id": "studio-620",
+          "venueId": "studio-620",
           "name": "Studio@620",
           "address": "620 1st Ave S, St. Petersburg, FL 33701"
         }
@@ -3328,7 +3372,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -3352,7 +3396,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "andrew-norman",
+              "composerId": "andrew-norman",
               "name": "Andrew Norman",
               "nationality": "American",
               "born": 1979
@@ -3384,7 +3428,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "elizabeth-a-baker",
+              "composerId": "elizabeth-a-baker",
               "name": "Elizabeth A. Baker"
             }
           },
@@ -3403,7 +3447,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "krzysztof-penderecki",
+              "composerId": "krzysztof-penderecki",
               "name": "Krzysztof Penderecki",
               "nationality": "Polish",
               "born": 1933,
@@ -3412,7 +3456,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3432,7 +3476,7 @@
             "instrumentation": [{ "instrument": "viola", "musicians": ["Jessica Meyer"] }],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jessica-meyer", "name": "Jessica Meyer" }
+            "composer": { "composerId": "jessica-meyer", "name": "Jessica Meyer" }
           },
           {
             "title": "Ins Licht",
@@ -3447,7 +3491,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "georg-friedrich-haas",
+              "composerId": "georg-friedrich-haas",
               "name": "Georg Friedrich Haas",
               "nationality": "Austrian",
               "born": 2000
@@ -3464,7 +3508,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "eric-wubbels", "name": "Eric Wubbels" }
+            "composer": { "composerId": "eric-wubbels", "name": "Eric Wubbels" }
           },
           {
             "title": "Tapped into the same vein",
@@ -3486,7 +3530,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jessica-meyer", "name": "Jessica Meyer" }
+            "composer": { "composerId": "jessica-meyer", "name": "Jessica Meyer" }
           },
           {
             "title": "Sagrada Familia",
@@ -3503,11 +3547,11 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jessica-meyer", "name": "Jessica Meyer" }
+            "composer": { "composerId": "jessica-meyer", "name": "Jessica Meyer" }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3528,7 +3572,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "philippe-hurel",
+              "composerId": "philippe-hurel",
               "name": "Philippe Hurel",
               "nationality": "French"
             }
@@ -3555,7 +3599,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "gerard-grisey",
+              "composerId": "gerard-grisey",
               "name": "Gerard Grisey",
               "nationality": "French",
               "born": 1946,
@@ -3564,7 +3608,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3592,7 +3636,7 @@
             ],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "patrick-harlin", "name": "Patrick Harlin" }
+            "composer": { "composerId": "patrick-harlin", "name": "Patrick Harlin" }
           },
           {
             "title": "Nascent Forms",
@@ -3608,7 +3652,7 @@
             ],
             "is_commission": true,
             "is_premiere": false,
-            "composer": { "id": "david-maric", "name": "David Maric" }
+            "composer": { "composerId": "david-maric", "name": "David Maric" }
           },
           {
             "title": "Shadow Theater",
@@ -3622,7 +3666,7 @@
             ],
             "is_commission": true,
             "is_premiere": true,
-            "composer": { "id": "max-grafe", "name": "Max Grafe" }
+            "composer": { "composerId": "max-grafe", "name": "Max Grafe" }
           },
           {
             "title": "Splinter",
@@ -3654,7 +3698,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "marc-mellits",
+              "composerId": "marc-mellits",
               "name": "Marc Mellits",
               "nationality": "American",
               "born": 1966
@@ -3676,7 +3720,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "ken-ueno",
+              "composerId": "ken-ueno",
               "name": "Ken Ueno",
               "nationality": "American",
               "born": 1970
@@ -3684,7 +3728,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3692,7 +3736,7 @@
     ]
   },
   {
-    "seasonId": 3,
+    "seasonId": "s03",
     "season": "2018-2019",
     "concerts": [
       {
@@ -3710,7 +3754,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "michael-gordon", "name": "Michael Gordon" }
+            "composer": { "composerId": "michael-gordon", "name": "Michael Gordon" }
           },
           {
             "title": "1987",
@@ -3721,7 +3765,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "anna-clyne",
+              "composerId": "anna-clyne",
               "name": "Anna Clyne",
               "nationality": "British",
               "born": 1980
@@ -3736,7 +3780,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "nina-c-young",
+              "composerId": "nina-c-young",
               "name": "Nina C. Young",
               "nationality": "American",
               "born": 1984
@@ -3751,7 +3795,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "steve-reich",
+              "composerId": "steve-reich",
               "name": "Steve Reich",
               "nationality": "American",
               "born": 1936
@@ -3759,7 +3803,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3780,7 +3824,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -3796,7 +3840,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "franco-donatoni",
+              "composerId": "franco-donatoni",
               "name": "Franco Donatoni",
               "nationality": "Italian"
             }
@@ -3810,7 +3854,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "franco-donatoni",
+              "composerId": "franco-donatoni",
               "name": "Franco Donatoni",
               "nationality": "Italian"
             }
@@ -3824,7 +3868,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kevin-puts",
+              "composerId": "kevin-puts",
               "name": "Kevin Puts",
               "nationality": "American",
               "born": 1972
@@ -3839,14 +3883,14 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "melinda-wagner",
+              "composerId": "melinda-wagner",
               "name": "Melinda Wagner",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3870,21 +3914,21 @@
               },
               {
                 "instrument": "electroacoustic ensemble",
-
+                "count": 0,
                 "musicians": []
               }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "daniel-wohl",
+              "composerId": "daniel-wohl",
               "name": "Daniel Wohl",
               "nationality": "Born"
             }
           }
         ],
         "venue": {
-          "id": "mildred-sainer-auditorium",
+          "venueId": "mildred-sainer-auditorium",
           "name": "Mildred Sainer Auditorium",
           "address": "5313 Bay Shore Rd, Sarasota, FL 34243"
         }
@@ -3905,7 +3949,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "scott-joplin",
+              "composerId": "scott-joplin",
               "name": "Scott Joplin",
               "nationality": "American"
             }
@@ -3919,7 +3963,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "tansy-davies",
+              "composerId": "tansy-davies",
               "name": "Tansy Davies",
               "nationality": "British"
             }
@@ -3933,7 +3977,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "ruth-crawford-seeger",
+              "composerId": "ruth-crawford-seeger",
               "name": "Ruth Crawford Seeger",
               "nationality": "American",
               "born": 1901,
@@ -3949,7 +3993,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "steve-reich",
+              "composerId": "steve-reich",
               "name": "Steve Reich",
               "nationality": "American",
               "born": 1936
@@ -3957,7 +4001,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -3978,7 +4022,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "elliott-carter",
+              "composerId": "elliott-carter",
               "name": "Elliott Carter",
               "nationality": "American",
               "born": 1908,
@@ -3994,7 +4038,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "matthew-aucoin",
+              "composerId": "matthew-aucoin",
               "name": "Matthew Aucoin",
               "nationality": "American",
               "born": 1990
@@ -4009,7 +4053,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "sofia-gubaidulina",
+              "composerId": "sofia-gubaidulina",
               "name": "Sofia Gubaidulina",
               "nationality": "Russian",
               "born": 1931
@@ -4024,7 +4068,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "matthew-aucoin",
+              "composerId": "matthew-aucoin",
               "name": "Matthew Aucoin",
               "nationality": "American",
               "born": 1990
@@ -4032,7 +4076,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4053,7 +4097,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "john-harbison",
+              "composerId": "john-harbison",
               "name": "John Harbison",
               "nationality": "American"
             }
@@ -4067,7 +4111,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -4083,7 +4127,7 @@
             "is_commission": true,
             "is_premiere": true,
             "composer": {
-              "id": "andreia-pinto-correia",
+              "composerId": "andreia-pinto-correia",
               "name": "Andreia Pinto Correia",
               "nationality": "Portuguese",
               "born": 1971
@@ -4091,7 +4135,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4099,7 +4143,7 @@
     ]
   },
   {
-    "seasonId": 2,
+    "seasonId": "s02",
     "season": "2017-2018",
     "concerts": [
       {
@@ -4118,7 +4162,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "missy-mazzoli",
+              "composerId": "missy-mazzoli",
               "name": "Missy Mazzoli",
               "nationality": "American",
               "born": 1980
@@ -4133,7 +4177,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "stephen-wood",
+              "composerId": "stephen-wood",
               "name": "Stephen Wood",
               "nationality": "North",
               "born": 1961,
@@ -4149,7 +4193,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "helen-grime",
+              "composerId": "helen-grime",
               "name": "Helen Grime",
               "nationality": "Scottish"
             }
@@ -4163,7 +4207,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "einojuhani-rautavaara",
+              "composerId": "einojuhani-rautavaara",
               "name": "Einojuhani Rautavaara",
               "nationality": "Finnish",
               "born": 1928,
@@ -4179,7 +4223,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "mason-bates",
+              "composerId": "mason-bates",
               "name": "Mason Bates",
               "nationality": "American",
               "born": 1977
@@ -4187,7 +4231,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4210,7 +4254,7 @@
           }
         ],
         "venue": {
-          "id": "the-ringling-museum",
+          "venueId": "the-ringling-museum",
           "name": "The Ringling Museum",
           "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
         }
@@ -4231,7 +4275,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -4240,7 +4284,7 @@
           }
         ],
         "venue": {
-          "id": "the-ringling-museum",
+          "venueId": "the-ringling-museum",
           "name": "The Ringling Museum",
           "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
         }
@@ -4261,7 +4305,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "lou-harrison",
+              "composerId": "lou-harrison",
               "name": "Lou Harrison",
               "nationality": "American",
               "born": 1917,
@@ -4277,7 +4321,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "lou-harrison",
+              "composerId": "lou-harrison",
               "name": "Lou Harrison",
               "nationality": "American",
               "born": 1917,
@@ -4293,7 +4337,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "lou-harrison",
+              "composerId": "lou-harrison",
               "name": "Lou Harrison",
               "nationality": "American",
               "born": 1917,
@@ -4309,7 +4353,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "lou-harrison",
+              "composerId": "lou-harrison",
               "name": "Lou Harrison",
               "nationality": "American",
               "born": 1917,
@@ -4318,7 +4362,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4335,11 +4379,11 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "violin", "musicians": [] }],
+            "instrumentation": [{ "instrument": "violin", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -4351,11 +4395,11 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "string quartet", "musicians": [] }],
+            "instrumentation": [{ "instrument": "string quartet", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "aaron-jay-kernis",
+              "composerId": "aaron-jay-kernis",
               "name": "Aaron Jay Kernis",
               "nationality": "American"
             }
@@ -4365,18 +4409,18 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "marimba", "musicians": [] }],
+            "instrumentation": [{ "instrument": "marimba", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "bright-sheng",
+              "composerId": "bright-sheng",
               "name": "Bright Sheng",
               "nationality": "American"
             }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4397,7 +4441,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "luciano-berio",
+              "composerId": "luciano-berio",
               "name": "Luciano Berio",
               "nationality": "Italian",
               "born": 1925,
@@ -4409,11 +4453,11 @@
             "year": "",
             "duration": "",
             "movements": [],
-            "instrumentation": [{ "instrument": "mixed ensemble", "musicians": [] }],
+            "instrumentation": [{ "instrument": "mixed ensemble", "count": 0, "musicians": [] }],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "pierre-boulez",
+              "composerId": "pierre-boulez",
               "name": "Pierre Boulez",
               "nationality": "French",
               "born": 1925,
@@ -4422,7 +4466,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4442,7 +4486,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "michael-schacter", "name": "Michael Schacter" }
+            "composer": { "composerId": "michael-schacter", "name": "Michael Schacter" }
           },
           {
             "title": "Alchemy/Transmutation/Translation",
@@ -4452,7 +4496,7 @@
             "instrumentation": [{ "instrument": "oboe", "musicians": ["Adam de Sorgo"] }],
             "is_commission": true,
             "is_premiere": false,
-            "composer": { "id": "david-dies", "name": "David Dies" }
+            "composer": { "composerId": "david-dies", "name": "David Dies" }
           },
           {
             "title": "Son of Chamber Symphony",
@@ -4463,14 +4507,14 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "john-adams",
+              "composerId": "john-adams",
               "name": "John Adams",
               "nationality": "1797"
             }
           }
         ],
         "venue": {
-          "id": "first-united-methodist-church",
+          "venueId": "first-united-methodist-church",
           "name": "First United Methodist Church",
           "address": "104 S. Pineapple Ave. Sarasota, FL 34236"
         }
@@ -4478,7 +4522,7 @@
     ]
   },
   {
-    "seasonId": 1,
+    "seasonId": "s01",
     "season": "2016-2017",
     "concerts": [
       {
@@ -4497,7 +4541,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "roger-zare",
+              "composerId": "roger-zare",
               "name": "Roger Zare",
               "nationality": "American",
               "born": 1985
@@ -4511,7 +4555,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "gil-katz", "name": "Gil Katz" }
+            "composer": { "composerId": "gil-katz", "name": "Gil Katz" }
           },
           {
             "title": "Failing",
@@ -4521,7 +4565,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "tom-johnson", "name": "Tom Johnson" }
+            "composer": { "composerId": "tom-johnson", "name": "Tom Johnson" }
           },
           {
             "title": "Sandpipers",
@@ -4531,7 +4575,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "nicole-gutman", "name": "Nicole Gutman" }
+            "composer": { "composerId": "nicole-gutman", "name": "Nicole Gutman" }
           },
           {
             "title": "Songs of Loneliness",
@@ -4541,11 +4585,11 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "francis-schwartz", "name": "Francis Schwartz" }
+            "composer": { "composerId": "francis-schwartz", "name": "Francis Schwartz" }
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4566,7 +4610,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "caroline-shaw",
+              "composerId": "caroline-shaw",
               "name": "Caroline Shaw",
               "nationality": "American",
               "born": 1982
@@ -4581,7 +4625,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kaija-saariaho",
+              "composerId": "kaija-saariaho",
               "name": "Kaija Saariaho",
               "nationality": "Finnish",
               "born": 1952,
@@ -4597,7 +4641,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "elizabeth-ogonek",
+              "composerId": "elizabeth-ogonek",
               "name": "Elizabeth Ogonek",
               "nationality": "Classical"
             }
@@ -4611,7 +4655,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "anna-clyne",
+              "composerId": "anna-clyne",
               "name": "Anna Clyne",
               "nationality": "British",
               "born": 1980
@@ -4619,7 +4663,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }
@@ -4640,7 +4684,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kaija-saariaho",
+              "composerId": "kaija-saariaho",
               "name": "Kaija Saariaho",
               "nationality": "Finnish",
               "born": 1952,
@@ -4656,7 +4700,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "philip-glass",
+              "composerId": "philip-glass",
               "name": "Philip Glass",
               "nationality": "American",
               "born": 1937
@@ -4670,7 +4714,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jacob-druchman", "name": "Jacob Druchman" }
+            "composer": { "composerId": "jacob-druchman", "name": "Jacob Druchman" }
           },
           {
             "title": "Together",
@@ -4681,7 +4725,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "isang-yun",
+              "composerId": "isang-yun",
               "name": "Isang Yun",
               "nationality": "German",
               "born": 1917,
@@ -4697,7 +4741,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "andrew-norman",
+              "composerId": "andrew-norman",
               "name": "Andrew Norman",
               "nationality": "American",
               "born": 1979
@@ -4705,7 +4749,7 @@
           }
         ],
         "venue": {
-          "id": "alfstad-contemporary",
+          "venueId": "alfstad-contemporary",
           "name": "Alfstad& Contemporary",
           "address": "1419 5th St, Sarasota, FL 34236"
         }
@@ -4726,7 +4770,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "kaija-saariaho",
+              "composerId": "kaija-saariaho",
               "name": "Kaija Saariaho",
               "nationality": "Finnish",
               "born": 1952,
@@ -4742,7 +4786,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "philip-glass",
+              "composerId": "philip-glass",
               "name": "Philip Glass",
               "nationality": "American",
               "born": 1937
@@ -4756,7 +4800,7 @@
             "instrumentation": [],
             "is_commission": false,
             "is_premiere": false,
-            "composer": { "id": "jacob-druchman", "name": "Jacob Druchman" }
+            "composer": { "composerId": "jacob-druchman", "name": "Jacob Druchman" }
           },
           {
             "title": "Together",
@@ -4767,7 +4811,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "isang-yun",
+              "composerId": "isang-yun",
               "name": "Isang Yun",
               "nationality": "German",
               "born": 1917,
@@ -4783,7 +4827,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "andrew-norman",
+              "composerId": "andrew-norman",
               "name": "Andrew Norman",
               "nationality": "American",
               "born": 1979
@@ -4791,7 +4835,7 @@
           }
         ],
         "venue": {
-          "id": "alfstad-contemporary",
+          "venueId": "alfstad-contemporary",
           "name": "Alfstad& Contemporary",
           "address": "1419 5th St, Sarasota, FL 34236"
         }
@@ -4809,14 +4853,14 @@
             "duration": "",
             "movements": [],
             "instrumentation": [
-              { "instrument": "violin", "musicians": [] },
-              { "instrument": "electronics", "musicians": [] },
-              { "instrument": "video", "musicians": [] }
+              { "instrument": "violin", "count": 0, "musicians": [] },
+              { "instrument": "electronics", "count": 0, "musicians": [] },
+              { "instrument": "video", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "david-t-little",
+              "composerId": "david-t-little",
               "name": "David T. Little",
               "nationality": "American",
               "born": 1978
@@ -4830,15 +4874,15 @@
             "instrumentation": [
               {
                 "instrument": "percussion quartet",
-
+                "count": 0,
                 "musicians": []
               },
-              { "instrument": "electronics", "musicians": [] }
+              { "instrument": "electronics", "count": 0, "musicians": [] }
             ],
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "david-t-little",
+              "composerId": "david-t-little",
               "name": "David T. Little",
               "nationality": "American",
               "born": 1978
@@ -4846,7 +4890,7 @@
           }
         ],
         "venue": {
-          "id": "the-hermitage-artist-retreat",
+          "venueId": "the-hermitage-artist-retreat",
           "name": "The Hermitage Artist Retreat",
           "address": "6630 Manasota Key Rd, Englewood, FL 34223"
         }
@@ -4867,7 +4911,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "bohuslav-martinu",
+              "composerId": "bohuslav-martinu",
               "name": "Bohuslav Martinu",
               "nationality": "Czech",
               "born": 1890,
@@ -4883,7 +4927,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "charles-wuorinen",
+              "composerId": "charles-wuorinen",
               "name": "Charles Wuorinen",
               "nationality": "American",
               "born": 1938,
@@ -4899,7 +4943,7 @@
             "is_commission": false,
             "is_premiere": false,
             "composer": {
-              "id": "augusta-read-thomas",
+              "composerId": "augusta-read-thomas",
               "name": "Augusta Read Thomas",
               "nationality": "American",
               "born": 1964
@@ -4907,7 +4951,7 @@
           }
         ],
         "venue": {
-          "id": "first-congregational-church",
+          "venueId": "first-congregational-church",
           "name": "First Congregational Church",
           "address": "1031 S. Euclid Ave. Sarasota, FL 34237"
         }

@@ -1,0 +1,26 @@
+{
+  "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-3",
+  "title": "Parisian Refraction - Sarasota: Program #3",
+  "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+  "description": "Kafka Fragments",
+  "date": "2024-05-09",
+  "ticketsLinks": [],
+  "venueId": "the-ringling-museum",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "-kafka-fragments",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "-kafka-fragments": {
+        "soprano": [],
+        "violin": []
+      }
+    }
+  ]
+}

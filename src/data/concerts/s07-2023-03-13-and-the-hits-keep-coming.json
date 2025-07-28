@@ -1,0 +1,83 @@
+{
+  "concertId": "s07-2023-03-13-and-the-hits-keep-coming",
+  "title": "And the Hits Keep Coming",
+  "subtitle": "",
+  "description": "A celebration of percussion, featuring works by Emma O’Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
+  "date": "2023-03-13",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [
+    "Pamela MacFarlane Palmer"
+  ],
+  "program": [
+    {
+      "workId": "emma-ohalloran-shell-2019",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "krists-auznieks-prelude-and-ether-2019",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "shaun-tilburg-kagome-kagome-2022",
+      "is_premiere": true,
+      "is_commission": true
+    },
+    {
+      "workId": "mark-anthony-turnage-new-england-etudes-2022",
+      "is_premiere": false,
+      "is_commission": "co-commission"
+    }
+  ],
+  "performers": [
+    {
+      "emma-ohalloran-shell-2019": {
+        "percussion": [
+          "george-nickson",
+          "shaun-tilburg",
+          "marcelina-suchocka",
+          "ye-young-yoon"
+        ]
+      }
+    },
+    {
+      "krists-auznieks-prelude-and-ether-2019": {
+        "percussion": [
+          "marcelina-suchocka",
+          "ye-young-yoon",
+          "shaun-tilburg",
+          "isaac-fernandezhernandez"
+        ],
+        "piano": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "shaun-tilburg-kagome-kagome-2022": {
+        "mezzo_soprano": [
+          "thea-lobo"
+        ],
+        "percussion": [
+          "george-nickson",
+          "shaun-tilburg"
+        ]
+      }
+    },
+    {
+      "mark-anthony-turnage-new-england-etudes-2022": {
+        "percussion": [
+          "george-nickson",
+          "marcelina-suchocka",
+          "ye-young-yoon",
+          "aaron-nix",
+          "isaac-fernandezhernandez",
+          "shaun-tilburg"
+        ]
+      }
+    }
+  ]
+}

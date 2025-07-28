@@ -1,0 +1,75 @@
+{
+  "concertId": "s10-2025-10-27-tangled-whispers",
+  "title": "Tangled Whispers",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-10-27",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  },
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "sebastian-currier-whispers",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "amy-williams-tangled-madrigal",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "elliott-carter-triple-duo",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "sebastian-currier-whispers": {
+        "flute": [],
+        "cello": [],
+        "piano": [],
+        "percussion": []
+      }
+    },
+    {
+      "amy-williams-tangled-madrigal": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "jerod-tate-inchokkillissa-for-guitar-and-percussion": {
+        "guitar": [],
+        "percussion": []
+      }
+    },
+    {
+      "elliott-carter-triple-duo": {
+        "flute": [],
+        "clarinet": [],
+        "violin": [],
+        "cello": [],
+        "percussion": [],
+        "piano": []
+      }
+    }
+  ]
+}

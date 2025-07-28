@@ -1,0 +1,26 @@
+{
+  "workId": "elizabeth-a-baker-cosmic-dreams",
+  "composerId": "elizabeth-a-baker",
+  "title": "Cosmic Dreams",
+  "year": "2013",
+  "duration": "14''",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "vibraphone",
+      "count": 1
+    },
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 2
+    },
+    {
+      "instrument": "cello",
+      "count": 2
+    }
+  ]
+}

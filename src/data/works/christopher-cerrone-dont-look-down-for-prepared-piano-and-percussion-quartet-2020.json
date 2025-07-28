@@ -1,0 +1,22 @@
+{
+  "workId": "christopher-cerrone-dont-look-down-for-prepared-piano-and-percussion-quartet-2020",
+  "composerId": "christopher-cerrone",
+  "title": "Don't Look Down for prepared piano and percussion quartet (2020)",
+  "year": "",
+  "duration": "17'",
+  "movements": [
+    "I. Hammerspace",
+    "II. The Great Empty",
+    "III. Caton Flats"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "piano",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 4
+    }
+  ]
+}

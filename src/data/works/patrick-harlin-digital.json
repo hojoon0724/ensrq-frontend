@@ -1,0 +1,38 @@
+{
+  "workId": "patrick-harlin-digital",
+  "composerId": "patrick-harlin",
+  "title": "Digital",
+  "year": "2013",
+  "duration": "5''",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "flute",
+      "count": 1
+    },
+    {
+      "instrument": "clarinet",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

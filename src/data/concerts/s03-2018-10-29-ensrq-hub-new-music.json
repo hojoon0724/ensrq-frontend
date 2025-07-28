@@ -1,0 +1,47 @@
+{
+  "concertId": "s03-2018-10-29-ensrq-hub-new-music",
+  "title": "enSRQ + HUB New Music",
+  "subtitle": "",
+  "description": "Great Groups Think Alike! enSRQ welcomes friends from Boston, HUB New Music, for an exciting collaboration to open the 2018-19 season. Pairing minimalist masters with adventurers in texture and darkness.",
+  "date": "2018-10-29",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "michael-gordon-acdc",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "anna-clyne-1987",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "nina-c-young-rising-tide",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "steve-reich-double-sextet",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "michael-gordon-acdc": {}
+    },
+    {
+      "anna-clyne-1987": {}
+    },
+    {
+      "nina-c-young-rising-tide": {}
+    },
+    {
+      "steve-reich-double-sextet": {}
+    }
+  ]
+}

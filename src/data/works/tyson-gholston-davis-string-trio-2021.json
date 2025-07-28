@@ -1,0 +1,30 @@
+{
+  "workId": "tyson-gholston-davis-string-trio-2021",
+  "composerId": "tyson-gholston-davis",
+  "title": "String Trio (2021)",
+  "year": "",
+  "duration": "11'",
+  "movements": [
+    "I. Introduction",
+    "II. Synchromism and Cadenza I (Viola)",
+    "III. Nocturne 1",
+    "IV. Synchromism and Cadenza II (Violin)",
+    "V. Nocturne II",
+    "VI. Synchromism and Cadenza III (Cello)",
+    "VII. Epilogue"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}

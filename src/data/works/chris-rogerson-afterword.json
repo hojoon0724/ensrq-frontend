@@ -1,0 +1,18 @@
+{
+  "workId": "chris-rogerson-afterword",
+  "composerId": "chris-rogerson",
+  "title": "Afterword",
+  "year": 2020,
+  "duration": "14'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "workId": "sebastian-currier-night-time",
+  "composerId": "sebastian-currier",
+  "title": "Night Time",
+  "year": 1998,
+  "duration": "16'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "harp",
+      "count": 1
+    }
+  ]
+}

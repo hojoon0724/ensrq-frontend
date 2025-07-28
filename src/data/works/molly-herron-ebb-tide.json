@@ -1,0 +1,22 @@
+{
+  "workId": "molly-herron-ebb-tide",
+  "composerId": "molly-herron",
+  "title": "Ebb Tide",
+  "year": 2018,
+  "duration": "8'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "piano",
+      "count": 1
+    },
+    {
+      "instrument": "bass",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "concertId": "s07-2023-04-17-1976",
+  "title": "1976",
+  "subtitle": "",
+  "description": "A double bill of contemporary classics: HK Gruber’s Frankenstein! and Louis Andriessen’s De Staat, performed by the largest ensemble in enSRQ history.",
+  "date": "2023-04-17",
+  "ticketsLinks": [],
+  "venueId": "sarasota-opera-house",
+  "streamingPageAccessPassword": "",
+  "sponsors": [
+    "The Gardener Foundation"
+  ],
+  "program": [
+    {
+      "workId": "hk-gruber-frankenstein-1976",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "louis-andriessen-de-staat-1976",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "hk-gruber-frankenstein-1976": {
+        "chansonnier": [
+          "michael-truesdell"
+        ],
+        "conductor": [
+          "george-nickson"
+        ],
+        "flute": [
+          "betsy-hudson-traba"
+        ],
+        "clarinet": [
+          "bharat-chandra"
+        ],
+        "bassoon": [
+          "fernando-traba"
+        ],
+        "horn": [
+          "kelsey-ross"
+        ],
+        "trumpet": [
+          "aaron-romm"
+        ],
+        "percussion": [
+          "marcelina-suchocka"
+        ],
+        "violin": [
+          "samantha-bennett",
+          "mia-laity"
+        ],
+        "viola": [
+          "camila-berg"
+        ],
+        "cello": [
+          "natalie-helm"
+        ],
+        "bass": [
+          "vinny-svoboda"
+        ]
+      }
+    },
+    {
+      "louis-andriessen-de-staat-1976": {
+        "soprano": [
+          "lily-wohl",
+          "melissa-simmons"
+        ],
+        "mezzo_soprano": [
+          "thea-lobo",
+          "tbd"
+        ],
+        "oboe": [
+          "amy-collins",
+          "cindy-barbanerawedel",
+          "nick-arbolino",
+          "shane-wedel"
+        ],
+        "trumpet": [
+          "aaron-romm",
+          "gianluca-farina",
+          "alan-evans",
+          "cindy-scaruffiklispie"
+        ],
+        "horn": [
+          "josh-horn",
+          "shelby-nugent",
+          "mark-trotter",
+          "kelsey-ross"
+        ],
+        "trombone": [
+          "michael-stanton",
+          "brad-williams",
+          "jemmie-roberston",
+          "casey-maday"
+        ],
+        "guitar": [
+          "mark-dacigers",
+          "jon-godfrey"
+        ],
+        "harp": [
+          "hannah-cope",
+          "melody-mae-stein"
+        ],
+        "piano": [
+          "sam-nelson",
+          "tbd"
+        ],
+        "viola": [
+          "dan-urbanowicz",
+          "camila-berg",
+          "nathan-frantz",
+          "samantha-bennett"
+        ]
+      }
+    }
+  ]
+}

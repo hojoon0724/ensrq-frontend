@@ -1,0 +1,34 @@
+{
+  "concertId": "s10-2026-04-24-music-for-18-musicians",
+  "title": "Music for 18 Musicians",
+  "subtitle": "",
+  "description": "",
+  "date": "2026-04-24",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  },
+  "venueId": "sarasota-opera-house",
+  "streamingPageAccessPassword": "password",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "steve-reich-music-for-18-musicians",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "steve-reich-music-for-18-musicians": {
+        "musicians": []
+      }
+    }
+  ]
+}

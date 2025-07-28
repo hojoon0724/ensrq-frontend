@@ -1,0 +1,82 @@
+{
+  "concertId": "s07-2023-01-16-crumb",
+  "title": "Crumb",
+  "subtitle": "",
+  "description": "A tribute to George Crumb (1929-2022), featuring his Madrigals and Black Angels, and Margaret Brouwer's Demeter Prelude.",
+  "date": "2023-01-16",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [
+    "Susan Robinson",
+    "Robert & Deborah Hendel",
+    "Ben & Gigi Huberman"
+  ],
+  "program": [
+    {
+      "workId": "george-crumb-madrigals-19651969",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "margaret-brouwer-demeter-prelude-1997",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "george-crumb-madrigals-19651969": {
+        "soprano": [
+          "lucy-fitz-gibbon"
+        ],
+        "flute": [
+          "betsy-hudson-traba"
+        ],
+        "bass": [
+          "john-miller"
+        ],
+        "harp": [
+          "naoko-nakamura"
+        ],
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "margaret-brouwer-demeter-prelude-1997": {
+        "violin": [
+          "samantha-bennett",
+          "jennifer-best-takeda"
+        ],
+        "viola": [
+          "rachel-halvorson"
+        ],
+        "cello": [
+          "jamie-clark"
+        ]
+      }
+    },
+    {
+      "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970": {
+        "violin": [
+          "samantha-bennett",
+          "jennifer-best-takeda"
+        ],
+        "viola": [
+          "rachel-halvorson"
+        ],
+        "cello": [
+          "jamie-clark"
+        ],
+        "percussion": []
+      }
+    }
+  ]
+}

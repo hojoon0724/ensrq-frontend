@@ -1,0 +1,30 @@
+{
+  "workId": "krzysztof-penderecki-sextet",
+  "composerId": "krzysztof-penderecki",
+  "title": "Sextet",
+  "year": "2000",
+  "duration": "30''",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "clarinet",
+      "count": 1
+    },
+    {
+      "instrument": "horn",
+      "count": 1
+    },
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}

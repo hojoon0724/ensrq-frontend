@@ -1,0 +1,30 @@
+{
+  "workId": "elizabeth-a-baker-void-for-violin-cello-percussion-electronics-and-projections-2021",
+  "composerId": "elizabeth-a-baker",
+  "title": "void for violin, cello, percussion, electronics and projections (2021)",
+  "year": "",
+  "duration": "",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    },
+    {
+      "instrument": "electronics",
+      "count": true
+    },
+    {
+      "instrument": "projections",
+      "count": true
+    }
+  ]
+}

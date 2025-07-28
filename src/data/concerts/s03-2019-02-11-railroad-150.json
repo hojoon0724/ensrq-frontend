@@ -1,0 +1,47 @@
+{
+  "concertId": "s03-2019-02-11-railroad-150",
+  "title": "Railroad 150",
+  "subtitle": "",
+  "description": "2019 marks the 150th Anniversary of the completion of the Transcontinental Railroad at Promontory Point, Utah. An inventive, deep and profound look at how trains, railroads, and humans have charted paths; both constructive and destructive.",
+  "date": "2019-02-11",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "scott-joplin-the-great-crush-collision-march",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "tansy-davies-saltbox",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "ruth-crawford-seeger-3-songs-on-carl-sandburg",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "steve-reich-different-trains",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "scott-joplin-the-great-crush-collision-march": {}
+    },
+    {
+      "tansy-davies-saltbox": {}
+    },
+    {
+      "ruth-crawford-seeger-3-songs-on-carl-sandburg": {}
+    },
+    {
+      "steve-reich-different-trains": {}
+    }
+  ]
+}

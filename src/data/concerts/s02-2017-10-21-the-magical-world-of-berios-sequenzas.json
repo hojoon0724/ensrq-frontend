@@ -1,0 +1,23 @@
+{
+  "concertId": "s02-2017-10-21-the-magical-world-of-berios-sequenzas",
+  "title": "The Magical World of Berio's Sequenzas",
+  "subtitle": "",
+  "description": "Part of Ringling International Arts Festival. A micro view focusing intensely on individual performers as virtuoso soloists, weaving through deeply personal human and musical expression.",
+  "date": "2017-10-21",
+  "ticketsLinks": [],
+  "venueId": "the-ringling-museum",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "luciano-berio-sequenzas",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "luciano-berio-sequenzas": {}
+    }
+  ]
+}

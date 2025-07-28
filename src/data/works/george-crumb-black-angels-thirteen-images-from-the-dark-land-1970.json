@@ -1,0 +1,42 @@
+{
+  "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
+  "composerId": "george-crumb",
+  "title": "Black Angels: Thirteen Images from the Dark Land (1970)",
+  "year": "",
+  "duration": "25'",
+  "movements": [
+    "I. Departure",
+    "Threnody I: Night of the Electric Insects Sounds of Bones and Flutes",
+    "Lost Bells",
+    "Devil-music",
+    "Danse Macabre",
+    "II. Absence",
+    "Pavana Lachrymae",
+    "Threnody II: Black Angels!",
+    "Sarabanda de la Muerte Oscura",
+    "Lost Bells (Echo)",
+    "III. Return",
+    "God-music",
+    "Ancient Voices",
+    "Ancient Voices (Echo)",
+    "Threnody III: Night of the Electric Insects"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 4
+    }
+  ]
+}

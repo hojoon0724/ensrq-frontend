@@ -1,0 +1,14 @@
+{
+  "workId": "charles-ives-piano-sonata-no-2-concord-mass-184060",
+  "composerId": "charles-ives",
+  "title": "Piano Sonata No. 2, Concord, Mass., 1840-60",
+  "year": 1915,
+  "duration": "45'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

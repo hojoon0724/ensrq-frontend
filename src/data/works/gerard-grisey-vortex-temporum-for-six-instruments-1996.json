@@ -1,0 +1,37 @@
+{
+  "workId": "gerard-grisey-vortex-temporum-for-six-instruments-1996",
+  "composerId": "gerard-grisey",
+  "title": "Vortex Temporum for six instruments (1996)",
+  "year": "",
+  "duration": "40'",
+  "movements": [
+    "I. ♩= 130 (à Gérard Zinsstag)",
+    "Interlude",
+    "II. ♩= 50 (à Salvatore Sciarrino)",
+    "Interlude",
+    "III. ♩= (à Helmut Lachenmann)",
+    "Interlude"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "flute",
+      "count": 1
+    },
+    {
+      "instrument": "clarinet",
+      "count": 1
+    }
+  ]
+}

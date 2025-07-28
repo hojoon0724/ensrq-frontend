@@ -1,0 +1,34 @@
+{
+  "workId": "olivier-messiaen-couleurs-de-la-cite-celeste",
+  "composerId": "olivier-messiaen",
+  "title": "Couleurs de la Cité Céleste",
+  "year": "1963",
+  "duration": "16''",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "clarinet",
+      "count": 3
+    },
+    {
+      "instrument": "trumpet",
+      "count": 4
+    },
+    {
+      "instrument": "horn",
+      "count": 2
+    },
+    {
+      "instrument": "trombone",
+      "count": 4
+    },
+    {
+      "instrument": "percussion",
+      "count": 6
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

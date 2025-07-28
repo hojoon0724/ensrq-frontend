@@ -1,0 +1,116 @@
+{
+  "concertId": "s09-2024-10-07-suncoast-fellowship-concert",
+  "title": "Suncoast Fellowship Concert",
+  "subtitle": "",
+  "description": "",
+  "date": "2024-10-07",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "treya-nash-nothing-motorized",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "daniel-gostelow-the-piercing-blazing-bell-amidst-intertwined-swirls-of-musical-shoal-water-the-painting-drowned-in-its-own-sound",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "david-acevedo-three-and-a-half-meditations",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "daniel-gostelow-playbox-cadenza",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "sean-quinn-can-i-forget-the-rising-sun",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "joshua-muetzel-mercurial-spell",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "max-gibson-those-stones-watching-over-lochs-through-time",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "david-acevedo-bragdon-wood",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "joshua-muetzel-night",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "treya-nash-nothing-motorized": {
+        "clarinet": [],
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "daniel-gostelow-the-piercing-blazing-bell-amidst-intertwined-swirls-of-musical-shoal-water-the-painting-drowned-in-its-own-sound": {
+        "flute": [],
+        "clarinet": [],
+        "violin": [],
+        "cello": []
+      }
+    },
+    {
+      "david-acevedo-three-and-a-half-meditations": {
+        "marimba": []
+      }
+    },
+    {
+      "daniel-gostelow-playbox-cadenza": {
+        "piano": []
+      }
+    },
+    {
+      "sean-quinn-can-i-forget-the-rising-sun": {
+        "violin": []
+      }
+    },
+    {
+      "joshua-muetzel-mercurial-spell": {
+        "viola": []
+      }
+    },
+    {
+      "max-gibson-those-stones-watching-over-lochs-through-time": {
+        "piano": [],
+        "violin": [],
+        "cello": []
+      }
+    },
+    {
+      "david-acevedo-bragdon-wood": {
+        "flute": [],
+        "viola": [],
+        "prepared piano": []
+      }
+    },
+    {
+      "joshua-muetzel-night": {
+        "violin": [],
+        "viola": []
+      }
+    }
+  ]
+}

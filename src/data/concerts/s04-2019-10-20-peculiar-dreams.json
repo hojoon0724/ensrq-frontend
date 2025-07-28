@@ -1,0 +1,94 @@
+{
+  "concertId": "s04-2019-10-20-peculiar-dreams",
+  "title": "Peculiar Dreams",
+  "subtitle": "",
+  "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+  "date": "2019-10-20",
+  "ticketsLinks": [],
+  "venueId": "studio-620",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "andrew-norman-an-index-of-peculiar-strokes",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "elizabeth-a-baker-cosmic-dreams",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "krzysztof-penderecki-sextet",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "luciano-berio-sequenza-xiv-for-solo-cello": {
+        "cello": [
+          "natalie-helm"
+        ]
+      }
+    },
+    {
+      "andrew-norman-an-index-of-peculiar-strokes": {
+        "violin": [
+          "samantha-bennett",
+          "jennifer-best-takeda"
+        ],
+        "viola": [
+          "hilary-gamble"
+        ],
+        "cello": [
+          "natalie-helm"
+        ]
+      }
+    },
+    {
+      "elizabeth-a-baker-cosmic-dreams": {
+        "vibraphone": [
+          "george-nickson"
+        ],
+        "violin": [
+          "samantha-bennett",
+          "jennifer-best-takeda"
+        ],
+        "viola": [
+          "rachel-halvorsen",
+          "hilary-gamble"
+        ],
+        "cello": [
+          "natalie-helm",
+          "christopher-schnell"
+        ]
+      }
+    },
+    {
+      "krzysztof-penderecki-sextet": {
+        "clarinet": [
+          "bharat-chandra"
+        ],
+        "horn": [
+          "joshua-horne"
+        ],
+        "violin": [
+          "samantha-bennett"
+        ],
+        "viola": [
+          "rachel-halvorsen"
+        ],
+        "cello": [
+          "christopher-schnell"
+        ]
+      }
+    }
+  ]
+}

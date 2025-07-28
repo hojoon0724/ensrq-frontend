@@ -1,0 +1,22 @@
+{
+  "workId": "sofia-gubaidulina-string-quartet-no-2",
+  "composerId": "sofia-gubaidulina",
+  "title": "String Quartet No. 2",
+  "year": 1987,
+  "duration": "9'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}

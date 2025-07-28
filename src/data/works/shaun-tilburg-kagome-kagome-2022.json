@@ -1,0 +1,27 @@
+{
+  "workId": "shaun-tilburg-kagome-kagome-2022",
+  "composerId": "shaun-tilburg",
+  "title": "Kagome Kagome (2022)",
+  "year": "",
+  "duration": "11'",
+  "movements": [
+    "I. Summons",
+    "II. The First Bardo",
+    "III. Mantra",
+    "IV. Summons",
+    "V. The Second Bardo",
+    "VI. Abhidhamma",
+    "VII. Eulogy",
+    "VIII. The Third Bardo"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "mezzo_soprano",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "workId": "george-crumb-madrigals-19651969",
+  "composerId": "george-crumb",
+  "title": "Madrigals (1965-1969)",
+  "year": "",
+  "duration": "32'",
+  "movements": [
+    "Book 1 (1965)",
+    "Book 2 (1965)",
+    "Book 3 (1969)",
+    "Book 4 (1969)"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "soprano",
+      "count": 1
+    },
+    {
+      "instrument": "flute",
+      "count": 1
+    },
+    {
+      "instrument": "bass",
+      "count": 1
+    },
+    {
+      "instrument": "harp",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    }
+  ]
+}

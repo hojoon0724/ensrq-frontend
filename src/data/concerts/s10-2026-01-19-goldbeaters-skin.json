@@ -1,0 +1,68 @@
+{
+  "concertId": "s10-2026-01-19-goldbeaters-skin",
+  "title": "Goldbeater's Skin",
+  "subtitle": "",
+  "description": "",
+  "date": "2026-01-19",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "https://www.ticketspice.com"
+    }
+  },
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "password",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "nina-c-young-sun-propeller",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "claude-vivier-learning",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "shawn-allison-new-work",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "christopher-cerrone-goldbeaters-skin",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "nina-c-young-sun-propeller": {
+        "violin": [],
+        "live electronics": []
+      }
+    },
+    {
+      "claude-vivier-learning": {
+        "violins": [],
+        "percussion": [],
+        "tape": []
+      }
+    },
+    {
+      "shawn-allison-new-work": {
+        "TBD": []
+      }
+    },
+    {
+      "christopher-cerrone-goldbeaters-skin": {
+        "percussion": [],
+        "mezzo-soprano": []
+      }
+    }
+  ]
+}

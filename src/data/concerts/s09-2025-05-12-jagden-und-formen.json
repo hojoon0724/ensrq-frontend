@@ -1,0 +1,25 @@
+{
+  "concertId": "s09-2025-05-12-jagden-und-formen",
+  "title": "Jagden und Formen",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-05-12",
+  "ticketsLinks": [],
+  "venueId": "sarasota-opera-house",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "wolfgang-rihm-jagden-und-formen-hunts-and-forms",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "wolfgang-rihm-jagden-und-formen-hunts-and-forms": {
+        "large ensemble": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "workId": "gyorgy-ligeti-horn-trio",
+  "composerId": "gyorgy-ligeti",
+  "title": "Horn Trio",
+  "year": 1982,
+  "duration": "22'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "horn",
+      "count": 1
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

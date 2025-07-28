@@ -1,0 +1,63 @@
+{
+  "concertId": "s08-2023-10-23-beyond-the-veil",
+  "title": "Beyond the Veil",
+  "subtitle": "",
+  "description": "",
+  "date": "2023-10-23",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "nia-imani-franklin-burgundy-in-autumn",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "julia-adolphe-veil-of-leaves",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "chris-rogerson-afterword",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "philippe-manoury-tensio",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "nia-imani-franklin-burgundy-in-autumn": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "julia-adolphe-veil-of-leaves": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "chris-rogerson-afterword": {
+        "violins": [],
+        "piano": []
+      }
+    },
+    {
+      "philippe-manoury-tensio": {
+        "violins": [],
+        "viola": [],
+        "cello": [],
+        "live electronics": []
+      }
+    }
+  ]
+}

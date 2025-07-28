@@ -1,0 +1,116 @@
+{
+  "concertId": "s06-2022-04-18-waves",
+  "title": "Waves",
+  "subtitle": "",
+  "description": "To cap off the return of live audiences and end our 6th season, enSRQ premieres a final co-commission, WAVES, by Sebastian Currier. Based on the eponymous book by Virginia Woolf, this work for soprano, small ensemble and electronics, enters the thoughts of various women and girls, from a young child to an eighty year old woman, ultimately representing just one woman's conscious life, not unfolding over decades, but coexisting within a single day. WAVES is paired with Anna Thorvaldsdottir's Entropic Arrows and firn, the second work of our season exploration of Yaz Lancaster's music.",
+  "date": "2022-04-18",
+  "ticketsLinks": [],
+  "venueId": "mildred-sainer-auditorium",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "patrick-harlin-digital-2013-rev-2020",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "anna-thorvaldsdottir-entropic-arrows-2019",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "yaz-lancaster-firn-2019",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "sebastian-currier-waves-2020",
+      "is_premiere": true,
+      "is_commission": "co-commission"
+    }
+  ],
+  "performers": [
+    {
+      "patrick-harlin-digital-2013-rev-2020": {
+        "violin": [
+          "samantha-bennett"
+        ],
+        "cello": [
+          "trace-johnson"
+        ],
+        "flute": [
+          "betsy-hudson-traba"
+        ],
+        "percussion": [
+          "mike-truesdell"
+        ],
+        "piano": [
+          "conor-hanick"
+        ]
+      }
+    },
+    {
+      "anna-thorvaldsdottir-entropic-arrows-2019": {
+        "violin": [
+          "samantha-bennett",
+          "mia-laity"
+        ],
+        "viola": [
+          "derek-mosloff"
+        ],
+        "cello": [
+          "trace-johnson"
+        ],
+        "bass_clarinet": [
+          "calvin-falwell"
+        ],
+        "percussion": [
+          "mike-truesdell"
+        ]
+      }
+    },
+    {
+      "yaz-lancaster-firn-2019": {
+        "violin": [
+          "samantha-bennett"
+        ],
+        "cello": [
+          "trace-johnson"
+        ],
+        "percussion": [
+          "george-nickson"
+        ]
+      }
+    },
+    {
+      "sebastian-currier-waves-2020": {
+        "soprano": [
+          "lucy-fitz-gibbon"
+        ],
+        "violin": [
+          "samantha-bennett"
+        ],
+        "cello": [
+          "trace-johnson"
+        ],
+        "bass": [
+          "john-miller"
+        ],
+        "flute": [
+          "betsy-hudson-traba"
+        ],
+        "trumpet": [
+          "aaron-romm"
+        ],
+        "piano": [
+          "conor-hanick"
+        ],
+        "percussion": [
+          "mike-truesdell"
+        ],
+        "electronics": []
+      }
+    }
+  ]
+}

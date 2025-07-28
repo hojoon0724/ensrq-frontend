@@ -1,0 +1,22 @@
+{
+  "workId": "david-acevedo-bragdon-wood",
+  "composerId": "david-acevedo",
+  "title": "Bragdon Wood",
+  "year": 2024,
+  "duration": "2'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "flute",
+      "count": 1
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "prepared piano",
+      "count": 1
+    }
+  ]
+}

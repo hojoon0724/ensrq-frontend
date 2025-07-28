@@ -1,0 +1,74 @@
+{
+  "concertId": "s09-2025-01-13-visions-and-miracles",
+  "title": "Visions and Miracles",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-01-13",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "anna-clyne-rest-these-hands",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "chris-theofanidis-visions-and-miracles",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "dai-wei-how-the-stars-vanish",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "han-lash-how-to-remember-seeds",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "gabriela-lena-frank-milagros",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "anna-clyne-rest-these-hands": {
+        "violin": []
+      }
+    },
+    {
+      "chris-theofanidis-visions-and-miracles": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "dai-wei-how-the-stars-vanish": {
+        "flute": [],
+        "clarinet": [],
+        "violin": [],
+        "cello": []
+      }
+    },
+    {
+      "han-lash-how-to-remember-seeds": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "gabriela-lena-frank-milagros": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    }
+  ]
+}

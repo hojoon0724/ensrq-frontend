@@ -1,0 +1,22 @@
+{
+  "workId": "claude-vivier-learning",
+  "composerId": "claude-vivier",
+  "title": "Learning",
+  "year": 1976,
+  "duration": "20'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violins",
+      "count": 4
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    },
+    {
+      "instrument": "tape",
+      "count": 1
+    }
+  ]
+}

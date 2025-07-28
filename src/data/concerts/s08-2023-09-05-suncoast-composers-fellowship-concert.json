@@ -1,0 +1,113 @@
+{
+  "concertId": "s08-2023-09-05-suncoast-composers-fellowship-concert",
+  "title": "Suncoast Composers Fellowship Concert",
+  "subtitle": "",
+  "description": "",
+  "date": "2023-09-05",
+  "ticketsLinks": [],
+  "venueId": "first-congregational-church",
+  "streamingPageAccessPassword": "",
+  "sponsors": [],
+  "program": [
+    {
+      "workId": "nicolas-bentz-glimpse",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "claire-hu-before-entrance-and-after-exits-dreams-await",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "angela-elizabeth-slater-flickering-airs",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "yangfan-xu-luo-jiang-yuan-a-bit-blue",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "zachary-konick-meditations",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "zachary-konick-surface",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "angela-elizabeth-slater-daybreak-of-dust",
+      "is_premiere": false,
+      "is_commission": false
+    },
+    {
+      "workId": "chris-neiner-infinite-spinning",
+      "is_premiere": false,
+      "is_commission": false
+    }
+  ],
+  "performers": [
+    {
+      "nicolas-bentz-glimpse": {
+        "clarinet": [],
+        "violin": [],
+        "cello": [],
+        "piano": []
+      }
+    },
+    {
+      "claire-hu-before-entrance-and-after-exits-dreams-await": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "angela-elizabeth-slater-flickering-airs": {
+        "clarinet": [],
+        "flute": [],
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "yangfan-xu-luo-jiang-yuan-a-bit-blue": {
+        "violins": [],
+        "viola": [],
+        "cello": []
+      }
+    },
+    {
+      "zachary-konick-meditations": {
+        "violin": [],
+        "dulcimer": []
+      }
+    },
+    {
+      "zachary-konick-surface": {
+        "dulcimer": []
+      }
+    },
+    {
+      "angela-elizabeth-slater-daybreak-of-dust": {
+        "cello": [],
+        "piano": []
+      }
+    },
+    {
+      "chris-neiner-infinite-spinning": {
+        "flute": [],
+        "clarinet": [],
+        "percussion": [],
+        "piano": [],
+        "violin": [],
+        "cello": []
+      }
+    }
+  ]
+}

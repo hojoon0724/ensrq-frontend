@@ -1,0 +1,18 @@
+{
+  "workId": "arlene-sierra-avian-mirrors",
+  "composerId": "arlene-sierra",
+  "title": "Avian Mirrors",
+  "year": 2013,
+  "duration": "13'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}
