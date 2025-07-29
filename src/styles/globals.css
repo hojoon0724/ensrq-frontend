@@ -3,38 +3,40 @@
 @import "./_colors.css";
 @import "./_semantics.css";
 @import "./_typography.css";
-/* @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
-@import url("https://use.typekit.net/muw0xyx.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import url("https://use.typekit.net/muw0xyx.css");
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --standard-space-quarter: 0.125rem;
   --standard-space-half: 0.25rem;
   --standard-space: 0.5rem;
   --standard-space-double: 1rem;
+  --standard-space-triple: 1.5rem;
 
   @screen lg {
+    --standard-space-quarter: 0.25rem;
     --standard-space-half: 0.5rem;
     --standard-space: 1rem;
     --standard-space-double: 2rem;
+    --standard-space-triple: 3rem;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  /* :root {
+  :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  } */
+  }
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.v-application {
+  position: absolute;
 }

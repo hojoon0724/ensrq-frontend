@@ -1,5 +1,7 @@
+import NavBar from "@/components/organisms/NavBar";
 import type { Metadata } from "next";
 import "../styles/globals.css";
+import Footer from "@/components/organisms/Footer";
 
 export const metadata: Metadata = {
   title: "enSRQ",
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex flex-col w-screen h-screen items-center justify-between">
+        <NavBar />
+        <div className="top-container">{children}</div>
+        <Footer/>
+      </body>
     </html>
   );
 }

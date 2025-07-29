@@ -1,4 +1,5 @@
 "use client";
+import NavBar from "@/components/organisms/NavBar";
 import { useState } from "react";
 import {
   Badge,
@@ -9,7 +10,7 @@ import {
   Image,
   InputField,
   Label,
-  Link,
+  LinkAtom,
   RadioButton,
   SelectDropdown,
   Spinner,
@@ -202,38 +203,38 @@ export default function ComponentsGalleryPage() {
           <h3 className="mb-4">Links</h3>
           <div className="grid gap-4">
             <div className="flex gap-4 flex-wrap">
-              <Link href="#">Default Link</Link>
-              <Link href="#" variant="primary">
+              <LinkAtom href="#">Default Link</LinkAtom>
+              <LinkAtom href="#" variant="primary">
                 Primary Link
-              </Link>
-              <Link href="#" variant="secondary">
+              </LinkAtom>
+              <LinkAtom href="#" variant="secondary">
                 Secondary Link
-              </Link>
-              <Link href="#" variant="danger">
+              </LinkAtom>
+              <LinkAtom href="#" variant="danger">
                 Danger Link
-              </Link>
+              </LinkAtom>
             </div>
             <div className="flex gap-4 flex-wrap">
-              <Link href="#" underline="none">
+              <LinkAtom href="#" underline="none">
                 No Underline
-              </Link>
-              <Link href="#" underline="hover">
+              </LinkAtom>
+              <LinkAtom href="#" underline="hover">
                 Hover Underline
-              </Link>
-              <Link href="#" underline="always">
+              </LinkAtom>
+              <LinkAtom href="#" underline="always">
                 Always Underline
-              </Link>
+              </LinkAtom>
             </div>
             <div className="flex gap-4 flex-wrap">
-              <Link href="#" size="sm">
+              <LinkAtom href="#" size="sm">
                 Small Link
-              </Link>
-              <Link href="#" size="md">
+              </LinkAtom>
+              <LinkAtom href="#" size="md">
                 Medium Link
-              </Link>
-              <Link href="#" size="lg">
+              </LinkAtom>
+              <LinkAtom href="#" size="lg">
                 Large Link
-              </Link>
+              </LinkAtom>
             </div>
           </div>
         </div>
@@ -421,8 +422,9 @@ export default function ComponentsGalleryPage() {
 
       <div className="component-hierarchy">
         <h2 className="mb-4">Organisms</h2>
-        <p className="text-gray-500">Coming soon...</p>
+        <NavBar />
       </div>
+      <div className="spacer h-[50svh]"></div>
     </div>
   );
 }

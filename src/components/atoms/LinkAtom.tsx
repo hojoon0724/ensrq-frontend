@@ -11,7 +11,7 @@ export interface LinkProps {
   className?: string;
 }
 
-const Link: React.FC<LinkProps> = ({
+const LinkAtom: React.FC<LinkProps> = ({
   href,
   children,
   variant = "default",
@@ -68,4 +68,4 @@ const Link: React.FC<LinkProps> = ({
   );
 };
 
-export default Link;
+export default LinkAtom;

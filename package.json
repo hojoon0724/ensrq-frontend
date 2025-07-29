@@ -1,16 +1,13 @@
 {
   "name": "ensrq-nextjs-ts",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "populate-db": "node src/data/scripts/populateMongoDb.js",
-    "verify-db": "node src/data/scripts/verifyDatabase.js",
-    "migrate-to-mongodb": "node scripts/migrate-to-mongodb.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "dotenv": "^17.2.1",
