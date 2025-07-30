@@ -9,4 +9,15 @@
   .center-all {
     @apply flex items-center justify-center;
   }
+   main {
+    @apply flex flex-col;
+  } 
+  section {
+    @apply w-screen flex-1 flex flex-col justify-center items-center p-s;
+  }
 }
+
+/* * {
+  border: 1px solid red;
+  border-collapse: collapse;
+} */

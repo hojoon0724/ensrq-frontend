@@ -1,5 +1,4 @@
 "use client";
-
 import Logo from "@/assets/logo";
 import seasonData from "@/data/seasons.json";
 import Link from "next/link";
@@ -11,15 +10,15 @@ const navItems = [
     url: "/about",
     dropdown: true,
     dropdownItems: [
-      { name: "mission", url: "/mission" },
-      { name: "artistic directors", url: "/artistic-directors" },
-      { name: "enSRQ artists", url: "/ensrq-artists" },
-      { name: "guest artists", url: "/guest-artists" },
-      { name: "contact", url: "/contact" },
-      { name: "board of directors", url: "/board-of-directors" },
-      { name: "diversity policy", url: "/diversity-policy" },
-      { name: "our donors", url: "/our-donors" },
-      { name: "donate", url: "/donate" },
+      { name: "mission", url: "/about#mission" },
+      { name: "artistic directors", url: "/about#artistic-directors" },
+      { name: "enSRQ artists", url: "/about#ensrq-artists" },
+      { name: "guest artists", url: "/about#guest-artists" },
+      { name: "contact", url: "/about#contact" },
+      { name: "board of directors", url: "/about#board-of-directors" },
+      { name: "diversity policy", url: "/about#diversity-policy" },
+      { name: "our donors", url: "/about#our-donors" },
+      { name: "donate", url: "/about#donate" },
     ],
   },
   {
@@ -64,7 +63,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="flex justify-center items-center w-full">
+    <nav className="sticky top-0 z-50 flex justify-center items-center w-full">
       <div className="nav-contents-container w-full max-w-7xl p-s flex justify-between items-center h-[100px] max-h-[100px]">
         <div className="nav-left-logo-container h-full aspect-[20/9]">
           <Logo color="var(--water-50)" />
@@ -89,7 +88,10 @@ export default function NavBar() {
                   >
                     {item.dropdownItems.map((dropdownItem) => (
                       <li key={dropdownItem.name} className="text-right flex justify-end">
-                        <Link href={dropdownItem.url} className="block px-half hover:bg-gray-100 dark:hover:bg-water-500 text-nowrap">
+                        <Link
+                          href={dropdownItem.url}
+                          className="block px-half hover:bg-gray-100 dark:hover:bg-water-500 text-nowrap"
+                        >
                           {dropdownItem.name}
                         </Link>
                       </li>
