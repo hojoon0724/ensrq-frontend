@@ -45,10 +45,10 @@ const venueSchema = new mongoose.Schema(
 );
 
 // Index for efficient queries
-venueSchema.index({ venueId: 1 });
-venueSchema.index({ name: 1 });
-venueSchema.index({ city: 1, state: 1 });
-venueSchema.index({ "coordinates.latitude": 1, "coordinates.longitude": 1 });
+// venueSchema.index({ venueId: 1 });
+// venueSchema.index({ name: 1 });
+// venueSchema.index({ city: 1, state: 1 });
+// venueSchema.index({ "coordinates.latitude": 1, "coordinates.longitude": 1 });
 
 const Venue = mongoose.models.Venue || mongoose.model("Venue", venueSchema);
 

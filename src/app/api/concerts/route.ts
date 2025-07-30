@@ -17,34 +17,34 @@ export async function GET() {
   }
 }
 
-export async function POST(request: Request) {
-  try {
-    await dbConnect();
-    const concertData = await request.json();
+// export async function POST(request: Request) {
+//   try {
+//     await dbConnect();
+//     const concertData = await request.json();
 
-    const concert = new Concert(concertData);
-    await concert.save();
+//     const concert = new Concert(concertData);
+//     await concert.save();
 
-    return NextResponse.json({ success: true, concert });
-  } catch (error) {
-    console.error("Error saving concert:", error);
-    return NextResponse.json({ error: "Failed to save concert" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, concert });
+//   } catch (error) {
+//     console.error("Error saving concert:", error);
+//     return NextResponse.json({ error: "Failed to save concert" }, { status: 500 });
+//   }
+// }
 
-export async function PUT(request: Request) {
-  try {
-    await dbConnect();
-    const concertData = await request.json();
+// export async function PUT(request: Request) {
+//   try {
+//     await dbConnect();
+//     const concertData = await request.json();
 
-    const concert = await Concert.findOneAndUpdate({ concertId: concertData.concertId }, concertData, {
-      new: true,
-      upsert: true,
-    });
+//     const concert = await Concert.findOneAndUpdate({ concertId: concertData.concertId }, concertData, {
+//       new: true,
+//       upsert: true,
+//     });
 
-    return NextResponse.json({ success: true, concert });
-  } catch (error) {
-    console.error("Error updating concert:", error);
-    return NextResponse.json({ error: "Failed to update concert" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, concert });
+//   } catch (error) {
+//     console.error("Error updating concert:", error);
+//     return NextResponse.json({ error: "Failed to update concert" }, { status: 500 });
+//   }
+// }

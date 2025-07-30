@@ -140,13 +140,13 @@ const concertSchema = new mongoose.Schema(
 );
 
 // Index for efficient queries
-concertSchema.index({ concertId: 1 });
-concertSchema.index({ date: 1 });
-concertSchema.index({ seasonId: 1 });
-concertSchema.index({ venueId: 1 });
-concertSchema.index({ title: 1 });
-concertSchema.index({ status: 1 });
-concertSchema.index({ "program.workId": 1 });
+// concertSchema.index({ concertId: 1 });
+// concertSchema.index({ date: 1 });
+// concertSchema.index({ seasonId: 1 });
+// concertSchema.index({ venueId: 1 });
+// concertSchema.index({ title: 1 });
+// concertSchema.index({ status: 1 });
+// concertSchema.index({ "program.workId": 1 });
 
 const Concert = mongoose.models.Concert || mongoose.model("Concert", concertSchema);
 

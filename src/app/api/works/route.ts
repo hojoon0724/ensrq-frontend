@@ -26,31 +26,31 @@ export async function GET() {
   }
 }
 
-export async function POST(request: Request) {
-  try {
-    await dbConnect();
-    const workData = await request.json();
+// export async function POST(request: Request) {
+//   try {
+//     await dbConnect();
+//     const workData = await request.json();
 
-    const work = new Work(workData);
-    await work.save();
+//     const work = new Work(workData);
+//     await work.save();
 
-    return NextResponse.json({ success: true, work });
-  } catch (error) {
-    console.error("Error saving work:", error);
-    return NextResponse.json({ error: "Failed to save work" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, work });
+//   } catch (error) {
+//     console.error("Error saving work:", error);
+//     return NextResponse.json({ error: "Failed to save work" }, { status: 500 });
+//   }
+// }
 
-export async function PUT(request: Request) {
-  try {
-    await dbConnect();
-    const workData = await request.json();
+// export async function PUT(request: Request) {
+//   try {
+//     await dbConnect();
+//     const workData = await request.json();
 
-    const work = await Work.findOneAndUpdate({ workId: workData.workId }, workData, { new: true, upsert: true });
+//     const work = await Work.findOneAndUpdate({ workId: workData.workId }, workData, { new: true, upsert: true });
 
-    return NextResponse.json({ success: true, work });
-  } catch (error) {
-    console.error("Error updating work:", error);
-    return NextResponse.json({ error: "Failed to update work" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, work });
+//   } catch (error) {
+//     console.error("Error updating work:", error);
+//     return NextResponse.json({ error: "Failed to update work" }, { status: 500 });
+//   }
+// }

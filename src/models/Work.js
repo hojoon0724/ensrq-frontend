@@ -80,11 +80,11 @@ const workSchema = new mongoose.Schema(
 );
 
 // Index for efficient queries
-workSchema.index({ workId: 1 });
-workSchema.index({ composerId: 1 });
-workSchema.index({ title: 1 });
-workSchema.index({ year: 1 });
-workSchema.index({ "instrumentation.instrument": 1 });
+// workSchema.index({ workId: 1 });
+// workSchema.index({ composerId: 1 });
+// workSchema.index({ title: 1 });
+// workSchema.index({ year: 1 });
+// workSchema.index({ "instrumentation.instrument": 1 });
 
 const Work = mongoose.models.Work || mongoose.model("Work", workSchema);
 

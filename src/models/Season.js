@@ -27,8 +27,8 @@ const seasonSchema = new mongoose.Schema(
 );
 
 // Index for efficient queries
-seasonSchema.index({ seasonId: 1 });
-seasonSchema.index({ season: 1 });
+// seasonSchema.index({ seasonId: 1 });
+// seasonSchema.index({ season: 1 });
 
 const Season = mongoose.models.Season || mongoose.model("Season", seasonSchema);
 

@@ -40,9 +40,9 @@ const musicianSchema = new mongoose.Schema(
 );
 
 // Index for efficient queries
-musicianSchema.index({ musicianId: 1 });
-musicianSchema.index({ name: 1 });
-musicianSchema.index({ instruments: 1 });
+// musicianSchema.index({ musicianId: 1 });
+// musicianSchema.index({ name: 1 });
+// musicianSchema.index({ instruments: 1 });
 
 const Musician = mongoose.models.Musician || mongoose.model("Musician", musicianSchema);
 

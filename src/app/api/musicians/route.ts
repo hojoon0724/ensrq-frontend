@@ -17,34 +17,34 @@ export async function GET() {
   }
 }
 
-export async function POST(request: Request) {
-  try {
-    await dbConnect();
-    const musicianData = await request.json();
+// export async function POST(request: Request) {
+//   try {
+//     await dbConnect();
+//     const musicianData = await request.json();
 
-    const musician = new Musician(musicianData);
-    await musician.save();
+//     const musician = new Musician(musicianData);
+//     await musician.save();
 
-    return NextResponse.json({ success: true, musician });
-  } catch (error) {
-    console.error("Error saving musician:", error);
-    return NextResponse.json({ error: "Failed to save musician" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, musician });
+//   } catch (error) {
+//     console.error("Error saving musician:", error);
+//     return NextResponse.json({ error: "Failed to save musician" }, { status: 500 });
+//   }
+// }
 
-export async function PUT(request: Request) {
-  try {
-    await dbConnect();
-    const musicianData = await request.json();
+// export async function PUT(request: Request) {
+//   try {
+//     await dbConnect();
+//     const musicianData = await request.json();
 
-    const musician = await Musician.findOneAndUpdate({ musicianId: musicianData.musicianId }, musicianData, {
-      new: true,
-      upsert: true,
-    });
+//     const musician = await Musician.findOneAndUpdate({ musicianId: musicianData.musicianId }, musicianData, {
+//       new: true,
+//       upsert: true,
+//     });
 
-    return NextResponse.json({ success: true, musician });
-  } catch (error) {
-    console.error("Error updating musician:", error);
-    return NextResponse.json({ error: "Failed to update musician" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, musician });
+//   } catch (error) {
+//     console.error("Error updating musician:", error);
+//     return NextResponse.json({ error: "Failed to update musician" }, { status: 500 });
+//   }
+// }

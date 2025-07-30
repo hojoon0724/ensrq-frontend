@@ -17,31 +17,31 @@ export async function GET() {
   }
 }
 
-export async function POST(request: Request) {
-  try {
-    await dbConnect();
-    const venueData = await request.json();
+// export async function POST(request: Request) {
+//   try {
+//     await dbConnect();
+//     const venueData = await request.json();
 
-    const venue = new Venue(venueData);
-    await venue.save();
+//     const venue = new Venue(venueData);
+//     await venue.save();
 
-    return NextResponse.json({ success: true, venue });
-  } catch (error) {
-    console.error("Error saving venue:", error);
-    return NextResponse.json({ error: "Failed to save venue" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, venue });
+//   } catch (error) {
+//     console.error("Error saving venue:", error);
+//     return NextResponse.json({ error: "Failed to save venue" }, { status: 500 });
+//   }
+// }
 
-export async function PUT(request: Request) {
-  try {
-    await dbConnect();
-    const venueData = await request.json();
+// export async function PUT(request: Request) {
+//   try {
+//     await dbConnect();
+//     const venueData = await request.json();
 
-    const venue = await Venue.findOneAndUpdate({ venueId: venueData.venueId }, venueData, { new: true, upsert: true });
+//     const venue = await Venue.findOneAndUpdate({ venueId: venueData.venueId }, venueData, { new: true, upsert: true });
 
-    return NextResponse.json({ success: true, venue });
-  } catch (error) {
-    console.error("Error updating venue:", error);
-    return NextResponse.json({ error: "Failed to update venue" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, venue });
+//   } catch (error) {
+//     console.error("Error updating venue:", error);
+//     return NextResponse.json({ error: "Failed to update venue" }, { status: 500 });
+//   }
+// }

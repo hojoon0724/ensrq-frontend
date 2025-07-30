@@ -17,34 +17,34 @@ export async function GET() {
   }
 }
 
-export async function POST(request: Request) {
-  try {
-    await dbConnect();
-    const composerData = await request.json();
+// export async function POST(request: Request) {
+//   try {
+//     await dbConnect();
+//     const composerData = await request.json();
 
-    const composer = new Composer(composerData);
-    await composer.save();
+//     const composer = new Composer(composerData);
+//     await composer.save();
 
-    return NextResponse.json({ success: true, composer });
-  } catch (error) {
-    console.error("Error saving composer:", error);
-    return NextResponse.json({ error: "Failed to save composer" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, composer });
+//   } catch (error) {
+//     console.error("Error saving composer:", error);
+//     return NextResponse.json({ error: "Failed to save composer" }, { status: 500 });
+//   }
+// }
 
-export async function PUT(request: Request) {
-  try {
-    await dbConnect();
-    const composerData = await request.json();
+// export async function PUT(request: Request) {
+//   try {
+//     await dbConnect();
+//     const composerData = await request.json();
 
-    const composer = await Composer.findOneAndUpdate({ composerId: composerData.composerId }, composerData, {
-      new: true,
-      upsert: true,
-    });
+//     const composer = await Composer.findOneAndUpdate({ composerId: composerData.composerId }, composerData, {
+//       new: true,
+//       upsert: true,
+//     });
 
-    return NextResponse.json({ success: true, composer });
-  } catch (error) {
-    console.error("Error updating composer:", error);
-    return NextResponse.json({ error: "Failed to update composer" }, { status: 500 });
-  }
-}
+//     return NextResponse.json({ success: true, composer });
+//   } catch (error) {
+//     console.error("Error updating composer:", error);
+//     return NextResponse.json({ error: "Failed to update composer" }, { status: 500 });
+//   }
+// }
