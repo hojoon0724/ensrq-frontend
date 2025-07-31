@@ -4,7 +4,9 @@ import Wordmark from "@/assets/wordmark";
 import Link from "next/link";
 import SocialMediaIcons from "../atoms/SocialMediaIcons";
 
-// const footerLogo = "";
+// This variable controls whether the footer links are active or not.
+const links_active = false;
+
 const footerSocialLinks = [
   { platform: "twitter", displayString: "@ensemblenewSRQ", url: "https://x.com/ensemblenewSRQ" },
   { platform: "facebook", displayString: "/ensemblenewSRQ", url: "https://facebook.com/ensemblenewSRQ" },
@@ -12,19 +14,22 @@ const footerSocialLinks = [
   { platform: "tiktok", displayString: "@ensemblenewsrq", url: "https://tiktok.com/@ensemblenewsrq" },
 ];
 
-const footerNavigationLinks = [
-  [
-    { name: "About Us", url: "/about" },
-    { name: "Artistic Directors", url: "#" },
-    { name: "Board of Directors", url: "#" },
-    { name: "Donors", url: "#" },
-    { name: "Support us", url: "#" },
-  ],
-];
+// Footer navigation links is an array of arrays, where each inner array represents a column of links in the footer.
+const footerNavigationLinks = links_active
+  ? [
+      [
+        { name: "About Us", url: "/about" },
+        { name: "Artistic Directors", url: "/about#artistic-directors" },
+        { name: "Board of Directors", url: "/about#board-of-directors" },
+        { name: "Donors", url: "/about#our-donors" },
+        { name: "Support us", url: "/about#donate" },
+      ],
+    ]
+  : [];
 
 export default function Footer() {
   return (
-    <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-900 text-gray-30">
+    <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30">
       <div className="footer-content w-full max-w-7xl mx-auto ">
         {/* logo block */}
         <div className="footer-logo-container w-full mb-triple">
@@ -39,7 +44,7 @@ export default function Footer() {
                 return (
                   <div
                     key={link.url}
-                    className={`social-link-container ${link.platform} h-10 w-10 p-quarter rounded-md bg-gray-50`}
+                    className={`social-link-container ${link.platform} h-10 w-10 p-quarter rounded-md bg-gray-50 hover:bg-water-50 transition-all duration-300`}
                   >
                     <Link href={link.url} target="_blank" rel="noopener noreferrer">
                       <SocialMediaIcons platform={link.platform} color="var(--water-950)" />
@@ -51,7 +56,7 @@ export default function Footer() {
             <div className="address-container">
               <p>PO Box 15372</p>
               <p>Sarasota, FL 34277</p>
-              <p>
+              <p className="hover:text-water-50 transition-all duration-300">
                 <a href="mailto:ensemblenewsrq@gmail.com">ensemblenewsrq@gmail.com</a>
               </p>
             </div>
