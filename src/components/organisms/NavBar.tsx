@@ -4,7 +4,7 @@ import seasonData from "@/data/seasons.json";
 import Link from "next/link";
 import { useRef, useState } from "react";
 
-const links_active = true;
+const links_active = false;
 
 const navItems = links_active
   ? [

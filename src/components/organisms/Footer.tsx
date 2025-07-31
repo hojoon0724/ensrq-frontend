@@ -5,7 +5,7 @@ import Link from "next/link";
 import SocialMediaIcons from "../atoms/SocialMediaIcons";
 
 // This variable controls whether the footer links are active or not.
-const links_active = true;
+const links_active = false;
 
 const footerSocialLinks = [
   { platform: "twitter", displayString: "@ensemblenewSRQ", url: "https://x.com/ensemblenewSRQ" },
