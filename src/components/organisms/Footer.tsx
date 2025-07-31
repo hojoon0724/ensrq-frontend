@@ -24,15 +24,15 @@ const footerNavigationLinks = [
 
 export default function Footer() {
   return (
-    <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-900 ">
-      <div className="footer-content w-full max-w-7xl mx-auto">
+    <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-900 text-gray-30">
+      <div className="footer-content w-full max-w-7xl mx-auto ">
+        {/* logo block */}
         <div className="footer-logo-container w-full mb-triple">
           <Wordmark color="var(--water-50)" />
         </div>
         <div className={`grid grid-cols-1 md:grid-cols-[1fr,auto] gap-s w-full max-w-7xl`}>
           {/* left-most column */}
           <div className="first-column flex flex-col justify-start items-start gap-triple lg:gap-double mb-double lg:mb-0">
-            {/* logo block */}
             {/* socials block */}
             <div className="footer-social-links-container flex flex-row justify-between items-center gap-s">
               {footerSocialLinks.map((link) => {

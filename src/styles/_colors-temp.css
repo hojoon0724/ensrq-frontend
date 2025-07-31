@@ -87,7 +87,7 @@
   --sky-bg-dark: oklch(0.25 0.09 230);
   --sky-bg-neutral: oklch(0.5 0.09 230);
   --sky-bg-bright: oklch(0.75 0.09 230);
-  --sky-bg-white: oklch(91.576% 0.05575 224.091);
+  --sky-bg-white: oklch(0.99 0.09 230);
 
   --gray-970: hsl(200, 5%, 3%);
   --gray-950: hsl(200, 5%, 5%);
@@ -102,10 +102,6 @@
   --gray-100: hsl(200, 5%, 90%);
   --gray-50: hsl(200, 5%, 95%);
   --gray-30: hsl(200, 5%, 97%);
-
-  --gray-bg-black: hsl(200, 5%, 10%);
-  --gray-bg-dark: hsl(200, 5%, 20%);
-  --gray-bg-neutral: hsl(200, 5%, 50%);
-  --gray-bg-bright: hsl(200, 5%, 80%);
-  --gray-bg-white: hsl(200, 5%, 95%);
 }
+
+

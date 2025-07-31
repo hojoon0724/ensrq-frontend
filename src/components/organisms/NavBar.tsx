@@ -45,7 +45,7 @@ const navItems = [
   { name: "Tickets", url: "/tickets" },
 ];
 
-export default function NavBar() {
+export default function NavBar({ className = "" }: Readonly<{ className?: string }>) {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -63,10 +63,12 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 flex justify-center items-center w-full">
+    <nav
+      className={`sticky top-0 z-50 flex justify-center items-center w-full  bg-slate-700/30 backdrop-blur-xl ${className}`}
+    >
       <div className="nav-contents-container w-full max-w-7xl p-s flex justify-between items-center h-[100px] max-h-[100px]">
         <div className="nav-left-logo-container h-full aspect-[20/9]">
-          <Logo color="var(--water-50)" />
+          <Logo color="var(--water-600)" />
         </div>
         <div className="nav-right-links-container museo">
           <ul className="flex center-all space-x-s">
@@ -78,7 +80,12 @@ export default function NavBar() {
                   onMouseEnter={() => handleMouseEnter(item.name)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <Link href={item.url} className="block px-s py-half hover:bg-gray-100 dark:hover:bg-water-500">
+                  <Link
+                    href={item.url}
+                    className={`block px-s py-half hover:bg-gray-100 dark:hover:bg-water-500 ${
+                      activeDropdown === item.name ? "bg-gray-100 dark:bg-water-500" : ""
+                    }`}
+                  >
                     {item.name}
                   </Link>
                   <ul

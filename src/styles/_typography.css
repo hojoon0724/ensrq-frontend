@@ -14,30 +14,96 @@
   font-family: "kode-mono", monospace;
 }
 
+.hanging-punctuation {
+  hanging-punctuation: first allow-end;
+}
+
+/* --- Headings --- */
+
 h1 {
-  @apply text-4xl font-bold leading-tight;
+  @apply text-6xl md:text-7xl font-light leading-tight tracking-normal museo-slab mb-double;
 }
+
 h2 {
-  @apply text-3xl font-bold leading-tight;
+  @apply text-5xl md:text-6xl font-light leading-tight tracking-tight museo-slab;
 }
+
 h3 {
-  @apply text-2xl font-semibold leading-tight;
+  @apply text-4xl font-semibold leading-snug tracking-normal museo;
 }
+
 h4 {
-  @apply text-xl font-semibold leading-tight;
+  @apply text-2xl font-medium leading-tight tracking-wide museo;
 }
+
 h5 {
-  @apply text-lg font-medium leading-tight;
+  @apply text-xl font-semibold leading-snug tracking-normal museo;
 }
+
 h6 {
-  @apply text-base font-medium leading-tight;
+  @apply text-sm font-bold leading-tight uppercase tracking-[0.12em] kode-mono;
 }
+
+/* --- Body Text --- */
+
 p {
-  @apply text-base leading-relaxed;
+  @apply text-base md:text-lg leading-relaxed max-w-[75ch] museo;
 }
-span {
-  @apply text-base;
-}
+
 small {
-  @apply text-sm;
+  @apply text-xs uppercase tracking-wide museo;
+}
+
+/* --- Program Text --- */
+
+.program-title {
+  @apply text-4xl md:text-5xl font-extrabold uppercase tracking-tight museo-slab-rounded;
+}
+
+.program-date {
+  @apply text-base md:text-base font-medium uppercase tracking-wider kode-mono;
+}
+
+.program-work-line {
+  @apply grid md:grid-cols-2 gap-s items-baseline w-full;
+}
+
+.program-composer {
+  @apply text-xl md:text-2xl font-normal tracking-wide museo-slab text-nowrap;
+}  
+
+.program-work-title {
+  @apply text-xl md:text-2xl font-bold museo;
+}
+
+.program-work-subtitle {
+  @apply text-base font-normal museo;
+}
+
+.program-movements {
+  @apply text-sm md:text-base font-normal museo;
+}
+
+.program-movements {
+  @apply flex flex-col;
+}
+
+.program-movement-number {
+  @apply w-[3ch] mr-half;
+}
+
+.program-performers {
+  @apply text-sm md:text-base font-medium;
+}
+
+.program-performers > li {
+  @apply leading-tight;
+}
+
+.program-intermission {
+  @apply text-base font-semibold uppercase tracking-wide kode-mono bg-black text-white flex items-center justify-center px-s py-half;
+}
+
+.program-disclaimer {
+  @apply text-xs leading-snug uppercase tracking-wider kode-mono;
 }

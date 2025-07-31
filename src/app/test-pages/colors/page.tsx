@@ -1,7 +1,7 @@
 const hues = ['sand', 'water', 'sky'];
 const mutedHues = ['sand-muted', 'water-muted', 'sky-muted'];
 const backgroundHues = ['sand-bg', 'water-bg', 'sky-bg'];
-const backgroundVariants = ['black', 'dark', 'neutral', 'bright', 'white'];
+const backgroundVariants = ['black', 'dark', 'neutral', 'bright', 'white'].reverse();
 const shades: number[] = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
 
 export default function ColorTest() {

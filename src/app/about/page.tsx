@@ -5,18 +5,20 @@ import donorsList from "@/data/donors.json";
 export default function About() {
   return (
     <div>
-      <SectionEmpty themeColor="water" className="m-double flex flex-col justify-center items-center gap-s">
+      <SectionEmpty themeColor="gray" className="m-double flex flex-col justify-center items-center gap-s">
         <a className="anchor" id="mission" />
         <Image src="/graphics/ensrq-logo-for-bright.png" alt="ensrq-logo" width={800} height={300} />
-        <div className="about-text text-center max-w-[72ch] flex flex-col gap-double text-pretty">
-          <h1 className="museo-slab font-thin mb-triple">Human, Inclusive, Excellence, Inspiring, and Current</h1>
+        <div className="about-text flex flex-col gap-double text-pretty items-center">
+          <h1 className="museo-slab w-full font-thin mb-triple text-center">
+            Human, Inclusive, Excellence, Inspiring, and Current
+          </h1>
 
-          <p>
+          <p className="text-pretty text-justify w-[80ch]">
             ensembleNEWSRQ strives to manifest the creativity of the current generation and inspire audiences to
             participate in musical culture in a profound way, through high-level curated concert experiences that
             sustain and transform the relevance of contemporary classical music.
           </p>
-          <p>
+          <p className="text-pretty text-justify w-[80ch]">
             Founded in 2015 by violinist Samantha Bennett and percussionist George Nickson, ensembleNEWSRQ (enSRQ) is a
             versatile chamber music ensemble in Sarasota, FL, dedicated to playing and advocating for the music of
             contemporary composers. Through thoughtfully curated and innovative programs, enSRQ demonstrates how
