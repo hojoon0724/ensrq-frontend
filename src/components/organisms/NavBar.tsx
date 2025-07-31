@@ -4,51 +4,53 @@ import seasonData from "@/data/seasons.json";
 import Link from "next/link";
 import { useRef, useState } from "react";
 
-const links_active = false
+const links_active = true;
 
-const navItems = links_active? [
-  {
-    name: "About",
-    url: "/about",
-    dropdown: true,
-    dropdownItems: [
-      { name: "mission", url: "/about#mission" },
-      { name: "artistic directors", url: "/about#artistic-directors" },
-      { name: "enSRQ artists", url: "/about#ensrq-artists" },
-      { name: "guest artists", url: "/about#guest-artists" },
-      { name: "contact", url: "/about#contact" },
-      { name: "board of directors", url: "/about#board-of-directors" },
-      { name: "diversity policy", url: "/about#diversity-policy" },
-      { name: "our donors", url: "/about#our-donors" },
-      { name: "donate", url: "/about#donate" },
-    ],
-    is_cta: false,
-  },
-  {
-    name: "Schedule",
-    url: `/schedule/${Object.keys(seasonData)[0]}`,
-    dropdown: true,
-    dropdownItems: Object.keys(seasonData).map((season) => ({
-      name: season,
-      url: `/schedule/${season}`,
-    })),
-    is_cta: false,
-  },
-  {
-    name: "Watch",
-    url: "/watch",
-    dropdown: true,
-    dropdownItems: [
-      { name: "Season 10", url: "/watch/season-10" },
-      { name: "Season 9", url: "/watch/season-9" },
-      { name: "Season 8", url: "/watch/season-8" },
-      { name: "Season 7", url: "/watch/season-7" },
-      { name: "Season 6", url: "/watch/season-6" },
-    ],
-    is_cta: false,
-  },
-  { name: "Tickets", url: "/tickets", is_cta: true },
-] : [];
+const navItems = links_active
+  ? [
+      {
+        name: "About",
+        url: "/about",
+        dropdown: true,
+        dropdownItems: [
+          { name: "mission", url: "/about#mission" },
+          { name: "artistic directors", url: "/about#artistic-directors" },
+          { name: "enSRQ artists", url: "/about#ensrq-artists" },
+          { name: "guest artists", url: "/about#guest-artists" },
+          { name: "contact", url: "/about#contact" },
+          { name: "board of directors", url: "/about#board-of-directors" },
+          { name: "diversity policy", url: "/about#diversity-policy" },
+          { name: "our donors", url: "/about#our-donors" },
+          { name: "donate", url: "/about#donate" },
+        ],
+        is_cta: false,
+      },
+      {
+        name: "Schedule",
+        url: `/schedule/${Object.keys(seasonData)[0]}`,
+        dropdown: true,
+        dropdownItems: Object.keys(seasonData).map((season) => ({
+          name: season,
+          url: `/schedule/${season}`,
+        })),
+        is_cta: false,
+      },
+      {
+        name: "Watch",
+        url: "/watch",
+        dropdown: true,
+        dropdownItems: [
+          { name: "Season 10", url: "/watch/season-10" },
+          { name: "Season 9", url: "/watch/season-9" },
+          { name: "Season 8", url: "/watch/season-8" },
+          { name: "Season 7", url: "/watch/season-7" },
+          { name: "Season 6", url: "/watch/season-6" },
+        ],
+        is_cta: false,
+      },
+      { name: "Tickets", url: "/tickets", is_cta: true },
+    ]
+  : [];
 
 export default function NavBar({ className = "" }: Readonly<{ className?: string }>) {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -114,7 +116,10 @@ export default function NavBar({ className = "" }: Readonly<{ className?: string
                 </li>
               ) : item.is_cta ? (
                 <li key={item.name}>
-                  <Link href={item.url} className="block px-s py-half bg-gradient-to-br from-water-400 to-water-700 text-gray-30 hover:bg-gradient-to-tl transition-all timing-300">
+                  <Link
+                    href={item.url}
+                    className="block px-s py-half bg-gradient-to-br from-water-400 to-water-700 text-gray-30 hover:bg-gradient-to-tl transition-all timing-300"
+                  >
                     {item.name}
                   </Link>
                 </li>

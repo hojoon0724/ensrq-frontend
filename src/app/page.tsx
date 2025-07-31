@@ -10,11 +10,11 @@ export default function Root() {
       </div>
       <div className="text-block text-center text-pretty">
         <h1>{`We're making some big updates`}</h1>
-        <h3>{`here's a game you can play while you wait:`}</h3>
+        <h3>{`Here's a game you can play while you wait`}</h3>
       </div>
       <div className="flip-game-container">
-        <MatchGame/>
-     </div>
+        <MatchGame />
+      </div>
     </SectionEmpty>
   );
 }
