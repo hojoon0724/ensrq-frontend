@@ -1,0 +1,25 @@
+{
+  "seasonId": "s04",
+  "year": "2019-2020",
+  "concerts": [
+    "s04-2019-09-30-frequent-flyers",
+    "s04-2019-10-20-peculiar-dreams",
+    "s04-2019-10-21-peculiar-dreams",
+    "s04-2020-01-20-fire-light",
+    "s04-2020-03-23-enter-the-vortex",
+    "s04-2020-04-13-digital-trees"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

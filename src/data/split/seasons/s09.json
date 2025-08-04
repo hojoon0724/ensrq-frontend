@@ -1,0 +1,26 @@
+{
+  "seasonId": "s09",
+  "year": "2024-2025",
+  "concerts": [
+    "s09-2024-09-23-night-reflected",
+    "s09-2024-10-07-suncoast-fellowship-concert",
+    "s09-2024-11-25-ives-and-schoenberg-at-150",
+    "s09-2025-01-13-visions-and-miracles",
+    "s09-2025-02-17-truth-and-mayhem",
+    "s09-2025-03-17-critical-moments",
+    "s09-2025-05-12-jagden-und-formen"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

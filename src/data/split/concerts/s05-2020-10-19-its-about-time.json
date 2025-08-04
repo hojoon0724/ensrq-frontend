@@ -1,0 +1,50 @@
+{
+  "concertId": "s05-2020-10-19-its-about-time",
+  "title": "It's About Time",
+  "subtitle": "",
+  "description": "We return to our roots in our season-opener presenting a program of solo and duo works by a diverse field of composers performed by Co-Artistic Directors Samantha Bennett, violin and George Nickson, percussion.",
+  "date": "2020-10-19T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s05",
+  "venueId": "virtual",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "kevin-day-the-mind-is-like-water",
+      "musicians": []
+    },
+    {
+      "workId": "tania-leon-de-color",
+      "musicians": []
+    },
+    {
+      "workId": "katherine-balch-responding-to-the-waves",
+      "musicians": []
+    },
+    {
+      "workId": "nico-muhly-its-about-time",
+      "musicians": []
+    },
+    {
+      "workId": "francis-schwartz-solace-on-my-mind-3",
+      "musicians": []
+    },
+    {
+      "workId": "shaun-tilburg-an-hour-of-change",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

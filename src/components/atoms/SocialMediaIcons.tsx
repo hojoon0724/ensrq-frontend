@@ -9,7 +9,7 @@ const platformIcons: Record<string, string> = {
     "M51.6,12.8c-3.5-2.2-5.9-5.8-6.7-10-.2-.9-.3-1.8-.3-2.8h-11v44.1c-.2,4.9-4.3,8.9-9.2,8.9s-3-.4-4.3-1.1c-2.9-1.5-5-4.6-5-8.2,0-5.1,4.1-9.2,9.2-9.2s1.9.2,2.7.4v-11.2c-.9-.1-1.8-.2-2.7-.2-11.2,0-20.3,9.1-20.3,20.2s3.4,12.9,8.6,16.6c3.3,2.3,7.3,3.7,11.6,3.7,11.2,0,20.2-9.1,20.2-20.2v-22.4c4.3,3.1,9.6,4.9,15.3,4.9v-11c-3.1,0-5.9-.9-8.3-2.5Z",
 };
 
-export default function SocialMediaIcons({
+export function SocialMediaIcons({
   platform,
   classname = "",
   color = "currentColor",

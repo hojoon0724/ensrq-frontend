@@ -1,0 +1,46 @@
+{
+  "concertId": "s01-2017-01-30-glass",
+  "title": "Glass",
+  "subtitle": "",
+  "description": "An intimate performance in the gallery space among glass artwork by Kathleen Mulcahy and Ron Desmett, part of Sarasota's Art Glass Weekend.",
+  "date": "2017-01-30T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s01",
+  "venueId": "alfstad-contemporary",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "kaija-saariaho-mirrors",
+      "musicians": []
+    },
+    {
+      "workId": "philip-glass-string-quartet-2",
+      "musicians": []
+    },
+    {
+      "workId": "jacob-druchman-reflections-on-the-nature-of-water",
+      "musicians": []
+    },
+    {
+      "workId": "isang-yun-together",
+      "musicians": []
+    },
+    {
+      "workId": "andrew-norman-light-screens",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

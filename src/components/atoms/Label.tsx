@@ -6,7 +6,7 @@ export interface LabelProps extends React.LabelHTMLAttributes<HTMLLabelElement> 
   children: React.ReactNode;
 }
 
-const Label: React.FC<LabelProps> = ({ variant = "default", size = "md", children, className = "", ...props }) => {
+export function Label({ variant = "default", size = "md", children, className = "", ...props }: LabelProps): React.ReactNode {
   const baseClasses = "font-medium";
 
   const variantClasses = {
@@ -28,4 +28,3 @@ const Label: React.FC<LabelProps> = ({ variant = "default", size = "md", childre
   );
 };
 
-export default Label;

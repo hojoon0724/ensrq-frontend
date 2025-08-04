@@ -1,0 +1,38 @@
+{
+  "concertId": "s02-2018-01-29-deep-red",
+  "title": "Deep Red",
+  "subtitle": "",
+  "description": "Luciano Berio's Sequenzas cycle kicks off with Sequenza VIII for violin. Features composer Bright Sheng conducting his dreamscape marimba concerto.",
+  "date": "2018-01-29T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s02",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "luciano-berio-sequenza-viii",
+      "musicians": []
+    },
+    {
+      "workId": "aaron-jay-kernis-perpetual-chaconne",
+      "musicians": []
+    },
+    {
+      "workId": "bright-sheng-deep-red",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

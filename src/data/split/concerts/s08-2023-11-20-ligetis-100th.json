@@ -1,0 +1,70 @@
+{
+  "concertId": "s08-2023-11-20-ligetis-100th",
+  "title": "Ligeti's 100th",
+  "subtitle": "Featuring Han Chen, piano",
+  "description": "",
+  "date": "2023-11-20T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s08",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "vivian-fung-white-on-black",
+      "musicians": []
+    },
+    {
+      "workId": "gyorgy-ligeti-etude-no-15-white-on-white",
+      "musicians": []
+    },
+    {
+      "workId": "tom-morrison-no-way-out-but-through",
+      "musicians": []
+    },
+    {
+      "workId": "gyorgy-ligeti-etude-no-4-fanfares",
+      "musicians": []
+    },
+    {
+      "workId": "nina-c-young-it-is-within-you-that-the-ghosts-acquire-voices",
+      "musicians": []
+    },
+    {
+      "workId": "gyorgy-ligeti-etude-no-6-automne-a-varsovie",
+      "musicians": []
+    },
+    {
+      "workId": "stacy-garrop-slipstream",
+      "musicians": []
+    },
+    {
+      "workId": "stacy-garrop-the-solitude-of-stars",
+      "musicians": []
+    },
+    {
+      "workId": "gyorgy-ligeti-cello-sonata",
+      "musicians": []
+    },
+    {
+      "workId": "viet-cuong-wax-and-wire",
+      "musicians": []
+    },
+    {
+      "workId": "gyorgy-ligeti-horn-trio",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

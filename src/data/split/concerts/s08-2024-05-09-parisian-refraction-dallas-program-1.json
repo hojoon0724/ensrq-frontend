@@ -1,0 +1,30 @@
+{
+  "concertId": "s08-2024-05-09-parisian-refraction-dallas-program-1",
+  "title": "Parisian Refraction - Dallas: Program #1",
+  "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+  "description": "Conor Hanick: Solo Piano Recital",
+  "date": "2024-05-09T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s08",
+  "venueId": "southern-methodist-university",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "-book-of-sounds",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

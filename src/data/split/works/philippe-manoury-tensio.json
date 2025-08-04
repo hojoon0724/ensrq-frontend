@@ -1,0 +1,26 @@
+{
+  "workId": "philippe-manoury-tensio",
+  "composerId": "philippe-manoury",
+  "title": "Tensio",
+  "year": "2010",
+  "duration": "37'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "live-electronics",
+      "count": 1
+    }
+  ]
+}

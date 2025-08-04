@@ -1,0 +1,22 @@
+{
+  "workId": "kamala-sankaram-kivalina",
+  "composerId": "kamala-sankaram",
+  "title": "Kivalina",
+  "year": "",
+  "duration": "",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "mezzo-soprano-voice",
+      "count": 1
+    },
+    {
+      "instrument": "strings",
+      "count": 1
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    }
+  ]
+}

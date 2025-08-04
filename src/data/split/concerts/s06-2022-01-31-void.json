@@ -1,0 +1,31 @@
+{
+  "concertId": "s06-2022-01-31-void",
+  "title": "void",
+  "subtitle": "",
+  "description": "A co-commission from Atlanta's ensemble vim and enSRQ, New Renaissance Artist Elizabeth A. Baker's evening length work, void, combines the power of visual projection, electronic processing and acoustic performance in an experience that should not be missed. This is an intrepid, dual work, consisting of modular performances for each individual ensemble which then receives a unique performance for both groups, together.",
+  "date": "2022-01-31T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s06",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "Sarasota County Tourist Development Tax revenues, Susan Robinson",
+  "program": [
+    {
+      "workId": "elizabeth-a-baker-void-for-violin-cello-percussion-electronics-and-projections-2021",
+      "is_commission": true,
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

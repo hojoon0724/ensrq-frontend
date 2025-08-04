@@ -1,0 +1,44 @@
+{
+  "concertId": "s06-2022-04-18-waves",
+  "title": "Waves",
+  "subtitle": "",
+  "description": "To cap off the return of live audiences and end our 6th season, enSRQ premieres a final co-commission, WAVES, by Sebastian Currier. Based on the eponymous book by Virginia Woolf, this work for soprano, small ensemble and electronics, enters the thoughts of various women and girls, from a young child to an eighty year old woman, ultimately representing just one woman's conscious life, not unfolding over decades, but coexisting within a single day. WAVES is paired with Anna Thorvaldsdottir's Entropic Arrows and firn, the second work of our season exploration of Yaz Lancaster's music.",
+  "date": "2022-04-18T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s06",
+  "venueId": "mildred-sainer-auditorium",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "patrick-harlin-digital-2013-rev-2020",
+      "musicians": []
+    },
+    {
+      "workId": "anna-thorvaldsdottir-entropic-arrows-2019",
+      "musicians": []
+    },
+    {
+      "workId": "yaz-lancaster-firn-2019",
+      "musicians": []
+    },
+    {
+      "workId": "sebastian-currier-waves-2020",
+      "is_premiere": true,
+      "is_commission": true,
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

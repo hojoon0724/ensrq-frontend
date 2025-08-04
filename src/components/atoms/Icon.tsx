@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface IconProps {
   name: string;
   size?: "xs" | "sm" | "md" | "lg" | "xl" | number;
@@ -35,7 +33,7 @@ const iconPaths: Record<string, string> = {
     "M19.321 5.562a5.124 5.124 0 01-.443-.258 6.228 6.228 0 01-1.137-.966c-.849-.849-1.312-1.956-1.312-3.133V.8h-3.099v14.083c0 1.156-.233 2.272-.678 3.233-.437.944-1.069 1.801-1.828 2.484-.759.683-1.644 1.208-2.564 1.522-.941.32-1.942.38-2.903.175a5.384 5.384 0 01-2.267-1.016 5.402 5.402 0 01-1.711-2.077 5.398 5.398 0 01-.384-2.847 5.408 5.408 0 011.016-2.267 5.402 5.402 0 012.077-1.711c.924-.437 1.942-.497 2.903-.175.32.107.627.258.909.443v-3.156a8.704 8.704 0 00-1.137-.076c-1.156 0-2.272.233-3.233.678a8.66 8.66 0 00-2.484 1.828 8.677 8.677 0 00-1.522 2.564 8.704 8.704 0 00-.175 2.903c.107.971.394 1.904.851 2.744a8.66 8.66 0 001.828 2.267 8.677 8.677 0 002.564 1.522c.96.32 1.973.38 2.933.175a8.704 8.704 0 002.744-.851 8.66 8.66 0 002.267-1.828 8.677 8.677 0 001.522-2.564c.32-.96.38-1.973.175-2.933-.076-.465-.203-.918-.384-1.351V9.422a9.215 9.215 0 003.099 1.711V7.854a6.228 6.228 0 01-2.292-2.292z",
 };
 
-const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", className = "" }) => {
+export function Icon({ name, size = "md", color = "currentColor", className = "" }: IconProps): React.ReactNode | null {
   const sizeClasses = {
     xs: "h-3 w-3",
     sm: "h-4 w-4",
@@ -54,12 +52,19 @@ const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", 
     return null;
   }
 
+  // Check if color is a Tailwind class (starts with text- or stroke-)
+  const isTailwindClass = color.startsWith("text-") || color.startsWith("stroke-");
+
+  // If it's a Tailwind class, apply it as className; otherwise use as stroke color
+  const strokeColor = isTailwindClass ? "currentColor" : color;
+  const colorClass = isTailwindClass ? color : "";
+
   return (
     <svg
-      className={`${sizeClass} ${className}`}
+      className={`${sizeClass} ${colorClass} ${className}`}
       style={customSize}
       fill="none"
-      stroke={color}
+      stroke={strokeColor}
       strokeWidth={1.5}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +72,4 @@ const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", 
       <path strokeLinecap="round" strokeLinejoin="round" d={iconPath} />
     </svg>
   );
-};
-
-export default Icon;
+}

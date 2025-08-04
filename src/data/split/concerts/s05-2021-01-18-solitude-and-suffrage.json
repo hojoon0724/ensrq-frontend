@@ -1,0 +1,42 @@
+{
+  "concertId": "s05-2021-01-18-solitude-and-suffrage",
+  "title": "Solitude and Suffrage",
+  "subtitle": "",
+  "description": "This program for clarinet, strings, mezzo-soprano, and piano celebrates the historic event of womens' suffrage in the United States and a time to reflect on the solitude that the COVID-19 quarantine era has caused for many across the world.",
+  "date": "2021-01-18T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s05",
+  "venueId": "virtual",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "ulysses-kay-fugitive-songs",
+      "musicians": []
+    },
+    {
+      "workId": "katherine-balch-iaspis",
+      "musicians": []
+    },
+    {
+      "workId": "kamala-sankaram-kivalina",
+      "musicians": []
+    },
+    {
+      "workId": "quinn-mason-the-19th-amendment",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

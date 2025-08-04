@@ -38,12 +38,6 @@ const composerSchema = new mongoose.Schema(
   }
 );
 
-// Index for efficient queries
-// composerSchema.index({ composerId: 1 });
-// composerSchema.index({ name: 1 });
-// composerSchema.index({ nationality: 1 });
-// composerSchema.index({ born: 1 });
-
 const Composer = mongoose.models.Composer || mongoose.model("Composer", composerSchema);
 
 export default Composer;

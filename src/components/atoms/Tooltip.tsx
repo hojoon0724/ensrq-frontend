@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 
 export interface TooltipProps {
@@ -10,7 +12,7 @@ export interface TooltipProps {
   className?: string;
 }
 
-const Tooltip: React.FC<TooltipProps> = ({
+export function Tooltip({
   content,
   position = "top",
   variant = "dark",
@@ -18,7 +20,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   delay = 300,
   children,
   className = "",
-}) => {
+}: TooltipProps): React.ReactNode {
   const [isVisible, setIsVisible] = useState(false);
   const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
 
@@ -36,7 +38,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   };
 
   const baseTooltipClasses =
-    "absolute z-50 px-2 py-1 text-sm rounded-md shadow-lg pointer-events-none transition-opacity duration-200";
+    "absolute z-50 px-2 py-1 text-sm rounded-md shadow-lg pointer-events-none transition-opacity duration-200 w-full flex items-center justify-center text-center";
 
   const variantClasses = {
     dark: "bg-gray-900 text-white",
@@ -107,6 +109,4 @@ const Tooltip: React.FC<TooltipProps> = ({
       )}
     </div>
   );
-};
-
-export default Tooltip;
+}

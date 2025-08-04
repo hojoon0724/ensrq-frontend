@@ -1,8 +1,8 @@
 "use client";
 
 import Wordmark from "@/assets/wordmark";
+import { SocialMediaIcons } from "@/components/atoms";
 import Link from "next/link";
-import SocialMediaIcons from "../atoms/SocialMediaIcons";
 
 // This variable controls whether the footer links are active or not.
 const links_active = true;
@@ -27,7 +27,7 @@ const footerNavigationLinks = links_active
     ]
   : [];
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30">
       <div className="footer-content w-full max-w-7xl mx-auto ">

@@ -1,0 +1,34 @@
+{
+  "concertId": "s01-2017-02-26-the-music-of-david-t-little",
+  "title": "The Music of David T. Little",
+  "subtitle": "",
+  "description": "A collaboration with The Hermitage Artist Retreat featuring resident composer David T. Little, who will be in attendance to offer perspective on his inspiration.",
+  "date": "2017-02-26T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s01",
+  "venueId": "the-hermitage-artist-retreat",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "david-t-little-and-the-sky-was-still-there",
+      "musicians": []
+    },
+    {
+      "workId": "david-t-little-haunt-of-last-nightfall",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

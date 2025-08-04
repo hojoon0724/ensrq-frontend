@@ -1,0 +1,45 @@
+{
+  "concertId": "s07-2023-03-13-and-the-hits-keep-coming",
+  "title": "And the Hits Keep Coming",
+  "subtitle": "",
+  "description": "A celebration of percussion, featuring works by Emma O’Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
+  "date": "2023-03-13T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s07",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "Pamela MacFarlane Palmer",
+  "program": [
+    {
+      "workId": "emma-ohalloran-shell-2019",
+      "musicians": []
+    },
+    {
+      "workId": "krists-auznieks-prelude-and-ether-2019",
+      "musicians": []
+    },
+    {
+      "workId": "shaun-tilburg-kagome-kagome-2022",
+      "is_premiere": true,
+      "is_commission": true,
+      "musicians": []
+    },
+    {
+      "workId": "mark-anthony-turnage-new-england-etudes-2022",
+      "is_commission": true,
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

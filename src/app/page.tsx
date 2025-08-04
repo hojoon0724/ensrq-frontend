@@ -1,6 +1,6 @@
-import Image from "@/components/atoms/Image";
-import MatchGame from "@/components/organisms/MatchGame";
-import SectionEmpty from "@/components/sections/SectionEmpty";
+import { Image } from "@/components/atoms/";
+import { MatchGame } from "@/components/organisms/";
+import { SectionEmpty } from "@/components/sections";
 
 export default function Root() {
   return (

@@ -1,0 +1,23 @@
+{
+  "workId": "michael-begay-cloak-of-autumn-2018",
+  "composerId": "michael-begay",
+  "title": "Cloak of Autumn",
+  "year": "2018",
+  "duration": "5'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ],
+  "description": ""
+}

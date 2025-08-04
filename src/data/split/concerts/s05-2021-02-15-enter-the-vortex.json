@@ -1,0 +1,34 @@
+{
+  "concertId": "s05-2021-02-15-enter-the-vortex",
+  "title": "Enter the Vortex",
+  "subtitle": "",
+  "description": "Two of the twentieth century's most enigmatic masters come together for Phillipe Hurel's virtuosic tribute and Gerard Grisey's seminal evening length work in this program that has been rescheduled from our 2019-2020 season.",
+  "date": "2021-02-15T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s05",
+  "venueId": "virtual",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+      "musicians": []
+    },
+    {
+      "workId": "gerard-grisey-vortex-temporum",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

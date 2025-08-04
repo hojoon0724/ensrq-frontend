@@ -1,0 +1,40 @@
+{
+  "concertId": "s03-2019-04-22-working-notes",
+  "title": "Working Notes",
+  "subtitle": "",
+  "description": "enSRQ's second commission receives its World Premiere - a percussion concerto from renowned Portuguese composer Andreia Pinto Correia, inspired by sketchbooks of Joan Miro. Features Brad Williams reprising his iconic performance in Berio's Trombone Sequenza.",
+  "date": "2019-04-22T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s03",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "john-harbison-6th-string-quartet",
+      "musicians": []
+    },
+    {
+      "workId": "luciano-berio-trombone-sequenza",
+      "musicians": []
+    },
+    {
+      "workId": "andreia-pinto-correia-paintings-in-four-movements",
+      "is_premiere": true,
+      "is_commission": true,
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

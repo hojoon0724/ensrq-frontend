@@ -1,4 +1,4 @@
-import SectionEmpty from "@/components/sections/SectionEmpty";
+import { SectionEmpty } from "@/components/sections";
 
 export default function MeshGradientPage() {
   return (

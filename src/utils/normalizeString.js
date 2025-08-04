@@ -1,4 +1,4 @@
-export default function normalizeString(str) {
+export function normalizeString(str) {
   return str
     .toLowerCase()
     .normalize("NFD") // Decompose accented characters

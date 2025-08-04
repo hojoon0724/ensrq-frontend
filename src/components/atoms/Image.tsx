@@ -14,7 +14,7 @@ export interface ImageProps {
   loading?: "lazy" | "eager";
 }
 
-const Image: React.FC<ImageProps> = ({
+export function Image({
   src,
   alt,
   width,
@@ -26,7 +26,7 @@ const Image: React.FC<ImageProps> = ({
   rounded = "none",
   loading = "lazy",
   ...props
-}) => {
+}: ImageProps): React.ReactNode {
   const roundedClasses = {
     none: "",
     sm: "rounded-sm",
@@ -62,5 +62,3 @@ const Image: React.FC<ImageProps> = ({
     />
   );
 };
-
-export default Image;

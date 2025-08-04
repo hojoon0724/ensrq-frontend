@@ -1,0 +1,43 @@
+{
+  "concertId": "s06-2022-02-21-ensrq-chroma-trio",
+  "title": "enSRQ + Chroma Trio",
+  "subtitle": "",
+  "description": "enSRQ's second commission of 21/22 is a team effort with Boston-based Chroma Trio, which shares founding member Samantha Bennett, bringing to life a new work by Tyson J. Davis, String Trio. Art-inspired works for strings flesh out this collaboration, including a duo from enSRQ favorite, Andreia Pinto Correia, Du Yun's string quartet, I Am My Own Achilles Heel and Freya Waley-Cohen's trio, Conjure.",
+  "date": "2022-02-21T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s06",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "Robert and Debbie Hendel",
+  "program": [
+    {
+      "workId": "tyson-gholston-davis-string-trio-2021",
+      "is_commission": true,
+      "musicians": []
+    },
+    {
+      "workId": "andreia-pinto-correia-tres-quadros-de-viera-da-silvafragmentos-multiplos-2009",
+      "musicians": []
+    },
+    {
+      "workId": "freya-waley-cohen-conjure-2019",
+      "musicians": []
+    },
+    {
+      "workId": "du-yun-i-am-my-own-achilles-heel-2019",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

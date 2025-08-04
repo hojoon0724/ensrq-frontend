@@ -1,5 +1,5 @@
-import Image from "@/components/atoms/Image";
-import SectionEmpty from "@/components/sections/SectionEmpty";
+import { Image } from "@/components/atoms";
+import { SectionEmpty } from "@/components/sections";
 import donorsList from "@/data/donors.json";
 
 export default function About() {

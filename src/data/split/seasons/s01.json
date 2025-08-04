@@ -1,0 +1,25 @@
+{
+  "seasonId": "s01",
+  "year": "2016-2017",
+  "concerts": [
+    "s01-2016-10-10-locals",
+    "s01-2016-11-14-gardens-clouds-streams",
+    "s01-2017-01-30-glass",
+    "s01-2017-02-20-glass",
+    "s01-2017-02-26-the-music-of-david-t-little",
+    "s01-2017-04-10-new-york-notes"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

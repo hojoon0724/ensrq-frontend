@@ -1,0 +1,24 @@
+{
+  "seasonId": "s05",
+  "year": "2020-2021",
+  "concerts": [
+    "s05-2020-10-19-its-about-time",
+    "s05-2021-01-18-solitude-and-suffrage",
+    "s05-2021-02-15-enter-the-vortex",
+    "s05-2021-03-15-nightfall",
+    "s05-2021-05-10-sun-colors"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

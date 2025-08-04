@@ -1,4 +1,4 @@
-import SectionBanner from "@/components/sections/SectionBanner";
+import { SectionBanner } from "@/components/sections";
 
 export default function Schedule({}) {
   return (

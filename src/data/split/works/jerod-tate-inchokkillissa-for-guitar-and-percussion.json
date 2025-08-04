@@ -1,0 +1,19 @@
+{
+  "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
+  "composerId": "jerod-tate",
+  "title": "Inchokkillissa",
+  "year": "1994",
+  "duration": "12'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "guitar",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    }
+  ],
+  "description": ""
+}

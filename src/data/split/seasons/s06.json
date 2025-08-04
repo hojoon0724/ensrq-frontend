@@ -1,0 +1,24 @@
+{
+  "seasonId": "s06",
+  "year": "2021-2022",
+  "concerts": [
+    "s06-2021-10-11-dont-look-down",
+    "s06-2022-01-31-void",
+    "s06-2022-02-21-ensrq-chroma-trio",
+    "s06-2022-03-28-vortex-temporum",
+    "s06-2022-04-18-waves"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

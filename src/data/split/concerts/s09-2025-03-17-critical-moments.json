@@ -1,0 +1,46 @@
+{
+  "concertId": "s09-2025-03-17-critical-moments",
+  "title": "Critical Moments",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-03-17T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s09",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "/streaming/s09/2025-03-17-critical-moments",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "kenji-bunch-until-next-time",
+      "musicians": []
+    },
+    {
+      "workId": "george-perle-critical-moments",
+      "musicians": []
+    },
+    {
+      "workId": "paul-mortilla-rota-fortunae",
+      "musicians": []
+    },
+    {
+      "workId": "carolyn-chen-oceans-in-oceans",
+      "musicians": []
+    },
+    {
+      "workId": "marcos-balter-violin-concerto",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

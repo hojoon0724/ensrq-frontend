@@ -1,5 +1,4 @@
-import SectionBanner from "@/components/sections/SectionBanner";
-import SectionEmpty from "@/components/sections/SectionEmpty";
+import { SectionBanner, SectionEmpty } from "@/components/sections";
 
 export default function Watch() {
   return (

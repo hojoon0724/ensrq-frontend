@@ -1,0 +1,46 @@
+{
+  "concertId": "s09-2025-01-13-visions-and-miracles",
+  "title": "Visions and Miracles",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-01-13T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s09",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "/streaming/s09/2025-01-13-visions-and-miracles",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "anna-clyne-rest-these-hands",
+      "musicians": []
+    },
+    {
+      "workId": "chris-theofanidis-visions-and-miracles",
+      "musicians": []
+    },
+    {
+      "workId": "dai-wei-how-the-stars-vanish",
+      "musicians": []
+    },
+    {
+      "workId": "han-lash-how-to-remember-seeds",
+      "musicians": []
+    },
+    {
+      "workId": "gabriela-lena-frank-milagros",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

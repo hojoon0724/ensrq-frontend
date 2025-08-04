@@ -1,0 +1,30 @@
+{
+  "concertId": "s03-2019-01-07-holographic",
+  "title": "Holographic",
+  "subtitle": "Collaboration with New Music New College featuring Daniel Wohl, composer and pianist and Daniel Schwarz, visual artist",
+  "description": "enSRQ teams up with New Music New College. This evening length work for live visual projections and electroacoustic ensemble explores different worlds of improbable combinations of sounds, hidden sonic landscapes both acoustic and electronic.",
+  "date": "2019-01-07T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s03",
+  "venueId": "mildred-sainer-auditorium",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "daniel-wohl-holographic",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

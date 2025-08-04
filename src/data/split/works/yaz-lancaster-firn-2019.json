@@ -1,0 +1,22 @@
+{
+  "workId": "yaz-lancaster-firn-2019",
+  "composerId": "yaz-lancaster",
+  "title": "firn",
+  "year": "2019",
+  "duration": "7'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "concertId": "s04-2020-01-20-fire-light",
+  "title": "Fire & Light",
+  "subtitle": "",
+  "description": "Sparks fly in Fire and Light, featuring composer and violist Jessica Meyer in three of her deeply human works: Delta Sunrise, Tapped into the same vein, and Sagrada Familia. Conor Hanick and Samantha Bennett perform Eric Wubbels' epic and searching 'the children of fire come looking for fire' to set this concert ablaze.",
+  "date": "2020-01-20T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s04",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "jessica-meyer-delta-sunrise",
+      "musicians": []
+    },
+    {
+      "workId": "georg-friedrich-haas-ins-licht",
+      "musicians": []
+    },
+    {
+      "workId": "eric-wubbels-the-children-of-fire-come-looking-for-fire",
+      "musicians": []
+    },
+    {
+      "workId": "jessica-meyer-tapped-into-the-same-vein",
+      "musicians": []
+    },
+    {
+      "workId": "jessica-meyer-sagrada-familia",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

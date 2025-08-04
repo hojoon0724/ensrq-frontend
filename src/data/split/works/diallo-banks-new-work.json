@@ -1,0 +1,14 @@
+{
+  "workId": "diallo-banks-new-work",
+  "composerId": "diallo-banks",
+  "title": "New Work",
+  "year": "2025",
+  "duration": "10'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "TBD",
+      "count": 1
+    }
+  ]
+}

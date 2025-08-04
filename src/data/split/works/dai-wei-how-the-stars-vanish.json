@@ -1,0 +1,26 @@
+{
+  "workId": "dai-wei-how-the-stars-vanish",
+  "composerId": "dai-wei",
+  "title": "How the Stars Vanish",
+  "year": "2021",
+  "duration": "9'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "flute",
+      "count": 1
+    },
+    {
+      "instrument": "clarinet",
+      "count": 1
+    },
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}

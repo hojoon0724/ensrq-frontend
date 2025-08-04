@@ -1,0 +1,14 @@
+{
+  "workId": "shawn-allison-new-work",
+  "composerId": "shawn-allison",
+  "title": "New Work",
+  "year": "2026",
+  "duration": "10'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "TBD",
+      "count": 1
+    }
+  ]
+}

@@ -7,14 +7,14 @@ export interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextArea
   resize?: "none" | "vertical" | "horizontal" | "both";
 }
 
-const Textarea: React.FC<TextareaProps> = ({
+export function Textarea({
   variant = "default",
   inputSize = "md",
   fullWidth = false,
   resize = "vertical",
   className = "",
   ...props
-}) => {
+}: TextareaProps): React.ReactNode {
   const baseClasses =
     "border rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-1 disabled:opacity-50 disabled:cursor-not-allowed";
 
@@ -46,5 +46,3 @@ const Textarea: React.FC<TextareaProps> = ({
     />
   );
 };
-
-export default Textarea;

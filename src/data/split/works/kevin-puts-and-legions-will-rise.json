@@ -1,0 +1,22 @@
+{
+  "workId": "kevin-puts-and-legions-will-rise",
+  "composerId": "kevin-puts",
+  "title": "And Legions Will Rise",
+  "year": "2001",
+  "duration": "17'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "clarinet",
+      "count": 1
+    },
+    {
+      "instrument": "marimba",
+      "count": 1
+    }
+  ]
+}

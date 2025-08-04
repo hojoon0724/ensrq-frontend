@@ -6,13 +6,13 @@ export interface CheckboxProps extends React.InputHTMLAttributes<HTMLInputElemen
   label?: string;
 }
 
-const Checkbox: React.FC<CheckboxProps> = ({
+export function Checkbox({
   variant = "default",
   inputSize = "md",
   label,
   className = "",
   ...props
-}) => {
+}: CheckboxProps): React.ReactNode {
   const baseClasses = "rounded border-gray-300 text-blue-600 focus:ring-blue-500 focus:ring-2 transition-colors";
 
   const variantClasses = {
@@ -46,6 +46,4 @@ const Checkbox: React.FC<CheckboxProps> = ({
   }
 
   return checkbox;
-};
-
-export default Checkbox;
+}

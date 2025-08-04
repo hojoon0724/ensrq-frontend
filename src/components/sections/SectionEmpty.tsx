@@ -1,4 +1,4 @@
-export default function SectionEmpty({
+export function SectionEmpty({
   children,
   themeColor = "gray",
   className = "flex flex-col justify-center items-center w-full h-full",

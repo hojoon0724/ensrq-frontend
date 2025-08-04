@@ -1,0 +1,26 @@
+{
+  "workId": "chris-stark-stars-in-dead-reflection",
+  "composerId": "chris-stark",
+  "title": "Stars in Dead Reflection",
+  "year": "2010",
+  "duration": "9'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "clarinet",
+      "count": 1
+    },
+    {
+      "instrument": "piano",
+      "count": 1
+    },
+    {
+      "instrument": "bass-voice",
+      "count": 1
+    },
+    {
+      "instrument": "percussion",
+      "count": 1
+    }
+  ]
+}

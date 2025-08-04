@@ -1,0 +1,30 @@
+{
+  "concertId": "s02-2017-10-19-the-space-around-you",
+  "title": "The Space Around You",
+  "subtitle": "",
+  "description": "Part of Ringling International Arts Festival. A macro view of our surroundings, interacting with James Turrell's Joseph's Coat, mirroring the atmosphere and changing light of the sky.",
+  "date": "2017-10-19T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s02",
+  "venueId": "the-ringling-museum",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "-",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

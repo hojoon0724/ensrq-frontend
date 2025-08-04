@@ -1,0 +1,46 @@
+{
+  "concertId": "s01-2016-10-10-locals",
+  "title": "Locals",
+  "subtitle": "Sarasota composers. Sarasota musicians. Sarasota themed works.",
+  "description": "A concert featuring Sarasota composers, musicians, and themed works.",
+  "date": "2016-10-10T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s01",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "roger-zare-lunation-1113",
+      "musicians": []
+    },
+    {
+      "workId": "gil-katz-anhinga-and-wellenclowned",
+      "musicians": []
+    },
+    {
+      "workId": "tom-johnson-failing",
+      "musicians": []
+    },
+    {
+      "workId": "nicole-gutman-sandpipers",
+      "musicians": []
+    },
+    {
+      "workId": "francis-schwartz-songs-of-loneliness",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

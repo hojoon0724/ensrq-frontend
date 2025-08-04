@@ -1,0 +1,26 @@
+{
+  "seasonId": "s02",
+  "year": "2017-2018",
+  "concerts": [
+    "s02-2017-09-18-lost-landscapes",
+    "s02-2017-10-19-the-space-around-you",
+    "s02-2017-10-21-the-magical-world-of-berios-sequenzas",
+    "s02-2017-12-11-lou-harrison-at-100",
+    "s02-2018-01-29-deep-red",
+    "s02-2018-03-26-voicehammer",
+    "s02-2018-04-23-larger-forces"
+  ],
+  "ticketsLinks": {
+    "seasonLive": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    },
+    "seasonStreaming": {
+      "price": 0,
+      "url": "https://www.ensrq.org"
+    }
+  },
+  "youTubeUrl": "",
+  "seasonStreamingPagePassword": "",
+  "seasonStreamingPageUrl": ""
+}

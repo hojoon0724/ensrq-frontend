@@ -1,0 +1,22 @@
+{
+  "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
+  "composerId": "vivian-fung",
+  "title": "String Quartet No. 4: \"Insects and Machines\"",
+  "year": "2019",
+  "duration": "12'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 2
+    },
+    {
+      "instrument": "viola",
+      "count": 1
+    },
+    {
+      "instrument": "cello",
+      "count": 1
+    }
+  ]
+}

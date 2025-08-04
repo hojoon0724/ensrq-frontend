@@ -1,0 +1,46 @@
+{
+  "concertId": "s10-2025-12-08-songbird",
+  "title": "Songbird",
+  "subtitle": "",
+  "description": "",
+  "date": "2025-12-08T00:00:00.000Z",
+  "time": "7:30pm",
+  "seasonId": "s10",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 30,
+      "url": "www.ticketspice.com/ensrq/LIVE-TICKETS-PURCHASE-URL"
+    },
+    "singleStreaming": {
+      "price": 30,
+      "url": "www.ticketspice.com/ensrq/STREAMING-TICKETS-PURCHASE-URL"
+    }
+  },
+  "streamingPagePassword": "password",
+  "streamingPageUrl": "/streaming/s10/2025-12-08-songbird",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
+      "musicians": []
+    },
+    {
+      "workId": "juri-seo-songbird",
+      "musicians": []
+    },
+    {
+      "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
+      "musicians": []
+    },
+    {
+      "workId": "diallo-banks-new-work",
+      "musicians": []
+    },
+    {
+      "workId": "michael-ippolito-string-quartet-no-3-songlines",
+      "musicians": []
+    }
+  ],
+  "status": "upcoming"
+}

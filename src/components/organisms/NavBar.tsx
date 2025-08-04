@@ -52,7 +52,7 @@ const navItems = links_active
     ]
   : [];
 
-export default function NavBar({ className = "" }: Readonly<{ className?: string }>) {
+export function NavBar({ className = "" }: Readonly<{ className?: string }>) {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -103,14 +103,15 @@ export default function NavBar({ className = "" }: Readonly<{ className?: string
                     }`}
                   >
                     {item.dropdownItems.map((dropdownItem) => (
-                      <li key={dropdownItem.name} className="text-right flex justify-end">
-                        <Link
+                      <Link
+                      key={dropdownItem.name}
                           href={dropdownItem.url}
                           className="block px-half hover:bg-gray-100 dark:hover:bg-water-500 text-nowrap"
                         >
+                      <li className="text-right flex justify-end">
                           {dropdownItem.name}
-                        </Link>
                       </li>
+                        </Link>
                     ))}
                   </ul>
                 </li>

@@ -19,6 +19,16 @@ export default {
     { pattern: /^-(p|m)(x|y|l|r|t|b)-(quarter|half|s|double|triple)$/ },
     // Include negative space-x and space-y classes
     { pattern: /^-space-(x|y)-(quarter|half|s|double|triple)$/ },
+    // Include color classes for specific shades
+    {
+      pattern:
+        /^(bg|text|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|sand|water)-(50|100|200|300|400|500|600|700|800|900|950)$/,
+    },
+    // Include border-0 for ghost buttons
+    "border-0",
+    // Include text-white for filled buttons
+    "text-white",
+    "text-black",
   ],
   theme: {
     extend: {
@@ -38,6 +48,19 @@ export default {
         triple: "var(--standard-space-triple)",
       },
       colors: {
+        blue: {
+          950: "var(--sky-950)",
+          900: "var(--sky-900)",
+          800: "var(--sky-800)",
+          700: "var(--sky-700)",
+          600: "var(--sky-600)",
+          500: "var(--sky-500)",
+          400: "var(--sky-400)",
+          300: "var(--sky-300)",
+          200: "var(--sky-200)",
+          100: "var(--sky-100)",
+          50: "var(--sky-50)",
+        },
         sand: {
           950: "var(--sand-950)",
           900: "var(--sand-900)",

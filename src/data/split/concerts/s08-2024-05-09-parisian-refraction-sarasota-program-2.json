@@ -1,0 +1,38 @@
+{
+  "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-2",
+  "title": "Parisian Refraction - Sarasota: Program #2",
+  "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+  "description": "Spotlight on Unsuk Chin",
+  "date": "2024-05-09T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s08",
+  "venueId": "the-ringling-museum",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "-acrostic-wordplay",
+      "musicians": []
+    },
+    {
+      "workId": "-graal-theatre",
+      "musicians": []
+    },
+    {
+      "workId": "-double-concerto",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

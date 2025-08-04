@@ -1,0 +1,40 @@
+{
+  "concertId": "s06-2021-10-11-dont-look-down",
+  "title": "Don't Look Down",
+  "subtitle": "(featuring Conor Hanick)",
+  "description": "Yaz Lancaster's Sequoia opens our season with ethereal, reflective sounds that remind us of the importance and intimacy of being together in the concert hall. Conor Hanick returns with the second ever performance of Chris Cerrone's poignant work, Don't Look Down, for percussion quartet and piano, named one of The New York Times' Best Pieces of 2020. Two years in the making, Max Grafe's Shadow Theater, composed specifically for George, Samantha and Conor, will finally receive its premiere.",
+  "date": "2021-10-11T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s06",
+  "venueId": "first-congregational-church",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "The Gardener Foundation",
+  "program": [
+    {
+      "workId": "yaz-lancaster-sequoia-for-percussion-2019",
+      "musicians": []
+    },
+    {
+      "workId": "max-grafe-shadow-theater-for-violin-piano-and-percussion-2020",
+      "is_premiere": true,
+      "is_commission": true,
+      "musicians": []
+    },
+    {
+      "workId": "christopher-cerrone-dont-look-down-for-prepared-piano-and-percussion-quartet-2020",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

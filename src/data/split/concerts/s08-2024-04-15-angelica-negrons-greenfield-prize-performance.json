@@ -1,0 +1,30 @@
+{
+  "concertId": "s08-2024-04-15-angelica-negrons-greenfield-prize-performance",
+  "title": "Angélica Negrón's Greenfield Prize Performance",
+  "subtitle": "",
+  "description": "",
+  "date": "2024-04-15T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s08",
+  "venueId": "the-hermitage-artist-retreat",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "angelica-negron-azul-naranja-salado",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

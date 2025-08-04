@@ -13,7 +13,8 @@ const venueSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    address: {
+
+    street: {
       type: String,
       trim: true,
     },
@@ -29,26 +30,12 @@ const venueSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
-    description: {
-      type: String,
-      trim: true,
-    },
-    website: {
-      type: String,
-      trim: true,
-    },
   },
   {
     timestamps: true,
     collection: "venues",
   }
 );
-
-// Index for efficient queries
-// venueSchema.index({ venueId: 1 });
-// venueSchema.index({ name: 1 });
-// venueSchema.index({ city: 1, state: 1 });
-// venueSchema.index({ "coordinates.latitude": 1, "coordinates.longitude": 1 });
 
 const Venue = mongoose.models.Venue || mongoose.model("Venue", venueSchema);
 

@@ -1,0 +1,42 @@
+{
+  "concertId": "s04-2019-10-20-peculiar-dreams",
+  "title": "Peculiar Dreams",
+  "subtitle": "",
+  "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+  "date": "2019-10-20T00:00:00.000Z",
+  "time": "",
+  "seasonId": "s04",
+  "venueId": "studio-620",
+  "ticketsLinks": {
+    "singleLive": {
+      "price": 0,
+      "url": ""
+    },
+    "singleStreaming": {
+      "price": 0,
+      "url": ""
+    }
+  },
+  "streamingPagePassword": "",
+  "streamingPageUrl": "",
+  "sponsors": "",
+  "program": [
+    {
+      "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
+      "musicians": []
+    },
+    {
+      "workId": "andrew-norman-an-index-of-peculiar-strokes",
+      "musicians": []
+    },
+    {
+      "workId": "elizabeth-a-baker-cosmic-dreams",
+      "musicians": []
+    },
+    {
+      "workId": "krzysztof-penderecki-sextet",
+      "musicians": []
+    }
+  ],
+  "status": "completed"
+}

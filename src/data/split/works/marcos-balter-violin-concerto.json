@@ -1,0 +1,18 @@
+{
+  "workId": "marcos-balter-violin-concerto",
+  "composerId": "marcos-balter",
+  "title": "Violin Concerto",
+  "year": "2016",
+  "duration": "17'",
+  "movements": [],
+  "instrumentation": [
+    {
+      "instrument": "violin",
+      "count": 1
+    },
+    {
+      "instrument": "ensemble",
+      "count": 1
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 "use client";
 
+import { Button, Image } from "@/components/atoms";
+import { SectionEmpty } from "@/components/sections";
 import { useEffect, useRef, useState } from "react";
-import { Button, Image } from "../atoms";
-import SectionEmpty from "../sections/SectionEmpty";
 
 const PHOTOS = [
   "betsy-traba.webp",
@@ -47,7 +47,7 @@ const getInitialCards = (): Card[] => {
   return cards;
 };
 
-export default function MatchGame() {
+export function MatchGame() {
   const [cards, setCards] = useState<Card[] | null>(null);
   const [flipped, setFlipped] = useState<number[]>([]);
   const [matchedIds, setMatchedIds] = useState<Set<number>>(new Set());
@@ -221,7 +221,7 @@ export default function MatchGame() {
           <div className="absolute inset-0 flex flex-col items-center justify-center z-20 animate-fade-in">
             <div className="text-card bg-white/80 flex flex-col items-center p-double rounded-lg shadow-lg backdrop-blur-md">
               <div className="text-xl font-semibold mb-4">🎉 You matched all the cards! 🎉</div>
-              <Button onClick={handleRestart} size="lg" variant="primary" disabled={fading}>
+              <Button onClick={handleRestart} size="lg" variant="filled" disabled={fading}>
                 Play Again
               </Button>
             </div>
