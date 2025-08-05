@@ -6,19 +6,19 @@ export default function About() {
   return (
     <div>
       <SectionEmpty themeColor="gray" className="m-double flex flex-col justify-center items-center gap-s">
-        <a className="anchor" id="mission" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="mission"></a>
         <Image src="/graphics/ensrq-logo-for-bright.png" alt="ensrq-logo" width={800} height={300} />
-        <div className="about-text flex flex-col gap-double text-pretty items-center">
+        <div className="about-text flex flex-col gap-double text-pretty items-center max-w-full">
           <h1 className="museo-slab w-full font-thin mb-triple text-center">
             Human, Inclusive, Excellence, Inspiring, and Current
           </h1>
 
-          <p className="text-pretty text-justify w-[80ch]">
+          <p className="text-pretty text-justify w-[80ch] max-w-full">
             ensembleNEWSRQ strives to manifest the creativity of the current generation and inspire audiences to
             participate in musical culture in a profound way, through high-level curated concert experiences that
             sustain and transform the relevance of contemporary classical music.
           </p>
-          <p className="text-pretty text-justify w-[80ch]">
+          <p className="text-pretty text-justify w-[80ch] max-w-full">
             Founded in 2015 by violinist Samantha Bennett and percussionist George Nickson, ensembleNEWSRQ (enSRQ) is a
             versatile chamber music ensemble in Sarasota, FL, dedicated to playing and advocating for the music of
             contemporary composers. Through thoughtfully curated and innovative programs, enSRQ demonstrates how
@@ -30,49 +30,49 @@ export default function About() {
       </SectionEmpty>
 
       <SectionEmpty themeColor="sky">
-        <a className="anchor" id="artistic-directors" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="artistic-directors"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Artistic Directors</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="sand">
-        <a className="anchor" id="ensrq-artists" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="ensrq-artists"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">enSRQ Artists</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="water">
-        <a className="anchor" id="guest-artists" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="guest-artists"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Guest Artists</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="sky">
-        <a className="anchor" id="contact" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="contact"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Contact Us</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="sand">
-        <a className="anchor" id="board-of-directors" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="board-of-directors"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Board of Directors</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="water">
-        <a className="anchor" id="diversity-policy" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="diversity-policy"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Diversity Policy</h1>
         </div>
       </SectionEmpty>
 
       <SectionEmpty themeColor="sky" className="m-double">
-        <a className="anchor" id="our-donors" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="our-donors"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Our Donors</h1>
           <div className="donors-container flex flex-col gap-triple">
@@ -95,7 +95,7 @@ export default function About() {
       </SectionEmpty>
 
       <SectionEmpty themeColor="sand">
-        <a className="anchor" id="donate" />
+        <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="donate"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Donate</h1>
         </div>
