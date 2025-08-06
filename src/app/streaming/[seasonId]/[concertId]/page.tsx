@@ -1,31 +1,33 @@
+import { notFound } from "next/navigation";
 import { Icon } from "@/components/atoms";
 import { VideoWithCustomThumbnail } from "@/components/organisms";
+
+export async function generateStaticParams() {
+  // Load your JSON data
+  const allConcerts = await import("@/data/serve/concerts.json");
+  return allConcerts.default.map(({ seasonId, concertId }: { seasonId: string; concertId: string }) => ({
+    seasonId,
+    concertId,
+  }));
+}
 
 export default async function WatchConcertPage({
   params,
 }: {
-  params: Promise<{ seasonId: string; concertId: string }>;
+  params: { seasonId: string; concertId: string };
 }) {
-  const { seasonId, concertId } = await params;
+  const { seasonId, concertId } = params;
 
-  let concertModule = null;
   let concertData = null;
 
   try {
-    // Dynamically import the concert data using both seasonId and concertId
-    concertModule = await import(`@/data/split/concerts/${seasonId}-${concertId}.json`);
+    const concertModule = await import(
+      `@/data/split/concerts/${seasonId}-${concertId}.json`
+    );
     concertData = concertModule.default;
   } catch (error) {
     console.error(`Concert data not found for ${concertId}:`, error);
-  }
-
-  if (!concertData) {
-    return (
-      <div>
-        <h1 className="text-4xl font-bold mb-4">Concert Not Found</h1>
-        <p className="mb-4">The concert &ldquo;{concertId}&rdquo; could not be found.</p>
-      </div>
-    );
+    notFound(); // Better UX than rendering manually
   }
 
   return (
@@ -33,13 +35,16 @@ export default async function WatchConcertPage({
       <h1 className="text-4xl font-bold mb-4">{concertData.title}</h1>
       <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
         <VideoWithCustomThumbnail
-          thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.jpg` || ""}
+          thumbnail={
+            `/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.jpg` || ""
+          }
           icon={<Icon name="play" />}
           youtubeUrl={concertData.youTubeUrl || ""}
         />
       </div>
-      <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(concertData, null, 2)}</pre>
-      {/* Add more content related to the specific concert here */}
+      <pre className="bg-gray-100 p-4 rounded overflow-auto">
+        {JSON.stringify(concertData, null, 2)}
+      </pre>
     </div>
   );
 }

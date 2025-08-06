@@ -7,6 +7,7 @@ export { Icon } from "./Icon";
 export { Image } from "./Image";
 export { InputField } from "./InputField";
 export { Label } from "./Label";
+export { MovingGradientText } from "./MovingGradientText";
 export { RadioButton } from "./RadioButton";
 export { SelectDropdown } from "./SelectDropdown";
 export { SocialMediaIcons } from "./SocialMediaIcons";
