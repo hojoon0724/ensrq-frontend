@@ -1,21 +1,32 @@
 #!/usr/bin/env node
 
 /**
- * ENSRQ Download Collection Script
- *
- * This script downloads data from a specific MongoDB collection and saves it as JSON files.
+ * ENSRQ Download Collection// Collection mapping
+const COLLECTION_MAPPING = {
+  composers: { model: "Composer", file: "composers.json", icon: "📚" },
+  concerts: { model: "Concert", file: "concerts.json", icon: "🎭" },
+  donors: { model: "Donor", file: "donors.json", icon: "💝" },
+  donorTiers: { model: "DonorTier", file: "donor-tiers.json", icon: "🏆" },
+  instruments: { model: "Instrument", file: "instruments.json", icon: "🎺" },
+  musicians: { model: "Musician", file: "musicians.json", icon: "🎵" },
+  seasons: { model: "Season", file: "seasons.json", icon: "📅" },
+  venues: { model: "Venue", file: "venues.json", icon: "🏛️" },
+  works: { model: "Work", file: "works.json", icon: "🎼" },
+};* This script downloads data from a specific MongoDB collection and saves it as JSON files.
  * It creates a timestamped folder in /downloaded/ and saves individual collection data
  * as JSON files, excluding MongoDB metadata fields.
  *
  * Usage:
  *   node scripts/download-collection.js <collectionName>
  *   node scripts/download-collection.js composers
- *   node scripts/download-collection.js venues
- *   node scripts/download-collection.js musicians
- *   node scripts/download-collection.js works
  *   node scripts/download-collection.js concerts
- *   node scripts/download-collection.js seasons
+ *   node scripts/download-collection.js donors
+ *   node scripts/download-collection.js donorTiers
  *   node scripts/download-collection.js instruments
+ *   node scripts/download-collection.js musicians
+ *   node scripts/download-collection.js seasons
+ *   node scripts/download-collection.js venues
+ *   node scripts/download-collection.js works
  *   node scripts/download-collection.js all
  *
  * Requirements:
@@ -41,9 +52,11 @@ console.log("MONGODB_URI:", process.env.MONGODB_URI ? "✅ Loaded" : "❌ Missin
 // Import MongoDB connection and models after environment setup
 async function initializeModules() {
   const { default: dbConnect } = await import("../src/lib/mongodb.js");
-  const { Composer, Concert, Musician, Season, Venue, Work, Instrument } = await import("../src/models/index.js");
+  const { Composer, Concert, Donor, DonorTier, Musician, Season, Venue, Work, Instrument } = await import(
+    "../src/models/index.js"
+  );
 
-  return { dbConnect, Composer, Concert, Musician, Season, Venue, Work, Instrument };
+  return { dbConnect, Composer, Concert, Donor, DonorTier, Musician, Season, Venue, Work, Instrument };
 }
 
 // Downloaded folder path
@@ -52,12 +65,14 @@ const DOWNLOADED_DIR = path.join(__dirname, "../src/data/download");
 // Collection mapping
 const COLLECTION_MAPPING = {
   composers: { model: "Composer", file: "composers.json", icon: "📚" },
-  venues: { model: "Venue", file: "venues.json", icon: "🏛️" },
-  musicians: { model: "Musician", file: "musicians.json", icon: "🎵" },
-  works: { model: "Work", file: "works.json", icon: "🎼" },
   concerts: { model: "Concert", file: "concerts.json", icon: "🎭" },
-  seasons: { model: "Season", file: "seasons.json", icon: "📅" },
+  donors: { model: "Donor", file: "donors.json", icon: "💝" },
+  donorTiers: { model: "DonorTier", file: "donor-tiers.json", icon: "🏆" },
   instruments: { model: "Instrument", file: "instruments.json", icon: "🎺" },
+  musicians: { model: "Musician", file: "musicians.json", icon: "🎵" },
+  seasons: { model: "Season", file: "seasons.json", icon: "📅" },
+  venues: { model: "Venue", file: "venues.json", icon: "🏛️" },
+  works: { model: "Work", file: "works.json", icon: "🎼" },
 };
 
 // Fields to exclude from the exported data (MongoDB metadata)
@@ -234,7 +249,8 @@ async function main() {
 
   try {
     // Initialize modules
-    const { dbConnect, Composer, Concert, Musician, Season, Venue, Work, Instrument } = await initializeModules();
+    const { dbConnect, Composer, Concert, Donor, DonorTier, Musician, Season, Venue, Work, Instrument } =
+      await initializeModules();
 
     // Connect to MongoDB
     await dbConnect();
@@ -247,11 +263,13 @@ async function main() {
     const models = {
       Composer,
       Concert,
+      Donor,
+      DonorTier,
+      Instrument,
       Musician,
       Season,
       Venue,
       Work,
-      Instrument,
     };
 
     let results;

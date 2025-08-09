@@ -1,5 +1,7 @@
 export * from "./composer";
 export * from "./concert";
+export * from "./donor";
+export * from "./donor-tier";
 export * from "./instrument";
 export * from "./musician";
 export * from "./season";

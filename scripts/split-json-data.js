@@ -9,6 +9,8 @@ const __dirname = path.dirname(__filename);
 const fileConfigs = {
   "composers.json": "composerId",
   "concerts.json": "concertId",
+  "donors.json": "donorId",
+  "donor-tiers.json": "donorTierId",
   "instruments.json": "instrumentId",
   "musicians.json": "musicianId",
   "seasons.json": "seasonId",

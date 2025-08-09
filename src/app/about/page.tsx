@@ -1,4 +1,5 @@
 import { Image } from "@/components/atoms";
+import { Donors } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
 import donorsList from "@/data/donors.json";
 
@@ -75,22 +76,7 @@ export default function About() {
         <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="our-donors"></a>
         <div className="flex flex-col min-h-[20svh]">
           <h1 className="museo-slab font-thin mb-triple">Our Donors</h1>
-          <div className="donors-container flex flex-col gap-triple">
-            {donorsList.map((tiers, index) => (
-              <div key={index} className="tiers-item flex flex-col gap-s">
-                <h2 className="museo-slab font-medium">{tiers.amount}</h2>
-                <ul
-                  className={`${index < 3 ? "columns-1 md:columns-2 leading-none text-lg" : "columns-2 md:columns-3 lg:columns-4 text-sm"}`}
-                >
-                  {tiers.donors.map((donor, donorIndex) => (
-                    <li className={`pl-4 [text-indent:-1rem] ${index < 3 ? "mb-half" : ""}`} key={donorIndex}>
-                      {donor}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+          <Donors />
         </div>
       </SectionEmpty>
 

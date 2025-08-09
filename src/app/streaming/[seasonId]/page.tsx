@@ -1,4 +1,4 @@
-import { formatSeasonLabel } from '../../../utils/textFormat';
+import { formatSeasonLabel } from "../../../utils/textFormat";
 export default async function WatchSeasonPage({ params }: { params: Promise<{ seasonId: string }> }) {
   const { seasonId } = await params;
 

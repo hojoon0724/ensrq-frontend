@@ -1,3 +1,4 @@
+export { Donors } from "./Donors";
 export { Footer } from "./Footer";
 export { MatchGame } from "./MatchGame";
 export { MeshGradientCanvas } from "./MeshGradientCanvas";
