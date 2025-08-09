@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import { Logo, WordmarkVertical } from "@/assets";
-import seasonData from "@/data/seasons.json";
-import { formatSeasonLabel } from "@/utils/textFormat";
+import seasonData from "@/data/live-data.json";
+import concertData from "@/data/serve/concerts.json";
+import { removeSeasonNumberFromConcertId } from "@/utils";
 import { Icon } from "../atoms/Icon";
 
 const links_active = true;
@@ -29,33 +30,48 @@ const navItems = links_active
         is_cta: false,
       },
       {
-        name: "Schedule",
-        url: `/schedule/${Object.keys(seasonData)[0]}`,
+        name: "Season 10 (25-26)",
+        url: `/season/${seasonData[0].seasonId}`,
         dropdown: true,
-        dropdownItems: Object.keys(seasonData).map((season) => ({
-          name: formatSeasonLabel(season),
-          url: `/schedule/${season}`,
+        dropdownItems: seasonData[0].concerts.map((concertId) => ({
+          name: concertData.filter((concert) => concert.concertId === concertId)[0].title,
+          url: `/season/${seasonData[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
         })),
         is_cta: false,
       },
+
+      // {
+      //   name: "Past Seasons",
+      //   url: `/season/${seasonData[0].seasonId}`,
+      //   dropdown: true,
+      //   dropdownItems: seasonData.slice(1).map((season) => ({
+      //     name: formatSeasonLabel(season.seasonId),
+      //     url: `/season/${season.seasonId}`,
+      //   })),
+      //   is_cta: false,
+      // },
+
       {
-        name: "Watch",
-        url: "/streaming",
-        dropdown: true,
-        dropdownItems: [
-          { name: "Season 10", url: "/streaming/s10" },
-          { name: "Season 9", url: "/streaming/s09" },
-          { name: "Season 8", url: "/streaming/s08" },
-          { name: "Season 7", url: "/streaming/s07" },
-          { name: "Season 6", url: "/streaming/s06" },
-        ],
+        name: "Streaming",
+        url: "/streaming/s10",
+        dropdown: false,
+        // dropdownItems: [
+        //   { name: "Season 10", url: "/streaming/s10" },
+        //   { name: "Season 9", url: "/streaming/s09" },
+        //   { name: "Season 8", url: "/streaming/s08" },
+        //   { name: "Season 7", url: "/streaming/s07" },
+        //   { name: "Season 6", url: "/streaming/s06" },
+        // ],
         is_cta: false,
       },
       { name: "Tickets", url: "/tickets", is_cta: true },
     ]
   : [];
 
-const SideNavBar: React.FC = () => {
+console.log(Object.entries(seasonData)[0][0]);
+
+export function SideNavBar() {
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
 
@@ -64,6 +80,19 @@ const SideNavBar: React.FC = () => {
 
   const toggleDropdown = (itemName: string) => {
     setOpenDropdown((prev) => (prev === itemName ? null : itemName));
+  };
+
+  const handleMouseEnter = (idx: number) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setActiveDropdown(idx);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null);
+    }, 300); // 300ms delay before hiding
   };
 
   return (
@@ -152,25 +181,71 @@ const SideNavBar: React.FC = () => {
 
           {/* Main Menu (outside sidebar, to the right) */}
           {isNavOpen && (
-            <nav id="sr-nav" className="fixed top-0 left-20 h-screen w-64 bg-white z-30">
-              <ul className="h-full py-8">
-                {navItems.map((item, idx) => (
-                  <li
-                    key={item.name}
-                    className="relative"
-                    onMouseEnter={() => setActiveDropdown(idx)}
-                    onMouseLeave={() => setActiveDropdown(null)}
-                  >
-                    <Link
-                      href={item.url}
-                      className={`block px-6 py-3 text-lg font-medium transition ${item.is_cta ? "text-blue-600 font-bold hover:bg-sand-50" : "text-gray-900 hover:bg-sky-muted-100"} ${activeDropdown === idx ? "bg-sky-muted-100" : ""}`}
-                      style={{ cursor: "pointer" }}
-                      onClick={() => setIsNavOpen(false)}
+            <nav
+              id="sr-nav"
+              className="fixed top-0 left-20 h-screen w-64 bg-white z-30 flex flex-col justify-between items-start"
+            >
+              {/* Menu Top Section */}
+              <ul className="w-full py-8">
+                {navItems.map((item, idx) =>
+                  !item.is_cta ? (
+                    <li
+                      key={item.name}
+                      className="relative"
+                      onMouseEnter={() => handleMouseEnter(idx)}
+                      onMouseLeave={() => handleMouseLeave()}
                     >
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
+                      <Link
+                        href={item.url}
+                        className={`
+                        px-6 py-3 text-lg flex justify-between group items-center w-full font-medium transition 
+                        ${
+                          item.is_cta
+                            ? "text-blue-600 font-bold hover:bg-sand-50"
+                            : "text-gray-900 hover:bg-sky-muted-100"
+                        } 
+                        ${activeDropdown === idx ? "bg-sky-muted-100" : ""}
+                      `}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => setIsNavOpen(false)}
+                      >
+                        <div className="menu-name">{item.name}</div>
+                        <div
+                          className={`flex menu-icon transition-all duration-300 
+                          ${activeDropdown === idx ? "pr-2" : "pr-4"}`}
+                        >
+                          {item.dropdown ? <Icon name="arrowRight" size="sm" color="stroke-gray-900" /> : null}
+                        </div>
+                      </Link>
+                    </li>
+                  ) : null
+                )}
+              </ul>
+
+              {/* Menu Bottom Section */}
+              <ul className="w-full py-8">
+                {navItems.map((item, idx) =>
+                  item.is_cta ? (
+                    <li key={item.name} className="relative">
+                      <Link
+                        href={item.url}
+                        className={`
+                        px-6 py-3 text-lg flex justify-between group items-center w-full transition-all duration-300 text-blue-600 font-bold bg-sand-50 hover:bg-water-50 hover:text-sky-800
+                      `}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => setIsNavOpen(false)}
+                      >
+                        <div className="menu-name">{item.name}</div>
+                        <div
+                          className={`
+                            flex menu-icon transition-all duration-300 
+                            ${activeDropdown === idx ? "pr-2" : "pr-4"}
+                          `}
+                        ></div>
+                      </Link>
+                    </li>
+                  ) : null
+                )}
               </ul>
             </nav>
           )}
@@ -178,9 +253,10 @@ const SideNavBar: React.FC = () => {
           {/* Dropdown Menu (to the right of main menu) */}
           {isNavOpen && activeDropdown !== null && navItems[activeDropdown]?.dropdown && (
             <div
-              className="fixed top-0 left-80 h-screen w-64 bg-white z-40"
-              onMouseEnter={() => setActiveDropdown(activeDropdown)}
-              onMouseLeave={() => setActiveDropdown(null)}
+              className="fixed top-0 left-[calc(320px+16px)] w-64 h-screen bg-white z-40
+              "
+              onMouseEnter={() => handleMouseEnter(activeDropdown)}
+              onMouseLeave={() => handleMouseLeave()}
             >
               <div className="py-8">
                 <h3 className="px-6 py-2 text-sm font-semibold text-gray-500 uppercase tracking-wide">
@@ -251,17 +327,19 @@ const SideNavBar: React.FC = () => {
                             openDropdown === item.name ? "max-h-[500px] py-half" : "max-h-0"
                           }`}
                         >
-                          {item.dropdownItems.map((dropdownItem) => (
-                            <Link
-                              key={dropdownItem.name}
-                              href={dropdownItem.url}
-                              className="block px-half text-nowrap"
-                              style={{ cursor: "pointer" }}
-                              onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                              <li>{dropdownItem.name}</li>
-                            </Link>
-                          ))}
+                          {item.dropdownItems
+                            ? item.dropdownItems.map((dropdownItem) => (
+                                <Link
+                                  key={dropdownItem.name}
+                                  href={dropdownItem.url}
+                                  className="block px-half text-nowrap"
+                                  style={{ cursor: "pointer" }}
+                                  onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                  <li>{dropdownItem.name}</li>
+                                </Link>
+                              ))
+                            : null}
                         </ul>
                       </li>
                     ) : item.is_cta ? null : (
@@ -301,6 +379,6 @@ const SideNavBar: React.FC = () => {
       </div>
     </>
   );
-};
+}
 
 export default SideNavBar;

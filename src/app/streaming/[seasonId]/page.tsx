@@ -1,6 +1,21 @@
-import { formatSeasonLabel } from "../../../utils/textFormat";
+import { formatSeasonLabel } from "@/utils";
+
 export default async function WatchSeasonPage({ params }: { params: Promise<{ seasonId: string }> }) {
   const { seasonId } = await params;
+
+  const liveData = (await import(`@/data/live-data.json`)).default;
+  const validSeasonIds = liveData?.map((season) => season.seasonId).flat();
+  const validConcertIds = liveData?.map((season) => season.concerts).flat();
+
+  // Check if the current seasonId is valid
+  if (!validSeasonIds.includes(seasonId)) {
+    return (
+      <div>
+        <h1 className="text-4xl font-bold mb-4">Season Not Found</h1>
+        <p className="mb-4">The season &ldquo;{seasonId}&rdquo; is not available for streaming.</p>
+      </div>
+    );
+  }
 
   let seasonData = null;
 
@@ -15,16 +30,18 @@ export default async function WatchSeasonPage({ params }: { params: Promise<{ se
 
   try {
     // Dynamically import the concert data for the season
-    const concertPromises = seasonData?.default?.concerts?.map(async (concertId: string) => {
-      // Dynamically import the concert data
-      try {
-        const concertModule = await import(`@/data/split/concerts/${concertId}.json`);
-        return concertModule.default; // Extract the actual JSON data
-      } catch (error) {
-        console.error(`Error processing concert data for ${concertId}:`, error);
-        return null;
-      }
-    });
+    const concertPromises = seasonData?.default?.concerts
+      ?.filter((concertId: string) => validConcertIds.includes(concertId)) // Only include valid concerts
+      ?.map(async (concertId: string) => {
+        // Dynamically import the concert data
+        try {
+          const concertModule = await import(`@/data/serve/concerts.json`);
+          return concertModule.default.find((concert) => concert.concertId === concertId) || null;
+        } catch (error) {
+          console.error(`Error processing concert data for ${concertId}:`, error);
+          return null;
+        }
+      });
     concertData = await Promise.all(concertPromises || []);
     // Filter out any null values from failed imports
     concertData = concertData.filter((concert) => concert !== null);

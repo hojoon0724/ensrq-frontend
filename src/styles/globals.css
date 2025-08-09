@@ -41,3 +41,7 @@ body {
 a .anchor {
   @apply scroll-mt-20
 }
+
+ul, li {
+  /* @apply border border-red-600; */
+}
