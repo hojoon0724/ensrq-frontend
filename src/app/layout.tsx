@@ -1,5 +1,6 @@
-import { Footer, NavBar } from "@/components/organisms";
+import { Footer } from "@/components/organisms";
 
+import SideNavBar from "@/components/organisms/SideNavBar";
 import type { Metadata } from "next";
 import "../styles/globals.css";
 
@@ -16,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col w-screen min-h-screen items-center justify-between">
-        <NavBar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <SideNavBar />
+        <main className="flex-1 lg:ml-20 lg:w-[calc(100svw-80px)]">{children}</main>
+        <Footer className="lg:ml-20 lg:max-w-[calc(100%-80px)]"/>
       </body>
     </html>
   );

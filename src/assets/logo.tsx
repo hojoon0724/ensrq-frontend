@@ -1,4 +1,4 @@
-export default function Logo({ color }: { color: string }) {
+export function Logo({ color }: { color: string }) {
   return (
     <svg 
       id="ensrq-logo" 

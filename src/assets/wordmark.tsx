@@ -1,4 +1,4 @@
-export default function Wordmark({ color }: { color: string }) {
+export function Wordmark({ color }: { color: string }) {
   return (
     <div className="wordmark flex flex-row" style={{ fontSize: "2.25rem" }}>
       <div className="museo font-light pr-quarter" style={{ color }}>

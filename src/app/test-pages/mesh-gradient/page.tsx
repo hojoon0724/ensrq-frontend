@@ -3,7 +3,7 @@ import { SectionMeshGradient } from "@/components/sections";
 
 export default function MeshGradientPage() {
   return (
-    <div className="flex w-screen h-[40svh] flex-col items-center justify-center overflow-clip">
+    <div className="flex w-full h-[40svh] flex-col items-center justify-center overflow-clip">
       <SectionMeshGradient
         className="absolute flex flex-col items-center justify-center"
         color1="sand"

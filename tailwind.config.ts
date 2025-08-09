@@ -24,11 +24,32 @@ export default {
       pattern:
         /^(bg|text|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|sand|water)-(50|100|200|300|400|500|600|700|800|900|950)$/,
     },
+    // Include transform classes (rotation, translation, scale, etc.)
+    { pattern: /^-?(rotate|scale|translate-[xy]?|skew-[xy]?)-(0|1|2|3|6|12|45|90|180)$/ },
+    { pattern: /^-?(translate-[xy]?)-(.+)$/ },
+    // Include flex and justify classes
+    { pattern: /^justify-(start|end|center|between|around|evenly)$/ },
+    { pattern: /^items-(start|end|center|baseline|stretch)$/ },
+    { pattern: /^flex-(row|col|wrap|nowrap)$/ },
+    // Include opacity classes
+    { pattern: /^opacity-(0|5|10|20|25|30|40|50|60|70|75|80|90|95|100)$/ },
     // Include border-0 for ghost buttons
     "border-0",
     // Include text-white for filled buttons
     "text-white",
     "text-black",
+    // Include transform classes that might not be detected in conditional statements
+    "rotate-45",
+    "-rotate-45",
+    "translate-y-2",
+    "-translate-y-2",
+    "opacity-0",
+    // Include common layout classes
+    "justify-around",
+    "justify-between",
+    "justify-center",
+    "justify-start",
+    "justify-end",
   ],
   theme: {
     extend: {

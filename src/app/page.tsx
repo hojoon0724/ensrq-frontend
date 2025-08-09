@@ -12,9 +12,7 @@ export default function Root() {
         <h1>{`We're making some big updates`}</h1>
         <h3>{`Here's a game you can play while you wait`}</h3>
       </div>
-      <div className="flip-game-container">
-        <MatchGame />
-      </div>
+      <MatchGame />
     </SectionEmpty>
   );
 }
