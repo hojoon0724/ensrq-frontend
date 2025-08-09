@@ -27,9 +27,11 @@ const footerNavigationLinks = links_active
     ]
   : [];
 
-export function Footer({className}: {className?: string}) {
+export function Footer({ className }: { className?: string }) {
   return (
-    <footer className={`w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30 ${className}`}>
+    <footer
+      className={`w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30 ${className}`}
+    >
       <div className="footer-content w-full max-w-7xl mx-auto ">
         {/* logo block */}
         <div className="footer-logo-container w-full mb-triple">
@@ -73,7 +75,7 @@ export function Footer({className}: {className?: string}) {
                 >
                   {column.map((link, index) => {
                     return (
-                      <Link key={index} href={`${index}-${link.url}`}>
+                      <Link key={index} href={`${link.url}`}>
                         {link.name}
                       </Link>
                     );
