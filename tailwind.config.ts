@@ -6,6 +6,8 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // Enable development mode for more aggressive JIT compilation
+  mode: process.env.NODE_ENV === "production" ? "jit" : undefined,
   safelist: [
     // Always include custom spacing classes
     { pattern: /^(p|m|gap|space|top|right|bottom|left|inset)-(quarter|half|s|double|triple)$/ },
@@ -51,6 +53,7 @@ export default {
     "justify-start",
     "justify-end",
   ],
+
   theme: {
     extend: {
       maxWidth: {

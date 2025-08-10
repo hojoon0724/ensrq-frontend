@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRef, useState } from "react";
 
-import { Logo, WordmarkVertical } from "@/assets";
+import { FullLogo, WordmarkVertical } from "@/assets";
 import seasonData from "@/data/live-data.json";
 import concertData from "@/data/serve/concerts.json";
 import { removeSeasonNumberFromConcertId } from "@/utils";
@@ -31,11 +31,11 @@ const navItems = links_active
       },
       {
         name: "Season 10 (25-26)",
-        url: `/season/${seasonData[0].seasonId}`,
+        url: `/seasons/${seasonData[0].seasonId}`,
         dropdown: true,
         dropdownItems: seasonData[0].concerts.map((concertId) => ({
           name: concertData.filter((concert) => concert.concertId === concertId)[0].title,
-          url: `/season/${seasonData[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
+          url: `/seasons/${seasonData[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
         })),
         is_cta: false,
       },
@@ -67,8 +67,6 @@ const navItems = links_active
       { name: "Tickets", url: "/tickets", is_cta: true },
     ]
   : [];
-
-console.log(Object.entries(seasonData)[0][0]);
 
 export function SideNavBar() {
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
@@ -109,7 +107,7 @@ export function SideNavBar() {
           {/* Logo */}
           <div className="nav-left-logo-container h-full aspect-[20/9] lg:hidden">
             <Link href="/">
-              <Logo color="var(--water-600)" />
+              <FullLogo color="var(--water-600)" />
             </Link>
           </div>
 
@@ -291,7 +289,7 @@ export function SideNavBar() {
           </div>
 
           {/* Mobile Menu */}
-          <div className="overflow-clip absolute top-full left-0 w-screen h-screen shadow-lg transition-transform duration-300 ease-in-out lg:hidden">
+          <div className="overflow-clip absolute top-full left-0 w-screen h-[calc(100vh-80px)] shadow-lg transition-transform duration-300 ease-in-out lg:hidden">
             <div
               className={`nav-mobile-menu-container  top-full left-0 w-screen h-full pb-[100px] bg-gray-30 shadow-lg transition-transform duration-300 ease-in-out ${
                 isMobileMenuOpen ? "translate-x-0" : "translate-x-full"

@@ -8,6 +8,7 @@ type MeshGradientProps = {
   intensity?: number;
   speed?: number;
   backgroundColor?: string;
+  tone?: "light" | "dark";
 };
 
 type ControlPoint = {
@@ -37,6 +38,7 @@ export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
   blendMode = "blended",
   speed = 1,
   backgroundColor = "transparent",
+  tone = "light",
 }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const animationRef = useRef<number | null>(null);
@@ -138,6 +140,10 @@ export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
         ctx.fillRect(0, 0, width, height);
       }
 
+      // Set blend mode based on tone
+      const globalCompositeOperation = tone === 'dark' ? 'multiply' : 'source-over';
+      // const globalCompositeOperation = 'source-over'
+
       curvesRef.current.forEach((curve) => {
         const { points, color } = curve;
 
@@ -145,25 +151,33 @@ export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
         const lineWidth = blendMode === "blended" ? 300 : 120;
         const layers = 7; // Number of layers for soft edge effect
 
+        // Set composite operation for the entire curve based on tone
+        ctx.globalCompositeOperation = globalCompositeOperation;
+
         for (let layer = 0; layer < layers; layer++) {
           const progress = layer / (layers - 1); // 0 to 1
           const currentWidth = lineWidth * (1 - progress * 2); // Shrink width
-          const alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1); // Fade alpha
 
-          ctx.beginPath();
-          ctx.moveTo(points[0].x, points[0].y);
-
-          // Draw through all points including the last one
-          for (let i = 1; i < points.length; i++) {
-            if (i === points.length - 1) {
-              // For the last point, draw a line to it
-              ctx.lineTo(points[i].x, points[i].y);
-            } else {
-              const xc = (points[i].x + points[i + 1].x) / 2;
-              const yc = (points[i].y + points[i + 1].y) / 2;
-              ctx.quadraticCurveTo(points[i].x, points[i].y, xc, yc);
-            }
+          // Adjust alpha based on tone - for dark mode, use higher alpha to get darker results
+          let alpha: number;
+          if (tone === "dark") {
+            alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1);
+          } else {
+            alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1);
           }
+
+            ctx.beginPath();
+            ctx.moveTo(points[0].x, points[0].y);
+
+            for (let i = 1; i < points.length; i++) {
+              if (i === points.length - 1) {
+                ctx.lineTo(points[i].x, points[i].y);
+              } else {
+                const xc = (points[i].x + points[i + 1].x) / 2;
+                const yc = (points[i].y + points[i + 1].y) / 2;
+                ctx.quadraticCurveTo(points[i].x, points[i].y, xc, yc);
+              }
+            }
 
           // Use the original color with alpha applied
           ctx.strokeStyle = color;
@@ -172,8 +186,9 @@ export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
           ctx.stroke();
         }
 
-        // Reset globalAlpha after drawing the curve
-        ctx.globalAlpha = 1.0;
+        // Reset for next curve
+        ctx.globalAlpha = 1;
+        ctx.globalCompositeOperation = "source-over";
 
         // Update points - natural movement only
         for (let i = 0; i < points.length; i++) {
@@ -262,7 +277,7 @@ export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
-  }, [colorShades, blendMode, speed, backgroundColor]);
+  }, [colorShades, blendMode, speed, backgroundColor, tone]);
 
   useEffect(() => {
     const handleResize = () => {

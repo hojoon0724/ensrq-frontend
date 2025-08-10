@@ -1,3 +1,4 @@
 export { Wordmark } from "@/assets/wordmark";
 export { WordmarkVertical } from "@/assets/wordmarkVertical";
-export { Logo } from "@/assets/logo";
+export { FullLogo } from "@/assets/fullLogo";
+export { LogoIcon } from "@/assets/logoIcon";

@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex flex-col w-screen min-h-screen items-center justify-between">
         <SideNavBar />
-        <main className="flex-1 lg:ml-20 lg:w-[calc(100svw-80px)]">{children}</main>
+        <main className="flex-1 lg:ml-20 w-screen lg:w-[calc(100svw-80px)] h-full">{children}</main>
         <Footer className="lg:ml-20 lg:max-w-[calc(100%-80px)]"/>
       </body>
     </html>

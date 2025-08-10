@@ -1,58 +1,43 @@
-import { Icon } from "@/components/atoms";
+import { LogoIcon } from "@/assets/logoIcon";
 import { VideoWithCustomThumbnail } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
 import { removeSeasonNumberFromConcertId } from "@/utils/textFormat";
 import { notFound } from "next/navigation";
 
+// Static import — avoids duplicate imports in both functions
+import liveData from "@/data/live-data.json";
+
 export async function generateStaticParams() {
-  // Load your JSON data
-  const liveData = await import("@/data/live-data.json");
-
-  const concertList = liveData.default
-    .map((season) =>
-      season.concerts.map((concertId) => ({
-        seasonId: season.seasonId,
-        concertId: removeSeasonNumberFromConcertId(concertId), // Remove season prefix for cleaner URLs
-      }))
-    )
-    .flat();
-
-  return concertList
+  return liveData.flatMap((season) =>
+    season.concerts.map((concertId) => ({
+      seasonId: season.seasonId,
+      concertId: removeSeasonNumberFromConcertId(concertId),
+    }))
+  );
 }
 
-export default async function WatchConcertPage({
-  params,
-}: {
-  params: Promise<{ seasonId: string; concertId: string }>;
-}) {
-  const { seasonId, concertId } = await params;
+export default async function WatchConcertPage({ params }: { params: { seasonId: string; concertId: string } }) {
+  const { seasonId, concertId } = params;
 
-  // Load live data to validate season and concert
-  const liveData = (await import("@/data/live-data.json")).default;
-  const validSeasonIds = liveData?.map((season) => season.seasonId);
-  const validConcertIds = liveData?.map((season) => season.concerts).flat();
+  // Precompute valid IDs
+  const validSeasonIds = new Set(liveData.map((season) => season.seasonId));
+  const validConcertIds = new Set(liveData.flatMap((season) => season.concerts));
 
-  // Convert shortened concertId back to full concertId for validation and data loading
+  // Restore full concert ID
   const fullConcertId = `${seasonId}-${concertId}`;
 
-  // Check if the current seasonId and full concertId are valid
-  if (!validSeasonIds.includes(seasonId) || !validConcertIds.includes(fullConcertId)) {
+  // Validate
+  if (!validSeasonIds.has(seasonId) || !validConcertIds.has(fullConcertId)) {
     notFound();
   }
 
+  // Load concert data
   let concertData = null;
-
   try {
-    const concertModule = await import(`@/data/split/concerts/${fullConcertId}.json`);
-    concertData = concertModule.default;
+    concertData = (await import(`@/data/split/concerts/${fullConcertId}.json`)).default;
   } catch (error) {
     console.error(`Concert data not found for ${fullConcertId}:`, error);
-    notFound(); // Better UX than rendering manually
-  }
-
-  if (!concertData) {
-    // notFound() already called above, but TypeScript needs a return in this branch.
-    return null;
+    notFound();
   }
 
   return (
@@ -60,8 +45,8 @@ export default async function WatchConcertPage({
       <h1 className="text-4xl font-bold mb-4">{concertData.title}</h1>
       <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
         <VideoWithCustomThumbnail
-          thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.webp` || ""}
-          icon={<Icon name="play" />}
+          thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.webp`}
+          icon={<LogoIcon color="var(--water-600)" />}
           youtubeUrl={concertData.youTubeUrl || ""}
         />
       </div>

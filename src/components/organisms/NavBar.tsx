@@ -1,6 +1,6 @@
 "use client";
 
-import { Logo } from "@/assets";
+import { FullLogo } from "@/assets";
 import { Icon } from "@/components/atoms";
 import seasonData from "@/data/live-data.json";
 import { formatSeasonLabel } from "@/utils/textFormat";
@@ -88,7 +88,7 @@ export function NavBar({ className = "" }: Readonly<{ className?: string }>) {
         {/* Logo */}
         <div className="nav-left-logo-container h-full aspect-[20/9]">
           <Link href="/">
-            <Logo color="var(--water-600)" />
+            <FullLogo color="var(--water-600)" />
           </Link>
         </div>
 

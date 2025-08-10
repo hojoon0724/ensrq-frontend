@@ -54,7 +54,7 @@ export function VideoWithCustomThumbnail({
     <div className={`relative cursor-pointer group ${className}`} onClick={handleThumbnailClick}>
       <Image src={thumbnail} alt={alt} width={1920} height={1080} className="w-full h-auto object-cover" />
       <div className="absolute inset-0 flex items-center justify-center group-hover:bg-opacity-0 transition-all duration-200">
-        <div className="transform group-hover:scale-110 transition-transform duration-200">{icon}</div>
+        <div className="transform group-hover:scale-110 transition-transform duration-200 w-32 h-32 bg-gray-30 p-4 rounded-full drop-shadow-lg">{icon}</div>
       </div>
     </div>
   );
