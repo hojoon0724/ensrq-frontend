@@ -1,7 +1,6 @@
 import { Image } from "@/components/atoms";
 import { Donors } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
-import donorsList from "@/data/donors.json";
 
 export default function About() {
   return (

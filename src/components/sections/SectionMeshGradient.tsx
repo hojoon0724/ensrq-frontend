@@ -1,3 +1,4 @@
+import { TopContainer } from "@/components/sections";
 import { MeshGradientCurves } from "../organisms/MeshGradientCurves";
 
 export function SectionMeshGradient({
@@ -18,26 +19,15 @@ export function SectionMeshGradient({
   backgroundColor?: string;
 }>) {
   const toneShades = tone === "dark" ? 900 : 50;
-  const backgroundShade = tone === "dark" ? 600 : 950;
+  const backgroundShade = tone === "dark" ? 400 : 950;
 
   return (
     <section className={`relative w-full overflow-hidden ${className}`}>
-      {/* <MeshGradientCanvas */}
       <MeshGradientCurves
         colorShades={[
-          [
-            `var(--${color1}-${toneShades})`,
-          ],
-          color2
-            ? [
-                `var(--${color2}-${toneShades})`,
-              ]
-            : [],
-          color3
-            ? [
-                `var(--${color3}-${toneShades})`,
-              ]
-            : [],
+          [`var(--${color1}-${toneShades})`],
+          color2 ? [`var(--${color2}-${toneShades})`] : [],
+          color3 ? [`var(--${color3}-${toneShades})`] : [],
         ]}
         blendMode="blended"
         intensity={0.5}
@@ -45,7 +35,7 @@ export function SectionMeshGradient({
         tone={tone}
         backgroundColor={`var(--${backgroundColor}-${backgroundShade})`}
       />
-      <div className={`w-full h-full flex justify-center items-center text-center`}>{children}</div>
+      <TopContainer>{children}</TopContainer>
     </section>
   );
 }

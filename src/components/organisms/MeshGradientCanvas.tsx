@@ -2,12 +2,12 @@
 
 import React, { useEffect, useRef } from "react";
 
-type MeshGradientProps = {
-  colorShades: string[][]; // Each color group has 11 hex/rgb strings
+type MeshGradientCanvasProps = {
+  colorShades: string[][];
   blendMode?: "blended" | "stepped";
-  intensity?: number; // how much mouse affects movement
-  speed?: number; // animation speed multiplier
-  backgroundColor?: string; // background color for the canvas
+  intensity?: number;
+  speed?: number;
+  backgroundColor?: string;
 };
 
 // Helper function to resolve CSS variables to computed color values
@@ -34,7 +34,7 @@ type Blob = {
   color: string;
 };
 
-export const MeshGradientCanvas: React.FC<MeshGradientProps> = ({
+export const MeshGradientCanvas: React.FC<MeshGradientCanvasProps> = ({
   colorShades,
   blendMode = "blended",
   intensity = 0.05,
@@ -73,8 +73,13 @@ export const MeshGradientCanvas: React.FC<MeshGradientProps> = ({
       // Resolve all CSS variables to actual color values
       const resolvedColors = colorShades.flat().map((color) => resolveCSSColor(color));
 
+      // Calculate base blob size based on viewport dimensions
+      const baseSize = Math.min(width, height);
+      const minRadius = baseSize * 0.2; // 20% of smaller dimension
+      const maxRadius = baseSize * 0.3; // 30% of smaller dimension
+
       for (let i = 0; i < count; i++) {
-        const r = 150 + Math.random() * 200;
+        const r = minRadius + Math.random() * (maxRadius - minRadius);
         newBlobs.push({
           x: Math.random() * width,
           y: Math.random() * height,
@@ -88,7 +93,7 @@ export const MeshGradientCanvas: React.FC<MeshGradientProps> = ({
     };
 
     // Initialize blobs only once
-    blobsRef.current = createBlobsLocal(dimensionsRef.current.width, dimensionsRef.current.height, 12);
+    blobsRef.current = createBlobsLocal(dimensionsRef.current.width, dimensionsRef.current.height, 20);
 
     const draw = () => {
       if (!ctx) return;
@@ -180,7 +185,17 @@ export const MeshGradientCanvas: React.FC<MeshGradientProps> = ({
       dimensionsRef.current.width = canvas.width = width;
       dimensionsRef.current.height = canvas.height = height;
 
-      // No need to recreate blobs - they'll adapt to the new boundaries naturally
+      // Scale existing blob sizes based on new dimensions
+      const baseSize = Math.min(width, height);
+      const minRadius = baseSize * 0.2;
+      const maxRadius = baseSize * 0.3;
+      const radiusRange = maxRadius - minRadius;
+
+      blobsRef.current.forEach((blob) => {
+        // Normalize current radius to 0-1 range, then scale to new dimensions
+        const normalizedRadius = Math.random(); // You could store original normalized values if needed
+        blob.r = minRadius + normalizedRadius * radiusRange;
+      });
     };
 
     window.addEventListener("resize", handleResize);

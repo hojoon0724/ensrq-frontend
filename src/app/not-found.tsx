@@ -8,7 +8,7 @@ const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
 export default function NotFound() {
   return (
-    <SectionBlobs color1={randomColor} backgroundColor={`${randomColor}-100`}>
+    <SectionBlobs color1={randomColor} backgroundColor={`${randomColor}`}>
       <div className="relative flex flex-col items-center justify-center min-h-screen p-6 text-center overflow-hidden">
         <h1 className="text-8xl font-bold text-gray-900 opacity-0 drop-shadow-lg mb-4 animate-fadeIn">404</h1>
         <div className="text-box opacity-0 animate-fadeIn delay-200 border py-s px-double border-gray-970 mb-8">

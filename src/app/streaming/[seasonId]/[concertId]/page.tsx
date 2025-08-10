@@ -16,8 +16,12 @@ export async function generateStaticParams() {
   );
 }
 
-export default async function WatchConcertPage({ params }: { params: { seasonId: string; concertId: string } }) {
-  const { seasonId, concertId } = params;
+export default async function WatchConcertPage({
+  params,
+}: {
+  params: Promise<{ seasonId: string; concertId: string }>;
+}) {
+  const { seasonId, concertId } = await params;
 
   // Precompute valid IDs
   const validSeasonIds = new Set(liveData.map((season) => season.seasonId));

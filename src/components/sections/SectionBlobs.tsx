@@ -5,6 +5,7 @@ export function SectionBlobs({
   color2,
   color3,
   backgroundColor,
+
   children,
   className = "flex flex-col justify-center items-center w-full h-full",
 }: Readonly<{
@@ -15,59 +16,21 @@ export function SectionBlobs({
   color3?: string;
   backgroundColor?: string;
 }>) {
+  const toneShades = 50;
+  const backgroundShade = 50;
+
   return (
     <section className={`relative w-full overflow-hidden ${className}`}>
       <MeshGradientCanvas
-      // <MeshGradientCurves
         colorShades={[
-          [
-            // `var(--${color1}-950)`,
-            // `var(--${color1}-900)`,
-            // `var(--${color1}-800)`,
-            `var(--${color1}-700)`,
-            `var(--${color1}-600)`,
-            `var(--${color1}-500)`,
-            `var(--${color1}-400)`,
-            `var(--${color1}-300)`,
-            `var(--${color1}-200)`,
-            `var(--${color1}-100)`,
-            `var(--${color1}-50)`,
-          ],
-          color2
-            ? [
-                // `var(--${color2}-950)`,
-                // `var(--${color2}-900)`,
-                // `var(--${color2}-800)`,
-                `var(--${color2}-700)`,
-                `var(--${color2}-600)`,
-                `var(--${color2}-500)`,
-                `var(--${color2}-400)`,
-                `var(--${color2}-300)`,
-                `var(--${color2}-200)`,
-                `var(--${color2}-100)`,
-                `var(--${color2}-50)`,
-              ]
-            : [],
-          color3
-            ? [
-                // `var(--${color3}-950)`,
-                // `var(--${color3}-900)`,
-                // `var(--${color3}-800)`,
-                `var(--${color3}-700)`,
-                `var(--${color3}-600)`,
-                `var(--${color3}-500)`,
-                `var(--${color3}-400)`,
-                `var(--${color3}-300)`,
-                `var(--${color3}-200)`,
-                `var(--${color3}-100)`,
-                `var(--${color3}-50)`,
-              ]
-            : [],
+          [`var(--${color1}-${toneShades})`],
+          color2 ? [`var(--${color2}-${toneShades})`] : [],
+          color3 ? [`var(--${color3}-${toneShades})`] : [],
         ]}
         blendMode="blended"
         intensity={0.5}
         speed={1}
-        backgroundColor={`var(--${backgroundColor})`}
+        backgroundColor={`var(--${backgroundColor}-${backgroundShade})`}
       />
       <div className={`w-full h-full flex justify-center items-center text-center`}>{children}</div>
     </section>

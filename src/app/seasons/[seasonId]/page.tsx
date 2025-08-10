@@ -1,11 +1,12 @@
 import { Button, MovingGradientText } from "@/components/atoms";
-import { SectionEmpty, SectionGrid } from "@/components/sections";
+import { SectionEmpty } from "@/components/sections";
 import { SectionMeshGradient } from "@/components/sections/SectionMeshGradient";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 // Static imports for repo JSON (faster, smaller runtime code)
+import { ConcertTile } from "@/components/molecules";
 import liveData from "@/data/live-data.json";
 import allConcerts from "@/data/serve/concerts.json";
 import { Concert } from "@/types";
@@ -49,24 +50,13 @@ export default async function SingleSeasonPage({ params }: { params: Promise<{ s
     ?.filter(Boolean);
 
   const colors = ["sand", "sky", "water"];
-  // const randomColor = colors[Math.floor(Math.random() * colors.length)];
-  // const randomTextColor = colors[Math.floor(Math.random() * colors.length)];
-  // const randomTone = Math.random() < 0.5 ? "light" : "dark";
-  const randomColor = "sky"
-  const randomTextColor = "sky"
-  const randomTone = "light"
-  const textTone = "dark"
-  const textShade = 700
-  
-  const oppositeColor = "sky"
-  const oppositeTextColor = "sky"
-  const oppositeTone = "dark"
-  const oppositeTextTone = "light";
-  const oppositeTextShade = 200;
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  const randomTextColor = colors[Math.floor(Math.random() * colors.length)];
 
-  console.log(`random color: ${randomColor}`);
-  console.log(`random text color: ${randomTextColor}`);
-  console.log(`random tone: ${randomTone}`);
+  // Easy to change: just modify this line to "light" or "dark" as needed
+  const randomTone = "dark" as "light" | "dark"; // or "light" - change this to switch tones
+  const textTone = randomTone === "light" ? "dark" : "light";
+  const textShade = randomTone === "light" ? 700 : 200;
 
   return (
     <div>
@@ -78,44 +68,36 @@ export default async function SingleSeasonPage({ params }: { params: Promise<{ s
       >
         <MovingGradientText
           text={formatSeasonLabel(seasonId)}
-          className="text-8xl font-bold"
+          className="text-6xl lg:text-8xl font-bold"
           gradientColor={`${randomTextColor}`}
           tone={textTone}
         >
-          {/* text-[var(--${randomTextColor}-${textShade})] */}
-          <div className={`season-year text-2xl museo-slab text-${randomTextColor}-${textShade}`}>{seasonData?.year}</div>
+          <div className={`season-year text-2xl museo-slab text-${randomTextColor}-${textShade}`}>
+            {seasonData?.year}
+          </div>
         </MovingGradientText>
       </SectionMeshGradient>
 
-      <SectionMeshGradient
-        color1={oppositeColor}
-        backgroundColor={oppositeColor}
-        className="h-[max(30svh,400px)] flex flex-col justify-center items-center"
-        tone={oppositeTone}
-      >
-        <MovingGradientText
-          text={formatSeasonLabel(seasonId)}
-          className="text-8xl font-bold"
-          gradientColor={`${oppositeTextColor}`}
-          tone={oppositeTextTone}
-        >
-          {/* text-[var(--${randomTextColor}-${textShade})] */}
-          <div className={`season-year text-2xl museo-slab text-${oppositeTextColor}-${oppositeTextShade}`}>{seasonData?.year}</div>
-        </MovingGradientText>
-      </SectionMeshGradient>
-
-      <SectionEmpty themeColor="water">
-        <div className="tickets-link-container grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-          <Button>
+      <SectionEmpty themeColor={`${randomColor}`} tone={`${randomTone}`}>
+        <div className="tickets-link-container grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+          <Button color={`${randomTextColor}`}>
             <Link href={seasonData?.ticketsLinks?.seasonLive.url}>Purchase Live Season Pass</Link>
           </Button>
-          <Button>
+          <Button color={`${randomTextColor}`}>
             <Link href={seasonData?.ticketsLinks?.seasonStreaming.url}>Purchase Streaming Season Pass</Link>
           </Button>
         </div>
       </SectionEmpty>
 
-      <SectionGrid>
+      <SectionEmpty themeColor={`${randomColor}`} tone={`${randomTone}`}>
+        {concertData?.map((concert: Concert) => (
+          <div key={concert.concertId} className="w-full">
+            <ConcertTile concert={concert} />
+          </div>
+        ))}
+      </SectionEmpty>
+      {/* <SectionEmpty>
+        
         <pre>{JSON.stringify(seasonData, null, 2)}</pre>
         {concertData?.map((concert: Concert) => (
           <div key={concert!.concertId} className="p-4 border rounded">
@@ -123,7 +105,7 @@ export default async function SingleSeasonPage({ params }: { params: Promise<{ s
             <pre className="bg-gray-100 p-2 rounded mt-2">{JSON.stringify(concert, null, 2)}</pre>
           </div>
         ))}
-      </SectionGrid>
+      </SectionEmpty> */}
     </div>
   );
 }

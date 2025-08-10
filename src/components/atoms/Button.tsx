@@ -1,6 +1,6 @@
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "filled" | "outline" | "ghost";
-  color?: "sky" | "blue" | "red" | "green" | "gray" | "sand" | "water";
+  color?: string;
   textColor?: string;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   loading?: boolean;

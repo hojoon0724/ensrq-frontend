@@ -4,7 +4,7 @@ import { SectionBanner, SectionEmpty } from "@/components/sections";
 export default function Tickets() {
   return (
     <div>
-      <SectionBanner themeColor="blue">
+      <SectionBanner themeColor="blue" tone="light">
         <h1>Tickets</h1>
       </SectionBanner>
       <SectionEmpty themeColor="sand">

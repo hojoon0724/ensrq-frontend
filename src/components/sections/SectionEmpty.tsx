@@ -1,11 +1,15 @@
+import { TopContainer } from "./TopContainer";
+
 export function SectionEmpty({
   children,
   themeColor = "gray",
-  className = "flex flex-col justify-center items-center w-full h-full",
-}: Readonly<{ children: React.ReactNode; themeColor?: string; className?: string }>) {
+  tone = "light",
+  className = "flex flex-col justify-center items-center w-full h-full gap-s",
+}: Readonly<{ children: React.ReactNode; themeColor?: string; className?: string; tone?: "light" | "dark" }>) {
+  const toneValue = tone === "dark" ? 700 : 50;
   return (
-    <section style={{ backgroundColor: `var(--${themeColor}-bg-white)` }}>
-      <div className={`w-full h-full max-w-7xl ${className}`}>{children}</div>
+    <section style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
+      <TopContainer className={className}>{children}</TopContainer>
     </section>
   );
 }

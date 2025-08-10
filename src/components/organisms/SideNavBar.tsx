@@ -8,6 +8,7 @@ import seasonData from "@/data/live-data.json";
 import concertData from "@/data/serve/concerts.json";
 import { removeSeasonNumberFromConcertId } from "@/utils";
 import { Icon } from "../atoms/Icon";
+import { formatSeasonLabel } from "@/utils";
 
 const links_active = true;
 const navItems = links_active
@@ -40,28 +41,28 @@ const navItems = links_active
         is_cta: false,
       },
 
-      // {
-      //   name: "Past Seasons",
-      //   url: `/season/${seasonData[0].seasonId}`,
-      //   dropdown: true,
-      //   dropdownItems: seasonData.slice(1).map((season) => ({
-      //     name: formatSeasonLabel(season.seasonId),
-      //     url: `/season/${season.seasonId}`,
-      //   })),
-      //   is_cta: false,
-      // },
+      {
+        name: "Past Seasons",
+        url: `/seasons/${seasonData[0].seasonId}`,
+        dropdown: true,
+        dropdownItems: seasonData.slice(1).map((season) => ({
+          name: formatSeasonLabel(season.seasonId),
+          url: `/seasons/${season.seasonId}`,
+        })),
+        is_cta: false,
+      },
 
       {
         name: "Streaming",
-        url: "/streaming/s10",
-        dropdown: false,
-        // dropdownItems: [
-        //   { name: "Season 10", url: "/streaming/s10" },
-        //   { name: "Season 9", url: "/streaming/s09" },
-        //   { name: "Season 8", url: "/streaming/s08" },
-        //   { name: "Season 7", url: "/streaming/s07" },
-        //   { name: "Season 6", url: "/streaming/s06" },
-        // ],
+        url: "/streaming/",
+        dropdown: true,
+        dropdownItems: [
+          { name: "Season 10", url: "/streaming/s10" },
+          { name: "Season 9", url: "/streaming/s09" },
+          { name: "Season 8", url: "/streaming/s08" },
+          { name: "Season 7", url: "/streaming/s07" },
+          { name: "Season 6", url: "/streaming/s06" },
+        ],
         is_cta: false,
       },
       { name: "Tickets", url: "/tickets", is_cta: true },

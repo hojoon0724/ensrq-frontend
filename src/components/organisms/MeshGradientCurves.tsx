@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 
-type MeshGradientProps = {
+type MeshGradientCurvesProps = {
   colorShades: string[][];
   blendMode?: "blended" | "stepped";
   intensity?: number;
@@ -33,7 +33,7 @@ const resolveCSSColor = (color: string): string => {
   return computed || color;
 };
 
-export const MeshGradientCurves: React.FC<MeshGradientProps> = ({
+export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
   colorShades,
   blendMode = "blended",
   speed = 1,

@@ -24,7 +24,17 @@ export default {
     // Include color classes for specific shades
     {
       pattern:
-        /^(bg|text|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|sand|water)-(50|100|200|300|400|500|600|700|800|900|950)$/,
+        /^(bg|text|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|sand|water|sand-muted|water-muted|sky-muted)-(50|100|200|300|400|500|600|700|800|900|950)$/,
+    },
+    // Include gradient classes for ProgramTile
+    {
+      pattern: /^bg-gradient-to-br$/,
+    },
+    {
+      pattern: /^from-(sand|water|sky|sand-muted|water-muted|sky-muted)-(50|100|200|300|400|500|600|700|800|900|950)$/,
+    },
+    {
+      pattern: /^to-(sand|water|sky|sand-muted|water-muted|sky-muted)-(50|100|200|300|400|500|600|700|800|900|950)$/,
     },
     // Include transform classes (rotation, translation, scale, etc.)
     { pattern: /^-?(rotate|scale|translate-[xy]?|skew-[xy]?)-(0|1|2|3|6|12|45|90|180)$/ },
