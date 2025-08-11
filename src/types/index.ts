@@ -7,3 +7,4 @@ export * from "./musician";
 export * from "./season";
 export * from "./venue";
 export * from "./work";
+export * from "./photoManifest";

@@ -296,7 +296,7 @@ export function SideNavBar() {
                 isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
               } lg:hidden`}
             >
-              <div className="links-container h-full flex flex-col justify-between">
+              <div className="links-container h-full flex flex-col justify-between pointer-events-auto">
                 <ul className="flex flex-col items-end space-y-s p-double museo-slab text-lg">
                   {navItems.map((item) =>
                     item.dropdown ? (

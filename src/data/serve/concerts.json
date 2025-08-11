@@ -2479,11 +2479,11 @@
     "venueId": "first-congregational-church",
     "ticketsLinks": {
       "singleLive": {
-        "price": 30,
-        "url": "www.ticketspice.com/ensrq/LIVE-TICKETS-PURCHASE-URL"
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/tangled-whispers-live"
       },
       "singleStreaming": {
-        "price": 30,
+        "price": 10,
         "url": "www.ticketspice.com/ensrq/STREAMING-TICKETS-PURCHASE-URL"
       }
     },
@@ -2530,11 +2530,11 @@
     "venueId": "first-congregational-church",
     "ticketsLinks": {
       "singleLive": {
-        "price": 30,
-        "url": "www.ticketspice.com/ensrq/LIVE-TICKETS-PURCHASE-URL"
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/songbird-live"
       },
       "singleStreaming": {
-        "price": 30,
+        "price": 10,
         "url": "www.ticketspice.com/ensrq/STREAMING-TICKETS-PURCHASE-URL"
       }
     },

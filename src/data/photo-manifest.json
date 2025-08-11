@@ -1,0 +1,1052 @@
+{
+  "/graphics/ensrq-logo-for-bright.png": {
+    "width": 2500,
+    "height": 1708,
+    "type": "png"
+  },
+  "/graphics/ensrq-logo-for-bright.webp": {
+    "width": 2500,
+    "height": 1708,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2024-09-23-night-reflected.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2024-11-25-ives-and-schoenberg-at-150.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2025-01-13-visions-and-miracles.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2025-02-17-truth-and-mayhem.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2025-03-17-critical-moments.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/4x3-s09-2025-05-12-jagden-und-formen.webp": {
+    "width": 1440,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2024-09-23-night-reflected.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2024-11-25-ives-and-schoenberg-at-150.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2025-01-13-visions-and-miracles.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2025-02-17-truth-and-mayhem.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2025-03-17-critical-moments.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s09/streaming-thumbnails/s09-2025-05-12-jagden-und-formen.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/s10/streaming-thumbnails/s10-2025-10-27-tangled-whispers.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "type": "jpeg"
+  },
+  "/graphics/s10/streaming-thumbnails/s10-2025-10-27-tangled-whispers.webp": {
+    "width": 1920,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/season-link-buttons/streaming-s05.webp": {
+    "width": 1921,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/season-link-buttons/streaming-s06.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-link-buttons/streaming-s07.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-link-buttons/streaming-s08.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-link-buttons/streaming-s09.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/photos/about/about-betsy-hudson-traba.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-bharat-chandra.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-conor-hanick.webp": {
+    "width": 2500,
+    "height": 1666,
+    "type": "webp"
+  },
+  "/photos/about/about-george-nickson.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/about-han-chen.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-jamie-clark.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-jennifer-best-takeda.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-lucy-fitz-gibbons.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-marcelina-suchocka.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-natalie-helm.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/about-samantha-bennett.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/about-thea-lobo.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/betsy-hudson-traba-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/bharat-chandra-bharat-chandra.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/bharat-chandra-portrait-expanded.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/george-about-portrait.webp": {
+    "width": 2500,
+    "height": 3125,
+    "type": "webp"
+  },
+  "/photos/about/han-chen-raymond-huang-expanded.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/jennifer-takeda-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/marcelina-suchocka-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/natalie-helm-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/about/samantha-about-portrait.webp": {
+    "width": 2474,
+    "height": 3093,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/betsy-traba.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/bharat-chandra.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/conor-hanick.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/emily-levin.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/george-nickson.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/han-chen.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/jennifer-best-takeda.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/lucy-fitz-gibbon.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/marcelina-suchocka.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/michelle-gott.webp": {
+    "width": 1600,
+    "height": 1067,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/natalie-helm.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/flip-game-photos/samantha-bennett.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/abraham-feder.webp": {
+    "width": 2500,
+    "height": 3750,
+    "type": "webp"
+  },
+  "/photos/portraits/angelica-negron-1.webp": {
+    "width": 3632,
+    "height": 5447,
+    "type": "webp"
+  },
+  "/photos/portraits/angelica-negron-2.webp": {
+    "width": 1500,
+    "height": 1000,
+    "type": "webp"
+  },
+  "/photos/portraits/angelica-negron.webp": {
+    "width": 5026,
+    "height": 3350,
+    "type": "webp"
+  },
+  "/photos/portraits/ania-vu-1.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/ania-vu.webp": {
+    "width": 1600,
+    "height": 1067,
+    "type": "webp"
+  },
+  "/photos/portraits/anna-clyne.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/anna-thorvaldsdottir.webp": {
+    "width": 2500,
+    "height": 3750,
+    "type": "webp"
+  },
+  "/photos/portraits/arlene-sierra.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/arnold-schoenberg-1.webp": {
+    "width": 800,
+    "height": 1065,
+    "type": "webp"
+  },
+  "/photos/portraits/arnold-schoenberg-2.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/arnold-schoenberg.webp": {
+    "width": 2400,
+    "height": 1806,
+    "type": "webp"
+  },
+  "/photos/portraits/betsy-hudson.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/bharat-chandra.webp": {
+    "width": 2823,
+    "height": 1882,
+    "type": "webp"
+  },
+  "/photos/portraits/bright.webp": {
+    "width": 3200,
+    "height": 1801,
+    "type": "webp"
+  },
+  "/photos/portraits/carolyn.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/charles-ives.webp": {
+    "width": 4086,
+    "height": 5180,
+    "type": "webp"
+  },
+  "/photos/portraits/chris-rogerson-1.webp": {
+    "width": 1333,
+    "height": 1000,
+    "type": "webp"
+  },
+  "/photos/portraits/chris-rogerson.webp": {
+    "width": 3892,
+    "height": 3024,
+    "type": "webp"
+  },
+  "/photos/portraits/chris-stark.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/chris-theofanidis.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/christopher--cerrone-1.webp": {
+    "width": 4368,
+    "height": 6000,
+    "type": "webp"
+  },
+  "/photos/portraits/christopher--cerrone-2.webp": {
+    "width": 4496,
+    "height": 6000,
+    "type": "webp"
+  },
+  "/photos/portraits/christopher-cerrone-3.webp": {
+    "width": 4000,
+    "height": 6000,
+    "type": "webp"
+  },
+  "/photos/portraits/christopher-cerrone.webp": {
+    "width": 6000,
+    "height": 4285,
+    "type": "webp"
+  },
+  "/photos/portraits/chroma-mary.webp": {
+    "width": 1600,
+    "height": 1599,
+    "type": "webp"
+  },
+  "/photos/portraits/chroma-tyson-davis.webp": {
+    "width": 1600,
+    "height": 1600,
+    "type": "webp"
+  },
+  "/photos/portraits/conor-hanick.webp": {
+    "width": 3593,
+    "height": 2395,
+    "type": "webp"
+  },
+  "/photos/portraits/dai-wei.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/du-yun.webp": {
+    "width": 5890,
+    "height": 3923,
+    "type": "webp"
+  },
+  "/photos/portraits/einojuhaari-rautavaara-1.webp": {
+    "width": 1140,
+    "height": 1710,
+    "type": "webp"
+  },
+  "/photos/portraits/einojuhaari-rautavaara.webp": {
+    "width": 2500,
+    "height": 1664,
+    "type": "webp"
+  },
+  "/photos/portraits/elizabeth-a-baker.webp": {
+    "width": 5184,
+    "height": 3456,
+    "type": "webp"
+  },
+  "/photos/portraits/elizabeth-ogonek.webp": {
+    "width": 768,
+    "height": 1024,
+    "type": "webp"
+  },
+  "/photos/portraits/ellen-reid.webp": {
+    "width": 4500,
+    "height": 3968,
+    "type": "webp"
+  },
+  "/photos/portraits/emily-levin-1.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/emily-levin.webp": {
+    "width": 1200,
+    "height": 1200,
+    "type": "webp"
+  },
+  "/photos/portraits/emma-o-halloran.webp": {
+    "width": 2500,
+    "height": 1558,
+    "type": "webp"
+  },
+  "/photos/portraits/ensemble-vim.webp": {
+    "width": 960,
+    "height": 803,
+    "type": "webp"
+  },
+  "/photos/portraits/francesca-mc-1.webp": {
+    "width": 5760,
+    "height": 3840,
+    "type": "webp"
+  },
+  "/photos/portraits/francesca-mc.webp": {
+    "width": 5760,
+    "height": 3840,
+    "type": "webp"
+  },
+  "/photos/portraits/freya-waley-1.webp": {
+    "width": 5481,
+    "height": 3654,
+    "type": "webp"
+  },
+  "/photos/portraits/freya-waley-2.webp": {
+    "width": 5760,
+    "height": 3840,
+    "type": "webp"
+  },
+  "/photos/portraits/freya-waley-3.webp": {
+    "width": 5760,
+    "height": 3840,
+    "type": "webp"
+  },
+  "/photos/portraits/freya-waley.webp": {
+    "width": 2655,
+    "height": 4135,
+    "type": "webp"
+  },
+  "/photos/portraits/gabriela-lena-frank.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/gabriela-ortiz.webp": {
+    "width": 800,
+    "height": 1200,
+    "type": "webp"
+  },
+  "/photos/portraits/george-crumb.webp": {
+    "width": 2354,
+    "height": 3333,
+    "type": "webp"
+  },
+  "/photos/portraits/george-nickson.webp": {
+    "width": 2401,
+    "height": 3600,
+    "type": "webp"
+  },
+  "/photos/portraits/george-perle.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/gerard-grisey.webp": {
+    "width": 1280,
+    "height": 720,
+    "type": "webp"
+  },
+  "/photos/portraits/gyorgy-kurtag-1.webp": {
+    "width": 2048,
+    "height": 1365,
+    "type": "webp"
+  },
+  "/photos/portraits/gyorgy-kurtag.webp": {
+    "width": 1920,
+    "height": 1277,
+    "type": "webp"
+  },
+  "/photos/portraits/gyorgy-ligeti-1.webp": {
+    "width": 3182,
+    "height": 2121,
+    "type": "webp"
+  },
+  "/photos/portraits/gyorgy-ligeti.webp": {
+    "width": 1500,
+    "height": 967,
+    "type": "webp"
+  },
+  "/photos/portraits/han-chen-1.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/han-chen.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/han-lash.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/hanick-2-waiter.webp": {
+    "width": 4999,
+    "height": 3333,
+    "type": "webp"
+  },
+  "/photos/portraits/hk-gruber.webp": {
+    "width": 2250,
+    "height": 2592,
+    "type": "webp"
+  },
+  "/photos/portraits/i-m.webp": {
+    "width": 4032,
+    "height": 5905,
+    "type": "webp"
+  },
+  "/photos/portraits/iannis-xenakis.webp": {
+    "width": 1080,
+    "height": 1089,
+    "type": "webp"
+  },
+  "/photos/portraits/inti-figgis-vizueta.webp": {
+    "width": 572,
+    "height": 800,
+    "type": "webp"
+  },
+  "/photos/portraits/jamie-clark-headshot.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/jen-headshot6-copy.webp": {
+    "width": 4480,
+    "height": 6720,
+    "type": "webp"
+  },
+  "/photos/portraits/jennifer-best.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/jerod-impichchaachaaha-tate.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/jerod-tate.webp": {
+    "width": 2500,
+    "height": 1717,
+    "type": "webp"
+  },
+  "/photos/portraits/jonathan-cziner-1.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/jonathan-cziner.webp": {
+    "width": 1775,
+    "height": 1779,
+    "type": "webp"
+  },
+  "/photos/portraits/julia-adolphe-1.webp": {
+    "width": 2000,
+    "height": 1333,
+    "type": "webp"
+  },
+  "/photos/portraits/julia-adolphe.webp": {
+    "width": 2000,
+    "height": 1333,
+    "type": "webp"
+  },
+  "/photos/portraits/kaija-saariaho-1.webp": {
+    "width": 4072,
+    "height": 2688,
+    "type": "webp"
+  },
+  "/photos/portraits/kaija-saariaho.webp": {
+    "width": 2800,
+    "height": 4200,
+    "type": "webp"
+  },
+  "/photos/portraits/karlheinz-stockhausen.webp": {
+    "width": 1400,
+    "height": 1067,
+    "type": "webp"
+  },
+  "/photos/portraits/kenji-bunch-1.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/kenji-bunch.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/kevin-day.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/kitty-xiao.webp": {
+    "width": 3756,
+    "height": 4143,
+    "type": "webp"
+  },
+  "/photos/portraits/krizts-auznieks.webp": {
+    "width": 1365,
+    "height": 2048,
+    "type": "webp"
+  },
+  "/photos/portraits/kyle-rivera-1.webp": {
+    "width": 4016,
+    "height": 6016,
+    "type": "webp"
+  },
+  "/photos/portraits/kyle-rivera.webp": {
+    "width": 5897,
+    "height": 3932,
+    "type": "webp"
+  },
+  "/photos/portraits/lou-harrison.webp": {
+    "width": 1918,
+    "height": 2270,
+    "type": "webp"
+  },
+  "/photos/portraits/louis-andriessen.webp": {
+    "width": 2643,
+    "height": 1981,
+    "type": "webp"
+  },
+  "/photos/portraits/lucy-fitz-gibbon.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/magnus-lindberg-1.webp": {
+    "width": 2000,
+    "height": 1124,
+    "type": "webp"
+  },
+  "/photos/portraits/magnus-lindberg.webp": {
+    "width": 1500,
+    "height": 1000,
+    "type": "webp"
+  },
+  "/photos/portraits/marc-migo-cortes.webp": {
+    "width": 2484,
+    "height": 1656,
+    "type": "webp"
+  },
+  "/photos/portraits/marcelina-suchocka.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/marcos-balter.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/margaret-brouwer.webp": {
+    "width": 2131,
+    "height": 1492,
+    "type": "webp"
+  },
+  "/photos/portraits/mario-carro.webp": {
+    "width": 1536,
+    "height": 2048,
+    "type": "webp"
+  },
+  "/photos/portraits/mark-anthony-turnage-2.webp": {
+    "width": 1200,
+    "height": 675,
+    "type": "webp"
+  },
+  "/photos/portraits/mark-anthony-turnage.webp": {
+    "width": 1632,
+    "height": 800,
+    "type": "webp"
+  },
+  "/photos/portraits/max-grafe.webp": {
+    "width": 400,
+    "height": 400,
+    "type": "webp"
+  },
+  "/photos/portraits/mholler-e.webp": {
+    "width": 2400,
+    "height": 3000,
+    "type": "webp"
+  },
+  "/photos/portraits/michael-begay.webp": {
+    "width": 3757,
+    "height": 2505,
+    "type": "webp"
+  },
+  "/photos/portraits/michelle-gott.webp": {
+    "width": 1600,
+    "height": 1067,
+    "type": "webp"
+  },
+  "/photos/portraits/missy-mazzoli-1.webp": {
+    "width": 2500,
+    "height": 1331,
+    "type": "webp"
+  },
+  "/photos/portraits/missy-mazzoli.webp": {
+    "width": 2048,
+    "height": 2560,
+    "type": "webp"
+  },
+  "/photos/portraits/molly-herron-1.webp": {
+    "width": 4500,
+    "height": 3000,
+    "type": "webp"
+  },
+  "/photos/portraits/molly-herron.webp": {
+    "width": 4500,
+    "height": 3000,
+    "type": "webp"
+  },
+  "/photos/portraits/natalie-helm-1.webp": {
+    "width": 3600,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/portraits/natalie-helm.webp": {
+    "width": 3413,
+    "height": 5120,
+    "type": "webp"
+  },
+  "/photos/portraits/nia-imani-franklin-1.webp": {
+    "width": 1920,
+    "height": 1281,
+    "type": "webp"
+  },
+  "/photos/portraits/nia-imani-franklin-2.webp": {
+    "width": 819,
+    "height": 1024,
+    "type": "webp"
+  },
+  "/photos/portraits/nia-imani-franklin.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/nico-muhly.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/nina-c-young.webp": {
+    "width": 721,
+    "height": 900,
+    "type": "webp"
+  },
+  "/photos/portraits/patrick-harlin.webp": {
+    "width": 3023,
+    "height": 2018,
+    "type": "webp"
+  },
+  "/photos/portraits/paul-mortilla.webp": {
+    "width": 2116,
+    "height": 2048,
+    "type": "webp"
+  },
+  "/photos/portraits/philippe-hurel.webp": {
+    "width": 1440,
+    "height": 720,
+    "type": "webp"
+  },
+  "/photos/portraits/philippe-manoury-1.webp": {
+    "width": 3360,
+    "height": 2240,
+    "type": "webp"
+  },
+  "/photos/portraits/philippe-manoury.webp": {
+    "width": 4480,
+    "height": 6720,
+    "type": "webp"
+  },
+  "/photos/portraits/pierre-boulez-1.webp": {
+    "width": 1038,
+    "height": 1380,
+    "type": "webp"
+  },
+  "/photos/portraits/pierre-boulez.webp": {
+    "width": 1417,
+    "height": 936,
+    "type": "webp"
+  },
+  "/photos/portraits/pinto-correia.webp": {
+    "width": 3102,
+    "height": 3331,
+    "type": "webp"
+  },
+  "/photos/portraits/raven-chacon.webp": {
+    "width": 1382,
+    "height": 921,
+    "type": "webp"
+  },
+  "/photos/portraits/reena-esmail.webp": {
+    "width": 2592,
+    "height": 3872,
+    "type": "webp"
+  },
+  "/photos/portraits/samantha-bennett-1.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/samantha-bennett.webp": {
+    "width": 2401,
+    "height": 3600,
+    "type": "webp"
+  },
+  "/photos/portraits/samuel-adams-1.webp": {
+    "width": 4000,
+    "height": 2667,
+    "type": "webp"
+  },
+  "/photos/portraits/samuel-adams-2.webp": {
+    "width": 4000,
+    "height": 2667,
+    "type": "webp"
+  },
+  "/photos/portraits/samuel-adams-3.webp": {
+    "width": 4000,
+    "height": 2667,
+    "type": "webp"
+  },
+  "/photos/portraits/samuel-adams.webp": {
+    "width": 5760,
+    "height": 3840,
+    "type": "webp"
+  },
+  "/photos/portraits/sarah-kirkland-snider-1.webp": {
+    "width": 1024,
+    "height": 737,
+    "type": "webp"
+  },
+  "/photos/portraits/sarah-kirkland-snider.webp": {
+    "width": 1980,
+    "height": 1321,
+    "type": "webp"
+  },
+  "/photos/portraits/scott-lee-1.webp": {
+    "width": 3608,
+    "height": 5226,
+    "type": "webp"
+  },
+  "/photos/portraits/scott-lee-2.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/scott-lee.webp": {
+    "width": 3424,
+    "height": 4954,
+    "type": "webp"
+  },
+  "/photos/portraits/scott.webp": {
+    "width": 5472,
+    "height": 3648,
+    "type": "webp"
+  },
+  "/photos/portraits/seanfriar.webp": {
+    "width": 2500,
+    "height": 1589,
+    "type": "webp"
+  },
+  "/photos/portraits/sebastian-currier-1.webp": {
+    "width": 1632,
+    "height": 800,
+    "type": "webp"
+  },
+  "/photos/portraits/sebastian-currier-2.webp": {
+    "width": 4195,
+    "height": 6425,
+    "type": "webp"
+  },
+  "/photos/portraits/sebastian-currier-3.webp": {
+    "width": 5725,
+    "height": 3817,
+    "type": "webp"
+  },
+  "/photos/portraits/sebastian-currier.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/portraits/shaun-tilburg.webp": {
+    "width": 500,
+    "height": 742,
+    "type": "webp"
+  },
+  "/photos/portraits/shawn-allison.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/shawn-okpebholo-1.webp": {
+    "width": 1536,
+    "height": 2048,
+    "type": "webp"
+  },
+  "/photos/portraits/shawn-okpebholo.webp": {
+    "width": 2080,
+    "height": 1387,
+    "type": "webp"
+  },
+  "/photos/portraits/sofia-gubaidulina.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/stacy-garrop-1.webp": {
+    "width": 3570,
+    "height": 4913,
+    "type": "webp"
+  },
+  "/photos/portraits/stacy-garrop-2.webp": {
+    "width": 4812,
+    "height": 3208,
+    "type": "webp"
+  },
+  "/photos/portraits/stacy-garrop-3.webp": {
+    "width": 2560,
+    "height": 2051,
+    "type": "webp"
+  },
+  "/photos/portraits/stacy-garrop.webp": {
+    "width": 3637,
+    "height": 5408,
+    "type": "webp"
+  },
+  "/photos/portraits/stephanie-block.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/stephen-drury.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/tan-dun.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/thea-lobo.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/unsuk-chin-1.webp": {
+    "width": 2048,
+    "height": 1152,
+    "type": "webp"
+  },
+  "/photos/portraits/unsuk-chin.webp": {
+    "width": 4920,
+    "height": 3280,
+    "type": "webp"
+  },
+  "/photos/portraits/viet-cuong.webp": {
+    "width": 2000,
+    "height": 1430,
+    "type": "webp"
+  },
+  "/photos/portraits/wolfgang-rihm-1.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/wolfgang-rihm.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/yaz-lancaster-1.webp": {
+    "width": 1600,
+    "height": 1600,
+    "type": "webp"
+  },
+  "/photos/portraits/yaz-lancaster.webp": {
+    "width": 1600,
+    "height": 1600,
+    "type": "webp"
+  }
+}

@@ -121,7 +121,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       {concertData.subtitle && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
           <div className="text-center max-w-3xl mx-auto px-4">
-            <p className="text-lg text-gray-600 italic">{concertData.subtitle}</p>
+            <p className={`text-lg text-${colors.randomColor}-100 italic`}>{concertData.subtitle}</p>
           </div>
         </SectionEmpty>
       )}
@@ -129,7 +129,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       {concertData.description && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
           <div className="text-center max-w-4xl mx-auto px-4">
-            <p className="text-gray-700">{concertData.description}</p>
+            <p className={`text-lg text-${colors.randomColor}-100`}>{concertData.description}</p>
           </div>
         </SectionEmpty>
       )}

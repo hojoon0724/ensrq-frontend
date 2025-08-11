@@ -1,7 +1,8 @@
 "use client";
 
 import { Badge, Button } from "@/components/atoms";
-import { ProgramWork } from "@/types";
+import photoManifest from "@/data/photo-manifest.json";
+import { PhotoManifest, ProgramWork } from "@/types";
 import { getComposerData, getMusicianData, getWorkData } from "@/utils";
 import Image from "next/image";
 import { useState } from "react";
@@ -71,8 +72,8 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
 
   const colors = getColors(color, tone);
 
-  // Generate composer photo path (assuming photos are stored in public/photos/composers/)
-  const composerPhotoPath = composer ? `/photos/composers/${composer.composerId}.jpg` : null;
+  // Generate composer photo path (assuming photos are stored in public/photos/portraits/)
+  const composerPhotoPath = composer ? `/photos/portraits/${composer.composerId}.webp` : null;
 
   const formatYearRange = (born?: number, died?: number) => {
     if (!born && !died) return null;
@@ -92,19 +93,19 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
           {/* Composer Photo */}
           <div className="flex-shrink-0">
             {composerPhotoPath && !imageError ? (
-              <div className="w-16 h-16 rounded-full overflow-hidden shadow-md border-2 border-white">
+              <div className={`w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}>
                 <Image
                   src={composerPhotoPath}
                   alt={composer?.name || "Composer"}
-                  width={64}
-                  height={64}
+                  width={(photoManifest as PhotoManifest)[composerPhotoPath]?.width || 256}
+                  height={(photoManifest as PhotoManifest)[composerPhotoPath]?.height || 256}
                   className="object-cover w-full h-full"
                   onError={() => setImageError(true)}
                 />
               </div>
             ) : (
               <div
-                className={`w-16 h-16 rounded-full ${colors.button} flex items-center justify-center shadow-md font-bold text-xl`}
+                className={`w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full ${colors.button} flex items-center justify-center shadow-md font-bold text-lg md:text-2xl lg:text-6xl`}
               >
                 {composer?.name
                   ?.split(" ")
@@ -132,7 +133,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
               </div>
 
               {/* Badges for special designations */}
-              <div className="flex flex-col gap-1">
+              <div className="flex flex- gap-1">
                 {programWork.is_premiere && <Badge className={`${colors.badge} text-xs font-semibold`}>PREMIERE</Badge>}
                 {programWork.is_commission && (
                   <Badge className={`${colors.badge} text-xs font-semibold`}>COMMISSION</Badge>
@@ -160,28 +161,27 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
                 </span>
               )}
             </div>
+            {/* Movements Section */}
+            {work?.movements && work.movements.length > 0 && (
+              <div className="px-0 py-4">
+                {/* <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Movements:</h5> */}
+                <ul className=" space-y-1">
+                  {work.movements.map((movement, index) => (
+                    <li key={index} className={`text-sm ${colors.text}`}>
+                      {movement}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      {/* Movements Section */}
-      {work?.movements && work.movements.length > 0 && (
-        <div className="px-6 pb-4">
-          <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Movements:</h5>
-          <ol className="list-decimal list-inside space-y-1">
-            {work.movements.map((movement, index) => (
-              <li key={index} className={`text-sm ${colors.text}`}>
-                {movement}
-              </li>
-            ))}
-          </ol>
-        </div>
-      )}
-
       {/* Musicians Section */}
       {musicians.length > 0 && (
         <div className="px-6 pb-4">
-          <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Performers:</h5>
+          {/* <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Performers:</h5> */}
           <div className="flex flex-wrap gap-2">
             {musicians.map((musician, index) => (
               <div
@@ -197,7 +197,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
       )}
 
       {/* Instrumentation */}
-      {work?.instrumentation && work.instrumentation.length > 0 && (
+      {/* {work?.instrumentation && work.instrumentation.length > 0 && (
         <div className="px-6 pb-4">
           <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Instrumentation:</h5>
           <div className="flex flex-wrap gap-2">
@@ -209,7 +209,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
             ))}
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Program Notes Toggle */}
       {work?.description && (
