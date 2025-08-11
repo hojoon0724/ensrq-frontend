@@ -104,7 +104,7 @@ export function SideNavBar() {
       />
 
       <div className={`sticky top-0 z-50 flex justify-center items-center w-screen bg-gray-900/10 transition-all`}>
-        <div className="nav-contents-container w-full max-w-7xl flex justify-between items-center h-[80px] p-double lg:p-0 lg:h-0">
+        <div className="nav-contents-container w-full max-w-7xl flex justify-between items-center h-[80px] bg-white p-double lg:p-0 lg:h-0">
           {/* Logo */}
           <div className="nav-left-logo-container h-full aspect-[20/9] lg:hidden">
             <Link href="/">
@@ -290,7 +290,7 @@ export function SideNavBar() {
           </div>
 
           {/* Mobile Menu */}
-          <div className="overflow-clip absolute top-full left-0 w-screen h-[calc(100vh-80px)] shadow-lg transition-transform duration-300 ease-in-out lg:hidden">
+          <div className="overflow-clip absolute top-full left-0 w-screen h-[calc(100vh-80px)] shadow-lg transition-transform duration-300 ease-in-out lg:hidden pointer-events-none">
             <div
               className={`nav-mobile-menu-container  top-full left-0 w-screen h-full pb-[100px] bg-gray-30 shadow-lg transition-transform duration-300 ease-in-out ${
                 isMobileMenuOpen ? "translate-x-0" : "translate-x-full"

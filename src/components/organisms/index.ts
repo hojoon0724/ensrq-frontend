@@ -1,3 +1,4 @@
+export { AboutProfilesContainer } from "./AboutProfilesContainer";
 export { Donors } from "./Donors";
 export { Footer } from "./Footer";
 export { MatchGame } from "./MatchGame";

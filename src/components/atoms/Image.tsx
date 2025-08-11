@@ -12,6 +12,10 @@ export interface ImageProps {
   objectFit?: "contain" | "cover" | "fill" | "none" | "scale-down";
   rounded?: "none" | "sm" | "md" | "lg" | "full";
   loading?: "lazy" | "eager";
+  xCenter?: string | number;
+  yCenter?: string | number;
+  sizes?: string;
+  onLoad?: () => void;
 }
 
 export function Image({
@@ -25,6 +29,10 @@ export function Image({
   objectFit = "cover",
   rounded = "none",
   loading = "lazy",
+  xCenter = "50%",
+  yCenter = "50%",
+  sizes,
+  onLoad,
   ...props
 }: ImageProps): React.ReactNode {
   const roundedClasses = {
@@ -43,10 +51,34 @@ export function Image({
     "scale-down": "object-scale-down",
   };
 
+  // Create object-position style for centering
+  const formatPosition = (value: string | number): string => {
+    if (typeof value === "number") {
+      return `${value}%`;
+    }
+    return value;
+  };
+
+  const objectPositionStyle = {
+    objectPosition: `${formatPosition(xCenter)} ${formatPosition(yCenter)}`,
+  };
+
   const imageClasses = `${roundedClasses[rounded]} ${objectFitClasses[objectFit]} ${className}`;
 
   if (fill) {
-    return <NextImage src={src} alt={alt} fill priority={priority} className={imageClasses} {...props} />;
+    return (
+      <NextImage
+        src={src}
+        alt={alt}
+        fill
+        priority={priority}
+        className={imageClasses}
+        style={objectPositionStyle}
+        sizes={sizes}
+        onLoad={onLoad}
+        {...props}
+      />
+    );
   }
 
   return (
@@ -58,7 +90,9 @@ export function Image({
       priority={priority}
       loading={loading}
       className={imageClasses}
+      style={objectPositionStyle}
+      onLoad={onLoad}
       {...props}
     />
   );
-};
+}
