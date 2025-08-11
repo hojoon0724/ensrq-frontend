@@ -10,6 +10,7 @@ export { Label } from "./Label";
 export { MovingGradientText } from "./MovingGradientText";
 export { RadioButton } from "./RadioButton";
 export { SelectDropdown } from "./SelectDropdown";
+export { ShowMarkdownText } from "./ShowMarkdownText";
 export { SocialMediaIcons } from "./SocialMediaIcons";
 export { Spinner } from "./Spinner";
 export { Textarea } from "./Textarea";

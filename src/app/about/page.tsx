@@ -9,7 +9,7 @@ export default function About() {
       <SectionEmpty themeColor="gray" className="flex flex-col justify-center items-center gap-s">
         <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="mission"></a>
         <Image
-          src="/graphics/ensrq-logo-for-bright.png"
+          src="/graphics/ensrq-logo-for-bright.webp"
           alt="ensrq-logo"
           width={800}
           height={300}

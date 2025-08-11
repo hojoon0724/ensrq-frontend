@@ -1,9 +1,4 @@
 {
-  "/graphics/ensrq-logo-for-bright.png": {
-    "width": 2500,
-    "height": 1708,
-    "type": "png"
-  },
   "/graphics/ensrq-logo-for-bright.webp": {
     "width": 2500,
     "height": 1708,
@@ -68,11 +63,6 @@
     "width": 1920,
     "height": 1080,
     "type": "webp"
-  },
-  "/graphics/s10/streaming-thumbnails/s10-2025-10-27-tangled-whispers.jpg": {
-    "width": 1920,
-    "height": 1080,
-    "type": "jpeg"
   },
   "/graphics/s10/streaming-thumbnails/s10-2025-10-27-tangled-whispers.webp": {
     "width": 1920,
@@ -274,6 +264,16 @@
     "height": 3750,
     "type": "webp"
   },
+  "/photos/portraits/amy-williams.webp": {
+    "width": 1920,
+    "height": 1440,
+    "type": "webp"
+  },
+  "/photos/portraits/andrew-thomas.webp": {
+    "width": 740,
+    "height": 772,
+    "type": "webp"
+  },
   "/photos/portraits/angelica-negron-1.webp": {
     "width": 3632,
     "height": 5447,
@@ -339,12 +339,17 @@
     "height": 1882,
     "type": "webp"
   },
-  "/photos/portraits/bright.webp": {
+  "/photos/portraits/bright-sheng.webp": {
     "width": 3200,
     "height": 1801,
     "type": "webp"
   },
-  "/photos/portraits/carolyn.webp": {
+  "/photos/portraits/caroline-shaw.webp": {
+    "width": 1035,
+    "height": 870,
+    "type": "webp"
+  },
+  "/photos/portraits/carolyn-chen.webp": {
     "width": 2500,
     "height": 2000,
     "type": "webp"
@@ -352,6 +357,11 @@
   "/photos/portraits/charles-ives.webp": {
     "width": 4086,
     "height": 5180,
+    "type": "webp"
+  },
+  "/photos/portraits/che-buford.webp": {
+    "width": 1000,
+    "height": 1000,
     "type": "webp"
   },
   "/photos/portraits/chris-rogerson-1.webp": {
@@ -374,14 +384,14 @@
     "height": 2000,
     "type": "webp"
   },
-  "/photos/portraits/christopher--cerrone-1.webp": {
+  "/photos/portraits/christopher-cerrone-1.webp": {
     "width": 4368,
     "height": 6000,
     "type": "webp"
   },
-  "/photos/portraits/christopher--cerrone-2.webp": {
-    "width": 4496,
-    "height": 6000,
+  "/photos/portraits/christopher-cerrone-2.webp": {
+    "width": 6000,
+    "height": 4285,
     "type": "webp"
   },
   "/photos/portraits/christopher-cerrone-3.webp": {
@@ -390,8 +400,8 @@
     "type": "webp"
   },
   "/photos/portraits/christopher-cerrone.webp": {
-    "width": 6000,
-    "height": 4285,
+    "width": 4496,
+    "height": 6000,
     "type": "webp"
   },
   "/photos/portraits/chroma-mary.webp": {
@@ -404,6 +414,11 @@
     "height": 1600,
     "type": "webp"
   },
+  "/photos/portraits/claude-vivier.webp": {
+    "width": 1500,
+    "height": 844,
+    "type": "webp"
+  },
   "/photos/portraits/conor-hanick.webp": {
     "width": 3593,
     "height": 2395,
@@ -412,6 +427,11 @@
   "/photos/portraits/dai-wei.webp": {
     "width": 2500,
     "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/diallo-banks.webp": {
+    "width": 1711,
+    "height": 2083,
     "type": "webp"
   },
   "/photos/portraits/du-yun.webp": {
@@ -442,6 +462,11 @@
   "/photos/portraits/ellen-reid.webp": {
     "width": 4500,
     "height": 3968,
+    "type": "webp"
+  },
+  "/photos/portraits/elliott-carter.webp": {
+    "width": 1062,
+    "height": 708,
     "type": "webp"
   },
   "/photos/portraits/emily-levin-1.webp": {
@@ -629,6 +654,11 @@
     "height": 1333,
     "type": "webp"
   },
+  "/photos/portraits/juri-seo.webp": {
+    "width": 1000,
+    "height": 620,
+    "type": "webp"
+  },
   "/photos/portraits/kaija-saariaho-1.webp": {
     "width": 4072,
     "height": 2688,
@@ -657,6 +687,11 @@
   "/photos/portraits/kevin-day.webp": {
     "width": 2500,
     "height": 2000,
+    "type": "webp"
+  },
+  "/photos/portraits/kevin-puts.webp": {
+    "width": 1200,
+    "height": 750,
     "type": "webp"
   },
   "/photos/portraits/kitty-xiao.webp": {
@@ -739,6 +774,11 @@
     "height": 800,
     "type": "webp"
   },
+  "/photos/portraits/matthew-aucoin.webp": {
+    "width": 2500,
+    "height": 1739,
+    "type": "webp"
+  },
   "/photos/portraits/max-grafe.webp": {
     "width": 400,
     "height": 400,
@@ -752,6 +792,11 @@
   "/photos/portraits/michael-begay.webp": {
     "width": 3757,
     "height": 2505,
+    "type": "webp"
+  },
+  "/photos/portraits/michael-ippolito.webp": {
+    "width": 2364,
+    "height": 1901,
     "type": "webp"
   },
   "/photos/portraits/michelle-gott.webp": {
@@ -862,6 +907,16 @@
   "/photos/portraits/reena-esmail.webp": {
     "width": 2592,
     "height": 3872,
+    "type": "webp"
+  },
+  "/photos/portraits/reiko-futing.webp": {
+    "width": 2500,
+    "height": 1669,
+    "type": "webp"
+  },
+  "/photos/portraits/roger-zare.webp": {
+    "width": 1105,
+    "height": 768,
     "type": "webp"
   },
   "/photos/portraits/samantha-bennett-1.webp": {
@@ -1004,6 +1059,11 @@
     "height": 2000,
     "type": "webp"
   },
+  "/photos/portraits/steve-reich.webp": {
+    "width": 2048,
+    "height": 1369,
+    "type": "webp"
+  },
   "/photos/portraits/tan-dun.webp": {
     "width": 2500,
     "height": 2000,
@@ -1027,6 +1087,11 @@
   "/photos/portraits/viet-cuong.webp": {
     "width": 2000,
     "height": 1430,
+    "type": "webp"
+  },
+  "/photos/portraits/vivian-fung.webp": {
+    "width": 1024,
+    "height": 1536,
     "type": "webp"
   },
   "/photos/portraits/wolfgang-rihm-1.webp": {

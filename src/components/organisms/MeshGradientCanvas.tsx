@@ -10,19 +10,39 @@ type MeshGradientCanvasProps = {
   backgroundColor?: string;
 };
 
+// Cache for resolved colors to avoid repeated DOM operations
+const colorCache = new Map<string, string>();
+
+// Function to clear the color cache (useful if CSS custom properties change)
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const clearColorCache = () => {
+  colorCache.clear();
+};
+
 // Helper function to resolve CSS variables to computed color values
 const resolveCSSColor = (color: string): string => {
   if (typeof window === "undefined") return color;
 
+  // Check cache first
+  if (colorCache.has(color)) {
+    return colorCache.get(color)!;
+  }
+
   // Create a temporary element to compute the color
   const tempElement = document.createElement("div");
   tempElement.style.color = color;
+  tempElement.style.visibility = "hidden";
+  tempElement.style.position = "absolute";
+  tempElement.style.pointerEvents = "none";
   document.body.appendChild(tempElement);
 
   const computedColor = window.getComputedStyle(tempElement).color;
   document.body.removeChild(tempElement);
 
-  return computedColor || color;
+  const result = computedColor || color;
+  // Cache the result
+  colorCache.set(color, result);
+  return result;
 };
 
 type Blob = {

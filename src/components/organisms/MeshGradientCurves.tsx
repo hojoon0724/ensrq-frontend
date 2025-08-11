@@ -23,14 +23,36 @@ type Curve = {
   color: string;
 };
 
+// Cache for resolved colors to avoid repeated DOM operations
+const colorCache = new Map<string, string>();
+
+// Function to clear the color cache (useful if CSS custom properties change)
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const clearColorCache = () => {
+  colorCache.clear();
+};
+
 const resolveCSSColor = (color: string): string => {
   if (typeof window === "undefined") return color;
+
+  // Check cache first
+  if (colorCache.has(color)) {
+    return colorCache.get(color)!;
+  }
+
   const el = document.createElement("div");
   el.style.color = color;
+  el.style.visibility = "hidden";
+  el.style.position = "absolute";
+  el.style.pointerEvents = "none";
   document.body.appendChild(el);
   const computed = window.getComputedStyle(el).color;
   document.body.removeChild(el);
-  return computed || color;
+
+  const result = computed || color;
+  // Cache the result
+  colorCache.set(color, result);
+  return result;
 };
 
 export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
@@ -141,7 +163,7 @@ export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
       }
 
       // Set blend mode based on tone
-      const globalCompositeOperation = tone === 'dark' ? 'multiply' : 'source-over';
+      const globalCompositeOperation = tone === "dark" ? "multiply" : "source-over";
       // const globalCompositeOperation = 'source-over'
 
       curvesRef.current.forEach((curve) => {
@@ -166,18 +188,18 @@ export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
             alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1);
           }
 
-            ctx.beginPath();
-            ctx.moveTo(points[0].x, points[0].y);
+          ctx.beginPath();
+          ctx.moveTo(points[0].x, points[0].y);
 
-            for (let i = 1; i < points.length; i++) {
-              if (i === points.length - 1) {
-                ctx.lineTo(points[i].x, points[i].y);
-              } else {
-                const xc = (points[i].x + points[i + 1].x) / 2;
-                const yc = (points[i].y + points[i + 1].y) / 2;
-                ctx.quadraticCurveTo(points[i].x, points[i].y, xc, yc);
-              }
+          for (let i = 1; i < points.length; i++) {
+            if (i === points.length - 1) {
+              ctx.lineTo(points[i].x, points[i].y);
+            } else {
+              const xc = (points[i].x + points[i + 1].x) / 2;
+              const yc = (points[i].y + points[i + 1].y) / 2;
+              ctx.quadraticCurveTo(points[i].x, points[i].y, xc, yc);
             }
+          }
 
           // Use the original color with alpha applied
           ctx.strokeStyle = color;

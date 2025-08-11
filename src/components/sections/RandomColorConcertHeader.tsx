@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, MovingGradientText } from "@/components/atoms";
+import { ShowMarkdownText } from "@/components/atoms/ShowMarkdownText";
 import { ProgramTile } from "@/components/molecules";
 import { SectionEmpty } from "@/components/sections";
 import { SectionMeshGradient } from "@/components/sections/SectionMeshGradient";
@@ -92,7 +93,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
         <div className="tickets-link-container grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
           {concertData.ticketsLinks?.singleLive?.url && (
-            <Button color={colors.randomTextColor}>
+            <Button color={colors.randomTextColor} disabled={concertData.ticketsLinks.singleLive.price <= 0}>
               <Link href={concertData.ticketsLinks.singleLive.url}>
                 Purchase Live Tickets
                 {concertData.ticketsLinks.singleLive.price &&
@@ -102,12 +103,13 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
             </Button>
           )}
           {concertData.ticketsLinks?.singleStreaming?.url && (
-            <Button color={colors.randomTextColor}>
+            <Button color={colors.randomTextColor} disabled={concertData.ticketsLinks.singleStreaming.price <= 0}>
               <Link href={concertData.ticketsLinks.singleStreaming.url}>
                 Purchase Streaming
-                {concertData.ticketsLinks.singleStreaming.price &&
-                  concertData.ticketsLinks.singleStreaming.price > 0 &&
-                  ` - $${concertData.ticketsLinks.singleStreaming.price}`}
+                {concertData.ticketsLinks.singleStreaming.price ||
+                  concertData.ticketsLinks.singleStreaming.price > 0 ? (
+                  ` - $${concertData.ticketsLinks.singleStreaming.price}`
+                ) : null}
               </Link>
             </Button>
           )}
@@ -129,7 +131,9 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       {concertData.description && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
           <div className="text-center max-w-4xl mx-auto px-4">
-            <p className={`text-lg text-${colors.randomColor}-100`}>{concertData.description}</p>
+            <p className={`text-lg text-${colors.randomColor}-100`}>
+              <ShowMarkdownText>{concertData.description}</ShowMarkdownText>
+            </p>
           </div>
         </SectionEmpty>
       )}
