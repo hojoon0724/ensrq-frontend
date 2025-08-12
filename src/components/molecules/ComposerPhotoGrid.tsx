@@ -2,7 +2,7 @@
 
 import photoManifest from "@/data/photo-manifest.json";
 import { PhotoManifest } from "@/types";
-import Image from "next/image";
+import {Image} from "@/components/atoms"; 
 
 interface ComposerPhotoGridProps {
   photoPaths: string[];
@@ -61,6 +61,7 @@ export function ComposerPhotoGrid({ photoPaths, className = "" }: ComposerPhotoG
       className={`composer-photo-grid h-full w-full grid auto-rows-fr gap-1 ${className}`}
       style={{
         gridTemplateColumns: `repeat(${columns}, 1fr)`,
+        // gridTemplateColumns: `repeat(3, 1fr)`,
       }}
     >
       {renderPhotoGrid()}
