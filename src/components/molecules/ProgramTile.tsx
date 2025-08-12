@@ -4,7 +4,7 @@ import { Badge, Button } from "@/components/atoms";
 import photoManifest from "@/data/photo-manifest.json";
 import { PhotoManifest, ProgramWork } from "@/types";
 import { getComposerData, getMusicianData, getWorkData } from "@/utils";
-import Image from "next/image";
+import { Image } from "@/components/atoms";
 import { useState } from "react";
 
 interface ProgramTileProps {
