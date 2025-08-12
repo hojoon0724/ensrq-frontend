@@ -131,9 +131,9 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       {concertData.description && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
           <div className="text-center max-w-4xl mx-auto px-4">
-            <p className={`text-lg text-${colors.randomColor}-100`}>
+            <div className={`text-lg text-${colors.randomColor}-100`}>
               <ShowMarkdownText>{concertData.description}</ShowMarkdownText>
-            </p>
+            </div>
           </div>
         </SectionEmpty>
       )}

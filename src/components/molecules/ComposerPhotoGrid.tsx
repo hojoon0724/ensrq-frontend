@@ -1,8 +1,6 @@
 "use client";
 
-import photoManifest from "@/data/photo-manifest.json";
-import { PhotoManifest } from "@/types";
-import {Image} from "@/components/atoms"; 
+import { Image } from "@/components/atoms";
 
 interface ComposerPhotoGridProps {
   photoPaths: string[];
@@ -41,13 +39,16 @@ export function ComposerPhotoGrid({ photoPaths, className = "" }: ComposerPhotoG
       const shouldSpan = shouldLastSpan && isLastPhoto;
 
       return (
-        <div key={index} className={`composer-photo-container h-full w-full ${shouldSpan ? "col-span-full" : ""}`}>
+        <div
+          key={index}
+          className={`composer-photo-container relative h-full w-full ${shouldSpan ? "col-span-full" : ""}`}
+        >
           <Image
             src={photoPath}
             alt={`Composer ${index + 1}`}
-            width={(photoManifest as PhotoManifest)[photoPath]?.width || 256}
-            height={(photoManifest as PhotoManifest)[photoPath]?.height || 256}
-            className="object-cover w-full h-full rounded-sm"
+            fill
+            className="object-cover rounded-sm"
+            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
         </div>
       );

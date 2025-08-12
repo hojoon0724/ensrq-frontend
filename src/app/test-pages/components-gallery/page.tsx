@@ -366,17 +366,10 @@ export default function ComponentsGalleryPage() {
             </div>
             <div className="flex gap-4 items-center">
               <div className="w-16 h-16 relative">
-                <Image src="/next.svg" alt="Square image" width={64} height={64} rounded="md" objectFit="contain" />
+                <Image src="/next.svg" alt="Square image" fill rounded="md" objectFit="contain" />
               </div>
               <div className="w-16 h-16 relative">
-                <Image
-                  src="/vercel.svg"
-                  alt="Rounded image"
-                  width={64}
-                  height={64}
-                  rounded="full"
-                  objectFit="contain"
-                />
+                <Image src="/vercel.svg" alt="Rounded image" fill rounded="full" objectFit="contain" />
               </div>
             </div>
           </div>

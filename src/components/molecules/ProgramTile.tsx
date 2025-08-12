@@ -1,10 +1,8 @@
 "use client";
 
-import { Badge, Button } from "@/components/atoms";
-import photoManifest from "@/data/photo-manifest.json";
-import { PhotoManifest, ProgramWork } from "@/types";
+import { Badge, Button, Image } from "@/components/atoms";
+import { ProgramWork } from "@/types";
 import { getComposerData, getMusicianData, getWorkData } from "@/utils";
-import { Image } from "@/components/atoms";
 import { useState } from "react";
 
 interface ProgramTileProps {
@@ -93,14 +91,16 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
           {/* Composer Photo */}
           <div className="flex-shrink-0">
             {composerPhotoPath && !imageError ? (
-              <div className={`w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}>
+              <div
+                className={`relative w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}
+              >
                 <Image
                   src={composerPhotoPath}
                   alt={composer?.name || "Composer"}
-                  width={(photoManifest as PhotoManifest)[composerPhotoPath]?.width || 256}
-                  height={(photoManifest as PhotoManifest)[composerPhotoPath]?.height || 256}
-                  className="object-cover w-full h-full"
+                  fill
+                  className="object-cover"
                   onError={() => setImageError(true)}
+                  sizes="(max-width: 768px) 96px, (max-width: 1024px) 128px, 256px"
                 />
               </div>
             ) : (
