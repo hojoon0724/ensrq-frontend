@@ -16,6 +16,7 @@ export default function Streaming() {
               src={`/graphics/season-link-buttons/streaming-${season.seasonId}.webp`}
               alt={`Season ${formatSeasonLabel(season.seasonId)}`}
               className="w-full h-auto object-cover rounded-lg shadow-lg"
+              fill={false}
               width={500}
               height={300}
             />

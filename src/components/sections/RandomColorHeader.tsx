@@ -41,7 +41,7 @@ export default function RandomColorHeader({ title, className = "h-[max(30svh,400
     >
       <MovingGradientText
         text={title}
-        className="text-8xl font-bold"
+        className="text-6xl lg:text-8xl font-bold"
         gradientColor={colors.randomTextColor}
         tone={colors.textTone}
       />

@@ -26,7 +26,7 @@ export function Image({
   alt,
   width,
   height,
-  fill = false,
+  fill = true,
   priority = false,
   className = "",
   objectFit = "cover",

@@ -5,8 +5,8 @@ import { SectionEmpty } from "@/components/sections";
 export default function Root() {
   return (
     <SectionEmpty>
-      <div className="max-w-2xl">
-        <Image src="/graphics/ensrq-logo-for-bright.webp" alt="alt" width={2500} height={1708} />
+      <div className="relative max-w-2xl h-[max(300px,20svh)] w-[max(300px,20svh)]">
+        <Image src="/graphics/ensrq-logo-for-bright.webp" alt="alt" objectFit="contain" />
       </div>
       <div className="text-block text-center text-pretty">
         <h1>{`We're making some big updates`}</h1>

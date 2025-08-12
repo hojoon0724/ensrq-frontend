@@ -16,7 +16,7 @@ export function ComposerPhotoGrid({ photoPaths, className = "" }: ComposerPhotoG
     // 30% of parent minus gaps, with 120px minimum per photo
     const estimatedContainerWidth = 300; // approximate
     const minPhotoWidth = 120;
-    const gap = 4;
+    const gap = 0;
     const maxColumns = Math.floor((estimatedContainerWidth + gap) / (minPhotoWidth + gap));
 
     // Determine actual columns needed
@@ -59,7 +59,7 @@ export function ComposerPhotoGrid({ photoPaths, className = "" }: ComposerPhotoG
 
   return (
     <div
-      className={`composer-photo-grid h-full w-full grid auto-rows-fr gap-1 ${className}`}
+      className={`composer-photo-grid h-full w-full grid auto-rows-fr ${className}`}
       style={{
         gridTemplateColumns: `repeat(${columns}, 1fr)`,
         // gridTemplateColumns: `repeat(3, 1fr)`,

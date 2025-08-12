@@ -6,13 +6,14 @@ import { artisticDirectors, enSRQArtists, guestArtists } from "@/data/about-bios
 export default function About() {
   return (
     <div>
-      <SectionEmpty themeColor="gray" className="flex flex-col justify-center items-center gap-s">
+      <SectionEmpty themeColor="gray" className="flex flex-col justify-center items-center gap-s relative">
         <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="mission"></a>
         <Image
           src="/graphics/ensrq-logo-for-bright.webp"
           alt="ensrq-logo"
           width={800}
           height={300}
+          fill={false}
           objectFit="contain"
           className="h-[clamp(300px,40svh,400px)]"
         />

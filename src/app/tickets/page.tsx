@@ -1,27 +1,21 @@
 "use client";
-import { SectionBanner, SectionEmpty } from "@/components/sections";
+import { RandomColorHeader,SectionEmpty } from "@/components/sections";
+import {LiveConcertTicketsTable,
+  LiveSeasonPassTicketsTable,
+  StreamingConcertTicketsTable,
+  StreamingSeasonPassTicketsTable,
+} from "@/components/organisms";
 
 export default function Tickets() {
   return (
-    <div>
-      <SectionBanner themeColor="blue" tone="light">
-        <h1>Tickets</h1>
-      </SectionBanner>
-      <SectionEmpty themeColor="sand">
-        <div className="flex h-[10svh]">
-          <h1>Tickets</h1>
-        </div>
+    <>
+      <RandomColorHeader title="Tickets" className="h-[max(30svh,400px)] flex flex-col justify-center items-center"/>
+      <SectionEmpty>
+        <LiveSeasonPassTicketsTable seasonId="s10" />
+        <StreamingSeasonPassTicketsTable seasonId="s10" />
+        <LiveConcertTicketsTable seasonId="s10" />
+        <StreamingConcertTicketsTable seasonId="s10" />
       </SectionEmpty>
-      {/* <SectionEmpty themeColor="water">
-        <div className="flex h-[50svh]">
-          <h1>Tickets</h1>
-        </div>
-      </SectionEmpty>
-      <SectionEmpty themeColor="sand">
-        <div className="flex h-[50svh]">
-          <h1>Tickets</h1>
-        </div>
-      </SectionEmpty> */}
-    </div>
+    </>
   );
 }

@@ -5,6 +5,7 @@ import { Concert, PhotoManifest } from "@/types";
 import { getComposerData, getVenueData, getWorkData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
 import { ComposerPhotoGrid } from "./ComposerPhotoGrid";
+import { ShowMarkdownText } from "../atoms";
 
 interface ConcertTileProps {
   concert: Concert;
@@ -39,9 +40,9 @@ export function ConcertTile({ concert }: ConcertTileProps) {
         <div className="composer-photo-grid-container">
           <ComposerPhotoGrid photoPaths={composerPhotosArr} />
         </div>
-        <div className="concert-details-text-container p-s">
+        <div className="concert-details-text-container w-full p-s">
           {/* Concert Title */}
-          <div className="mb-4 pr-16">
+          <div className="mb-4">
             <h3 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200 mb-1">
               {concert.title}
             </h3>
@@ -58,18 +59,24 @@ export function ConcertTile({ concert }: ConcertTileProps) {
               <p className="text-sm text-gray-600">{getVenueData(concert.venueId)?.name || concert.venueId}</p>
             </div>
           )}
+          {/* Concert blurb */}
+          {concert.shortDescription && (
+            <div className="text-sm text-gray-600">
+              <ShowMarkdownText fontSize="sm">{concert.shortDescription}</ShowMarkdownText>
+            </div>
+          )}
           {/* Program Preview */}
-          <div className="pt-4">
+          <div className="pt-4 w-full">
             <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Program</p>
-            <div className="space-y-3">
+            <div className="space-y-3 w-full">
               {concert.program.map((item, index) => (
-                <div key={index} className="work-info-container">
-                  <p className="work-composer font-bold text-sm text-gray-700 truncate leading-3">
+                <div key={index} className="work-info-container w-full">
+                  <p className="work-composer font-bold text-sm text-gray-700 leading-3">
                     {getWorkData(item.workId)?.composerId
                       ? getComposerData(getWorkData(item.workId)!.composerId)?.name || ""
                       : ""}
                   </p>
-                  <p className="work-title text-sm text-gray-700 truncate">
+                  <p className="work-title text-sm text-gray-700">
                     {getWorkData(item.workId)?.title || item.workId}
                     {" ("}
                     {getWorkData(item.workId)?.year || ""}

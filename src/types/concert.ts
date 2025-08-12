@@ -20,6 +20,8 @@ export interface Concert {
   title: string;
   subtitle?: string;
   description?: string;
+  shortDescription?: string;
+  oneLiner?: string;
   date: string; // ISO string
   time?: string;
   venueId?: string;
