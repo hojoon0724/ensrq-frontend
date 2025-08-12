@@ -48,7 +48,6 @@ export default function PasswordGate({ children }: { children: React.ReactNode }
   };
 
   if (!correctPassword) {
-    console.warn(`No password found for ${pathname}`);
     return <>{children}</>; // fallback to open page if not in data
   }
 
