@@ -21,8 +21,8 @@
       }
     },
     "youTubeUrl": "",
-    "seasonStreamingPagePassword": "",
-    "seasonStreamingPageUrl": ""
+    "seasonStreamingPagePassword": "password",
+    "seasonStreamingPageUrl": "/streaming/s10/season-pass"
   },
   {
     "seasonId": "s09",
@@ -47,8 +47,8 @@
       }
     },
     "youTubeUrl": "",
-    "seasonStreamingPagePassword": "",
-    "seasonStreamingPageUrl": ""
+    "seasonStreamingPagePassword": "password",
+    "seasonStreamingPageUrl": "/streaming/s09/season-pass"
   },
   {
     "seasonId": "s08",
