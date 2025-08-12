@@ -5,6 +5,7 @@ import { removeSeasonNumberFromConcertId } from "@/utils/textFormat";
 import { notFound } from "next/navigation";
 
 // Static import — avoids duplicate imports in both functions
+import PasswordGate from "@/components/atoms/PasswordGate";
 import liveData from "@/data/live-data.json";
 
 export async function generateStaticParams() {
@@ -45,16 +46,18 @@ export default async function WatchConcertPage({
   }
 
   return (
-    <SectionEmpty>
-      <h1 className="text-4xl font-bold mb-4">{concertData.title}</h1>
-      <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
-        <VideoWithCustomThumbnail
-          thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.webp`}
-          icon={<LogoIcon color="var(--water-600)" />}
-          youtubeUrl={concertData.youTubeUrl || ""}
-        />
-      </div>
-      <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(concertData, null, 2)}</pre>
-    </SectionEmpty>
+    <PasswordGate>
+      <SectionEmpty>
+        <h1 className="text-4xl font-bold mb-4">{concertData.title}</h1>
+        <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
+          <VideoWithCustomThumbnail
+            thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.webp`}
+            icon={<LogoIcon color="var(--water-600)" />}
+            youtubeUrl={concertData.youTubeUrl || ""}
+          />
+        </div>
+        <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(concertData, null, 2)}</pre>
+      </SectionEmpty>
+    </PasswordGate>
   );
 }
