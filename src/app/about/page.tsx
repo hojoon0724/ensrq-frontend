@@ -1,4 +1,5 @@
 import { Button, Image } from "@/components/atoms";
+import { ContactForm } from "@/components/molecules/ContactForm";
 import { AboutProfilesContainer, Donors } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
 import { artisticDirectors, enSRQArtists, guestArtists } from "@/data/about-bios";
@@ -97,6 +98,9 @@ export default function About() {
         <a className="anchor scroll-mt-[80px]" id="contact"></a>
         <div className="flex flex-col mb-double w-full justify-center items-center gap-s">
           <h1 className="museo-slab font-thin mb-double">Contact Us</h1>
+          <div className="w-full flex flex-col justify-center items-center">
+            <ContactForm brandColorTheme="sky" />
+          </div>
         </div>
       </SectionEmpty>
 
@@ -141,13 +145,13 @@ export default function About() {
 
       <SectionEmpty themeColor="sand">
         <a className="anchor scroll-mt-[80px]" id="donate"></a>
-        <div className="flex flex-col mb-double justify-between items-center">
+        <div className="flex flex-col mb-s justify-between items-center">
           <h1 className="museo-slab font-thin mb-double">Donate</h1>
           <div className="flex flex-col justify-center items-center gap-s">
             <h4>If you are a fan of world class performance...</h4>
             <p className="leading-tight text-center">{`Please consider including our 501(c)3 corporation in your charitable giving plans! Without the generosity of musical friends like yourself, we would not be able to keep our dedication focused solely on the enrichment and education of our community by providing the profound and soul nourishing music that we always strive for.`}</p>
             <p className="text-center">{`You can give now by using the button below OR by sending a check to:`}</p>
-            <div className="address-button-container text-xl flex justify-center items-center my-double">
+            <div className="address-button-container text-xl flex justify-center items-center my-double gap-double">
               <Button variant="filled" size="xl" className="h-auto">
                 Donate Now
               </Button>
@@ -165,9 +169,7 @@ export default function About() {
         <div className="disclaimer flex flex-col gap-s mb-double">
           <p className="roboto-flex text-sm leading-none text-center">Questions? ensemblenewSRQ@gmail.com</p>
           <p className="roboto-flex text-sm leading-none text-center">
-            ““A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF
-            CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL,
-            OR RECOMMENDATION BY THE STATE.”
+            {`“A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE.”`}
           </p>
           <ul className="roboto-flex text-sm leading-none text-center">
             <li>• 1-800-HELP-FLA (435-7352)</li>
