@@ -14,6 +14,10 @@
   font-family: "kode-mono", monospace;
 }
 
+.roboto-flex {
+  font-family: "roboto-flex", sans-serif;
+}
+
 .hanging-punctuation {
   hanging-punctuation: first allow-end;
 }
