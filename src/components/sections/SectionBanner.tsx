@@ -1,12 +1,17 @@
 import { TopContainer } from "./TopContainer";
 
-export function SectionBanner({
-  children,
-  themeColor,
-  tone,
-}: Readonly<{ children: React.ReactNode; themeColor: string; tone: string }>) {
+interface SectionBannerProps {
+  children: React.ReactNode;
+  themeColor: string;
+  tone: "light" | "dark";
+  className?: string;
+}
+
+export function SectionBanner({ children, themeColor, tone, className = "" }: SectionBannerProps) {
+  const toneValue = tone === "dark" ? 700 : 50;
+
   return (
-    <section className="max-h-[30svw]" style={{ backgroundColor: `var(--${themeColor}-${tone})` }}>
+    <section className={`max-h-[30svw] ${className}`} style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
       <TopContainer>{children}</TopContainer>
     </section>
   );

@@ -2,41 +2,15 @@
 
 import { MovingGradientText } from "@/components/atoms";
 import { TicketsTable } from "@/components/organisms/TicketsTable";
-import { SectionMeshGradient } from "@/components/sections";
-import { useEffect, useState } from "react";
+import { SectionMeshGradient, useRandomColors } from "@/components/sections";
 
 import LiveData from "@/data/live-data.json";
-import { formatSeasonLabel } from "../../utils/textFormat";
+import { formatSeasonLabel } from "@/utils";
 
 const currentSeason = LiveData[0];
 
 export default function Tickets() {
-  const [colors, setColors] = useState({
-    randomColor: "sand",
-    randomTextColor: "sand",
-    randomTone: "dark" as "light" | "dark",
-    textTone: "light" as "light" | "dark",
-    textShade: 200,
-  });
-
-  useEffect(() => {
-    const colorOptions = ["sand", "sky", "water"];
-    const randomColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
-    const randomTextColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
-
-    // Easy to change: just modify this line to "light" or "dark" as needed
-    const randomTone = "dark" as "light" | "dark"; // or "light" - change this to switch tones
-    const textTone = randomTone === "light" ? "dark" : "light";
-    const textShade = randomTone === "light" ? 700 : 200;
-
-    setColors({
-      randomColor,
-      randomTextColor,
-      randomTone,
-      textTone,
-      textShade,
-    });
-  }, []);
+  const colors = useRandomColors("dark");
 
   return (
     <>

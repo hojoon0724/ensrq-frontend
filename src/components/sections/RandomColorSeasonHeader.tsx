@@ -1,12 +1,10 @@
 "use client";
 
-import { Button, MovingGradientText } from "@/components/atoms";
-import { SectionEmpty } from "@/components/sections";
-import { SectionMeshGradient } from "@/components/sections/SectionMeshGradient";
 import { Season } from "@/types";
 import { formatSeasonLabel } from "@/utils";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import BaseRandomColorHeader from "./BaseRandomColorHeader";
+import { TicketLinks } from "./TicketLinks";
+import { useRandomColors } from "./hooks/useRandomColors";
 
 interface RandomColorSeasonHeaderProps {
   seasonId: string;
@@ -15,71 +13,30 @@ interface RandomColorSeasonHeaderProps {
 }
 
 export default function RandomColorSeasonHeader({ seasonId, seasonData, children }: RandomColorSeasonHeaderProps) {
-  const [colors, setColors] = useState({
-    randomColor: "sand",
-    randomTextColor: "sand",
-    randomTone: "dark" as "light" | "dark",
-    textTone: "light" as "light" | "dark",
-    textShade: 200,
-  });
+  const colors = useRandomColors("dark");
 
-  useEffect(() => {
-    const colorOptions = ["sand", "sky", "water"];
-    const randomColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
-    const randomTextColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+  const ticketSection = seasonData?.ticketsLinks && (
+    <TicketLinks
+      liveTickets={seasonData.ticketsLinks.seasonLive}
+      streamingTickets={seasonData.ticketsLinks.seasonStreaming}
+      liveLabel="Purchase Live Season Pass"
+      streamingLabel="Purchase Streaming Season Pass"
+      color={colors.randomTextColor}
+    />
+  );
 
-    // Easy to change: just modify this line to "light" or "dark" as needed
-    const randomTone = "dark" as "light" | "dark"; // or "light" - change this to switch tones
-    const textTone = randomTone === "light" ? "dark" : "light";
-    const textShade = randomTone === "light" ? 700 : 200;
-
-    setColors({
-      randomColor,
-      randomTextColor,
-      randomTone,
-      textTone,
-      textShade,
-    });
-  }, []);
+  const subtitle = seasonData?.year ? seasonData.year.toString() : undefined;
 
   return (
-    <>
-      <SectionMeshGradient
-        color1={colors.randomColor}
-        backgroundColor={colors.randomColor}
-        className="h-[max(30svh,400px)] flex flex-col justify-center items-center"
-        tone={colors.randomTone}
-      >
-        <MovingGradientText
-          text={formatSeasonLabel(seasonId)}
-          className="text-6xl lg:text-8xl font-bold"
-          gradientColor={colors.randomTextColor}
-          tone={colors.textTone}
-        >
-          <div className={`season-year text-2xl museo-slab text-${colors.randomTextColor}-${colors.textShade}`}>
-            {seasonData?.year}
-          </div>
-        </MovingGradientText>
-      </SectionMeshGradient>
-
-      <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
-        <div className="tickets-link-container grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
-          {seasonData?.ticketsLinks?.seasonLive?.url && (
-            <Button color={colors.randomTextColor}>
-              <Link href={seasonData.ticketsLinks.seasonLive.url}>Purchase Live Season Pass</Link>
-            </Button>
-          )}
-          {seasonData?.ticketsLinks?.seasonStreaming?.url && (
-            <Button color={colors.randomTextColor}>
-              <Link href={seasonData.ticketsLinks.seasonStreaming.url}>Purchase Streaming Season Pass</Link>
-            </Button>
-          )}
-        </div>
-      </SectionEmpty>
-
-      <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
-        {children}
-      </SectionEmpty>
-    </>
+    <BaseRandomColorHeader
+      title={formatSeasonLabel(seasonId)}
+      subtitle={subtitle}
+      forceTone="dark"
+      headerSize="large"
+      showTicketSection={!!seasonData?.ticketsLinks}
+      ticketSection={ticketSection}
+    >
+      {children}
+    </BaseRandomColorHeader>
   );
 }

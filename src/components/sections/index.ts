@@ -1,8 +1,13 @@
+export { default as BaseRandomColorHeader } from "./BaseRandomColorHeader";
+export { GridLayout } from "./GridLayout";
+export { useRandomColors } from "./hooks/useRandomColors";
 export { default as RandomColorConcertHeader } from "./RandomColorConcertHeader";
 export { default as RandomColorHeader } from "./RandomColorHeader";
 export { default as RandomColorSeasonHeader } from "./RandomColorSeasonHeader";
 export { SectionBanner } from "./SectionBanner";
+export { SectionBlobs } from "./SectionBlobs";
 export { SectionEmpty } from "./SectionEmpty";
 export { SectionGrid } from "./SectionGrid";
 export { SectionMeshGradient } from "./SectionMeshGradient";
+export { TicketLinks } from "./TicketLinks";
 export { TopContainer } from "./TopContainer";

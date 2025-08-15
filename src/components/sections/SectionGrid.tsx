@@ -1,9 +1,25 @@
 import { TopContainer } from "@/components/sections";
 
-export function SectionGrid({ children }: { children: React.ReactNode }) {
+interface SectionGridProps {
+  children: React.ReactNode;
+  className?: string;
+  gridCols?: {
+    base?: number;
+    md?: number;
+    lg?: number;
+  };
+}
+
+export function SectionGrid({
+  children,
+  className = "gap-s p-s",
+  gridCols = { base: 1, md: 2, lg: 3 },
+}: SectionGridProps) {
+  const gridClasses = `grid grid-cols-${gridCols.base || 1} md:grid-cols-${gridCols.md || 2} lg:grid-cols-${gridCols.lg || 3} ${className}`;
+
   return (
     <section>
-      <TopContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-s p-s">{children}</TopContainer>
+      <TopContainer className={gridClasses}>{children}</TopContainer>
     </section>
   );
 }

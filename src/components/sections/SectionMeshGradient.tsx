@@ -1,6 +1,16 @@
 import { TopContainer } from "@/components/sections";
 import { MeshGradientCurves } from "../organisms/MeshGradientCurves";
 
+interface SectionMeshGradientProps {
+  children: React.ReactNode;
+  className?: string;
+  color1?: string;
+  color2?: string;
+  color3?: string;
+  tone?: "dark" | "light";
+  backgroundColor?: string;
+}
+
 export function SectionMeshGradient({
   color1 = "sand",
   color2,
@@ -9,15 +19,7 @@ export function SectionMeshGradient({
   backgroundColor,
   children,
   className = "flex flex-col justify-center items-center w-full h-full",
-}: Readonly<{
-  children: React.ReactNode;
-  className?: string;
-  color1?: string;
-  color2?: string;
-  color3?: string;
-  tone?: "dark" | "light";
-  backgroundColor?: string;
-}>) {
+}: SectionMeshGradientProps) {
   const toneShades = tone === "dark" ? 900 : 50;
   const backgroundShade = tone === "dark" ? 400 : 950;
 

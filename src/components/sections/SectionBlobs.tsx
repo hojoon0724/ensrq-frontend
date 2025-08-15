@@ -1,21 +1,22 @@
 import { MeshGradientCanvas } from "@/components/organisms";
 
-export function SectionBlobs({
-  color1 = "sand",
-  color2,
-  color3,
-  backgroundColor,
-
-  children,
-  className = "flex flex-col justify-center items-center w-full h-full",
-}: Readonly<{
+interface SectionBlobsProps {
   children?: React.ReactNode;
   className?: string;
   color1?: string;
   color2?: string;
   color3?: string;
   backgroundColor?: string;
-}>) {
+}
+
+export function SectionBlobs({
+  color1 = "sand",
+  color2,
+  color3,
+  backgroundColor,
+  children,
+  className = "flex flex-col justify-center items-center w-full h-full",
+}: SectionBlobsProps) {
   const toneShades = 50;
   const backgroundShade = 50;
 
