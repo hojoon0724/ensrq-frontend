@@ -9,7 +9,7 @@ interface RandomColorHeaderProps {
   className?: string;
 }
 
-export default function RandomColorHeader({ title, className = "h-[max(30svh,400px)]" }: RandomColorHeaderProps) {
+export default function RandomColorHeader({ title }: RandomColorHeaderProps) {
   const [colors, setColors] = useState({
     randomColor: "sand",
     randomTextColor: "sand",
@@ -33,11 +33,12 @@ export default function RandomColorHeader({ title, className = "h-[max(30svh,400
   }, []);
 
   return (
+    <>
     <SectionMeshGradient
       color1={colors.randomColor}
       backgroundColor={colors.randomColor}
       tone={colors.randomTone}
-      className={className}
+     className="h-[max(30svh,400px)] flex flex-col justify-center items-center"
     >
       <MovingGradientText
         text={title}
@@ -46,5 +47,6 @@ export default function RandomColorHeader({ title, className = "h-[max(30svh,400
         tone={colors.textTone}
       />
     </SectionMeshGradient>
+    </>
   );
 }

@@ -1,5 +1,11 @@
 [
   {
+    "instrumentId": "alto-saxophone",
+    "name": "alto saxophone",
+    "displayName": "alto saxophone",
+    "plural": "alto saxophones"
+  },
+  {
     "instrumentId": "alto-voice",
     "name": "alto",
     "displayName": "alto (voice)",
@@ -10,6 +16,12 @@
     "name": "baritone",
     "displayName": "baritone (voice)",
     "plural": "baritones"
+  },
+  {
+    "instrumentId": "bass-clarinet",
+    "name": "bass clarinet",
+    "displayName": "bass clarinet",
+    "plural": "bass clarinets"
   },
   {
     "instrumentId": "bass-voice",
@@ -30,6 +42,12 @@
     "plural": "cellos"
   },
   {
+    "instrumentId": "chansonnier",
+    "name": "chansonnier",
+    "displayName": "chansonnier",
+    "plural": "chansonniers"
+  },
+  {
     "instrumentId": "clarinet",
     "name": "clarinet",
     "displayName": "clarinet",
@@ -48,6 +66,18 @@
     "plural": "double basses"
   },
   {
+    "instrumentId": "dulcimer",
+    "name": "dulcimer",
+    "displayName": "dulcimer",
+    "plural": "dulcimers"
+  },
+  {
+    "instrumentId": "electroacoustic-ensemble",
+    "name": "electroacoustic ensemble",
+    "displayName": "electroacoustic ensemble",
+    "plural": "electroacoustic ensemble"
+  },
+  {
     "instrumentId": "electronics",
     "name": "electronics",
     "displayName": "electronics",
@@ -60,10 +90,22 @@
     "plural": "english horns"
   },
   {
+    "instrumentId": "ensemble",
+    "name": "ensemble",
+    "displayName": "ensemble",
+    "plural": "ensemble"
+  },
+  {
     "instrumentId": "flute",
     "name": "flute",
     "displayName": "flute",
     "plural": "flutes"
+  },
+  {
+    "instrumentId": "french-horn",
+    "name": "french horn",
+    "displayName": "french horn",
+    "plural": "french horns"
   },
   {
     "instrumentId": "guitar",
@@ -96,138 +138,6 @@
     "plural": "keyboards"
   },
   {
-    "instrumentId": "mezzo-soprano-voice",
-    "name": "mezzo-soprano",
-    "displayName": "mezzo-soprano (voice)",
-    "plural": "mezzo-sopranos"
-  },
-  {
-    "instrumentId": "oboe",
-    "name": "oboe",
-    "displayName": "oboe",
-    "plural": "oboes"
-  },
-  {
-    "instrumentId": "organ",
-    "name": "organ",
-    "displayName": "organ",
-    "plural": "organs"
-  },
-  {
-    "instrumentId": "percussion",
-    "name": "percussion",
-    "displayName": "percussion",
-    "plural": "percussion"
-  },
-  {
-    "instrumentId": "piano",
-    "name": "piano",
-    "displayName": "piano",
-    "plural": "pianos"
-  },
-  {
-    "instrumentId": "saxophone",
-    "name": "saxophone",
-    "displayName": "saxophone",
-    "plural": "saxophones"
-  },
-  {
-    "instrumentId": "soprano-voice",
-    "name": "soprano",
-    "displayName": "soprano (voice)",
-    "plural": "sopranos"
-  },
-  {
-    "instrumentId": "tenor-voice",
-    "name": "tenor",
-    "displayName": "tenor (voice)",
-    "plural": "tenors"
-  },
-  {
-    "instrumentId": "trombone",
-    "name": "trombone",
-    "displayName": "trombone",
-    "plural": "trombones"
-  },
-  {
-    "instrumentId": "trumpet",
-    "name": "trumpet",
-    "displayName": "trumpet",
-    "plural": "trumpets"
-  },
-  {
-    "instrumentId": "tuba",
-    "name": "tuba",
-    "displayName": "tuba",
-    "plural": "tubas"
-  },
-  {
-    "instrumentId": "viola",
-    "name": "viola",
-    "displayName": "viola",
-    "plural": "violas"
-  },
-  {
-    "instrumentId": "violin",
-    "name": "violin",
-    "displayName": "violin",
-    "plural": "violins"
-  },
-  {
-    "instrumentId": "voice",
-    "name": "voice",
-    "displayName": "voice",
-    "plural": "voices"
-  },
-  {
-    "instrumentId": "tbd",
-    "name": "tbd",
-    "displayName": "tbd",
-    "plural": "tbd"
-  },
-  {
-    "instrumentId": "alto-saxophone",
-    "name": "alto saxophone",
-    "displayName": "alto saxophone",
-    "plural": "alto saxophones"
-  },
-  {
-    "instrumentId": "bass-clarinet",
-    "name": "bass clarinet",
-    "displayName": "bass clarinet",
-    "plural": "bass clarinets"
-  },
-  {
-    "instrumentId": "chansonnier",
-    "name": "chansonnier",
-    "displayName": "chansonnier",
-    "plural": "chansonniers"
-  },
-  {
-    "instrumentId": "dulcimer",
-    "name": "dulcimer",
-    "displayName": "dulcimer",
-    "plural": "dulcimers"
-  },
-  {
-    "instrumentId": "electroacoustic-ensemble",
-    "name": "electroacoustic ensemble",
-    "displayName": "electroacoustic ensemble",
-    "plural": "electroacoustic ensemble"
-  },
-  {
-    "instrumentId": "ensemble",
-    "name": "ensemble",
-    "displayName": "ensemble",
-    "plural": "ensemble"
-  },
-  {
-    "instrumentId": "french-horn",
-    "name": "french horn",
-    "displayName": "french horn",
-    "plural": "french horns"
-  },
-  {
     "instrumentId": "large-ensemble",
     "name": "large ensemble",
     "displayName": "large ensemble",
@@ -252,6 +162,12 @@
     "plural": "marimbas"
   },
   {
+    "instrumentId": "mezzo-soprano-voice",
+    "name": "mezzo-soprano",
+    "displayName": "mezzo-soprano (voice)",
+    "plural": "mezzo-sopranos"
+  },
+  {
     "instrumentId": "mixed-ensemble",
     "name": "mixed ensemble",
     "displayName": "mixed ensemble",
@@ -264,10 +180,40 @@
     "plural": "musicians"
   },
   {
+    "instrumentId": "musicians",
+    "name": "musicians",
+    "displayName": "musicians",
+    "plural": "musicians"
+  },
+  {
+    "instrumentId": "oboe",
+    "name": "oboe",
+    "displayName": "oboe",
+    "plural": "oboes"
+  },
+  {
+    "instrumentId": "organ",
+    "name": "organ",
+    "displayName": "organ",
+    "plural": "organs"
+  },
+  {
+    "instrumentId": "percussion",
+    "name": "percussion",
+    "displayName": "percussion",
+    "plural": "percussion"
+  },
+  {
     "instrumentId": "percussion-quartet",
     "name": "percussion quartet",
     "displayName": "percussion quartet",
     "plural": "percussion quartet"
+  },
+  {
+    "instrumentId": "piano",
+    "name": "piano",
+    "displayName": "piano",
+    "plural": "pianos"
   },
   {
     "instrumentId": "pipe-organ",
@@ -288,6 +234,18 @@
     "plural": "projections"
   },
   {
+    "instrumentId": "saxophone",
+    "name": "saxophone",
+    "displayName": "saxophone",
+    "plural": "saxophones"
+  },
+  {
+    "instrumentId": "soprano-voice",
+    "name": "soprano",
+    "displayName": "soprano (voice)",
+    "plural": "sopranos"
+  },
+  {
     "instrumentId": "string-quartet",
     "name": "string quartet",
     "displayName": "string quartet",
@@ -306,10 +264,46 @@
     "plural": "tape"
   },
   {
+    "instrumentId": "tbd",
+    "name": "tbd",
+    "displayName": "tbd",
+    "plural": "tbd"
+  },
+  {
+    "instrumentId": "TBD",
+    "name": "TBD",
+    "displayName": "TBD",
+    "plural": "TBD"
+  },
+  {
+    "instrumentId": "tenor-voice",
+    "name": "tenor",
+    "displayName": "tenor (voice)",
+    "plural": "tenors"
+  },
+  {
     "instrumentId": "timpani",
     "name": "timpani",
     "displayName": "timpani",
     "plural": "timpani"
+  },
+  {
+    "instrumentId": "trombone",
+    "name": "trombone",
+    "displayName": "trombone",
+    "plural": "trombones"
+  },
+  {
+    "instrumentId": "trumpet",
+    "name": "trumpet",
+    "displayName": "trumpet",
+    "plural": "trumpets"
+  },
+  {
+    "instrumentId": "tuba",
+    "name": "tuba",
+    "displayName": "tuba",
+    "plural": "tubas"
   },
   {
     "instrumentId": "vibraphone",
@@ -324,15 +318,21 @@
     "plural": "videos"
   },
   {
-    "instrumentId": "musicians",
-    "name": "musicians",
-    "displayName": "musicians",
-    "plural": "musicians"
+    "instrumentId": "viola",
+    "name": "viola",
+    "displayName": "viola",
+    "plural": "violas"
   },
   {
-    "instrumentId": "TBD",
-    "name": "TBD",
-    "displayName": "TBD",
-    "plural": "TBD"
+    "instrumentId": "violin",
+    "name": "violin",
+    "displayName": "violin",
+    "plural": "violins"
+  },
+  {
+    "instrumentId": "voice",
+    "name": "voice",
+    "displayName": "voice",
+    "plural": "voices"
   }
 ]

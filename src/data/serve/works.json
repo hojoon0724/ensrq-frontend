@@ -1486,20 +1486,6 @@
     ]
   },
   {
-    "workId": "gyorgy-ligeti-etude-no-15-white-on-white",
-    "composerId": "gyorgy-ligeti",
-    "title": "Étude No. 15 White on White",
-    "year": "1997",
-    "duration": "4'30\"",
-    "movements": [],
-    "instrumentation": [
-      {
-        "instrument": "piano",
-        "count": 1
-      }
-    ]
-  },
-  {
     "workId": "gyorgy-ligeti-etude-no-4-fanfares",
     "composerId": "gyorgy-ligeti",
     "title": "Étude No. 4 Fanfares",
@@ -1518,6 +1504,20 @@
     "composerId": "gyorgy-ligeti",
     "title": "Étude No. 6 Automne à Varsovie",
     "year": "1985",
+    "duration": "4'30\"",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gyorgy-ligeti-etude-no-15-white-on-white",
+    "composerId": "gyorgy-ligeti",
+    "title": "Étude No. 15 White on White",
+    "year": "1997",
     "duration": "4'30\"",
     "movements": [],
     "instrumentation": [
@@ -2940,36 +2940,6 @@
     ]
   },
   {
-    "workId": "patrick-harlin-digital-2013-rev-2020",
-    "composerId": "patrick-harlin",
-    "title": "Digital",
-    "year": "2013 rev. 2020",
-    "duration": "7'",
-    "movements": [],
-    "instrumentation": [
-      {
-        "instrument": "violin",
-        "count": 1
-      },
-      {
-        "instrument": "cello",
-        "count": 1
-      },
-      {
-        "instrument": "flute",
-        "count": 1
-      },
-      {
-        "instrument": "percussion",
-        "count": 1
-      },
-      {
-        "instrument": "piano",
-        "count": 1
-      }
-    ]
-  },
-  {
     "workId": "patrick-harlin-digital",
     "composerId": "patrick-harlin",
     "title": "Digital",
@@ -2999,6 +2969,36 @@
       },
       {
         "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "patrick-harlin-digital-2013-rev-2020",
+    "composerId": "patrick-harlin",
+    "title": "Digital",
+    "year": "2013 rev. 2020",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
         "count": 1
       },
       {
@@ -3069,11 +3069,11 @@
     "instrumentation": []
   },
   {
-    "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+    "workId": "philippe-hurel-tombeau-in-memoriam-gerard-grisey-1999",
     "composerId": "philippe-hurel",
-    "title": "Tombeau, In Memorium Gerard Grisey",
+    "title": "Tombeau: In Memoriam Gérard Grisey",
     "year": "1999",
-    "duration": "15''",
+    "duration": "15'",
     "movements": [
       "I. Énergique",
       "II. Lointain",
@@ -3088,11 +3088,11 @@
     ]
   },
   {
-    "workId": "philippe-hurel-tombeau-in-memoriam-gerard-grisey-1999",
+    "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
     "composerId": "philippe-hurel",
-    "title": "Tombeau: In Memoriam Gérard Grisey",
+    "title": "Tombeau, In Memorium Gerard Grisey",
     "year": "1999",
-    "duration": "15'",
+    "duration": "15''",
     "movements": [
       "I. Énergique",
       "II. Lointain",

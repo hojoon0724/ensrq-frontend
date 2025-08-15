@@ -64,15 +64,15 @@ const DOWNLOADED_DIR = path.join(__dirname, "../src/data/download");
 
 // Collection mapping
 const COLLECTION_MAPPING = {
-  composers: { model: "Composer", file: "composers.json", icon: "📚" },
-  concerts: { model: "Concert", file: "concerts.json", icon: "🎭" },
-  donors: { model: "Donor", file: "donors.json", icon: "💝" },
-  donorTiers: { model: "DonorTier", file: "donor-tiers.json", icon: "🏆" },
-  instruments: { model: "Instrument", file: "instruments.json", icon: "🎺" },
-  musicians: { model: "Musician", file: "musicians.json", icon: "🎵" },
-  seasons: { model: "Season", file: "seasons.json", icon: "📅" },
-  venues: { model: "Venue", file: "venues.json", icon: "🏛️" },
-  works: { model: "Work", file: "works.json", icon: "🎼" },
+  composers: { model: "Composer", file: "composers.json", icon: "📚", idField: "composerId" },
+  concerts: { model: "Concert", file: "concerts.json", icon: "🎭", idField: "concertId" },
+  donors: { model: "Donor", file: "donors.json", icon: "💝", idField: "donorId" },
+  donorTiers: { model: "DonorTier", file: "donor-tiers.json", icon: "🏆", idField: "donorTierId" },
+  instruments: { model: "Instrument", file: "instruments.json", icon: "🎺", idField: "instrumentId" },
+  musicians: { model: "Musician", file: "musicians.json", icon: "🎵", idField: "musicianId" },
+  seasons: { model: "Season", file: "seasons.json", icon: "📅", idField: "seasonId" },
+  venues: { model: "Venue", file: "venues.json", icon: "🏛️", idField: "venueId" },
+  works: { model: "Work", file: "works.json", icon: "🎼", idField: "workId" },
 };
 
 // Fields to exclude from the exported data (MongoDB metadata)
@@ -127,6 +127,24 @@ function removeMetadataFields(obj) {
 }
 
 /**
+ * Sorts data array alphabetically by the specified ID field
+ * @param {Array} data - Array of data objects to sort
+ * @param {string} idField - Name of the ID field to sort by
+ * @returns {Array} Sorted array
+ */
+function sortDataByIdField(data, idField) {
+  if (!Array.isArray(data) || data.length === 0) {
+    return data;
+  }
+
+  return data.sort((a, b) => {
+    const aId = a[idField] || "";
+    const bId = b[idField] || "";
+    return aId.localeCompare(bId, undefined, { numeric: true, caseFirst: "lower" });
+  });
+}
+
+/**
  * Writes data to a JSON file
  * @param {string} filePath - Path where to save the file
  * @param {Array|Object} data - Data to save
@@ -158,7 +176,7 @@ async function downloadCollection(collectionName, models, outputDir) {
     );
   }
 
-  const { model, file, icon } = collectionInfo;
+  const { model, file, icon, idField } = collectionInfo;
   const Model = models[model];
 
   console.log(`${icon} Downloading ${collectionName}...`);
@@ -179,13 +197,16 @@ async function downloadCollection(collectionName, models, outputDir) {
     // Remove metadata fields from each document
     const cleanedData = documents.map(removeMetadataFields);
 
+    // Sort data alphabetically by the ID field
+    const sortedData = sortDataByIdField(cleanedData, idField);
+
     // Save to JSON file
     const outputPath = path.join(outputDir, file);
-    writeJsonFile(outputPath, cleanedData, collectionName);
+    writeJsonFile(outputPath, sortedData, collectionName);
 
     return {
       collection: collectionName,
-      count: cleanedData.length,
+      count: sortedData.length,
       success: true,
       outputPath,
     };

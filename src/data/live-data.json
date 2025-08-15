@@ -7,16 +7,15 @@
       "s10-2025-12-08-songbird",
       "s10-2026-01-19-goldbeaters-skin",
       "s10-2026-02-23-retrospektiv",
-      "s10-2026-04-24-music-for-18-musicians",
-      "s10-2026-05-22-music-for-new-bodies"
+      "s10-2026-04-24-music-for-18-musicians"
     ],
     "ticketsLinks": {
       "seasonLive": {
-        "price": 0,
+        "price": 150,
         "url": "https://www.ensrq.org"
       },
       "seasonStreaming": {
-        "price": 0,
+        "price": 50,
         "url": "https://www.ensrq.org"
       }
     },

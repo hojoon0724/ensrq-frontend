@@ -35,7 +35,8 @@ export function SectionMeshGradient({
         tone={tone}
         backgroundColor={`var(--${backgroundColor}-${backgroundShade})`}
       />
-      <TopContainer>{children}</TopContainer>
+      {/* Ensure the inner container receives the same sizing/layout classes so children can use h-full and center correctly */}
+      <TopContainer className={className}>{children}</TopContainer>
     </section>
   );
 }
