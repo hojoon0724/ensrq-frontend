@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "./Button";
 
-export default function PasswordGate({ children }: { children: React.ReactNode }) {
+export default function PasswordGate({ children, pageTitle }: { children: React.ReactNode, pageTitle?: string }) {
   const pathname = usePathname();
   const [unlocked, setUnlocked] = useState(false);
   const [input, setInput] = useState("");
@@ -55,20 +55,23 @@ export default function PasswordGate({ children }: { children: React.ReactNode }
 
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen p-4 delay-100 ${wrongPassword ? "animation-smh" : ""}`}
+      className={`flex flex-col items-center justify-center min-h-screen p-4 gap-16`}
     >
-      <h1 className="mb-4 text-xl font-bold">Enter Password</h1>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-2">
-        <input type="password" value={input} onChange={(e) => setInput(e.target.value)} className="border p-2" />
-        <Button type="submit" variant="filled" size="md" color="sand" disabled={loading} loading={loading}>
-          {loading ? "Unlocking..." : "Unlock"}
-        </Button>
-        <div
-          className={` ${wrongPassword ? "opacity-100" : "opacity-0"} bg-red-600 px-s py-half text-white text-center text-sm kode-mono mt-s`}
-        >
-          Wrong password
-        </div>
-      </form>
+      {pageTitle && <h1 className="mb-4">{pageTitle}</h1>}
+      <div className={`flex flex-col items-center justify-center p-4 password-block delay-100 ${wrongPassword ? "animation-smh" : ""}`}>
+        <h1 className="mb-4 text-xl font-bold">Enter Password</h1>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+          <input type="password" value={input} onChange={(e) => setInput(e.target.value)} className="border p-2" />
+          <Button type="submit" variant="filled" size="md" color="sand" disabled={loading} loading={loading}>
+            {loading ? "Unlocking..." : "Unlock"}
+          </Button>
+          <div
+            className={` ${wrongPassword ? "opacity-100" : "opacity-0"} bg-red-600 px-s py-half text-white text-center text-sm kode-mono mt-s`}
+          >
+            Wrong password
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

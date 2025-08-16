@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import PasswordGate from "@/components/atoms/PasswordGate";
 import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
+import { formatSeasonLabel } from "@/utils";
 
 export async function generateStaticParams() {
   return allSeasons
@@ -38,7 +39,8 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
   }
 
   return (
-    <PasswordGate>
+    <PasswordGate
+      pageTitle={`${formatSeasonLabel(seasonData.seasonId)}` || "Season Pass"}>
       {/* next concert */}
       {nextConcert && (
         <SectionEmpty>

@@ -35,7 +35,7 @@ export default async function WatchConcertPage({
   const isUpcoming = new Date() <= new Date(concertData.date);
 
   return (
-    <PasswordGate>
+    <PasswordGate pageTitle={`${concertData.title}`}>
       <SectionEmpty>
         <h1 className="font-bold mb-4 text-center">{concertData.title}</h1>
         {isUpcoming && <h3 className="text-center">{extractDateFromUtc(concertData.date)}</h3>}

@@ -1,6 +1,6 @@
 import { Image } from "@/components/atoms";
 import ConcertStreamingItem from "@/components/molecules/ConcertStreamingItem";
-import { RandomColorHeader, SectionGrid } from "@/components/sections";
+import { BaseRandomColorHeader, SectionGrid } from "@/components/sections";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -29,7 +29,7 @@ export default async function WatchSeasonPage({ params }: { params: Promise<{ se
 
   return (
     <div>
-      <RandomColorHeader title={`Streaming ${formatSeasonLabel(seasonId)}`} />
+      <BaseRandomColorHeader title={`Streaming`} subtitle={`${formatSeasonLabel(seasonId)}`}></BaseRandomColorHeader>
       <SectionGrid>
         <Link href={`/streaming/${seasonId}/season-pass`} className="relative">
           <div className="concert-details-text-container flex flex-col absolute h-full w-full justify-center items-center text-center museo-slab">

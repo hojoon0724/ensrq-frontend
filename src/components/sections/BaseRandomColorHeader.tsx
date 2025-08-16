@@ -38,7 +38,7 @@ export default function BaseRandomColorHeader({
       >
         <MovingGradientText
           text={title}
-          className={`${titleSizeClasses} h-full flex justify-center items-center text-center`}
+          className={`${titleSizeClasses} flex justify-center items-center text-center p-s`}
           gradientColor={colors.randomTextColor}
           tone={colors.textTone}
         >

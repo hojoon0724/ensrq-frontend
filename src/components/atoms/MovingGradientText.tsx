@@ -23,7 +23,7 @@ export function MovingGradientText({
   }
 
   return (
-    <div className="h-full flex flex-col items-center justify-center ">
+    <div className="h-full flex flex-col items-center justify-center">
       <div
         className={`bg-clip-text text-transparent museo-slab ${className}`}
         style={{
