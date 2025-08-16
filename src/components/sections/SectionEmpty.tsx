@@ -16,8 +16,8 @@ export function SectionEmpty({
   const toneValue = tone === "dark" ? 700 : 50;
 
   return (
-    <section style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
-      <TopContainer className={className}>{children}</TopContainer>
+    <section className={className} style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
+      <TopContainer className="flex flex-col justify-center items-center w-full h-full gap-s">{children}</TopContainer>
     </section>
   );
 }

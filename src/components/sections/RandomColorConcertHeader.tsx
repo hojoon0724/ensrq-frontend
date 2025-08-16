@@ -95,9 +95,9 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
       )}
 
       <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone} className="flex-1">
-        <div className="max-w-4xl mx-auto">
+        <div className="w-full max-w-4xl mx-auto">
           <h2 className={`font-bold text-center mb-8 text-${colors.randomColor}-${colors.textShade}`}>Program</h2>
-          <div className="space-y-s">
+          <div>
             {concertData.program.map((programWork, index) => {
               return (
                 <ProgramTile

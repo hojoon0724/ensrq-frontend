@@ -9,7 +9,7 @@ export default function SeasonsPage() {
     <div>
       <RandomColorHeader title="All Seasons" />
       <SectionGrid>
-        {seasonData.map((season: Season) => (
+        {seasonData.reverse().map((season: Season) => (
           <Link key={season.seasonId} href={`/seasons/${season.seasonId}`}>
             <div className="p-4 border-b border-gray-200 flex flex-col justify-center items-center w-full aspect-video border">
               <h3 className="text-xl font-semibold">{formatSeasonLabel(season.seasonId)}</h3>

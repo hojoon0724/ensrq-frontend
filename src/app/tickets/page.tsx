@@ -4,10 +4,10 @@ import { MovingGradientText } from "@/components/atoms";
 import { TicketsTable } from "@/components/organisms/TicketsTable";
 import { SectionMeshGradient, useRandomColors } from "@/components/sections";
 
-import LiveData from "@/data/live-data.json";
+import allSeasons from "@/data/serve/seasons.json";
 import { formatSeasonLabel } from "@/utils";
 
-const currentSeason = LiveData[0];
+const currentSeason = allSeasons[0];
 
 export default function Tickets() {
   const colors = useRandomColors("dark");

@@ -2,7 +2,7 @@
 
 import { FullLogo } from "@/assets";
 import { Icon } from "@/components/atoms";
-import seasonData from "@/data/live-data.json";
+import seasonData from "@/data/serve/seasons.json";
 import { formatSeasonLabel } from "@/utils/textFormat";
 import Link from "next/link";
 import { useRef, useState } from "react";

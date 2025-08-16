@@ -1,66 +1,53 @@
-import { notFound } from "next/navigation";
+import { Image } from "@/components/atoms";
+import ConcertStreamingItem from "@/components/molecules/ConcertStreamingItem";
+import { RandomColorHeader, SectionGrid } from "@/components/sections";
 import { formatSeasonLabel } from "@/utils";
+import Link from "next/link";
+import { notFound } from "next/navigation";
 
 export default async function WatchSeasonPage({ params }: { params: Promise<{ seasonId: string }> }) {
   const { seasonId } = await params;
 
-  const liveData = (await import(`@/data/live-data.json`)).default;
-  const validSeasonIds = new Set(liveData?.map((season) => season.seasonId).flat());
-  const validConcertIds = new Set(liveData?.map((season) => season.concerts).flat());
+  // Import data
+  const allSeasons = (await import(`@/data/serve/seasons.json`)).default;
+  const allConcerts = (await import(`@/data/serve/concerts.json`)).default;
 
-  // Check if the current seasonId is valid
-  if (!validSeasonIds.has(seasonId)) {
+  // Find season data
+  const seasonData = allSeasons.find((season) => season.seasonId === seasonId);
+
+  // Check if season exists
+  if (!seasonData) {
     notFound();
   }
 
-  let seasonData = null;
-
-  try {
-    // Dynamically import the JSON file
-    seasonData = await import(`@/data/split/seasons/${seasonId}.json`);
-  } catch (error) {
-    console.error(`Season data not found for ${seasonId}:`, error);
-  }
-
-  let concertData = null;
-
-  try {
-    // Dynamically import the concert data for the season
-    const concertPromises = seasonData?.default?.concerts
-      ?.filter((concertId: string) => validConcertIds.has(concertId)) // Only include valid concerts
-      ?.map(async (concertId: string) => {
-        // Dynamically import the concert data
-        try {
-          const concertModule = await import(`@/data/serve/concerts.json`);
-          return concertModule.default.find((concert) => concert.concertId === concertId) || null;
-        } catch (error) {
-          console.error(`Error processing concert data for ${concertId}:`, error);
-          return null;
-        }
-      });
-    concertData = await Promise.all(concertPromises || []);
-    // Filter out any null values from failed imports
-    concertData = concertData.filter((concert) => concert !== null);
-  } catch (error) {
-    console.error(`Error importing concert data for ${seasonId}:`, error);
-  }
-
-  if (!seasonData) {
-    return (
-      <div>
-        <h1 className="text-4xl font-bold mb-4">Season Not Found</h1>
-        <p className="mb-4">The season &ldquo;{seasonId}&rdquo; could not be found.</p>
-      </div>
+  // Get concert data for this season (only concerts with YouTube streaming)
+  const seasonConcertsWithStreaming = seasonData.concerts
+    .map((concertId: string) => allConcerts.find((concert) => concert.concertId === concertId))
+    .filter((concert): concert is NonNullable<typeof concert> =>
+      Boolean(concert && concert.youTubeUrl && concert.youTubeUrl.trim() !== "")
     );
-  }
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4">Watch {formatSeasonLabel(seasonId)}</h1>
-      <p className="mb-4">This is the watch page for {formatSeasonLabel(seasonId)}.</p>
-      <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(seasonData.default, null, 2)}</pre>
-      <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(concertData, null, 2)}</pre>
-      {/* Add more content related to the specific season here */}
+      <RandomColorHeader title={`Streaming ${formatSeasonLabel(seasonId)}`} />
+      <SectionGrid>
+        <Link href={`/streaming/${seasonId}/season-pass`} className="relative">
+          <div className="concert-details-text-container flex flex-col absolute h-full w-full justify-center items-center text-center museo-slab">
+            Streaming Season Pass
+          </div>
+          <Image
+            src={`/graphics/${seasonId}/streaming-thumbnails/season-pass.webp`}
+            alt={`Season ${formatSeasonLabel(seasonId)}`}
+            className="w-full h-auto object-cover rounded-lg shadow-lg"
+            fill={false}
+            width={500}
+            height={300}
+          />
+        </Link>
+        {seasonConcertsWithStreaming.map((concert) => (
+          <ConcertStreamingItem key={concert.concertId} concert={concert} seasonId={seasonId} />
+        ))}
+      </SectionGrid>
     </div>
   );
 }

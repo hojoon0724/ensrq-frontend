@@ -1,19 +1,19 @@
 import { ConcertTile } from "@/components/molecules";
 import { RandomColorSeasonHeader } from "@/components/sections";
-import liveData from "@/data/live-data.json";
+import allSeasons from "@/data/serve/seasons.json";
 import allConcerts from "@/data/serve/concerts.json";
 import { Concert } from "@/types";
 import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
-  return liveData.map((season) => ({ seasonId: season.seasonId }));
+  return allSeasons.map((season) => ({ seasonId: season.seasonId }));
 }
 export default async function SingleSeasonPage({ params }: { params: Promise<{ seasonId: string }> }) {
   const { seasonId } = await params;
 
   // Precompute valid IDs
-  const validSeasonIds = new Set(liveData.map((season) => season.seasonId));
-  const validConcertIds = new Set(liveData.flatMap((season) => season.concerts));
+  const validSeasonIds = new Set(allSeasons.map((season) => season.seasonId));
+  const validConcertIds = new Set(allSeasons.flatMap((season) => season.concerts));
 
   // Validate season
   if (!validSeasonIds.has(seasonId)) {

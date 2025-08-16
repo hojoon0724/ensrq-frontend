@@ -244,7 +244,7 @@
       }
     },
     "youTubeUrl": "",
-    "seasonStreamingPagePassword": "decade",
+    "seasonStreamingPagePassword": "",
     "seasonStreamingPageUrl": "/streaming/s10/season-pass"
   }
 ]

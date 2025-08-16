@@ -4,11 +4,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 // Static imports for repo JSON (faster, smaller runtime code)
-import liveData from "@/data/live-data.json";
 import allConcerts from "@/data/serve/concerts.json";
+import allSeasons from "@/data/serve/seasons.json";
 
 export function generateStaticParams() {
-  return liveData.flatMap((season) =>
+  return allSeasons.flatMap((season) =>
     season.concerts.map((concertId) => ({
       seasonId: season.seasonId,
       concertId: concertId.replace(/^s\d{2}-/, ""),
@@ -27,8 +27,8 @@ export default async function SingleConcertPage({
   const fullConcertId = `${seasonId}-${concertId}`;
 
   // Precompute valid IDs
-  const validSeasonIds = new Set(liveData.map((season) => season.seasonId));
-  const validConcertIds = new Set(liveData.flatMap((season) => season.concerts));
+  const validSeasonIds = new Set(allSeasons.map((season) => season.seasonId));
+  const validConcertIds = new Set(allSeasons.flatMap((season) => season.concerts));
 
   // Validate season and concert
   if (!validSeasonIds.has(seasonId)) {

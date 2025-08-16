@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// tailwind.config.js
 
 export default {
   content: [
@@ -44,6 +45,10 @@ export default {
     { pattern: /^flex-(row|col|wrap|nowrap)$/ },
     // Include opacity classes
     { pattern: /^opacity-(0|5|10|20|25|30|40|50|60|70|75|80|90|95|100)$/ },
+    {
+      pattern: /grid-cols-(1|2|3|4|5|6|7|8|9|10)/,
+      variants: ["sm", "md", "lg", "xl"],
+    },
     // Include border-0 for ghost buttons
     "border-0",
     // Include text-white for filled buttons

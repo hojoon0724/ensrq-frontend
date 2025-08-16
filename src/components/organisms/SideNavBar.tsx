@@ -4,11 +4,13 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 
 import { FullLogo, WordmarkVertical } from "@/assets";
-import seasonData from "@/data/live-data.json";
+import seasonData from "@/data/serve/seasons.json";
 import concertData from "@/data/serve/concerts.json";
 import { removeSeasonNumberFromConcertId } from "@/utils";
 import { Icon } from "../atoms/Icon";
 import { formatSeasonLabel } from "@/utils";
+
+const descendingSeasons = seasonData.reverse();
 
 const links_active = true;
 const navItems = links_active
@@ -32,20 +34,20 @@ const navItems = links_active
       },
       {
         name: "Season 10 (25-26)",
-        url: `/seasons/${seasonData[0].seasonId}`,
+        url: `/seasons/${descendingSeasons[0].seasonId}`,
         dropdown: true,
-        dropdownItems: seasonData[0].concerts.map((concertId) => ({
+        dropdownItems: descendingSeasons[0].concerts.map((concertId) => ({
           name: concertData.filter((concert) => concert.concertId === concertId)[0].title,
-          url: `/seasons/${seasonData[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
+          url: `/seasons/${descendingSeasons[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
         })),
         is_cta: false,
       },
 
       {
         name: "Past Seasons",
-        url: `/seasons/${seasonData[0].seasonId}`,
+        url: `/seasons/${descendingSeasons[0].seasonId}`,
         dropdown: true,
-        dropdownItems: seasonData.slice(1).map((season) => ({
+        dropdownItems: descendingSeasons.slice(1).map((season) => ({
           name: formatSeasonLabel(season.seasonId),
           url: `/seasons/${season.seasonId}`,
         })),

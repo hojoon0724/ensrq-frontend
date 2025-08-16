@@ -1,15 +1,14 @@
 import { LogoIcon } from "@/assets/logoIcon";
+import PasswordGate from "@/components/atoms/PasswordGate";
 import { VideoWithCustomThumbnail } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
-import { removeSeasonNumberFromConcertId } from "@/utils/textFormat";
+import allConcerts from "@/data/serve/concerts.json";
+import allSeasons from "@/data/serve/seasons.json";
+import { extractDateFromUtc, removeSeasonNumberFromConcertId } from "@/utils";
 import { notFound } from "next/navigation";
 
-// Static import — avoids duplicate imports in both functions
-import PasswordGate from "@/components/atoms/PasswordGate";
-import liveData from "@/data/live-data.json";
-
 export async function generateStaticParams() {
-  return liveData.flatMap((season) =>
+  return allSeasons.flatMap((season) =>
     season.concerts.map((concertId) => ({
       seasonId: season.seasonId,
       concertId: removeSeasonNumberFromConcertId(concertId),
@@ -24,39 +23,30 @@ export default async function WatchConcertPage({
 }) {
   const { seasonId, concertId } = await params;
 
-  // Precompute valid IDs
-  const validSeasonIds = new Set(liveData.map((season) => season.seasonId));
-  const validConcertIds = new Set(liveData.flatMap((season) => season.concerts));
-
-  // Restore full concert ID
+  // Restore full concert ID and find concert data
   const fullConcertId = `${seasonId}-${concertId}`;
+  const concertData = allConcerts.find((concert) => concert.concertId === fullConcertId);
 
-  // Validate
-  if (!validSeasonIds.has(seasonId) || !validConcertIds.has(fullConcertId)) {
+  // Check if concert exists
+  if (!concertData) {
     notFound();
   }
 
-  // Load concert data
-  let concertData = null;
-  try {
-    concertData = (await import(`@/data/split/concerts/${fullConcertId}.json`)).default;
-  } catch (error) {
-    console.error(`Concert data not found for ${fullConcertId}:`, error);
-    notFound();
-  }
+  const isUpcoming = new Date() <= new Date(concertData.date);
 
   return (
     <PasswordGate>
       <SectionEmpty>
-        <h1 className="text-4xl font-bold mb-4">{concertData.title}</h1>
-        <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
+        <h1 className="font-bold mb-4 text-center">{concertData.title}</h1>
+        {isUpcoming && <h3 className="text-center">{extractDateFromUtc(concertData.date)}</h3>}
+
+        <div className="streaming-container bg-gray-50 w-full min-w-[min(300px,100%)] aspect-video flex justify-center items-center">
           <VideoWithCustomThumbnail
             thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concertData.concertId}.webp`}
             icon={<LogoIcon color="var(--water-600)" />}
             youtubeUrl={concertData.youTubeUrl || ""}
           />
         </div>
-        <pre className="bg-gray-100 p-4 rounded overflow-auto">{JSON.stringify(concertData, null, 2)}</pre>
       </SectionEmpty>
     </PasswordGate>
   );

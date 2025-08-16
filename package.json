@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fetch-all-data": "node scripts/fetch-from-mongodb.js all"
+    "fetch-all-data": "node scripts/fetch-from-mongodb.js all",
+    "convert-graphics": "node scripts/convert-and-catalog-webp.js"
   },
   "dependencies": {
     "dotenv": "^17.2.1",

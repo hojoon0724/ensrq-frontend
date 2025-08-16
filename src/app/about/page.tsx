@@ -135,7 +135,7 @@ export default function About() {
         </div>
       </SectionEmpty>
 
-      <SectionEmpty themeColor="sky" className="m-double">
+      <SectionEmpty themeColor="sky">
         <a className="anchor scroll-mt-[80px]" id="our-donors"></a>
         <div className="flex flex-col mb-double">
           <h1 className="museo-slab font-thin mb-double">Our Donors</h1>

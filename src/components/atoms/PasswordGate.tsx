@@ -1,6 +1,6 @@
 "use client";
 
-import liveData from "@/data/live-data.json";
+import allSeasons from "@/data/serve/seasons.json";
 import concerts from "@/data/serve/concerts.json";
 import seasons from "@/data/serve/seasons.json";
 import { usePathname } from "next/navigation";
@@ -19,7 +19,7 @@ export default function PasswordGate({ children }: { children: React.ReactNode }
   // 2. Try to find matching season from the serve data
   const seasonMatch = seasons.find((s) => s.seasonStreamingPageUrl === pathname);
   // 3. Try to find matching season from the live data (for season-pass pages)
-  const liveSeasonMatch = liveData.find((s) => s.seasonStreamingPageUrl === pathname);
+  const liveSeasonMatch = allSeasons.find((s) => s.seasonStreamingPageUrl === pathname);
 
   const correctPassword =
     concertMatch?.streamingPagePassword ||

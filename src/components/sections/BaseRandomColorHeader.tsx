@@ -38,7 +38,7 @@ export default function BaseRandomColorHeader({
       >
         <MovingGradientText
           text={title}
-          className={titleSizeClasses}
+          className={`${titleSizeClasses} h-full flex justify-center items-center text-center`}
           gradientColor={colors.randomTextColor}
           tone={colors.textTone}
         >
@@ -59,7 +59,7 @@ export default function BaseRandomColorHeader({
 
       {showTicketSection && ticketSection && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
-          {ticketSection}
+          <div className="flex justify-center items-center">{ticketSection}</div>
         </SectionEmpty>
       )}
 
