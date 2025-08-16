@@ -9,5 +9,6 @@ export { SectionBlobs } from "./SectionBlobs";
 export { SectionEmpty } from "./SectionEmpty";
 export { SectionGrid } from "./SectionGrid";
 export { SectionMeshGradient } from "./SectionMeshGradient";
+export { SectionMeshGradientStraight } from "./SectionMeshGradientStraight";
 export { TicketLinks } from "./TicketLinks";
 export { TopContainer } from "./TopContainer";

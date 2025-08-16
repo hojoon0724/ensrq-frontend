@@ -4,5 +4,7 @@ export { Footer } from "./Footer";
 export { MatchGame } from "./MatchGame";
 export { MeshGradientCanvas } from "./MeshGradientCanvas";
 export { MeshGradientCurves } from "./MeshGradientCurves";
+export { MeshGradientManualCurves } from "./MeshGradientManualCurves";
+export { MeshGradientStraight } from "./MeshGradientStraight";
 export { NavBar } from "./NavBar";
 export { VideoWithCustomThumbnail } from "./VideoWithCustomThumbnail";
