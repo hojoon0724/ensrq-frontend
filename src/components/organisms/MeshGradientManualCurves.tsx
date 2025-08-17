@@ -4,13 +4,14 @@ import React, { useEffect, useRef } from "react";
 
 type MeshGradientManualCurvesProps = {
   colorShades: string[][];
-  blendMode?: "blended" | "stepped";
   intensity?: number;
   speed?: number;
   backgroundColor?: string;
   tone?: "light" | "dark";
   baselineWidth?: number;
   lineCount?: number;
+  nodeCount?: number;
+  nodes: Array<Array<{ x: number; y: number }>>;
 };
 
 type ControlPoint = {
@@ -64,6 +65,8 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
   tone = "light",
   baselineWidth = 20,
   lineCount = 6,
+  nodeCount = 4,
+  nodes = [],
 }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const animationRef = useRef<number | null>(null);
@@ -88,63 +91,33 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
       // Create main curves
       for (let i = 0; i < count; i++) {
         const points: ControlPoint[] = [];
-        // Scale segment count based on height - more segments for taller viewports
-        const baseSegments = Math.max(2, Math.floor(height / 300)); // One segment per 300px height
-        const segments = baseSegments + Math.floor(Math.random() * Math.max(2, baseSegments / 2));
 
-        for (let j = 0; j <= segments; j++) {
+        // Use the passed nodes for this line
+        const lineNodes = nodes[i] || [];
+
+        for (let j = 0; j < nodeCount; j++) {
+          let x = 0;
+          let y = 50; // Default to middle
+
+          if (lineNodes[j]) {
+            x = lineNodes[j].x;
+            y = lineNodes[j].y;
+          } else {
+            // Fallback if no node provided - distribute evenly
+            x = (j / (nodeCount - 1)) * 100;
+            y = 50;
+          }
+
           points.push({
-            x: (j / segments) * width * 1.2 - width * 0.1, // Extend beyond edges
-            y: Math.random() * height,
-            dx: (Math.random() - 0.5) * proportionalSpeed * 0.5, // Slower random movement
+            x: (x / 100) * width, // Convert percentage to pixels
+            y: (y / 100) * height,
+            dx: (Math.random() - 0.5) * proportionalSpeed * 0.5,
             dy: (Math.random() - 0.5) * proportionalSpeed,
           });
         }
 
         curves.push({
           points,
-          color: resolvedColors[Math.floor(Math.random() * resolvedColors.length)],
-        });
-      }
-
-      // Add extra edge curves - top and bottom
-      const edgeCurves = Math.max(1, Math.floor(baseSize / 400)); // Scale number of edge curves
-      for (let i = 0; i < edgeCurves; i++) {
-        // Top edge curve
-        const topPoints: ControlPoint[] = [];
-        const topSegments = Math.max(3, Math.floor(width / 150)) + Math.floor(Math.random() * 4);
-        const baseTopY = -height * (0.1 + i * 0.15); // Base position above canvas
-
-        for (let j = 0; j <= topSegments; j++) {
-          topPoints.push({
-            x: (j / topSegments) * width * 1.2 - width * 0.1,
-            y: baseTopY + (Math.random() - 0.5) * height * 0.1, // Add random Y offset
-            dx: (Math.random() - 0.5) * proportionalSpeed * 0.3,
-            dy: (Math.random() - 0.5) * proportionalSpeed * 0.5,
-          });
-        }
-
-        // Bottom edge curve
-        const bottomPoints: ControlPoint[] = [];
-        const bottomSegments = Math.max(3, Math.floor(width / 150)) + Math.floor(Math.random() * 4);
-        const baseBottomY = height * (1.1 + i * 0.15); // Base position below canvas
-
-        for (let j = 0; j <= bottomSegments; j++) {
-          bottomPoints.push({
-            x: (j / bottomSegments) * width * 1.2 - width * 0.1,
-            y: baseBottomY + (Math.random() - 0.5) * height * 0.1, // Add random Y offset
-            dx: (Math.random() - 0.5) * proportionalSpeed * 0.3,
-            dy: (Math.random() - 0.5) * proportionalSpeed * 0.5,
-          });
-        }
-
-        curves.push({
-          points: topPoints,
-          color: resolvedColors[Math.floor(Math.random() * resolvedColors.length)],
-        });
-
-        curves.push({
-          points: bottomPoints,
           color: resolvedColors[Math.floor(Math.random() * resolvedColors.length)],
         });
       }
@@ -174,26 +147,24 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
 
       // Set blend mode based on tone
       const globalCompositeOperation = tone === "dark" ? "multiply" : "source-over";
-      // const globalCompositeOperation = 'source-over'
 
-      curvesRef.current.forEach((curve) => {
+      curvesRef.current.forEach((curve, curveIndex) => {
         const { points, color } = curve;
 
         // Calculate proportional line width based on viewport dimensions
         const baseSize = Math.min(width, height);
-        const scaleFactor = baseSize / 1000; // Normalize to a base size of 1000px
+        const scaleFactor = baseSize / 1000;
         const baseLineWidth = baselineWidth;
         const lineWidth = baseLineWidth * scaleFactor;
-        const layers = 7; // Number of layers for soft edge effect
+        const layers = 7;
 
         // Set composite operation for the entire curve based on tone
         ctx.globalCompositeOperation = globalCompositeOperation;
 
         for (let layer = 0; layer < layers; layer++) {
-          const progress = layer / (layers - 1); // 0 to 1
-          const currentWidth = lineWidth * (1 - progress * 2); // Shrink width
+          const progress = layer / (layers - 1);
+          const currentWidth = lineWidth * (1 - progress * 2);
 
-          // Adjust alpha based on tone - for dark mode, use higher alpha to get darker results
           const alpha = (1 - progress) * 0.1;
 
           ctx.beginPath();
@@ -209,10 +180,9 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
             }
           }
 
-          // Use the original color with alpha applied
           ctx.strokeStyle = color;
           ctx.lineWidth = currentWidth;
-          ctx.globalAlpha = alpha; // Apply alpha via globalAlpha
+          ctx.globalAlpha = alpha;
           ctx.stroke();
         }
 
@@ -220,86 +190,12 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
         ctx.globalAlpha = 1;
         ctx.globalCompositeOperation = "source-over";
 
-        // Update points - natural movement only
-        for (let i = 0; i < points.length; i++) {
-          const point = points[i];
-
-          // Calculate proportional margins and buffers
-          const baseSize = Math.min(width, height);
-          const proportionalMargin = Math.max(width * 0.05, baseSize * 0.02); // Minimum proportional buffer
-          const extendedMargin = Math.max(width * 0.2, baseSize * 0.1); // Extended boundary margin
-
-          // Check if this is an edge curve (positioned outside main canvas area)
-          const isTopEdgeCurve = points[0].y < 0;
-          const isBottomEdgeCurve = points[0].y > height;
-
-          // Keep first and last points anchored outside canvas edges
-          if (i === 0) {
-            // Keep left edge point fixed outside left boundary
-            point.x = -width * 0.1;
-            if (!isTopEdgeCurve && !isBottomEdgeCurve) {
-              point.y += point.dy;
-            } else {
-              // Edge curves move more slowly in Y
-              point.y += point.dy * 0.3;
-            }
-          } else if (i === points.length - 1) {
-            // Keep right edge point fixed outside right boundary
-            point.x = width * 1.1;
-            if (!isTopEdgeCurve && !isBottomEdgeCurve) {
-              point.y += point.dy;
-            } else {
-              // Edge curves move more slowly in Y
-              point.y += point.dy * 0.3;
-            }
-          } else {
-            // Middle points can move naturally but with x-axis crossing constraints
-            const newX = point.x + point.dx;
-
-            // Get boundaries from neighboring points using proportional buffer
-            const leftBound = points[i - 1].x + proportionalMargin;
-            const rightBound = points[i + 1].x - proportionalMargin;
-
-            // Check if new position would cross boundaries
-            if (newX >= leftBound && newX <= rightBound) {
-              point.x = newX;
-            } else {
-              // Bounce off the boundary
-              point.dx *= -1;
-              // Ensure point stays within bounds
-              point.x = Math.max(leftBound, Math.min(rightBound, point.x));
-            }
-
-            if (!isTopEdgeCurve && !isBottomEdgeCurve) {
-              point.y += point.dy;
-            } else {
-              // Edge curves move more slowly in Y
-              point.y += point.dy * 0.3;
-            }
-          }
-
-          // Bounce within bounds for Y - different logic for edge curves
-          if (isTopEdgeCurve) {
-            // Top edge curves stay above canvas
-            if (point.y > -height * 0.05 || point.y < -height * 0.4) point.dy *= -1;
-            point.y = Math.max(-height * 0.4, Math.min(-height * 0.05, point.y));
-          } else if (isBottomEdgeCurve) {
-            // Bottom edge curves stay below canvas
-            if (point.y < height * 1.05 || point.y > height * 1.4) point.dy *= -1;
-            point.y = Math.max(height * 1.05, Math.min(height * 1.4, point.y));
-          } else {
-            // Main curves stay within canvas
-            if (point.y < 0 || point.y > height) point.dy *= -1;
-            point.y = Math.max(0, Math.min(height, point.y));
-          }
-
-          // For middle points, additional extended X bounds check with proportional margins
-          if (i !== 0 && i !== points.length - 1) {
-            if (point.x < -extendedMargin || point.x > width + extendedMargin) {
-              point.dx *= -1;
-              point.x = Math.max(-extendedMargin, Math.min(width + extendedMargin, point.x));
-            }
-          }
+        // Keep positions static - update based on current nodes
+        const currentNodes = nodes[curveIndex] || [];
+        for (let i = 0; i < Math.min(points.length, currentNodes.length); i++) {
+          const node = currentNodes[i];
+          points[i].x = (node.x / 100) * width;
+          points[i].y = (node.y / 100) * height;
         }
       });
 
@@ -311,7 +207,7 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
-  }, [baselineWidth, lineCount, colorShades, speed, backgroundColor, tone]);
+  }, [baselineWidth, lineCount, nodeCount, colorShades, speed, backgroundColor, tone, nodes]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -322,32 +218,8 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
       const newWidth = rect?.width || window.innerWidth;
       const newHeight = rect?.height || window.innerHeight;
 
-      const oldWidth = dimensionsRef.current.width;
-      const oldHeight = dimensionsRef.current.height;
-
       dimensionsRef.current.width = canvas.width = newWidth;
       dimensionsRef.current.height = canvas.height = newHeight;
-
-      // Scale existing curves proportionally when dimensions change
-      if (oldWidth > 0 && oldHeight > 0 && curvesRef.current.length > 0) {
-        const widthRatio = newWidth / oldWidth;
-        const heightRatio = newHeight / oldHeight;
-        const newBaseSize = Math.min(newWidth, newHeight);
-        const oldBaseSize = Math.min(oldWidth, oldHeight);
-        const speedScaleFactor = newBaseSize / oldBaseSize;
-
-        curvesRef.current.forEach((curve) => {
-          curve.points.forEach((point) => {
-            // Scale positions proportionally
-            point.x *= widthRatio;
-            point.y *= heightRatio;
-
-            // Scale movement speeds proportionally
-            point.dx *= speedScaleFactor;
-            point.dy *= speedScaleFactor;
-          });
-        });
-      }
     };
 
     window.addEventListener("resize", handleResize);
