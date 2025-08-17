@@ -257,6 +257,6 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
   }, []);
 
   return (
-    <canvas ref={canvasRef} className="w-full h-full absolute top-0 left-0 z-[-1] pointer-events-none object-contain" />
+    <canvas ref={canvasRef} className="w-full h-full top-0 left-0 z-[-1] pointer-events-none object-contain" />
   );
 };
