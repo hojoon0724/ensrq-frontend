@@ -214,6 +214,7 @@ export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
           // Use the original color with alpha applied
           ctx.strokeStyle = color;
           ctx.lineWidth = currentWidth;
+          ctx.lineCap = "round";
           ctx.globalAlpha = alpha; // Apply alpha via globalAlpha
           ctx.stroke();
         }

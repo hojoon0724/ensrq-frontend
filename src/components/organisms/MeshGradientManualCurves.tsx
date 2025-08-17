@@ -196,6 +196,7 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
 
           ctx.strokeStyle = color;
           ctx.lineWidth = currentWidth;
+          ctx.lineCap = "round"; // Use round line cap for smoother edges
           ctx.globalAlpha = alpha;
           ctx.stroke();
         }
