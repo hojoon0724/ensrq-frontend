@@ -6,8 +6,8 @@ import { MeshGradientManualCurves } from "../../components/organisms";
 export default function Canvas() {
   const [color1, setColor1] = useState("sand");
   const [theme, setTheme] = useState("light");
-  const [shade, setShade] = useState(theme === "dark" ? 900 : 50);
-  const [bgShade, setBgShade] = useState(theme === "dark" ? 400 : 950);
+  const [shade, setShade] = useState(theme === "dark" ? 950 : 50);
+  const [bgShade, setBgShade] = useState(theme === "dark" ? 400 : 900);
   const [lineCount, setLineCount] = useState(6);
   const [nodeCount, setNodeCount] = useState(4);
   const [baselineWidth, setBaselineWidth] = useState(500);
@@ -42,8 +42,8 @@ export default function Canvas() {
   }, [lineCount, nodeCount]);
 
   function changeShade() {
-    setShade(shade === 900 ? 50 : 900);
-    setBgShade(bgShade === 400 ? 950 : 400);
+    setShade(shade === 950 ? 50 : 950);
+    setBgShade(bgShade === 400 ? 900 : 400);
     setTheme(theme === "dark" ? "light" : "dark");
   }
 
@@ -60,10 +60,10 @@ export default function Canvas() {
   };
 
   return (
-    <div className="flex">
-      <div className="w-full h-[min(100svw,100svh)]">
-        <section className={`relative h-[50%] w-full`}>
-          <div className="">
+    <div className="flex flex-col h-screen">
+      <div className="flex-1 min-h-0 overflow-hidden">
+        <section className={`relative h-full w-full p-0`}>
+          <div className="w-full h-full">
             <MeshGradientManualCurves
               colorShades={[[`var(--${color1}-${shade})`]]}
               speed={0}
@@ -75,96 +75,92 @@ export default function Canvas() {
             />
           </div>
         </section>
-        <div className="flex flex-col w-full">
-          <div className="relative h-20 w-full flex items-center justify-center">
-            <button className="absolute top-4 right-4 bg-white p-2 rounded shadow" onClick={changeShade}>
+      </div>
+      <div className="flex-shrink-0 bg-gray-100 p-4 overflow-y-auto">
+        <div className="flex justify-between items-center">
+          <h3 className="font-bold mb-4">Mesh Controls</h3>
+          <div className="color-change-buttons space-x-2 flex justify-center items-center z-10">
+            <button
+              className={`bg-${theme === "dark" ? "white" : "black"} text-${theme === "dark" ? "black" : "white"} p-2 rounded shadow`}
+              onClick={changeShade}
+            >
               {theme === "dark" ? "Light" : "Dark"}
             </button>
-            <div className="color-change-buttons absolute top-4 left-4 space-x-2 flex justify-center items-center">
-              <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sand")}>
-                Sand
-              </button>
-              <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sky")}>
-                Sky
-              </button>
-              <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("water")}>
-                Water
-              </button>
-            </div>
+            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sand")}>
+              Sand
+            </button>
+            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sky")}>
+              Sky
+            </button>
+            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("water")}>
+              Water
+            </button>
           </div>
-          <div className="bg-gray-100 p-4 w-full">
-            <h3 className="font-bold mb-4">Mesh Controls</h3>
-            <div className="flex gap-4">
-              <div className="mb-4">
-                <label className="block text-sm font-medium mb-1">Line Count:</label>
-                <input
-                  type="number"
-                  value={lineCount}
-                  onChange={(e) => setLineCount(Math.max(1, parseInt(e.target.value) || 1))}
-                  className="w-full border rounded px-2 py-1"
-                  min="1"
-                  max="20"
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block text-sm font-medium mb-1">Nodes per Line:</label>
-                <input
-                  type="number"
-                  value={nodeCount}
-                  onChange={(e) => setNodeCount(Math.max(2, parseInt(e.target.value) || 2))}
-                  className="w-full border rounded px-2 py-1"
-                  min="2"
-                  max="10"
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block text-sm font-medium mb-1">Line thickness:</label>
-                <input
-                  type="number"
-                  value={baselineWidth}
-                  onChange={(e) => setBaselineWidth(Math.max(1, parseInt(e.target.value) || 1))}
-                  className="w-full border rounded px-2 py-1"
-                  min="1"
-                  max="1000
-                  "
-                />
-              </div>
-            </div>
-            <div className="flex flex-col gap-2">
-              {Array.from({ length: lineCount }, (_, lineIndex) => (
-                <div key={lineIndex} className="border rounded p-3 w-full">
-                  <h4 className="font-medium">Line {lineIndex + 1}</h4>
-                  <div className="space-y-2 flex w-full gap-8">
-                    {Array.from({ length: nodeCount }, (_, nodeIndex) => (
-                      <div key={nodeIndex} className="flex items-center space-x-2 w-full">
-                        <span className="text-xs w-8">N{nodeIndex + 1}:</span>
-                        <input
-                          type="number"
-                          placeholder="X"
-                          value={nodes[lineIndex]?.[nodeIndex]?.x?.toFixed(1) || ""}
-                          onChange={(e) =>
-                            updateNodePosition(lineIndex, nodeIndex, "x", parseFloat(e.target.value) || 0)
-                          }
-                          className="w-16 border rounded px-1 py-0.5 text-xs"
-                          step="0.1"
-                        />
-                        <input
-                          type="range"
-                          placeholder="Y"
-                          value={nodes[lineIndex]?.[nodeIndex]?.y?.toFixed(1) || ""}
-                          onChange={(e) =>
-                            updateNodePosition(lineIndex, nodeIndex, "y", parseFloat(e.target.value) || 0)
-                          }
-                          className="border rounded px-1 py-0.5 text-xs w-full"
-                          step="0.1"
-                        />
-                      </div>
-                    ))}
+        </div>
+        <div className="flex gap-4">
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-1">Line Count:</label>
+            <input
+              type="number"
+              value={lineCount}
+              onChange={(e) => setLineCount(Math.max(1, parseInt(e.target.value) || 1))}
+              className="w-full border rounded px-2 py-1"
+              min="1"
+              max="20"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-1">Nodes per Line:</label>
+            <input
+              type="number"
+              value={nodeCount}
+              onChange={(e) => setNodeCount(Math.max(2, parseInt(e.target.value) || 2))}
+              className="w-full border rounded px-2 py-1"
+              min="2"
+              max="10"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-1">Line thickness:</label>
+            <input
+              type="number"
+              value={baselineWidth}
+              onChange={(e) => setBaselineWidth(Math.max(1, parseInt(e.target.value) || 1))}
+              className="w-full border rounded px-2 py-1"
+              min="1"
+              max="1000"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          {Array.from({ length: lineCount }, (_, lineIndex) => (
+            <div key={lineIndex} className="border rounded p-3 w-full">
+              <h4 className="font-medium">Line {lineIndex + 1}</h4>
+              <div className="space-y-2 flex w-full gap-8">
+                {Array.from({ length: nodeCount }, (_, nodeIndex) => (
+                  <div key={nodeIndex} className="flex items-center space-x-2 w-full">
+                    <span className="text-xs w-8">N{nodeIndex + 1}:</span>
+                    <input
+                      type="number"
+                      placeholder="X"
+                      value={nodes[lineIndex]?.[nodeIndex]?.x?.toFixed(1) || ""}
+                      onChange={(e) => updateNodePosition(lineIndex, nodeIndex, "x", parseFloat(e.target.value) || 0)}
+                      className="w-16 border rounded px-1 py-0.5 text-xs"
+                      step="0.1"
+                    />
+                    <input
+                      type="range"
+                      placeholder="Y"
+                      value={nodes[lineIndex]?.[nodeIndex]?.y?.toFixed(1) || ""}
+                      onChange={(e) => updateNodePosition(lineIndex, nodeIndex, "y", parseFloat(e.target.value) || 0)}
+                      className="border rounded px-1 py-0.5 text-xs w-full"
+                      step="0.1"
+                    />
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

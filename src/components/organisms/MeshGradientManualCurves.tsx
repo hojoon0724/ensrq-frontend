@@ -127,10 +127,24 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
 
     const updateDimensions = () => {
       const rect = canvas.parentElement?.getBoundingClientRect();
-      const width = rect?.width || window.innerWidth;
-      const height = rect?.height || window.innerHeight;
-      dimensionsRef.current.width = canvas.width = width;
-      dimensionsRef.current.height = canvas.height = height;
+      if (!rect) return;
+
+      const width = rect.width;
+      const height = rect.height;
+
+      // Ensure dimensions are valid and not zero
+      if (width <= 0 || height <= 0) return;
+
+      // Set both canvas display size and internal resolution
+      const dpr = window.devicePixelRatio || 1;
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+      ctx.scale(dpr, dpr);
+
+      dimensionsRef.current.width = width;
+      dimensionsRef.current.height = height;
     };
 
     updateDimensions();
@@ -165,7 +179,7 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
           const progress = layer / (layers - 1);
           const currentWidth = lineWidth * (1 - progress * 2);
 
-          const alpha = (1 - progress) * 0.1;
+          const alpha = (1 - progress) * 0.15;
 
           ctx.beginPath();
           ctx.moveTo(points[0].x, points[0].y);
@@ -213,18 +227,35 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
     const handleResize = () => {
       const canvas = canvasRef.current;
       if (!canvas) return;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return;
 
       const rect = canvas.parentElement?.getBoundingClientRect();
-      const newWidth = rect?.width || window.innerWidth;
-      const newHeight = rect?.height || window.innerHeight;
+      if (!rect) return;
 
-      dimensionsRef.current.width = canvas.width = newWidth;
-      dimensionsRef.current.height = canvas.height = newHeight;
+      const newWidth = rect.width;
+      const newHeight = rect.height;
+
+      // Ensure dimensions are valid and not zero
+      if (newWidth <= 0 || newHeight <= 0) return;
+
+      // Set both canvas display size and internal resolution
+      const dpr = window.devicePixelRatio || 1;
+      canvas.style.width = `${newWidth}px`;
+      canvas.style.height = `${newHeight}px`;
+      canvas.width = newWidth * dpr;
+      canvas.height = newHeight * dpr;
+      ctx.scale(dpr, dpr);
+
+      dimensionsRef.current.width = newWidth;
+      dimensionsRef.current.height = newHeight;
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return <canvas ref={canvasRef} className="w-full h-full absolute top-0 left-0 z-[-1] pointer-events-none" />;
+  return (
+    <canvas ref={canvasRef} className="w-full h-full absolute top-0 left-0 z-[-1] pointer-events-none object-contain" />
+  );
 };
