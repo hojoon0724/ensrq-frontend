@@ -5,7 +5,7 @@ import { Season } from "@/types";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 
-const seasonsWithStreaming = ['s06','s07','s08','s09','s10']
+const seasonsWithStreaming = ['s05', 's06','s07','s08','s09','s10']
 
 export default function Streaming() {
   const filteredSeasons = seasonData.filter((season) =>

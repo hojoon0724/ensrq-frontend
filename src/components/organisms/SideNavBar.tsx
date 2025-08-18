@@ -64,6 +64,7 @@ const navItems = links_active
           { name: "Season 8", url: "/streaming/s08" },
           { name: "Season 7", url: "/streaming/s07" },
           { name: "Season 6", url: "/streaming/s06" },
+          { name: "Season 5", url: "/streaming/s05" },
         ],
         is_cta: false,
       },

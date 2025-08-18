@@ -26,9 +26,10 @@ export function IndividualTicket({ concert, type, colorTheme }: { concert: Conce
       </Link>
 
       <a href={concert.ticketsLinks[ticketType()]?.url} target="_blank" rel="noopener noreferrer">
-        <Button disabled={new Date() > new Date(concert.date)} size="lg" color={colorTheme} className={`${new Date() > new Date(concert.date) ? "saturate-0" : ""} w-full`}>
-          {new Date() > new Date(concert.date) ? "Concert Ended" : `
-          Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Pass"}`}
+        <Button disabled={new Date() > new Date(concert.date) || !concert.ticketsLinks[ticketType()]?.url} size="lg" color={colorTheme} className={`${new Date() > new Date(concert.date) ? "saturate-0" : ""} w-full`}>
+          {new Date() > new Date(concert.date) ? "Concert Ended" : 
+          !concert.ticketsLinks[ticketType()]?.url ? "Not Available Yet" :
+          `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
         </Button>
       </a>
     </>
@@ -85,7 +86,7 @@ export function TicketsTable({ season }: { season: Season }) {
       >
         <a className="anchor scroll-mt-[80px]" id="individual-tickets"></a>
         <div className="season-pass-streaming flex flex-col justify-center items-center gap-s text-center">
-          <h2>Livestream Pass</h2>
+          <h2>Livestream Tickets</h2>
           <h4>$10</h4>
           <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
           <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">

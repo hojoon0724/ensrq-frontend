@@ -1,6 +1,7 @@
 import { Image } from "@/components/atoms";
 import ConcertStreamingItem from "@/components/molecules/ConcertStreamingItem";
 import { BaseRandomColorHeader, SectionGrid } from "@/components/sections";
+import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -27,22 +28,28 @@ export default async function WatchSeasonPage({ params }: { params: Promise<{ se
       Boolean(concert && concert.youTubeUrl && concert.youTubeUrl.trim() !== "")
     );
 
+  const seasonPassGraphicsPath = `/graphics/${seasonId}/streaming-thumbnails/${seasonId}-season-pass.webp`;
+  const existsInManifest: boolean = Object.prototype.hasOwnProperty.call(graphicAssetsManifest, seasonPassGraphicsPath);
+
   return (
     <div>
       <BaseRandomColorHeader title={`Streaming`} subtitle={`${formatSeasonLabel(seasonId)}`}></BaseRandomColorHeader>
       <SectionGrid>
         <Link href={`/streaming/${seasonId}/season-pass`} className="relative">
-          <div className="concert-details-text-container flex flex-col absolute h-full w-full justify-center items-center text-center museo-slab">
-            Streaming Season Pass
-          </div>
-          <Image
-            src={`/graphics/${seasonId}/streaming-thumbnails/season-pass.webp`}
-            alt={`Season ${formatSeasonLabel(seasonId)}`}
-            className="w-full h-auto object-cover rounded-lg shadow-lg"
-            fill={false}
-            width={500}
-            height={300}
-          />
+          {existsInManifest ? (
+            <Image
+              src={seasonPassGraphicsPath}
+              alt={`Streaming Season Pass`}
+              className="w-full h-auto object-cover rounded-lg shadow-lg"
+              fill={false}
+              width={500}
+              height={300}
+            />
+          ) : (
+            <div className="concert-details-text-container flex flex-col w-full aspect-video justify-center items-center text-center bg-gray-200 rounded-lg shadow-lg bg-white">
+              <div className="text-lg font-normal museo-slab">{`Streaming Season Pass`}</div>
+            </div>
+          )}
         </Link>
         {seasonConcertsWithStreaming.map((concert) => (
           <ConcertStreamingItem key={concert.concertId} concert={concert} seasonId={seasonId} />

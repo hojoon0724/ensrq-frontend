@@ -1,4 +1,4 @@
-import photoManifest from "@/data/photo-manifest.json";
+import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 
 export interface FocusPoint {
   x: number;
@@ -21,7 +21,9 @@ export function getFocusPoint(src: string): FocusPoint | null {
   // Normalize the src path to match manifest keys
   const normalizedSrc = src.startsWith("/") ? src : `/${src}`;
 
-  const manifestEntry = photoManifest[normalizedSrc as keyof typeof photoManifest] as ManifestEntry | undefined;
+  const manifestEntry = graphicAssetsManifest[normalizedSrc as keyof typeof graphicAssetsManifest] as
+    | ManifestEntry
+    | undefined;
 
   return manifestEntry?.focus || null;
 }
@@ -45,7 +47,9 @@ export function focusToPercent(focus: FocusPoint): { xPercent: string; yPercent:
  */
 export function getImageDimensions(src: string): { width: number; height: number } | null {
   const normalizedSrc = src.startsWith("/") ? src : `/${src}`;
-  const manifestEntry = photoManifest[normalizedSrc as keyof typeof photoManifest] as ManifestEntry | undefined;
+  const manifestEntry = graphicAssetsManifest[normalizedSrc as keyof typeof graphicAssetsManifest] as
+    | ManifestEntry
+    | undefined;
 
   if (!manifestEntry) return null;
 

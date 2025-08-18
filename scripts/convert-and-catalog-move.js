@@ -8,7 +8,8 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(__dirname, "../public");
-const OUTPUT_FILE = path.join(__dirname, "../src/data/photo-manifest.json");
+const ORIGINALS_DIR = path.join(__dirname, "../src/original-jpg");
+const OUTPUT_FILE = path.join(__dirname, "../src/data/graphic-assets-manifest.json");
 
 // Directories to process for image conversion
 const baseDirs = [path.resolve("./public/photos/"), path.resolve("./public/graphics/")];
@@ -25,7 +26,22 @@ function normalizeFilename(filename) {
     .replace(/^-|-$/g, ""); // Remove leading and trailing hyphens
 }
 
-async function processDirectory(inputDir, outputDir = inputDir) {
+async function moveOriginalFile(originalPath) {
+  const relative = path.relative(PUBLIC_DIR, originalPath);
+  const destination = path.join(ORIGINALS_DIR, relative);
+
+  // Check if original file still exists (might have been moved already)
+  if (!fs.existsSync(originalPath)) {
+    console.log(`  → Original file already moved: ${relative}`);
+    return;
+  }
+
+  await fsPromises.mkdir(path.dirname(destination), { recursive: true });
+  await fsPromises.rename(originalPath, destination);
+  console.log(`  → Moved to: ${path.relative(__dirname, destination)}`);
+}
+
+async function processDirectory(inputDir, outputDir = inputDir, convertedFiles = []) {
   try {
     // Ensure output directory exists
     await fsPromises.mkdir(outputDir, { recursive: true });
@@ -39,25 +55,34 @@ async function processDirectory(inputDir, outputDir = inputDir) {
       if (entry.isDirectory()) {
         // Recursively process subdirectories
         const subOutputDir = path.join(outputDir, entry.name);
-        await processDirectory(inputPath, subOutputDir);
+        await processDirectory(inputPath, subOutputDir, convertedFiles);
       } else if (entry.isFile()) {
         // Check if it's an image file (support multiple formats)
         const imageExtensions = /\.(jpe?g|png|gif|bmp|tiff?)$/i;
 
-        if (imageExtensions.test(entry.name)) {
+        if (imageExtensions.test(entry.name) && !entry.name.toLowerCase().endsWith(".webp")) {
           const normalizedName = normalizeFilename(entry.name);
           const outputFileName = `${normalizedName}.webp`;
           const outputPath = path.join(outputDir, outputFileName);
 
-          try {
-            await sharp(inputPath)
-              .toFormat("webp", { quality: 80 }) // You can adjust quality (0-100)
-              .toFile(outputPath);
-            console.log(
-              `Converted: ${path.relative(process.cwd(), inputPath)} → ${path.relative(process.cwd(), outputPath)}`
-            );
-          } catch (err) {
-            console.error(`Error converting ${entry.name}:`, err.message);
+          // Check if WebP file already exists
+          if (fs.existsSync(outputPath)) {
+            console.log(`Skipping: ${entry.name} (WebP already exists)`);
+            // Still track this as a converted file for potential moving
+            convertedFiles.push(inputPath);
+          } else {
+            try {
+              await sharp(inputPath)
+                .toFormat("webp", { quality: 80 }) // You can adjust quality (0-100)
+                .toFile(outputPath);
+              console.log(
+                `Converted: ${path.relative(process.cwd(), inputPath)} → ${path.relative(process.cwd(), outputPath)}`
+              );
+              // Track the original file for moving
+              convertedFiles.push(inputPath);
+            } catch (err) {
+              console.error(`Error converting ${entry.name}:`, err.message);
+            }
           }
         } else if (path.extname(entry.name).toLowerCase() === ".webp") {
           console.log(`Skipping: ${entry.name} (already WebP)`);
@@ -67,10 +92,14 @@ async function processDirectory(inputDir, outputDir = inputDir) {
   } catch (err) {
     console.error(`Error processing directory ${inputDir}:`, err.message);
   }
+
+  return convertedFiles;
 }
 
 async function convertAllImagesToWebp() {
   console.log("Starting image conversion to WebP...\n");
+
+  const allConvertedFiles = [];
 
   for (const baseDir of baseDirs) {
     console.log(`Processing directory: ${baseDir}`);
@@ -78,7 +107,8 @@ async function convertAllImagesToWebp() {
     try {
       // Check if directory exists
       await fsPromises.access(baseDir);
-      await processDirectory(baseDir);
+      const convertedFiles = await processDirectory(baseDir);
+      allConvertedFiles.push(...convertedFiles);
     } catch (err) {
       console.log(`Directory ${baseDir} does not exist, skipping... (${err.message})`);
     }
@@ -87,6 +117,7 @@ async function convertAllImagesToWebp() {
   }
 
   console.log("Image conversion complete!\n");
+  return allConvertedFiles;
 }
 
 function walkDir(dir, fileList = []) {
@@ -143,12 +174,32 @@ function createWebpManifest() {
 async function main() {
   try {
     // Step 1: Convert all images to WebP
-    await convertAllImagesToWebp();
+    const convertedFiles = await convertAllImagesToWebp();
 
     // Step 2: Create manifest of WebP files
     createWebpManifest();
 
-    console.log("\n✅ Process complete! All images converted to WebP and manifest created.");
+    // Step 3: Move original files to /src/original-jpg/
+    if (convertedFiles.length > 0) {
+      console.log("\n--- Step 3: Moving Original Files ---");
+      for (const originalPath of convertedFiles) {
+        const relativePath = path.relative(PUBLIC_DIR, originalPath);
+        console.log(`Moving: ${relativePath}`);
+
+        try {
+          await moveOriginalFile(originalPath);
+        } catch (error) {
+          console.error(`  → ERROR: Move failed: ${error.message}`);
+        }
+      }
+    }
+
+    console.log(`\n✅ Process complete!`);
+    console.log(`- Converted ${convertedFiles.length} files to WebP`);
+    console.log(`- Generated manifest with WebP files`);
+    if (convertedFiles.length > 0) {
+      console.log(`- Moved ${convertedFiles.length} original files to /src/original-jpg/`);
+    }
   } catch (error) {
     console.error("❌ Error during processing:", error.message);
     process.exit(1);

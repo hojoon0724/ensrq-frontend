@@ -5,7 +5,7 @@ export * from "./donor";
 export * from "./donor-tier";
 export * from "./instrument";
 export * from "./musician";
-export * from "./photoManifest";
+export * from "./graphicAssetManifest";
 export * from "./season";
 export * from "./venue";
 export * from "./work";

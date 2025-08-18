@@ -49,7 +49,7 @@ export default function BaseRandomColorHeader({
                   headerSize === "large" ? "text-2xl" : "text-lg lg:text-2xl"
                 }`}
               >
-                {subtitle}
+                <h3>{subtitle}</h3>
               </div>
             ) : (
               subtitle

@@ -1,11 +1,11 @@
 "use client";
 
-import photoManifest from "@/data/photo-manifest.json";
-import { Concert, PhotoManifest } from "@/types";
+import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
+import { Concert, GraphicAssetManifest } from "@/types";
 import { getComposerData, getVenueData, getWorkData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
-import { ComposerPhotoGrid } from "./ComposerPhotoGrid";
 import { ShowMarkdownText } from "../atoms";
+import { ComposerPhotoGrid } from "./ComposerPhotoGrid";
 
 interface ConcertTileProps {
   concert: Concert;
@@ -28,7 +28,7 @@ export function ConcertTile({ concert }: ConcertTileProps) {
       const composerPhotoPath = workData?.composerId ? `/photos/portraits/${workData.composerId}.webp` : null;
 
       // Check if photo exists in manifest
-      const photoExists = composerPhotoPath && (photoManifest as PhotoManifest)[composerPhotoPath];
+      const photoExists = composerPhotoPath && (graphicAssetsManifest as GraphicAssetManifest)[composerPhotoPath];
 
       return photoExists ? composerPhotoPath : null;
     })

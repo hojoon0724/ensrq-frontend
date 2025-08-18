@@ -13,7 +13,7 @@ faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(__dirname, "../public");
 const ORIGINALS_DIR = path.join(__dirname, "../src/original-jpg");
-const OUTPUT_FILE = path.join(__dirname, "../src/data/photo-manifest.json");
+const OUTPUT_FILE = path.join(__dirname, "../src/data/graphic-assets-manifest.json");
 
 // Check for dry-run flag
 const DRY_RUN = process.argv.includes("--dry-run") || process.argv.includes("-d");

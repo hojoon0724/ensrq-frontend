@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(__dirname, "../public");
-const OUTPUT_FILE = path.join(__dirname, "../src/data/photo-manifest.json");
+const OUTPUT_FILE = path.join(__dirname, "../src/data/graphic-assets-manifest.json");
 
 const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
 

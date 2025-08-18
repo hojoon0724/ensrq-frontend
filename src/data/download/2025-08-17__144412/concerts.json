@@ -1257,8 +1257,7 @@
         "musicians": []
       }
     ],
-    "status": "completed",
-    "youTubeUrl": "https://www.youtube.com/watch?v=dOhDCZuauLs"
+    "status": "completed"
   },
   {
     "concertId": "s06-2022-01-31-void",
@@ -1312,7 +1311,7 @@
       }
     },
     "streamingPagePassword": "euclid",
-    "streamingPageUrl": "",
+    "streamingPageUrl": "https://www.youtube.com/watch?v=WRtZFkXVtYY",
     "sponsors": "Robert and Debbie Hendel",
     "program": [
       {
@@ -1333,8 +1332,7 @@
         "musicians": []
       }
     ],
-    "status": "completed",
-    "youTubeUrl": "https://www.youtube.com/watch?v=WRtZFkXVtYY"
+    "status": "completed"
   },
   {
     "concertId": "s06-2022-03-28-vortex-temporum",
@@ -1356,7 +1354,7 @@
       }
     },
     "streamingPagePassword": "souffle",
-    "streamingPageUrl": "",
+    "streamingPageUrl": "https://www.youtube.com/watch?v=4U3BbDt7jUg",
     "sponsors": "Eric Dean and Pat Michelsen",
     "program": [
       {
@@ -1372,8 +1370,7 @@
         "musicians": []
       }
     ],
-    "status": "completed",
-    "youTubeUrl": "https://www.youtube.com/watch?v=4U3BbDt7jUg"
+    "status": "completed"
   },
   {
     "concertId": "s06-2022-04-18-waves",
@@ -1395,7 +1392,7 @@
       }
     },
     "streamingPagePassword": "digital2020",
-    "streamingPageUrl": "",
+    "streamingPageUrl": "https://www.youtube.com/watch?v=YCaBDcvXIRY",
     "sponsors": "",
     "program": [
       {
@@ -1417,8 +1414,7 @@
         "musicians": []
       }
     ],
-    "status": "completed",
-    "youTubeUrl": "https://www.youtube.com/watch?v=YCaBDcvXIRY"
+    "status": "completed"
   },
   {
     "concertId": "s07-2022-10-10-first-voices",
