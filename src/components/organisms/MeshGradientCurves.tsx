@@ -191,12 +191,7 @@ export const MeshGradientCurves: React.FC<MeshGradientCurvesProps> = ({
           const currentWidth = lineWidth * (1 - progress * 2); // Shrink width
 
           // Adjust alpha based on tone - for dark mode, use higher alpha to get darker results
-          let alpha: number;
-          if (tone === "dark") {
-            alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1);
-          } else {
-            alpha = (1 - progress) * (blendMode === "blended" ? 0.1 : 1);
-          }
+          const alpha = (1 - progress) * (blendMode === "blended" ? 0.15 : 1);
 
           ctx.beginPath();
           ctx.moveTo(points[0].x, points[0].y);

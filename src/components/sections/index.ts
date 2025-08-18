@@ -1,6 +1,7 @@
 export { default as BaseRandomColorHeader } from "./BaseRandomColorHeader";
 export { GridLayout } from "./GridLayout";
 export { useRandomColors } from "./hooks/useRandomColors";
+export { LandingPageSection } from "./LandingPageSection";
 export { default as RandomColorConcertHeader } from "./RandomColorConcertHeader";
 export { default as RandomColorHeader } from "./RandomColorHeader";
 export { default as RandomColorSeasonHeader } from "./RandomColorSeasonHeader";

@@ -2513,13 +2513,7 @@
     "program": [
       {
         "workId": "sebastian-currier-whispers",
-        "musicians": [
-          "",
-          "",
-          "",
-          "",
-          "george-nickson"
-        ]
+        "musicians": ["", "", "", "", "george-nickson"]
       },
       {
         "workId": "amy-williams-tangled-madrigal",
@@ -2527,10 +2521,7 @@
       },
       {
         "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
-        "musicians": [
-          "mark-dacigers",
-          "george-nickson"
-        ]
+        "musicians": ["mark-dacigers", "george-nickson"]
       },
       {
         "workId": "elliott-carter-triple-duo",
@@ -2723,11 +2714,11 @@
     "venueId": "sarasota-opera-house",
     "ticketsLinks": {
       "singleLive": {
-        "price": 0,
+        "price": 30,
         "url": ""
       },
       "singleStreaming": {
-        "price": 0,
+        "price": 10,
         "url": ""
       }
     },

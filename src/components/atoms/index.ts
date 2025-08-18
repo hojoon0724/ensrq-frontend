@@ -1,7 +1,9 @@
+
 // Atomic Components
 export { Badge } from "./Badge";
 export { Button } from "./Button";
 export { Checkbox } from "./Checkbox";
+export { CountUpToTarget } from "./CountUpToTarget";
 export { Divider } from "./Divider";
 export { Icon } from "./Icon";
 export { Image } from "./Image";

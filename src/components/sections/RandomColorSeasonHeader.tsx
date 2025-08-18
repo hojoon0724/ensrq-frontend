@@ -2,6 +2,7 @@
 
 import { Season } from "@/types";
 import { formatSeasonLabel } from "@/utils";
+import { getCurrentSeason } from "../../utils/getData";
 import BaseRandomColorHeader from "./BaseRandomColorHeader";
 import { TicketLinks } from "./TicketLinks";
 import { useRandomColors } from "./hooks/useRandomColors";
@@ -12,10 +13,13 @@ interface RandomColorSeasonHeaderProps {
   children?: React.ReactNode;
 }
 
+const currentSeason = getCurrentSeason();
+
 export default function RandomColorSeasonHeader({ seasonId, seasonData, children }: RandomColorSeasonHeaderProps) {
+  const is_current_season = seasonId === currentSeason.seasonId;
   const colors = useRandomColors("dark");
 
-  const ticketSection = seasonData?.ticketsLinks && (
+  const ticketSection = is_current_season && seasonData?.ticketsLinks && (
     <TicketLinks
       liveTickets={seasonData.ticketsLinks.seasonLive}
       streamingTickets={seasonData.ticketsLinks.seasonStreaming}

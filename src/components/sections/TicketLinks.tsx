@@ -21,41 +21,36 @@ export function TicketLinks({
   streamingLabel = "Purchase Streaming",
   color,
 }: TicketLinksProps) {
-  const isLiveDisabled = liveTickets?.price !== undefined && liveTickets.price <= 0;
-  const isStreamingDisabled = streamingTickets?.price !== undefined && streamingTickets.price <= 0;
+  const isLiveDisabled = liveTickets?.url === undefined || liveTickets.url === "";
+  const isStreamingDisabled = streamingTickets?.url === undefined || streamingTickets.url === "";
 
   return (
     <div className="tickets-link-container grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
-      {liveTickets?.url && (
-        <Button color={color} disabled={isLiveDisabled}>
-          {isLiveDisabled ? (
-            <span>
-              {liveLabel}
-              {liveTickets.price && liveTickets.price > 0 ? ` - $${liveTickets.price}` : null}
-            </span>
-          ) : (
-            <Link href={liveTickets.url}>
-              {liveLabel}
-              {liveTickets.price && liveTickets.price > 0 ? ` - $${liveTickets.price}` : null}
-            </Link>
-          )}
-        </Button>
-      )}
-      {streamingTickets?.url && (
-        <Button color={color} disabled={isStreamingDisabled}>
-          {isStreamingDisabled ? (
-            <span>
-              {streamingLabel}
-              {streamingTickets.price && streamingTickets.price > 0 ? ` - $${streamingTickets.price}` : null}
-            </span>
-          ) : (
-            <Link href={streamingTickets.url}>
-              {streamingLabel}
-              {streamingTickets.price && streamingTickets.price > 0 ? ` - $${streamingTickets.price}` : null}
-            </Link>
-          )}
-        </Button>
-      )}
+      <Button color={color} disabled={isLiveDisabled}>
+        {isLiveDisabled ? (
+          <span>
+            Live Tickets Not Yet Available
+          </span>
+        ) : (
+          <Link href={liveTickets?.url || "#"}>
+            {liveLabel}
+            {liveTickets?.price && liveTickets.price > 0 ? ` - $${liveTickets.price}` : null}
+          </Link>
+        )}
+      </Button>
+
+      <Button color={color} disabled={isStreamingDisabled}>
+        {isStreamingDisabled ? (
+          <span>
+            Streaming Tickets Not Yet Available
+          </span>
+        ) : (
+          <Link href={streamingTickets?.url || "#"}>
+            {streamingLabel}
+            {streamingTickets?.price && streamingTickets?.price > 0 ? ` - $${streamingTickets?.price}` : null}
+          </Link>
+        )}
+      </Button>
     </div>
   );
 }

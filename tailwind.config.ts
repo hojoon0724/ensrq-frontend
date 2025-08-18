@@ -8,7 +8,9 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/assets/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   safelist: [
+    ...Array.from({ length: 36 }, (_, i) => `order-${i + 1}`),
     // Always include custom spacing classes
     { pattern: /^(p|m|gap|space|top|right|bottom|left|inset)-(quarter|half|s|double|triple)$/ },
     // Include directional spacing classes (px, py, pl, pr, pt, pb, mx, my, ml, mr, mt, mb)
@@ -70,6 +72,33 @@ export default {
 
   theme: {
     extend: {
+      // tailwind.config.js
+      order: {
+        13: "13",
+        14: "14",
+        15: "15",
+        16: "16",
+        17: "17",
+        18: "18",
+        19: "19",
+        20: "20",
+        21: "21",
+        22: "22",
+        23: "23",
+        24: "24",
+        25: "25",
+        26: "26",
+        27: "27",
+        28: "28",
+        29: "29",
+        30: "30",
+        31: "31",
+        32: "32",
+        33: "33",
+        34: "34",
+        35: "35",
+        36: "36",
+      },
       maxWidth: {
         "8xl": "88rem",
         "9xl": "96rem",

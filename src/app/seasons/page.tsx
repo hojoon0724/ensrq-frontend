@@ -1,22 +1,47 @@
+import { Image } from "@/components/atoms";
 import { RandomColorHeader, SectionGrid } from "@/components/sections";
+import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import seasonData from "@/data/serve/seasons.json";
 import { Season } from "@/types";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 
 export default function SeasonsPage() {
+  const colors = ["sky", "sand", "water"];
+  const shades = [50, 100, 200, 300, 400];
+
   return (
     <div>
       <RandomColorHeader title="All Seasons" />
       <SectionGrid>
-        {seasonData.reverse().map((season: Season) => (
-          <Link key={season.seasonId} href={`/seasons/${season.seasonId}`}>
-            <div className="p-4 border-b border-gray-200 flex flex-col justify-center items-center w-full aspect-video border">
-              <h3 className="text-xl font-semibold">{formatSeasonLabel(season.seasonId)}</h3>
-              <h3 className="text-lg font-light">{season.year}</h3>
-            </div>
-          </Link>
-        ))}
+        {seasonData.reverse().map((season: Season, index: number) => {
+          const key = `/graphics/${season.seasonId}/${season.seasonId}-cover.webp`;
+          const existsInManifest: boolean = Object.prototype.hasOwnProperty.call(graphicAssetsManifest, key);
+          const bgColor = colors[index % colors.length];
+          const shadeIndex = Math.floor(index / colors.length) % shades.length;
+          const shade = shades[shadeIndex];
+
+          return (
+            <Link key={season.seasonId} href={`/seasons/${season.seasonId}`}>
+              {existsInManifest ? (
+                <Image
+                  src={key}
+                  alt={formatSeasonLabel(season.seasonId)}
+                  width={400}
+                  height={300}
+                  className="object-cover"
+                />
+              ) : (
+                <div
+                  className={`p-4 border-b border-gray-200 flex flex-col justify-center items-center w-full aspect-video border bg-${bgColor}-${shade}`}
+                >
+                  <h3 className="text-xl font-semibold">{formatSeasonLabel(season.seasonId)}</h3>
+                  <h3 className="text-lg font-light">{season.year}</h3>
+                </div>
+              )}
+            </Link>
+          );
+        })}
       </SectionGrid>
       {/* Render season information here */}
     </div>

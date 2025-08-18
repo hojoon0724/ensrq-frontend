@@ -1,6 +1,5 @@
 import { RandomColorConcertHeader } from "@/components/sections";
 import { Concert } from "@/types";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 // Static imports for repo JSON (faster, smaller runtime code)
@@ -26,30 +25,11 @@ export default async function SingleConcertPage({
   // Reconstruct the full concert ID
   const fullConcertId = `${seasonId}-${concertId}`;
 
-  // Precompute valid IDs
-  const validSeasonIds = new Set(allSeasons.map((season) => season.seasonId));
-  const validConcertIds = new Set(allSeasons.flatMap((season) => season.concerts));
-
-  // Validate season and concert
-  if (!validSeasonIds.has(seasonId)) {
-    notFound();
-  }
-
   // Find the concert data
   const concertData = allConcerts.find((c) => c.concertId === fullConcertId);
 
-  if (!concertData || !validConcertIds.has(fullConcertId)) {
-    return (
-      <div>
-        <h1 className="text-4xl font-bold mb-4">Concert Not Found</h1>
-        <p className="mb-4">
-          The concert &ldquo;{concertId}&rdquo; could not be found in season {seasonId}.
-        </p>
-        <Link href={`/seasons/${seasonId}`} className="text-blue-600 hover:underline">
-          Return to Season {seasonId.replace("s", "").replace(/^0+/, "")}
-        </Link>
-      </div>
-    );
+  if (!concertData) {
+    notFound();
   }
 
   return (

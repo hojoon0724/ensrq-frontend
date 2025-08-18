@@ -45,7 +45,7 @@ const navItems = links_active
 
       {
         name: "Past Seasons",
-        url: `/seasons/${descendingSeasons[0].seasonId}`,
+        url: `/seasons/`,
         dropdown: true,
         dropdownItems: descendingSeasons.slice(1).map((season) => ({
           name: formatSeasonLabel(season.seasonId),

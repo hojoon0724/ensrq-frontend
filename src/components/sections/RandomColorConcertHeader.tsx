@@ -4,7 +4,7 @@ import { ShowMarkdownText } from "@/components/atoms/ShowMarkdownText";
 import { ProgramTile } from "@/components/molecules";
 import { SectionEmpty } from "@/components/sections";
 import { Concert } from "@/types";
-import { getVenueData } from "@/utils";
+import { getCurrentSeason, getVenueData } from "@/utils";
 import BaseRandomColorHeader from "./BaseRandomColorHeader";
 import { TicketLinks } from "./TicketLinks";
 import { useRandomColors } from "./hooks/useRandomColors";
@@ -14,7 +14,10 @@ interface RandomColorConcertHeaderProps {
   children?: React.ReactNode;
 }
 
+const currentSeason = getCurrentSeason();
+
 export default function RandomColorConcertHeader({ concertData, children }: RandomColorConcertHeaderProps) {
+  const is_current_season = concertData.seasonId === currentSeason.seasonId;
   const colors = useRandomColors("dark");
 
   const formatDate = (dateString: string) => {
@@ -35,7 +38,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
     return formattedDate;
   };
 
-  const ticketSection = concertData.ticketsLinks && (
+  const ticketSection = is_current_season && (
     <TicketLinks
       liveTickets={concertData.ticketsLinks.singleLive}
       streamingTickets={concertData.ticketsLinks.singleStreaming}
