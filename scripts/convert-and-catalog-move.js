@@ -145,7 +145,7 @@ function getRelativePublicPath(absPath) {
 function loadExistingManifest() {
   try {
     if (fs.existsSync(OUTPUT_FILE)) {
-      const manifestData = fs.readFileSync(OUTPUT_FILE, 'utf8');
+      const manifestData = fs.readFileSync(OUTPUT_FILE, "utf8");
       return JSON.parse(manifestData);
     }
   } catch (err) {
@@ -158,21 +158,21 @@ function buildManifest(imageFiles) {
   // Load existing manifest to preserve focus coordinates
   const existingManifest = loadExistingManifest();
   console.log(`Loaded ${Object.keys(existingManifest).length} entries from existing manifest`);
-  
+
   const manifest = { ...existingManifest }; // Start with existing data
-  
+
   for (const file of imageFiles) {
     try {
       const buffer = fs.readFileSync(file);
       const dimensions = sizeOf(buffer);
       const relativePath = getRelativePublicPath(file);
-      
+
       // Merge new data with existing entry (preserving focus if it exists)
       manifest[relativePath] = {
         width: dimensions.width,
         height: dimensions.height,
         type: "webp",
-        ...(existingManifest[relativePath]?.focus && { focus: existingManifest[relativePath].focus })
+        ...(existingManifest[relativePath]?.focus && { focus: existingManifest[relativePath].focus }),
       };
     } catch (err) {
       console.warn(`Could not get size for ${file}: ${err.message}`);

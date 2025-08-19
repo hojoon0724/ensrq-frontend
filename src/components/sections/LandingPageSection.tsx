@@ -2,8 +2,8 @@ import { CountUpToTarget } from "@/components/atoms";
 import { SectionEmpty, SectionMeshGradient } from "@/components/sections";
 import allConcerts from "@/data/serve/concerts.json";
 import { Concert } from "@/types/concert";
-import { extractDateFromUtc, getVenueData } from "@/utils";
-import React from "react";
+import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
+import Link from "next/link";
 
 const duration = 3000;
 const seasons = {
@@ -61,68 +61,80 @@ export function LandingPageSection() {
       </SectionMeshGradient>
       <SectionEmpty themeColor="water" tone="light">
         <h1>At a glance:</h1>
-        <style>
-          {`
-            .concerts-grid .header {
-              font-weight: bold;
-            }
-            .concert-row {
-              border-top: 1px solid rgba(0,0,0,0.04);
-              display: contents; /* keep cells as grid items */
-            }
 
-          `}
-        </style>
-
+        {/* Mobile */}
         <div
-          className="concerts-grid  grid gap-x-double grid-cols-[1fr,auto] sm:grid-cols-[1fr,auto,auto,auto] items-center mb-double"
+          className="concerts-grid grid md:hidden gap-x-double grid-cols-[1fr,auto] items-center mb-double"
+          role="table"
+          aria-label="Current season concerts"
+        >
+          {currentSeasonConcertData.map((concert) => (
+            <Link
+              key={concert.concertId}
+              className="contents"
+              href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`}
+              role="row"
+            >
+              <div className={`cell mt-double px-2 text-left font-bold`} role="cell">
+                <span className="text-xl museo-slab">{concert.title}</span>
+              </div>
+              <div className={`cell mt-double px-2 text-right kode-mono`} role="cell">
+                {extractDateFromUtc(concert.date)}
+              </div>
+              <div className={`cell mb-double px-2 text-left`} role="cell">
+                {concert.venueId ? getVenueData(concert.venueId)?.name : ""}
+              </div>
+              <div className={`cell mb-double px-2 text-right kode-mono`} role="cell">
+                {concert.time}
+              </div>
+            </Link>
+          ))}
+        </div>
+
+
+        {/* Desktop */}
+        <div
+          className="concerts-grid hidden md:grid gap-x-double grid-cols-[1fr,auto,auto,auto] items-center mb-double"
           role="table"
           aria-label="Current season concerts"
         >
           {/* header (4 grid items) */}
-          <div className="header hidden sm:block sm:px-2 sm:py-1 text-left" role="columnheader">
+          <div className="header font-bold block px-2 py-1 text-left" role="columnheader">
             Title
           </div>
-          <div className="header hidden sm:block sm:px-2 sm:py-1 text-center" role="columnheader">
+          <div className="header font-bold block px-2 py-1 text-center" role="columnheader">
             Date
           </div>
-          <div className="header hidden sm:block sm:px-2 sm:py-1 text-right sm:text-center" role="columnheader">
+          <div className="header font-bold block px-2 py-1 text-center" role="columnheader">
             Time
           </div>
           <div
-            className="header hidden sm:block sm:px-2 sm:py-1 text-left col-span-3 sm:text-right sm:col-span-1"
+            className="header font-bold block px-2 py-1 text-right"
             role="columnheader"
           >
             Venue
           </div>
 
-          {currentSeasonConcertData.map((concert, index) => (
-            <React.Fragment key={concert.concertId}>
-              <div
-                className={`cell order-${1 + index * 4} sm:order-${1 + index * 4} sm:px-2 sm:py-1 text-left font-bold`}
-                role="cell"
-              >
+          {currentSeasonConcertData.map((concert) => (
+            <Link
+              key={concert.concertId}
+              className="contents"
+              href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`}
+              role="row"
+            >
+              <div className={`cell px-2 py-1 text-left font-bold`} role="cell">
                 <span className="text-xl museo-slab">{concert.title}</span>
               </div>
-              <div
-                className={`cell order-${2 + index * 4} sm:order-${2 + index * 4} sm:px-2 sm:py-1 text-center kode-mono`}
-                role="cell"
-              >
+              <div className={`cell px-2 py-1 text-center kode-mono`} role="cell">
                 {extractDateFromUtc(concert.date)}
               </div>
-              <div
-                className={`cell order-${4 + index * 4} sm:order-${3 + index * 4} mb-double sm:mb-0 sm:px-2 sm:py-1 text-right sm:text-center kode-mono`}
-                role="cell"
-              >
+              <div className={`cell mb-0 px-2 py-1 text-center kode-mono`} role="cell">
                 {concert.time}
               </div>
-              <div
-                className={`cell order-${3 + index * 4} sm:order-${4 + index * 4} mb-double sm:mb-0 sm:px-2 sm:py-1 text-left col-span-1 sm:text-right sm:col-span-1`}
-                role="cell"
-              >
+              <div className={`cell mb-0 px-2 py-1 text-right`} role="cell">
                 {concert.venueId ? getVenueData(concert.venueId)?.name : ""}
               </div>
-            </React.Fragment>
+            </Link>
           ))}
         </div>
       </SectionEmpty>

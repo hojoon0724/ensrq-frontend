@@ -62,7 +62,6 @@ export function ComposerPhotoGrid({ photoPaths, className = "" }: ComposerPhotoG
       className={`composer-photo-grid h-full w-full grid auto-rows-fr ${className}`}
       style={{
         gridTemplateColumns: `repeat(${columns}, 1fr)`,
-        // gridTemplateColumns: `repeat(3, 1fr)`,
       }}
     >
       {renderPhotoGrid()}

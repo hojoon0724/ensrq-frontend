@@ -4,8 +4,8 @@ export interface GraphicAssetManifest {
     height: number;
     type: string;
     focus?: {
-      x: number;
-      y: number;
-    };
+      x?: number | null;
+      y?: number | null;
+    } | null;
   };
 }

@@ -62,6 +62,9 @@ async function initializeModules() {
 // Downloaded folder path
 const DOWNLOADED_DIR = path.join(__dirname, "../src/data/download");
 
+// Serve folder path
+const SERVE_DIR = path.join(__dirname, "../src/data/serve");
+
 // Collection mapping
 const COLLECTION_MAPPING = {
   composers: { model: "Composer", file: "composers.json", icon: "📚", idField: "composerId" },
@@ -202,7 +205,9 @@ async function downloadCollection(collectionName, models, outputDir) {
 
     // Save to JSON file
     const outputPath = path.join(outputDir, file);
+    const servePath = path.join(SERVE_DIR, file);
     writeJsonFile(outputPath, sortedData, collectionName);
+    writeJsonFile(servePath, sortedData, collectionName);
 
     return {
       collection: collectionName,

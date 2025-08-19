@@ -118,7 +118,7 @@ async function convertToWebp(inputPath) {
 function loadExistingManifest() {
   try {
     if (fs.existsSync(OUTPUT_FILE)) {
-      const manifestData = fs.readFileSync(OUTPUT_FILE, 'utf8');
+      const manifestData = fs.readFileSync(OUTPUT_FILE, "utf8");
       return JSON.parse(manifestData);
     }
   } catch (err) {
@@ -131,7 +131,7 @@ async function buildManifest(webpFiles, faceFocusMap) {
   // Load existing manifest to preserve focus coordinates
   const existingManifest = loadExistingManifest();
   console.log(`Loaded ${Object.keys(existingManifest).length} entries from existing manifest`);
-  
+
   const manifest = { ...existingManifest }; // Start with existing data
 
   for (const webpFile of webpFiles) {
