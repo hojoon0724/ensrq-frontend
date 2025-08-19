@@ -44,6 +44,19 @@ async function walkAllImageFiles(dir, fileList = []) {
   return fileList;
 }
 
+async function walkAllWebpFiles(dir, fileList = []) {
+  const entries = await fsPromises.readdir(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      await walkAllWebpFiles(fullPath, fileList);
+    } else if (entry.name.toLowerCase().endsWith(".webp")) {
+      fileList.push(fullPath);
+    }
+  }
+  return fileList;
+}
+
 async function loadFaceApiModels() {
   const modelPath = path.join(__dirname, "./models");
   await faceapi.nets.ssdMobilenetv1.loadFromDisk(modelPath);
@@ -102,8 +115,24 @@ async function convertToWebp(inputPath) {
   return outputPath;
 }
 
+function loadExistingManifest() {
+  try {
+    if (fs.existsSync(OUTPUT_FILE)) {
+      const manifestData = fs.readFileSync(OUTPUT_FILE, 'utf8');
+      return JSON.parse(manifestData);
+    }
+  } catch (err) {
+    console.warn(`Could not load existing manifest: ${err.message}`);
+  }
+  return {};
+}
+
 async function buildManifest(webpFiles, faceFocusMap) {
-  const manifest = {};
+  // Load existing manifest to preserve focus coordinates
+  const existingManifest = loadExistingManifest();
+  console.log(`Loaded ${Object.keys(existingManifest).length} entries from existing manifest`);
+  
+  const manifest = { ...existingManifest }; // Start with existing data
 
   for (const webpFile of webpFiles) {
     try {
@@ -112,7 +141,7 @@ async function buildManifest(webpFiles, faceFocusMap) {
       const relativePath = "/" + path.relative(PUBLIC_DIR, webpFile).replace(/\\/g, "/");
 
       // Find the corresponding original JPG file to get its face focus data
-      let originalFocus = null;
+      let detectedFocus = null;
       for (const [originalPath, focus] of faceFocusMap.entries()) {
         const originalDir = path.dirname(originalPath);
         const originalName = path.parse(originalPath).name;
@@ -120,16 +149,19 @@ async function buildManifest(webpFiles, faceFocusMap) {
         const expectedWebpPath = path.join(originalDir, normalizedName + ".webp");
 
         if (path.resolve(expectedWebpPath) === path.resolve(webpFile)) {
-          originalFocus = focus;
+          detectedFocus = focus;
           break;
         }
       }
+
+      // Prioritize existing focus coordinates over newly detected ones
+      const finalFocus = existingManifest[relativePath]?.focus || detectedFocus;
 
       manifest[relativePath] = {
         width: dimensions.width,
         height: dimensions.height,
         type: "webp",
-        focus: originalFocus,
+        ...(finalFocus && { focus: finalFocus }),
       };
     } catch (err) {
       console.warn(`Failed to get size for ${webpFile}: ${err.message}`);
@@ -209,7 +241,7 @@ async function main() {
     // In a real scenario, you might want to add a prompt here, but for automation we'll just log
     console.log(`Proceeding with conversion and moving...`);
 
-    const webpFiles = [];
+    const newWebpFiles = [];
 
     // Step 2: Convert JPG files to WebP
     console.log("\n--- Step 2: Converting to WebP ---");
@@ -219,22 +251,27 @@ async function main() {
 
       try {
         const webpPath = await convertToWebp(originalPath);
-        webpFiles.push(webpPath);
+        newWebpFiles.push(webpPath);
       } catch (error) {
         console.error(`  → ERROR: Conversion failed: ${error.message}`);
       }
     }
 
-    // Step 3: Build manifest with face focus coordinates
-    console.log("\n--- Step 3: Building Manifest ---");
-    const manifest = await buildManifest(webpFiles, faceFocusMap);
+    // Step 3: Get all WebP files (both existing and newly converted)
+    console.log("\n--- Step 3: Collecting All WebP Files ---");
+    const allWebpFiles = await walkAllWebpFiles(PUBLIC_DIR);
+    console.log(`Found ${allWebpFiles.length} total WebP files`);
+
+    // Step 4: Build manifest with face focus coordinates
+    console.log("\n--- Step 4: Building Manifest ---");
+    const manifest = await buildManifest(allWebpFiles, faceFocusMap);
 
     await fsPromises.mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
     await fsPromises.writeFile(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
     console.log(`Manifest written to ${OUTPUT_FILE}`);
 
-    // Step 4: Move original JPG files to /src/original-jpg/
-    console.log("\n--- Step 4: Moving Original Files ---");
+    // Step 5: Move original JPG files to /src/original-jpg/
+    console.log("\n--- Step 5: Moving Original Files ---");
     for (const originalPath of jpgImages) {
       const relativePath = path.relative(PUBLIC_DIR, originalPath);
       console.log(`Moving: ${relativePath}`);
@@ -248,7 +285,7 @@ async function main() {
 
     console.log(`\n✅ Process complete!`);
     console.log(`- Analyzed ${jpgImages.length} JPG files for faces (${facesDetectedCount} faces found)`);
-    console.log(`- Converted ${webpFiles.length} files to WebP`);
+    console.log(`- Converted ${newWebpFiles.length} files to WebP`);
     console.log(`- Generated manifest with ${Object.keys(manifest).length} entries`);
     console.log(`- Moved original files to /src/original-jpg/`);
   } catch (error) {
