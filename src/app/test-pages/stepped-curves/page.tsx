@@ -1,4 +1,4 @@
-export function SteppedCurvesPage({}) {
+export default function SteppedCurvesPage() {
   return (
     <div>
       <h1>Stepped Curves</h1>
