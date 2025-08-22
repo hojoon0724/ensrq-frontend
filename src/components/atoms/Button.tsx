@@ -1,6 +1,7 @@
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "filled" | "outline" | "ghost";
   color?: string;
+  border: boolean;
   textColor?: string;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   loading?: boolean;
@@ -12,6 +13,7 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export function Button({
   variant = "filled",
   color = "sky",
+  border = false,
   textColor,
   size = "md",
   loading = false,
@@ -27,28 +29,33 @@ export function Button({
   // Define color variants with complete class names to ensure Tailwind includes them
   const colorVariants = {
     sky: {
-      filled: "border-0 border-sky-500 bg-sky-500 text-white hover:bg-sky-50 hover:text-sky-950 focus:ring-sky-300",
-      outline: "border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:border-sky-600 hover:text-white focus:ring-sky-300",
+      filled: `${border ? "border-2" : "border-0"} border-sky-500 bg-sky-500 text-white hover:bg-sky-50 hover:text-sky-950 focus:ring-sky-300`,
+      outline:
+        "border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:border-sky-600 hover:text-white focus:ring-sky-300",
       ghost: "border-0 text-sky-600 hover:bg-sky-50 hover:text-sky-950 focus:ring-sky-300",
     },
     sand: {
-      filled: "border-0 border-sand-500 bg-sand-500 text-white hover:bg-sand-50 hover:text-sand-950 focus:ring-sand-300",
-      outline: "border-2 border-sand-600 text-sand-600 hover:bg-sand-600 hover:border-sand-600 hover:text-white focus:ring-sand-300",
+      filled: `${border ? "border-2" : "border-0"} border-sand-500 bg-sand-500 text-white hover:bg-sand-50 hover:text-sand-950 focus:ring-sand-300`,
+      outline:
+        "border-2 border-sand-600 text-sand-600 hover:bg-sand-600 hover:border-sand-600 hover:text-white focus:ring-sand-300",
       ghost: "border-0 text-sand-600 hover:bg-sand-50 hover:text-sand-950 focus:ring-sand-300",
     },
     water: {
-      filled: "border-0 border-water-500 bg-water-500 text-white hover:bg-water-50 hover:text-water-950 focus:ring-water-300",
-      outline: "border-2 border-water-600 text-water-600 hover:bg-water-600 hover:border-water-600 hover:text-white focus:ring-water-300",
+      filled: `${border ? "border-2" : "border-0"} border-water-500 bg-water-500 text-white hover:bg-water-50 hover:text-water-950 focus:ring-water-300`,
+      outline:
+        "border-2 border-water-600 text-water-600 hover:bg-water-600 hover:border-water-600 hover:text-white focus:ring-water-300",
       ghost: "border-0 text-water-600 hover:bg-water-50 hover:text-water-950 focus:ring-water-300",
     },
     red: {
-      filled: "border-0 border-red-600 bg-red-600 text-white hover:bg-red-700 focus:ring-red-300",
-      outline: "border-2 border-red-600 text-red-600 hover:bg-red-700 hover:border-red-700 hover:text-white focus:ring-red-300",
+      filled: `${border ? "border-2" : "border-0"} border-red-600 bg-red-600 text-white hover:bg-red-700 focus:ring-red-300`,
+      outline:
+        "border-2 border-red-600 text-red-600 hover:bg-red-700 hover:border-red-700 hover:text-white focus:ring-red-300",
       ghost: "border-0 text-red-600 hover:bg-red-200 hover:text-red-950 hover:text-red-950 focus:ring-red-300",
     },
     gray: {
-      filled: "border-0 border-gray-500 bg-gray-500 text-white hover:bg-gray-700 focus:ring-gray-300",
-      outline: "border-2 border-gray-500 text-gray-500 hover:bg-gray-700 hover:border-gray-700 hover:text-white focus:ring-gray-300",
+      filled: `${border ? "border-2" : "border-0"} border-gray-500 bg-gray-500 text-white hover:bg-gray-700 focus:ring-gray-300`,
+      outline:
+        "border-2 border-gray-500 text-gray-500 hover:bg-gray-700 hover:border-gray-700 hover:text-white focus:ring-gray-300",
       ghost: "border-0 text-gray-600 hover:bg-gray-200 hover:text-gray-950 focus:ring-gray-300",
     },
   };

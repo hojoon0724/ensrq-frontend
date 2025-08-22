@@ -16,32 +16,43 @@ export function CountUpToTarget({
   startValue = 0,
   targetValue,
   duration,
+  delay = 0,
   easing = "linear",
   transition = "none",
 }: {
   startValue?: number;
   targetValue: number;
   duration?: number;
+  delay?: number;
   easing?: EasingFunction;
   transition?: TransitionType;
 }) {
   const [count, setCount] = useState(startValue);
 
   useEffect(() => {
-    const start = performance.now();
-    const valueRange = targetValue - startValue;
+    const startAnimation = () => {
+      const start = performance.now();
+      const valueRange = targetValue - startValue;
 
-    const step = (timestamp: number) => {
-      const progress = Math.min((timestamp - start) / (duration || 1000), 1);
-      const easedProgress = easingFunctions[easing](progress);
-      const currentValue = startValue + Math.floor(easedProgress * valueRange);
-      setCount(currentValue);
-      if (progress < 1) {
-        requestAnimationFrame(step);
-      }
+      const step = (timestamp: number) => {
+        const progress = Math.min((timestamp - start) / (duration || 1000), 1);
+        const easedProgress = easingFunctions[easing](progress);
+        const currentValue = startValue + Math.floor(easedProgress * valueRange);
+        setCount(currentValue);
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        }
+      };
+      requestAnimationFrame(step);
     };
-    requestAnimationFrame(step);
-  }, [startValue, targetValue, duration, easing, transition]);
+
+    if (delay > 0) {
+      const timeoutId = setTimeout(startAnimation, delay);
+      return () => clearTimeout(timeoutId);
+    } else {
+      startAnimation();
+    }
+  }, [startValue, targetValue, duration, delay, easing, transition]);
 
   return <span>{count}</span>;
 }

@@ -1,10 +1,11 @@
-
 // Atomic Components
 export { Badge } from "./Badge";
 export { Button } from "./Button";
 export { Checkbox } from "./Checkbox";
 export { CountUpToTarget } from "./CountUpToTarget";
 export { Divider } from "./Divider";
+export { FitText } from "./FitText";
+export { FitTextWithPadding } from "./FitTextWithPadding";
 export { Icon } from "./Icon";
 export { Image } from "./Image";
 export { InputField } from "./InputField";

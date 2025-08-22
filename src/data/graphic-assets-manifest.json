@@ -1938,5 +1938,10 @@
       "x": 0.5707,
       "y": 0.4882
     }
+  },
+  "/graphics/season-link-buttons/streaming-s10.webp": {
+    "width": 1921,
+    "height": 1081,
+    "type": "webp"
   }
 }

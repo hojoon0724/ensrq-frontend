@@ -1,10 +1,9 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { MeshGradientManualCurves } from "../../components/organisms";
 
 export default function Canvas() {
-  const [color1, setColor1] = useState("sand");
   const [theme, setTheme] = useState("light");
   const [shade, setShade] = useState(theme === "dark" ? 950 : 50);
   const [bgShade, setBgShade] = useState(theme === "dark" ? 400 : 900);
@@ -14,8 +13,11 @@ export default function Canvas() {
   const [nodes, setNodes] = useState<Array<Array<{ x: number; y: number }>>>([]);
   const [lockedLines, setLockedLines] = useState<boolean[]>([]);
   const [lockedNodes, setLockedNodes] = useState<Array<Array<boolean>>>([]);
+  const [lineColors, setLineColors] = useState<string[]>([]);
   const [nextNodeThreshold, setNextNodeThreshold] = useState(50);
   const [nextNodeRandomFromCurrent, setNextNodeRandomFromCurrent] = useState(0);
+
+  const colorOptions = useMemo(() => ["sand", "sky", "water"], []);
 
   // Generate random coordinates when lineCount or nodeCount changes
   const generateRandomNodes = useCallback(
@@ -87,16 +89,42 @@ export default function Canvas() {
   );
 
   // Initialize locked arrays
-  const initializeLockArrays = (lines: number, nodesPerLine: number) => {
+  const initializeLockArrays = useCallback((lines: number, nodesPerLine: number) => {
     setLockedLines(new Array(lines).fill(false));
     setLockedNodes(Array.from({ length: lines }, () => new Array(nodesPerLine).fill(false)));
-  };
+  }, []);
+
+  // Initialize line colors separately
+  const initializeLineColors = useCallback(
+    (lines: number) => {
+      setLineColors((prevColors) => {
+        const newColors = [...prevColors];
+        while (newColors.length < lines) {
+          newColors.push(colorOptions[newColors.length % colorOptions.length]);
+        }
+        return newColors.slice(0, lines);
+      });
+    },
+    [colorOptions]
+  );
 
   // Initialize nodes on component mount and when dimensions change
   useEffect(() => {
     setNodes(generateRandomNodes(lineCount, nodeCount));
     initializeLockArrays(lineCount, nodeCount);
-  }, [lineCount, nodeCount, generateRandomNodes]);
+  }, [lineCount, nodeCount, generateRandomNodes, initializeLockArrays]);
+
+  // Initialize line colors when line count changes
+  useEffect(() => {
+    initializeLineColors(lineCount);
+  }, [lineCount, initializeLineColors]);
+
+  // Function to update a line's color
+  const updateLineColor = (lineIndex: number, color: string) => {
+    const newColors = [...lineColors];
+    newColors[lineIndex] = color;
+    setLineColors(newColors);
+  };
 
   function changeShade() {
     setShade(shade === 950 ? 50 : 950);
@@ -209,9 +237,10 @@ export default function Canvas() {
         <section className={`h-full w-full p-0`}>
           <div className="w-full h-screen">
             <MeshGradientManualCurves
-              colorShades={[[`var(--${color1}-${shade})`]]}
+              colorShades={lineColors.map((color) => [`var(--${color}-${shade})`])}
               speed={0}
-              backgroundColor={`var(--${color1}-${bgShade})`}
+              // backgroundColor={`var(--${color1}-${bgShade})`}
+              backgroundColor={`black`}
               lineCount={lineCount}
               baselineWidth={baselineWidth}
               nodeCount={nodeCount}
@@ -229,15 +258,6 @@ export default function Canvas() {
               onClick={changeShade}
             >
               {theme === "dark" ? "Light" : "Dark"}
-            </button>
-            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sand")}>
-              Sand
-            </button>
-            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("sky")}>
-              Sky
-            </button>
-            <button className="bg-white p-2 rounded shadow" onClick={() => setColor1("water")}>
-              Water
             </button>
             <button
               className="bg-green-500 p-2 rounded shadow"
@@ -383,6 +403,20 @@ export default function Canvas() {
                     onChange={() => toggleLineLock(lineIndex)}
                   />
                 </div>
+              </div>
+              <div className="mb-2">
+                <label className="block text-sm font-medium mb-1">Color:</label>
+                <select
+                  value={lineColors[lineIndex] || colorOptions[0]}
+                  onChange={(e) => updateLineColor(lineIndex, e.target.value)}
+                  className="w-full border rounded px-2 py-1 text-sm"
+                >
+                  {colorOptions.map((color) => (
+                    <option key={color} value={color}>
+                      {color.charAt(0).toUpperCase() + color.slice(1)}
+                    </option>
+                  ))}
+                </select>
               </div>
               <div className="flex flex-row gap-4">
                 {Array.from({ length: nodeCount }, (_, nodeIndex) => (

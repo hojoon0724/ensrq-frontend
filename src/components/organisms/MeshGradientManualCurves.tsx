@@ -116,9 +116,11 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
           });
         }
 
+        // Use colors in sequence for each line, cycling through if needed
+        const colorIndex = i % resolvedColors.length;
         curves.push({
           points,
-          color: resolvedColors[Math.floor(Math.random() * resolvedColors.length)],
+          color: resolvedColors[colorIndex],
         });
       }
 
@@ -179,7 +181,7 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
           const progress = layer / (layers - 1);
           const currentWidth = lineWidth * (1 - progress * 2);
 
-          const alpha = (1 - progress) * 0.15;
+          const alpha = (1 - progress) * 0.2;
 
           ctx.beginPath();
           ctx.moveTo(points[0].x, points[0].y);
@@ -224,6 +226,17 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
     };
   }, [baselineWidth, lineCount, nodeCount, colorShades, speed, backgroundColor, tone, nodes]);
 
+  // Separate effect to update colors when colorShades change without recreating curves
+  useEffect(() => {
+    if (curvesRef.current.length > 0) {
+      const resolvedColors = colorShades.flat().map(resolveCSSColor);
+      curvesRef.current.forEach((curve, index) => {
+        const colorIndex = index % resolvedColors.length;
+        curve.color = resolvedColors[colorIndex];
+      });
+    }
+  }, [colorShades]);
+
   useEffect(() => {
     const handleResize = () => {
       const canvas = canvasRef.current;
@@ -256,7 +269,5 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return (
-    <canvas ref={canvasRef} className="w-full h-full top-0 left-0 z-[-1] pointer-events-none object-contain" />
-  );
+  return <canvas ref={canvasRef} className="w-full h-full top-0 left-0 z-[-1] pointer-events-none object-contain" />;
 };

@@ -14,7 +14,9 @@ import {
   Textarea,
   Tooltip,
 } from "@/components/atoms";
+import { CarouselItem } from "@/components/molecules/CarouselItem";
 import { NavBar } from "@/components/organisms";
+import { Carousel } from "@/components/organisms/Carousel";
 import { useState } from "react";
 
 export default function ComponentsGalleryPage() {
@@ -36,6 +38,66 @@ export default function ComponentsGalleryPage() {
       <div className="page-title mb-8">
         <h1>Components Gallery</h1>
         <p>Atomic Design System Components</p>
+      </div>
+
+      <div className="h-[1000px]">
+        <Carousel autoPlay={true} autoPlayInterval={4000} showIndicators={true} showArrows={true}>
+          <CarouselItem>
+            <Image
+              src="/graphics/ensrq-logo-for-bright.webp"
+              alt="Slide 1"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s05.webp"
+              alt="Slide 2"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s06.webp"
+              alt="Slide 3"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s07.webp"
+              alt="Slide 4"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s08.webp"
+              alt="Slide 5"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <div className="bg-blue-500 text-white p-8 text-center">
+              <h2 className="text-2xl">Custom Content</h2>
+            </div>
+          </CarouselItem>
+        </Carousel>
       </div>
 
       {/* Atoms Section */}
@@ -359,20 +421,7 @@ export default function ComponentsGalleryPage() {
         {/* Images */}
         <div className="component-showcase mb-8 p-6 border rounded-lg">
           <h3 className="mb-4">Images</h3>
-          <div className="grid gap-4">
-            <div className="flex gap-4 items-center flex-wrap">
-              <Image src="/next.svg" alt="Next.js Logo" width={120} height={30} rounded="none" />
-              <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={24} rounded="sm" />
-            </div>
-            <div className="flex gap-4 items-center">
-              <div className="w-16 h-16 relative">
-                <Image src="/next.svg" alt="Square image" fill rounded="md" objectFit="contain" />
-              </div>
-              <div className="w-16 h-16 relative">
-                <Image src="/vercel.svg" alt="Rounded image" fill rounded="full" objectFit="contain" />
-              </div>
-            </div>
-          </div>
+          <div className="grid gap-4"></div>
         </div>
 
         {/* Dividers */}
@@ -428,6 +477,7 @@ export default function ComponentsGalleryPage() {
         <NavBar />
       </div>
       <div className="spacer h-[50svh]"></div>
+      <div className="w-full h-96"></div>
     </div>
   );
 }
