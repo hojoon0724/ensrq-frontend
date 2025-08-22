@@ -1,4 +1,4 @@
-import { Image, Button } from "@/components/atoms";
+import { Image } from "@/components/atoms";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import { GraphicAssetManifest } from "@/types";
 
