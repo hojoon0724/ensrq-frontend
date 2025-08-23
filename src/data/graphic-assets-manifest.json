@@ -214,31 +214,6 @@
     "height": 1080,
     "type": "webp"
   },
-  "/graphics/season-link-buttons/streaming-s05.webp": {
-    "width": 1921,
-    "height": 1080,
-    "type": "webp"
-  },
-  "/graphics/season-link-buttons/streaming-s06.webp": {
-    "width": 2400,
-    "height": 1350,
-    "type": "webp"
-  },
-  "/graphics/season-link-buttons/streaming-s07.webp": {
-    "width": 2400,
-    "height": 1350,
-    "type": "webp"
-  },
-  "/graphics/season-link-buttons/streaming-s08.webp": {
-    "width": 2400,
-    "height": 1350,
-    "type": "webp"
-  },
-  "/graphics/season-link-buttons/streaming-s09.webp": {
-    "width": 2400,
-    "height": 1350,
-    "type": "webp"
-  },
   "/photos/about/about-betsy-hudson-traba.webp": {
     "width": 2500,
     "height": 1667,
@@ -1939,7 +1914,32 @@
       "y": 0.4882
     }
   },
-  "/graphics/season-link-buttons/streaming-s10.webp": {
+  "/graphics/season-covers/s05.webp": {
+    "width": 1921,
+    "height": 1080,
+    "type": "webp"
+  },
+  "/graphics/season-covers/s06.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-covers/s07.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-covers/s08.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-covers/s09.webp": {
+    "width": 2400,
+    "height": 1350,
+    "type": "webp"
+  },
+  "/graphics/season-covers/s10.webp": {
     "width": 1921,
     "height": 1081,
     "type": "webp"
