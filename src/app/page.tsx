@@ -6,7 +6,7 @@ export default function Root() {
   return (
     <SectionEmpty>
       <div className="max-w-xl">
-        <Image src="/graphics/ensrq-logo-for-bright.png" alt="alt" width={2500} height={1708} />
+        <Image src="/graphics/ensrq-logo-for-bright.png" alt="ensembleNewSRQ Logo" width={2500} height={1708} />
       </div>
       <div className="text-block text-center text-pretty">
         <h1>{`We're making some big updates`}</h1>
