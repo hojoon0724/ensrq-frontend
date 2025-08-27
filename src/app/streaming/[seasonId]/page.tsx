@@ -1,6 +1,7 @@
 import { Image } from "@/components/atoms";
+import { GridSection } from "@/components/layouts";
 import ConcertStreamingItem from "@/components/molecules/ConcertStreamingItem";
-import { BaseRandomColorHeader, SectionGrid } from "@/components/sections";
+import { RandomColorPageHeader } from "@/components/sections";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
@@ -33,8 +34,8 @@ export default async function WatchSeasonPage({ params }: { params: Promise<{ se
 
   return (
     <div>
-      <BaseRandomColorHeader title={`Streaming`} subtitle={`${formatSeasonLabel(seasonId)}`}></BaseRandomColorHeader>
-      <SectionGrid>
+      <RandomColorPageHeader title="Streaming" subtitle={formatSeasonLabel(seasonId)} />
+      <GridSection>
         <Link href={`/streaming/${seasonId}/season-pass`} className="relative">
           {existsInManifest ? (
             <Image
@@ -54,7 +55,7 @@ export default async function WatchSeasonPage({ params }: { params: Promise<{ se
         {seasonConcertsWithStreaming.map((concert) => (
           <ConcertStreamingItem key={concert.concertId} concert={concert} seasonId={seasonId} />
         ))}
-      </SectionGrid>
+      </GridSection>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import { TopContainer } from "@/components/sections";
-import { MeshGradientStraight } from "../organisms";
+import { TopContainer } from "@/components/layouts";
+import { MeshGradientStraight } from "@/components/organisms";
 
 interface SectionMeshGradientStraightProps {
   children: React.ReactNode;

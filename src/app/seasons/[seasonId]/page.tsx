@@ -1,5 +1,5 @@
 import { ConcertTile } from "@/components/molecules";
-import { RandomColorSeasonHeader } from "@/components/sections";
+import { RandomColorPageHeader } from "@/components/sections";
 import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
 import { Concert } from "@/types";
@@ -25,13 +25,13 @@ export default async function SingleSeasonPage({ params }: { params: Promise<{ s
 
   return (
     <div>
-      <RandomColorSeasonHeader seasonId={seasonId} seasonData={seasonData}>
+      <RandomColorPageHeader seasonId={seasonId} seasonData={seasonData}>
         {concertData?.map((concert: Concert) => (
           <div key={concert.concertId} className="w-full">
             <ConcertTile concert={concert} />
           </div>
         ))}
-      </RandomColorSeasonHeader>
+      </RandomColorPageHeader>
     </div>
   );
 }

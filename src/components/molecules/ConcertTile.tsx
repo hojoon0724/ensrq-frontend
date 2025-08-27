@@ -1,10 +1,10 @@
 "use client";
 
+import { ShowMarkdownText } from "@/components/atoms";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import { Concert, GraphicAssetManifest } from "@/types";
 import { getComposerData, getVenueData, getWorkData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
-import { ShowMarkdownText } from "../atoms";
 import { ComposerPhotoGrid } from "./ComposerPhotoGrid";
 
 interface ConcertTileProps {

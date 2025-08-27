@@ -1,4 +1,4 @@
-import { LandingPageSection } from "@/components/sections";
+import { LandingPageSection } from "@/components/templates";
 
 export default function Root() {
   return (

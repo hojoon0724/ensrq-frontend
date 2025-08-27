@@ -1,5 +1,5 @@
-import { TopContainer } from "@/components/sections";
-import { MeshGradientCurves } from "../organisms/MeshGradientCurves";
+import { TopContainer } from "@/components/layouts";
+import { MeshGradientCurves, MeshGradientStraight } from "@/components/organisms";
 
 interface SectionMeshGradientProps {
   children: React.ReactNode;
@@ -9,6 +9,7 @@ interface SectionMeshGradientProps {
   color3?: string;
   tone?: "dark" | "light";
   backgroundColor?: string;
+  variant?: "curved" | "straight";
 }
 
 export function SectionMeshGradient({
@@ -19,21 +20,24 @@ export function SectionMeshGradient({
   backgroundColor,
   children,
   className = "flex flex-col justify-center items-center w-full h-full",
+  variant = "curved",
 }: SectionMeshGradientProps) {
   const toneShades = tone === "dark" ? 900 : 50;
   const backgroundShade = tone === "dark" ? 400 : 950;
 
+  const GradientComponent = variant === "curved" ? MeshGradientCurves : MeshGradientStraight;
+
   return (
     <section className={`relative w-full overflow-hidden ${className}`}>
-      <MeshGradientCurves
+      <GradientComponent
         colorShades={[
           [`var(--${color1}-${toneShades})`],
           color2 ? [`var(--${color2}-${toneShades})`] : [],
           color3 ? [`var(--${color3}-${toneShades})`] : [],
         ]}
         blendMode="blended"
-        intensity={0.5}
-        speed={1}
+        intensity={variant === "curved" ? 0.5 : undefined}
+        speed={variant === "curved" ? 1 : undefined}
         tone={tone}
         backgroundColor={`var(--${backgroundColor}-${backgroundShade})`}
       />

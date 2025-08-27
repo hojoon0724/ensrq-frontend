@@ -1,4 +1,4 @@
-import { RandomColorConcertHeader } from "@/components/sections";
+import { ConcertPageSection } from "@/components/templates";
 import { Concert } from "@/types";
 import { notFound } from "next/navigation";
 
@@ -34,7 +34,7 @@ export default async function SingleConcertPage({
 
   return (
     <div>
-      <RandomColorConcertHeader concertData={concertData as Concert} />
+      <ConcertPageSection concertData={concertData as Concert} />
     </div>
   );
 }

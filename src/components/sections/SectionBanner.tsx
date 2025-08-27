@@ -1,4 +1,4 @@
-import { TopContainer } from "./TopContainer";
+import { TopContainer } from "@/components/layouts";
 
 interface SectionBannerProps {
   children: React.ReactNode;

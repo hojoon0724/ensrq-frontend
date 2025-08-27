@@ -1,25 +1,24 @@
 import { Image } from "@/components/atoms";
-import { RandomColorHeader, SectionGrid } from "@/components/sections";
+import { GridSection } from "@/components/layouts";
+import { RandomColorPageHeader } from "@/components/sections";
 import seasonData from "@/data/serve/seasons.json";
 import { Season } from "@/types";
 import { formatSeasonLabel } from "@/utils";
 import Link from "next/link";
 
-const seasonsWithStreaming = ['s05', 's06','s07','s08','s09','s10']
+const seasonsWithStreaming = ["s05", "s06", "s07", "s08", "s09", "s10"];
 
 export default function Streaming() {
-  const filteredSeasons = seasonData.filter((season) =>
-    seasonsWithStreaming.includes(season.seasonId)
-  );
+  const filteredSeasons = seasonData.filter((season) => seasonsWithStreaming.includes(season.seasonId));
 
   return (
     <div>
-      <RandomColorHeader title="Streaming" />
-      <SectionGrid>
+      <RandomColorPageHeader title="Streaming" />
+      <GridSection>
         {filteredSeasons.reverse().map((season: Season) => (
           <Link key={season.seasonId} href={`/streaming/${season.seasonId}`}>
             <Image
-              src={`/graphics/season-link-buttons/streaming-${season.seasonId}.webp`}
+              src={`/graphics/season-covers/${season.seasonId}.webp`}
               alt={`Season ${formatSeasonLabel(season.seasonId)}`}
               className="w-full h-auto object-cover rounded-lg shadow-lg"
               fill={false}
@@ -28,7 +27,7 @@ export default function Streaming() {
             />
           </Link>
         ))}
-      </SectionGrid>
+      </GridSection>
     </div>
   );
 }

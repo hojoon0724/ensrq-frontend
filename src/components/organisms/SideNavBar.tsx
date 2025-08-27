@@ -4,11 +4,10 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 
 import { FullLogo, WordmarkVertical } from "@/assets";
-import seasonData from "@/data/serve/seasons.json";
+import { Icon } from "@/components/atoms";
 import concertData from "@/data/serve/concerts.json";
-import { removeSeasonNumberFromConcertId } from "@/utils";
-import { Icon } from "../atoms/Icon";
-import { formatSeasonLabel } from "@/utils";
+import seasonData from "@/data/serve/seasons.json";
+import { formatSeasonLabel, removeSeasonNumberFromConcertId } from "@/utils";
 
 const descendingSeasons = seasonData.reverse();
 

@@ -2,23 +2,19 @@
 
 import { ShowMarkdownText } from "@/components/atoms/ShowMarkdownText";
 import { ProgramTile } from "@/components/molecules";
-import { SectionEmpty } from "@/components/sections";
+import { SectionEmpty, TicketLinks, useRandomColors } from "@/components/sections";
+import BaseRandomColorHeader from "@/components/sections/BaseRandomColorHeader";
 import { Concert } from "@/types";
 import { getCurrentSeason, getVenueData } from "@/utils";
-import BaseRandomColorHeader from "./BaseRandomColorHeader";
-import { TicketLinks } from "./TicketLinks";
-import { useRandomColors } from "./hooks/useRandomColors";
 
-interface RandomColorConcertHeaderProps {
+interface ConcertPageSectionProps {
   concertData: Concert;
-  children?: React.ReactNode;
 }
 
-const currentSeason = getCurrentSeason();
-
-export default function RandomColorConcertHeader({ concertData, children }: RandomColorConcertHeaderProps) {
-  const is_current_season = concertData.seasonId === currentSeason.seasonId;
+export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
+  const currentSeason = getCurrentSeason();
   const colors = useRandomColors("dark");
+  const is_current_season = concertData.seasonId === currentSeason.seasonId;
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -38,15 +34,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
     return formattedDate;
   };
 
-  const ticketSection = is_current_season && (
-    <TicketLinks
-      liveTickets={concertData.ticketsLinks.singleLive}
-      streamingTickets={concertData.ticketsLinks.singleStreaming}
-      color={colors.randomTextColor}
-    />
-  );
-
-  // Create custom subtitle with proper styling
+  // Concert details subtitle
   const concertSubtitle = (
     <>
       <div
@@ -64,6 +52,15 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
     </>
   );
 
+  // Ticket section
+  const ticketSection = is_current_season && concertData.ticketsLinks && (
+    <TicketLinks
+      liveTickets={concertData.ticketsLinks.singleLive}
+      streamingTickets={concertData.ticketsLinks.singleStreaming}
+      color={colors.randomTextColor}
+    />
+  );
+
   return (
     <>
       <BaseRandomColorHeader
@@ -71,7 +68,7 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
         subtitle={concertSubtitle}
         forceTone="dark"
         headerSize="normal"
-        showTicketSection={!!concertData.ticketsLinks}
+        showTicketSection={!!ticketSection}
         ticketSection={ticketSection}
       />
 
@@ -114,8 +111,6 @@ export default function RandomColorConcertHeader({ concertData, children }: Rand
           </div>
         </div>
       </SectionEmpty>
-
-      {children}
     </>
   );
 }

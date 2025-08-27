@@ -1,7 +1,7 @@
 "use client";
 
+import { MeshGradientManualCurves } from "@/components/organisms";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { MeshGradientManualCurves } from "../../components/organisms";
 
 export default function Canvas() {
   const [theme, setTheme] = useState("light");

@@ -1,5 +1,6 @@
 import { Image } from "@/components/atoms";
-import { RandomColorHeader, SectionGrid } from "@/components/sections";
+import { GridSection } from "@/components/layouts";
+import { RandomColorPageHeader } from "@/components/sections";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import seasonData from "@/data/serve/seasons.json";
 import { Season } from "@/types";
@@ -14,8 +15,8 @@ export default function SeasonsPage() {
 
   return (
     <div>
-      <RandomColorHeader title="All Seasons" />
-      <SectionGrid>
+      <RandomColorPageHeader title="All Seasons" />
+      <GridSection>
         {seasonDataSorted.map((season: Season, index: number) => {
           const key = `/graphics/season-covers/${season.seasonId}.webp`;
           const existsInManifest: boolean = Object.prototype.hasOwnProperty.call(graphicAssetsManifest, key);
@@ -45,7 +46,7 @@ export default function SeasonsPage() {
             </Link>
           );
         })}
-      </SectionGrid>
+      </GridSection>
     </div>
   );
 }

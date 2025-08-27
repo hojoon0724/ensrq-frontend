@@ -1,12 +1,20 @@
+import { Button } from "@/components/atoms";
 import { SectionEmpty } from "@/components/sections";
 import { Concert, Season } from "@/types";
-import { Button } from "../atoms";
 
 import ConcertData from "@/data/serve/concerts.json";
-import { removeSeasonNumberFromConcertId,extractDateFromUtc } from "@/utils";
+import { extractDateFromUtc, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
 
-export function IndividualTicket({ concert, type, colorTheme }: { concert: Concert; type: "live" | "streaming"; colorTheme: "sky" | "sand" | "water" }) {
+export function IndividualTicket({
+  concert,
+  type,
+  colorTheme,
+}: {
+  concert: Concert;
+  type: "live" | "streaming";
+  colorTheme: "sky" | "sand" | "water";
+}) {
   const ticketType = () => {
     switch (type) {
       case "live":
@@ -18,18 +26,32 @@ export function IndividualTicket({ concert, type, colorTheme }: { concert: Conce
 
   return (
     <>
-    <Link href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`} className={`text-black `}>
-      <div className={`concert-text-container flex flex-col items-end justify-center ${new Date() > new Date(concert.date) ? "opacity-30" : "opacity-100"}`}>
-        <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
-        <p>{extractDateFromUtc(concert.date)} @ {concert.time}</p>
-      </div>
+      <Link
+        href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`}
+        className={`text-black `}
+      >
+        <div
+          className={`concert-text-container flex flex-col items-end justify-center ${new Date() > new Date(concert.date) ? "opacity-30" : "opacity-100"}`}
+        >
+          <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
+          <p>
+            {extractDateFromUtc(concert.date)} @ {concert.time}
+          </p>
+        </div>
       </Link>
 
       <a href={concert.ticketsLinks[ticketType()]?.url} target="_blank" rel="noopener noreferrer">
-        <Button disabled={new Date() > new Date(concert.date) || !concert.ticketsLinks[ticketType()]?.url} size="lg" color={colorTheme} className={`${new Date() > new Date(concert.date) ? "saturate-0" : ""} w-full`}>
-          {new Date() > new Date(concert.date) ? "Concert Ended" : 
-          !concert.ticketsLinks[ticketType()]?.url ? "Not Available Yet" :
-          `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
+        <Button
+          disabled={new Date() > new Date(concert.date) || !concert.ticketsLinks[ticketType()]?.url}
+          size="lg"
+          color={colorTheme}
+          className={`${new Date() > new Date(concert.date) ? "saturate-0" : ""} w-full`}
+        >
+          {new Date() > new Date(concert.date)
+            ? "Concert Ended"
+            : !concert.ticketsLinks[ticketType()]?.url
+              ? "Not Available Yet"
+              : `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
         </Button>
       </a>
     </>
@@ -48,7 +70,9 @@ export function TicketsTable({ season }: { season: Season }) {
           <h3>{concerts.length} Live Concerts + Archival Streaming</h3>
           <h4 className="price">${ticketsLinks?.seasonLive?.price}</h4>
           <a href={ticketsLinks?.seasonLive?.url} target="_blank" rel="noopener noreferrer">
-            <Button size="lg" color="sand">Buy Season Pass</Button>
+            <Button size="lg" color="sand">
+              Buy Season Pass
+            </Button>
           </a>
         </div>
       </SectionEmpty>
@@ -58,7 +82,9 @@ export function TicketsTable({ season }: { season: Season }) {
           <h2>Live Streaming Season Pass</h2>
           <h4 className="price">${ticketsLinks?.seasonStreaming?.price}</h4>
           <a href={ticketsLinks?.seasonStreaming?.url} target="_blank" rel="noopener noreferrer">
-            <Button size="lg" color="water">Buy Streaming Season Pass</Button>
+            <Button size="lg" color="water">
+              Buy Streaming Season Pass
+            </Button>
           </a>
         </div>
       </SectionEmpty>
