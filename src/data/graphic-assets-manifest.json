@@ -1968,5 +1968,15 @@
     "width": 303,
     "height": 300,
     "type": "webp"
+  },
+  "/graphics/logos/artist-series-concerts-logo.webp": {
+    "width": 550,
+    "height": 248,
+    "type": "webp"
+  },
+  "/graphics/logos/ensrq-logo.webp": {
+    "width": 672,
+    "height": 297,
+    "type": "webp"
   }
 }

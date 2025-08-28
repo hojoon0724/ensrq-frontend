@@ -64,6 +64,20 @@ export function ConcertTile({ concert }: ConcertTileProps) {
             </h3>
             {concert.subtitle && <p className="text-sm text-gray-600">{concert.subtitle}</p>}
           </div>
+          {/* Co-presented */}
+          {concert.coPresented && concert.coPresented.length > 0 && (
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 flex justify-start items-baseline">
+                Co-presented by{" "}
+                {concert.coPresented.map((coPresenter) => (
+                  <span key={coPresenter.name} className="ml-1 font-medium">
+                    {coPresenter.name}
+                    {` `}
+                  </span>
+                ))}
+              </p>
+            </div>
+          )}
           {/* Date and Time */}
           <div className="">
             <p className="text-sm font-semibold text-gray-800 mb-1">

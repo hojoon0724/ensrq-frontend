@@ -33,7 +33,7 @@ export default async function SingleConcertPage({
   }
 
   return (
-    <div>
+    <div className="h-full w-full flex-1">
       <ConcertPageSection concertData={concertData as Concert} />
     </div>
   );

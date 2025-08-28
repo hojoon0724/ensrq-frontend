@@ -1,5 +1,6 @@
 "use client";
 
+import { Image } from "@/components/atoms";
 import { ShowMarkdownText } from "@/components/atoms/ShowMarkdownText";
 import { ProgramTile } from "@/components/molecules";
 import { SectionEmpty, TicketLinks, useRandomColors } from "@/components/sections";
@@ -74,6 +75,19 @@ export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
         &nbsp;
       </div>
 
+      {concertData.coPresented && concertData.coPresented.length > 0 && (
+        <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
+          <div className="text-center max-w-3xl mx-auto px-4 flex justify-center items-center gap-double">
+            <p className={`text-lg text-${colors.randomColor}-100`}>{concertData.title} <span className="font-light">is a co-presentation by </span></p>
+            {concertData.coPresented.map((coPresenter) => (
+              <div key={coPresenter.name} className="co-presenter-logo-container w-36 h-24 relative">
+                <Image src={`/graphics/logos/${coPresenter.logoFileName}`} alt="alt" width={100} height={100} objectFit="contain"/>
+              </div>
+            ))}
+          </div>
+        </SectionEmpty>
+      )}
+
       {concertData.subtitle && (
         <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone}>
           <div className="text-center max-w-3xl mx-auto px-4">
@@ -92,7 +106,7 @@ export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
         </SectionEmpty>
       )}
 
-      <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone} className="flex-1">
+      <SectionEmpty themeColor={colors.randomColor} tone={colors.randomTone} className="flex-1 flex flex-col justify-center items-center w-full h-full gap-s pb-32">
         <div className="w-full max-w-4xl mx-auto">
           <h2 className={`font-bold text-center mb-8 text-${colors.randomColor}-${colors.textShade}`}>Program</h2>
           <div>

@@ -43,6 +43,12 @@ const concertSchema = new mongoose.Schema(
     sponsors: { type: String, trim: true },
     program: [programItemSchema],
     status: { type: String, enum: ["upcoming", "completed", "cancelled", "postponed"], default: "upcoming" },
+    coPresented: [
+      {
+        name: { type: String, required: true, trim: true },
+        logoFileName: { type: String, trim: true },
+      },
+    ],
   },
   {
     timestamps: true,

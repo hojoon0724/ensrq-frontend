@@ -38,6 +38,11 @@ export interface Concert {
   program: ProgramWork[];
   status: string;
 
+  coPresented: {
+    name: string;
+    logoFileName: string;
+  }[];
+
   createdAt?: string;
   updatedAt?: string;
 }
