@@ -85,7 +85,7 @@ export function LandingPageSection() {
         <CarouselItem>
           <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light">
             <div className={`min-h-[50svh] w-full flex flex-col justify-center items-center p-12`}>
-              <div className="w-full flex gap-[1ch] justify-center items-center museo-slab">
+              <Link href="/season/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
                 <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
                   Season&nbsp;{""}
                   <CountUpToTarget
@@ -97,7 +97,7 @@ export function LandingPageSection() {
                     transition="none"
                   />
                 </FitTextWithPadding>
-              </div>
+              </Link>
               <h3>
                 <CountUpToTarget
                   startValue={seasons.year1.start}
@@ -218,7 +218,7 @@ export function LandingPageSection() {
                 <div className="carousel-item__bottom-section w-full grid grid-cols-1 md:grid-cols-[1fr,auto] gap-double items-center justify-end museo-slab">
                   <div className="w-full">
                     <FitText
-                      className={`text-right font-bold w-full h-full flex items-center justify-end text-shadow-lg text-${concertColorThemes[concert.concertId] || "sand"}-50`}
+                      className={`text-right font-bold w-full h-full flex items-center justify-end [text-shadow:2px_2px_6px_rgba(0,0,0,0.5)] text-${concertColorThemes[concert.concertId] || "sand"}-50`}
                       minFontSize={12}
                       mobileMinFontSize={10}
                       maxFontSize={24}
