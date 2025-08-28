@@ -5,7 +5,7 @@ import { ProgramTile } from "@/components/molecules";
 import { SectionEmpty, TicketLinks, useRandomColors } from "@/components/sections";
 import BaseRandomColorHeader from "@/components/sections/BaseRandomColorHeader";
 import { Concert } from "@/types";
-import { getCurrentSeason, getVenueData } from "@/utils";
+import { extractDateFromUtc, getCurrentSeason, getVenueData } from "@/utils";
 
 interface ConcertPageSectionProps {
   concertData: Concert;
@@ -16,18 +16,16 @@ export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
   const colors = useRandomColors("dark");
   const is_current_season = concertData.seasonId === currentSeason.seasonId;
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
+  const formatDateFromRaw = (rawDateString: string, timeString?: string) => {
+    // rawDateString is in MM/DD/YYYY format from extractDateFromUtc
+    const date = new Date(rawDateString);
+    const formattedDate = date.toLocaleDateString("en-US", {
       weekday: "long",
       year: "numeric",
       month: "long",
       day: "numeric",
     });
-  };
 
-  const formatDateTime = (dateString: string, timeString?: string) => {
-    const formattedDate = formatDate(dateString);
     if (timeString) {
       return `${formattedDate} at ${timeString}`;
     }
@@ -40,7 +38,7 @@ export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
       <div
         className={`concert-date-time text-lg lg:text-2xl museo-slab text-center text-${colors.randomTextColor}-${colors.textShade} mt-4`}
       >
-        {formatDateTime(concertData.date, concertData.time)}
+        {formatDateFromRaw(extractDateFromUtc(concertData.date), concertData.time)}
       </div>
       {concertData.venueId && (
         <div

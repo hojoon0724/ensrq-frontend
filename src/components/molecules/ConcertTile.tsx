@@ -3,7 +3,13 @@
 import { ShowMarkdownText } from "@/components/atoms";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import { Concert, GraphicAssetManifest } from "@/types";
-import { getComposerData, getVenueData, getWorkData, removeSeasonNumberFromConcertId } from "@/utils";
+import {
+  extractDateFromUtc,
+  getComposerData,
+  getVenueData,
+  getWorkData,
+  removeSeasonNumberFromConcertId,
+} from "@/utils";
 import Link from "next/link";
 import { ComposerPhotoGrid } from "./ComposerPhotoGrid";
 
@@ -12,14 +18,20 @@ interface ConcertTileProps {
 }
 
 export function ConcertTile({ concert }: ConcertTileProps) {
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
+  const formatDateFromRaw = (rawDateString: string, timeString?: string) => {
+    // rawDateString is in MM/DD/YYYY format from extractDateFromUtc
+    const date = new Date(rawDateString);
+    const formattedDate = date.toLocaleDateString("en-US", {
       weekday: "long",
       year: "numeric",
       month: "long",
       day: "numeric",
     });
+
+    if (timeString) {
+      return `${formattedDate} at ${timeString}`;
+    }
+    return formattedDate;
   };
 
   const composerPhotosArr: string[] = Array.from(
@@ -54,7 +66,9 @@ export function ConcertTile({ concert }: ConcertTileProps) {
           </div>
           {/* Date and Time */}
           <div className="">
-            <p className="text-sm font-semibold text-gray-800 mb-1">{formatDate(concert.date)}</p>
+            <p className="text-sm font-semibold text-gray-800 mb-1">
+              {formatDateFromRaw(extractDateFromUtc(concert.date))}
+            </p>
             {concert.time && <p className="text-sm text-gray-600">{concert.time}</p>}
           </div>
           {/* Venue */}

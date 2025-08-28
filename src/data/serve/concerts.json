@@ -2517,45 +2517,23 @@
     "program": [
       {
         "workId": "sebastian-currier-whispers",
-        "musicians": [
-          "betsy-hudson-traba",
-          "",
-          "wesley-ducote",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["betsy-hudson-traba", "", "wesley-ducote", "george-nickson", ""]
       },
       {
         "workId": "amy-williams-tangled-madrigal",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "", ""]
       },
       {
         "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
-        "musicians": [
-          "mark-dacigers",
-          "george-nickson"
-        ]
+        "musicians": ["mark-dacigers", "george-nickson"]
       },
       {
         "workId": "elliott-carter-triple-duo",
-        "musicians": [
-          "betsy-hudson-traba",
-          "",
-          "samantha-bennett",
-          "",
-          "",
-          "wesley-ducote",
-          "george-nickson"
-        ]
+        "musicians": ["betsy-hudson-traba", "", "samantha-bennett", "", "", "wesley-ducote", "george-nickson"]
       }
     ],
     "status": "upcoming",
-    "youTubeUrl": ""
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
     "concertId": "s10-2025-12-08-songbird",
@@ -2584,53 +2562,23 @@
     "program": [
       {
         "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "",
-          "wesley-ducote"
-        ]
+        "musicians": ["samantha-bennett", "", "", "wesley-ducote"]
       },
       {
         "workId": "juri-seo-songbird",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "",
-          "peter-ayuso",
-          "",
-          "jason-calloway"
-        ]
-      },
-      {
-        "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "", "", "peter-ayuso", "", "jason-calloway"]
       },
       {
         "workId": "diallo-banks-new-work",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "", "", ""]
       },
       {
         "workId": "michael-ippolito-string-quartet-no-3-songlines",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "", "", ""]
       }
     ],
-    "status": "upcoming"
+    "status": "upcoming",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
     "concertId": "s10-2026-01-19-goldbeaters-skin",
@@ -2659,41 +2607,23 @@
     "program": [
       {
         "workId": "nina-c-young-sun-propeller",
-        "musicians": [
-          "samantha-bennett",
-          ""
-        ]
+        "musicians": ["samantha-bennett", ""]
       },
       {
         "workId": "claude-vivier-learning",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "",
-          "chris-takeda",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "", "chris-takeda", "george-nickson", ""]
       },
       {
         "workId": "shawn-allison-new-work",
-        "musicians": [
-          "samantha-bennett",
-          "george-nickson"
-        ]
+        "musicians": ["samantha-bennett", "george-nickson"]
       },
       {
         "workId": "christopher-cerrone-goldbeaters-skin",
-        "musicians": [
-          "george-nickson",
-          "marcelina-suchocka",
-          "",
-          "mike-truesdell",
-          "thea-lobo"
-        ]
+        "musicians": ["george-nickson", "marcelina-suchocka", "", "mike-truesdell", "thea-lobo"]
       }
     ],
-    "status": "upcoming"
+    "status": "upcoming",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
     "concertId": "s10-2026-02-23-retrospektiv",
@@ -2722,19 +2652,10 @@
     "program": [
       {
         "workId": "caroline-shaw-entracte",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "", ""]
       },
       {
         "workId": "che-buford-new-work",
-        "musicians": []
-      },
-      {
-        "workId": "andrew-thomas-3-transformations",
         "musicians": []
       },
       {
@@ -2746,7 +2667,8 @@
         "musicians": []
       }
     ],
-    "status": "upcoming"
+    "status": "upcoming",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
     "concertId": "s10-2026-04-24-music-for-18-musicians",
@@ -2778,7 +2700,8 @@
         "musicians": []
       }
     ],
-    "status": "upcoming"
+    "status": "upcoming",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
     "concertId": "s10-2026-05-22-music-for-new-bodies",
@@ -2801,13 +2724,14 @@
     },
     "streamingPagePassword": "bionic",
     "streamingPageUrl": "/streaming/s10/2026-05-22-music-for-new-bodies",
-    "sponsors": "",
+    "sponsors": "Co-presented with Artist Series Concerts",
     "program": [
       {
         "workId": "matthew-aucoin-music-for-new-bodies",
         "musicians": []
       }
     ],
-    "status": "upcoming"
+    "status": "upcoming",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   }
 ]
