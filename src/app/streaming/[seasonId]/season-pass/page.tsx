@@ -31,7 +31,9 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
   );
 
   const nextConcert = currentSeasonConcertsData.find((concert) => new Date(concert.date) > new Date());
-  const upcomingConcerts = currentSeasonConcertsData.filter((concert) => new Date(concert.date) > new Date());
+  const upcomingConcerts = currentSeasonConcertsData.filter(
+    (concert) => new Date(concert.date) > new Date() && concert.concertId !== nextConcert?.concertId
+  );
   const pastConcerts = currentSeasonConcertsData.filter((concert) => new Date(concert.date) < new Date());
 
   if (!seasonData) {
@@ -39,17 +41,18 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
   }
 
   return (
-    <PasswordGate
-      pageTitle={`${formatSeasonLabel(seasonData.seasonId)}` || "Season Pass"}>
+    <PasswordGate pageTitle={`${formatSeasonLabel(seasonData.seasonId)}` || "Season Pass"}>
       {/* next concert */}
       {nextConcert && (
         <SectionEmpty>
           <h1 className="text-center my-double">Next Concert</h1>
+
           <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
             <VideoWithCustomThumbnail
-              thumbnail={`/graphics/${seasonId}/streaming-thumbnails/season-pass.webp`}
+              key={nextConcert.concertId}
+              thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${nextConcert.concertId}.webp`}
               icon={<LogoIcon color="var(--water-600)" />}
-              youtubeUrl={seasonData.youTubeUrl || ""}
+              youtubeUrl={nextConcert.youTubeUrl || ""}
             />
           </div>
         </SectionEmpty>

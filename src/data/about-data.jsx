@@ -78,3 +78,38 @@ export const guestArtists = [
     bio: `Cellist Jamie Clark of Boulder, Colorado has been praised for her sensitive, imaginative, and colorful sense of artistry. She has concertized throughout North America, South America, Europe, and Asia as a recitalist and a chamber musician. She has performed solo and chamber music recitals in venues such as Carnegie Hall's Weill Recital Hall, Boston's Jordan Hall, Eastman's Kodak Hall, New York City's American Academy of Arts and Letters, and the Isabella Stewart Gardner Museum.<br /> Both an enthusiastic chamber musician and entrepreneur of collaborative outreach programs, Jamie is a Co-Founder and Artistic Director of the <i>Flatirons Chamber Music Festival</i>, a non- profit organization based in Colorado. The festival strives to cross cultural, geographic, and temporal divides between performers, composers, and audience members, inspiring dynamic interaction within the entire Festival community.<br /> Her commitment to community engagement has led to collaborations with the Music For Food initiative in Boston, the Second Chance Center in Denver, and Attention Homes in Boulder. A passionate advocate for interdisciplinary collaboration between performer and scholar worlds, Jamie has written a series of scholarly papers including <i>The Art of Rehearsing: A Multidimensional Study in Rehearsing String Quartets</i>&nbsp;and *Schoenberg Quartet No. 2: Between the Twilight of Tonality and the Dawn of Early Expressionism.<br /> An engaged collaborative partner with contemporary composers, Jamie recently received a Stetson University Summer Grant to fund “<i>Hear Her Voice</i>” in 2021. “<i>Hear Her Voice</i>” features seven solo cello commissions by outstanding, young, female composers.&nbsp; Each piece offers a distinct perspective of isolation experienced in the context of the COVID-19 Pandemic.<br /> Jamie joined the faculty of Stetson University in the Fall of 2019 where she now serves as Assistant Professor of Cello and Coordinator of Chamber Music.&nbsp; Dr. Clark received her Doctor of Musical Arts Degree and Masters of Music Degree from the New England Conservatory with Laurence Lesser and Paul Katz.&nbsp; She received her Bachelors of Music degree from the Eastman School of Music with David Ying.`,
   },
 ];
+
+export const donationLink = "https://donate.stripe.com/fZu4gA7R0f0xdKy3gwfEk00";
+
+export const sponsors = [
+  {
+    name: "WUSF Public Media",
+    logoFileName: "wusf-public-media-logo.webp",
+    padding: true,
+    background: true,
+  },
+  {
+    name: "Arts Axis Florida",
+    logoFileName: "arts-axis-florida-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Sarasota County Tourist Development Tax",
+    logoFileName: "sarasota-tourist-development-tax-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Drummers Only",
+    logoFileName: "drummersonly-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Visit Sarasota",
+    logoFileName: "visit-sarasota-logo.webp",
+    padding: false,
+    background: false,
+  },
+];

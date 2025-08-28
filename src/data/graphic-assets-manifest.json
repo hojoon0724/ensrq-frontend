@@ -1943,5 +1943,30 @@
     "width": 1921,
     "height": 1081,
     "type": "webp"
+  },
+  "/graphics/logos/arts-axis-florida-logo.webp": {
+    "width": 300,
+    "height": 300,
+    "type": "webp"
+  },
+  "/graphics/logos/drummersonly-logo.webp": {
+    "width": 2100,
+    "height": 1500,
+    "type": "webp"
+  },
+  "/graphics/logos/sarasota-tourist-development-tax-logo.webp": {
+    "width": 546,
+    "height": 390,
+    "type": "webp"
+  },
+  "/graphics/logos/visit-sarasota-logo.webp": {
+    "width": 250,
+    "height": 250,
+    "type": "webp"
+  },
+  "/graphics/logos/wusf-public-media-logo.webp": {
+    "width": 303,
+    "height": 300,
+    "type": "webp"
   }
 }

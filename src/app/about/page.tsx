@@ -2,9 +2,10 @@ import { Button, Image } from "@/components/atoms";
 import { ContactForm } from "@/components/molecules/ContactForm";
 import { AboutProfilesContainer, Donors } from "@/components/organisms";
 import { SectionEmpty } from "@/components/sections";
-import { artisticDirectors, enSRQArtists, guestArtists } from "@/data/about-bios";
+import { artisticDirectors, donationLink, enSRQArtists, guestArtists, sponsors } from "@/data/about-data";
 import { boardRoster } from "@/data/board-roster";
 import { BoardRoster } from "@/types";
+import Link from "next/link";
 
 function BoardLabelAndList({ rosterItem }: BoardRoster) {
   return (
@@ -136,6 +137,24 @@ export default function About() {
       </SectionEmpty>
 
       <SectionEmpty themeColor="sky">
+        <a className="anchor scroll-mt-[80px]" id="sponsors"></a>
+        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-s w-[clamp(320px,100%,600px)] lg:w-full h-full">
+          {sponsors.map((sponsor) => (
+            <div
+              key={sponsor.name}
+              className={`relative flex justify-center items-center w-full h-full aspect-[18/17] ${sponsor.background ? "bg-white" : ""}`}
+            >
+              <Image
+                src={`/graphics/logos/${sponsor.logoFileName}`}
+                alt={sponsor.name}
+                objectFit="contain"
+                className={sponsor.padding === true ? "p-double" : "p-0"}
+              />
+            </div>
+          ))}
+        </div>
+      </SectionEmpty>
+      <SectionEmpty themeColor="sky">
         <a className="anchor scroll-mt-[80px]" id="our-donors"></a>
         <div className="flex flex-col mb-double">
           <h1 className="museo-slab font-thin mb-double">Our Donors</h1>
@@ -152,9 +171,11 @@ export default function About() {
             <p className="leading-tight text-center">{`Please consider including our 501(c)3 corporation in your charitable giving plans! Without the generosity of musical friends like yourself, we would not be able to keep our dedication focused solely on the enrichment and education of our community by providing the profound and soul nourishing music that we always strive for.`}</p>
             <p className="text-center">{`You can give now by using the button below OR by sending a check to:`}</p>
             <div className="address-button-container text-xl flex justify-center items-center my-double gap-double">
-              <Button variant="filled" size="xl" className="h-auto">
-                Donate Now
-              </Button>
+              <Link href={donationLink} passHref target="_blank" rel="noopener noreferrer">
+                <Button variant="filled" size="xl" className="h-auto">
+                  Donate Now
+                </Button>
+              </Link>
               <div className="address-container">
                 <div className="museo text-3xl">
                   ensemble<span className="font-semibold">NEW</span>SRQ
