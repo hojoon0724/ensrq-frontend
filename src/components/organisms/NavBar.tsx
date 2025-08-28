@@ -87,7 +87,7 @@ export function NavBar({ className = "" }: Readonly<{ className?: string }>) {
       <div className="nav-contents-container w-full max-w-7xl flex justify-between items-center h-[80px] p-double lg:h-[100px] lg:p-s">
         {/* Logo */}
         <div className="nav-left-logo-container h-full aspect-[20/9]">
-          <Link href="/" className="h-full w-full">
+          <Link href="/" className="h-full w-full" onClick={() => setIsMobileMenuOpen(false)}>
             <FullLogo color="var(--water-600)" />
           </Link>
         </div>

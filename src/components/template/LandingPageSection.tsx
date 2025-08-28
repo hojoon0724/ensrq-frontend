@@ -85,7 +85,7 @@ export function LandingPageSection() {
         <CarouselItem>
           <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light">
             <div className={`min-h-[50svh] w-full flex flex-col justify-center items-center p-12`}>
-              <Link href="/season/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
+              <Link href="/seasons/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
                 <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
                   Season&nbsp;{""}
                   <CountUpToTarget
