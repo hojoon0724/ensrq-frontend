@@ -42,7 +42,8 @@ export function ContactForm({ brandColorTheme = "water", onSubmit }: ContactForm
 
     // The URL of your Google Apps Script Web App
     // todo: add script in Google Scripts
-    const scriptUrl = "";
+    const scriptUrl =
+      "https://script.google.com/macros/s/AKfycbxG0q7I_X0A95X6gINZ3yM7LNty1H2MqRphuJRCK0Ei9w-WHrz0SSLl6rccsV_8q1iS/exec";
     // "https://script.google.com/macros/s/AKfycbw5o-nLD2lWtJ_i4TWHN_-VV1EUaT6c_wR0EhC_JmdAm2W49_uNvT7uSDudo5nqInNe/exec";
 
     // Prepare form data
