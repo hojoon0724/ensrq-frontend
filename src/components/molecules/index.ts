@@ -5,3 +5,4 @@ export { ContactForm } from "./ContactForm";
 export { MobileAccordionTile } from "./MobileAccordionTile";
 export { MobileProfileCard } from "./MobileProfileCard";
 export { ProgramTile } from "./ProgramTile";
+export { PhotoMarquee } from "./PhotoMarquee";

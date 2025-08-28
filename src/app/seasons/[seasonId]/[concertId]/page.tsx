@@ -1,4 +1,4 @@
-import { ConcertPageSection } from "@/components/templates";
+import { ConcertPageSection } from "@/components/template";
 import { Concert } from "@/types";
 import { notFound } from "next/navigation";
 

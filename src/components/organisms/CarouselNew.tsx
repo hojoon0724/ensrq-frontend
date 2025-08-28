@@ -11,7 +11,7 @@ interface CarouselProps {
   className?: string;
 }
 
-export function Carousel({
+export function CarouselNew({
   children,
   autoPlay = false,
   autoPlayInterval = 3000,
@@ -19,84 +19,62 @@ export function Carousel({
   showArrows = true,
   className = "",
 }: CarouselProps) {
-  const [currentIndex, setCurrentIndex] = useState(1); // Start at 1 because we have a clone before
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [translateX, setTranslateX] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const items = React.Children.toArray(children);
   const totalItems = items.length;
 
-  // Create extended items array with clones for infinite effect
-  // Use React.cloneElement to preserve component identity and prevent re-mounting
-  const extendedItems = [
-    React.cloneElement(items[totalItems - 1] as React.ReactElement, {
-      key: `clone-last-${totalItems - 1}`,
-    }), // Clone of last item at beginning
-    ...items.map((item, index) =>
-      React.cloneElement(item as React.ReactElement, {
-        key: `original-${index}`,
-      })
-    ), // Original items with stable keys
-    React.cloneElement(items[0] as React.ReactElement, {
-      key: `clone-first-0`,
-    }), // Clone of first item at end
-  ];
+  // Calculate the current visual index (for indicators)
+  const visualIndex = Math.floor(Math.abs(translateX) / 100) % totalItems;
 
   const goToSlide = useCallback(
     (index: number) => {
-      if (isTransitioning) return;
+      if (isTransitioning || totalItems === 0) return;
+
       setIsTransitioning(true);
-      setCurrentIndex(index + 1); // Adjust for clone offset
+
+      // Calculate the shortest path to the target slide
+      const currentVisual = Math.floor(Math.abs(translateX) / 100) % totalItems;
+      let difference = index - currentVisual;
+
+      // Determine shortest direction for infinite scroll
+      if (difference > totalItems / 2) {
+        difference -= totalItems;
+      } else if (difference < -totalItems / 2) {
+        difference += totalItems;
+      }
+
+      setTranslateX((prev) => prev - difference * 100);
+
+      setTimeout(() => {
+        setIsTransitioning(false);
+      }, 500);
     },
-    [isTransitioning]
+    [isTransitioning, translateX, totalItems]
   );
 
   const goToNext = useCallback(() => {
-    if (isTransitioning) return;
+    if (isTransitioning || totalItems === 0) return;
+
     setIsTransitioning(true);
-    setCurrentIndex((prevIndex) => prevIndex + 1);
-  }, [isTransitioning]);
+    setTranslateX((prev) => prev - 100);
+
+    setTimeout(() => {
+      setIsTransitioning(false);
+    }, 500);
+  }, [isTransitioning, totalItems]);
 
   const goToPrevious = useCallback(() => {
-    if (isTransitioning) return;
+    if (isTransitioning || totalItems === 0) return;
+
     setIsTransitioning(true);
-    setCurrentIndex((prevIndex) => prevIndex - 1);
-  }, [isTransitioning]);
+    setTranslateX((prev) => prev + 100);
 
-  // Handle infinite loop transitions
-  useEffect(() => {
-    if (!isTransitioning) return;
-
-    const timeout = setTimeout(() => {
+    setTimeout(() => {
       setIsTransitioning(false);
-
-      // Reset position for infinite effect
-      if (currentIndex >= totalItems + 1) {
-        // Move to the real first item - use setTimeout to avoid batching with transition end
-        setTimeout(() => {
-          if (carouselRef.current) {
-            carouselRef.current.style.transition = "none";
-            carouselRef.current.style.transform = `translateX(-${1 * 100}%)`;
-            void carouselRef.current.offsetHeight; // Force reflow
-            carouselRef.current.style.transition = "transform 0.5s ease-in-out";
-          }
-          setCurrentIndex(1);
-        }, 0);
-      } else if (currentIndex <= 0) {
-        // Move to the real last item - use setTimeout to avoid batching with transition end
-        setTimeout(() => {
-          if (carouselRef.current) {
-            carouselRef.current.style.transition = "none";
-            carouselRef.current.style.transform = `translateX(-${totalItems * 100}%)`;
-            void carouselRef.current.offsetHeight; // Force reflow
-            carouselRef.current.style.transition = "transform 0.5s ease-in-out";
-          }
-          setCurrentIndex(totalItems);
-        }, 0);
-      }
-    }, 500); // Match transition duration
-
-    return () => clearTimeout(timeout);
-  }, [currentIndex, totalItems, isTransitioning]);
+    }, 500);
+  }, [isTransitioning, totalItems]);
 
   // Auto-play functionality
   useEffect(() => {
@@ -122,9 +100,19 @@ export function Carousel({
 
   if (totalItems === 0) return null;
 
-  // Calculate the actual current index for indicators (adjust for clone offset)
-  const actualCurrentIndex =
-    currentIndex === 0 ? totalItems - 1 : currentIndex === totalItems + 1 ? 0 : currentIndex - 1;
+  // Create enough copies of items to fill the view smoothly
+  const copies = Math.max(3, Math.ceil(500 / totalItems)); // Ensure we have enough copies
+  const allItems: React.ReactNode[] = [];
+
+  for (let i = 0; i < copies; i++) {
+    items.forEach((item, index) => {
+      allItems.push(
+        <div key={`copy-${i}-item-${index}`} className="w-full h-full flex-shrink-0">
+          {item}
+        </div>
+      );
+    });
+  }
 
   return (
     <div className={`carousel relative w-full overflow-hidden ${className}`}>
@@ -133,15 +121,11 @@ export function Carousel({
         ref={carouselRef}
         className={`flex w-full ${isTransitioning ? "transition-transform duration-500 ease-in-out" : ""}`}
         style={{
-          transform: `translateX(-${currentIndex * 100}%)`,
+          transform: `translateX(${translateX}%)`,
           height: "100%",
         }}
       >
-        {extendedItems.map((child) => (
-          <div key={child.key} className="w-full h-full flex-shrink-0">
-            {child}
-          </div>
-        ))}
+        {allItems}
       </div>
 
       {/* Navigation arrows */}
@@ -176,7 +160,7 @@ export function Carousel({
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-                index === actualCurrentIndex ? "bg-white" : "bg-white/50 hover:bg-white/70"
+                index === visualIndex ? "bg-white" : "bg-white/50 hover:bg-white/70"
               }`}
               aria-label={`Go to slide ${index + 1}`}
             />
