@@ -41,33 +41,48 @@ export default function About() {
     <div>
       <SectionEmpty themeColor="gray" className="flex flex-col justify-center items-center gap-s relative">
         <a className="anchor scroll-mt-[80px] lg:scroll-mt-[110px]" id="mission"></a>
-        <Image
-          src="/graphics/ensrq-logo-for-bright.webp"
-          alt="ensrq-logo"
-          width={800}
-          height={300}
-          fill={false}
-          objectFit="contain"
-          className="h-[clamp(300px,40svh,400px)]"
-        />
-        <div className="about-text flex flex-col gap-double text-pretty items-center max-w-full mb-double">
-          <h1 className="museo-slab w-full font-thin mb-triple text-center">
-            Human, Inclusive, Excellence, Inspiring, and Current
-          </h1>
-
-          <p className="text-pretty text-justify w-[80ch] max-w-full">
-            ensembleNEWSRQ strives to manifest the creativity of the current generation and inspire audiences to
-            participate in musical culture in a profound way, through high-level curated concert experiences that
-            sustain and transform the relevance of contemporary classical music.
-          </p>
-          <p className="text-pretty text-justify w-[80ch] max-w-full">
-            Founded in 2015 by violinist Samantha Bennett and percussionist George Nickson, ensembleNEWSRQ (enSRQ) is a
-            versatile chamber music ensemble in Sarasota, FL, dedicated to playing and advocating for the music of
-            contemporary composers. Through thoughtfully curated and innovative programs, enSRQ demonstrates how
-            contemporary music is a reflection of our world and cultural experience. The ensemble strives to manifest
-            the creativity of the current generation and inspire audiences to participate in musical culture in a
-            profound way.
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-s lg:gap-double w-full lg:items-stretch">
+          <div className="left order-2 lg:order-1 flex flex-col items-center lg:items-start">
+            <div className="logo-container mb-double lg:mb-triple w-full flex justify-center lg:justify-start">
+              <Image
+                src="/graphics/ensrq-logo-for-bright.webp"
+                alt="ensrq-logo"
+                width={600}
+                height={225}
+                fill={false}
+                objectFit="contain"
+                className="h-[clamp(180px,25svh,250px)] lg:h-[clamp(200px,25svh,280px)] w-auto max-w-full"
+              />
+            </div>
+            <div className="about-text flex flex-col gap-double text-pretty items-center lg:items-start max-w-full">
+              <h2 className="museo-slab w-full font-thin mb-double text-center lg:mb-triple lg:text-left ">
+                Human, Inclusive, Excellence, Inspiring, and Current
+              </h2>
+              <p className="text-pretty text-justify w-full max-w-[70ch] leading-relaxed">
+                ensembleNEWSRQ strives to manifest the creativity of the current generation and inspire audiences to
+                participate in musical culture in a profound way, through high-level curated concert experiences that
+                sustain and transform the relevance of contemporary classical music.
+              </p>
+              <p className="text-pretty text-justify w-full max-w-[70ch] leading-relaxed">
+                Founded in 2015 by violinist Samantha Bennett and percussionist George Nickson, ensembleNEWSRQ (enSRQ)
+                is a versatile chamber music ensemble in Sarasota, FL, dedicated to playing and advocating for the music
+                of contemporary composers. Through thoughtfully curated and innovative programs, enSRQ demonstrates how
+                contemporary music is a reflection of our world and cultural experience. The ensemble strives to
+                manifest the creativity of the current generation and inspire audiences to participate in musical
+                culture in a profound way.
+              </p>
+            </div>
+          </div>
+          <div className="right order-1 lg:order-2 w-full relative">
+            <div className="photo-container relative w-full h-full aspect-[4/3] lg:aspect-auto">
+              <Image
+                src="/photos/about/about-ensrq-02.png"
+                alt="ensembleNEWSRQ performers"
+                fill={true}
+                className="object-cover object-center transition-transform duration-300 ease-out"
+              />
+            </div>
+          </div>
         </div>
       </SectionEmpty>
 
