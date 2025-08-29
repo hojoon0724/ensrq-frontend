@@ -1978,5 +1978,20 @@
     "width": 672,
     "height": 297,
     "type": "webp"
+  },
+  "/photos/about/about-ensrq-02.webp": {
+    "width": 1601,
+    "height": 2400,
+    "type": "webp"
+  },
+  "/photos/about/about-ensrq-09.webp": {
+    "width": 2400,
+    "height": 1601,
+    "type": "webp"
+  },
+  "/photos/about/about-ensrq-10.webp": {
+    "width": 2400,
+    "height": 1601,
+    "type": "webp"
   }
 }

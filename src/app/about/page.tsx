@@ -71,12 +71,13 @@ export default function About() {
                 manifest the creativity of the current generation and inspire audiences to participate in musical
                 culture in a profound way.
               </p>
+              <div className="mb-double"></div>
             </div>
           </div>
           <div className="right order-1 lg:order-2 w-full relative">
             <div className="photo-container relative w-full h-full aspect-[4/3] lg:aspect-auto">
               <Image
-                src="/photos/about/about-ensrq-02.png"
+                src="/photos/about/about-ensrq-02.webp"
                 alt="ensembleNEWSRQ performers"
                 fill={true}
                 className="object-cover object-center transition-transform duration-300 ease-out"
