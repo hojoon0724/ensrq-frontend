@@ -130,8 +130,14 @@ export function LandingPageSection() {
               {/* Background mesh gradient */}
               <div className={`absolute marquee-container w-full h-full`}>
                 <div className="w-full h-full flex flex-col ">
-                  <div className={`padding-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}>&nbsp;</div>
-                  <div className={`first-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}>
+                  <div
+                    className={`padding-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
+                  >
+                    &nbsp;
+                  </div>
+                  <div
+                    className={`first-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
+                  >
                     <PhotoMarquee
                       photos={marqueePhotos}
                       speed={"medium"}
@@ -143,7 +149,9 @@ export function LandingPageSection() {
                       pauseOnHover={true}
                     />
                   </div>
-                  <div className={`second-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}>
+                  <div
+                    className={`second-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
+                  >
                     <PhotoMarquee
                       photos={marqueePhotos}
                       speed={"slow"}
@@ -226,16 +234,28 @@ export function LandingPageSection() {
                       {`${extractDateFromUtc(concert.date)} @ ${concert.time}`}
                     </FitText>
                   </div>
-                  <Link href={`/tickets`} className="flex justify-end">
-                    <Button
-                      variant="filled"
-                      border={true}
-                      size="lg"
-                      color={concertColorThemes[concert.concertId] || "sand"}
-                    >
-                      Tickets
-                    </Button>
-                  </Link>
+                  <div className="tickets-buttons-container w-full flex justify-end items-end gap-s">
+                    <Link href={`${concert.ticketsLinks.singleLive?.url}`} className="flex justify-end">
+                      <Button
+                        variant="filled"
+                        border={true}
+                        size="lg"
+                        color={concertColorThemes[concert.concertId] || "sand"}
+                      >
+                        Live Ticket
+                      </Button>
+                    </Link>
+                    <Link href={`${concert.ticketsLinks.singleStreaming?.url}`} className="flex justify-end">
+                      <Button
+                        variant="filled"
+                        border={true}
+                        size="lg"
+                        color={concertColorThemes[concert.concertId] || "sand"}
+                      >
+                        Streaming Ticket
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </CarouselItem>
