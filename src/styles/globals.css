@@ -24,6 +24,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--gray-30);
   color: var(--gray-970);
@@ -33,3 +37,15 @@ body {
 .v-application {
   position: absolute;
 }
+
+a .anchor {
+  @apply scroll-mt-20
+}
+
+ul, li {
+  /* @apply border border-red-600; */
+}
+
+/* * {
+  outline: 1px solid rgba(255, 0, 0, 0.5);
+} */

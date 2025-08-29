@@ -13,24 +13,13 @@ const musicianSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    instruments: [
-      {
-        type: String,
-        trim: true,
-      },
-    ],
+    instrument: {
+      type: String,
+      trim: true,
+    },
     bio: {
       type: String,
       trim: true,
-    },
-    website: {
-      type: String,
-      trim: true,
-    },
-    email: {
-      type: String,
-      trim: true,
-      lowercase: true,
     },
   },
   {
@@ -38,11 +27,6 @@ const musicianSchema = new mongoose.Schema(
     collection: "musicians",
   }
 );
-
-// Index for efficient queries
-// musicianSchema.index({ musicianId: 1 });
-// musicianSchema.index({ name: 1 });
-// musicianSchema.index({ instruments: 1 });
 
 const Musician = mongoose.models.Musician || mongoose.model("Musician", musicianSchema);
 

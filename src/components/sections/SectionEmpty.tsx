@@ -1,11 +1,23 @@
-export default function SectionEmpty({
+import { TopContainer } from "@/components/layouts";
+
+interface SectionEmptyProps {
+  children: React.ReactNode;
+  themeColor?: string;
+  tone?: "light" | "dark";
+  className?: string;
+}
+
+export function SectionEmpty({
   children,
   themeColor = "gray",
-  className = "flex flex-col justify-center items-center w-full h-full",
-}: Readonly<{ children: React.ReactNode; themeColor?: string; className?: string }>) {
+  tone = "light",
+  className = "flex flex-col justify-center items-center w-full h-full gap-s",
+}: SectionEmptyProps) {
+  const toneValue = tone === "dark" ? 700 : 50;
+
   return (
-    <section style={{ backgroundColor: `var(--${themeColor}-bg-white)` }}>
-      <div className={`w-full h-full max-w-7xl ${className}`}>{children}</div>
+    <section className={className} style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
+      <TopContainer className="flex flex-col justify-center items-center w-full h-full gap-s">{children}</TopContainer>
     </section>
   );
 }

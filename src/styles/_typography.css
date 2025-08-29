@@ -14,6 +14,10 @@
   font-family: "kode-mono", monospace;
 }
 
+.roboto-flex {
+  font-family: "roboto-flex", sans-serif;
+}
+
 .hanging-punctuation {
   hanging-punctuation: first allow-end;
 }
@@ -29,7 +33,7 @@ h2 {
 }
 
 h3 {
-  @apply text-4xl font-semibold leading-snug tracking-normal museo;
+  @apply text-3xl md:text-4xl font-semibold leading-snug tracking-normal museo;
 }
 
 h4 {
@@ -70,7 +74,7 @@ small {
 
 .program-composer {
   @apply text-xl md:text-2xl font-normal tracking-wide museo-slab text-nowrap;
-}  
+}
 
 .program-work-title {
   @apply text-xl md:text-2xl font-bold museo;
@@ -106,4 +110,156 @@ small {
 
 .program-disclaimer {
   @apply text-xs leading-snug uppercase tracking-wider kode-mono;
+}
+
+/* --- Markdown Specific Styles --- */
+
+.markdown-content {
+  @apply max-w-none;
+}
+
+/* Small markdown text */
+.markdown-sm p {
+  @apply text-sm md:text-base !important;
+}
+
+.markdown-sm h1 {
+  @apply text-3xl md:text-4xl !important;
+}
+.markdown-sm h2 {
+  @apply text-2xl md:text-3xl !important;
+}
+.markdown-sm h3 {
+  @apply text-xl md:text-2xl !important;
+}
+.markdown-sm h4 {
+  @apply text-lg md:text-xl !important;
+}
+.markdown-sm h5 {
+  @apply text-base md:text-lg !important;
+}
+.markdown-sm h6 {
+  @apply text-sm md:text-base !important;
+}
+
+/* Base markdown text */
+.markdown-base p {
+  @apply text-base md:text-lg !important;
+}
+
+.markdown-base h1 {
+  @apply text-4xl md:text-5xl !important;
+}
+.markdown-base h2 {
+  @apply text-3xl md:text-4xl !important;
+}
+.markdown-base h3 {
+  @apply text-2xl md:text-3xl !important;
+}
+.markdown-base h4 {
+  @apply text-xl md:text-2xl !important;
+}
+.markdown-base h5 {
+  @apply text-lg md:text-xl !important;
+}
+.markdown-base h6 {
+  @apply text-base md:text-lg !important;
+}
+
+/* Large markdown text */
+.markdown-lg p {
+  @apply text-lg md:text-xl !important;
+}
+
+.markdown-lg h1 {
+  @apply text-5xl md:text-6xl !important;
+}
+.markdown-lg h2 {
+  @apply text-4xl md:text-5xl !important;
+}
+.markdown-lg h3 {
+  @apply text-3xl md:text-4xl !important;
+}
+.markdown-lg h4 {
+  @apply text-2xl md:text-3xl !important;
+}
+.markdown-lg h5 {
+  @apply text-xl md:text-2xl !important;
+}
+.markdown-lg h6 {
+  @apply text-lg md:text-xl !important;
+}
+
+/* Extra large markdown text */
+.markdown-xl p {
+  @apply text-xl md:text-2xl !important;
+}
+
+.markdown-xl h1 {
+  @apply text-6xl md:text-7xl !important;
+}
+.markdown-xl h2 {
+  @apply text-5xl md:text-6xl !important;
+}
+.markdown-xl h3 {
+  @apply text-4xl md:text-5xl !important;
+}
+.markdown-xl h4 {
+  @apply text-3xl md:text-4xl !important;
+}
+.markdown-xl h5 {
+  @apply text-2xl md:text-3xl !important;
+}
+.markdown-xl h6 {
+  @apply text-xl md:text-2xl !important;
+}
+
+/* 2XL markdown text */
+.markdown-2xl p {
+  @apply text-2xl md:text-3xl !important;
+}
+
+.markdown-2xl h1 {
+  @apply text-7xl md:text-8xl !important;
+}
+.markdown-2xl h2 {
+  @apply text-6xl md:text-7xl !important;
+}
+.markdown-2xl h3 {
+  @apply text-5xl md:text-6xl !important;
+}
+.markdown-2xl h4 {
+  @apply text-4xl md:text-5xl !important;
+}
+.markdown-2xl h5 {
+  @apply text-3xl md:text-4xl !important;
+}
+.markdown-2xl h6 {
+  @apply text-2xl md:text-3xl !important;
+}
+
+/* Common markdown element styles */
+.markdown-content ul,
+.markdown-content ol {
+  @apply ml-6 mb-4;
+}
+
+.markdown-content li {
+  @apply mb-2;
+}
+
+.markdown-content blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic;
+}
+
+.markdown-content code {
+  @apply bg-gray-100 px-1 py-0.5 rounded text-sm kode-mono;
+}
+
+.markdown-content pre {
+  @apply bg-gray-100 p-4 rounded overflow-x-auto;
+}
+
+.markdown-content pre code {
+  @apply bg-transparent p-0;
 }

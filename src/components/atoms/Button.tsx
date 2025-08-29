@@ -1,31 +1,75 @@
-import React from "react";
-
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "outline" | "ghost" | "danger";
+  variant?: "filled" | "outline" | "ghost";
+  color?: string;
+  border?: boolean;
+  textColor?: string;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   loading?: boolean;
+  disabled?: boolean;
   children: React.ReactNode;
+  includeBaseClasses?: boolean;
+  className?: string;
 }
-
-const Button: React.FC<ButtonProps> = ({
-  variant = "primary",
+export function Button({
+  variant = "filled",
+  color = "sky",
+  border = false,
+  textColor,
   size = "md",
   loading = false,
   disabled,
   children,
+  includeBaseClasses = true,
   className = "",
   ...props
-}) => {
-  const baseClasses =
-    "inline-flex items-center justify-center font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+}: ButtonProps): React.ReactNode {
+  const base =
+    "inline-flex items-center justify-center font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+
+  // Define color variants with complete class names to ensure Tailwind includes them
+  const colorVariants = {
+    sky: {
+      filled: `${border ? "border-2" : "border-0"} border-sky-500 bg-sky-500 text-white hover:bg-sky-50 hover:text-sky-950 focus:ring-sky-300`,
+      outline:
+        "border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:border-sky-600 hover:text-white focus:ring-sky-300",
+      ghost: "border-0 text-sky-600 hover:bg-sky-50 hover:text-sky-950 focus:ring-sky-300",
+    },
+    sand: {
+      filled: `${border ? "border-2" : "border-0"} border-sand-500 bg-sand-500 text-white hover:bg-sand-50 hover:text-sand-950 focus:ring-sand-300`,
+      outline:
+        "border-2 border-sand-600 text-sand-600 hover:bg-sand-600 hover:border-sand-600 hover:text-white focus:ring-sand-300",
+      ghost: "border-0 text-sand-600 hover:bg-sand-50 hover:text-sand-950 focus:ring-sand-300",
+    },
+    water: {
+      filled: `${border ? "border-2" : "border-0"} border-water-500 bg-water-500 text-white hover:bg-water-50 hover:text-water-950 focus:ring-water-300`,
+      outline:
+        "border-2 border-water-600 text-water-600 hover:bg-water-600 hover:border-water-600 hover:text-white focus:ring-water-300",
+      ghost: "border-0 text-water-600 hover:bg-water-50 hover:text-water-950 focus:ring-water-300",
+    },
+    red: {
+      filled: `${border ? "border-2" : "border-0"} border-red-600 bg-red-600 text-white hover:bg-red-700 focus:ring-red-300`,
+      outline:
+        "border-2 border-red-600 text-red-600 hover:bg-red-700 hover:border-red-700 hover:text-white focus:ring-red-300",
+      ghost: "border-0 text-red-600 hover:bg-red-200 hover:text-red-950 hover:text-red-950 focus:ring-red-300",
+    },
+    gray: {
+      filled: `${border ? "border-2" : "border-0"} border-gray-500 bg-gray-500 text-white hover:bg-gray-700 focus:ring-gray-300`,
+      outline:
+        "border-2 border-gray-500 text-gray-500 hover:bg-gray-700 hover:border-gray-700 hover:text-white focus:ring-gray-300",
+      ghost: "border-0 text-gray-600 hover:bg-gray-200 hover:text-gray-950 focus:ring-gray-300",
+    },
+  };
 
   const variantClasses = {
-    primary: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500",
-    secondary: "bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500",
-    outline: "border-2 border-blue-600 text-blue-600 hover:bg-blue-50 focus:ring-blue-500",
-    ghost: "text-blue-600 hover:bg-blue-50 focus:ring-blue-500",
-    danger: "bg-red-600 text-white hover:bg-red-700 focus:ring-red-500",
+    filled: colorVariants[color as keyof typeof colorVariants]?.filled || colorVariants.sky.filled,
+    outline: colorVariants[color as keyof typeof colorVariants]?.outline || colorVariants.sky.outline,
+    ghost: colorVariants[color as keyof typeof colorVariants]?.ghost || colorVariants.sky.ghost,
   };
+
+  // Apply custom text color if provided
+  const finalVariantClass = textColor
+    ? variantClasses[variant].replace(/text-\w+-\w+|text-white/, textColor)
+    : variantClasses[variant];
 
   const sizeClasses = {
     xs: "px-2 py-1 text-xs",
@@ -35,12 +79,10 @@ const Button: React.FC<ButtonProps> = ({
     xl: "px-8 py-4 text-lg",
   };
 
+  const allClasses = `${includeBaseClasses ? base : ""} ${finalVariantClass} ${sizeClasses[size]} ${className}`;
+
   return (
-    <button
-      className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
-      disabled={disabled || loading}
-      {...props}
-    >
+    <button className={allClasses} disabled={disabled || loading} {...props}>
       {loading && (
         <svg className="animate-spin -ml-1 mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24">
           <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
@@ -54,6 +96,4 @@ const Button: React.FC<ButtonProps> = ({
       {children}
     </button>
   );
-};
-
-export default Button;
+}

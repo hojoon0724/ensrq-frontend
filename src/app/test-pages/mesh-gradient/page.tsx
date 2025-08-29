@@ -1,10 +1,84 @@
-import SectionEmpty from "@/components/sections/SectionEmpty";
+import { SectionMeshGradient } from "@/components/sections";
 
 export default function MeshGradientPage() {
   return (
-    <SectionEmpty>
-      <h1 className="text-4xl font-bold mb-4">Mesh Gradient Test Page</h1>
-      <p className="mb-4">This is a test page for the mesh gradient component.</p>
-    </SectionEmpty>
+    <div className="flex w-full h-[80svh] flex-col items-center justify-center overflow-clip">
+      <SectionMeshGradient
+        color1="sand"
+        tone="light"
+        variant="s-curve"
+        baselineWidth={700}
+        lockLastNodeX={true}
+        lineCount={6}
+        nodeCount={4}
+        nodes={[
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 20, y: 0 },
+          ],
+        ]}
+      >
+        <></>
+      </SectionMeshGradient>
+      {/* <MeshGradientSCurve
+        colorShades={[[getColor(color1)]]}
+        intensity={0.5}
+        speed={1}
+        backgroundColor={getBackgroundColor("background")}
+        tone={tone}
+        baselineWidth={200}
+        lockLastNodeX={true}
+        maxXMovement={10}
+        maxYMovement={40}
+        lineCount={6}
+        nodeCount={4}
+        nodes={[
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+          [
+            { x: 0, y: 0 },
+            { x: 30, y: 0 },
+          ],
+        ]}
+      /> */}
+    </div>
   );
 }

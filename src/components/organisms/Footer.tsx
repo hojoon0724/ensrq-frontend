@@ -1,11 +1,11 @@
 "use client";
 
-import Wordmark from "@/assets/wordmark";
+import { Wordmark } from "@/assets";
+import { SocialMediaIcons } from "@/components/atoms";
 import Link from "next/link";
-import SocialMediaIcons from "../atoms/SocialMediaIcons";
 
 // This variable controls whether the footer links are active or not.
-const links_active = false;
+const links_active = true;
 
 const footerSocialLinks = [
   { platform: "twitter", displayString: "@ensemblenewSRQ", url: "https://x.com/ensemblenewSRQ" },
@@ -27,9 +27,11 @@ const footerNavigationLinks = links_active
     ]
   : [];
 
-export default function Footer() {
+export function Footer({ className }: { className?: string }) {
   return (
-    <footer className="w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30">
+    <footer
+      className={`w-full px-s py-double flex flex-col justify-start md:justify-center bg-sky-800 text-gray-30 ${className}`}
+    >
       <div className="footer-content w-full max-w-7xl mx-auto ">
         {/* logo block */}
         <div className="footer-logo-container w-full mb-triple">

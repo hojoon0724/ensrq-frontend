@@ -6,13 +6,13 @@ export interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElem
   fullWidth?: boolean;
 }
 
-const InputField: React.FC<InputFieldProps> = ({
+export function InputField({
   variant = "default",
   inputSize = "md",
   fullWidth = false,
   className = "",
   ...props
-}) => {
+}: InputFieldProps): React.ReactNode {
   const baseClasses =
     "border rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-1 disabled:opacity-50 disabled:cursor-not-allowed";
 
@@ -36,6 +36,4 @@ const InputField: React.FC<InputFieldProps> = ({
       {...props}
     />
   );
-};
-
-export default InputField;
+}

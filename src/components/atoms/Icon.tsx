@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface IconProps {
   name: string;
   size?: "xs" | "sm" | "md" | "lg" | "xl" | number;
@@ -17,6 +15,7 @@ const iconPaths: Record<string, string> = {
   x: "m6 6 12 12M6 18 18 6",
   plus: "M12 4.5v15m7.5-7.5h-15",
   minus: "M5 12h14",
+  hamburger: "M3 6h18M3 12h18M3 18h18",
   search: "m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607z",
   heart:
     "M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z",
@@ -25,6 +24,10 @@ const iconPaths: Record<string, string> = {
   warning:
     "M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z",
   error: "M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12V15.75z",
+  arrowUp: "M12 19V5m0 0l-7 7m7-7l7 7",
+  arrowRight: "M5 12h14m0 0l-7-7m7 7l-7 7",
+  arrowDown: "M12 5v14m0 0l7-7m-7 7l-7-7",
+  arrowLeft: "M19 12H5m0 0l7 7m-7-7l7-7",
   twitter:
     "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z",
   facebook:
@@ -35,7 +38,7 @@ const iconPaths: Record<string, string> = {
     "M19.321 5.562a5.124 5.124 0 01-.443-.258 6.228 6.228 0 01-1.137-.966c-.849-.849-1.312-1.956-1.312-3.133V.8h-3.099v14.083c0 1.156-.233 2.272-.678 3.233-.437.944-1.069 1.801-1.828 2.484-.759.683-1.644 1.208-2.564 1.522-.941.32-1.942.38-2.903.175a5.384 5.384 0 01-2.267-1.016 5.402 5.402 0 01-1.711-2.077 5.398 5.398 0 01-.384-2.847 5.408 5.408 0 011.016-2.267 5.402 5.402 0 012.077-1.711c.924-.437 1.942-.497 2.903-.175.32.107.627.258.909.443v-3.156a8.704 8.704 0 00-1.137-.076c-1.156 0-2.272.233-3.233.678a8.66 8.66 0 00-2.484 1.828 8.677 8.677 0 00-1.522 2.564 8.704 8.704 0 00-.175 2.903c.107.971.394 1.904.851 2.744a8.66 8.66 0 001.828 2.267 8.677 8.677 0 002.564 1.522c.96.32 1.973.38 2.933.175a8.704 8.704 0 002.744-.851 8.66 8.66 0 002.267-1.828 8.677 8.677 0 001.522-2.564c.32-.96.38-1.973.175-2.933-.076-.465-.203-.918-.384-1.351V9.422a9.215 9.215 0 003.099 1.711V7.854a6.228 6.228 0 01-2.292-2.292z",
 };
 
-const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", className = "" }) => {
+export function Icon({ name, size = "md", color = "currentColor", className = "" }: IconProps): React.ReactNode | null {
   const sizeClasses = {
     xs: "h-3 w-3",
     sm: "h-4 w-4",
@@ -54,12 +57,19 @@ const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", 
     return null;
   }
 
+  // Check if color is a Tailwind class (starts with text- or stroke-)
+  const isTailwindClass = color.startsWith("text-") || color.startsWith("stroke-");
+
+  // If it's a Tailwind class, apply it as className; otherwise use as stroke color
+  const strokeColor = isTailwindClass ? "currentColor" : color;
+  const colorClass = isTailwindClass ? color : "";
+
   return (
     <svg
-      className={`${sizeClass} ${className}`}
+      className={`${sizeClass} ${colorClass} ${className}`}
       style={customSize}
       fill="none"
-      stroke={color}
+      stroke={strokeColor}
       strokeWidth={1.5}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +77,4 @@ const Icon: React.FC<IconProps> = ({ name, size = "md", color = "currentColor", 
       <path strokeLinecap="round" strokeLinejoin="round" d={iconPath} />
     </svg>
   );
-};
-
-export default Icon;
+}

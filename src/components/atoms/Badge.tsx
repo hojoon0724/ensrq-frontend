@@ -2,31 +2,31 @@ import React from "react";
 
 export interface BadgeProps {
   children: React.ReactNode;
-  variant?: "default" | "primary" | "secondary" | "success" | "warning" | "danger" | "info";
+  variant?: "default" | "success" | "warning" | "danger" | "sky" | "sand" | "water";
   size?: "xs" | "sm" | "md" | "lg";
   shape?: "rounded" | "pill" | "square";
   dot?: boolean;
   className?: string;
 }
 
-const Badge: React.FC<BadgeProps> = ({
+export function Badge({
   children,
   variant = "default",
   size = "sm",
   shape = "rounded",
   dot = false,
   className = "",
-}) => {
+}: BadgeProps) {
   const baseClasses = "inline-flex items-center justify-center font-medium";
 
   const variantClasses = {
     default: "bg-gray-100 text-gray-800",
-    primary: "bg-blue-100 text-blue-800",
-    secondary: "bg-gray-100 text-gray-800",
     success: "bg-green-100 text-green-800",
     warning: "bg-yellow-100 text-yellow-800",
     danger: "bg-red-100 text-red-800",
-    info: "bg-blue-100 text-blue-800",
+    sky: "bg-sky-500 text-white",
+    sand: "bg-sand-500 text-white",
+    water: "bg-water-500 text-white",
   };
 
   const sizeClasses = {
@@ -44,12 +44,12 @@ const Badge: React.FC<BadgeProps> = ({
 
   const dotColors = {
     default: "bg-gray-400",
-    primary: "bg-blue-500",
-    secondary: "bg-gray-500",
     success: "bg-green-500",
     warning: "bg-yellow-500",
     danger: "bg-red-500",
-    info: "bg-blue-500",
+    sky: "bg-sky-50",
+    sand: "bg-sand-50",
+    water: "bg-water-50",
   };
 
   const dotSizeClasses = {
@@ -86,6 +86,4 @@ const Badge: React.FC<BadgeProps> = ({
       {children}
     </span>
   );
-};
-
-export default Badge;
+}

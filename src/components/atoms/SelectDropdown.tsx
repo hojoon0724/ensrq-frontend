@@ -1,5 +1,7 @@
+"use client"
+
 import React, { useState } from "react";
-import Icon from "./Icon";
+import { Icon } from "./Icon";
 
 export interface SelectDropdownProps extends Omit<React.SelectHTMLAttributes<HTMLSelectElement>, "size"> {
   options: Array<{ value: string; label: string; disabled?: boolean }>;
@@ -9,7 +11,7 @@ export interface SelectDropdownProps extends Omit<React.SelectHTMLAttributes<HTM
   fullWidth?: boolean;
 }
 
-const SelectDropdown: React.FC<SelectDropdownProps> = ({
+export function SelectDropdown({
   options,
   placeholder = "Select an option",
   variant = "default",
@@ -17,7 +19,7 @@ const SelectDropdown: React.FC<SelectDropdownProps> = ({
   fullWidth = false,
   className = "",
   ...props
-}) => {
+}: SelectDropdownProps): React.ReactNode {
   const [isOpen, setIsOpen] = useState(false);
 
   const baseClasses =
@@ -71,6 +73,4 @@ const SelectDropdown: React.FC<SelectDropdownProps> = ({
       </div>
     </div>
   );
-};
-
-export default SelectDropdown;
+}

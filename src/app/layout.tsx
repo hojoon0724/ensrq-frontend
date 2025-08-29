@@ -1,7 +1,11 @@
-import Footer from "@/components/organisms/Footer";
 
+import { Footer } from "@/components/organisms";
+
+
+import SideNavBar from "@/components/organisms/SideNavBar";
 import type { Metadata } from "next";
 import "../styles/globals.css";
+import HojoonKimFooter from '../components/atoms/HojoonKim';
 
 export const metadata: Metadata = {
   title: "ensembleNewSRQ",
@@ -16,9 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col w-screen min-h-screen items-center justify-between">
-        {/* <NavBar/> */}
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <SideNavBar />
+        <main className="flex-1 lg:ml-20 w-screen lg:w-[calc(100svw-80px)] h-full">{children}</main>
+        <Footer className="lg:ml-20 lg:max-w-[calc(100svw-80px)]" />
+        <HojoonKimFooter className="lg:ml-20 lg:max-w-[calc(100svw-80px)]"/>
       </body>
     </html>
   );

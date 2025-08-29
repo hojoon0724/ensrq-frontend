@@ -1,0 +1,115 @@
+export const artisticDirectors = [
+  {
+    id: "samantha-bennett",
+    image: { width: 2500, height: 2000, xCenter: 50, yCenter: 23 },
+    name: `Samantha Bennett`,
+    bio: `Hailed by the Chicago Tribune as a violinist “full of subtlety and poise”, Samantha Bennett is an active and varied performer around the globe. Ms. Bennett is a violinist in The Dallas Opera Orchestra, having previously served as the Principal Second Violin of the Sarasota Orchestra from 2016-2022. She was a member of the Fort Worth Symphony and The Florida Orchestra. She performs frequently with the Fort Worth Symphony, the Dallas Symphony, Minnesota Orchestra and the Boston Symphony. Alongside her husband, percussionist George Nickson, Ms. Bennett is the founder and Co-Artistic Director of ensemblenewSRQ (enSRQ), a new music collective based in Sarasota, FL. Dedicated to innovative programming and thoughtfully curated concerts, enSRQ’s 2022/23 season comprises five programs of contemporary classical chamber music in Sarasota, including multiple commissions and world premieres. As Co-Artistic Director of enSRQ, Ms. Bennett is known for her performances of some of the most challenging contemporary repertoire, and has premiered works by Gunther Schuller, Toshio Hosokawa, Oliver Knussen, John Cage, George Benjamin, Augusta Read Thomas, and Philip Glass. Born in Ames, Iowa, Ms. Bennett completed her Bachelor’s and Master’s Degrees at the New England Conservatory in Boston studying with Donald Weilerstein and Malcolm Lowe.`,
+  },
+  {
+    id: "george-nickson",
+    image: { width: 2500, height: 2000, xCenter: 50, yCenter: 23 },
+    name: `George Nickson`,
+    bio: `A percussionist and conductor of great versatility and virtuosity, George Nickson holds the Margie and William H. Seay Chair as Principal Percussionist of The Dallas Symphony Orchestra, serves as Chair of the Percussion Department and Professor of Practice at Southern Methodist University, is Co-Founder and Co-Artistic Director of ensemblenewSRQ and heads contemporary chamber music studies at SMU, including the musical collective SYZYGY. George received the Master of Music degree from The Juilliard School where he studied with Daniel Druckman and completed his undergraduate studies at the New England Conservatory with Will Hudgins. In addition to his position with the DSO, George has performed with many of North America’s orchestras. Recent highlights include concerto performances at Tanglewood, solo performances at The Spoleto Festival, and solo recording projects for NAXOS, Bridge, and Albany Records. George has appeared as conductor in many notable performances of ensemblenewSRQ, including numerous world premieres, U.S. Premieres and Florida Premieres, including Sebastian Currier’s WAVES, Wuorinen’s New York Notes, Boulez’ Le Marteau sans maître, and Sofia Gubaidulina’s Lyre of Orpheus.`,
+  },
+];
+
+export const enSRQArtists = [
+  {
+    id: "bharat-chandra",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Bharat Chandra`,
+    bio: `Bharat Chandra is a clarinetist whose earnest passion for music and live interaction with audiences has taken him across the world as a soloist, chamber musician, and orchestral player. After undergraduate work at Southern Methodist University, Bharat attended the New England Conservatory of Music in Boston. From Boston, Bharat joined the New World Symphony in Miami. Bharat serves as Principal Clarinet of the Sarasota Orchestra in Florida, and of the Nordic Symphony Orchestra in Tallinn, Estonia, led by Anu Tali. Always a powerful proponent of living composers, Bharat is proud to become an inaugural Artist of enSRQ. During the summer he serves as Principal Clarinet of the Cabrillo Festival of Contemporary Music, appointed by Marin Alsop and currently directed by Cristian Macelaru. At Cabrillo, Bharat gave the United States premiere of Mark Anthony Turnage’s clarinet concerto, Riffs and Refrains, to unanimous critical acclaim with Alsop and the Festival Orchestra. Bharat is a Yamaha Artist and D’Addario Artist, performing exclusively on Yamaha Custom CSG Clarinets and D’Addario clarinet reeds.`,
+  },
+  {
+    id: "natalie-helm",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Natalie Helm`,
+    bio: `Principal Cello of the Sarasota Orchestra, Natalie Helm enjoys a dynamic career as a soloist, chamber musician, orchestral musician, and educator. She spends her summers on faculty at the Interlochen Arts Camp and National Music Festival. The founder of Upward Notes INC., Ms. Helm brings musicians together to perform and create opportunities to bring positive social change to underserved communities throughout the United States. She plays on a Raphael di Blasio cello from 1803.`,
+  },
+  {
+    id: "jennifer-best-takeda",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Jennifer Best Takeda`,
+    bio: `A native of North Carolina, violinist Jennifer Best Takeda currently serves as the Assistant Concertmaster of the Sarasota Orchestra, as well as violinist of the resident Sarasota Piano Quartet. Prior to joining the Sarasota Orchestra in 2005, Jennifer served as a Concertmaster of the New World Symphony, under the direction of Michael Tilson Thomas. An active chamber musician, Jennifer has performed with the Chroma Quartet, a string quartet she co-founded in 2008 that has enjoyed great success and performed throughout Florida to critical acclaim. She also enjoys performing many new music works with EnsembleNewSRQ. During the summer season, Jennifer performs in the Santa Fe Opera Orchestra. She received a High School Diploma and Bachelor of Music degree from the North Carolina School of the Arts and a Master of Music degree from the Manhattan School of Music. Her principal teachers have included Elaine Richey, Mitchell Stern and Sylvia Rosenberg. Jennifer performs on a 1697 Giovanni Rogeri violin, generously donated to the Sarasota Orchestra by Ernest and Alisa Kretzmer.`,
+  },
+  {
+    id: "betsy-hudson-traba",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Betsy Hudson Traba`,
+    bio: `Betsy Hudson Traba has served as Principal Flutist of the Sarasota Orchestra since 1993. Prior to that, she served as Principal Flutist of the Hofer Symphoniker in Hof, Germany. A native of Mentor, Ohio, she earned her Bachelor’s degree from Baldwin-Wallace College, followed by a Master of Music degree at the Manhattan School of Music. Ms. Traba has been heard frequently as a soloist throughout Florida, including guest artist performances with the La Musica International Chamber Music Festival, Artists Series of Sarasota, ensembleNEWSRQ, Charlotte Symphony, and in multiple performances with the Sarasota Orchestra. From 2008-2018 she performed every summer at the Cabrillo Festival of Contemporary Music in Santa Cruz, CA. Ms. Traba is an active teacher working locally with flutists of all ages and has served multiple terms as a leader/member of the Sarasota Orchestra Musicians’ Committee. She is a member of the Board of Directors of the Sarasota Institute of Lifetime Learning and serves as a moderator in their popular Music Mondays series. Ms. Traba is married to Sarasota Orchestra Principal Bassoonist Fernando Traba, and they have 2 college-aged daughters.`,
+  },
+  {
+    id: "marcelina-suchocka",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Marcelina Suchocka`,
+    bio: `Born in Bialystok, Poland, Marcelina Suchocka is the Principal Percussionist of the Sarasota Orchestra and Britt Festival Orchestra. Ms. Suchocka enjoys a diverse career spanning orchestral, chamber, new music, and solo playing. She was a fellow at the New World Symphony and has performed as an extra/substitute percussionist with the Chicago Symphony, National Symphony Orchestra, Dallas Symphony, Detroit Symphony, Center, Pacific Music Festival, the Music Academy of the West, National Repertory Orchestra and Spoleto Festival. Ms. Suchocka has performed as a concerto soloist with the Chicago Symphony performing the Koppel Marimba Concerto. She is a founding member of Excelsis Percussion Quartet and Pathos Trio.`,
+  },
+  {
+    id: "thea-lobo",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 40 },
+    name: `Thea Lobo`,
+    bio: `Hailed as "excellent", "impeccable", "limpidly beautiful", "impressive", "stunning", and "Boston's best", Grammy-nominated mezzo-soprano Thea Lobo's upcoming and recent engagements include performances with Bach Vocal Artists, Contemporary Art Music Project, Key Chorale, DeSota Baroque, True Concord, Emmanuel Music, Opera Huntsville, Sarasota Rising, Boston's Symphony Hall and more. Ms. Lobo has previously appeared under conductors Harry Christophers, Gunther Schuller, Stephen Stubbs, Joshua Rifkin, Lidiya Yankovskaya, and Andris Nelsons, and has been featured by the Firebird Ensemble, Boston Baroque, Naples Philharmonic, Boston Early Music Festival, Artist Series of Sarasota, Carmel Bach Festival, Boston Symphony Orchestra, and Europäisches Musikfest Stuttgart. In addition to her performing career, Thea Lobo serves as artistic and executive director of the initiative Indictus Project (www.indictus.org), which amplifies the overlooked classical art music of historically excluded composers of all eras. She is also a Classical Host on WSMR (Tampa, Sarasota, wsmr.org).`,
+  },
+];
+
+export const guestArtists = [
+  {
+    id: "han-chen",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 40 },
+    name: `Han Chen`,
+    bio: `Since winning the Gold Medal at the 2013 China International Piano Competition, Han Chen has emerged among the new generation of concert pianists as a uniquely fearless performer in a wide variety of musical settings. Praised by Gramophone as "impressively commanding and authoritative" and further cited by The <i>New York Times</i> for his "graceful touch," "rhythmic precision," and "hypnotic charm," Chen's virtuosity is enriched by a probing commitment to new and lesser-known works, as well as the great cornerstones of the piano repertory. This vision is clearly evident in his three solo Naxos CDs focusing on Franz Liszt, Anton Rubinstein, and more recently, Thomas Adès. An upcoming 2023 release will feature Gyorgy Ligeti's Complete Piano Études in commemoration of the composer's centenary year.<br /> As soloist with orchestra, Chen's appearances include the Calgary Philharmonic, Fort Worth Symphony, Lexington Philharmonic, Hong Kong Philharmonic, National Taiwan Symphony, China Symphony, Xiamen Philharmonic and his forthcoming Lincoln Center debut with Riverside Symphony at Alice Tully Hall in December 2022 performing Mozart's early masterwork, the Piano Concerto No. 9 <i>le Jeunehomme</i>. In addition, he has performed as recitalist throughout Europe, North America, China, and Taiwan.<br /> Much in demand as a chamber musician, Chen is a core member of <i>Ensemble Échappé</i> and <i>PinkNoise Ensemble</i> while regularly collaborating with The Metropolis Ensemble and other adventurous groups in performances here and abroad. In 2021, Chen launched Migration Music, an ongoing series of interviews and performances featuring immigrant composers.`,
+  },
+  {
+    id: "conor-hanick",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Conor Hanick`,
+    bio: `Pianist Conor Hanick is regarded as one of his generation’s most inquisitive interpreters of music new and old whose “technical refinement, color, crispness and wondrous variety of articulation benefit works by any master.” (<i>New York Times</i>) Hanick has recently been presented by The Gilmore Festival, the New York Philharmonic, Caramoor, Cal Performances, Philadelphia Chamber Music Society, and the Park Avenue Armory, and performed with the Seattle Symphony, Alabama Symphony, Orchestra Iowa, and the Boston Modern Orchestra Project. A fierce advocate for the music of today, Hanick has premiered over 200 pieces and collaborated with composers ranging from Pierre Boulez, Kaija Saariaho, and Steve Reich, to the leading composers of his generation, including Nico Muhly, Caroline Shaw, Tyshawn Sorey, Matthew Aucoin, and Christopher Cerrone. In the 22-23 season, Hanick premieres a new piano concerto by composer Samuel Carl Adams with the San Francisco Symphony and conductor Esa-Pekka Salonen; appears with soprano Julia Bullock at the Aix en Provence Festival in Olivier Messiaen’s Harawi; and performs recitals at the Library of Congress, Hancher Auditorium, Ensemble Music Society of Indianapolis, the 92nd Street Y, and elsewhere. With the American Modern Opera Company (AMOC), Hanick will serve as an artistic director of the Ojai Festival in 2022. He is the director of Solo Piano at the Music Academy of the West and serves on the faculty of the Peabody Institute and The Juilliard School.`,
+  },
+  {
+    id: "lucy-fitz-gibbons",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Lucy Fitz Gibbons`,
+    bio: `Praised for her “dazzling, virtuoso singing” (<i>Boston Globe</i>), soprano Lucy Fitz Gibbon believes that creating new works and recreating those lost in centuries past makes room for the multiplicity of voices integral to classical music’s future. As such, Ms. Fitz Gibbon has given U.S. premieres of rediscovered works from the Baroque through the mid-20th century, including recording seminal Yiddish song cycles. She has also collaborated with notable composers of her own time, among them John Harbison, Kate Soper, Sheila Silver, Katherine Balch, Reena Esmail, Roberto Sierra, and Pauline Oliveros.<br /> Ms. Fitz Gibbon has appeared in such venues as New York’s Carnegie Hall, Alice Tully Hall, Metropolitan Museum of Art, Park Avenue Armory, and Merkin Hall; Philadelphia’s Kimmel Center; London’s Wigmore Hall; and Toronto’s Koerner Hall. She has also appeared as a soloist with the Saint Paul Chamber Orchestra, Lucerne Festival Orchestra, Naples Philharmonic, Richmond Symphony, and American Symphony Orchestra, among others. Operatic engagements this season include Alexander Tcherepnin’s <i>The Nymph and the Farmer</i> (Nymph) and the premiere of Sheila Silver’s <i>A Thousand Splendid Suns</i> (Laila, cover) with Seattle Opera. Her discography with her husband and collaborative partner Ryan McCullough includes the labor of forgetting (November 2022), Descent/Return (May 2020), and Beauty Intolerable (February 2021).<br /> A native of Davis, California, Ms. Fitz Gibbon has spent summers at the Tanglewood Music Center and Marlboro Music Festival. She is on the faculty of Bard College Conservatory’s Vocal Arts Programs, having previously served as Director of the Vocal Program at Cornell University. For more information, see www.lucyfitzgibbon.com`,
+  },
+  {
+    id: "jamie-clark",
+    image: { width: 2500, height: 1667, xCenter: 50, yCenter: 30 },
+    name: `Jamie Clark`,
+    bio: `Cellist Jamie Clark of Boulder, Colorado has been praised for her sensitive, imaginative, and colorful sense of artistry. She has concertized throughout North America, South America, Europe, and Asia as a recitalist and a chamber musician. She has performed solo and chamber music recitals in venues such as Carnegie Hall's Weill Recital Hall, Boston's Jordan Hall, Eastman's Kodak Hall, New York City's American Academy of Arts and Letters, and the Isabella Stewart Gardner Museum.<br /> Both an enthusiastic chamber musician and entrepreneur of collaborative outreach programs, Jamie is a Co-Founder and Artistic Director of the <i>Flatirons Chamber Music Festival</i>, a non- profit organization based in Colorado. The festival strives to cross cultural, geographic, and temporal divides between performers, composers, and audience members, inspiring dynamic interaction within the entire Festival community.<br /> Her commitment to community engagement has led to collaborations with the Music For Food initiative in Boston, the Second Chance Center in Denver, and Attention Homes in Boulder. A passionate advocate for interdisciplinary collaboration between performer and scholar worlds, Jamie has written a series of scholarly papers including <i>The Art of Rehearsing: A Multidimensional Study in Rehearsing String Quartets</i>&nbsp;and *Schoenberg Quartet No. 2: Between the Twilight of Tonality and the Dawn of Early Expressionism.<br /> An engaged collaborative partner with contemporary composers, Jamie recently received a Stetson University Summer Grant to fund “<i>Hear Her Voice</i>” in 2021. “<i>Hear Her Voice</i>” features seven solo cello commissions by outstanding, young, female composers.&nbsp; Each piece offers a distinct perspective of isolation experienced in the context of the COVID-19 Pandemic.<br /> Jamie joined the faculty of Stetson University in the Fall of 2019 where she now serves as Assistant Professor of Cello and Coordinator of Chamber Music.&nbsp; Dr. Clark received her Doctor of Musical Arts Degree and Masters of Music Degree from the New England Conservatory with Laurence Lesser and Paul Katz.&nbsp; She received her Bachelors of Music degree from the Eastman School of Music with David Ying.`,
+  },
+];
+
+export const donationLink = "https://donate.stripe.com/fZu4gA7R0f0xdKy3gwfEk00";
+
+export const sponsors = [
+  {
+    name: "WUSF Public Media",
+    logoFileName: "wusf-public-media-logo.webp",
+    padding: true,
+    background: true,
+  },
+  {
+    name: "Arts Axis Florida",
+    logoFileName: "arts-axis-florida-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Sarasota County Tourist Development Tax",
+    logoFileName: "sarasota-tourist-development-tax-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Drummers Only",
+    logoFileName: "drummersonly-logo.webp",
+    padding: false,
+    background: false,
+  },
+  {
+    name: "Visit Sarasota",
+    logoFileName: "visit-sarasota-logo.webp",
+    padding: false,
+    background: false,
+  },
+];

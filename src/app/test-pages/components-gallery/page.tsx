@@ -1,6 +1,4 @@
 "use client";
-import NavBar from "@/components/organisms/NavBar";
-import { useState } from "react";
 import {
   Badge,
   Button,
@@ -10,13 +8,16 @@ import {
   Image,
   InputField,
   Label,
-  LinkAtom,
   RadioButton,
   SelectDropdown,
   Spinner,
   Textarea,
   Tooltip,
-} from "../../../components/atoms";
+} from "@/components/atoms";
+import { CarouselItem } from "@/components/molecules/CarouselItem";
+import { NavBar } from "@/components/organisms";
+import { Carousel } from "@/components/organisms/Carousel";
+import { useState } from "react";
 
 export default function ComponentsGalleryPage() {
   const [inputValue, setInputValue] = useState("");
@@ -37,6 +38,66 @@ export default function ComponentsGalleryPage() {
       <div className="page-title mb-8">
         <h1>Components Gallery</h1>
         <p>Atomic Design System Components</p>
+      </div>
+
+      <div className="h-[1000px]">
+        <Carousel autoPlay={true} autoPlayInterval={4000} showIndicators={true} showArrows={true}>
+          <CarouselItem>
+            <Image
+              src="/graphics/ensrq-logo-for-bright.webp"
+              alt="Slide 1"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s05.webp"
+              alt="Slide 2"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s06.webp"
+              alt="Slide 3"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s07.webp"
+              alt="Slide 4"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src="/graphics/season-link-buttons/streaming-s08.webp"
+              alt="Slide 5"
+              width={800}
+              height={600}
+              fill={false}
+              className="w-full h-full object-cover"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <div className="bg-blue-500 text-white p-8 text-center">
+              <h2 className="text-2xl">Custom Content</h2>
+            </div>
+          </CarouselItem>
+        </Carousel>
       </div>
 
       {/* Atoms Section */}
@@ -73,13 +134,56 @@ export default function ComponentsGalleryPage() {
         {/* Buttons */}
         <div className="component-showcase mb-8 p-6 border rounded-lg">
           <h3 className="mb-4">Buttons</h3>
+
           <div className="grid gap-4">
             <div className="flex gap-4 flex-wrap">
-              <Button variant="primary">Primary</Button>
-              <Button variant="secondary">Secondary</Button>
-              <Button variant="outline">Outline</Button>
-              <Button variant="ghost">Ghost</Button>
-              <Button variant="danger">Danger</Button>
+              <Button variant="filled" color="sky">
+                Filled
+              </Button>
+              <Button variant="outline" color="sky">
+                Outline
+              </Button>
+              <Button variant="ghost" color="sky">
+                Ghost
+              </Button>
+              <Button variant="filled" color="sand">
+                Filled
+              </Button>
+              <Button variant="outline" color="sand">
+                Outline
+              </Button>
+              <Button variant="ghost" color="sand">
+                Ghost
+              </Button>
+              <Button variant="filled" color="water">
+                Filled
+              </Button>
+              <Button variant="outline" color="water">
+                Outline
+              </Button>
+              <Button variant="ghost" color="water">
+                Ghost
+              </Button>
+            </div>
+            <div className="flex gap-4 flex-wrap">
+              <Button variant="filled" color="red">
+                Filled
+              </Button>
+              <Button variant="outline" color="red">
+                Outline
+              </Button>
+              <Button variant="ghost" color="red">
+                Ghost
+              </Button>
+              <Button variant="filled" color="gray">
+                Filled
+              </Button>
+              <Button variant="outline" color="gray">
+                Outline
+              </Button>
+              <Button variant="ghost" color="gray">
+                Ghost
+              </Button>
             </div>
             <div className="flex gap-4 flex-wrap items-center">
               <Button size="xs">Extra Small</Button>
@@ -191,50 +295,9 @@ export default function ComponentsGalleryPage() {
               <Icon name="check" size="xl" />
             </div>
             <div className="flex gap-4 items-center">
-              <Icon name="heart" color="red" />
+              <Icon name="heart" color="stroke-sand-500" />
               <Icon name="star" color="gold" />
               <Icon name="check" color="green" />
-            </div>
-          </div>
-        </div>
-
-        {/* Links */}
-        <div className="component-showcase mb-8 p-6 border rounded-lg">
-          <h3 className="mb-4">Links</h3>
-          <div className="grid gap-4">
-            <div className="flex gap-4 flex-wrap">
-              <LinkAtom href="#">Default Link</LinkAtom>
-              <LinkAtom href="#" variant="primary">
-                Primary Link
-              </LinkAtom>
-              <LinkAtom href="#" variant="secondary">
-                Secondary Link
-              </LinkAtom>
-              <LinkAtom href="#" variant="danger">
-                Danger Link
-              </LinkAtom>
-            </div>
-            <div className="flex gap-4 flex-wrap">
-              <LinkAtom href="#" underline="none">
-                No Underline
-              </LinkAtom>
-              <LinkAtom href="#" underline="hover">
-                Hover Underline
-              </LinkAtom>
-              <LinkAtom href="#" underline="always">
-                Always Underline
-              </LinkAtom>
-            </div>
-            <div className="flex gap-4 flex-wrap">
-              <LinkAtom href="#" size="sm">
-                Small Link
-              </LinkAtom>
-              <LinkAtom href="#" size="md">
-                Medium Link
-              </LinkAtom>
-              <LinkAtom href="#" size="lg">
-                Large Link
-              </LinkAtom>
             </div>
           </div>
         </div>
@@ -289,12 +352,12 @@ export default function ComponentsGalleryPage() {
           <div className="grid gap-4">
             <div className="flex gap-2 flex-wrap">
               <Badge>Default</Badge>
-              <Badge variant="primary">Primary</Badge>
-              <Badge variant="secondary">Secondary</Badge>
               <Badge variant="success">Success</Badge>
               <Badge variant="warning">Warning</Badge>
               <Badge variant="danger">Danger</Badge>
-              <Badge variant="info">Info</Badge>
+              <Badge variant="sky">Sky</Badge>
+              <Badge variant="sand">Sand</Badge>
+              <Badge variant="water">Water</Badge>
             </div>
             <div className="flex gap-2 items-center flex-wrap">
               <Badge size="xs">XSmall</Badge>
@@ -315,6 +378,15 @@ export default function ComponentsGalleryPage() {
                 Away
               </Badge>
               <Badge dot variant="danger">
+                Offline
+              </Badge>
+              <Badge dot variant="sky">
+                Online
+              </Badge>
+              <Badge dot variant="sand">
+                Away
+              </Badge>
+              <Badge dot variant="water">
                 Offline
               </Badge>
             </div>
@@ -349,27 +421,7 @@ export default function ComponentsGalleryPage() {
         {/* Images */}
         <div className="component-showcase mb-8 p-6 border rounded-lg">
           <h3 className="mb-4">Images</h3>
-          <div className="grid gap-4">
-            <div className="flex gap-4 items-center flex-wrap">
-              <Image src="/next.svg" alt="Next.js Logo" width={120} height={30} rounded="none" />
-              <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={24} rounded="sm" />
-            </div>
-            <div className="flex gap-4 items-center">
-              <div className="w-16 h-16 relative">
-                <Image src="/next.svg" alt="Square image" width={64} height={64} rounded="md" objectFit="contain" />
-              </div>
-              <div className="w-16 h-16 relative">
-                <Image
-                  src="/vercel.svg"
-                  alt="Rounded image"
-                  width={64}
-                  height={64}
-                  rounded="full"
-                  objectFit="contain"
-                />
-              </div>
-            </div>
-          </div>
+          <div className="grid gap-4"></div>
         </div>
 
         {/* Dividers */}
@@ -425,6 +477,7 @@ export default function ComponentsGalleryPage() {
         <NavBar />
       </div>
       <div className="spacer h-[50svh]"></div>
+      <div className="w-full h-96"></div>
     </div>
   );
 }

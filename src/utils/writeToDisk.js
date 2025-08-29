@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-export default function writeToDisk(filePath, data) {
+export function writeToDisk(filePath, data) {
   const fullPath = path.resolve(filePath);
   const dir = path.dirname(fullPath);
 

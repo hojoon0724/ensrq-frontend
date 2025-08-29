@@ -1,0 +1,4051 @@
+[
+  {
+    "workId": "aaron-jay-kernis-perpetual-chaconne",
+    "composerId": "aaron-jay-kernis",
+    "title": "Perpetual Chaconne",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "amy-williams-tangled-madrigal",
+    "composerId": "amy-williams",
+    "title": "Tangled Madrigal",
+    "year": "2024",
+    "duration": "16'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "andreia-pinto-correia-paintings-in-four-movements",
+    "composerId": "andreia-pinto-correia",
+    "title": "Paintings in Four Movements",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "andreia-pinto-correia-tres-quadros-de-viera-da-silvafragmentos-multiplos-2009",
+    "composerId": "andreia-pinto-correia",
+    "title": "Tres Quadros de Viera Da Silva/Fragmentos Multiplos",
+    "year": "2009",
+    "duration": "4'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "andrew-norman-an-index-of-peculiar-strokes",
+    "composerId": "andrew-norman",
+    "title": "An Index of Peculiar Strokes",
+    "year": "2011",
+    "duration": "12''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "andrew-norman-light-screens",
+    "composerId": "andrew-norman",
+    "title": "Light Screens",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "andrew-thomas-3-transformations",
+    "composerId": "andrew-thomas",
+    "title": "3 Transformations",
+    "year": "1998",
+    "duration": "20'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "angela-elizabeth-slater-daybreak-of-dust",
+    "composerId": "angela-elizabeth-slater",
+    "title": "Daybreak of Dust",
+    "year": "2023",
+    "duration": "3'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "angela-elizabeth-slater-flickering-airs",
+    "composerId": "angela-elizabeth-slater",
+    "title": "Flickering Airs",
+    "year": "2023",
+    "duration": "6'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "angelica-negron-azul-naranja-salado",
+    "composerId": "angelica-negron",
+    "title": "Azul Naranja Salado",
+    "year": "2024",
+    "duration": "35'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "viola",
+        "count": 6
+      },
+      {
+        "instrument": "cello",
+        "count": 4
+      },
+      {
+        "instrument": "double-bass",
+        "count": 4
+      },
+      {
+        "instrument": "harp",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "ania-vu-five-in-one",
+    "composerId": "ania-vu",
+    "title": "Five in One",
+    "year": "2018",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "anna-clyne-1987",
+    "composerId": "anna-clyne",
+    "title": "1987",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "anna-clyne-prince-of-clouds",
+    "composerId": "anna-clyne",
+    "title": "Prince of Clouds",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "anna-clyne-rest-these-hands",
+    "composerId": "anna-clyne",
+    "title": "Rest These Hands",
+    "year": "2021",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "anna-thorvaldsdottir-entropic-arrows-2019",
+    "composerId": "anna-thorvaldsdottir",
+    "title": "Entropic Arrows",
+    "year": "2019",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "bass-clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "arlene-sierra-avian-mirrors",
+    "composerId": "arlene-sierra",
+    "title": "Avian Mirrors",
+    "year": "2013",
+    "duration": "13'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "arnold-schoenberg-pierrot-lunaire",
+    "composerId": "arnold-schoenberg",
+    "title": "Pierrot lunaire",
+    "year": "1912",
+    "duration": "38'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "voice",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "augusta-read-thomas-selene",
+    "composerId": "augusta-read-thomas",
+    "title": "Selene",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "bohuslav-martinu-quartet",
+    "composerId": "bohuslav-martinu",
+    "title": "Quartet",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "bright-sheng-deep-red",
+    "composerId": "bright-sheng",
+    "title": "Deep Red",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "caroline-shaw-entracte",
+    "composerId": "caroline-shaw",
+    "title": "Entr'acte",
+    "year": "2011",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "carolyn-chen-oceans-in-oceans",
+    "composerId": "carolyn-chen",
+    "title": "Oceans in Oceans",
+    "year": "2014",
+    "duration": "14'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "bassoon",
+        "count": 1
+      },
+      {
+        "instrument": "horn",
+        "count": 1
+      },
+      {
+        "instrument": "trombone",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 2
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "charles-ives-piano-sonata-no-2-concord-mass-184060",
+    "composerId": "charles-ives",
+    "title": "Piano Sonata No. 2, Concord, Mass., 1840-60",
+    "year": "1915",
+    "duration": "45'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "charles-wuorinen-new-york-notes",
+    "composerId": "charles-wuorinen",
+    "title": "New York Notes",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "che-buford-new-work",
+    "composerId": "che-buford",
+    "title": "New Work",
+    "year": "2026",
+    "duration": "15'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "TBD",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "chris-neiner-infinite-spinning",
+    "composerId": "chris-neiner",
+    "title": "Infinite Spinning",
+    "year": "2023",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "chris-rogerson-afterword",
+    "composerId": "chris-rogerson",
+    "title": "Afterword",
+    "year": "2020",
+    "duration": "14'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "chris-stark-stars-in-dead-reflection",
+    "composerId": "chris-stark",
+    "title": "Stars in Dead Reflection",
+    "year": "2010",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "chris-theofanidis-visions-and-miracles",
+    "composerId": "chris-theofanidis",
+    "title": "Visions and Miracles",
+    "year": "1997",
+    "duration": "16'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "christopher-cerrone-dont-look-down-for-prepared-piano-and-percussion-quartet-2020",
+    "composerId": "christopher-cerrone",
+    "title": "Don't Look Down for prepared piano and percussion quartet",
+    "year": "2020",
+    "duration": "17'",
+    "movements": [
+      "I. Hammerspace",
+      "II. The Great Empty",
+      "III. Caton Flats"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "prepared piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "christopher-cerrone-goldbeaters-skin",
+    "composerId": "christopher-cerrone",
+    "title": "Goldbeater's Skin",
+    "year": "2016",
+    "duration": "21'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 4
+      },
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "christopher-cerrone-the-branch-will-not-break-2015",
+    "composerId": "christopher-cerrone",
+    "title": "The Branch Will Not Break",
+    "year": "2015",
+    "duration": "22'",
+    "movements": [
+      "I. Lying in a Hammock at William Duffy’s",
+      "II. Two Horses Playing in the Orchard",
+      "III. Two Hangovers, Number One",
+      "IV. From a Bus Window in Central Ohio, Just Before a Thunder Shower",
+      "V. Having Lost My Sons, I Confront the Wreckage of the Moon: Christmas, 1960",
+      "VI. Two Hangovers, Number Two: I Try to Waken and Greet the World Once Again",
+      "VII. A Blessing"
+    ],
+    "instrumentation": [],
+    "description": ""
+  },
+  {
+    "workId": "claire-hu-before-entrance-and-after-exits-dreams-await",
+    "composerId": "claire-hu",
+    "title": "Before Entrance and After Exits, Dreams Await",
+    "year": "2023",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "claude-vivier-learning",
+    "composerId": "claude-vivier",
+    "title": "Learning",
+    "year": "1976",
+    "duration": "20'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 4
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "tape",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "dai-wei-how-the-stars-vanish",
+    "composerId": "dai-wei",
+    "title": "How the Stars Vanish",
+    "year": "2021",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "daniel-gostelow-playbox-cadenza",
+    "composerId": "daniel-gostelow",
+    "title": "Playbox - Cadenza",
+    "year": "2024",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "daniel-gostelow-the-piercing-blazing-bell-amidst-intertwined-swirls-of-musical-shoal-water-the-painting-drowned-in-its-own-sound",
+    "composerId": "daniel-gostelow",
+    "title": "The Piercing Blazing Bell Amidst Intertwined Swirls of Musical Shoal Water The Painting Drowned In Its Own Sound",
+    "year": "2023",
+    "duration": "4'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "daniel-wohl-holographic",
+    "composerId": "daniel-wohl",
+    "title": "Holographic",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "live-visual-projection",
+        "count": 1
+      },
+      {
+        "instrument": "electroacoustic-ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "david-acevedo-bragdon-wood",
+    "composerId": "david-acevedo",
+    "title": "Bragdon Wood",
+    "year": "2024",
+    "duration": "2'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "prepared-piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "david-acevedo-three-and-a-half-meditations",
+    "composerId": "david-acevedo",
+    "title": "Three and a Half Meditations",
+    "year": "2020",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "david-dies-alchemytransmutationtranslation",
+    "composerId": "david-dies",
+    "title": "Alchemy/Transmutation/Translation",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "oboe",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "david-maric-nascent-forms",
+    "composerId": "david-maric",
+    "title": "Nascent Forms",
+    "year": "2019",
+    "duration": "16''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "workId": "david-t-little-and-the-sky-was-still-there",
+    "composerId": "david-t-little",
+    "title": "and the sky was still there",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      },
+      {
+        "instrument": "video",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "david-t-little-haunt-of-last-nightfall",
+    "composerId": "david-t-little",
+    "title": "Haunt of Last Nightfall",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion-quartet",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "diallo-banks-new-work",
+    "composerId": "diallo-banks",
+    "title": "New Work",
+    "year": "2025",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "du-yun-i-am-my-own-achilles-heel-2019",
+    "composerId": "du-yun",
+    "title": "I Am My Own Achilles Heel (2019)",
+    "year": "",
+    "duration": "13'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "einojuhani-rautavaara-lost-landscapes",
+    "composerId": "einojuhani-rautavaara",
+    "title": "Lost Landscapes",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "einojuhani-rautavaara-unknown-heavens",
+    "composerId": "einojuhani-rautavaara",
+    "title": "Unknown Heavens",
+    "year": "1997",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "workId": "elizabeth-a-baker-cosmic-dreams",
+    "composerId": "elizabeth-a-baker",
+    "title": "Cosmic Dreams",
+    "year": "2013",
+    "duration": "14''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "vibraphone",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 2
+      },
+      {
+        "instrument": "cello",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "workId": "elizabeth-a-baker-void-for-violin-cello-percussion-electronics-and-projections-2021",
+    "composerId": "elizabeth-a-baker",
+    "title": "void",
+    "year": "2021",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      },
+      {
+        "instrument": "projections",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "elizabeth-ogonek-all-streams-reach-the-sea-at-last",
+    "composerId": "elizabeth-ogonek",
+    "title": "all streams reach the sea at last",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "elizabeth-ogonek-lightenings-2016",
+    "composerId": "elizabeth-ogonek",
+    "title": "Lightenings (2016)",
+    "year": "",
+    "duration": "16'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "ellen-reid-fearrelease",
+    "composerId": "ellen-reid",
+    "title": "Fear/Release",
+    "year": "2017",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "workId": "elliott-carter-bariolage",
+    "composerId": "elliott-carter",
+    "title": "Bariolage",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "harp",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "elliott-carter-triple-duo",
+    "composerId": "elliott-carter",
+    "title": "Triple Duo",
+    "year": "1983",
+    "duration": "20'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "conductor",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "emma-ohalloran-shell-2019",
+    "composerId": "emma-ohalloran",
+    "title": "Shell (2019)",
+    "year": "",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "workId": "eric-wubbels-the-children-of-fire-come-looking-for-fire",
+    "composerId": "eric-wubbels",
+    "title": "\"the children of fire come looking for fire\"",
+    "year": "2012",
+    "duration": "25''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "francis-schwartz-solace-on-my-mind-3",
+    "composerId": "francis-schwartz",
+    "title": "Solace on My Mind #3",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "francis-schwartz-songs-of-loneliness",
+    "composerId": "francis-schwartz",
+    "title": "Songs of Loneliness",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "franco-donatoni-arpege",
+    "composerId": "franco-donatoni",
+    "title": "Arpege",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "franco-donatoni-omar",
+    "composerId": "franco-donatoni",
+    "title": "Omar",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "freya-waley-cohen-conjure-2019",
+    "composerId": "freya-waley-cohen",
+    "title": "Conjure (2019)",
+    "year": "",
+    "duration": "11'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gabriela-lena-frank-milagros",
+    "composerId": "gabriela-lena-frank",
+    "title": "Milagros",
+    "year": "2010",
+    "duration": "21'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gabriela-ortiz-picobitebeat-2018",
+    "composerId": "gabriela-ortiz",
+    "title": "Pico-Bite-Beat (2018)",
+    "year": "",
+    "duration": "19'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "georg-friedrich-haas-ins-licht",
+    "composerId": "georg-friedrich-haas",
+    "title": "Ins Licht",
+    "year": "2007",
+    "duration": "4''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
+    "composerId": "george-crumb",
+    "title": "Black Angels: Thirteen Images from the Dark Land",
+    "year": "1970",
+    "duration": "25'",
+    "movements": [
+      "I. Departure",
+      "Threnody I: Night of the Electric Insects Sounds of Bones and Flutes",
+      "Lost Bells",
+      "Devil-music",
+      "Danse Macabre",
+      "II. Absence",
+      "Pavana Lachrymae",
+      "Threnody II: Black Angels!",
+      "Sarabanda de la Muerte Oscura",
+      "Lost Bells (Echo)",
+      "III. Return",
+      "God-music",
+      "Ancient Voices",
+      "Ancient Voices (Echo)",
+      "Threnody III: Night of the Electric Insects"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "george-crumb-madrigals-19651969",
+    "composerId": "george-crumb",
+    "title": "Madrigals",
+    "year": "1965-1969",
+    "duration": "32'",
+    "movements": [
+      "Book 1 (1965)",
+      "Book 2 (1965)",
+      "Book 3 (1969)",
+      "Book 4 (1969)"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      },
+      {
+        "instrument": "harp",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "george-perle-critical-moments",
+    "composerId": "george-perle",
+    "title": "Critical Moments",
+    "year": "2001",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 2
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gerard-grisey-stele",
+    "composerId": "gerard-grisey",
+    "title": "Stelé",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gerard-grisey-vortex-temporum",
+    "composerId": "gerard-grisey",
+    "title": "Vortex Temporum",
+    "year": "1996",
+    "duration": "40''",
+    "movements": [
+      "I. ♩= 130 (à Gérard Zinsstag)",
+      "Interlude",
+      "II. ♩= 50 (à Salvatore Sciarrino)",
+      "Interlude",
+      "III. ♩= (à Helmut Lachenmann)",
+      "Interlude"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gerard-grisey-vortex-temporum-for-six-instruments-1996",
+    "composerId": "gerard-grisey",
+    "title": "Vortex Temporum for six instruments",
+    "year": "1996",
+    "duration": "40'",
+    "movements": [
+      "I. ♩= 130 (à Gérard Zinsstag)",
+      "Interlude",
+      "II. ♩= 50 (à Salvatore Sciarrino)",
+      "Interlude",
+      "III. ♩= (à Helmut Lachenmann)",
+      "Interlude"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "gil-katz-anhinga-and-wellenclowned",
+    "composerId": "gil-katz",
+    "title": "Anhinga and Well-Enclowned",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "gyorgy-ligeti-cello-sonata",
+    "composerId": "gyorgy-ligeti",
+    "title": "Cello Sonata",
+    "year": "1953",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gyorgy-ligeti-etude-no-4-fanfares",
+    "composerId": "gyorgy-ligeti",
+    "title": "Étude No. 4 Fanfares",
+    "year": "1985",
+    "duration": "4'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gyorgy-ligeti-etude-no-6-automne-a-varsovie",
+    "composerId": "gyorgy-ligeti",
+    "title": "Étude No. 6 Automne à Varsovie",
+    "year": "1985",
+    "duration": "4'30\"",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gyorgy-ligeti-etude-no-15-white-on-white",
+    "composerId": "gyorgy-ligeti",
+    "title": "Étude No. 15 White on White",
+    "year": "1997",
+    "duration": "4'30\"",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "gyorgy-ligeti-horn-trio",
+    "composerId": "gyorgy-ligeti",
+    "title": "Horn Trio",
+    "year": "1982",
+    "duration": "22'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "horn",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "han-lash-how-to-remember-seeds",
+    "composerId": "han-lash",
+    "title": "How to Remember Seeds",
+    "year": "2017",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "helen-grime-snow-and-snow",
+    "composerId": "helen-grime",
+    "title": "Snow and Snow",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "hk-gruber-frankenstein-1976",
+    "composerId": "hk-gruber",
+    "title": "Frankenstein!",
+    "year": "1976",
+    "duration": "26'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "chansonnier",
+        "count": 1
+      },
+      {
+        "instrument": "conductor",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "bassoon",
+        "count": 1
+      },
+      {
+        "instrument": "horn",
+        "count": 1
+      },
+      {
+        "instrument": "trumpet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "inti-figgis-vizueta-imago-2021",
+    "composerId": "inti-figgis-vizueta",
+    "title": "Imago",
+    "year": "2021",
+    "duration": "15'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "isang-yun-together",
+    "composerId": "isang-yun",
+    "title": "Together",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "jacob-druchman-reflections-on-the-nature-of-water",
+    "composerId": "jacob-druchman",
+    "title": "Reflections on the Nature of Water",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
+    "composerId": "jerod-tate",
+    "title": "Inchokkillissa",
+    "year": "1994",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "guitar",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "jerod-tate-talowa-hiloha-thunder-song-1994",
+    "composerId": "jerod-tate",
+    "title": "Talowa’ Hiloha (Thunder Song)",
+    "year": "1994",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "timpani",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "jessica-meyer-delta-sunrise",
+    "composerId": "jessica-meyer",
+    "title": "Delta Sunrise",
+    "year": "2017",
+    "duration": "3''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "viola",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "jessica-meyer-i-only-speak-of-the-sun",
+    "composerId": "jessica-meyer",
+    "title": "I Only Speak of the Sun",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "jessica-meyer-sagrada-familia",
+    "composerId": "jessica-meyer",
+    "title": "Sagrada Familia",
+    "year": "2017",
+    "duration": "16''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "bass-clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "jessica-meyer-tapped-into-the-same-vein",
+    "composerId": "jessica-meyer",
+    "title": "Tapped into the same vein",
+    "year": "2017",
+    "duration": "7''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 2
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "john-adams-son-of-chamber-symphony",
+    "composerId": "john-adams",
+    "title": "Son of Chamber Symphony",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "john-harbison-6th-string-quartet",
+    "composerId": "john-harbison",
+    "title": "6th String Quartet",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "jonathan-cziner-music-for-the-temple",
+    "composerId": "jonathan-cziner",
+    "title": "Music for the Temple",
+    "year": "2019",
+    "duration": "TBD",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "joshua-muetzel-mercurial-spell",
+    "composerId": "joshua-muetzel",
+    "title": "Mercurial Spell",
+    "year": "2023",
+    "duration": "3'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "viola",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "joshua-muetzel-night",
+    "composerId": "joshua-muetzel",
+    "title": "Night",
+    "year": "2023",
+    "duration": "5'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "julia-adolphe-veil-of-leaves",
+    "composerId": "julia-adolphe",
+    "title": "Veil of Leaves",
+    "year": "2014",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "juri-seo-songbird",
+    "composerId": "juri-seo",
+    "title": "Songbird",
+    "year": "2021",
+    "duration": "13'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 2
+      },
+      {
+        "instrument": "cello",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "workId": "kaija-saariaho-mirrors",
+    "composerId": "kaija-saariaho",
+    "title": "Mirrors",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "kaija-saariaho-six-japanese-gardens",
+    "composerId": "kaija-saariaho",
+    "title": "Six Japanese Gardens",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "kamala-sankaram-kivalina",
+    "composerId": "kamala-sankaram",
+    "title": "Kivalina",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "strings",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "katherine-balch-iaspis",
+    "composerId": "katherine-balch",
+    "title": "Iaspis",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "strings",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "katherine-balch-responding-to-the-waves",
+    "composerId": "katherine-balch",
+    "title": "Responding to the Waves",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "ken-ueno-pharmakon",
+    "composerId": "ken-ueno",
+    "title": "Pharmakon",
+    "year": "2001",
+    "duration": "19''",
+    "movements": [
+      "I. XOX",
+      "II. XXO",
+      "III. OXX",
+      "IV. Main Movement"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kenji-bunch-until-next-time",
+    "composerId": "kenji-bunch",
+    "title": "Until Next Time",
+    "year": "2010",
+    "duration": "5'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kevin-day-glasshouse",
+    "composerId": "kevin-day",
+    "title": "Glasshouse",
+    "year": "2023",
+    "duration": "11'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kevin-day-the-mind-is-like-water",
+    "composerId": "kevin-day",
+    "title": "The Mind Is Like Water",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kevin-puts-and-legions-will-rise",
+    "composerId": "kevin-puts",
+    "title": "And Legions Will Rise",
+    "year": "2001",
+    "duration": "17'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kevin-puts-arcana",
+    "composerId": "kevin-puts",
+    "title": "Arcana",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "krists-auznieks-prelude-and-ether-2019",
+    "composerId": "krists-auznieks",
+    "title": "Prelude and Ether",
+    "year": "2019",
+    "duration": "11'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 4
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "krzysztof-penderecki-sextet",
+    "composerId": "krzysztof-penderecki",
+    "title": "Sextet",
+    "year": "2000",
+    "duration": "30''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "horn",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "kyle-rivera-new-work",
+    "composerId": "kyle-rivera",
+    "title": "New Work",
+    "year": "2024",
+    "duration": "TBD",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "lou-harrison-grand-duo",
+    "composerId": "lou-harrison",
+    "title": "Grand Duo",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "lou-harrison-solo-to-anthony-cirone",
+    "composerId": "lou-harrison",
+    "title": "Solo to Anthony Cirone",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "lou-harrison-uneasy-rapture",
+    "composerId": "lou-harrison",
+    "title": "Uneasy Rapture",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "lou-harrison-varied-trio",
+    "composerId": "lou-harrison",
+    "title": "Varied Trio",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "louis-andriessen-de-staat-1976",
+    "composerId": "louis-andriessen",
+    "title": "De Staat",
+    "year": "1976",
+    "duration": "35'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "soprano-voice",
+        "count": 2
+      },
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 2
+      },
+      {
+        "instrument": "oboe",
+        "count": 4
+      },
+      {
+        "instrument": "trumpet",
+        "count": 4
+      },
+      {
+        "instrument": "horn",
+        "count": 4
+      },
+      {
+        "instrument": "trombone",
+        "count": 4
+      },
+      {
+        "instrument": "guitar",
+        "count": 2
+      },
+      {
+        "instrument": "harp",
+        "count": 2
+      },
+      {
+        "instrument": "piano",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 4
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "luciano-berio-oboe-sequenza",
+    "composerId": "luciano-berio",
+    "title": "Oboe Sequenza",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "oboe",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "luciano-berio-sequenza-iii",
+    "composerId": "luciano-berio",
+    "title": "Sequenza III",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "luciano-berio-sequenza-viii",
+    "composerId": "luciano-berio",
+    "title": "Sequenza VIII",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "luciano-berio-sequenza-x-for-solo-c-trumpet-and-piano-resonance",
+    "composerId": "luciano-berio",
+    "title": "Sequenza X for solo C trumpet and piano resonance",
+    "year": "1984",
+    "duration": "17''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "trumpet",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
+    "composerId": "luciano-berio",
+    "title": "Sequenza XIV for solo cello",
+    "year": "2002",
+    "duration": "13''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "luciano-berio-sequenzas",
+    "composerId": "luciano-berio",
+    "title": "Sequenza(s)",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "luciano-berio-trombone-sequenza",
+    "composerId": "luciano-berio",
+    "title": "Trombone Sequenza",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "trombone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "magnus-lindberg-ottoni",
+    "composerId": "magnus-lindberg",
+    "title": "Ottoni",
+    "year": "2005",
+    "duration": "13''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "horn",
+        "count": 4
+      },
+      {
+        "instrument": "trumpet",
+        "count": 4
+      },
+      {
+        "instrument": "trombone",
+        "count": 3
+      },
+      {
+        "instrument": "tuba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "marc-mellits-splinter",
+    "composerId": "marc-mellits",
+    "title": "Splinter",
+    "year": "2014",
+    "duration": "17''",
+    "movements": [
+      "I. Scarlet Oak",
+      "II. Sugar Maple",
+      "III. Linden",
+      "IV. Black Ash",
+      "V. Cherry",
+      "VI. River Birch",
+      "VII. Weeping Willow",
+      "VIII. Red Pine"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "oboe",
+        "count": 1
+      },
+      {
+        "instrument": "bass-clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "alto-saxophone",
+        "count": 1
+      },
+      {
+        "instrument": "bassoon",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "marcos-balter-violin-concerto",
+    "composerId": "marcos-balter",
+    "title": "Violin Concerto",
+    "year": "2016",
+    "duration": "17'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "margaret-brouwer-demeter-prelude-1997",
+    "composerId": "margaret-brouwer",
+    "title": "Demeter Prelude",
+    "year": "1997",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "mark-anthony-turnage-new-england-etudes-2022",
+    "composerId": "mark-anthony-turnage",
+    "title": "New England Etudes",
+    "year": "2022",
+    "duration": "18'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 6
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "mason-bates-life-of-birds",
+    "composerId": "mason-bates",
+    "title": "Life of Birds",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "matthew-aucoin-its-own-accord",
+    "composerId": "matthew-aucoin",
+    "title": "Its Own Accord",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "matthew-aucoin-music-for-new-bodies",
+    "composerId": "matthew-aucoin",
+    "title": "Music for New Bodies",
+    "year": "2024",
+    "duration": "90'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "large-ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "matthew-aucoin-the-orphic-moment",
+    "composerId": "matthew-aucoin",
+    "title": "The Orphic Moment",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "max-gibson-those-stones-watching-over-lochs-through-time",
+    "composerId": "max-gibson",
+    "title": "...those stones, watching, over lochs, through time…",
+    "year": "2024",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "max-grafe-shadow-theater",
+    "composerId": "max-grafe",
+    "title": "Shadow Theater",
+    "year": "2020",
+    "duration": "12''",
+    "movements": [
+      "I. Toccata I",
+      "II. Improvisation",
+      "III. Monologues",
+      "IV. Toccata II",
+      "V. Passacaglia"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "max-grafe-shadow-theater-for-violin-piano-and-percussion-2020",
+    "composerId": "max-grafe",
+    "title": "Shadow Theater for violin, piano and percussion",
+    "year": "2020",
+    "duration": "12'",
+    "movements": [
+      "I. Toccata I",
+      "II. Improvisation",
+      "III. Monologues",
+      "IV. Toccata II",
+      "V. Passacaglia"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "melinda-wagner-scritch",
+    "composerId": "melinda-wagner",
+    "title": "Scritch",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "michael-begay-cloak-of-autumn-2018",
+    "composerId": "michael-begay",
+    "title": "Cloak of Autumn",
+    "year": "2018",
+    "duration": "5'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "michael-djupstrom-daydreams-and-nightvisions",
+    "composerId": "michael-djupstrom",
+    "title": "Daydreams and Nightvisions",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "michael-gordon-acdc",
+    "composerId": "michael-gordon",
+    "title": "ac/dc",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "michael-ippolito-string-quartet-no-3-songlines",
+    "composerId": "michael-ippolito",
+    "title": "String Quartet No. 3 Songlines",
+    "year": "2012",
+    "duration": "11'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "michael-schacter-5-6-7-8",
+    "composerId": "michael-schacter",
+    "title": "5, 6, 7, 8",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "missy-mazzoli-death-valley-junction",
+    "composerId": "missy-mazzoli",
+    "title": "Death Valley Junction",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "missy-mazzoli-vespers-for-a-new-dark-age-2014",
+    "composerId": "missy-mazzoli",
+    "title": "Vespers for a New Dark Age",
+    "year": "2014",
+    "duration": "23'",
+    "movements": [
+      "I. Wayward Free Radical Dreams",
+      "II. Hello Lord",
+      "III. Come On All You",
+      "IV. New Dark Age",
+      "V. Machine"
+    ],
+    "instrumentation": []
+  },
+  {
+    "workId": "molly-herron-ebb-tide",
+    "composerId": "molly-herron",
+    "title": "Ebb Tide",
+    "year": "2018",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nia-imani-franklin-burgundy-in-autumn",
+    "composerId": "nia-imani-franklin",
+    "title": "Burgundy in Autumn",
+    "year": "2019",
+    "duration": "4'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nico-muhly-its-about-time",
+    "composerId": "nico-muhly",
+    "title": "It's About Time",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nico-muhly-pillaging-music",
+    "composerId": "nico-muhly",
+    "title": "Pillaging Music",
+    "year": "2005",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nicolas-bentz-glimpse",
+    "composerId": "nicolas-bentz",
+    "title": "Glimpse",
+    "year": "2023",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nicole-gutman-sandpipers",
+    "composerId": "nicole-gutman",
+    "title": "Sandpipers",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "nina-c-young-a-bout-de-souffle-for-piano-scordatura-2016",
+    "composerId": "nina-c-young",
+    "title": "À bout de souffle for piano scordatura",
+    "year": "2016",
+    "duration": "6'",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "nina-c-young-it-is-within-you-that-the-ghosts-acquire-voices",
+    "composerId": "nina-c-young",
+    "title": "it is within you that the ghosts acquire voices",
+    "year": "2023",
+    "duration": "2'30\"",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "nina-c-young-rising-tide",
+    "composerId": "nina-c-young",
+    "title": "Rising Tide",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "nina-c-young-sun-propeller",
+    "composerId": "nina-c-young",
+    "title": "Sun Propeller",
+    "year": "2012",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "live-electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "olivier-messiaen-couleurs-de-la-cite-celeste",
+    "composerId": "olivier-messiaen",
+    "title": "Couleurs de la Cité Céleste",
+    "year": "1963",
+    "duration": "16''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 3
+      },
+      {
+        "instrument": "trumpet",
+        "count": 4
+      },
+      {
+        "instrument": "horn",
+        "count": 2
+      },
+      {
+        "instrument": "trombone",
+        "count": 4
+      },
+      {
+        "instrument": "percussion",
+        "count": 6
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "patrick-harlin-digital",
+    "composerId": "patrick-harlin",
+    "title": "Digital",
+    "year": "2013",
+    "duration": "5''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "patrick-harlin-digital-2013-rev-2020",
+    "composerId": "patrick-harlin",
+    "title": "Digital",
+    "year": "2013 rev. 2020",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "paul-mortilla-rota-fortunae",
+    "composerId": "paul-mortilla",
+    "title": "Rota Fortunae",
+    "year": "2024",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 2
+      },
+      {
+        "instrument": "bass-clarinet",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "peteris-vasks-wind-quintet-1-music-for-fleeting-birds",
+    "composerId": "peteris-vasks",
+    "title": "Wind Quintet #1 \"Music for Fleeting Birds\"",
+    "year": "1977",
+    "duration": "9''",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "oboe",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "bassoon",
+        "count": 1
+      },
+      {
+        "instrument": "french-horn",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "philip-glass-string-quartet-2",
+    "composerId": "philip-glass",
+    "title": "String Quartet #2",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "philippe-hurel-tombeau-in-memoriam-gerard-grisey-1999",
+    "composerId": "philippe-hurel",
+    "title": "Tombeau: In Memoriam Gérard Grisey",
+    "year": "1999",
+    "duration": "15'",
+    "movements": [
+      "I. Énergique",
+      "II. Lointain",
+      "III. ♩ = 72",
+      "IV. ♩ = 40"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+    "composerId": "philippe-hurel",
+    "title": "Tombeau, In Memorium Gerard Grisey",
+    "year": "1999",
+    "duration": "15''",
+    "movements": [
+      "I. Énergique",
+      "II. Lointain",
+      "III. ♩ = 72",
+      "IV. ♩ = 40"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "philippe-manoury-tensio",
+    "composerId": "philippe-manoury",
+    "title": "Tensio",
+    "year": "2010",
+    "duration": "37'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "live-electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "pierre-boulez-le-marteau-sans-maitre",
+    "composerId": "pierre-boulez",
+    "title": "Le marteau sans maître",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "mixed-ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "quinn-mason-the-19th-amendment",
+    "composerId": "quinn-mason",
+    "title": "The 19th Amendment",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "strings",
+        "count": 1
+      },
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "raven-chacon-voiceless-mass",
+    "composerId": "raven-chacon",
+    "title": "Voiceless Mass",
+    "year": "2021",
+    "duration": "20'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "pipe-organ",
+        "count": 1
+      },
+      {
+        "instrument": "large-ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "reena-esmail-darshan",
+    "composerId": "reena-esmail",
+    "title": "Darshan",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
+    "composerId": "reiko-futing",
+    "title": "procession- process:peace (dona nobis pacem)",
+    "year": "2017",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "roger-zare-finding-equilibrium",
+    "composerId": "roger-zare",
+    "title": "Finding Equilibrium",
+    "year": "2025",
+    "duration": "15'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "bass-clarinet",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "roger-zare-lunation-1113",
+    "composerId": "roger-zare",
+    "title": "Lunation 1113",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "ruth-crawford-seeger-3-songs-on-carl-sandburg",
+    "composerId": "ruth-crawford-seeger",
+    "title": "3 Songs on Carl Sandburg",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "sam-adams-sundial",
+    "composerId": "sam-adams",
+    "title": "Sundial",
+    "year": "2021",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sarah-kirkland-snider-you-are-free",
+    "composerId": "sarah-kirkland-snider",
+    "title": "You Are Free",
+    "year": "2016",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "scott-joplin-the-great-crush-collision-march",
+    "composerId": "scott-joplin",
+    "title": "The Great Crush Collision March",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "scott-lee-karst",
+    "composerId": "scott-lee",
+    "title": "Karst",
+    "year": "2023",
+    "duration": "11'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sean-quinn-can-i-forget-the-rising-sun",
+    "composerId": "sean-quinn",
+    "title": "can i forget the rising sun",
+    "year": "2022-2024",
+    "duration": "6'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sebastian-currier-night-time",
+    "composerId": "sebastian-currier",
+    "title": "Night Time",
+    "year": "1998",
+    "duration": "16'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "harp",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sebastian-currier-waves-2020",
+    "composerId": "sebastian-currier",
+    "title": "WAVES",
+    "year": "2020",
+    "duration": "26'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "bass-voice",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "trumpet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "electronics",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sebastian-currier-whispers",
+    "composerId": "sebastian-currier",
+    "title": "Whispers",
+    "year": "1996",
+    "duration": "14'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "shaun-tilburg-an-hour-of-change",
+    "composerId": "shaun-tilburg",
+    "title": "An Hour of Change",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "shaun-tilburg-kagome-kagome-2022",
+    "composerId": "shaun-tilburg",
+    "title": "Kagome Kagome",
+    "year": "2022",
+    "duration": "11'",
+    "movements": [
+      "I. Summons",
+      "II. The First Bardo",
+      "III. Mantra",
+      "IV. Summons",
+      "V. The Second Bardo",
+      "VI. Abhidhamma",
+      "VII. Eulogy",
+      "VIII. The Third Bardo"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "workId": "shawn-allison-new-work",
+    "composerId": "shawn-allison",
+    "title": "New Work",
+    "year": "2026",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ],
+    "description": ""
+  },
+  {
+    "workId": "shawn-allison-night-rituals",
+    "composerId": "shawn-allison",
+    "title": "Night Rituals",
+    "year": "2012",
+    "duration": "15'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "shawn-okpebholo-distance",
+    "composerId": "shawn-okpebholo",
+    "title": "Distance",
+    "year": "2016",
+    "duration": "14'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "marimba",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "sofia-gubaidulina-lyre-of-orpheus",
+    "composerId": "sofia-gubaidulina",
+    "title": "Lyre of Orpheus",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "sofia-gubaidulina-string-quartet-no-2",
+    "composerId": "sofia-gubaidulina",
+    "title": "String Quartet No. 2",
+    "year": "1987",
+    "duration": "9'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "stacy-garrop-slipstream",
+    "composerId": "stacy-garrop",
+    "title": "Slipstream",
+    "year": "2020",
+    "duration": "14'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "horn",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "stacy-garrop-the-solitude-of-stars",
+    "composerId": "stacy-garrop",
+    "title": "The Solitude of Stars",
+    "year": "2020",
+    "duration": "3'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "stephen-wood-untrammeled",
+    "composerId": "stephen-wood",
+    "title": "Untrammeled",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "steve-reich-different-trains",
+    "composerId": "steve-reich",
+    "title": "Different Trains",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "steve-reich-double-sextet",
+    "composerId": "steve-reich",
+    "title": "Double Sextet",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "steve-reich-music-for-18-musicians",
+    "composerId": "steve-reich",
+    "title": "Music for 18 Musicians",
+    "year": "1976",
+    "duration": "40-50'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "musicians",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "workId": "tan-dun-8-colors-for-string-quartet",
+    "composerId": "tan-dun",
+    "title": "8 Colors for String Quartet",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "string-quartet",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "tan-dun-elegy-snow-in-june",
+    "composerId": "tan-dun",
+    "title": "Elegy: Snow in June",
+    "year": "1991",
+    "duration": "25'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "workId": "tania-leon-de-color",
+    "composerId": "tania-leon",
+    "title": "De Color",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "tansy-davies-saltbox",
+    "composerId": "tansy-davies",
+    "title": "Saltbox",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "tom-johnson-failing",
+    "composerId": "tom-johnson",
+    "title": "Failing",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": []
+  },
+  {
+    "workId": "tom-morrison-no-way-out-but-through",
+    "composerId": "tom-morrison",
+    "title": "no way out but through",
+    "year": "2023",
+    "duration": "2'30\"",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "treya-nash-nothing-motorized",
+    "composerId": "treya-nash",
+    "title": "Nothing Motorized",
+    "year": "2019",
+    "duration": "10'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "tyson-gholston-davis-string-trio-2021",
+    "composerId": "tyson-gholston-davis",
+    "title": "String Trio",
+    "year": "2021",
+    "duration": "11'",
+    "movements": [
+      "I. Introduction",
+      "II. Synchromism and Cadenza I (Viola)",
+      "III. Nocturne 1",
+      "IV. Synchromism and Cadenza II (Violin)",
+      "V. Nocturne II",
+      "VI. Synchromism and Cadenza III (Cello)",
+      "VII. Epilogue"
+    ],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "ulysses-kay-fugitive-songs",
+    "composerId": "ulysses-kay",
+    "title": "Fugitive Songs",
+    "year": "",
+    "duration": "",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "strings",
+        "count": 1
+      },
+      {
+        "instrument": "mezzo-soprano-voice",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "viet-cuong-wax-and-wire",
+    "composerId": "viet-cuong",
+    "title": "Wax and Wire",
+    "year": "2014",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
+    "composerId": "vivian-fung",
+    "title": "String Quartet No. 4: \"Insects and Machines\"",
+    "year": "2019",
+    "duration": "12'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "vivian-fung-white-on-black",
+    "composerId": "vivian-fung",
+    "title": "White on Black",
+    "year": "2023",
+    "duration": "3'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "piano",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "wolfgang-rihm-jagden-und-formen-hunts-and-forms",
+    "composerId": "wolfgang-rihm",
+    "title": "Jagden und Formen (Hunts and Forms)",
+    "year": "1995",
+    "duration": "55'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "large-ensemble",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "yangfan-xu-luo-jiang-yuan-a-bit-blue",
+    "composerId": "yangfan-xu",
+    "title": "Luo Jiang Yuan – A bit blue",
+    "year": "2023",
+    "duration": "8'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "yaz-lancaster-firn-2019",
+    "composerId": "yaz-lancaster",
+    "title": "firn",
+    "year": "2019",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "yaz-lancaster-sequoia-for-percussion-2019",
+    "composerId": "yaz-lancaster",
+    "title": "sequoia for percussion",
+    "year": "2019",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "percussion",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "workId": "zachary-konick-meditations",
+    "composerId": "zachary-konick",
+    "title": "Meditations",
+    "year": "2023",
+    "duration": "4'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "dulcimer",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "workId": "zachary-konick-surface",
+    "composerId": "zachary-konick",
+    "title": "Surface",
+    "year": "2023",
+    "duration": "7'",
+    "movements": [],
+    "instrumentation": [
+      {
+        "instrument": "dulcimer",
+        "count": 1
+      }
+    ]
+  }
+]

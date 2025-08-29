@@ -6,13 +6,13 @@ export interface RadioButtonProps extends React.InputHTMLAttributes<HTMLInputEle
   label?: string;
 }
 
-const RadioButton: React.FC<RadioButtonProps> = ({
+export function RadioButton({
   variant = "default",
   inputSize = "md",
   label,
   className = "",
   ...props
-}) => {
+}: RadioButtonProps): React.ReactNode {
   const baseClasses = "border-gray-300 text-blue-600 focus:ring-blue-500 focus:ring-2 transition-colors";
 
   const variantClasses = {
@@ -47,5 +47,3 @@ const RadioButton: React.FC<RadioButtonProps> = ({
 
   return radio;
 };
-
-export default RadioButton;

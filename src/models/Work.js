@@ -5,6 +5,7 @@ const instrumentationSchema = new mongoose.Schema(
     instrument: {
       type: String,
       required: true,
+      ref: "Instrument",
       trim: true,
     },
     count: {
@@ -54,37 +55,18 @@ const workSchema = new mongoose.Schema(
       },
     ],
     instrumentation: [instrumentationSchema],
+
     description: {
       type: String,
       trim: true,
     },
-    notes: {
-      type: String,
-      trim: true,
-    },
-    publishingInfo: {
-      publisher: {
-        type: String,
-        trim: true,
-      },
-      rentalInfo: {
-        type: String,
-        trim: true,
-      },
-    },
   },
+
   {
     timestamps: true,
     collection: "works",
   }
 );
-
-// Index for efficient queries
-// workSchema.index({ workId: 1 });
-// workSchema.index({ composerId: 1 });
-// workSchema.index({ title: 1 });
-// workSchema.index({ year: 1 });
-// workSchema.index({ "instrumentation.instrument": 1 });
 
 const Work = mongoose.models.Work || mongoose.model("Work", workSchema);
 

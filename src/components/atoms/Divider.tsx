@@ -9,14 +9,14 @@ export interface DividerProps {
   className?: string;
 }
 
-const Divider: React.FC<DividerProps> = ({
+export function Divider({
   orientation = "horizontal",
   variant = "solid",
   thickness = "thin",
   color = "default",
   spacing = "md",
   className = "",
-}) => {
+}: DividerProps): React.ReactNode {
   const baseClasses = "border-0";
 
   const orientationClasses = {
@@ -65,6 +65,6 @@ const Divider: React.FC<DividerProps> = ({
         .replace(/\s+/g, " ")}
     />
   );
-};
+}
 
 export default Divider;

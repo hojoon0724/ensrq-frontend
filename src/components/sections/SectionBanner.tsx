@@ -1,9 +1,18 @@
-export default function SectionBanner({ children, themeColor }: Readonly<{ children: React.ReactNode; themeColor: string }>) {
+import { TopContainer } from "@/components/layouts";
+
+interface SectionBannerProps {
+  children: React.ReactNode;
+  themeColor: string;
+  tone: "light" | "dark";
+  className?: string;
+}
+
+export function SectionBanner({ children, themeColor, tone, className = "" }: SectionBannerProps) {
+  const toneValue = tone === "dark" ? 700 : 50;
+
   return (
-    <section className="max-h-[30svw]" 
-    style={{ backgroundColor: `var(--${themeColor}-bg-dark)` }}
-    >
-      <div className="w-full h-full max-w-7xl">{children}</div>
+    <section className={`max-h-[30svw] ${className}`} style={{ backgroundColor: `var(--${themeColor}-${toneValue})` }}>
+      <TopContainer>{children}</TopContainer>
     </section>
   );
 }

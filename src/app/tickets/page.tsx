@@ -1,28 +1,44 @@
 "use client";
-import SectionBanner from "@/components/sections/SectionBanner";
-import SectionEmpty from "@/components/sections/SectionEmpty";
+
+import { MovingGradientText } from "@/components/atoms";
+import { TicketsTable } from "@/components/organisms/TicketsTable";
+import { SectionMeshGradient, useRandomColors } from "@/components/sections";
+import { formatSeasonLabel,getCurrentSeason } from "@/utils";
+
+// Get the current season based on date or fall back to the latest season
+
+const currentSeason = getCurrentSeason();
 
 export default function Tickets() {
+  const colors = useRandomColors();
+
   return (
-    <div>
-      <SectionBanner themeColor="blue">
-        <h1>Tickets</h1>
-      </SectionBanner>
-      <SectionEmpty themeColor="sand">
-        <div className="flex h-[10svh]">
-          <h1>Tickets</h1>
-        </div>
-      </SectionEmpty>
-      {/* <SectionEmpty themeColor="water">
-        <div className="flex h-[50svh]">
-          <h1>Tickets</h1>
-        </div>
-      </SectionEmpty>
-      <SectionEmpty themeColor="sand">
-        <div className="flex h-[50svh]">
-          <h1>Tickets</h1>
-        </div>
-      </SectionEmpty> */}
-    </div>
+    <>
+      <SectionMeshGradient
+        color1={colors.randomColor}
+        backgroundColor={colors.randomColor}
+        className="h-[max(30svh,400px)] flex flex-col justify-center items-center"
+        tone={colors.randomTone}
+      >
+        <MovingGradientText
+          text="Tickets"
+          className="text-4xl lg:text-7xl font-bold text-center px-4"
+          gradientColor={colors.randomTextColor}
+          tone={colors.textTone}
+        >
+          <div
+            className={`text-2xl lg:text-4xl museo-slab text-center text-${colors.randomTextColor}-${colors.textShade} mt-4`}
+          >
+            {formatSeasonLabel(currentSeason.seasonId)}
+          </div>
+          <div
+            className={`text-lg lg:text-2xl museo-slab text-center text-${colors.randomTextColor}-${colors.textShade} mt-4`}
+          >
+            {currentSeason.year}
+          </div>
+        </MovingGradientText>
+      </SectionMeshGradient>
+      <TicketsTable season={currentSeason} />
+    </>
   );
 }

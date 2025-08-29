@@ -7,7 +7,12 @@ export interface SpinnerProps {
   className?: string;
 }
 
-const Spinner: React.FC<SpinnerProps> = ({ size = "md", color = "primary", variant = "circular", className = "" }) => {
+export function Spinner({
+  size = "md",
+  color = "primary",
+  variant = "circular",
+  className = "",
+}: SpinnerProps): React.ReactNode {
   const sizeClasses = {
     xs: "w-3 h-3",
     sm: "w-4 h-4",
@@ -95,5 +100,3 @@ const Spinner: React.FC<SpinnerProps> = ({ size = "md", color = "primary", varia
       return <CircularSpinner />;
   }
 };
-
-export default Spinner;

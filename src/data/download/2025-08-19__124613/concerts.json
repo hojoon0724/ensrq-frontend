@@ -1,0 +1,2749 @@
+[
+  {
+    "concertId": "s01-2016-10-10-locals",
+    "title": "Locals",
+    "subtitle": "Sarasota composers. Sarasota musicians. Sarasota themed works.",
+    "description": "A concert featuring Sarasota composers, musicians, and themed works.",
+    "date": "2016-10-10T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "roger-zare-lunation-1113",
+        "musicians": []
+      },
+      {
+        "workId": "gil-katz-anhinga-and-wellenclowned",
+        "musicians": []
+      },
+      {
+        "workId": "tom-johnson-failing",
+        "musicians": []
+      },
+      {
+        "workId": "nicole-gutman-sandpipers",
+        "musicians": []
+      },
+      {
+        "workId": "francis-schwartz-songs-of-loneliness",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s01-2016-11-14-gardens-clouds-streams",
+    "title": "Gardens, Clouds, Streams",
+    "subtitle": "Evocative works by female composers.",
+    "description": "A concert of evocative works by female composers.",
+    "date": "2016-11-14T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "caroline-shaw-entracte",
+        "musicians": []
+      },
+      {
+        "workId": "kaija-saariaho-six-japanese-gardens",
+        "musicians": []
+      },
+      {
+        "workId": "elizabeth-ogonek-all-streams-reach-the-sea-at-last",
+        "musicians": []
+      },
+      {
+        "workId": "anna-clyne-prince-of-clouds",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s01-2017-01-30-glass",
+    "title": "Glass",
+    "subtitle": "",
+    "description": "An intimate performance in the gallery space among glass artwork by Kathleen Mulcahy and Ron Desmett, part of Sarasota's Art Glass Weekend.",
+    "date": "2017-01-30T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "alfstad-contemporary",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "kaija-saariaho-mirrors",
+        "musicians": []
+      },
+      {
+        "workId": "philip-glass-string-quartet-2",
+        "musicians": []
+      },
+      {
+        "workId": "jacob-druchman-reflections-on-the-nature-of-water",
+        "musicians": []
+      },
+      {
+        "workId": "isang-yun-together",
+        "musicians": []
+      },
+      {
+        "workId": "andrew-norman-light-screens",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s01-2017-02-20-glass",
+    "title": "Glass",
+    "subtitle": "",
+    "description": "Second performance of the Glass concert, an intimate performance in the gallery space among glass artwork.",
+    "date": "2017-02-20T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "alfstad-contemporary",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "kaija-saariaho-mirrors",
+        "musicians": []
+      },
+      {
+        "workId": "philip-glass-string-quartet-2",
+        "musicians": []
+      },
+      {
+        "workId": "jacob-druchman-reflections-on-the-nature-of-water",
+        "musicians": []
+      },
+      {
+        "workId": "isang-yun-together",
+        "musicians": []
+      },
+      {
+        "workId": "andrew-norman-light-screens",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s01-2017-02-26-the-music-of-david-t-little",
+    "title": "The Music of David T. Little",
+    "subtitle": "",
+    "description": "A collaboration with The Hermitage Artist Retreat featuring resident composer David T. Little, who will be in attendance to offer perspective on his inspiration.",
+    "date": "2017-02-26T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "the-hermitage-artist-retreat",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "david-t-little-and-the-sky-was-still-there",
+        "musicians": []
+      },
+      {
+        "workId": "david-t-little-haunt-of-last-nightfall",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s01-2017-04-10-new-york-notes",
+    "title": "New York Notes",
+    "subtitle": "",
+    "description": "The finale of our Inaugural Season! A powerful display of contemporary chamber music featuring New York's most exciting musical minds sharing the stage with Sarasota's stars.",
+    "date": "2017-04-10T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s01",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "bohuslav-martinu-quartet",
+        "musicians": []
+      },
+      {
+        "workId": "charles-wuorinen-new-york-notes",
+        "musicians": []
+      },
+      {
+        "workId": "augusta-read-thomas-selene",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2017-09-18-lost-landscapes",
+    "title": "Lost Landscapes",
+    "subtitle": "",
+    "description": "Journey from the New Mexico desert to the snowy north, to Tanglewood and New York City in this concert inspired by the spaces of nature around us.",
+    "date": "2017-09-18T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "missy-mazzoli-death-valley-junction",
+        "musicians": []
+      },
+      {
+        "workId": "stephen-wood-untrammeled",
+        "musicians": []
+      },
+      {
+        "workId": "helen-grime-snow-and-snow",
+        "musicians": []
+      },
+      {
+        "workId": "einojuhani-rautavaara-lost-landscapes",
+        "musicians": []
+      },
+      {
+        "workId": "mason-bates-life-of-birds",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2017-10-19-the-space-around-you",
+    "title": "The Space Around You",
+    "subtitle": "",
+    "description": "Part of Ringling International Arts Festival. A macro view of our surroundings, interacting with James Turrell's Joseph's Coat, mirroring the atmosphere and changing light of the sky.",
+    "date": "2017-10-19T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2017-10-21-the-magical-world-of-berios-sequenzas",
+    "title": "The Magical World of Berio's Sequenzas",
+    "subtitle": "",
+    "description": "Part of Ringling International Arts Festival. A micro view focusing intensely on individual performers as virtuoso soloists, weaving through deeply personal human and musical expression.",
+    "date": "2017-10-21T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenzas",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2017-12-11-lou-harrison-at-100",
+    "title": "Lou Harrison at 100",
+    "subtitle": "",
+    "description": "A centennial homage to Lou Harrison, celebrated American composer and maverick of sound. Featuring acclaimed pianist Sarah Cahill and Artistic Director Samantha Bennett.",
+    "date": "2017-12-11T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "lou-harrison-grand-duo",
+        "musicians": []
+      },
+      {
+        "workId": "lou-harrison-varied-trio",
+        "musicians": []
+      },
+      {
+        "workId": "lou-harrison-uneasy-rapture",
+        "musicians": []
+      },
+      {
+        "workId": "lou-harrison-solo-to-anthony-cirone",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2018-01-29-deep-red",
+    "title": "Deep Red",
+    "subtitle": "",
+    "description": "Luciano Berio's Sequenzas cycle kicks off with Sequenza VIII for violin. Features composer Bright Sheng conducting his dreamscape marimba concerto.",
+    "date": "2018-01-29T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenza-viii",
+        "musicians": []
+      },
+      {
+        "workId": "aaron-jay-kernis-perpetual-chaconne",
+        "musicians": []
+      },
+      {
+        "workId": "bright-sheng-deep-red",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2018-03-26-voicehammer",
+    "title": "Voice/Hammer",
+    "subtitle": "",
+    "description": "Two of Europe's most influential 20th Century masters. Features Sarasota's own mezzo-soprano Thea Lobo in Berio's Sequenza III.",
+    "date": "2018-03-26T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenza-iii",
+        "musicians": []
+      },
+      {
+        "workId": "pierre-boulez-le-marteau-sans-maitre",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s02-2018-04-23-larger-forces",
+    "title": "Larger Forces",
+    "subtitle": "",
+    "description": "Season finale featuring enSRQ's first commissioned work and chamber orchestra works inspired by dance rhythms. Features oboist Adam de Sorgo.",
+    "date": "2018-04-23T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s02",
+    "venueId": "first-united-methodist-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "michael-schacter-5-6-7-8",
+        "musicians": []
+      },
+      {
+        "workId": "david-dies-alchemytransmutationtranslation",
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "john-adams-son-of-chamber-symphony",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2018-10-29-ensrq-hub-new-music",
+    "title": "enSRQ + HUB New Music",
+    "subtitle": "",
+    "description": "Great Groups Think Alike! enSRQ welcomes friends from Boston, HUB New Music, for an exciting collaboration to open the 2018-19 season. Pairing minimalist masters with adventurers in texture and darkness.",
+    "date": "2018-10-29T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "michael-gordon-acdc",
+        "musicians": []
+      },
+      {
+        "workId": "anna-clyne-1987",
+        "musicians": []
+      },
+      {
+        "workId": "nina-c-young-rising-tide",
+        "musicians": []
+      },
+      {
+        "workId": "steve-reich-double-sextet",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2018-12-03-metal-wind-wood",
+    "title": "Metal, Wind, & Wood",
+    "subtitle": "",
+    "description": "Metal of the vibraphone, wind of the oboe, and wood of the strings. Italian master Franco Donatoni shines in two important works. Features oboist Nicholas Arbolino continuing the Berio Sequenzas cycle.",
+    "date": "2018-12-03T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-oboe-sequenza",
+        "musicians": []
+      },
+      {
+        "workId": "franco-donatoni-omar",
+        "musicians": []
+      },
+      {
+        "workId": "franco-donatoni-arpege",
+        "musicians": []
+      },
+      {
+        "workId": "kevin-puts-arcana",
+        "musicians": []
+      },
+      {
+        "workId": "melinda-wagner-scritch",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2019-01-07-holographic",
+    "title": "Holographic",
+    "subtitle": "Collaboration with New Music New College featuring Daniel Wohl, composer and pianist and Daniel Schwarz, visual artist",
+    "description": "enSRQ teams up with New Music New College. This evening length work for live visual projections and electroacoustic ensemble explores different worlds of improbable combinations of sounds, hidden sonic landscapes both acoustic and electronic.",
+    "date": "2019-01-07T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "mildred-sainer-auditorium",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "daniel-wohl-holographic",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2019-02-11-railroad-150",
+    "title": "Railroad 150",
+    "subtitle": "",
+    "description": "2019 marks the 150th Anniversary of the completion of the Transcontinental Railroad at Promontory Point, Utah. An inventive, deep and profound look at how trains, railroads, and humans have charted paths; both constructive and destructive.",
+    "date": "2019-02-11T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "scott-joplin-the-great-crush-collision-march",
+        "musicians": []
+      },
+      {
+        "workId": "tansy-davies-saltbox",
+        "musicians": []
+      },
+      {
+        "workId": "ruth-crawford-seeger-3-songs-on-carl-sandburg",
+        "musicians": []
+      },
+      {
+        "workId": "steve-reich-different-trains",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2019-03-04-orpheus-and-his-lyre",
+    "title": "Orpheus and His Lyre",
+    "subtitle": "",
+    "description": "A literal and figurative look at the myth of Orpheus, a story that has allured artists throughout the centuries. Features Katherine Siochi on harp and Matthew Aucoin performing and presenting his work. Thea Lobo solos with Samantha Bennett.",
+    "date": "2019-03-04T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "elliott-carter-bariolage",
+        "musicians": []
+      },
+      {
+        "workId": "matthew-aucoin-its-own-accord",
+        "musicians": []
+      },
+      {
+        "workId": "sofia-gubaidulina-lyre-of-orpheus",
+        "musicians": []
+      },
+      {
+        "workId": "matthew-aucoin-the-orphic-moment",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s03-2019-04-22-working-notes",
+    "title": "Working Notes",
+    "subtitle": "",
+    "description": "enSRQ's second commission receives its World Premiere - a percussion concerto from renowned Portuguese composer Andreia Pinto Correia, inspired by sketchbooks of Joan Miro. Features Brad Williams reprising his iconic performance in Berio's Trombone Sequenza.",
+    "date": "2019-04-22T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s03",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "john-harbison-6th-string-quartet",
+        "musicians": []
+      },
+      {
+        "workId": "luciano-berio-trombone-sequenza",
+        "musicians": []
+      },
+      {
+        "workId": "andreia-pinto-correia-paintings-in-four-movements",
+        "is_premiere": true,
+        "is_commission": true,
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2019-09-30-frequent-flyers",
+    "title": "Frequent Flyers",
+    "subtitle": "",
+    "description": "Winds and Brass take flight from the lone voice of Berio's Trumpet Sequenza, to the full complement of orchestral brass in Magnus Lindberg's Ottoni and Peteris Vasks' Music for Fleeting Birds. Pianist Conor Hanick shines in technicolor with Messiaen's Colors of the Celestial City, an ode to the stars in this fanfare of a Season Opener.",
+    "date": "2019-09-30T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "first-united-methodist-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenza-x-for-solo-c-trumpet-and-piano-resonance",
+        "musicians": []
+      },
+      {
+        "workId": "peteris-vasks-wind-quintet-1-music-for-fleeting-birds",
+        "musicians": []
+      },
+      {
+        "workId": "magnus-lindberg-ottoni",
+        "musicians": []
+      },
+      {
+        "workId": "olivier-messiaen-couleurs-de-la-cite-celeste",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2019-10-20-peculiar-dreams",
+    "title": "Peculiar Dreams",
+    "subtitle": "",
+    "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+    "date": "2019-10-20T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "studio-620",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
+        "musicians": []
+      },
+      {
+        "workId": "andrew-norman-an-index-of-peculiar-strokes",
+        "musicians": []
+      },
+      {
+        "workId": "elizabeth-a-baker-cosmic-dreams",
+        "musicians": []
+      },
+      {
+        "workId": "krzysztof-penderecki-sextet",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2019-10-21-peculiar-dreams",
+    "title": "Peculiar Dreams",
+    "subtitle": "",
+    "description": "enSRQ launches into orbit in Peculiar Dreams, with two works pushing with stratosphere of sonic capabilities: St. Pete local Elizabeth A. Baker's atmospheric Cosmic Dreams and Andrew Norman's An Index of Peculiar Strokes. Penderecki's iconic Sextet brings the program earthbound again to end with two feet firmly planted on the ground.",
+    "date": "2019-10-21T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "luciano-berio-sequenza-xiv-for-solo-cello",
+        "musicians": []
+      },
+      {
+        "workId": "andrew-norman-an-index-of-peculiar-strokes",
+        "musicians": []
+      },
+      {
+        "workId": "elizabeth-a-baker-cosmic-dreams",
+        "musicians": []
+      },
+      {
+        "workId": "krzysztof-penderecki-sextet",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2020-01-20-fire-light",
+    "title": "Fire & Light",
+    "subtitle": "",
+    "description": "Sparks fly in Fire and Light, featuring composer and violist Jessica Meyer in three of her deeply human works: Delta Sunrise, Tapped into the same vein, and Sagrada Familia. Conor Hanick and Samantha Bennett perform Eric Wubbels' epic and searching 'the children of fire come looking for fire' to set this concert ablaze.",
+    "date": "2020-01-20T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "jessica-meyer-delta-sunrise",
+        "musicians": []
+      },
+      {
+        "workId": "georg-friedrich-haas-ins-licht",
+        "musicians": []
+      },
+      {
+        "workId": "eric-wubbels-the-children-of-fire-come-looking-for-fire",
+        "musicians": []
+      },
+      {
+        "workId": "jessica-meyer-tapped-into-the-same-vein",
+        "musicians": []
+      },
+      {
+        "workId": "jessica-meyer-sagrada-familia",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2020-03-23-enter-the-vortex",
+    "title": "Enter the Vortex",
+    "subtitle": "",
+    "description": "It's past versus future as we Enter the Vortex with two of the twentieth-century's most enigmatic masters. 2017 Van Cliburn Semi-Finalist Han Chen joins enSRQ and Co-Artistic Director George Nickson for Philippe Hurel's virtuosic tribute, Tombeau to Gerard Grisey, an apropos preamble to our presentation of Grisey's seminal evening length work, Vortex Temporum.",
+    "date": "2020-03-23T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+        "musicians": []
+      },
+      {
+        "workId": "gerard-grisey-vortex-temporum",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s04-2020-04-13-digital-trees",
+    "title": "Digital Trees",
+    "subtitle": "",
+    "description": "Digital Trees celebrates the diversity of style and duality of current American acoustic music with Marc Mellits' minimalist Splinter, Ken Ueno's intricate Pharmakon and Patrick Harlan's Digital. We're hardwired for creating masterpieces of the modern age with two new commissions. American trailblazer Max Grafe composes a new trio to showcase principal artists Samantha Bennett, George Nickson and Conor Hanick. enSRQ is also proud to join a consortium with Royal Birmingham Conservatoire, Music Academy of the West, and The Eastman School of Music to commission and perform the Florida Premiere of David Maric's Mallet Quartet.",
+    "date": "2020-04-13T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s04",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "patrick-harlin-digital",
+        "musicians": []
+      },
+      {
+        "workId": "david-maric-nascent-forms",
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "max-grafe-shadow-theater",
+        "is_premiere": true,
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "marc-mellits-splinter",
+        "musicians": []
+      },
+      {
+        "workId": "ken-ueno-pharmakon",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s05-2020-10-19-its-about-time",
+    "title": "It's About Time",
+    "subtitle": "",
+    "description": "We return to our roots in our season-opener presenting a program of solo and duo works by a diverse field of composers performed by Co-Artistic Directors Samantha Bennett, violin and George Nickson, percussion.",
+    "date": "2020-10-19T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s05",
+    "venueId": "virtual",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "kevin-day-the-mind-is-like-water",
+        "musicians": []
+      },
+      {
+        "workId": "tania-leon-de-color",
+        "musicians": []
+      },
+      {
+        "workId": "katherine-balch-responding-to-the-waves",
+        "musicians": []
+      },
+      {
+        "workId": "nico-muhly-its-about-time",
+        "musicians": []
+      },
+      {
+        "workId": "francis-schwartz-solace-on-my-mind-3",
+        "musicians": []
+      },
+      {
+        "workId": "shaun-tilburg-an-hour-of-change",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=KbESYntMbk0"
+  },
+  {
+    "concertId": "s05-2021-01-18-solitude-and-suffrage",
+    "title": "Solitude and Suffrage",
+    "subtitle": "",
+    "description": "This program for clarinet, strings, mezzo-soprano, and piano celebrates the historic event of womens' suffrage in the United States and a time to reflect on the solitude that the COVID-19 quarantine era has caused for many across the world.",
+    "date": "2021-01-18T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s05",
+    "venueId": "virtual",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "ulysses-kay-fugitive-songs",
+        "musicians": []
+      },
+      {
+        "workId": "katherine-balch-iaspis",
+        "musicians": []
+      },
+      {
+        "workId": "kamala-sankaram-kivalina",
+        "musicians": []
+      },
+      {
+        "workId": "quinn-mason-the-19th-amendment",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=Ls6NfXRp5FA"
+  },
+  {
+    "concertId": "s05-2021-02-15-enter-the-vortex",
+    "title": "Enter the Vortex",
+    "subtitle": "",
+    "description": "Two of the twentieth century's most enigmatic masters come together for Phillipe Hurel's virtuosic tribute and Gerard Grisey's seminal evening length work in this program that has been rescheduled from our 2019-2020 season.",
+    "date": "2021-02-15T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s05",
+    "venueId": "virtual",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "philippe-hurel-tombeau-in-memorium-gerard-grisey",
+        "musicians": []
+      },
+      {
+        "workId": "gerard-grisey-vortex-temporum",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=M9hm45mc3dM"
+  },
+  {
+    "concertId": "s05-2021-03-15-nightfall",
+    "title": "Nightfall!",
+    "subtitle": "",
+    "description": "Rescheduled from the 2019-2020 season, we celebrate the diversity of style and duality of current American acoustic music. With two new commissions, we're hardwired for creating masterpieces of the modern age.",
+    "date": "2021-03-15T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s05",
+    "venueId": "virtual",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "gerard-grisey-stele",
+        "musicians": []
+      },
+      {
+        "workId": "david-maric-nascent-forms",
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "david-t-little-haunt-of-last-nightfall",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=UwpN0fQVQms"
+  },
+  {
+    "concertId": "s05-2021-05-10-sun-colors",
+    "title": "Sun Colors",
+    "subtitle": "",
+    "description": "SUN COLORS celebrates the warmth and diversity of contemporary string writing, with music of Reena Esmail, Michael Djupstrom, Jessica Meyer, and Tan Dun. Building up in instrumentation from one solo violin, to duo, trio and finally full quartet, the works on this program take inspiration from poetry, folk song and the sun's ever unifying and life-giving presence. Don't miss our last virtual concert of the season!",
+    "date": "2021-05-10T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s05",
+    "venueId": "virtual",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "reena-esmail-darshan",
+        "musicians": []
+      },
+      {
+        "workId": "michael-djupstrom-daydreams-and-nightvisions",
+        "musicians": []
+      },
+      {
+        "workId": "jessica-meyer-i-only-speak-of-the-sun",
+        "musicians": []
+      },
+      {
+        "workId": "tan-dun-8-colors-for-string-quartet",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=Ai_-oG5vbwc"
+  },
+  {
+    "concertId": "s06-2021-10-11-dont-look-down",
+    "title": "Don't Look Down",
+    "subtitle": "(featuring Conor Hanick)",
+    "description": "Yaz Lancaster's Sequoia opens our season with ethereal, reflective sounds that remind us of the importance and intimacy of being together in the concert hall. Conor Hanick returns with the second ever performance of Chris Cerrone's poignant work, Don't Look Down, for percussion quartet and piano, named one of The New York Times' Best Pieces of 2020. Two years in the making, Max Grafe's Shadow Theater, composed specifically for George, Samantha and Conor, will finally receive its premiere.",
+    "date": "2021-10-11T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s06",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "sequoia",
+    "streamingPageUrl": "",
+    "sponsors": "The Gardener Foundation",
+    "program": [
+      {
+        "workId": "yaz-lancaster-sequoia-for-percussion-2019",
+        "musicians": []
+      },
+      {
+        "workId": "max-grafe-shadow-theater-for-violin-piano-and-percussion-2020",
+        "is_premiere": true,
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "christopher-cerrone-dont-look-down-for-prepared-piano-and-percussion-quartet-2020",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=dOhDCZuauLs"
+  },
+  {
+    "concertId": "s06-2022-01-31-void",
+    "title": "void",
+    "subtitle": "",
+    "description": "A co-commission from Atlanta's ensemble vim and enSRQ, New Renaissance Artist Elizabeth A. Baker's evening length work, void, combines the power of visual projection, electronic processing and acoustic performance in an experience that should not be missed. This is an intrepid, dual work, consisting of modular performances for each individual ensemble which then receives a unique performance for both groups, together.",
+    "date": "2022-01-31T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s06",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "vim",
+    "streamingPageUrl": "",
+    "sponsors": "Sarasota County Tourist Development Tax revenues, Susan Robinson",
+    "program": [
+      {
+        "workId": "elizabeth-a-baker-void-for-violin-cello-percussion-electronics-and-projections-2021",
+        "is_commission": true,
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=qn9W9n0PKAU"
+  },
+  {
+    "concertId": "s06-2022-02-21-ensrq-chroma-trio",
+    "title": "enSRQ + Chroma Trio",
+    "subtitle": "",
+    "description": "enSRQ's second commission of 21/22 is a team effort with Boston-based Chroma Trio, which shares founding member Samantha Bennett, bringing to life a new work by Tyson J. Davis, String Trio. Art-inspired works for strings flesh out this collaboration, including a duo from enSRQ favorite, Andreia Pinto Correia, Du Yun's string quartet, I Am My Own Achilles Heel and Freya Waley-Cohen's trio, Conjure.",
+    "date": "2022-02-21T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s06",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "euclid",
+    "streamingPageUrl": "",
+    "sponsors": "Robert and Debbie Hendel",
+    "program": [
+      {
+        "workId": "tyson-gholston-davis-string-trio-2021",
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "andreia-pinto-correia-tres-quadros-de-viera-da-silvafragmentos-multiplos-2009",
+        "musicians": []
+      },
+      {
+        "workId": "freya-waley-cohen-conjure-2019",
+        "musicians": []
+      },
+      {
+        "workId": "du-yun-i-am-my-own-achilles-heel-2019",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=WRtZFkXVtYY"
+  },
+  {
+    "concertId": "s06-2022-03-28-vortex-temporum",
+    "title": "Vortex Temporum",
+    "subtitle": "(featuring Han Chen)",
+    "description": "Our journey into the French spectral compositional movement comes full circle with this presentation of Gérard Grisey's Vortex Temporum, featuring Van Cliburn Semi-Finalist and frequent enSRQ pianist, Han Chen. Witness the completion of the arc drawn from last season's works (Grisey's Stele, Périodes and Philippe Hurel's Loops II) with Hurel's musical reflection on Grisey's towering presence throughout 20th century composition, Tombeau in Memoriam Gérard Grisey and a return of enSRQ friend, Nina C. Young's, À bout de souffle for solo piano.",
+    "date": "2022-03-28T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s06",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "souffle",
+    "streamingPageUrl": "",
+    "sponsors": "Eric Dean and Pat Michelsen",
+    "program": [
+      {
+        "workId": "philippe-hurel-tombeau-in-memoriam-gerard-grisey-1999",
+        "musicians": []
+      },
+      {
+        "workId": "nina-c-young-a-bout-de-souffle-for-piano-scordatura-2016",
+        "musicians": []
+      },
+      {
+        "workId": "gerard-grisey-vortex-temporum-for-six-instruments-1996",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=4U3BbDt7jUg"
+  },
+  {
+    "concertId": "s06-2022-04-18-waves",
+    "title": "Waves",
+    "subtitle": "",
+    "description": "To cap off the return of live audiences and end our 6th season, enSRQ premieres a final co-commission, WAVES, by Sebastian Currier. Based on the eponymous book by Virginia Woolf, this work for soprano, small ensemble and electronics, enters the thoughts of various women and girls, from a young child to an eighty year old woman, ultimately representing just one woman's conscious life, not unfolding over decades, but coexisting within a single day. WAVES is paired with Anna Thorvaldsdottir's Entropic Arrows and firn, the second work of our season exploration of Yaz Lancaster's music.",
+    "date": "2022-04-18T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s06",
+    "venueId": "mildred-sainer-auditorium",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "digital2020",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "patrick-harlin-digital-2013-rev-2020",
+        "musicians": []
+      },
+      {
+        "workId": "anna-thorvaldsdottir-entropic-arrows-2019",
+        "musicians": []
+      },
+      {
+        "workId": "yaz-lancaster-firn-2019",
+        "musicians": []
+      },
+      {
+        "workId": "sebastian-currier-waves-2020",
+        "is_premiere": true,
+        "is_commission": true,
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/watch?v=YCaBDcvXIRY"
+  },
+  {
+    "concertId": "s07-2022-10-10-first-voices",
+    "title": "First Voices",
+    "subtitle": "",
+    "description": "A program featuring works by Jerod Impichchaachaaha’ Tate, inti figgis-vizueta, Elizabeth Ogonek, Michael Begay, and Gabriela Ortiz, performed by enSRQ musicians.",
+    "date": "2022-10-10T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s07",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "thunder",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "jerod-tate-talowa-hiloha-thunder-song-1994",
+        "musicians": []
+      },
+      {
+        "workId": "inti-figgis-vizueta-imago-2021",
+        "musicians": []
+      },
+      {
+        "workId": "elizabeth-ogonek-lightenings-2016",
+        "musicians": []
+      },
+      {
+        "workId": "michael-begay-cloak-of-autumn-2018",
+        "musicians": []
+      },
+      {
+        "workId": "gabriela-ortiz-picobitebeat-2018",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://youtube.com/live/bp4kU5_IjrU?feature=share"
+  },
+  {
+    "concertId": "s07-2023-01-16-crumb",
+    "title": "Crumb",
+    "subtitle": "",
+    "description": "A tribute to George Crumb (1929-2022), featuring his Madrigals and Black Angels, and Margaret Brouwer's Demeter Prelude.",
+    "date": "2023-01-16T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s07",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "gondolier",
+    "streamingPageUrl": "",
+    "sponsors": "Susan Robinson, Robert & Deborah Hendel, Ben & Gigi Huberman",
+    "program": [
+      {
+        "workId": "george-crumb-madrigals-19651969",
+        "musicians": []
+      },
+      {
+        "workId": "margaret-brouwer-demeter-prelude-1997",
+        "musicians": []
+      },
+      {
+        "workId": "george-crumb-black-angels-thirteen-images-from-the-dark-land-1970",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://youtube.com/live/kr24yKvuCtc?feature=share"
+  },
+  {
+    "concertId": "s07-2023-02-06-vespers-for-a-new-dark-age",
+    "title": "Vespers for a New Dark Age",
+    "subtitle": "",
+    "description": "Collaboration with Verdigris Ensemble, featuring Christopher Cerrone's The Branch Will Not Break and Missy Mazzoli's Vespers for a New Dark Age.",
+    "date": "2023-02-06T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s07",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "obscurum",
+    "streamingPageUrl": "",
+    "program": [
+      {
+        "workId": "christopher-cerrone-the-branch-will-not-break-2015",
+        "musicians": []
+      },
+      {
+        "workId": "missy-mazzoli-vespers-for-a-new-dark-age-2014",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://youtube.com/live/0eEgMARooD8?feature=share"
+  },
+  {
+    "concertId": "s07-2023-03-13-and-the-hits-keep-coming",
+    "title": "And the Hits Keep Coming",
+    "subtitle": "",
+    "description": "A celebration of percussion, featuring works by Emma O’Halloran, Krists Auznieks, Shaun Tilburg (commission/world premiere), and Mark-Anthony Turnage (co-commission).",
+    "date": "2023-03-13T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s07",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "boom",
+    "streamingPageUrl": "",
+    "sponsors": "Pamela MacFarlane Palmer",
+    "program": [
+      {
+        "workId": "emma-ohalloran-shell-2019",
+        "musicians": []
+      },
+      {
+        "workId": "krists-auznieks-prelude-and-ether-2019",
+        "musicians": []
+      },
+      {
+        "workId": "shaun-tilburg-kagome-kagome-2022",
+        "is_premiere": true,
+        "is_commission": true,
+        "musicians": []
+      },
+      {
+        "workId": "mark-anthony-turnage-new-england-etudes-2022",
+        "is_commission": true,
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://youtube.com/live/FZVrLev_EeE?feature=share"
+  },
+  {
+    "concertId": "s07-2023-04-17-1976",
+    "title": "1976",
+    "subtitle": "",
+    "description": "A double bill of contemporary classics: HK Gruber’s Frankenstein! and Louis Andriessen’s De Staat, performed by the largest ensemble in enSRQ history.",
+    "date": "2023-04-17T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s07",
+    "venueId": "sarasota-opera-house",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "6791",
+    "streamingPageUrl": "",
+    "sponsors": "The Gardener Foundation",
+    "program": [
+      {
+        "workId": "hk-gruber-frankenstein-1976",
+        "musicians": []
+      },
+      {
+        "workId": "louis-andriessen-de-staat-1976",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2023-09-05-suncoast-composers-fellowship-concert",
+    "title": "Suncoast Composers Fellowship Concert",
+    "subtitle": "",
+    "description": "",
+    "date": "2023-09-05T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "nicolas-bentz-glimpse",
+        "musicians": []
+      },
+      {
+        "workId": "claire-hu-before-entrance-and-after-exits-dreams-await",
+        "musicians": []
+      },
+      {
+        "workId": "angela-elizabeth-slater-flickering-airs",
+        "musicians": []
+      },
+      {
+        "workId": "yangfan-xu-luo-jiang-yuan-a-bit-blue",
+        "musicians": []
+      },
+      {
+        "workId": "zachary-konick-meditations",
+        "musicians": []
+      },
+      {
+        "workId": "zachary-konick-surface",
+        "musicians": []
+      },
+      {
+        "workId": "angela-elizabeth-slater-daybreak-of-dust",
+        "musicians": []
+      },
+      {
+        "workId": "chris-neiner-infinite-spinning",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2023-10-23-beyond-the-veil",
+    "title": "Beyond the Veil",
+    "subtitle": "",
+    "description": "",
+    "date": "2023-10-23T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "further",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "nia-imani-franklin-burgundy-in-autumn",
+        "musicians": []
+      },
+      {
+        "workId": "julia-adolphe-veil-of-leaves",
+        "musicians": []
+      },
+      {
+        "workId": "chris-rogerson-afterword",
+        "musicians": []
+      },
+      {
+        "workId": "philippe-manoury-tensio",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/1EZnXHE4UvQ"
+  },
+  {
+    "concertId": "s08-2023-11-20-ligetis-100th",
+    "title": "Ligeti's 100th",
+    "subtitle": "Featuring Han Chen, piano",
+    "description": "",
+    "date": "2023-11-20T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "desordre",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "vivian-fung-white-on-black",
+        "musicians": []
+      },
+      {
+        "workId": "gyorgy-ligeti-etude-no-15-white-on-white",
+        "musicians": []
+      },
+      {
+        "workId": "tom-morrison-no-way-out-but-through",
+        "musicians": []
+      },
+      {
+        "workId": "gyorgy-ligeti-etude-no-4-fanfares",
+        "musicians": []
+      },
+      {
+        "workId": "nina-c-young-it-is-within-you-that-the-ghosts-acquire-voices",
+        "musicians": []
+      },
+      {
+        "workId": "gyorgy-ligeti-etude-no-6-automne-a-varsovie",
+        "musicians": []
+      },
+      {
+        "workId": "stacy-garrop-slipstream",
+        "musicians": []
+      },
+      {
+        "workId": "stacy-garrop-the-solitude-of-stars",
+        "musicians": []
+      },
+      {
+        "workId": "gyorgy-ligeti-cello-sonata",
+        "musicians": []
+      },
+      {
+        "workId": "viet-cuong-wax-and-wire",
+        "musicians": []
+      },
+      {
+        "workId": "gyorgy-ligeti-horn-trio",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-01-22-night-day",
+    "title": "Night & Day",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-01-22T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "eclipse",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "scott-lee-karst",
+        "musicians": []
+      },
+      {
+        "workId": "molly-herron-ebb-tide",
+        "musicians": []
+      },
+      {
+        "workId": "sebastian-currier-night-time",
+        "musicians": []
+      },
+      {
+        "workId": "einojuhani-rautavaara-unknown-heavens",
+        "musicians": []
+      },
+      {
+        "workId": "sam-adams-sundial",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/nkVGyy-rnk4"
+  },
+  {
+    "concertId": "s08-2024-03-25-you-are-free",
+    "title": "You Are Free",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-03-25T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "freedom",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "sarah-kirkland-snider-you-are-free",
+        "musicians": []
+      },
+      {
+        "workId": "kyle-rivera-new-work",
+        "musicians": []
+      },
+      {
+        "workId": "shawn-okpebholo-distance",
+        "musicians": []
+      },
+      {
+        "workId": "ania-vu-five-in-one",
+        "musicians": []
+      },
+      {
+        "workId": "raven-chacon-voiceless-mass",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/GEZvHBODgc8"
+  },
+  {
+    "concertId": "s08-2024-04-15-angelica-negrons-greenfield-prize-performance",
+    "title": "Angélica Negrón's Greenfield Prize Performance",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-04-15T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "the-hermitage-artist-retreat",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "angelica-negron-azul-naranja-salado",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-dallas-program-1",
+    "title": "Parisian Refraction - Dallas: Program #1",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Conor Hanick: Solo Piano Recital",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "southern-methodist-university",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-book-of-sounds",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-dallas-program-2",
+    "title": "Parisian Refraction - Dallas: Program #2",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Spotlight on Unsuk Chin",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "southern-methodist-university",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-acrostic-wordplay",
+        "musicians": []
+      },
+      {
+        "workId": "-graal-theatre",
+        "musicians": []
+      },
+      {
+        "workId": "-double-concerto",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-dallas-program-3",
+    "title": "Parisian Refraction - Dallas: Program #3",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Kafka Fragments",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "southern-methodist-university",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-kafka-fragments",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-dallas-program-4",
+    "title": "Parisian Refraction - Dallas: Program #4",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "southern-methodist-university",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-klang-hour-two-freude",
+        "musicians": []
+      },
+      {
+        "workId": "-sur-incises",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-1",
+    "title": "Parisian Refraction - Sarasota: Program #1",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Conor Hanick: Solo Piano Recital",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-book-of-sounds",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-2",
+    "title": "Parisian Refraction - Sarasota: Program #2",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Spotlight on Unsuk Chin",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-acrostic-wordplay",
+        "musicians": []
+      },
+      {
+        "workId": "-graal-theatre",
+        "musicians": []
+      },
+      {
+        "workId": "-double-concerto",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-3",
+    "title": "Parisian Refraction - Sarasota: Program #3",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "Kafka Fragments",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-kafka-fragments",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s08-2024-05-09-parisian-refraction-sarasota-program-4",
+    "title": "Parisian Refraction - Sarasota: Program #4",
+    "subtitle": "A Micro-Festival of Recent Masterworks for Soloists and Ensemble",
+    "description": "",
+    "date": "2024-05-09T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s08",
+    "venueId": "the-ringling-museum",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "-klang-hour-two-freude",
+        "musicians": []
+      },
+      {
+        "workId": "-sur-incises",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s09-2024-09-23-night-reflected",
+    "title": "Night, Reflected",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-09-23T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "glass",
+    "streamingPageUrl": "/streaming/s09/2024-09-23-night-reflected",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "kevin-day-glasshouse",
+        "musicians": []
+      },
+      {
+        "workId": "sofia-gubaidulina-string-quartet-no-2",
+        "musicians": []
+      },
+      {
+        "workId": "arlene-sierra-avian-mirrors",
+        "musicians": []
+      },
+      {
+        "workId": "chris-stark-stars-in-dead-reflection",
+        "musicians": []
+      },
+      {
+        "workId": "shawn-allison-night-rituals",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/bkQ3w5akiFw"
+  },
+  {
+    "concertId": "s09-2024-10-07-suncoast-fellowship-concert",
+    "title": "Suncoast Fellowship Concert",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-10-07T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "/streaming/s09/2024-10-07-suncoast-fellowship-concert",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "treya-nash-nothing-motorized",
+        "musicians": []
+      },
+      {
+        "workId": "daniel-gostelow-the-piercing-blazing-bell-amidst-intertwined-swirls-of-musical-shoal-water-the-painting-drowned-in-its-own-sound",
+        "musicians": []
+      },
+      {
+        "workId": "david-acevedo-three-and-a-half-meditations",
+        "musicians": []
+      },
+      {
+        "workId": "daniel-gostelow-playbox-cadenza",
+        "musicians": []
+      },
+      {
+        "workId": "sean-quinn-can-i-forget-the-rising-sun",
+        "musicians": []
+      },
+      {
+        "workId": "joshua-muetzel-mercurial-spell",
+        "musicians": []
+      },
+      {
+        "workId": "max-gibson-those-stones-watching-over-lochs-through-time",
+        "musicians": []
+      },
+      {
+        "workId": "david-acevedo-bragdon-wood",
+        "musicians": []
+      },
+      {
+        "workId": "joshua-muetzel-night",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s09-2024-11-25-ives-and-schoenberg-at-150",
+    "title": "Ives and Schoenberg at 150",
+    "subtitle": "",
+    "description": "",
+    "date": "2024-11-25T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "serial",
+    "streamingPageUrl": "/streaming/s09/2024-11-25-ives-and-schoenberg-at-150",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "arnold-schoenberg-pierrot-lunaire",
+        "musicians": []
+      },
+      {
+        "workId": "charles-ives-piano-sonata-no-2-concord-mass-184060",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/x6WsVpKE828"
+  },
+  {
+    "concertId": "s09-2025-01-13-visions-and-miracles",
+    "title": "Visions and Miracles",
+    "subtitle": "",
+    "description": "",
+    "date": "2025-01-13T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "dreamscape",
+    "streamingPageUrl": "/streaming/s09/2025-01-13-visions-and-miracles",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "anna-clyne-rest-these-hands",
+        "musicians": []
+      },
+      {
+        "workId": "chris-theofanidis-visions-and-miracles",
+        "musicians": []
+      },
+      {
+        "workId": "dai-wei-how-the-stars-vanish",
+        "musicians": []
+      },
+      {
+        "workId": "han-lash-how-to-remember-seeds",
+        "musicians": []
+      },
+      {
+        "workId": "gabriela-lena-frank-milagros",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/HJzQLlQuoP4"
+  },
+  {
+    "concertId": "s09-2025-02-17-truth-and-mayhem",
+    "title": "Truth and Mayhem",
+    "subtitle": "",
+    "description": "",
+    "date": "2025-02-17T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "realchaos",
+    "streamingPageUrl": "/streaming/s09/2025-02-17-truth-and-mayhem",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "jonathan-cziner-music-for-the-temple",
+        "musicians": []
+      },
+      {
+        "workId": "ellen-reid-fearrelease",
+        "musicians": []
+      },
+      {
+        "workId": "nico-muhly-pillaging-music",
+        "musicians": []
+      },
+      {
+        "workId": "tan-dun-elegy-snow-in-june",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/AvSpwsUicdE"
+  },
+  {
+    "concertId": "s09-2025-03-17-critical-moments",
+    "title": "Critical Moments",
+    "subtitle": "",
+    "description": "",
+    "date": "2025-03-17T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "watershed",
+    "streamingPageUrl": "/streaming/s09/2025-03-17-critical-moments",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "kenji-bunch-until-next-time",
+        "musicians": []
+      },
+      {
+        "workId": "george-perle-critical-moments",
+        "musicians": []
+      },
+      {
+        "workId": "paul-mortilla-rota-fortunae",
+        "musicians": []
+      },
+      {
+        "workId": "carolyn-chen-oceans-in-oceans",
+        "musicians": []
+      },
+      {
+        "workId": "marcos-balter-violin-concerto",
+        "musicians": []
+      }
+    ],
+    "status": "completed",
+    "youTubeUrl": "https://www.youtube.com/live/NqraWO3SyKc"
+  },
+  {
+    "concertId": "s09-2025-05-12-jagden-und-formen",
+    "title": "Jagden und Formen",
+    "subtitle": "",
+    "description": "",
+    "date": "2025-05-12T00:00:00.000Z",
+    "time": "",
+    "seasonId": "s09",
+    "venueId": "sarasota-opera-house",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "",
+    "streamingPageUrl": "/streaming/s09/2025-05-12-jagden-und-formen",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "wolfgang-rihm-jagden-und-formen-hunts-and-forms",
+        "musicians": []
+      }
+    ],
+    "status": "completed"
+  },
+  {
+    "concertId": "s10-2025-10-27-tangled-whispers",
+    "title": "Tangled Whispers",
+    "subtitle": "",
+    "description": "enSRQ launches its historic 10th Season with a kaleidoscopic evening of American voices, past and present. Sebastian Currier’s *Whispers* opens the program with fleeting fragments and shimmering textures that seem to vanish as quickly as they appear. Amy Williams’ newly commissioned *Tangled Madrigal*—written for string quartet—spins baroque inspired counterpoint into a vibrant contemporary tapestry. Jerod Tate’s *Inchokkillissa*, for guitar and percussion, draws on Chickasaw imagery to create a rhythmic, ceremonial sound world. Closing the night, Elliott Carter’s *Triple Duo* pits three instrumental pairs in a brilliant, high-energy dialogue—music of wit, virtuosity, and fearless invention.",
+    "shortDescription": "enSRQ’s 10th Season begins with a dazzling portrait of American creativity, from Sebastian Currier’s elusive *Whispers* to Amy Williams’ brand-new *Tangled Madrigal*. Jerod Tate’s *Inchokkillissa* pulses with Chickasaw-inspired rhythms, while Elliott Carter’s *Triple Duo* closes the night with exhilarating, high-wire interplay.",
+    "oneLiner": "American voices collide and intertwine in a vibrant season opener of shimmering whispers, tangled lines, and electrifying interplay.",
+    "date": "2025-10-27T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/tangled-whispers-live"
+      },
+      "singleStreaming": {
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/tangled-whispers-streaming"
+      }
+    },
+    "streamingPagePassword": "choctaw",
+    "streamingPageUrl": "/streaming/s10/2025-10-27-tangled-whispers",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "sebastian-currier-whispers",
+        "musicians": [
+          "",
+          "",
+          "",
+          "",
+          "george-nickson"
+        ]
+      },
+      {
+        "workId": "amy-williams-tangled-madrigal",
+        "musicians": []
+      },
+      {
+        "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
+        "musicians": [
+          "mark-dacigers",
+          "george-nickson"
+        ]
+      },
+      {
+        "workId": "elliott-carter-triple-duo",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming",
+    "youTubeUrl": ""
+  },
+  {
+    "concertId": "s10-2025-12-08-songbird",
+    "title": "Songbird",
+    "subtitle": "",
+    "description": "enSRQ’s second concert of the season takes flight with music that sings, soars, and stirs. Reiko Füting’s *procession–process:peace* weaves fragments of the *dona nobis pacem* into a meditative journey for strings, clarinet, and piano. Juri Seo’s *Songbird* lets a lush ensemble of strings bloom with lyrical elegance and subtle dissonance. The evening also features a world premiere from Diallo Banks, written for enSRQ, alongside Michael Ippolito’s *Songlines*, a string quartet inspired by ancient narratives and imagined journeys.",
+    "shortDescription": "From whispered prayers to whirring wings, enSRQ’s winter program takes listeners on a sonic migration. Works by Füting, Seo, Banks, and Ippolito explore peace, memory, the natural world, and the deep stories that connect us.",
+    "oneLiner": "Music that soars, hums, and dreams—five composers trace a lyrical flight from prayer to songlines.",
+    "date": "2025-12-08T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/songbird-live"
+      },
+      "singleStreaming": {
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/songbird-streaming"
+      }
+    },
+    "streamingPagePassword": "sorise",
+    "streamingPageUrl": "/streaming/s10/2025-12-08-songbird",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
+        "musicians": []
+      },
+      {
+        "workId": "juri-seo-songbird",
+        "musicians": []
+      },
+      {
+        "workId": "vivian-fung-string-quartet-no-4-insects-and-machines",
+        "musicians": []
+      },
+      {
+        "workId": "diallo-banks-new-work",
+        "musicians": []
+      },
+      {
+        "workId": "michael-ippolito-string-quartet-no-3-songlines",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "concertId": "s10-2026-01-19-goldbeaters-skin",
+    "title": "Goldbeater's Skin",
+    "subtitle": "",
+    "description": "Shimmer, strike, and sing—enSRQ’s January program explores sound in its most elemental and tactile forms. Nina C. Young’s *Sun Propeller* spins solo violin lines through a prism of live electronics. Claude Vivier’s *Learning* fuses four violins, percussion, and tape into a mysterious sonic ritual. Shawn Allison’s world premiere, inspired by the surreal poetry of Russell Edson and written for enSRQ’s artistic directors, pairs violin and percussion in a vivid cross-disciplinary dialogue. Closing the night, Chris Cerrone’s *Goldbeater’s Skin*—for percussion quartet and mezzo-soprano Thea Lobo—alternates luminous melodic development with glittering rhythmic outbursts.",
+    "shortDescription": "From the shimmer of strings to the strike of percussion, enSRQ’s midseason program revels in sound’s tactile beauty. Works by Young, Vivier, Allison, and Cerrone blur ritual, poetry, and song into a luminous winter night.",
+    "oneLiner": "Strings, percussion, and voice converge in a lush winter journey of shimmer, ritual, and song.",
+    "date": "2026-01-19T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/goldbeaters-skin"
+      },
+      "singleStreaming": {
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/goldbeaters-skin-streaming"
+      }
+    },
+    "streamingPagePassword": "whathappensnext",
+    "streamingPageUrl": "/streaming/s10/2026-01-19-goldbeaters-skin",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "nina-c-young-sun-propeller",
+        "musicians": []
+      },
+      {
+        "workId": "claude-vivier-learning",
+        "musicians": []
+      },
+      {
+        "workId": "shawn-allison-new-work",
+        "musicians": []
+      },
+      {
+        "workId": "christopher-cerrone-goldbeaters-skin",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "concertId": "s10-2026-02-23-retrospektiv",
+    "title": "Retrospektiv",
+    "subtitle": "",
+    "description": "Marking a decade of fearless artistry, enSRQ looks back on the works that have inspired both musicians and audiences over the past ten years—while also showcasing exciting new voices. Caroline Shaw’s *Entr’acte* reframes the elegance of classical form through a contemporary lens. A new co-commission from Che Buford arrives as part of the Cross-Country Chamber Consortium, brimming with fresh ideas and vivid color. Roger Zare’s *Finding Equilibrium*, a world premiere, pairs string quartet with bass clarinet in a balance of lyricism and energy. Closing the evening, Kevin Puts’ *And Legions Will Rise* sends violin, clarinet, and marimba into an exhilarating, uplifting culmination.",
+    "shortDescription": "A 10th Season celebration of enSRQ favorites and new discoveries. Works by Shaw, Buford, Zare, and Puts weave past triumphs with bold premieres in a program alive with memory and momentum.",
+    "oneLiner": "Past and future converge in a decade-spanning program of beloved works and bold new voices.",
+    "date": "2026-02-23T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/retrospektiv-live"
+      },
+      "singleStreaming": {
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/retrospektiv-streaming"
+      }
+    },
+    "streamingPagePassword": "mirror",
+    "streamingPageUrl": "/streaming/s10/2026-02-23-retrospektiv",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "caroline-shaw-entracte",
+        "musicians": []
+      },
+      {
+        "workId": "che-buford-new-work",
+        "musicians": []
+      },
+      {
+        "workId": "andrew-thomas-3-transformations",
+        "musicians": []
+      },
+      {
+        "workId": "roger-zare-finding-equilibrium",
+        "musicians": []
+      },
+      {
+        "workId": "kevin-puts-and-legions-will-rise",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "concertId": "s10-2026-04-24-music-for-18-musicians",
+    "title": "Music for 18 Musicians",
+    "subtitle": "",
+    "description": "2026 brings a rare alignment of milestones: the 50th anniversary of Steve Reich’s *Music for 18 Musicians*, the composer’s 90th birthday, and enSRQ’s own 10th season. Reich’s groundbreaking 1976 work remains one of the most iconic statements in contemporary music—a luminous tapestry of interlocking rhythms, pulsing harmonies, and slowly shifting patterns that seem to suspend time. Presenting this masterpiece in celebration of its golden anniversary is both an homage to a living legend and a reaffirmation of enSRQ’s dedication to adventurous, transformative performance.",
+    "shortDescription": "enSRQ joins the world in celebrating Steve Reich’s 90th birthday and the 50th anniversary of his hypnotic masterpiece, a radiant landmark of minimalist music and a fitting tribute to our own 10th season.",
+    "oneLiner": "A luminous convergence of anniversaries—Reich at 90, *Music for 18 Musicians* at 50, and enSRQ at 10.",
+    "date": "2026-04-24T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "sarasota-opera-house",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/music-for-18-live"
+      },
+      "singleStreaming": {
+        "price": 10,
+        "url": "https://ensrq.ticketspice.com/music-for-18-streaming"
+      }
+    },
+    "streamingPagePassword": "additive",
+    "streamingPageUrl": "/streaming/s10/2026-04-24-music-for-18-musicians",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "steve-reich-music-for-18-musicians",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "concertId": "s10-2026-05-22-music-for-new-bodies",
+    "title": "Music for New Bodies",
+    "subtitle": "",
+    "description": "",
+    "date": "2026-05-22T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "sarasota-opera-house",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "streamingPagePassword": "bionic",
+    "streamingPageUrl": "/streaming/s10/2026-05-22-music-for-new-bodies",
+    "sponsors": "",
+    "program": [
+      {
+        "workId": "matthew-aucoin-music-for-new-bodies",
+        "musicians": []
+      }
+    ],
+    "status": "upcoming"
+  }
+]
