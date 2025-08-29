@@ -1,4 +1,6 @@
+
 import { Footer } from "@/components/organisms";
+
 
 import SideNavBar from "@/components/organisms/SideNavBar";
 import type { Metadata } from "next";
@@ -6,8 +8,8 @@ import "../styles/globals.css";
 import HojoonKimFooter from '../components/atoms/HojoonKim';
 
 export const metadata: Metadata = {
-  title: "enSRQ",
-  description: "enSRQ",
+  title: "ensembleNewSRQ",
+  description: "ensembleNewSRQ",
 };
 
 export default function RootLayout({

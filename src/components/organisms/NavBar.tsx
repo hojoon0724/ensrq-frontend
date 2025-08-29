@@ -7,6 +7,7 @@ import { formatSeasonLabel } from "@/utils/textFormat";
 import Link from "next/link";
 import { useRef, useState } from "react";
 
+
 const links_active = true;
 
 const navItems = links_active
