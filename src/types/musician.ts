@@ -8,6 +8,8 @@ export interface Musician {
   name: string;
   instrument: string;
   bio?: string;
+  photos?: string[];
+  preferredPhoto?: string;
   createdAt: string;
   updatedAt: string;
 }

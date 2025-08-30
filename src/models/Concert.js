@@ -51,6 +51,12 @@ const concertSchema = new mongoose.Schema(
         logoFileName: { type: String, trim: true },
       },
     ],
+    additionalPhotos: [
+      {
+        type: String,
+        trim: true,
+      },
+    ],
   },
   {
     timestamps: true,

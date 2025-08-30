@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "next lint",
     "fetch-all-data": "node scripts/fetch-from-mongodb.js all",
-    "convert-graphics": "node scripts/convert-and-catalog-webp.js"
+    "convert-graphics": "node scripts/process-graphics.js",
+    "sync-shared": "node scripts/sync-shared.js"
   },
   "dependencies": {
     "dotenv": "^17.2.1",
