@@ -16,6 +16,16 @@ export function loadExistingManifest() {
   return {};
 }
 
+export async function readManifest() {
+  try {
+    const data = await fsPromises.readFile(CONFIG.manifestFile, "utf8");
+    return JSON.parse(data);
+  } catch (err) {
+    console.warn(`Could not read manifest: ${err.message}`);
+    return {};
+  }
+}
+
 export async function writeManifest(manifest) {
   if (!CONFIG.dryRun) {
     await fsPromises.mkdir(path.dirname(CONFIG.manifestFile), { recursive: true });

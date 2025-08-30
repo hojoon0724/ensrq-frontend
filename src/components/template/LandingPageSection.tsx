@@ -1,9 +1,10 @@
-import { Button, CountUpToTarget, FitText, FitTextWithPadding } from "@/components/atoms";
+import { Button, CountUpToTarget, FitText, FitTextWithPadding, Image } from "@/components/atoms";
 import { CarouselItem, PhotoMarquee } from "@/components/molecules";
 import { Carousel } from "@/components/organisms";
 import { SectionEmpty, SectionMeshGradient } from "@/components/sections";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import allConcerts from "@/data/serve/concerts.json";
+import allSeasons from "@/data/serve/seasons.json";
 import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
 import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
@@ -17,14 +18,10 @@ const seasons = {
   year2: { start: 2017, end: 2026 },
 };
 
-const currentSeasonConcertIds = [
-  "s10-2025-10-27-tangled-whispers",
-  "s10-2025-12-08-songbird",
-  "s10-2026-01-19-goldbeaters-skin",
-  "s10-2026-02-23-retrospektiv",
-  "s10-2026-04-24-music-for-18-musicians",
-  "s10-2026-05-22-music-for-new-bodies",
-];
+const currentSeason = "s10";
+const currentSeasonData = allSeasons.find((season) => season.seasonId === currentSeason);
+
+const currentSeasonConcertIds = currentSeasonData?.concerts || [];
 
 const concertColorThemes: Record<string, string> = {
   "s10-2025-10-27-tangled-whispers": "water",
@@ -34,6 +31,16 @@ const concertColorThemes: Record<string, string> = {
   "s10-2026-04-24-music-for-18-musicians": "sky",
   "s10-2026-05-22-music-for-new-bodies": "water",
 };
+
+const welcomeText = [
+  "It’s Season Nine of ensembleNEWSRQ!",
+  "While the obvious rhyme for this year is ‘Nine is Fine’, just fine simply won’t cut it. So, dear patrons, with your permission, we’d like to declare: Season Nine is DIVINE. We’re so thrilled to bring you a season packed to the brim with six incredible subscription programs (anchored by our local enSRQ Artists), two commissions and world premieres, the second annual Suncoast Composer Fellowship, and enSRQ’s return to the Sarasota Opera House for our season finale in May.",
+  "Our Ninth Season opens in September with a powerful display of today’s mosst talented and diverse compositional voices with ‘Night, Reflected’. In November we feature Stephen Drury (a legend of contemporary piano repertoire) who brings his authoritative interpretation of Charles Ives’ Concord Sonata to Sarasota. Along with local star Thea Lobo and Samantha Bennett, this program honors the 150th Birthdays of two composers (‘Ives & Schoenberg’) that paved the way for the 21st century musical landscape. In January, a string quartet program speaks to the transient beauty of the things we cannot see (Visions & Miracles). In February,our percussion feature will bring down the house with four works (including a premiere from Paul Mortilla and a very special surprise guest) with ‘Truth & Mayhem’. In March, ‘Critical Moments’ showcases our second commission from Kitty Xiao and other musical gems for ensembles large and small.",
+  "Finally, in May we’ll present a capstone performance, honoring the recent passing of Wolfgang Rihm, with his monumental ‘Jagden und Formen’ (Hunts & Forms) featuring enSRQ favorite Conor Hanick in our return to the Sarasota Opera House.",
+  "Fellow musical travelers, get ready to embark once more upon a journey of profound musical contrasts: joy and sorrow, chaos and beauty. We can’t wait for you to join us for INCREDIBLE new music this season.",
+  "With dynamic chromaticism,",
+  "Samantha + George",
+];
 
 const currentSeasonConcertData = currentSeasonConcertIds
   .map((concertId) => allConcerts.find((concert) => concert.concertId === concertId))
@@ -84,39 +91,58 @@ export function LandingPageSection() {
         {/* season splash */}
         <CarouselItem>
           <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light">
-            <div className={`min-h-[50svh] w-full flex flex-col justify-center items-center p-12`}>
-              <Link href="/seasons/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
-                <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
-                  Season&nbsp;{""}
+            <div className={`min-h-[50svh] w-full flex flex-col justify-between items-center p-12`}>
+              <div></div>
+              <div className="center-container w-full h-full justify-center items-center flex flex-col gap-s text-center">
+                <Link href="/seasons/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
+                  <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
+                    Season&nbsp;{""}
+                    <CountUpToTarget
+                      startValue={seasons.number.start}
+                      targetValue={seasons.number.end}
+                      duration={duration}
+                      delay={delay}
+                      easing="ease-out"
+                      transition="none"
+                    />
+                  </FitTextWithPadding>
+                </Link>
+                <h3>
                   <CountUpToTarget
-                    startValue={seasons.number.start}
-                    targetValue={seasons.number.end}
+                    startValue={seasons.year1.start}
+                    targetValue={seasons.year1.end}
+                    duration={duration}
+                    delay={delay}
+                    easing="ease-out"
+                    transition="none"
+                  />{" "}
+                  -{" "}
+                  <CountUpToTarget
+                    startValue={seasons.year2.start}
+                    targetValue={seasons.year2.end}
                     duration={duration}
                     delay={delay}
                     easing="ease-out"
                     transition="none"
                   />
-                </FitTextWithPadding>
-              </Link>
-              <h3>
-                <CountUpToTarget
-                  startValue={seasons.year1.start}
-                  targetValue={seasons.year1.end}
-                  duration={duration}
-                  delay={delay}
-                  easing="ease-out"
-                  transition="none"
-                />{" "}
-                -{" "}
-                <CountUpToTarget
-                  startValue={seasons.year2.start}
-                  targetValue={seasons.year2.end}
-                  duration={duration}
-                  delay={delay}
-                  easing="ease-out"
-                  transition="none"
-                />
-              </h3>
+                </h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-s">
+                <Link href={currentSeasonData?.ticketsLinks?.seasonLive?.url || "#"} className="w-full" target="_blank">
+                  <Button variant="filled" size="lg" className="w-full">
+                    Live Season Pass
+                  </Button>
+                </Link>
+                <Link
+                  href={currentSeasonData?.ticketsLinks?.seasonStreaming?.url || "#"}
+                  className="w-full"
+                  target="_blank"
+                >
+                  <Button variant="filled" size="lg" className="w-full">
+                    Live Streaming Season Pass
+                  </Button>
+                </Link>
+              </div>
             </div>
           </SectionMeshGradient>
         </CarouselItem>
@@ -393,6 +419,32 @@ export function LandingPageSection() {
               </div>
             </Link>
           ))}
+        </div>
+      </SectionEmpty>
+      <SectionEmpty themeColor="sky" tone="dark">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-s">
+          <div className="image-container relative w-full h-full aspect-[5/4]">
+            <Image src="/photos/about/about-ensrq-10.webp" alt="george and samantha photo" />
+          </div>
+          <div className="season-welcome-text-container text-gray-30 flex justify-center items-center flex-col">
+            {welcomeText.map((line, index) => (
+              <p
+                className={`${index < welcomeText.length - 2 ? "mb-4 text-justify w-full" : "w-full text-right"} pretty`}
+                key={index}
+              >
+                {line}
+              </p>
+            ))}
+          </div>
+        </div>
+      </SectionEmpty>
+      <SectionEmpty themeColor="sky" tone="dark">
+        <div className="cta mb-s">
+          <Link href={`/seasons/${currentSeason}`} className="w-full">
+            <Button variant="filled" size="xl" className="w-full">
+              Explore the Season
+            </Button>
+          </Link>
         </div>
       </SectionEmpty>
     </>

@@ -21,10 +21,20 @@ export default function PhotoFocusCheckPage() {
               <div className="info p-s">
                 <div className="photo">{key.slice(18)}</div>
                 <div className="coordinates">
-                  x: {photoAssets[key].focus?.x ? (photoAssets[key].focus?.x * 100).toFixed(2) : 0}
+                  x:{" "}
+                  {photoAssets[key].focus?.x ? (
+                    (photoAssets[key].focus?.x * 100).toFixed(2)
+                  ) : (
+                    <span className="text-red-600">none</span>
+                  )}
                 </div>
                 <div className="coordinates">
-                  y: {photoAssets[key].focus?.y ? (photoAssets[key].focus?.y * 100).toFixed(2) : 0}
+                  y:{" "}
+                  {photoAssets[key].focus?.y ? (
+                    (photoAssets[key].focus?.y * 100).toFixed(2)
+                  ) : (
+                    <span className="text-red-600">none</span>
+                  )}
                 </div>
               </div>
             </div>

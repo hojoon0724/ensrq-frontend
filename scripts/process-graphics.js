@@ -1,8 +1,11 @@
+import path from "path";
 import { CONFIG } from "./config.js";
-import { walkAllImages, walkAllWebpFiles, moveOriginalFile, normalizeFilename } from "./lib/file-utils.js";
+import { addAvailablePhotos } from "./lib/add-available-photos.js";
+import { checkForMissingFiles } from "./lib/check-missing-files.js";
 import { convertToWebp } from "./lib/conversion.js";
+import { getFaceFocusPoint, loadFaceApiModels } from "./lib/face-detection.js";
+import { moveOriginalFile, normalizeFilename, walkAllImages, walkAllWebpFiles } from "./lib/file-utils.js";
 import { buildManifest, writeManifest } from "./lib/manifest.js";
-import { loadFaceApiModels, getFaceFocusPoint } from "./lib/face-detection.js";
 
 async function main() {
   console.log(CONFIG.dryRun ? "🔍 DRY RUN MODE" : "⚡ Running full image pipeline");
@@ -49,9 +52,17 @@ async function main() {
   // Step 6: Build the manifest using detected focus coordinates
   console.log("Building manifest...");
   const manifest = buildManifest(allWebpFiles, faceFocusMap);
-  await writeManifest(manifest);
 
-  // Step 7: Move original files to /src/original-jpg/
+  // Step 7: Check for missing files and mark them in the manifest
+  console.log("Checking for missing files...");
+  const updatedManifest = await checkForMissingFiles(manifest, CONFIG.publicDir);
+  await writeManifest(updatedManifest);
+
+  // Step 8: Add available photos to composer and musician JSON files
+  console.log("Adding available photos to JSON files...");
+  await addAvailablePhotos();
+
+  // Step 9: Move original files to /src/original-jpg/
   console.log("Moving original files...");
   for (const img of jpgImages) {
     await moveOriginalFile(img);
@@ -60,7 +71,7 @@ async function main() {
   console.log("\n✅ Pipeline complete!");
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error("Pipeline failed:", err);
   process.exit(1);
 });
