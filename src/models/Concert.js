@@ -32,6 +32,8 @@ const concertSchema = new mongoose.Schema(
     title: { type: String, required: true, trim: true },
     subtitle: { type: String, trim: true },
     description: { type: String, trim: true },
+    shortDescription: { type: String, trim: true },
+    oneLiner: { type: String, trim: true },
     date: { type: Date, required: true },
     time: { type: String, trim: true },
     seasonId: { type: String, ref: "Season", trim: true },
