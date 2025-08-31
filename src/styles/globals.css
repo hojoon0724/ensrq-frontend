@@ -45,6 +45,9 @@ a .anchor {
 ul, li {
   /* @apply border border-red-600; */
 }
+.bb{
+  @apply bg-yellow-700
+}
 
 /* * {
   outline: 1px solid rgba(255, 0, 0, 0.5);

@@ -8,6 +8,7 @@ type MeshGradientManualCurvesProps = {
   speed?: number;
   backgroundColor?: string;
   tone?: "light" | "dark";
+  blendMode?: "multiply" | "screen" | "source-over" | "overlay" | "darken" | "lighten";
   baselineWidth?: number;
   lineCount?: number;
   nodeCount?: number;
@@ -63,6 +64,7 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
   speed = 0,
   backgroundColor = "transparent",
   tone = "light",
+  blendMode = "multiply",
   baselineWidth = 20,
   lineCount = 6,
   nodeCount = 4,
@@ -162,7 +164,8 @@ export const MeshGradientManualCurves: React.FC<MeshGradientManualCurvesProps> =
       }
 
       // Set blend mode based on tone
-      const globalCompositeOperation = tone === "dark" ? "multiply" : "source-over";
+      const globalCompositeOperation = blendMode;
+      // const globalCompositeOperation = tone === "dark" ? "multiply" : "source-over";
 
       curvesRef.current.forEach((curve, curveIndex) => {
         const { points, color } = curve;
