@@ -3,7 +3,7 @@
 @import "./_colors.css";
 @import "./_semantics.css";
 @import "./_typography.css";
-@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 @import url("https://use.typekit.net/muw0xyx.css");
 
 :root {
