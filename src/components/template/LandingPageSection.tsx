@@ -90,11 +90,14 @@ export function LandingPageSection() {
       <Carousel autoPlay={true} autoPlayInterval={8000} className="h-[max(50svh,600px)] shadow-lg">
         {/* season splash */}
         <CarouselItem>
-          <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light">
-            <div className={`min-h-[50svh] w-full flex flex-col justify-between items-center p-12`}>
+          <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light" className="h-full">
+            <div className={`min-h-[50svh] h-full w-full flex flex-col justify-between items-center p-[3%]`}>
               <div></div>
               <div className="center-container w-full h-full justify-center items-center flex flex-col gap-s text-center">
-                <Link href="/seasons/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
+                <Link
+                  href="/seasons/s10"
+                  className="w-full flex gap-[1ch] justify-center items-center museo-slab leading-none"
+                >
                   <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
                     Season&nbsp;{""}
                     <CountUpToTarget
@@ -150,7 +153,7 @@ export function LandingPageSection() {
         {/* next concert */}
         {upcomingConcerts
           .filter((concert) => new Date(concert.date) >= new Date())
-          .slice(0, 1)
+          .slice(0, 0)
           .map((concert) => (
             <CarouselItem key={concert.concertId} className="relative flex-1 w-full h-full">
               {/* Background mesh gradient */}
