@@ -488,10 +488,23 @@
     "movements": [],
     "instrumentation": [
       {
-        "instrument": "TBD",
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
         "count": 1
       }
-    ]
+    ],
+    "description": ""
   },
   {
     "workId": "chris-neiner-infinite-spinning",
@@ -2565,10 +2578,67 @@
     "movements": [],
     "instrumentation": [
       {
-        "instrument": "large-ensemble",
+        "instrument": "conductor",
+        "count": 1
+      },
+      {
+        "instrument": "voice",
+        "count": 5
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "flute",
+        "count": 1
+      },
+      {
+        "instrument": "oboe",
+        "count": 1
+      },
+      {
+        "instrument": "clarinet",
+        "count": 1
+      },
+      {
+        "instrument": "bassoon",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 4
+      },
+      {
+        "instrument": "harp",
+        "count": 1
+      },
+      {
+        "instrument": "piano",
+        "count": 1
+      },
+      {
+        "instrument": "keyboard",
+        "count": 1
+      },
+      {
+        "instrument": "violin",
+        "count": 2
+      },
+      {
+        "instrument": "viola",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 2
+      },
+      {
+        "instrument": "double bass",
         "count": 1
       }
-    ]
+    ],
+    "description": ""
   },
   {
     "workId": "matthew-aucoin-the-orphic-moment",
@@ -3721,10 +3791,31 @@
     "movements": [],
     "instrumentation": [
       {
-        "instrument": "musicians",
-        "count": 18
+        "instrument": "piano",
+        "count": 4
+      },
+      {
+        "instrument": "voice",
+        "count": 4
+      },
+      {
+        "instrument": "bass clarinet",
+        "count": 2
+      },
+      {
+        "instrument": "violin",
+        "count": 1
+      },
+      {
+        "instrument": "cello",
+        "count": 1
+      },
+      {
+        "instrument": "percussion",
+        "count": 6
       }
-    ]
+    ],
+    "description": ""
   },
   {
     "workId": "tan-dun-8-colors-for-string-quartet",

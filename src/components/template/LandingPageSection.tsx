@@ -1,13 +1,15 @@
-import { Button, CountUpToTarget, FitText, FitTextWithPadding } from "@/components/atoms";
+import { Button, CountUpToTarget, FitText, FitTextWithPadding, Image } from "@/components/atoms";
 import { CarouselItem, PhotoMarquee } from "@/components/molecules";
 import { Carousel } from "@/components/organisms";
 import { SectionEmpty, SectionMeshGradient } from "@/components/sections";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
 import allConcerts from "@/data/serve/concerts.json";
+import allSeasons from "@/data/serve/seasons.json";
 import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
 import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
+import ReactMarkdown from 'react-markdown';
 
 const duration = 2000;
 const delay = 300;
@@ -17,14 +19,10 @@ const seasons = {
   year2: { start: 2017, end: 2026 },
 };
 
-const currentSeasonConcertIds = [
-  "s10-2025-10-27-tangled-whispers",
-  "s10-2025-12-08-songbird",
-  "s10-2026-01-19-goldbeaters-skin",
-  "s10-2026-02-23-retrospektiv",
-  "s10-2026-04-24-music-for-18-musicians",
-  "s10-2026-05-22-music-for-new-bodies",
-];
+const currentSeason = "s10";
+const currentSeasonData = allSeasons.find((season) => season.seasonId === currentSeason);
+
+const currentSeasonConcertIds = currentSeasonData?.concerts || [];
 
 const concertColorThemes: Record<string, string> = {
   "s10-2025-10-27-tangled-whispers": "water",
@@ -34,6 +32,25 @@ const concertColorThemes: Record<string, string> = {
   "s10-2026-04-24-music-for-18-musicians": "sky",
   "s10-2026-05-22-music-for-new-bodies": "water",
 };
+
+const welcomeText = [
+  `**Welcome to our historic 10th Season of ensembleNEWSRQ!**`,
+
+  `Ten years in stride, with music as our guide—this decade of sound is truly cause for celebration. We’re thrilled to bring you a season packed with six incredible subscription programs, three commissions, four world premieres, defining collaborations, bold new endeavors, and enSRQ’s triumphant return to the Sarasota Opera House—not once, but twice—for two unforgettable capstone events.`,
+
+  `Our historic 10th Season opens in October, where new American voices intertwine in a dazzling program of shimmering whispers, tangled counterpoint, and electrifying interplay. In December, four composers take flight in a lyrical journey of luminous textures, whirring wings, and resonant melodies—including the first of this season’s four premieres. January brings strings, percussion, and voice together in a lush winter journey of shimmer, ritual, and song, featuring Sarasota favorite Thea Lobo.`,
+
+  `Past and present collide in February with *Retrospektiv*, a 10th Season celebration of enSRQ favorites and bold new discoveries. Works by Shaw, Buford, Zare, and Puts weave past triumphs with fresh sounds in a program alive with memory and momentum.`,
+
+  `Our first Opera House presentation is truly momentous: *MUSIC FOR 18 MUSICIANS*. enSRQ joins the world in celebrating Steve Reich’s 90th birthday and the 50th anniversary of his hypnotic minimalist masterpiece—a historic landmark and a fitting tribute to our own milestone season.`,
+
+  `Finally, we partner with Artist Series Concerts of Sarasota in May to present Matthew Aucoin’s *Music for New Bodies*, created with acclaimed director Peter Sellars. This bold operatic meditation on humanity’s shifting place in the natural world fuses Jorie Graham’s poetic texts with Aucoin’s visceral soundscapes. Sellars’ visionary staging amplifies the work’s urgency and transcendence, inviting us to imagine new forms of life, connection, and transformation in an era defined by our evolving relationship with nature and technology.`,
+
+  `Dear audience, you’ve welcomed daring new works with open ears and hearts, and this year we honor that spirit with our boldest, most innovative season yet. Join us for this historic milestone—we can’t wait to celebrate with you!`,
+
+  `Yours in contrapuntal celebration,`,
+  `Samantha + George`,
+];
 
 const currentSeasonConcertData = currentSeasonConcertIds
   .map((concertId) => allConcerts.find((concert) => concert.concertId === concertId))
@@ -83,40 +100,62 @@ export function LandingPageSection() {
       <Carousel autoPlay={true} autoPlayInterval={8000} className="h-[max(50svh,600px)] shadow-lg">
         {/* season splash */}
         <CarouselItem>
-          <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light">
-            <div className={`min-h-[50svh] w-full flex flex-col justify-center items-center p-12`}>
-              <Link href="/seasons/s10" className="w-full flex gap-[1ch] justify-center items-center museo-slab">
-                <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
-                  Season&nbsp;{""}
+          <SectionMeshGradient color1="sand" backgroundColor="sand" tone="light" className="h-full">
+            <div className={`min-h-[50svh] h-full w-full flex flex-col justify-between items-center p-[3%]`}>
+              <div></div>
+              <div className="center-container w-full h-full justify-center items-center flex flex-col gap-s text-center">
+                <Link
+                  href="/seasons/s10"
+                  className="w-full flex gap-[1ch] justify-center items-center museo-slab leading-none"
+                >
+                  <FitTextWithPadding extraCharacters={1} maxFontSize={250}>
+                    Season&nbsp;{""}
+                    <CountUpToTarget
+                      startValue={seasons.number.start}
+                      targetValue={seasons.number.end}
+                      duration={duration}
+                      delay={delay}
+                      easing="ease-out"
+                      transition="none"
+                    />
+                  </FitTextWithPadding>
+                </Link>
+                <h3>
                   <CountUpToTarget
-                    startValue={seasons.number.start}
-                    targetValue={seasons.number.end}
+                    startValue={seasons.year1.start}
+                    targetValue={seasons.year1.end}
+                    duration={duration}
+                    delay={delay}
+                    easing="ease-out"
+                    transition="none"
+                  />{" "}
+                  -{" "}
+                  <CountUpToTarget
+                    startValue={seasons.year2.start}
+                    targetValue={seasons.year2.end}
                     duration={duration}
                     delay={delay}
                     easing="ease-out"
                     transition="none"
                   />
-                </FitTextWithPadding>
-              </Link>
-              <h3>
-                <CountUpToTarget
-                  startValue={seasons.year1.start}
-                  targetValue={seasons.year1.end}
-                  duration={duration}
-                  delay={delay}
-                  easing="ease-out"
-                  transition="none"
-                />{" "}
-                -{" "}
-                <CountUpToTarget
-                  startValue={seasons.year2.start}
-                  targetValue={seasons.year2.end}
-                  duration={duration}
-                  delay={delay}
-                  easing="ease-out"
-                  transition="none"
-                />
-              </h3>
+                </h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-s">
+                <Link href={currentSeasonData?.ticketsLinks?.seasonLive?.url || "#"} className="w-full" target="_blank">
+                  <Button variant="filled" size="lg" className="w-full">
+                    Live Season Pass
+                  </Button>
+                </Link>
+                <Link
+                  href={currentSeasonData?.ticketsLinks?.seasonStreaming?.url || "#"}
+                  className="w-full"
+                  target="_blank"
+                >
+                  <Button variant="filled" size="lg" className="w-full">
+                    Live Streaming Season Pass
+                  </Button>
+                </Link>
+              </div>
             </div>
           </SectionMeshGradient>
         </CarouselItem>
@@ -393,6 +432,34 @@ export function LandingPageSection() {
               </div>
             </Link>
           ))}
+        </div>
+      </SectionEmpty>
+      <SectionEmpty themeColor="sky" tone="dark">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-s">
+          <div className="lg:order-2 image-container relative w-full h-full aspect-[5/4]">
+            <div className="sticky h-full max-h-[calc(100svh-var(--standard-space-double))] top-s">
+              <Image src="/photos/about/about-ensrq-08-expanded.webp" alt="george and samantha photo" captionText="Photo by Matthew Holler"/>
+            </div>
+          </div>
+          <div className="season-welcome-text-container text-gray-30 flex justify-center items-center flex-col">
+            {welcomeText.map((line, index) => (
+              <div
+                className={`${index < welcomeText.length - 2 ? "mb-4 text-justify w-full" : "w-full text-right"} pretty`}
+                key={index}
+              >
+                <ReactMarkdown>{line}</ReactMarkdown>
+              </div>
+            ))}
+          </div>
+        </div>
+      </SectionEmpty>
+      <SectionEmpty themeColor="sky" tone="dark">
+        <div className="cta mb-s">
+          <Link href={`/seasons/${currentSeason}`} className="w-full">
+            <Button variant="filled" size="xl" className="w-full">
+              Explore the Season
+            </Button>
+          </Link>
         </div>
       </SectionEmpty>
     </>

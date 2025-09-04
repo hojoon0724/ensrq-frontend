@@ -5,7 +5,8 @@
     "nationality": "American",
     "born": null,
     "died": null,
-    "bio": ""
+    "bio": "",
+    "photos": []
   },
   {
     "composerId": "amy-williams",
@@ -13,785 +14,1129 @@
     "nationality": "American",
     "born": 1969,
     "died": null,
-    "bio": ""
+    "bio": "",
+    "photos": [
+      "amy-williams"
+    ]
   },
   {
     "composerId": "andreia-pinto-correia",
     "name": "Andreia Pinto Correia",
     "nationality": "Portuguese",
-    "born": 1971
+    "born": 1971,
+    "photos": []
   },
   {
     "composerId": "andrew-norman",
     "name": "Andrew Norman",
     "nationality": "American",
-    "born": 1979
+    "born": 1979,
+    "photos": []
   },
   {
     "composerId": "andrew-thomas",
     "name": "Andrew Thomas",
     "nationality": "American",
-    "born": 1939
+    "born": 1939,
+    "photos": [
+      "andrew-thomas"
+    ]
   },
   {
     "composerId": "angela-elizabeth-slater",
     "name": "Angela Elizabeth Slater",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "angelica-negron",
     "name": "Angélica Negrón",
     "nationality": "Puerto Rican",
-    "born": 1981
+    "born": 1981,
+    "photos": [
+      "angelica-negron",
+      "angelica-negron-1",
+      "angelica-negron-2"
+    ]
   },
   {
     "composerId": "ania-vu",
     "name": "Ania Vu",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "ania-vu",
+      "ania-vu-1"
+    ]
   },
   {
     "composerId": "anna-clyne",
     "name": "Anna Clyne",
     "nationality": "British",
-    "born": 1980
+    "born": 1980,
+    "photos": [
+      "anna-clyne"
+    ]
   },
   {
     "composerId": "anna-thorvaldsdottir",
     "name": "Anna Thorvaldsdottir",
-    "nationality": "Icelandic"
+    "nationality": "Icelandic",
+    "photos": [
+      "anna-thorvaldsdottir"
+    ]
   },
   {
     "composerId": "arlene-sierra",
     "name": "Arlene Sierra",
     "nationality": "American",
-    "born": 1970
+    "born": 1970,
+    "photos": [
+      "arlene-sierra"
+    ]
   },
   {
     "composerId": "arnold-schoenberg",
     "name": "Arnold Schoenberg",
     "nationality": "Austrian",
     "born": 1874,
-    "died": 1951
+    "died": 1951,
+    "photos": [
+      "arnold-schoenberg",
+      "arnold-schoenberg-1",
+      "arnold-schoenberg-2"
+    ]
   },
   {
     "composerId": "augusta-read-thomas",
     "name": "Augusta Read Thomas",
     "nationality": "American",
-    "born": 1964
+    "born": 1964,
+    "photos": []
   },
   {
     "composerId": "bohuslav-martinu",
     "name": "Bohuslav Martinu",
     "nationality": "Czech",
     "born": 1890,
-    "died": 1959
+    "died": 1959,
+    "photos": []
   },
   {
     "composerId": "bright-sheng",
     "name": "Bright Sheng",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "bright-sheng"
+    ]
   },
   {
     "composerId": "caroline-shaw",
     "name": "Caroline Shaw",
     "nationality": "American",
-    "born": 1982
+    "born": 1982,
+    "photos": [
+      "caroline-shaw"
+    ]
   },
   {
     "composerId": "carolyn-chen",
     "name": "Carolyn Chen",
     "nationality": "American",
-    "born": 1983
+    "born": 1983,
+    "photos": [
+      "carolyn-chen"
+    ]
   },
   {
     "composerId": "charles-ives",
     "name": "Charles Ives",
     "nationality": "American",
     "born": 1874,
-    "died": 1954
+    "died": 1954,
+    "photos": [
+      "charles-ives"
+    ]
   },
   {
     "composerId": "charles-wuorinen",
     "name": "Charles Wuorinen",
     "nationality": "American",
     "born": 1938,
-    "died": 2020
+    "died": 2020,
+    "photos": []
   },
   {
     "composerId": "che-buford",
     "name": "Che Buford",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "che-buford"
+    ]
   },
   {
     "composerId": "chris-neiner",
     "name": "Chris Neiner",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "chris-rogerson",
     "name": "Chris Rogerson",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "chris-rogerson",
+      "chris-rogerson-1"
+    ]
   },
   {
     "composerId": "chris-stark",
     "name": "Chris Stark",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "chris-stark"
+    ]
   },
   {
     "composerId": "chris-theofanidis",
     "name": "Chris Theofanidis",
     "nationality": "American",
-    "born": 1967
+    "born": 1967,
+    "photos": [
+      "chris-theofanidis"
+    ]
   },
   {
     "composerId": "christopher-cerrone",
     "name": "Christopher Cerrone",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "christopher-cerrone",
+      "christopher-cerrone-1",
+      "christopher-cerrone-2",
+      "christopher-cerrone-3"
+    ]
   },
   {
     "composerId": "claire-hu",
     "name": "Claire Hu",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "claude-vivier",
     "name": "Claude Vivier",
     "nationality": "Canadian",
     "born": 1948,
-    "died": 1983
+    "died": 1983,
+    "photos": [
+      "claude-vivier"
+    ]
   },
   {
     "composerId": "dai-wei",
     "name": "Dai Wei",
-    "nationality": "Chinese"
+    "nationality": "Chinese",
+    "photos": [
+      "dai-wei"
+    ]
   },
   {
     "composerId": "daniel-gostelow",
     "name": "Daniel Gostelow",
-    "nationality": "Australian"
+    "nationality": "Australian",
+    "photos": []
   },
   {
     "composerId": "daniel-wohl",
     "name": "Daniel Wohl",
-    "nationality": "Born"
+    "nationality": "Born",
+    "photos": []
   },
   {
     "composerId": "david-acevedo",
     "name": "David Acevedo",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "david-dies",
-    "name": "David Dies"
+    "name": "David Dies",
+    "photos": []
   },
   {
     "composerId": "david-maric",
-    "name": "David Maric"
+    "name": "David Maric",
+    "photos": []
   },
   {
     "composerId": "david-t-little",
     "name": "David T. Little",
     "nationality": "American",
-    "born": 1978
+    "born": 1978,
+    "photos": []
   },
   {
     "composerId": "diallo-banks",
-    "name": "Diallo Banks"
+    "name": "Diallo Banks",
+    "photos": [
+      "diallo-banks"
+    ]
   },
   {
     "composerId": "du-yun",
     "name": "Du Yun",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "du-yun"
+    ]
   },
   {
     "composerId": "einojuhani-rautavaara",
     "name": "Einojuhani Rautavaara",
     "nationality": "Finnish",
     "born": 1928,
-    "died": 2016
+    "died": 2016,
+    "photos": []
   },
   {
     "composerId": "elizabeth-a-baker",
-    "name": "Elizabeth A. Baker"
+    "name": "Elizabeth A. Baker",
+    "photos": [
+      "elizabeth-a-baker"
+    ]
   },
   {
     "composerId": "elizabeth-ogonek",
     "name": "Elizabeth Ogonek",
-    "nationality": "Classical"
+    "nationality": "Classical",
+    "photos": [
+      "elizabeth-ogonek"
+    ]
   },
   {
     "composerId": "ellen-reid",
     "name": "Ellen Reid",
     "nationality": "American",
-    "born": 1983
+    "born": 1983,
+    "photos": [
+      "ellen-reid"
+    ]
   },
   {
     "composerId": "elliott-carter",
     "name": "Elliott Carter",
     "nationality": "American",
     "born": 1908,
-    "died": 2012
+    "died": 2012,
+    "photos": [
+      "elliott-carter"
+    ]
   },
   {
     "composerId": "emma-ohalloran",
     "name": "Emma O'Halloran",
     "nationality": "",
-    "bio": ""
+    "bio": "",
+    "photos": [
+      "emma-ohalloran"
+    ]
   },
   {
     "composerId": "eric-wubbels",
-    "name": "Eric Wubbels"
+    "name": "Eric Wubbels",
+    "photos": []
   },
   {
     "composerId": "francis-schwartz",
-    "name": "Francis Schwartz"
+    "name": "Francis Schwartz",
+    "photos": []
   },
   {
     "composerId": "franco-donatoni",
     "name": "Franco Donatoni",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "photos": []
   },
   {
     "composerId": "freya-waley-cohen",
-    "name": "Freya Waley Cohen"
+    "name": "Freya Waley Cohen",
+    "photos": []
   },
   {
     "composerId": "gabriela-lena-frank",
     "name": "Gabriela Lena Frank",
     "nationality": "American",
-    "born": 1972
+    "born": 1972,
+    "photos": [
+      "gabriela-lena-frank"
+    ]
   },
   {
     "composerId": "gabriela-ortiz",
     "name": "Gabriela Ortiz",
     "nationality": "",
-    "born": 1964
+    "born": 1964,
+    "photos": [
+      "gabriela-ortiz"
+    ]
   },
   {
     "composerId": "georg-friedrich-haas",
     "name": "Georg Friedrich Haas",
     "nationality": "Austrian",
-    "born": 2000
+    "born": 2000,
+    "photos": []
   },
   {
     "composerId": "george-crumb",
     "name": "George Crumb",
     "nationality": "American",
     "born": 1929,
-    "died": 2022
+    "died": 2022,
+    "photos": [
+      "george-crumb"
+    ]
   },
   {
     "composerId": "george-perle",
     "name": "George Perle",
     "nationality": "American",
     "born": 1915,
-    "died": 2009
+    "died": 2009,
+    "photos": [
+      "george-perle"
+    ]
   },
   {
     "composerId": "gerard-grisey",
     "name": "Gerard Grisey",
     "nationality": "French",
     "born": 1946,
-    "died": 1998
+    "died": 1998,
+    "photos": [
+      "gerard-grisey"
+    ]
   },
   {
     "composerId": "gil-katz",
-    "name": "Gil Katz"
+    "name": "Gil Katz",
+    "photos": []
   },
   {
     "composerId": "gyorgy-ligeti",
     "name": "György Ligeti",
     "nationality": "Hungarian",
     "born": 1923,
-    "died": 2006
+    "died": 2006,
+    "photos": [
+      "gyorgy-ligeti",
+      "gyorgy-ligeti-1"
+    ]
   },
   {
     "composerId": "han-lash",
     "name": "Han Lash",
     "nationality": "American",
-    "born": 1981
+    "born": 1981,
+    "photos": [
+      "han-lash"
+    ]
   },
   {
     "composerId": "helen-grime",
     "name": "Helen Grime",
-    "nationality": "Scottish"
+    "nationality": "Scottish",
+    "photos": []
   },
   {
     "composerId": "hk-gruber",
     "name": "HK Gruber",
-    "nationality": "Austrian"
+    "nationality": "Austrian",
+    "photos": [
+      "hk-gruber"
+    ]
   },
   {
     "composerId": "inti-figgis-vizueta",
-    "name": "Inti Figgis Vizueta"
+    "name": "Inti Figgis Vizueta",
+    "photos": [
+      "inti-figgis-vizueta"
+    ]
   },
   {
     "composerId": "isang-yun",
     "name": "Isang Yun",
     "nationality": "German",
     "born": 1917,
-    "died": 1995
+    "died": 1995,
+    "photos": []
   },
   {
     "composerId": "jacob-druchman",
-    "name": "Jacob Druchman"
+    "name": "Jacob Druchman",
+    "photos": []
   },
   {
     "composerId": "jerod-tate",
     "name": "Jerod Tate",
     "nationality": "American",
-    "born": 1968
+    "born": 1968,
+    "photos": [
+      "jerod-tate",
+      "jerod-tate-1"
+    ],
+    "preferredPhoto": "jerod-tate"
   },
   {
     "composerId": "jessica-meyer",
-    "name": "Jessica Meyer"
+    "name": "Jessica Meyer",
+    "photos": []
   },
   {
     "composerId": "john-adams",
     "name": "John Adams",
-    "nationality": "1797"
+    "nationality": "1797",
+    "photos": []
   },
   {
     "composerId": "john-harbison",
     "name": "John Harbison",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "jonathan-cziner",
     "name": "Jonathan Cziner",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "jonathan-cziner",
+      "jonathan-cziner-1"
+    ]
   },
   {
     "composerId": "joshua-muetzel",
     "name": "Joshua Muetzel",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "julia-adolphe",
     "name": "Julia Adolphe",
     "nationality": "American",
-    "born": 1988
+    "born": 1988,
+    "photos": [
+      "julia-adolphe",
+      "julia-adolphe-1"
+    ]
   },
   {
     "composerId": "juri-seo",
     "name": "Juri Seo",
     "nationality": "South Korean",
-    "born": 1981
+    "born": 1981,
+    "photos": [
+      "juri-seo"
+    ]
   },
   {
     "composerId": "kaija-saariaho",
     "name": "Kaija Saariaho",
     "nationality": "Finnish",
     "born": 1952,
-    "died": 2023
+    "died": 2023,
+    "photos": [
+      "kaija-saariaho",
+      "kaija-saariaho-1"
+    ]
   },
   {
     "composerId": "kamala-sankaram",
     "name": "Kamala Sankaram",
-    "nationality": "Classical"
+    "nationality": "Classical",
+    "photos": []
   },
   {
     "composerId": "katherine-balch",
     "name": "Katherine Balch",
     "nationality": "American",
-    "born": 1991
+    "born": 1991,
+    "photos": []
   },
   {
     "composerId": "ken-ueno",
     "name": "Ken Ueno",
     "nationality": "American",
-    "born": 1970
+    "born": 1970,
+    "photos": []
   },
   {
     "composerId": "kenji-bunch",
     "name": "Kenji Bunch",
     "nationality": "American",
-    "born": 1973
+    "born": 1973,
+    "photos": [
+      "kenji-bunch",
+      "kenji-bunch-1"
+    ]
   },
   {
     "composerId": "kevin-day",
     "name": "Kevin Day",
     "nationality": "American",
-    "born": 1996
+    "born": 1996,
+    "photos": [
+      "kevin-day"
+    ]
   },
   {
     "composerId": "kevin-puts",
     "name": "Kevin Puts",
     "nationality": "American",
-    "born": 1972
+    "born": 1972,
+    "photos": [
+      "kevin-puts"
+    ]
   },
   {
     "composerId": "krists-auznieks",
-    "name": "Krists Auznieks"
+    "name": "Krists Auznieks",
+    "photos": []
   },
   {
     "composerId": "krzysztof-penderecki",
     "name": "Krzysztof Penderecki",
     "nationality": "Polish",
     "born": 1933,
-    "died": 2020
+    "died": 2020,
+    "photos": []
   },
   {
     "composerId": "kyle-rivera",
     "name": "Kyle Rivera",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "kyle-rivera",
+      "kyle-rivera-1"
+    ]
   },
   {
     "composerId": "lou-harrison",
     "name": "Lou Harrison",
     "nationality": "American",
     "born": 1917,
-    "died": 2003
+    "died": 2003,
+    "photos": [
+      "lou-harrison"
+    ]
   },
   {
     "composerId": "louis-andriessen",
     "name": "Louis Andriessen",
-    "nationality": "Dutch"
+    "nationality": "Dutch",
+    "photos": [
+      "louis-andriessen"
+    ]
   },
   {
     "composerId": "luciano-berio",
     "name": "Luciano Berio",
     "nationality": "Italian",
     "born": 1925,
-    "died": 2003
+    "died": 2003,
+    "photos": []
   },
   {
     "composerId": "magnus-lindberg",
     "name": "Magnus Lindberg",
-    "nationality": "Finnish"
+    "nationality": "Finnish",
+    "photos": [
+      "magnus-lindberg",
+      "magnus-lindberg-1"
+    ]
   },
   {
     "composerId": "marc-mellits",
     "name": "Marc Mellits",
     "nationality": "American",
-    "born": 1966
+    "born": 1966,
+    "photos": []
   },
   {
     "composerId": "marcos-balter",
     "name": "Marcos Balter",
     "nationality": "Brazilian",
-    "born": 1974
+    "born": 1974,
+    "photos": [
+      "marcos-balter"
+    ]
   },
   {
     "composerId": "margaret-brouwer",
     "name": "Margaret Brouwer",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "margaret-brouwer"
+    ]
   },
   {
     "composerId": "mark-anthony-turnage",
     "name": "Mark Anthony Turnage",
     "nationality": "British",
-    "born": 1960
+    "born": 1960,
+    "photos": [
+      "mark-anthony-turnage",
+      "mark-anthony-turnage-1"
+    ]
   },
   {
     "composerId": "mason-bates",
     "name": "Mason Bates",
     "nationality": "American",
-    "born": 1977
+    "born": 1977,
+    "photos": []
   },
   {
     "composerId": "matthew-aucoin",
     "name": "Matthew Aucoin",
     "nationality": "American",
-    "born": 1990
+    "born": 1990,
+    "photos": [
+      "matthew-aucoin"
+    ]
   },
   {
     "composerId": "max-gibson",
     "name": "Max Gibson",
     "nationality": "American",
     "born": 1999,
-    "died": 2001
+    "died": 2001,
+    "photos": []
   },
   {
     "composerId": "max-grafe",
-    "name": "Max Grafe"
+    "name": "Max Grafe",
+    "photos": [
+      "max-grafe"
+    ]
   },
   {
     "composerId": "melinda-wagner",
     "name": "Melinda Wagner",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "michael-begay",
-    "name": "Michael Begay"
+    "name": "Michael Begay",
+    "photos": [
+      "michael-begay"
+    ]
   },
   {
     "composerId": "michael-djupstrom",
     "name": "Michael Djupstrom",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "michael-gordon",
-    "name": "Michael Gordon"
+    "name": "Michael Gordon",
+    "photos": []
   },
   {
     "composerId": "michael-ippolito",
-    "name": "Michael Ippolito"
+    "name": "Michael Ippolito",
+    "photos": [
+      "michael-ippolito"
+    ]
   },
   {
     "composerId": "michael-schacter",
-    "name": "Michael Schacter"
+    "name": "Michael Schacter",
+    "photos": []
   },
   {
     "composerId": "missy-mazzoli",
     "name": "Missy Mazzoli",
     "nationality": "American",
-    "born": 1980
+    "born": 1980,
+    "photos": [
+      "missy-mazzoli",
+      "missy-mazzoli-1"
+    ]
   },
   {
     "composerId": "molly-herron",
     "name": "Molly Herron",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "molly-herron",
+      "molly-herron-1"
+    ]
   },
   {
     "composerId": "nia-imani-franklin",
     "name": "Nia Imani Franklin",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "nia-imani-franklin",
+      "nia-imani-franklin-1",
+      "nia-imani-franklin-2"
+    ]
   },
   {
     "composerId": "nico-muhly",
     "name": "Nico Muhly",
     "nationality": "American",
-    "born": 1981
+    "born": 1981,
+    "photos": [
+      "nico-muhly"
+    ]
   },
   {
     "composerId": "nicolas-bentz",
     "name": "Nicolas Bentz",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "nicole-gutman",
-    "name": "Nicole Gutman"
+    "name": "Nicole Gutman",
+    "photos": []
   },
   {
     "composerId": "nina-c-young",
     "name": "Nina C. Young",
     "nationality": "American",
-    "born": 1984
+    "born": 1984,
+    "photos": [
+      "nina-c-young"
+    ]
   },
   {
     "composerId": "olivier-messiaen",
     "name": "Olivier Messiaen",
     "nationality": "French",
     "born": 1908,
-    "died": 1992
+    "died": 1992,
+    "photos": []
   },
   {
     "composerId": "patrick-harlin",
-    "name": "Patrick Harlin"
+    "name": "Patrick Harlin",
+    "photos": [
+      "patrick-harlin"
+    ]
   },
   {
     "composerId": "paul-mortilla",
     "name": "Paul Mortilla",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "paul-mortilla"
+    ]
   },
   {
     "composerId": "peteris-vasks",
     "name": "Peteris Vasks",
-    "nationality": "Latvian"
+    "nationality": "Latvian",
+    "photos": []
   },
   {
     "composerId": "philip-glass",
     "name": "Philip Glass",
     "nationality": "American",
-    "born": 1937
+    "born": 1937,
+    "photos": []
   },
   {
     "composerId": "philippe-hurel",
     "name": "Philippe Hurel",
-    "nationality": "French"
+    "nationality": "French",
+    "photos": [
+      "philippe-hurel"
+    ]
   },
   {
     "composerId": "philippe-manoury",
     "name": "Philippe Manoury",
     "nationality": "French",
-    "born": 1952
+    "born": 1952,
+    "photos": [
+      "philippe-manoury",
+      "philippe-manoury-1"
+    ]
   },
   {
     "composerId": "pierre-boulez",
     "name": "Pierre Boulez",
     "nationality": "French",
     "born": 1925,
-    "died": 2016
+    "died": 2016,
+    "photos": [
+      "pierre-boulez",
+      "pierre-boulez-1"
+    ]
   },
   {
     "composerId": "quinn-mason",
-    "name": "Quinn Mason"
+    "name": "Quinn Mason",
+    "photos": []
   },
   {
     "composerId": "raven-chacon",
     "name": "Raven Chacon",
     "nationality": "American",
-    "born": 1977
+    "born": 1977,
+    "photos": [
+      "raven-chacon"
+    ]
   },
   {
     "composerId": "reena-esmail",
     "name": "Reena Esmail",
-    "nationality": "And"
+    "nationality": "And",
+    "photos": [
+      "reena-esmail"
+    ]
   },
   {
     "composerId": "reiko-futing",
     "name": "Reiko Füting",
     "nationality": "German",
-    "born": 1970
+    "born": 1970,
+    "photos": [
+      "reiko-futing"
+    ]
   },
   {
     "composerId": "roger-zare",
     "name": "Roger Zare",
     "nationality": "American",
-    "born": 1985
+    "born": 1985,
+    "photos": [
+      "roger-zare"
+    ]
   },
   {
     "composerId": "ruth-crawford-seeger",
     "name": "Ruth Crawford Seeger",
     "nationality": "American",
     "born": 1901,
-    "died": 1953
+    "died": 1953,
+    "photos": []
   },
   {
     "composerId": "sam-adams",
     "name": "Sam Adams",
     "nationality": "American",
-    "born": 1985
+    "born": 1985,
+    "photos": []
   },
   {
     "composerId": "sarah-kirkland-snider",
     "name": "Sarah Kirkland Snider",
     "nationality": "American",
-    "born": 1973
+    "born": 1973,
+    "photos": [
+      "sarah-kirkland-snider",
+      "sarah-kirkland-snider-1"
+    ]
   },
   {
     "composerId": "scott-joplin",
     "name": "Scott Joplin",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "scott-lee",
     "name": "Scott Lee",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "scott-lee",
+      "scott-lee-1",
+      "scott-lee-2"
+    ]
   },
   {
     "composerId": "sean-quinn",
     "name": "Sean Quinn",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "sebastian-currier",
     "name": "Sebastian Currier",
     "nationality": "American",
-    "born": 1959
+    "born": 1959,
+    "photos": [
+      "sebastian-currier",
+      "sebastian-currier-1",
+      "sebastian-currier-2",
+      "sebastian-currier-3"
+    ]
   },
   {
     "composerId": "shaun-tilburg",
-    "name": "Shaun Tilburg"
+    "name": "Shaun Tilburg",
+    "photos": [
+      "shaun-tilburg"
+    ]
   },
   {
     "composerId": "shawn-allison",
     "name": "Shawn Allison",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": [
+      "shawn-allison"
+    ]
   },
   {
     "composerId": "shawn-okpebholo",
     "name": "Shawn Okpebholo",
     "nationality": "American",
-    "born": 1981
+    "born": 1981,
+    "photos": [
+      "shawn-okpebholo",
+      "shawn-okpebholo-1"
+    ]
   },
   {
     "composerId": "sofia-gubaidulina",
     "name": "Sofia Gubaidulina",
     "nationality": "Russian",
-    "born": 1931
+    "born": 1931,
+    "photos": [
+      "sofia-gubaidulina"
+    ]
   },
   {
     "composerId": "stacy-garrop",
     "name": "Stacy Garrop",
     "nationality": "American",
-    "born": 1969
+    "born": 1969,
+    "photos": [
+      "stacy-garrop",
+      "stacy-garrop-1",
+      "stacy-garrop-2",
+      "stacy-garrop-3"
+    ]
   },
   {
     "composerId": "stephen-wood",
     "name": "Stephen Wood",
     "nationality": "North",
     "born": 1961,
-    "died": 1995
+    "died": 1995,
+    "photos": []
   },
   {
     "composerId": "steve-reich",
     "name": "Steve Reich",
     "nationality": "American",
-    "born": 1936
+    "born": 1936,
+    "photos": [
+      "steve-reich"
+    ]
   },
   {
     "composerId": "tan-dun",
     "name": "Tan Dun",
     "nationality": "Chinese",
-    "born": 1957
+    "born": 1957,
+    "photos": [
+      "tan-dun"
+    ]
   },
   {
     "composerId": "tania-leon",
-    "name": "Tania Leon"
+    "name": "Tania Leon",
+    "photos": []
   },
   {
     "composerId": "tansy-davies",
     "name": "Tansy Davies",
-    "nationality": "British"
+    "nationality": "British",
+    "photos": []
   },
   {
     "composerId": "tom-johnson",
-    "name": "Tom Johnson"
+    "name": "Tom Johnson",
+    "photos": []
   },
   {
     "composerId": "tom-morrison",
     "name": "Tom Morrison",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "treya-nash",
     "name": "Treya Nash",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   },
   {
     "composerId": "tyson-gholston-davis",
-    "name": "Tyson Gholston Davis"
+    "name": "Tyson Gholston Davis",
+    "photos": []
   },
   {
     "composerId": "ulysses-kay",
     "name": "Ulysses Kay",
     "nationality": "American",
     "born": 1917,
-    "died": 1995
+    "died": 1995,
+    "photos": []
   },
   {
     "composerId": "viet-cuong",
     "name": "Viet Cuong",
     "nationality": "American",
-    "born": 1990
+    "born": 1990,
+    "photos": [
+      "viet-cuong"
+    ]
   },
   {
     "composerId": "vivian-fung",
     "name": "Vivian Fung",
     "nationality": "Canadian",
-    "born": 1975
+    "born": 1975,
+    "photos": [
+      "vivian-fung"
+    ]
   },
   {
     "composerId": "wolfgang-rihm",
     "name": "Wolfgang Rihm",
     "nationality": "German",
     "born": 1952,
-    "died": 2024
+    "died": 2024,
+    "photos": [
+      "wolfgang-rihm",
+      "wolfgang-rihm-1"
+    ]
   },
   {
     "composerId": "yangfan-xu",
     "name": "Yangfan Xu",
-    "nationality": "Chinese"
+    "nationality": "Chinese",
+    "photos": []
   },
   {
     "composerId": "yaz-lancaster",
-    "name": "Yaz Lancaster"
+    "name": "Yaz Lancaster",
+    "photos": [
+      "yaz-lancaster",
+      "yaz-lancaster-1"
+    ]
   },
   {
     "composerId": "zachary-konick",
     "name": "Zachary Konick",
-    "nationality": "American"
+    "nationality": "American",
+    "photos": []
   }
 ]

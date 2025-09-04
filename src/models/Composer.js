@@ -31,6 +31,13 @@ const composerSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    photos: {
+      type: [String],
+    },
+    preferredPhoto: {
+      type: String,
+      trim: true,
+    },
   },
   {
     timestamps: true,

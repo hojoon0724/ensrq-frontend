@@ -1,3 +1,4 @@
+import SideNavBar from "./SideNavBar";
 export { AboutProfilesContainer } from "./AboutProfilesContainer";
 export { Carousel } from "./Carousel";
 export { Donors } from "./Donors";
@@ -9,3 +10,4 @@ export { MeshGradientManualCurves } from "./MeshGradientManualCurves";
 export { MeshGradientStraight } from "./MeshGradientStraight";
 export { NavBar } from "./NavBar";
 export { VideoWithCustomThumbnail } from "./VideoWithCustomThumbnail";
+export { SideNavBar };

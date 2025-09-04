@@ -89,7 +89,7 @@ export function FitTextWithPadding({
   return (
     <div
       ref={textRef}
-      className={`overflow-hidden ${shouldWrap ? "" : "whitespace-nowrap"} ${className}`}
+      className={`${shouldWrap ? "" : "whitespace-nowrap"} ${className} overflow-visible`}
       style={{
         fontSize: `${fontSize}px`,
         opacity: ready ? 1 : 0,

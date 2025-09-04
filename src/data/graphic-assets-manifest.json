@@ -214,111 +214,6 @@
     "height": 1080,
     "type": "webp"
   },
-  "/photos/about/about-betsy-hudson-traba.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-bharat-chandra.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-conor-hanick.webp": {
-    "width": 2500,
-    "height": 1666,
-    "type": "webp"
-  },
-  "/photos/about/about-george-nickson.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/about-han-chen.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-jamie-clark.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-jennifer-best-takeda.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-lucy-fitz-gibbons.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-marcelina-suchocka.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-natalie-helm.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/about-samantha-bennett.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/about-thea-lobo.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/betsy-hudson-traba-about-wide.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/bharat-chandra-bharat-chandra.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/bharat-chandra-portrait-expanded.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/george-about-portrait.webp": {
-    "width": 2500,
-    "height": 3125,
-    "type": "webp"
-  },
-  "/photos/about/han-chen-raymond-huang-expanded.webp": {
-    "width": 2500,
-    "height": 1667,
-    "type": "webp"
-  },
-  "/photos/about/jennifer-takeda-about-wide.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/marcelina-suchocka-about-wide.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/natalie-helm-about-wide.webp": {
-    "width": 2500,
-    "height": 2000,
-    "type": "webp"
-  },
-  "/photos/about/samantha-about-portrait.webp": {
-    "width": 2474,
-    "height": 3093,
-    "type": "webp"
-  },
   "/photos/flip-game-photos/betsy-traba.webp": {
     "width": 2500,
     "height": 1667,
@@ -772,7 +667,7 @@
     "type": "webp",
     "focus": {
       "x": 0.4559,
-      "y": 0.163
+      "y": 0.09
     }
   },
   "/photos/portraits/emma-ohalloran.webp": {
@@ -964,7 +859,7 @@
       "y": 0.4285
     }
   },
-  "/photos/portraits/hanick-2-waiter.webp": {
+  "/photos/portraits/conor-hanick-1.webp": {
     "width": 4999,
     "height": 3333,
     "type": "webp",
@@ -1009,7 +904,7 @@
       "y": 0.5815
     }
   },
-  "/photos/portraits/jamie-clark-headshot.webp": {
+  "/photos/portraits/jamie-clark.webp": {
     "width": 3600,
     "height": 2400,
     "type": "webp",
@@ -1018,7 +913,7 @@
       "y": 0.3498
     }
   },
-  "/photos/portraits/jen-headshot6-copy.webp": {
+  "/photos/portraits/jennifer-best-takeda-1.webp": {
     "width": 4480,
     "height": 6720,
     "type": "webp",
@@ -1027,7 +922,7 @@
       "y": 0.2744
     }
   },
-  "/photos/portraits/jennifer-best.webp": {
+  "/photos/portraits/jennifer-best-takeda.webp": {
     "width": 3600,
     "height": 2400,
     "type": "webp",
@@ -1036,7 +931,7 @@
       "y": 0.3419
     }
   },
-  "/photos/portraits/jerod-impichchaachaaha-tate.webp": {
+  "/photos/portraits/jerod-tate-1.webp": {
     "width": 2500,
     "height": 1667,
     "type": "webp",
@@ -1288,7 +1183,7 @@
       "y": 0.4181
     }
   },
-  "/photos/portraits/mark-anthony-turnage-2.webp": {
+  "/photos/portraits/mark-anthony-turnage-1.webp": {
     "width": 1200,
     "height": 675,
     "type": "webp",
@@ -1982,16 +1877,232 @@
   "/photos/about/about-ensrq-02.webp": {
     "width": 1601,
     "height": 2400,
-    "type": "webp"
+    "type": "webp",
+    "focus": {
+      "x": 0.6346,
+      "y": 0.3741
+    }
   },
   "/photos/about/about-ensrq-09.webp": {
     "width": 2400,
     "height": 1601,
-    "type": "webp"
+    "type": "webp",
+    "focus": {
+      "x": 0.6377,
+      "y": 0.4017
+    }
   },
   "/photos/about/about-ensrq-10.webp": {
     "width": 2400,
     "height": 1601,
+    "type": "webp",
+    "focus": {
+      "x": 0.4512,
+      "y": 0.1936
+    }
+  },
+  "/photos/portraits/wesley-ducote.webp": {
+    "width": 6000,
+    "height": 4000,
+    "type": "webp",
+    "focus": {
+      "x": 0.3302,
+      "y": 0.2942
+    }
+  },
+  "/photos/portraits/betsy-hudson-traba.webp": {
+    "width": 2500,
+    "height": 1667,
     "type": "webp"
+  },
+  "/photos/about/about-betsy-hudson-traba.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5101,
+      "y": 0.3477
+    }
+  },
+  "/photos/about/about-bharat-chandra.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5028,
+      "y": 0.3386
+    }
+  },
+  "/photos/about/about-conor-hanick.webp": {
+    "width": 2500,
+    "height": 1666,
+    "type": "webp"
+  },
+  "/photos/about/about-george-nickson.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.5257,
+      "y": 0.2447
+    }
+  },
+  "/photos/about/about-han-chen.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5144,
+      "y": 0.3957
+    }
+  },
+  "/photos/about/about-jamie-clark.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.4715,
+      "y": 0.3495
+    }
+  },
+  "/photos/about/about-jennifer-best-takeda.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.507,
+      "y": 0.3422
+    }
+  },
+  "/photos/about/about-lucy-fitz-gibbons.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5028,
+      "y": 0.3583
+    }
+  },
+  "/photos/about/about-marcelina-suchocka.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5059,
+      "y": 0.3416
+    }
+  },
+  "/photos/about/about-natalie-helm.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.4934,
+      "y": 0.3508
+    }
+  },
+  "/photos/about/about-samantha-bennett.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.509,
+      "y": 0.2507
+    }
+  },
+  "/photos/about/about-thea-lobo.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.4837,
+      "y": 0.4141
+    }
+  },
+  "/photos/about/betsy-hudson-traba-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4971,
+      "y": 0.221
+    }
+  },
+  "/photos/about/bharat-chandra-bharat-chandra.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4778,
+      "y": 0.2152
+    }
+  },
+  "/photos/about/bharat-chandra-portrait-expanded.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp",
+    "focus": {
+      "x": 0.5028,
+      "y": 0.3387
+    }
+  },
+  "/photos/about/george-about-portrait.webp": {
+    "width": 2500,
+    "height": 3125,
+    "type": "webp",
+    "focus": {
+      "x": 0.4741,
+      "y": 0.2288
+    }
+  },
+  "/photos/about/han-chen-raymond-huang-expanded.webp": {
+    "width": 2500,
+    "height": 1667,
+    "type": "webp"
+  },
+  "/photos/about/jennifer-takeda-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4795,
+      "y": 0.2438
+    }
+  },
+  "/photos/about/marcelina-suchocka-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.5103,
+      "y": 0.2565
+    }
+  },
+  "/photos/about/natalie-helm-about-wide.webp": {
+    "width": 2500,
+    "height": 2000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4895,
+      "y": 0.2635
+    }
+  },
+  "/photos/about/samantha-about-portrait.webp": {
+    "width": 2474,
+    "height": 3093,
+    "type": "webp",
+    "focus": {
+      "x": 0.5008,
+      "y": 0.2269
+    }
+  },
+  "/photos/about/about-ensrq-08-expanded.webp": {
+    "width": 3206,
+    "height": 3600,
+    "type": "webp",
+    "focus": {
+      "x": 0.3722,
+      "y": 0.2764
+    }
   }
 }

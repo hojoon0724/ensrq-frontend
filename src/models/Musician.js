@@ -21,6 +21,16 @@ const musicianSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    photos: [
+      {
+        type: String,
+        trim: true,
+      },
+    ],
+    preferredPhoto: {
+      type: String,
+      trim: true,
+    },
   },
   {
     timestamps: true,

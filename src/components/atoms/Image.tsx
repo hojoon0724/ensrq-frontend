@@ -16,6 +16,7 @@ export interface ImageProps {
   xCenter?: string | number;
   yCenter?: string | number;
   sizes?: string;
+  captionText?: string;
   onLoad?: () => void;
   onError?: () => void;
   useFocusPoint?: boolean; // New prop to enable/disable automatic focus point detection
@@ -34,6 +35,7 @@ export function Image({
   loading = "lazy",
   xCenter = "50%",
   yCenter = "50%",
+  captionText,
   sizes,
   onLoad,
   onError,
@@ -85,6 +87,8 @@ export function Image({
 
   if (fill) {
     return (
+      <>
+      <div className="absolute bottom-1 right-2 z-[5] text-gray-30 font-normal text-xs [text-shadow:0px_1px_6px_rgba(0,0,0,1)]" >{captionText}</div>
       <NextImage
         src={src}
         alt={alt}
@@ -97,22 +101,26 @@ export function Image({
         onError={onError}
         {...props}
       />
+      </>
     );
   }
 
   return (
-    <NextImage
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
-      priority={priority}
-      loading={loading}
-      className={imageClasses}
-      style={objectPositionStyle}
-      onLoad={onLoad}
-      onError={onError}
-      {...props}
-    />
+    <>
+      <div className="absolute bottom-1 right-2 z-[5] text-gray-30 font-normal text-xs [text-shadow:4px_4px_10px_rgba(0,0,0,1)]" >{captionText}</div>
+      <NextImage
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        priority={priority}
+        loading={loading}
+        className={imageClasses}
+        style={objectPositionStyle}
+        onLoad={onLoad}
+        onError={onError}
+        {...props}
+      />
+    </>
   );
 }
