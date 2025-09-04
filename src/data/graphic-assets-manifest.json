@@ -2095,5 +2095,14 @@
       "x": 0.5008,
       "y": 0.2269
     }
+  },
+  "/photos/about/about-ensrq-08-expanded.webp": {
+    "width": 3206,
+    "height": 3600,
+    "type": "webp",
+    "focus": {
+      "x": 0.3722,
+      "y": 0.2764
+    }
   }
 }

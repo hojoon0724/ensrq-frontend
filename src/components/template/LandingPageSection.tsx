@@ -9,6 +9,7 @@ import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
 import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
+import ReactMarkdown from 'react-markdown';
 
 const duration = 2000;
 const delay = 300;
@@ -33,13 +34,22 @@ const concertColorThemes: Record<string, string> = {
 };
 
 const welcomeText = [
-  "It’s Season Nine of ensembleNEWSRQ!",
-  "While the obvious rhyme for this year is ‘Nine is Fine’, just fine simply won’t cut it. So, dear patrons, with your permission, we’d like to declare: Season Nine is DIVINE. We’re so thrilled to bring you a season packed to the brim with six incredible subscription programs (anchored by our local enSRQ Artists), two commissions and world premieres, the second annual Suncoast Composer Fellowship, and enSRQ’s return to the Sarasota Opera House for our season finale in May.",
-  "Our Ninth Season opens in September with a powerful display of today’s mosst talented and diverse compositional voices with ‘Night, Reflected’. In November we feature Stephen Drury (a legend of contemporary piano repertoire) who brings his authoritative interpretation of Charles Ives’ Concord Sonata to Sarasota. Along with local star Thea Lobo and Samantha Bennett, this program honors the 150th Birthdays of two composers (‘Ives & Schoenberg’) that paved the way for the 21st century musical landscape. In January, a string quartet program speaks to the transient beauty of the things we cannot see (Visions & Miracles). In February,our percussion feature will bring down the house with four works (including a premiere from Paul Mortilla and a very special surprise guest) with ‘Truth & Mayhem’. In March, ‘Critical Moments’ showcases our second commission from Kitty Xiao and other musical gems for ensembles large and small.",
-  "Finally, in May we’ll present a capstone performance, honoring the recent passing of Wolfgang Rihm, with his monumental ‘Jagden und Formen’ (Hunts & Forms) featuring enSRQ favorite Conor Hanick in our return to the Sarasota Opera House.",
-  "Fellow musical travelers, get ready to embark once more upon a journey of profound musical contrasts: joy and sorrow, chaos and beauty. We can’t wait for you to join us for INCREDIBLE new music this season.",
-  "With dynamic chromaticism,",
-  "Samantha + George",
+  `**Welcome to our historic 10th Season of ensembleNEWSRQ!**`,
+
+  `Ten years in stride, with music as our guide—this decade of sound is truly cause for celebration. We’re thrilled to bring you a season packed with six incredible subscription programs, three commissions, four world premieres, defining collaborations, bold new endeavors, and enSRQ’s triumphant return to the Sarasota Opera House—not once, but twice—for two unforgettable capstone events.`,
+
+  `Our historic 10th Season opens in October, where new American voices intertwine in a dazzling program of shimmering whispers, tangled counterpoint, and electrifying interplay. In December, four composers take flight in a lyrical journey of luminous textures, whirring wings, and resonant melodies—including the first of this season’s four premieres. January brings strings, percussion, and voice together in a lush winter journey of shimmer, ritual, and song, featuring Sarasota favorite Thea Lobo.`,
+
+  `Past and present collide in February with *Retrospektiv*, a 10th Season celebration of enSRQ favorites and bold new discoveries. Works by Shaw, Buford, Zare, and Puts weave past triumphs with fresh sounds in a program alive with memory and momentum.`,
+
+  `Our first Opera House presentation is truly momentous: *MUSIC FOR 18 MUSICIANS*. enSRQ joins the world in celebrating Steve Reich’s 90th birthday and the 50th anniversary of his hypnotic minimalist masterpiece—a historic landmark and a fitting tribute to our own milestone season.`,
+
+  `Finally, we partner with Artist Series Concerts of Sarasota in May to present Matthew Aucoin’s *Music for New Bodies*, created with acclaimed director Peter Sellars. This bold operatic meditation on humanity’s shifting place in the natural world fuses Jorie Graham’s poetic texts with Aucoin’s visceral soundscapes. Sellars’ visionary staging amplifies the work’s urgency and transcendence, inviting us to imagine new forms of life, connection, and transformation in an era defined by our evolving relationship with nature and technology.`,
+
+  `Dear audience, you’ve welcomed daring new works with open ears and hearts, and this year we honor that spirit with our boldest, most innovative season yet. Join us for this historic milestone—we can’t wait to celebrate with you!`,
+
+  `Yours in contrapuntal celebration,`,
+  `Samantha + George`,
 ];
 
 const currentSeasonConcertData = currentSeasonConcertIds
@@ -153,7 +163,7 @@ export function LandingPageSection() {
         {/* next concert */}
         {upcomingConcerts
           .filter((concert) => new Date(concert.date) >= new Date())
-          .slice(0, 0)
+          .slice(0, 1)
           .map((concert) => (
             <CarouselItem key={concert.concertId} className="relative flex-1 w-full h-full">
               {/* Background mesh gradient */}
@@ -426,17 +436,19 @@ export function LandingPageSection() {
       </SectionEmpty>
       <SectionEmpty themeColor="sky" tone="dark">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-s">
-          <div className="image-container relative w-full h-full aspect-[5/4]">
-            <Image src="/photos/about/about-ensrq-10.webp" alt="george and samantha photo" />
+          <div className="lg:order-2 image-container relative w-full h-full aspect-[5/4]">
+            <div className="sticky h-full max-h-[calc(100svh-var(--standard-space-double))] top-s">
+              <Image src="/photos/about/about-ensrq-08-expanded.webp" alt="george and samantha photo" captionText="Photo by Matthew Holler"/>
+            </div>
           </div>
           <div className="season-welcome-text-container text-gray-30 flex justify-center items-center flex-col">
             {welcomeText.map((line, index) => (
-              <p
+              <div
                 className={`${index < welcomeText.length - 2 ? "mb-4 text-justify w-full" : "w-full text-right"} pretty`}
                 key={index}
               >
-                {line}
-              </p>
+                <ReactMarkdown>{line}</ReactMarkdown>
+              </div>
             ))}
           </div>
         </div>

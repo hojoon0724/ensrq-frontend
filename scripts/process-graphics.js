@@ -7,8 +7,19 @@ import { getFaceFocusPoint, loadFaceApiModels } from "./lib/face-detection.js";
 import { moveOriginalFile, normalizeFilename, walkAllImages, walkAllWebpFiles } from "./lib/file-utils.js";
 import { buildManifest, writeManifest } from "./lib/manifest.js";
 
+// Helper function to filter files that are only in subdirectories
+function filterSubdirectoryFiles(files, publicDir) {
+  return files.filter((file) => {
+    const relativePath = path.relative(publicDir, file);
+    const pathParts = relativePath.split(path.sep);
+    // Only include files that are at least 2 levels deep (folder/file.ext)
+    return pathParts.length >= 2;
+  });
+}
+
 async function main() {
   console.log(CONFIG.dryRun ? "🔍 DRY RUN MODE" : "⚡ Running full image pipeline");
+  console.log("📁 Processing only files in subdirectories of /public/");
 
   // Step 1: Load face-api models if needed
   if (CONFIG.detectFaces) {
@@ -16,9 +27,14 @@ async function main() {
     await loadFaceApiModels();
   }
 
-  // Step 2: Find all images (JPG/PNG) for processing
-  console.log("Finding all images...");
-  const jpgImages = await walkAllImages(CONFIG.publicDir);
+  // Step 2: Find all images (JPG/PNG) for processing, but only in subdirectories
+  console.log("Finding all images in subdirectories...");
+  const allJpgImages = await walkAllImages(CONFIG.publicDir);
+  const jpgImages = filterSubdirectoryFiles(allJpgImages, CONFIG.publicDir);
+  console.log(
+    `Found ${jpgImages.length} images in subdirectories (${allJpgImages.length - jpgImages.length} root files excluded)`
+  );
+
   const faceFocusMap = new Map();
 
   // Step 3: Detect faces before conversion
@@ -39,19 +55,21 @@ async function main() {
 
   // Step 4: Convert all JPG/PNG images to WebP
   console.log("Converting images to WebP...");
-  const webpFiles = [];
+  const convertedWebpFiles = [];
   for (const img of jpgImages) {
     const webpPath = await convertToWebp(img);
-    webpFiles.push(webpPath);
+    convertedWebpFiles.push(webpPath);
   }
 
-  // Step 5: Collect all WebP files in the public directory
+  // Step 5: Collect all WebP files in the public directory, but only from subdirectories
   console.log("Collecting all WebP files...");
   const allWebpFiles = await walkAllWebpFiles(CONFIG.publicDir);
+  const webpFiles = filterSubdirectoryFiles(allWebpFiles, CONFIG.publicDir);
+  console.log(`Found ${webpFiles.length} WebP files in subdirectories`);
 
   // Step 6: Build the manifest using detected focus coordinates
   console.log("Building manifest...");
-  const manifest = buildManifest(allWebpFiles, faceFocusMap);
+  const manifest = buildManifest(webpFiles, faceFocusMap);
 
   // Step 7: Check for missing files and mark them in the manifest
   console.log("Checking for missing files...");

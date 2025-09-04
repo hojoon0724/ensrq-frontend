@@ -52,14 +52,18 @@
     "name": "Betsy Hudson Traba",
     "instrument": "flute",
     "bio": "",
-    "photos": ["betsy-hudson-traba"]
+    "photos": [
+      "betsy-hudson-traba"
+    ]
   },
   {
     "musicianId": "bharat-chandra",
     "name": "Bharat Chandra",
     "instrument": "clarinet",
     "bio": "",
-    "photos": ["bharat-chandra"]
+    "photos": [
+      "bharat-chandra"
+    ]
   },
   {
     "musicianId": "brad-williams",
@@ -116,7 +120,10 @@
     "name": "Conor Hanick",
     "instrument": "piano",
     "bio": "",
-    "photos": ["conor-hanick", "conor-hanick-1"]
+    "photos": [
+      "conor-hanick",
+      "conor-hanick-1"
+    ]
   },
   {
     "musicianId": "dan-kasteen",
@@ -173,7 +180,9 @@
     "name": "George Nickson",
     "instrument": "percussion",
     "bio": "",
-    "photos": ["george-nickson"]
+    "photos": [
+      "george-nickson"
+    ]
   },
   {
     "musicianId": "gianluca-farina",
@@ -204,7 +213,9 @@
     "musicianId": "jamie-clark",
     "name": "Jamie Clark",
     "instrument": "cello",
-    "photos": ["jamie-clark"]
+    "photos": [
+      "jamie-clark"
+    ]
   },
   {
     "musicianId": "jason-calloway",
@@ -222,7 +233,10 @@
     "name": "Jennifer Best Takeda",
     "instrument": "violin",
     "bio": "",
-    "photos": ["jennifer-best-takeda", "jennifer-best-takeda-1"]
+    "photos": [
+      "jennifer-best-takeda",
+      "jennifer-best-takeda-1"
+    ]
   },
   {
     "musicianId": "jesse-martins",
@@ -300,7 +314,9 @@
     "musicianId": "lucy-fitz-gibbon",
     "name": "Lucy Fitz Gibbon",
     "instrument": "",
-    "photos": ["lucy-fitz-gibbon"]
+    "photos": [
+      "lucy-fitz-gibbon"
+    ]
   },
   {
     "musicianId": "marc-morgan",
@@ -311,7 +327,9 @@
     "musicianId": "marcelina-suchocka",
     "name": "Marcelina Suchocka",
     "instrument": "",
-    "photos": ["marcelina-suchocka"]
+    "photos": [
+      "marcelina-suchocka"
+    ]
   },
   {
     "musicianId": "mark-dacigers",
@@ -368,7 +386,10 @@
     "musicianId": "natalie-helm",
     "name": "Natalie Helm",
     "instrument": "",
-    "photos": ["natalie-helm", "natalie-helm-1"]
+    "photos": [
+      "natalie-helm",
+      "natalie-helm-1"
+    ]
   },
   {
     "musicianId": "nathan-frantz",
@@ -426,7 +447,10 @@
     "name": "Samantha Bennett",
     "instrument": "violin",
     "bio": "",
-    "photos": ["samantha-bennett", "samantha-bennett-1"]
+    "photos": [
+      "samantha-bennett",
+      "samantha-bennett-1"
+    ]
   },
   {
     "musicianId": "scott-crawford",
@@ -442,7 +466,9 @@
     "musicianId": "shaun-tilburg",
     "name": "Shaun Tilburg",
     "instrument": "",
-    "photos": ["shaun-tilburg"]
+    "photos": [
+      "shaun-tilburg"
+    ]
   },
   {
     "musicianId": "shelby-nugent",
@@ -463,7 +489,9 @@
     "musicianId": "thea-lobo",
     "name": "Thea Lobo",
     "instrument": "",
-    "photos": ["thea-lobo"]
+    "photos": [
+      "thea-lobo"
+    ]
   },
   {
     "musicianId": "thomas-frey",
@@ -490,7 +518,9 @@
     "name": "Wesley Ducote",
     "instrument": "piano",
     "bio": "",
-    "photos": ["wesley-ducote"]
+    "photos": [
+      "wesley-ducote"
+    ]
   },
   {
     "musicianId": "ye-young-yoon",
