@@ -90,8 +90,9 @@
   {
     "musicianId": "calvin-falwell",
     "name": "Calvin Falwell",
-    "instrument": "",
-    "photos": []
+    "instrument": "clarinet",
+    "photos": [],
+    "bio": ""
   },
   {
     "musicianId": "camila-berg",
@@ -114,8 +115,9 @@
   {
     "musicianId": "chris-takeda",
     "name": "Chris Takeda",
-    "instrument": "",
-    "photos": []
+    "instrument": "violin",
+    "photos": [],
+    "bio": ""
   },
   {
     "musicianId": "christopher-schnell",
@@ -412,10 +414,11 @@
   {
     "musicianId": "marcelina-suchocka",
     "name": "Marcelina Suchocka",
-    "instrument": "",
+    "instrument": "percussion",
     "photos": [
       "marcelina-suchocka"
-    ]
+    ],
+    "bio": ""
   },
   {
     "musicianId": "mark-dacigers",
@@ -476,8 +479,9 @@
   {
     "musicianId": "mike-truesdell",
     "name": "Mike Truesdell",
-    "instrument": "",
-    "photos": []
+    "instrument": "percussion",
+    "photos": [],
+    "bio": ""
   },
   {
     "musicianId": "naoko-nakamura",
@@ -621,10 +625,11 @@
   {
     "musicianId": "thea-lobo",
     "name": "Thea Lobo",
-    "instrument": "",
+    "instrument": "voice",
     "photos": [
       "thea-lobo"
-    ]
+    ],
+    "bio": ""
   },
   {
     "musicianId": "thomas-frey",
