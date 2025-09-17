@@ -68,6 +68,7 @@ const navItems = links_active
         is_cta: false,
       },
       { name: "Tickets", url: "/tickets", is_cta: true },
+      { name: "Donate", url: "/about#donate", is_cta: true },
     ]
   : [];
 
@@ -145,13 +146,18 @@ export function SideNavBar() {
 
             {/* Tickets CTA */}
             <Link
-              className="button-icon mb-4 hidden lg:flex flex-col justify-center items-center"
+              className="button-icon mb-4 hidden lg:flex flex-col justify-center items-center group"
               href="/tickets"
               title="Go to Tickets"
               onClick={() => setIsNavOpen(false)}
             >
-              <svg aria-hidden="true" width="26" viewBox="0 0 26 15">
-                <path d="M25.6907 14.1045H0.648438V9.309H1.33858C1.9066 9.28496 2.44338 9.0424 2.8368 8.63197C3.23022 8.22155 3.44987 7.675 3.44987 7.10646C3.44987 6.53793 3.23022 5.99138 2.8368 5.58096C2.44338 5.17053 1.9066 4.92797 1.33858 4.90393H0.648438V0.104492H25.6907V4.90393H25.0006C24.4325 4.92797 23.8958 5.17053 23.5023 5.58096C23.1089 5.99138 22.8893 6.53793 22.8893 7.10646C22.8893 7.675 23.1089 8.22155 23.5023 8.63197C23.8958 9.0424 24.4325 9.28496 25.0006 9.309H25.6907V14.1045ZM2.02872 12.7242H24.3104V10.6183C23.5117 10.4397 22.7977 9.99436 22.286 9.35563C21.7743 8.7169 21.4955 7.92291 21.4955 7.10449C21.4955 6.28608 21.7743 5.49208 22.286 4.85335C22.7977 4.21462 23.5117 3.76927 24.3104 3.59069V1.48477H2.02872V3.59069C2.82741 3.76927 3.54144 4.21462 4.05313 4.85335C4.56481 5.49208 4.84363 6.28608 4.84363 7.10449C4.84363 7.92291 4.56481 8.7169 4.05313 9.35563C3.54144 9.99436 2.82741 10.4397 2.02872 10.6183V12.7242Z"></path>
+              <svg aria-hidden="true" width="26" viewBox="0 0 26 15" className="group">
+                <path d="M25.7,14.1H.6v-4.8h.7c.6,0,1.1-.3,1.5-.7.4-.4.6-1,.6-1.5s-.2-1.1-.6-1.5c-.4-.4-.9-.7-1.5-.7h-.7V.1h25v4.8h-.7c-.6,0-1.1.3-1.5.7-.4.4-.6,1-.6,1.5s.2,1.1.6,1.5c.4.4.9.7,1.5.7h.7v4.8ZM2,12.7h22.3v-2.1c-.8-.2-1.5-.6-2-1.3-.5-.6-.8-1.4-.8-2.3s.3-1.6.8-2.3c.5-.6,1.2-1.1,2-1.3V1.5H2v2.1c.8.2,1.5.6,2,1.3.5.6.8,1.4.8,2.3s-.3,1.6-.8,2.3c-.5.6-1.2,1.1-2,1.3v2.1Z" />
+                <path
+                  d="M2,12.7h22.3v-2.1c-.8-.2-1.5-.6-2-1.3-.5-.6-.8-1.4-.8-2.3s.3-1.6.8-2.3c.5-.6,1.2-1.1,2-1.3V1.5H2v2.1c.8.2,1.5.6,2,1.3.5.6.8,1.4.8,2.3s-.3,1.6-.8,2.3c-.5.6-1.2,1.1-2,1.3v2.1Z"
+                  fill="var(--sky-50)"
+                  className="opacity-0 transition-all duration-300 group-hover:opacity-100"
+                />
               </svg>
               <span className="mt-1" style={{ fontSize: "12px" }}>
                 Tickets
@@ -165,13 +171,18 @@ export function SideNavBar() {
 
             {/* Donate CTA */}
             <Link
-              className="button-icon mb-4 hidden lg:flex flex-col justify-center items-center"
+              className="button-icon mb-4 hidden lg:flex flex-col justify-center items-center heartbeat scale-125"
               href="/about#donate"
               title="Go to Donate"
               onClick={() => setIsNavOpen(false)}
             >
               <svg aria-hidden="true" width="20" viewBox="0 0 20 19">
-                <path d="M10.2422 18.5068C10.1108 18.5045 9.98339 18.4612 9.87782 18.3829C9.49523 18.0987 0.487943 11.387 0.509805 5.91412C0.509805 2.72951 2.75798 0.506836 5.94988 0.506836C6.79254 0.51128 7.62189 0.717354 8.36862 1.10783C9.11535 1.49832 9.75777 2.06186 10.2422 2.75137C10.728 2.05985 11.3728 1.49507 12.1222 1.10449C12.8717 0.713915 13.7039 0.508953 14.5491 0.506836C17.741 0.506836 19.9782 2.72951 19.9891 5.91412C20.011 11.3797 11.0037 18.0987 10.6211 18.3829C10.5116 18.4641 10.3786 18.5076 10.2422 18.5068ZM5.93531 1.78214C3.0677 1.78214 1.77782 3.85906 1.77053 5.91776C1.77053 7.87809 3.2681 10.4615 6.143 13.391C7.42925 14.7031 8.79847 15.9311 10.2422 17.0676C11.6922 15.9317 13.0675 14.7037 14.3596 13.391C17.2163 10.4761 18.7321 7.87809 18.7321 5.91776C18.7321 3.85906 17.4349 1.78214 14.5673 1.78214C11.9766 1.78214 10.8871 4.13234 10.8434 4.23072C10.7908 4.34053 10.7081 4.43311 10.6049 4.49763C10.5016 4.56216 10.3821 4.59596 10.2604 4.59509C10.1391 4.59615 10.02 4.56238 9.91734 4.4978C9.81465 4.43321 9.73264 4.34052 9.68106 4.23072C9.61547 4.13234 8.52964 1.78214 5.93531 1.78214Z"></path>
+                <path d="M10.2,18.5c-.1,0-.3,0-.4-.1-.4-.3-9.4-7-9.4-12.5C.5,2.7,2.8.5,5.9.5c.8,0,1.7.2,2.4.6.7.4,1.4,1,1.9,1.6.5-.7,1.1-1.3,1.9-1.6.7-.4,1.6-.6,2.4-.6,3.2,0,5.4,2.2,5.4,5.4,0,5.5-9,12.2-9.4,12.5-.1,0-.2.1-.4.1ZM5.9,1.8C3.1,1.8,1.8,3.9,1.8,5.9c0,2,1.5,4.5,4.4,7.5,1.3,1.3,2.7,2.5,4.1,3.7,1.4-1.1,2.8-2.4,4.1-3.7,2.9-2.9,4.4-5.5,4.4-7.5s-1.3-4.1-4.2-4.1-3.7,2.4-3.7,2.4c0,.1-.1.2-.2.3-.1,0-.2,0-.3,0-.1,0-.2,0-.3,0-.1,0-.2-.2-.2-.3,0,0-1.2-2.4-3.7-2.4Z" />
+                <path
+                  d="M5.9,1.8C3.1,1.8,1.8,3.9,1.8,5.9c0,2,1.5,4.5,4.4,7.5,1.3,1.3,2.7,2.5,4.1,3.7,1.4-1.1,2.8-2.4,4.1-3.7,2.9-2.9,4.4-5.5,4.4-7.5s-1.3-4.1-4.2-4.1-3.7,2.4-3.7,2.4c0,.1-.1.2-.2.3-.1,0-.2,0-.3,0-.1,0-.2,0-.3,0-.1,0-.2-.2-.2-.3,0,0-1.2-2.4-3.7-2.4Z"
+                  fill="#ef4444"
+                  className="heartbeat-opacity"
+                />
               </svg>
               <span className="mt-1" style={{ fontSize: "12px" }}>
                 Donate
@@ -231,7 +242,11 @@ export function SideNavBar() {
                       <Link
                         href={item.url}
                         className={`
-                        px-6 py-3 text-lg flex justify-between group items-center w-full transition-all duration-300 text-blue-600 font-bold bg-sand-50 hover:bg-water-50 hover:text-sky-800
+                        px-6 py-3 text-lg flex justify-between group items-center w-full transition-all duration-300 font-bold 
+                           hover:bg-sky-700 hover:text-sky-50
+                        ${item.name === "Tickets" ? "text-sky-600 bg-sand-50" : "text-sky-600 bg-water-50"}
+
+                      
                       `}
                         style={{ cursor: "pointer" }}
                         onClick={() => setIsNavOpen(false)}
@@ -363,7 +378,7 @@ export function SideNavBar() {
                       <li key={item.name}>
                         <Link
                           href={item.url}
-                          className="block w-full text-center px-double py-s bg-gradient-to-br from-water-400 to-water-700 text-gray-30 hover:bg-gradient-to-tl transition-all timing-300"
+                          className={`block w-full text-center px-triple py-s text-gray-30 transition-all timing-300 ${item.name === "Tickets" ? "bg-water-400" : "bg-sand-400"}`}
                           style={{ cursor: "pointer" }}
                           onClick={() => setIsMobileMenuOpen(false)}
                         >
