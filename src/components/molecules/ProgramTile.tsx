@@ -19,8 +19,19 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
   const work = getWorkData(programWork.workId);
   const composer = work?.composerId ? getComposerData(work.composerId) : null;
 
-  // Get musicians performing this work
-  const musicians = programWork.musicians.map((musicianId) => getMusicianData(musicianId)).filter(Boolean);
+  // Create a flat array of instrument assignments that matches the musician order
+  const instrumentAssignments = work?.instrumentation
+    ? work.instrumentation.flatMap((instr) => Array.from({ length: instr.count }, () => instr.instrument))
+    : [];
+
+  // Pair each musician with their assigned instrument, filtering out empty/unassigned musicians
+  const musicianInstrumentPairs = programWork.musicians
+    .map((musicianId, index) => ({
+      musician: musicianId ? getMusicianData(musicianId) : null,
+      instrument: instrumentAssignments[index] || null,
+      musicianId, // Keep the original ID for filtering
+    }))
+    .filter((pair) => pair.musicianId && pair.musician); // Only keep pairs with valid musician IDs and data
 
   // Create explicit color mappings to ensure Tailwind classes are properly detected
   const getColors = (color: string, tone: string) => {
@@ -179,37 +190,21 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
       </div>
 
       {/* Musicians Section */}
-      {musicians.length > 0 && (
+      {musicianInstrumentPairs.length > 0 && (
         <div className="px-6 pb-4">
-          {/* <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Performers:</h5> */}
           <div className="flex flex-wrap gap-2">
-            {musicians.map((musician, index) => (
+            {musicianInstrumentPairs.map((pair, index) => (
               <div
                 key={index}
-                className={`inline-flex items-center gap-2 px-3 py-1 rounded-full ${colors.button} text-xs`}
+                className={`inline-flex items-center gap-1 px-3 py-1 rounded-full ${colors.button} text-xs`}
               >
-                <span className="font-medium">{musician?.name}</span>
-                <span className="opacity-75">{musician?.instrument}</span>
+                <span className="font-medium">{pair.musician?.name},</span>
+                {pair.instrument && <span className="opacity-50">{pair.instrument}</span>}
               </div>
             ))}
           </div>
         </div>
       )}
-
-      {/* Instrumentation */}
-      {/* {work?.instrumentation && work.instrumentation.length > 0 && (
-        <div className="px-6 pb-4">
-          <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Instrumentation:</h5>
-          <div className="flex flex-wrap gap-2">
-            {work.instrumentation.map((instr, index) => (
-              <span key={index} className={`px-2 py-1 rounded ${colors.badge} text-xs`}>
-                {instr.count > 1 ? `${instr.count} ` : ""}
-                {instr.instrument}
-              </span>
-            ))}
-          </div>
-        </div>
-      )} */}
 
       {/* Program Notes Toggle */}
       {work?.description && (
@@ -225,7 +220,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
 
       {/* Program Notes Content */}
       {showNotes && work?.description && (
-        <div className={`mx-6 mb-6 p-4 rounded-lg ${colors.notes} border transition-all duration-300`}>
+        <div className={`mx-6 mt-12 mb-6 p-4 rounded-lg ${colors.notes} border transition-all duration-300`}>
           <div className={`text-sm ${colors.text} leading-relaxed`}>
             <h6 className={`font-semibold ${colors.composer} mb-2`}>Program Notes</h6>
             <div className="prose prose-sm max-w-none">
