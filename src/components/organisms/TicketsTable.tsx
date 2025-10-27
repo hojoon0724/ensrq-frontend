@@ -35,7 +35,8 @@ export function IndividualTicket({
     }
   };
 
-  const expired = isConcertExpired(concert.date);
+  // Only apply expiration for live tickets
+  const expired = type === "live" ? isConcertExpired(concert.date) : false;
 
   return (
     <>
@@ -55,12 +56,12 @@ export function IndividualTicket({
 
       <a href={concert.ticketsLinks[ticketType()]?.url} target="_blank" rel="noopener noreferrer">
         <Button
-          disabled={expired || !concert.ticketsLinks[ticketType()]?.url}
+          disabled={!concert.ticketsLinks[ticketType()]?.url}
           size="lg"
           color={colorTheme}
-          className={`${expired ? "saturate-0" : ""} w-full`}
+          className={`${expired && type === "live" ? "saturate-0" : ""} w-full`}
         >
-          {expired
+          {expired && type === "live"
             ? "Concert Ended"
             : !concert.ticketsLinks[ticketType()]?.url
               ? "Not Available Yet"
