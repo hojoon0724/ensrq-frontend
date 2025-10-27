@@ -30,27 +30,23 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
     (concert) => concert.seasonId === seasonId && concert.youTubeUrl && concert.youTubeUrl.trim() !== ""
   );
 
-  // Compare dates using UTC to handle timezone differences
-  const today = new Date();
-  const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+  // Helper: concerts expire the day after their scheduled date
+  function isConcertExpired(concertDate: string) {
+    const today = new Date();
+    const concert = new Date(concertDate);
+    concert.setDate(concert.getDate() + 1);
+    const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+    const concertUTC = Date.UTC(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
+    return todayUTC >= concertUTC;
+  }
 
-  const nextConcert = currentSeasonConcertsData.find((concert) => {
-    const concertDate = new Date(concert.date);
-    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-    return concertUTC >= todayUTC;
-  });
+  const nextConcert = currentSeasonConcertsData.find((concert) => !isConcertExpired(concert.date));
 
-  const upcomingConcerts = currentSeasonConcertsData.filter((concert) => {
-    const concertDate = new Date(concert.date);
-    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-    return concertUTC >= todayUTC && concert.concertId !== nextConcert?.concertId;
-  });
+  const upcomingConcerts = currentSeasonConcertsData.filter(
+    (concert) => !isConcertExpired(concert.date) && concert.concertId !== nextConcert?.concertId
+  );
 
-  const pastConcerts = currentSeasonConcertsData.filter((concert) => {
-    const concertDate = new Date(concert.date);
-    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-    return concertUTC < todayUTC;
-  });
+  const pastConcerts = currentSeasonConcertsData.filter((concert) => isConcertExpired(concert.date));
 
   if (!seasonData) {
     notFound();

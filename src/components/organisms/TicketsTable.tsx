@@ -6,6 +6,17 @@ import ConcertData from "@/data/serve/concerts.json";
 import { extractDateFromUtc, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
 
+// Helper: tickets expire the day after the concert date
+function isConcertExpired(concertDate: string) {
+  const today = new Date();
+  // Add one day to concert date for expiration
+  const concert = new Date(concertDate);
+  concert.setDate(concert.getDate() + 1);
+  const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+  const concertUTC = Date.UTC(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
+  return todayUTC >= concertUTC;
+}
+
 export function IndividualTicket({
   concert,
   type,
@@ -24,6 +35,8 @@ export function IndividualTicket({
     }
   };
 
+  const expired = isConcertExpired(concert.date);
+
   return (
     <>
       <Link
@@ -31,7 +44,7 @@ export function IndividualTicket({
         className={`text-black `}
       >
         <div
-          className={`concert-text-container flex flex-col items-end justify-center ${new Date() > new Date(concert.date) ? "opacity-30" : "opacity-100"}`}
+          className={`concert-text-container flex flex-col items-end justify-center ${expired ? "opacity-30" : "opacity-100"}`}
         >
           <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
           <p>
@@ -42,12 +55,12 @@ export function IndividualTicket({
 
       <a href={concert.ticketsLinks[ticketType()]?.url} target="_blank" rel="noopener noreferrer">
         <Button
-          disabled={new Date() > new Date(concert.date) || !concert.ticketsLinks[ticketType()]?.url}
+          disabled={expired || !concert.ticketsLinks[ticketType()]?.url}
           size="lg"
           color={colorTheme}
-          className={`${new Date() > new Date(concert.date) ? "saturate-0" : ""} w-full`}
+          className={`${expired ? "saturate-0" : ""} w-full`}
         >
-          {new Date() > new Date(concert.date)
+          {expired
             ? "Concert Ended"
             : !concert.ticketsLinks[ticketType()]?.url
               ? "Not Available Yet"
