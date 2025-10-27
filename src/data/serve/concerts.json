@@ -2633,36 +2633,22 @@
         "url": "https://ensrq.ticketspice.com/tangled-whispers-streaming"
       }
     },
-    "youTubeUrl": "",
+    "youTubeUrl": "https://www.youtube.com/live/y0nl1cRQv_0",
     "streamingPagePassword": "choctaw",
     "streamingPageUrl": "/streaming/s10/2025-10-27-tangled-whispers",
     "sponsors": "",
     "program": [
       {
         "workId": "sebastian-currier-whispers",
-        "musicians": [
-          "betsy-hudson-traba",
-          "jason-calloway",
-          "wesley-ducote",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["betsy-hudson-traba", "jason-calloway", "wesley-ducote", "george-nickson", ""]
       },
       {
         "workId": "amy-williams-tangled-madrigal",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "peter-ayuso",
-          "jason-calloway"
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "peter-ayuso", "jason-calloway"]
       },
       {
         "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
-        "musicians": [
-          "mark-dacigers",
-          "george-nickson"
-        ]
+        "musicians": ["mark-dacigers", "george-nickson"]
       },
       {
         "workId": "elliott-carter-triple-duo",
@@ -2709,43 +2695,21 @@
     "program": [
       {
         "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
-        "musicians": [
-          "samantha-bennett",
-          "jason-calloway",
-          "calvin-falwell",
-          "wesley-ducote"
-        ]
+        "musicians": ["samantha-bennett", "jason-calloway", "calvin-falwell", "wesley-ducote"]
       },
       {
         "workId": "juri-seo-songbird",
-        "musicians": [
-          "samantha-bennett",
-          "leah-latorraca",
-          "",
-          "peter-ayuso",
-          "jason-calloway",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "leah-latorraca", "", "peter-ayuso", "jason-calloway", ""]
       },
       {
         "workId": "diallo-banks-new-work",
         "is_premiere": true,
         "is_commission": true,
-        "musicians": [
-          "samantha-bennett",
-          "leah-latorraca",
-          "peter-ayuso",
-          "jason-calloway"
-        ]
+        "musicians": ["samantha-bennett", "leah-latorraca", "peter-ayuso", "jason-calloway"]
       },
       {
         "workId": "michael-ippolito-string-quartet-no-3-songlines",
-        "musicians": [
-          "samantha-bennett",
-          "leah-latorraca",
-          "peter-ayuso",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "leah-latorraca", "peter-ayuso", ""]
       }
     ],
     "status": "upcoming",
@@ -2780,40 +2744,21 @@
     "program": [
       {
         "workId": "nina-c-young-sun-propeller",
-        "musicians": [
-          "samantha-bennett",
-          ""
-        ]
+        "musicians": ["samantha-bennett", ""]
       },
       {
         "workId": "claude-vivier-learning",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "leah-latorraca",
-          "",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "leah-latorraca", "", "george-nickson", ""]
       },
       {
         "workId": "shawn-allison-new-work",
         "is_premiere": true,
         "is_commission": true,
-        "musicians": [
-          "samantha-bennett",
-          "george-nickson"
-        ]
+        "musicians": ["samantha-bennett", "george-nickson"]
       },
       {
         "workId": "christopher-cerrone-goldbeaters-skin",
-        "musicians": [
-          "george-nickson",
-          "marcelina-suchocka",
-          "",
-          "mike-truesdell",
-          ""
-        ]
+        "musicians": ["george-nickson", "marcelina-suchocka", "", "mike-truesdell", ""]
       }
     ],
     "status": "upcoming",
@@ -2848,42 +2793,22 @@
     "program": [
       {
         "workId": "caroline-shaw-entracte",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "stephanie-block",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "stephanie-block", ""]
       },
       {
         "workId": "che-buford-new-work",
         "is_premiere": true,
         "is_commission": true,
-        "musicians": [
-          "calvin-falwell",
-          "wesley-ducote",
-          "samantha-bennett",
-          ""
-        ]
+        "musicians": ["calvin-falwell", "wesley-ducote", "samantha-bennett", ""]
       },
       {
         "workId": "roger-zare-finding-equilibrium",
         "is_premiere": true,
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "stephanie-block",
-          "",
-          "calvin-falwell"
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "stephanie-block", "", "calvin-falwell"]
       },
       {
         "workId": "kevin-puts-and-legions-will-rise",
-        "musicians": [
-          "samantha-bennett",
-          "stephanie-key",
-          "george-nickson"
-        ]
+        "musicians": ["samantha-bennett", "stephanie-key", "george-nickson"]
       }
     ],
     "status": "upcoming",

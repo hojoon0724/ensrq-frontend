@@ -30,11 +30,27 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
     (concert) => concert.seasonId === seasonId && concert.youTubeUrl && concert.youTubeUrl.trim() !== ""
   );
 
-  const nextConcert = currentSeasonConcertsData.find((concert) => new Date(concert.date) > new Date());
-  const upcomingConcerts = currentSeasonConcertsData.filter(
-    (concert) => new Date(concert.date) > new Date() && concert.concertId !== nextConcert?.concertId
-  );
-  const pastConcerts = currentSeasonConcertsData.filter((concert) => new Date(concert.date) < new Date());
+  // Compare dates using UTC to handle timezone differences
+  const today = new Date();
+  const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+
+  const nextConcert = currentSeasonConcertsData.find((concert) => {
+    const concertDate = new Date(concert.date);
+    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+    return concertUTC >= todayUTC;
+  });
+
+  const upcomingConcerts = currentSeasonConcertsData.filter((concert) => {
+    const concertDate = new Date(concert.date);
+    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+    return concertUTC >= todayUTC && concert.concertId !== nextConcert?.concertId;
+  });
+
+  const pastConcerts = currentSeasonConcertsData.filter((concert) => {
+    const concertDate = new Date(concert.date);
+    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+    return concertUTC < todayUTC;
+  });
 
   if (!seasonData) {
     notFound();

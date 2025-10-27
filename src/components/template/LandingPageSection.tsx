@@ -9,7 +9,7 @@ import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
 import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from "react-markdown";
 
 const duration = 2000;
 const delay = 300;
@@ -56,11 +56,24 @@ const currentSeasonConcertData = currentSeasonConcertIds
   .map((concertId) => allConcerts.find((concert) => concert.concertId === concertId))
   .filter((concert) => concert !== undefined) as Concert[];
 
+// Compare dates using UTC to handle timezone differences
+const today = new Date();
+const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+
 const upcomingConcerts = currentSeasonConcertData
-  .filter((concert) => new Date(concert.date) >= new Date())
+  .filter((concert) => {
+    const concertDate = new Date(concert.date);
+    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+    return concertUTC >= todayUTC;
+  })
   .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
 const pastConcerts = currentSeasonConcertData
-  .filter((concert) => new Date(concert.date) < new Date())
+  .filter((concert) => {
+    const concertDate = new Date(concert.date);
+    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+    return concertUTC < todayUTC;
+  })
   .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
 // Collect photo IDs from the next concert's composers and musicians
@@ -162,7 +175,15 @@ export function LandingPageSection() {
 
         {/* next concert */}
         {upcomingConcerts
-          .filter((concert) => new Date(concert.date) >= new Date())
+          .filter((concert) => {
+            const concertDate = new Date(concert.date);
+            const concertUTC = Date.UTC(
+              concertDate.getUTCFullYear(),
+              concertDate.getUTCMonth(),
+              concertDate.getUTCDate()
+            );
+            return concertUTC >= todayUTC;
+          })
           .slice(0, 1)
           .map((concert) => (
             <CarouselItem key={concert.concertId} className="relative flex-1 w-full h-full">
@@ -438,7 +459,11 @@ export function LandingPageSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-s">
           <div className="lg:order-2 image-container relative w-full h-full aspect-[5/4]">
             <div className="sticky h-full max-h-[calc(100svh-var(--standard-space-double))] top-s">
-              <Image src="/photos/about/about-ensrq-08-expanded.webp" alt="george and samantha photo" captionText="Photo by Matthew Holler"/>
+              <Image
+                src="/photos/about/about-ensrq-08-expanded.webp"
+                alt="george and samantha photo"
+                captionText="Photo by Matthew Holler"
+              />
             </div>
           </div>
           <div className="season-welcome-text-container text-gray-30 flex justify-center items-center flex-col">
