@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, CountUpToTarget, FitText, FitTextWithPadding, Image } from "@/components/atoms";
 import { CarouselItem, PhotoMarquee } from "@/components/molecules";
 import { Carousel } from "@/components/organisms";
@@ -9,6 +11,7 @@ import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
 import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
+import { useMemo } from "react";
 import ReactMarkdown from "react-markdown";
 
 const duration = 2000;
@@ -56,58 +59,63 @@ const currentSeasonConcertData = currentSeasonConcertIds
   .map((concertId) => allConcerts.find((concert) => concert.concertId === concertId))
   .filter((concert) => concert !== undefined) as Concert[];
 
-// Compare dates using UTC to handle timezone differences
-const today = new Date();
-const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+export function LandingPageSection() {
+  // Calculate upcoming and past concerts on the client side
+  const { upcomingConcerts, pastConcerts, marqueePhotos, todayUTC } = useMemo(() => {
+    // Compare dates using UTC to handle timezone differences
+    const today = new Date();
+    const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
 
-const upcomingConcerts = currentSeasonConcertData
-  .filter((concert) => {
-    const concertDate = new Date(concert.date);
-    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-    return concertUTC >= todayUTC;
-  })
-  .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    const upcoming = currentSeasonConcertData
+      .filter((concert) => {
+        const concertDate = new Date(concert.date);
+        const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+        return concertUTC >= todayUTC;
+      })
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-const pastConcerts = currentSeasonConcertData
-  .filter((concert) => {
-    const concertDate = new Date(concert.date);
-    const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-    return concertUTC < todayUTC;
-  })
-  .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    const past = currentSeasonConcertData
+      .filter((concert) => {
+        const concertDate = new Date(concert.date);
+        const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
+        return concertUTC < todayUTC;
+      })
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-// Collect photo IDs from the next concert's composers and musicians
-const nextConcertPhotosArr: string[] = [];
+    // Collect photo IDs from the next concert's composers and musicians
+    const nextConcertPhotosArr: string[] = [];
 
-if (upcomingConcerts.length > 0) {
-  upcomingConcerts[0].program.forEach((work) => {
-    // Add composer ID
-    const composerId = allWorks.find((w) => w.workId === work.workId)?.composerId;
-    if (composerId) {
-      nextConcertPhotosArr.push(composerId);
+    if (upcoming.length > 0) {
+      upcoming[0].program.forEach((work) => {
+        // Add composer ID
+        const composerId = allWorks.find((w) => w.workId === work.workId)?.composerId;
+        if (composerId) {
+          nextConcertPhotosArr.push(composerId);
+        }
+
+        // Add musician IDs
+        work.musicians.forEach((musicianId) => {
+          if (musicianId !== "") {
+            nextConcertPhotosArr.push(musicianId);
+          }
+        });
+      });
     }
 
-    // Add musician IDs
-    work.musicians.forEach((musicianId) => {
-      if (musicianId !== "") {
-        nextConcertPhotosArr.push(musicianId);
-      }
-    });
-  });
-}
+    // remove duplicates and filter out non-existing photos
+    const existingPhotosArr: string[] = Array.from(new Set(nextConcertPhotosArr)).filter(
+      (photo) => photo && Object.prototype.hasOwnProperty.call(graphicAssetsManifest, `/photos/portraits/${photo}.webp`)
+    );
 
-// remove duplicates and filter out non-existing photos
-const existingPhotosArr: string[] = Array.from(new Set(nextConcertPhotosArr)).filter(
-  (photo) => photo && Object.prototype.hasOwnProperty.call(graphicAssetsManifest, `/photos/portraits/${photo}.webp`)
-);
+    // Pre-map photos to avoid creating new arrays on every render
+    const photos = existingPhotosArr.map((id) => ({
+      src: `/photos/portraits/${id}.webp`,
+      alt: id || "composer",
+    }));
 
-// Pre-map photos to avoid creating new arrays on every render
-const marqueePhotos = existingPhotosArr.map((id) => ({
-  src: `/photos/portraits/${id}.webp`,
-  alt: id || "composer",
-}));
+    return { upcomingConcerts: upcoming, pastConcerts: past, marqueePhotos: photos, todayUTC };
+  }, []);
 
-export function LandingPageSection() {
   return (
     <>
       <Carousel autoPlay={true} autoPlayInterval={8000} className="h-[max(50svh,600px)] shadow-lg">
@@ -322,7 +330,7 @@ export function LandingPageSection() {
           ))}
       </Carousel>
 
-      <SectionEmpty themeColor="water" tone="light">
+      <SectionEmpty themeColor={upcomingConcerts.length > 0 ? (concertColorThemes[upcomingConcerts[0].concertId] || 'water') : 'water'} tone="light">
         <h1>At a glance:</h1>
 
         {/* Mobile */}
