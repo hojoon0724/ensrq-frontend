@@ -1,15 +1,10 @@
-import { LogoIcon } from "@/assets/logoIcon";
-import { VideoWithCustomThumbnail } from "@/components/organisms";
-import { SectionEmpty } from "@/components/sections";
+import { ConcertLivestream } from "@/components/organisms";
 import { notFound } from "next/navigation";
-import Markdown from "react-markdown";
 
 // Static import — avoids duplicate imports in both functions
 import PasswordGate from "@/components/atoms/PasswordGate";
-import allComposers from "@/data/serve/composers.json";
 import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
-import allWorks from "@/data/serve/works.json";
 import { formatSeasonLabel } from "@/utils";
 
 export async function generateStaticParams() {
@@ -58,134 +53,36 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
   return (
     <PasswordGate pageTitle={`${formatSeasonLabel(seasonData.seasonId)}` || "Season Pass"}>
       {/* next concert */}
-      {nextConcert && (
-        <SectionEmpty>
-          <h1 className="text-center my-double"></h1>
-
-          <div className="streaming-container bg-gray-50 w-full aspect-video flex justify-center items-center">
-            <VideoWithCustomThumbnail
-              key={nextConcert.concertId}
-              thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${nextConcert.concertId}.webp`}
-              icon={<LogoIcon color="var(--water-600)" />}
-              youtubeUrl={nextConcert.youTubeUrl || ""}
-            />
-          </div>
-          {/* Program Notes for Next Concert */}
-          <div className="program-notes-container">
-            <h2 className="font-bold my-4 text-center">Program Notes</h2>
-            {nextConcert.program?.map((work, index) => {
-              const workData = allWorks.find((w) => w.workId === work.workId);
-              if (!workData) return null;
-              return (
-                <div key={index} className="mb-6 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-4 mx-auto">
-                  <h4 className="composer-name">
-                    {allComposers.find((c) => c.composerId === workData.composerId)?.name || workData.composerId}
-                  </h4>
-                  <h4 className="work-title">{workData.title}</h4>
-                  <div className="work-details col-start-1 lg:col-start-2">
-                    {workData.description && (
-                      <div className="program-note">
-                        <Markdown>{workData.description}</Markdown>
-                      </div>
-                    )}
-                  </div>
-                  <h4 className="font-semibold mb-1"></h4>
-                </div>
-              );
-            })}
-          </div>
-        </SectionEmpty>
-      )}
+      <div className="bg-sky-200 z-[34]">
+        <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-sky-50 z-[35] flex justify-center items-center">
+          <div className="h-8 text-4xl museo-slab flex justify-center items-center">Next Up</div>
+        </div>
+        {nextConcert && <ConcertLivestream concert={nextConcert} isUpcoming={true} />}
+      </div>
 
       {/* upcoming concerts */}
 
       {upcomingConcerts.length > 0 ? (
-        <>
-          <h1 className="text-center my-double">Upcoming Concerts</h1>
+        <div className="bg-sand-200 z-[34]">
+          <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-sand-50 z-[35] flex justify-center items-center">
+            <div className="h-8 text-4xl museo-slab flex justify-center items-center">Upcoming</div>
+          </div>
           {upcomingConcerts.map((concert) => {
-            return (
-              <SectionEmpty key={concert.concertId}>
-                <div className="streaming-container bg-gray-50 w-full aspect-video flex flex-col justify-center items-center">
-                  <VideoWithCustomThumbnail
-                    key={concert.concertId}
-                    thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concert.concertId}.webp`}
-                    icon={<LogoIcon color="var(--water-600)" />}
-                    youtubeUrl={concert.youTubeUrl || ""}
-                  />
-                </div>
-                {/* Program Notes for Upcoming Concert */}
-                <div className="program-notes-container">
-                  <h2 className="font-bold my-4 text-center">Program Notes</h2>
-                  {concert.program?.map((work, index) => {
-                    const workData = allWorks.find((w) => w.workId === work.workId);
-                    if (!workData) return null;
-                    return (
-                      <div key={index} className="mb-6 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-4 mx-auto">
-                        <h4 className="composer-name">
-                          {allComposers.find((c) => c.composerId === workData.composerId)?.name || workData.composerId}
-                        </h4>
-                        <h4 className="work-title">{workData.title}</h4>
-                        <div className="work-details col-start-1 lg:col-start-2">
-                          {workData.description && (
-                            <div className="program-note">
-                              <Markdown>{workData.description}</Markdown>
-                            </div>
-                          )}
-                        </div>
-                        <h4 className="font-semibold mb-1"></h4>
-                      </div>
-                    );
-                  })}
-                </div>
-              </SectionEmpty>
-            );
+            return <ConcertLivestream concert={concert} isUpcoming={true} key={concert.concertId} />;
           })}
-        </>
+        </div>
       ) : null}
 
       {/* past concerts */}
       {pastConcerts.length > 0 ? (
-        <>
-          <h1 className="text-center my-double">Past Concerts</h1>
+        <div className="bg-water-200 z-[34]">
+          <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-water-50 z-[35] flex justify-center items-center">
+            <div className="h-8 text-4xl museo-slab flex justify-center items-center">Past Concerts</div>
+          </div>
           {pastConcerts.map((concert) => {
-            return (
-              <SectionEmpty key={concert.concertId}>
-                <div className="streaming-container bg-gray-50 w-full aspect-video flex flex-col justify-center items-center">
-                  <VideoWithCustomThumbnail
-                    key={concert.concertId}
-                    thumbnail={`/graphics/${seasonId}/streaming-thumbnails/${concert.concertId}.webp`}
-                    icon={<LogoIcon color="var(--water-600)" />}
-                    youtubeUrl={concert.youTubeUrl || ""}
-                  />
-                </div>
-                {/* Program Notes for Past Concert */}
-                <div className="program-notes-container">
-                  <h2 className="font-bold my-4 text-center">Program Notes</h2>
-                  {concert.program?.map((work, index) => {
-                    const workData = allWorks.find((w) => w.workId === work.workId);
-                    if (!workData) return null;
-                    return (
-                      <div key={index} className="mb-6 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-4 mx-auto">
-                        <h4 className="composer-name">
-                          {allComposers.find((c) => c.composerId === workData.composerId)?.name || workData.composerId}
-                        </h4>
-                        <h4 className="work-title">{workData.title}</h4>
-                        <div className="work-details col-start-1 lg:col-start-2">
-                          {workData.description && (
-                            <div className="program-note">
-                              <Markdown>{workData.description}</Markdown>
-                            </div>
-                          )}
-                        </div>
-                        <h4 className="font-semibold mb-1"></h4>
-                      </div>
-                    );
-                  })}
-                </div>
-              </SectionEmpty>
-            );
+            return <ConcertLivestream concert={concert} isUpcoming={false} key={concert.concertId} />;
           })}
-        </>
+        </div>
       ) : null}
     </PasswordGate>
   );

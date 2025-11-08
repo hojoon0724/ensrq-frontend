@@ -53,7 +53,7 @@ h6 {
 /* --- Body Text --- */
 
 p {
-  @apply text-base md:text-lg leading-relaxed max-w-[75ch] museo;
+  @apply text-base md:text-base leading-relaxed max-w-[75ch] museo;
 }
 
 small {

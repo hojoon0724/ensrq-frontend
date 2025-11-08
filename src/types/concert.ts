@@ -33,7 +33,7 @@ export interface Concert {
   youTubeUrl?: string;
   streamingPageUrl?: string;
   streamingPagePassword?: string;
-  sponsors: string;
+  sponsors?: string;
 
   program: ProgramWork[];
   status: string;
