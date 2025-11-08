@@ -5,6 +5,7 @@ import { CarouselItem, PhotoMarquee } from "@/components/molecules";
 import { Carousel } from "@/components/organisms";
 import { SectionEmpty, SectionMeshGradient } from "@/components/sections";
 import graphicAssetsManifest from "@/data/graphic-assets-manifest.json";
+import s10ConcertColorThemes from "@/data/s10-concert-color-themes.json";
 import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
 import allWorks from "@/data/serve/works.json";
@@ -27,14 +28,7 @@ const currentSeasonData = allSeasons.find((season) => season.seasonId === curren
 
 const currentSeasonConcertIds = currentSeasonData?.concerts || [];
 
-const concertColorThemes: Record<string, string> = {
-  "s10-2025-10-27-tangled-whispers": "water",
-  "s10-2025-12-08-songbird": "sky",
-  "s10-2026-01-19-goldbeaters-skin": "sand",
-  "s10-2026-02-23-retrospektiv": "sand",
-  "s10-2026-04-24-music-for-18-musicians": "sky",
-  "s10-2026-05-22-music-for-new-bodies": "water",
-};
+const concertColorThemes: Record<string, string> = s10ConcertColorThemes;
 
 const welcomeText = [
   `**Welcome to our historic 10th Season of ensembleNEWSRQ!**`,
@@ -330,7 +324,12 @@ export function LandingPageSection() {
           ))}
       </Carousel>
 
-      <SectionEmpty themeColor={upcomingConcerts.length > 0 ? (concertColorThemes[upcomingConcerts[0].concertId] || 'water') : 'water'} tone="light">
+      <SectionEmpty
+        themeColor={
+          upcomingConcerts.length > 0 ? concertColorThemes[upcomingConcerts[0].concertId] || "water" : "water"
+        }
+        tone="light"
+      >
         <h1>At a glance:</h1>
 
         {/* Mobile */}

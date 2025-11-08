@@ -1,6 +1,6 @@
-import SideNavBar from "./SideNavBar";
 export { AboutProfilesContainer } from "./AboutProfilesContainer";
 export { Carousel } from "./Carousel";
+export { ConcertLivestream } from "./ConcertLivestream";
 export { Donors } from "./Donors";
 export { Footer } from "./Footer";
 export { MatchGame } from "./MatchGame";
@@ -9,5 +9,4 @@ export { MeshGradientCurves } from "./MeshGradientCurves";
 export { MeshGradientManualCurves } from "./MeshGradientManualCurves";
 export { MeshGradientStraight } from "./MeshGradientStraight";
 export { NavBar } from "./NavBar";
-export { VideoWithCustomThumbnail } from "./VideoWithCustomThumbnail";
-export { SideNavBar };
+export { SideNavBar } from "./SideNavBar";
