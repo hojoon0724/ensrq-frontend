@@ -72,7 +72,7 @@ export function ProgramNotes({ concertData, className, oneAccordionAtATime = tru
           >
             {workData.description && (
               <div
-                className={`program-note w-[min(100%, 72ch)] mb-8 ${index === openAccordionIndex ? "p-s" : "p-s"}`}
+                className={`program-note w-[min(100%, 72ch)] ${index === openAccordionIndex ? "p-s" : "p-s"}`}
                 style={
                   index === openAccordionIndex
                     ? { backgroundColor: `color-mix(in srgb, var(--${colorTheme}-50) 20%, transparent)` }

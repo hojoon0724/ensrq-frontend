@@ -33,7 +33,12 @@ export default async function WatchConcertPage({
 
   return (
     <PasswordGate pageTitle={`${concertData.title}`}>
-      <ConcertLivestream concert={concertData} isUpcoming={isUpcoming} />
+      <div className="bg-sky-200 z-[5]">
+        <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-gray-30 z-[5] flex justify-center items-center">
+          <div className="h-8 text-4xl museo-slab flex justify-center items-center"></div>
+        </div>
+        <ConcertLivestream concert={concertData} isUpcoming={isUpcoming} />
+      </div>
     </PasswordGate>
   );
 }
