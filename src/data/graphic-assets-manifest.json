@@ -2104,5 +2104,23 @@
       "x": 0.3722,
       "y": 0.2764
     }
+  },
+  "/photos/portraits/calvin-falwell.webp": {
+    "width": 2491,
+    "height": 2560,
+    "type": "webp",
+    "focus": {
+      "x": 0.4609,
+      "y": 0.33
+    }
+  },
+  "/photos/portraits/jason-calloway.webp": {
+    "width": 1000,
+    "height": 1500,
+    "type": "webp",
+    "focus": {
+      "x": 0.4639,
+      "y": 0.1432
+    }
   }
 }
