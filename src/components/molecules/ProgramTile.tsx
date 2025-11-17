@@ -94,16 +94,15 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
 
   return (
     <div
-      className={`program-tile rounded-xl shadow-lg ${colors.bg} ${colors.border} border-2 overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02] ${className}`}
+      className={`program-tile rounded-xl flex flex-col gap-4 lg:gap-6 shadow-lg ${colors.bg} ${colors.border} border-2 overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02] ${className} p-4 lg:p-6`}
     >
-      {/* Header Section */}
-      <div className="p-6 pb-4">
-        <div className="flex items-start gap-4">
+      <div className="line-1">
+        <div className="gap-4 w-full grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] items-start">
           {/* Composer Photo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex flex-col gap-2 h-full justify-center">
             {composerPhotoPath && !imageError ? (
               <div
-                className={`relative w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}
+                className={`relative w-24 h-24 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}
               >
                 <Image
                   src={composerPhotoPath}
@@ -127,9 +126,9 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
           </div>
 
           {/* Composer and Work Info */}
-          <div className="flex-grow min-w-0">
-            <div className="flex items-start justify-between mb-2">
-              <div>
+          <div className="flex-grow min-w-0 flex flex-col gap-2 h-full justify-center">
+            <div className="flex items-start justify-between">
+              <div className="composer-name-nationality-year">
                 <h3 className={`text-lg font-bold ${colors.composer} leading-tight`}>
                   {composer?.name || "Unknown Composer"}
                 </h3>
@@ -142,22 +141,14 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
                   </div>
                 )}
               </div>
-
-              {/* Badges for special designations */}
-              <div className="flex flex- gap-1">
-                {programWork.is_premiere && <Badge className={`${colors.badge} text-xs font-semibold`}>PREMIERE</Badge>}
-                {programWork.is_commission && (
-                  <Badge className={`${colors.badge} text-xs font-semibold`}>COMMISSION</Badge>
-                )}
-              </div>
             </div>
 
             {/* Work Title */}
-            <h4 className={`text-xl font-semibold ${colors.title} mb-1 leading-tight`}>
+            <h4 className={`text-xl font-semibold ${colors.title} leading-tight`}>
               {work?.title || programWork.workId}
             </h4>
 
-            {work?.subtitle && <p className={`text-sm ${colors.text} italic mb-2`}>{work.subtitle}</p>}
+            {work?.subtitle && <p className={`text-sm ${colors.text} italic`}>{work.subtitle}</p>}
 
             {/* Work Details */}
             <div className="flex flex-wrap gap-4 text-sm">
@@ -172,6 +163,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
                 </span>
               )}
             </div>
+
             {/* Movements Section */}
             {work?.movements && work.movements.length > 0 && (
               <div className="px-0 py-4">
@@ -185,43 +177,55 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
                 </ul>
               </div>
             )}
+
+            {/* Badges for special designations */}
+            <div className="flex gap-1">
+              {programWork.is_commission && (
+                <Badge className={`${colors.badge} text-xs font-semibold uppercase`}>
+                  {programWork.commission_text || "commission"}
+                </Badge>
+              )}
+              {programWork.is_premiere && (
+                <Badge className={`${colors.badge} text-xs font-semibold uppercase`}>
+                  {programWork.premiere_text || "premiere"}
+                </Badge>
+              )}
+            </div>
+          </div>
+          {/* Musicians Section */}
+          <div className="musicians-program-notes-container h-full flex flex-col justify-between gap-6 col-span-2 md:col-span-1 col-start-2">
+            {musicianInstrumentPairs.length > 0 && (
+              <div className="musicians-section flex flex-wrap md:flex-col justify-start items-center md:items-end gap-2">
+                {musicianInstrumentPairs.map((pair, index) => (
+                  <div
+                    key={index}
+                    className={`inline-flex items-center gap-1 px-3 py-1 rounded-full ${colors.button} text-xs`}
+                  >
+                    <span className="font-medium text-nowrap">{pair.musician?.name},</span>
+                    {pair.instrument && <span className="opacity-50">{pair.instrument}</span>}
+                  </div>
+                ))}
+              </div>
+            )}
+            {/* Program Notes Toggle */}
+            {work?.description && (
+              <div className="text-nowrap flex flex-col justify-end items-end w-full">
+                <Button
+                  onClick={() => setShowNotes(!showNotes)}
+                  className={`${colors.button} text-sm px-4 py-2 rounded-lg transition-colors duration-200 text-nowrap flex justify-end items-end`}
+                >
+                  {showNotes ? "Hide Program Notes" : "Show Program Notes"}
+                </Button>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      {/* Musicians Section */}
-      {musicianInstrumentPairs.length > 0 && (
-        <div className="px-6 pb-4">
-          <div className="flex flex-wrap gap-2">
-            {musicianInstrumentPairs.map((pair, index) => (
-              <div
-                key={index}
-                className={`inline-flex items-center gap-1 px-3 py-1 rounded-full ${colors.button} text-xs`}
-              >
-                <span className="font-medium">{pair.musician?.name},</span>
-                {pair.instrument && <span className="opacity-50">{pair.instrument}</span>}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Program Notes Toggle */}
-      {work?.description && (
-        <div className="px-6 pb-4">
-          <Button
-            onClick={() => setShowNotes(!showNotes)}
-            className={`${colors.button} text-sm px-4 py-2 rounded-lg transition-colors duration-200`}
-          >
-            {showNotes ? "Hide Program Notes" : "Show Program Notes"}
-          </Button>
-        </div>
-      )}
-
       {/* Program Notes Content */}
       {showNotes && work?.description && (
-        <div className={`mx-6 mt-12 mb-6 p-4 rounded-lg ${colors.notes} border transition-all duration-300`}>
-          <div className={`text-sm ${colors.text} leading-relaxed`}>
+        <div className={`rounded-lg ${colors.notes} border transition-all duration-300`}>
+          <div className={`text-sm ${colors.text} leading-relaxed p-2 md:p-6`}>
             <h6 className={`font-semibold ${colors.composer} mb-2`}>Program Notes</h6>
             <div className="prose prose-sm max-w-none">
               {work.description.split("\n").map((paragraph, index) => (
@@ -234,13 +238,15 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
         </div>
       )}
 
-      {/* Special Text for Premieres/Commissions */}
-      {(programWork.premiere_text || programWork.commission_text) && (
+      {/* {(programWork.premiere_text || programWork.commission_text) && (
         <div className={`px-6 pb-4 text-sm ${colors.text} italic`}>
-          {programWork.premiere_text && <p className="mb-1">{programWork.premiere_text}</p>}
-          {programWork.commission_text && <p>{programWork.commission_text}</p>}
+          <p>
+            {programWork.commission_text && <span>{programWork.commission_text}</span>}
+            
+            {programWork.premiere_text && <span className="mb-1"> {programWork.premiere_text}</span>}
+          </p>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
