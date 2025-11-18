@@ -126,7 +126,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
           </div>
 
           {/* Composer and Work Info */}
-          <div className="flex-grow min-w-0 flex flex-col gap-2 h-full justify-center">
+          <div className="flex-grow min-w-0 flex flex-col gap-1 h-full justify-center">
             <div className="flex items-start justify-between">
               <div className="composer-name-nationality-year">
                 <h3 className={`text-lg font-bold ${colors.composer} leading-tight`}>
@@ -179,7 +179,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
             )}
 
             {/* Badges for special designations */}
-            <div className="flex gap-1">
+            <div className="flex gap-1 flex-col items-start pt-4 md:flex-row">
               {programWork.is_commission && (
                 <Badge className={`${colors.badge} text-xs font-semibold uppercase`}>
                   {programWork.commission_text || "commission"}
