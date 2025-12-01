@@ -2122,5 +2122,14 @@
       "x": 0.4639,
       "y": 0.1432
     }
+  },
+  "/photos/portraits/juri-seo-1.webp": {
+    "width": 1500,
+    "height": 2250,
+    "type": "webp",
+    "focus": {
+      "x": 0.5261,
+      "y": 0.2298
+    }
   }
 }
