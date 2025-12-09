@@ -9,12 +9,16 @@ import Link from "next/link";
 // Helper: tickets expire the day after the concert date
 function isConcertExpired(concertDate: string) {
   const today = new Date();
-  // Add one day to concert date for expiration
+  const todayLocal = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+
+  // Parse the UTC date string and extract UTC date components
   const concert = new Date(concertDate);
-  concert.setDate(concert.getDate() + 1);
-  const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
-  const concertUTC = Date.UTC(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
-  return todayUTC >= concertUTC;
+  // Create a local date using the UTC date components (ignoring time and timezone)
+  const concertLocal = new Date(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
+  // Add one day to concert date for expiration
+  concertLocal.setDate(concertLocal.getDate() + 1);
+
+  return todayLocal >= concertLocal.getTime();
 }
 
 export function IndividualTicket({
@@ -45,7 +49,9 @@ export function IndividualTicket({
         className={`text-black `}
       >
         <div
-          className={`concert-text-container flex flex-col items-end justify-center ${expired ? "opacity-30" : "opacity-100"}`}
+          className={`concert-text-container flex flex-col items-end justify-center ${
+            expired ? "opacity-30" : "opacity-100"
+          }`}
         >
           <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
           <p>
@@ -64,16 +70,76 @@ export function IndividualTicket({
           {expired && type === "live"
             ? "Concert Ended"
             : !concert.ticketsLinks[ticketType()]?.url
-              ? "Not Available Yet"
-              : `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
+            ? "Not Available Yet"
+            : `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
         </Button>
       </a>
     </>
   );
 }
 
+export function SpecialEventTicket({
+  concert,
+  colorTheme,
+}: {
+  concert: Concert;
+  colorTheme: "sky" | "sand" | "water";
+}) {
+  // Only apply expiration for live tickets
+  const expired = isConcertExpired(concert.date);
+
+  return (
+    <>
+      <Link
+        href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`}
+        className={`text-black `}
+      >
+        <div
+          className={`concert-text-container flex flex-col items-end justify-center ${
+            expired ? "opacity-30" : "opacity-100"
+          }`}
+        >
+          <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
+          <p>
+            {extractDateFromUtc(concert.date)} @ {concert.time}
+          </p>
+        </div>
+      </Link>
+      <div className="div">
+        {concert.specialEventTicketsLinks?.map((linkOption, index) => (
+          <div key={index} className="mb-s last:mb-0 w-full">
+            <a href={linkOption.url} target="_blank" rel="noopener noreferrer">
+              <Button
+                disabled={!linkOption.url}
+                size="lg"
+                color={colorTheme}
+                className={`${expired ? "saturate-0" : ""} w-full`}
+              >
+                {expired
+                  ? "Event Ended"
+                  : !linkOption.url
+                  ? "Not Available Yet"
+                  : `${linkOption.label} $${linkOption.price}`}
+              </Button>
+            </a>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
 export function TicketsTable({ season }: { season: Season }) {
   const { concerts, ticketsLinks } = season;
+  const regularConcerts = concerts.filter((concertId) => {
+    const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertId);
+    return matched && !matched.isSpecialEvent;
+  });
+
+  const specialEvents = concerts.filter((concertId) => {
+    const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertId);
+    return matched && matched.isSpecialEvent;
+  });
 
   return (
     <>
@@ -81,7 +147,7 @@ export function TicketsTable({ season }: { season: Season }) {
         <a className="anchor scroll-mt-[80px]" id="live-streaming"></a>
         <div className="season-pass-live flex flex-col items-center gap-s text-center">
           <h2>Live Season Pass</h2>
-          <h3>{concerts.length} Live Concerts + Archival Streaming</h3>
+          <h3>{regularConcerts.length} Live Concerts + Archival Streaming</h3>
           <h4 className="price">${ticketsLinks?.seasonLive?.price}</h4>
           <a href={ticketsLinks?.seasonLive?.url} target="_blank" rel="noopener noreferrer">
             <Button size="lg" color="sand">
@@ -112,7 +178,7 @@ export function TicketsTable({ season }: { season: Season }) {
           <h4>$30</h4>
           <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
           <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">
-            {concerts.map((concertRef) => {
+            {regularConcerts.map((concertRef) => {
               const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
               if (!matched) return null;
               return <IndividualTicket key={matched.concertId} concert={matched} type="live" colorTheme="sand" />;
@@ -130,10 +196,27 @@ export function TicketsTable({ season }: { season: Season }) {
           <h4>$10</h4>
           <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
           <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">
-            {concerts.map((concertRef) => {
+            {regularConcerts.map((concertRef) => {
               const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
               if (!matched) return null;
               return <IndividualTicket key={matched.concertId} concert={matched} type="streaming" colorTheme="water" />;
+            })}
+          </div>
+        </div>
+      </SectionEmpty>
+      <SectionEmpty
+        themeColor="sand"
+        className="min-h-[min(60svh,800px)] flex flex-col items-center justify-center w-full"
+      >
+        <a className="anchor scroll-mt-[80px]" id="individual-tickets"></a>
+        <div className="season-pass-streaming flex flex-col justify-center items-center gap-s text-center">
+          <h2>Special Events</h2>
+          <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
+          <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">
+            {specialEvents.map((concertRef) => {
+              const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
+              if (!matched) return null;
+              return <SpecialEventTicket key={matched.concertId} concert={matched} colorTheme="water" />;
             })}
           </div>
         </div>

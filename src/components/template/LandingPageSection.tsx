@@ -55,24 +55,36 @@ const currentSeasonConcertData = currentSeasonConcertIds
 
 export function LandingPageSection() {
   // Calculate upcoming and past concerts on the client side
-  const { upcomingConcerts, pastConcerts, marqueePhotos, todayUTC } = useMemo(() => {
-    // Compare dates using UTC to handle timezone differences
+  const { upcomingConcerts, pastConcerts, marqueePhotos } = useMemo(() => {
+    // Compare dates using local timezone - get start of today in user's local time
     const today = new Date();
-    const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+    const todayLocal = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
 
     const upcoming = currentSeasonConcertData
       .filter((concert) => {
+        // Parse the UTC date string and extract UTC date components
         const concertDate = new Date(concert.date);
-        const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-        return concertUTC >= todayUTC;
+        // Create a local date using the UTC date components (ignoring time and timezone)
+        const concertLocal = new Date(
+          concertDate.getUTCFullYear(),
+          concertDate.getUTCMonth(),
+          concertDate.getUTCDate()
+        ).getTime();
+        return concertLocal >= todayLocal;
       })
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
     const past = currentSeasonConcertData
       .filter((concert) => {
+        // Parse the UTC date string and extract UTC date components
         const concertDate = new Date(concert.date);
-        const concertUTC = Date.UTC(concertDate.getUTCFullYear(), concertDate.getUTCMonth(), concertDate.getUTCDate());
-        return concertUTC < todayUTC;
+        // Create a local date using the UTC date components (ignoring time and timezone)
+        const concertLocal = new Date(
+          concertDate.getUTCFullYear(),
+          concertDate.getUTCMonth(),
+          concertDate.getUTCDate()
+        ).getTime();
+        return concertLocal < todayLocal;
       })
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
@@ -107,7 +119,7 @@ export function LandingPageSection() {
       alt: id || "composer",
     }));
 
-    return { upcomingConcerts: upcoming, pastConcerts: past, marqueePhotos: photos, todayUTC };
+    return { upcomingConcerts: upcoming, pastConcerts: past, marqueePhotos: photos };
   }, []);
 
   return (
@@ -176,152 +188,147 @@ export function LandingPageSection() {
         </CarouselItem>
 
         {/* next concert */}
-        {upcomingConcerts
-          .filter((concert) => {
-            const concertDate = new Date(concert.date);
-            const concertUTC = Date.UTC(
-              concertDate.getUTCFullYear(),
-              concertDate.getUTCMonth(),
-              concertDate.getUTCDate()
-            );
-            return concertUTC >= todayUTC;
-          })
-          .slice(0, 1)
-          .map((concert) => (
-            <CarouselItem key={concert.concertId} className="relative flex-1 w-full h-full">
-              {/* Background mesh gradient */}
-              <div className={`absolute marquee-container w-full h-full`}>
-                <div className="w-full h-full flex flex-col ">
-                  <div
-                    className={`padding-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
-                  >
-                    &nbsp;
-                  </div>
-                  <div
-                    className={`first-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
-                  >
-                    <PhotoMarquee
-                      photos={marqueePhotos}
-                      speed={"medium"}
-                      direction={"left"}
-                      aspectRatio={"landscape"}
-                      className="h-full"
-                      photoClassName="object-cover"
-                      gap={0}
-                      pauseOnHover={true}
-                    />
-                  </div>
-                  <div
-                    className={`second-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
-                  >
-                    <PhotoMarquee
-                      photos={marqueePhotos}
-                      speed={"slow"}
-                      direction={"left"}
-                      aspectRatio={"landscape"}
-                      className="h-full"
-                      photoClassName="object-cover"
-                      gap={0}
-                      pauseOnHover={true}
-                    />
-                  </div>
+        {upcomingConcerts.slice(0, 1).map((concert: Concert) => (
+          <CarouselItem key={concert.concertId} className="relative flex-1 w-full h-full">
+            {/* Background mesh gradient */}
+            <div className={`absolute marquee-container w-full h-full`}>
+              <div className="w-full h-full flex flex-col ">
+                <div
+                  className={`padding-row w-full h-full bg-${
+                    concertColorThemes[concert.concertId] || "sand"
+                  }-950 z-[-2]`}
+                >
+                  &nbsp;
+                </div>
+                <div
+                  className={`first-row w-full h-full bg-${concertColorThemes[concert.concertId] || "sand"}-950 z-[-2]`}
+                >
+                  <PhotoMarquee
+                    photos={marqueePhotos}
+                    speed={"medium"}
+                    direction={"left"}
+                    aspectRatio={"landscape"}
+                    className="h-full"
+                    photoClassName="object-cover"
+                    gap={0}
+                    pauseOnHover={true}
+                  />
+                </div>
+                <div
+                  className={`second-row w-full h-full bg-${
+                    concertColorThemes[concert.concertId] || "sand"
+                  }-950 z-[-2]`}
+                >
+                  <PhotoMarquee
+                    photos={marqueePhotos}
+                    speed={"slow"}
+                    direction={"left"}
+                    aspectRatio={"landscape"}
+                    className="h-full"
+                    photoClassName="object-cover"
+                    gap={0}
+                    pauseOnHover={true}
+                  />
                 </div>
               </div>
-              <SectionMeshGradient
-                color1={concertColorThemes[concert.concertId] || "sand"}
-                tone="light"
-                backgroundColor="transparent"
-                variant="s-curve"
-                baselineWidth={700}
-                lockLastNodeX={true}
-                lineCount={6}
-                nodeCount={4}
-                nodes={[
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                  [
-                    { x: 0, y: 0 },
-                    { x: 20, y: 0 },
-                  ],
-                ]}
-              >
-                <></>
-              </SectionMeshGradient>
-              {/* Content overlay */}
-              <div
-                key={concert.concertId}
-                className="absolute inset-0 h-full w-full max-w-7xl mx-auto flex flex-col items-center justify-between p-8"
-              >
-                <div className="carousel-item__top-section w-full flex flex-col items-end justify-end museo-slab">
-                  <div className="text-2xl md:text-3xl pr-half">Next concert:</div>
-                  <div className="fit-text-container w-full md:w-[90%] flex justify-between items-center">
-                    <div className="div"></div>
-                    <FitText
-                      className="text-right w-full h-full flex flex-row-reverse items-center right-0"
-                      minFontSize={80}
-                      mobileMinFontSize={50}
-                      maxFontSize={180}
-                      allowWrap={true}
-                    >
-                      {concert.title}
-                    </FitText>
-                  </div>
-                </div>
-                <div className="carousel-item__bottom-section w-full grid grid-cols-1 md:grid-cols-[1fr,auto] gap-double items-center justify-end museo-slab">
-                  <div className="w-full">
-                    <FitText
-                      className={`text-right font-bold w-full h-full flex items-center justify-end [text-shadow:2px_2px_6px_rgba(0,0,0,0.5)] text-${concertColorThemes[concert.concertId] || "sand"}-50`}
-                      minFontSize={12}
-                      mobileMinFontSize={10}
-                      maxFontSize={24}
-                    >
-                      {`${extractDateFromUtc(concert.date)} @ ${concert.time}`}
-                    </FitText>
-                  </div>
-                  <div className="tickets-buttons-container w-full flex justify-end items-end gap-s">
-                    <Link href={`${concert.ticketsLinks.singleLive?.url}`} className="flex justify-end">
-                      <Button
-                        variant="filled"
-                        border={true}
-                        size="lg"
-                        color={concertColorThemes[concert.concertId] || "sand"}
-                      >
-                        Live Ticket
-                      </Button>
-                    </Link>
-                    <Link href={`${concert.ticketsLinks.singleStreaming?.url}`} className="flex justify-end">
-                      <Button
-                        variant="filled"
-                        border={true}
-                        size="lg"
-                        color={concertColorThemes[concert.concertId] || "sand"}
-                      >
-                        Streaming Ticket
-                      </Button>
-                    </Link>
-                  </div>
+            </div>
+            <SectionMeshGradient
+              color1={concertColorThemes[concert.concertId] || "sand"}
+              tone="light"
+              backgroundColor="transparent"
+              variant="s-curve"
+              baselineWidth={700}
+              lockLastNodeX={true}
+              lineCount={6}
+              nodeCount={4}
+              nodes={[
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+                [
+                  { x: 0, y: 0 },
+                  { x: 20, y: 0 },
+                ],
+              ]}
+            >
+              <></>
+            </SectionMeshGradient>
+            {/* Content overlay */}
+            <div
+              key={concert.concertId}
+              className="absolute inset-0 h-full w-full max-w-7xl mx-auto flex flex-col items-center justify-between p-8"
+            >
+              <div className="carousel-item__top-section w-full flex flex-col items-end justify-end museo-slab">
+                <div className="text-2xl md:text-3xl pr-half">Next concert:</div>
+                <div className="fit-text-container w-full md:w-[90%] flex justify-between items-center">
+                  <div className="div"></div>
+                  <FitText
+                    className="text-right w-full h-full flex flex-row-reverse items-center right-0"
+                    minFontSize={80}
+                    mobileMinFontSize={50}
+                    maxFontSize={180}
+                    allowWrap={true}
+                  >
+                    {concert.title}
+                  </FitText>
                 </div>
               </div>
-            </CarouselItem>
-          ))}
+              <div className="carousel-item__bottom-section w-full grid grid-cols-1 md:grid-cols-[1fr,auto] gap-double items-center justify-end museo-slab">
+                <div className="w-full">
+                  <FitText
+                    className={`text-right font-bold w-full h-full flex items-center justify-end [text-shadow:2px_2px_6px_rgba(0,0,0,0.5)] text-${
+                      concertColorThemes[concert.concertId] || "sand"
+                    }-50`}
+                    minFontSize={12}
+                    mobileMinFontSize={10}
+                    maxFontSize={24}
+                  >
+                    {`${extractDateFromUtc(concert.date)} @ ${concert.time}`}
+                  </FitText>
+                </div>
+                <div className="tickets-buttons-container w-full flex justify-end items-end gap-s">
+                  <Link href={`${concert.ticketsLinks.singleLive?.url}`} className="flex justify-end">
+                    <Button
+                      variant="filled"
+                      border={true}
+                      size="lg"
+                      color={concertColorThemes[concert.concertId] || "sand"}
+                    >
+                      Live Ticket
+                    </Button>
+                  </Link>
+                  <Link href={`${concert.ticketsLinks.singleStreaming?.url}`} className="flex justify-end">
+                    <Button
+                      variant="filled"
+                      border={true}
+                      size="lg"
+                      color={concertColorThemes[concert.concertId] || "sand"}
+                    >
+                      Streaming Ticket
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+        ))}
       </Carousel>
 
       <SectionEmpty
@@ -361,7 +368,9 @@ export function LandingPageSection() {
           ))}
           {pastConcerts.length > 0 && (
             <div
-              className={`separator col-span-2 px-half mt-s opacity-50 border-t ${upcomingConcerts.length === 0 ? "hidden" : "pt-s"}`}
+              className={`separator col-span-2 px-half mt-s opacity-50 border-t ${
+                upcomingConcerts.length === 0 ? "hidden" : "pt-s"
+              }`}
             >
               Past Concerts
             </div>
@@ -433,7 +442,9 @@ export function LandingPageSection() {
 
           {pastConcerts.length > 0 && (
             <div
-              className={`separator col-span-4 px-half mt-s opacity-50 border-t ${upcomingConcerts.length === 0 ? "hidden" : "pt-s"}`}
+              className={`separator col-span-4 px-half mt-s opacity-50 border-t ${
+                upcomingConcerts.length === 0 ? "hidden" : "pt-s"
+              }`}
             >
               Past Concerts
             </div>
@@ -476,7 +487,9 @@ export function LandingPageSection() {
           <div className="season-welcome-text-container text-gray-30 flex justify-center items-center flex-col">
             {welcomeText.map((line, index) => (
               <div
-                className={`${index < welcomeText.length - 2 ? "mb-4 text-justify w-full" : "w-full text-right"} pretty`}
+                className={`${
+                  index < welcomeText.length - 2 ? "mb-4 text-justify w-full" : "w-full text-right"
+                } pretty`}
                 key={index}
               >
                 <ReactMarkdown>{line}</ReactMarkdown>
