@@ -3,6 +3,12 @@ export interface TicketOption {
   url: string;
 }
 
+export interface SpecialEventTicketsOption {
+  label: string;
+  price: number;
+  url: string;
+}
+
 export interface ProgramWork {
   workId: string;
   is_premiere?: boolean;
@@ -30,6 +36,9 @@ export interface Concert {
     singleLive?: TicketOption;
     singleStreaming?: TicketOption;
   };
+
+  specialEventTicketsLinks?: SpecialEventTicketsOption[];
+
   youTubeUrl?: string;
   streamingPageUrl?: string;
   streamingPagePassword?: string;
@@ -37,12 +46,13 @@ export interface Concert {
 
   program: ProgramWork[];
   status: string;
-
+  
   coPresented: {
     name: string;
     logoFileName: string;
   }[];
-
+  
+  isSpecialEvent?: boolean;
   createdAt?: string;
   updatedAt?: string;
 }

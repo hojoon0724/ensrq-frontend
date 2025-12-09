@@ -8,6 +8,15 @@ const ticketLinkSchema = new mongoose.Schema(
   { _id: false }
 );
 
+const specialEventTicketsOptionSchema = new mongoose.Schema(
+  {
+    label: { type: String, trim: true },
+    price: { type: Number, min: 0 },
+    url: { type: String, trim: true },
+  },
+  { _id: false }
+);
+
 const programItemSchema = new mongoose.Schema(
   {
     workId: { type: String, required: true, ref: "Work", trim: true },
@@ -38,7 +47,11 @@ const concertSchema = new mongoose.Schema(
     time: { type: String, trim: true },
     seasonId: { type: String, ref: "Season", trim: true },
     venueId: { type: String, ref: "Venue", trim: true },
-    ticketsLinks: { singleLive: ticketLinkSchema, singleStreaming: ticketLinkSchema },
+    ticketsLinks: {
+      singleLive: ticketLinkSchema,
+      singleStreaming: ticketLinkSchema,
+    },
+    specialEventTicketsLinks: [specialEventTicketsOptionSchema],
     youTubeUrl: { type: String, trim: true },
     streamingPagePassword: { type: String, trim: true },
     streamingPageUrl: { type: String, trim: true },
@@ -57,6 +70,7 @@ const concertSchema = new mongoose.Schema(
         trim: true,
       },
     ],
+    isSpecialEvent: { type: Boolean, default: false },
   },
   {
     timestamps: true,

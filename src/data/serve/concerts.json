@@ -2640,29 +2640,15 @@
     "program": [
       {
         "workId": "sebastian-currier-whispers",
-        "musicians": [
-          "betsy-hudson-traba",
-          "jason-calloway",
-          "wesley-ducote",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["betsy-hudson-traba", "jason-calloway", "wesley-ducote", "george-nickson", ""]
       },
       {
         "workId": "amy-williams-tangled-madrigal",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "peter-ayuso",
-          "jason-calloway"
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "peter-ayuso", "jason-calloway"]
       },
       {
         "workId": "jerod-tate-inchokkillissa-for-guitar-and-percussion",
-        "musicians": [
-          "mark-dacigers",
-          "george-nickson"
-        ]
+        "musicians": ["mark-dacigers", "george-nickson"]
       },
       {
         "workId": "elliott-carter-triple-duo",
@@ -2709,12 +2695,7 @@
     "program": [
       {
         "workId": "reiko-futing-procession-processpeace-dona-nobis-pacem",
-        "musicians": [
-          "samantha-bennett",
-          "jason-calloway",
-          "calvin-falwell",
-          "wesley-ducote"
-        ]
+        "musicians": ["samantha-bennett", "jason-calloway", "calvin-falwell", "wesley-ducote"]
       },
       {
         "workId": "juri-seo-songbird",
@@ -2733,21 +2714,11 @@
         "premiere_text": "World Premiere",
         "is_commission": true,
         "commission_text": "enSRQ Commission",
-        "musicians": [
-          "calvin-falwell",
-          "samantha-bennett",
-          "peter-ayuso",
-          "jason-calloway"
-        ]
+        "musicians": ["calvin-falwell", "samantha-bennett", "peter-ayuso", "jason-calloway"]
       },
       {
         "workId": "michael-ippolito-string-quartet-no-3-songlines",
-        "musicians": [
-          "samantha-bennett",
-          "leah-latorraca",
-          "peter-ayuso",
-          "jason-calloway"
-        ]
+        "musicians": ["samantha-bennett", "leah-latorraca", "peter-ayuso", "jason-calloway"]
       }
     ],
     "status": "upcoming",
@@ -2782,45 +2753,69 @@
     "program": [
       {
         "workId": "nina-c-young-sun-propeller",
-        "musicians": [
-          "samantha-bennett",
-          ""
-        ]
+        "musicians": ["samantha-bennett", ""]
       },
       {
         "workId": "claude-vivier-learning",
-        "musicians": [
-          "samantha-bennett",
-          "",
-          "leah-latorraca",
-          "vivek-jayaraman",
-          "george-nickson",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "", "leah-latorraca", "vivek-jayaraman", "george-nickson", ""]
       },
       {
         "workId": "shawn-allison-new-work",
         "is_premiere": true,
         "is_commission": true,
-        "musicians": [
-          "samantha-bennett",
-          "george-nickson"
-        ]
+        "musicians": ["samantha-bennett", "george-nickson"]
       },
       {
         "workId": "christopher-cerrone-goldbeaters-skin",
-        "musicians": [
-          "george-nickson",
-          "mike-truesdell",
-          "marcelina-suchocka",
-          "ye-young-yoon",
-          "thea-lobo"
-        ]
+        "musicians": ["george-nickson", "mike-truesdell", "marcelina-suchocka", "ye-young-yoon", "thea-lobo"]
       }
     ],
     "status": "upcoming",
     "coPresented": [],
     "additionalPhotos": []
+  },
+  {
+    "concertId": "s10-2026-01-29-now-ensemble",
+    "title": "NOW Ensemble",
+    "subtitle": "presented by enSRQ",
+    "description": "",
+    "shortDescription": "",
+    "oneLiner": "",
+    "date": "2026-01-29T00:00:00.000Z",
+    "time": "7:30pm",
+    "seasonId": "s10",
+    "venueId": "first-congregational-church",
+    "ticketsLinks": {
+      "singleLive": {
+        "price": 0,
+        "url": ""
+      },
+      "singleStreaming": {
+        "price": 0,
+        "url": ""
+      }
+    },
+    "specialEventTicketsLinks": [
+      {
+        "label": "General",
+        "price": 30,
+        "url": "https://ensrq.ticketspice.com/ensrq-presents-now-ensemble"
+      },
+      {
+        "label": "Members",
+        "price": 20,
+        "url": "https://ensrq.ticketspice.com/ensrq-presents-now-ensemble"
+      }
+    ],
+    "youTubeUrl": "",
+    "streamingPagePassword": "",
+    "streamingPageUrl": "",
+    "sponsors": "",
+    "program": [],
+    "status": "upcoming",
+    "coPresented": [],
+    "additionalPhotos": [],
+    "isSpecialEvent": true
   },
   {
     "concertId": "s10-2026-02-23-retrospektiv",
@@ -2850,42 +2845,22 @@
     "program": [
       {
         "workId": "caroline-shaw-entracte",
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "stephanie-block",
-          ""
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "stephanie-block", ""]
       },
       {
         "workId": "che-buford-new-work",
         "is_premiere": true,
         "is_commission": true,
-        "musicians": [
-          "calvin-falwell",
-          "wesley-ducote",
-          "samantha-bennett",
-          ""
-        ]
+        "musicians": ["calvin-falwell", "wesley-ducote", "samantha-bennett", ""]
       },
       {
         "workId": "roger-zare-finding-equilibrium",
         "is_premiere": true,
-        "musicians": [
-          "samantha-bennett",
-          "jennifer-best-takeda",
-          "stephanie-block",
-          "",
-          "calvin-falwell"
-        ]
+        "musicians": ["samantha-bennett", "jennifer-best-takeda", "stephanie-block", "", "calvin-falwell"]
       },
       {
         "workId": "kevin-puts-and-legions-will-rise",
-        "musicians": [
-          "samantha-bennett",
-          "stephanie-key",
-          "george-nickson"
-        ]
+        "musicians": ["samantha-bennett", "stephanie-key", "george-nickson"]
       }
     ],
     "status": "upcoming",
