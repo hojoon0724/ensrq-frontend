@@ -52,6 +52,7 @@ const concertSchema = new mongoose.Schema(
       singleStreaming: ticketLinkSchema,
     },
     specialEventTicketsLinks: [specialEventTicketsOptionSchema],
+
     youTubeUrl: { type: String, trim: true },
     streamingPagePassword: { type: String, trim: true },
     streamingPageUrl: { type: String, trim: true },
