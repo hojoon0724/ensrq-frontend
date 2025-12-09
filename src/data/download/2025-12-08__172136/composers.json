@@ -14,9 +14,7 @@
     "nationality": "American",
     "born": 1985,
     "bio": "",
-    "photos": [
-      "alex-burtzos"
-    ]
+    "photos": []
   },
   {
     "composerId": "amy-williams",
@@ -545,8 +543,7 @@
     "nationality": "South Korean",
     "born": 1981,
     "photos": [
-      "juri-seo",
-      "juri-seo-1"
+      "juri-seo"
     ]
   },
   {
@@ -578,9 +575,7 @@
     "name": "Kathryn Alexander",
     "nationality": "",
     "bio": "",
-    "photos": [
-      "kathryn-alexander"
-    ]
+    "photos": []
   },
   {
     "composerId": "ken-ueno",
@@ -622,9 +617,7 @@
     "name": "Konrad Kaczmarek",
     "nationality": "",
     "bio": "",
-    "photos": [
-      "konrad-kaczmarek"
-    ]
+    "photos": []
   },
   {
     "composerId": "krists-auznieks",
@@ -723,9 +716,7 @@
     "nationality": "American",
     "born": 1981,
     "bio": "",
-    "photos": [
-      "mark-dancigers"
-    ]
+    "photos": []
   },
   {
     "composerId": "mason-bates",
@@ -799,9 +790,7 @@
     "name": "Michi Wiancko",
     "nationality": "",
     "bio": "",
-    "photos": [
-      "michi-wiancko"
-    ]
+    "photos": []
   },
   {
     "composerId": "missy-mazzoli",
@@ -1064,9 +1053,7 @@
     "name": "Sophia Vastek",
     "nationality": "",
     "bio": "",
-    "photos": [
-      "sophia-vastek"
-    ]
+    "photos": []
   },
   {
     "composerId": "stacy-garrop",

@@ -2131,5 +2131,55 @@
       "x": 0.5261,
       "y": 0.2298
     }
+  },
+  "/photos/portraits/alex-burtzos.webp": {
+    "width": 2048,
+    "height": 1536,
+    "type": "webp",
+    "focus": {
+      "x": 0.4907,
+      "y": 0.3575
+    }
+  },
+  "/photos/portraits/kathryn-alexander.webp": {
+    "width": 1000,
+    "height": 1000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4926,
+      "y": 0.41
+    }
+  },
+  "/photos/portraits/konrad-kaczmarek.webp": {
+    "width": 1440,
+    "height": 960,
+    "type": "webp",
+    "focus": {
+      "x": 0.5236,
+      "y": 0.4146
+    }
+  },
+  "/photos/portraits/mark-dancigers.webp": {
+    "width": 2048,
+    "height": 1363,
+    "type": "webp",
+    "focus": {
+      "x": 0.6102,
+      "y": 0.2064
+    }
+  },
+  "/photos/portraits/michi-wiancko.webp": {
+    "width": 1000,
+    "height": 1000,
+    "type": "webp",
+    "focus": {
+      "x": 0.4831,
+      "y": 0.3486
+    }
+  },
+  "/photos/portraits/sophia-vastek.webp": {
+    "width": 2000,
+    "height": 3000,
+    "type": "webp"
   }
 }
