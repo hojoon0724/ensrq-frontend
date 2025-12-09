@@ -6,4 +6,5 @@ export { SectionBanner } from "./SectionBanner";
 export { SectionBlobs } from "./SectionBlobs";
 export { SectionEmpty } from "./SectionEmpty";
 export { SectionMeshGradient } from "./SectionMeshGradient";
+export { SpecialEventTicketLinks } from "./SpecialEventTicketLinks";
 export { TicketLinks } from "./TicketLinks";

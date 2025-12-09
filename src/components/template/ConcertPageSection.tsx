@@ -3,7 +3,7 @@
 import { Image } from "@/components/atoms";
 import { ShowMarkdownText } from "@/components/atoms/ShowMarkdownText";
 import { ProgramTile } from "@/components/molecules";
-import { SectionEmpty, TicketLinks, useRandomColors } from "@/components/sections";
+import { SectionEmpty, SpecialEventTicketLinks, TicketLinks, useRandomColors } from "@/components/sections";
 import BaseRandomColorHeader from "@/components/sections/BaseRandomColorHeader";
 import { Concert } from "@/types";
 import { extractDateFromUtc, getCurrentSeason, getVenueData } from "@/utils";
@@ -52,13 +52,20 @@ export function ConcertPageSection({ concertData }: ConcertPageSectionProps) {
   );
 
   // Ticket section
-  const ticketSection = is_current_season && concertData.ticketsLinks && (
-    <TicketLinks
-      liveTickets={concertData.ticketsLinks.singleLive}
-      streamingTickets={concertData.ticketsLinks.singleStreaming}
-      color={colors.randomTextColor}
-    />
-  );
+  const ticketSection =
+    concertData.isSpecialEvent === true
+      ? is_current_season &&
+        concertData.specialEventTicketsLinks && (
+          <SpecialEventTicketLinks tickets={concertData.specialEventTicketsLinks} color={colors.randomTextColor} />
+        )
+      : is_current_season &&
+        concertData.ticketsLinks && (
+          <TicketLinks
+            liveTickets={concertData.ticketsLinks.singleLive}
+            streamingTickets={concertData.ticketsLinks.singleStreaming}
+            color={colors.randomTextColor}
+          />
+        );
 
   return (
     <>
