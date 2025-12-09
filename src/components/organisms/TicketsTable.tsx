@@ -3,22 +3,19 @@ import { SectionEmpty } from "@/components/sections";
 import { Concert, Season } from "@/types";
 
 import ConcertData from "@/data/serve/concerts.json";
-import { extractDateFromUtc, removeSeasonNumberFromConcertId } from "@/utils";
+import { convertUtcDateToLocal, extractDateFromUtc, getTodayLocal, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
 
 // Helper: tickets expire the day after the concert date
 function isConcertExpired(concertDate: string) {
-  const today = new Date();
-  const todayLocal = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+  const todayLocal = getTodayLocal();
+  const concertLocal = convertUtcDateToLocal(concertDate);
 
-  // Parse the UTC date string and extract UTC date components
-  const concert = new Date(concertDate);
-  // Create a local date using the UTC date components (ignoring time and timezone)
-  const concertLocal = new Date(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
   // Add one day to concert date for expiration
-  concertLocal.setDate(concertLocal.getDate() + 1);
+  const expirationDate = new Date(concertLocal);
+  expirationDate.setDate(expirationDate.getDate() + 1);
 
-  return todayLocal >= concertLocal.getTime();
+  return todayLocal >= expirationDate.getTime();
 }
 
 export function IndividualTicket({
