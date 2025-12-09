@@ -8,7 +8,7 @@ const PREVIEW_ONLY_PATHS = [
   // Add more paths here
 ]
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
   
   // Check if this is a preview-only path
