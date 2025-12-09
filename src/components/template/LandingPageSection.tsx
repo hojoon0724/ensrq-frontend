@@ -10,7 +10,7 @@ import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
 import allWorks from "@/data/serve/works.json";
 import { Concert } from "@/types/concert";
-import { extractDateFromUtc, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
+import { extractDateFromUtc, filterConcertsByDate, getVenueData, removeSeasonNumberFromConcertId } from "@/utils";
 import Link from "next/link";
 import { useMemo } from "react";
 import ReactMarkdown from "react-markdown";
@@ -56,37 +56,8 @@ const currentSeasonConcertData = currentSeasonConcertIds
 export function LandingPageSection() {
   // Calculate upcoming and past concerts on the client side
   const { upcomingConcerts, pastConcerts, marqueePhotos } = useMemo(() => {
-    // Compare dates using local timezone - get start of today in user's local time
-    const today = new Date();
-    const todayLocal = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
-
-    const upcoming = currentSeasonConcertData
-      .filter((concert) => {
-        // Parse the UTC date string and extract UTC date components
-        const concertDate = new Date(concert.date);
-        // Create a local date using the UTC date components (ignoring time and timezone)
-        const concertLocal = new Date(
-          concertDate.getUTCFullYear(),
-          concertDate.getUTCMonth(),
-          concertDate.getUTCDate()
-        ).getTime();
-        return concertLocal >= todayLocal;
-      })
-      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
-    const past = currentSeasonConcertData
-      .filter((concert) => {
-        // Parse the UTC date string and extract UTC date components
-        const concertDate = new Date(concert.date);
-        // Create a local date using the UTC date components (ignoring time and timezone)
-        const concertLocal = new Date(
-          concertDate.getUTCFullYear(),
-          concertDate.getUTCMonth(),
-          concertDate.getUTCDate()
-        ).getTime();
-        return concertLocal < todayLocal;
-      })
-      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    // Use centralized date filtering utility
+    const { upcomingConcerts: upcoming, pastConcerts: past } = filterConcertsByDate(currentSeasonConcertData);
 
     // Collect photo IDs from the next concert's composers and musicians
     const nextConcertPhotosArr: string[] = [];

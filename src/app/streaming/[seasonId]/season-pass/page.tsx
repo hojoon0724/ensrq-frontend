@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import PasswordGate from "@/components/atoms/PasswordGate";
 import allConcerts from "@/data/serve/concerts.json";
 import allSeasons from "@/data/serve/seasons.json";
-import { formatSeasonLabel } from "@/utils";
+import { convertUtcDateToLocal, formatSeasonLabel, getTodayLocal } from "@/utils";
 
 export async function generateStaticParams() {
   return allSeasons
@@ -30,13 +30,19 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
 
   // Helper: concerts expire the day after their scheduled date
   function isConcertExpired(concertDate: string) {
-    const today = new Date();
-    const concert = new Date(concertDate);
-    concert.setDate(concert.getDate() + 1);
-    const todayUTC = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
-    const concertUTC = Date.UTC(concert.getUTCFullYear(), concert.getUTCMonth(), concert.getUTCDate());
-    return todayUTC >= concertUTC;
+    const todayLocal = getTodayLocal();
+    const concertLocal = convertUtcDateToLocal(concertDate);
+
+    // Add one day to concert date for expiration
+    const expirationDate = new Date(concertLocal);
+    expirationDate.setDate(expirationDate.getDate() + 1);
+
+    return todayLocal >= expirationDate.getTime();
   }
+
+  // const tonightsConcert = currentSeasonConcertsData.find(
+  //   (concert) => isConcertTonight(concert.date) && !isConcertExpired(concert.date)
+  // );
 
   const nextConcert = currentSeasonConcertsData.find((concert) => !isConcertExpired(concert.date));
 
@@ -52,6 +58,18 @@ export default async function SeasonPassPage({ params }: { params: Promise<{ sea
 
   return (
     <PasswordGate pageTitle={`${formatSeasonLabel(seasonData.seasonId)}` || "Season Pass"}>
+      {/* tonight */}
+      {/* {tonightsConcert && (
+        <div className="bg-sky-200 z-[34]">
+          <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-sky-50 z-[35] flex justify-center items-center">
+            <div className="h-8 text-4xl museo-slab flex justify-center items-center">
+              {nextConcert?.date && isConcertTonight(nextConcert.date) ? "Tonight" : "Next Up"}
+            </div>
+          </div>
+          {tonightsConcert && <ConcertLivestream concert={tonightsConcert} isUpcoming={false} />}
+        </div>
+      )} */}
+
       {/* next concert */}
       <div className="bg-sky-200 z-[34]">
         <div className="my-0 text-center sticky h-full pb-s top-20 lg:top-0 pt-2 lg:py-6 bg-sky-50 z-[35] flex justify-center items-center">
