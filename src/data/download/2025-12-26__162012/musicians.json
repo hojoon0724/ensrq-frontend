@@ -93,9 +93,7 @@
     "name": "Calvin Falwell",
     "instrument": "clarinet",
     "bio": "",
-    "photos": [
-      "calvin-falwell"
-    ]
+    "photos": []
   },
   {
     "musicianId": "camila-berg",
@@ -250,10 +248,7 @@
     "name": "Han Chen",
     "instrument": "piano",
     "bio": "",
-    "photos": [
-      "han-chen",
-      "han-chen-1"
-    ]
+    "photos": []
   },
   {
     "musicianId": "hanna-kim",
@@ -299,9 +294,7 @@
     "name": "Jason Calloway",
     "instrument": "cello",
     "bio": "**bold text**",
-    "photos": [
-      "jason-calloway"
-    ]
+    "photos": []
   },
   {
     "musicianId": "jemmie-roberston",
@@ -658,9 +651,7 @@
     "name": "Stephanie Block",
     "instrument": "viola",
     "bio": "",
-    "photos": [
-      "stephanie-block"
-    ]
+    "photos": []
   },
   {
     "musicianId": "stephanie-key",
