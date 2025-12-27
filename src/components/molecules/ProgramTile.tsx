@@ -212,7 +212,10 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
               <div className="text-nowrap flex flex-col justify-end items-end w-full">
                 <Button
                   onClick={() => setShowNotes(!showNotes)}
-                  className={`${colors.button} text-sm px-4 py-2 rounded-lg transition-colors duration-200 text-nowrap flex justify-end items-end`}
+                  color={color}
+                  variant={tone === "light" ? "outline" : "filled"}
+                  size="sm"
+                  className="rounded-lg"
                 >
                   {showNotes ? "Hide Program Notes" : "Show Program Notes"}
                 </Button>
