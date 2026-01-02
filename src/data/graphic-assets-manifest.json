@@ -2820,5 +2820,14 @@
     "width": 1600,
     "height": 1600,
     "type": "webp"
+  },
+  "/photos/portraits/devonte-hynes.webp": {
+    "width": 1367,
+    "height": 2048,
+    "type": "webp",
+    "focus": {
+      "x": 0.4412,
+      "y": 0.2241
+    }
   }
 }
