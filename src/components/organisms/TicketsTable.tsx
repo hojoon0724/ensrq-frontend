@@ -67,8 +67,8 @@ export function IndividualTicket({
           {expired && type === "live"
             ? "Concert Ended"
             : !concert.ticketsLinks[ticketType()]?.url
-            ? "Not Available Yet"
-            : `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
+              ? "Not Available Yet"
+              : `Buy ${ticketType() === "singleLive" ? "Live Ticket" : "Livestream Ticket"}`}
         </Button>
       </a>
     </>
@@ -104,7 +104,10 @@ export function SpecialEventTicket({
       </Link>
       <div className="div">
         {concert.specialEventTicketsLinks?.map((linkOption, index) => (
-          <div key={index} className="mb-s last:mb-0 w-full">
+          <div
+            key={index}
+            className={`mb-s last:mb-0 w-full ${linkOption.label.toLowerCase() === "hidden" || "" ? "hidden" : ""}`}
+          >
             <a href={linkOption.url} target="_blank" rel="noopener noreferrer">
               <Button
                 disabled={!linkOption.url}
@@ -115,8 +118,8 @@ export function SpecialEventTicket({
                 {expired
                   ? "Event Ended"
                   : !linkOption.url
-                  ? "Not Available Yet"
-                  : `${linkOption.label} $${linkOption.price}`}
+                    ? "Not Available Yet"
+                    : `${linkOption.label} $${linkOption.price}`}
               </Button>
             </a>
           </div>
