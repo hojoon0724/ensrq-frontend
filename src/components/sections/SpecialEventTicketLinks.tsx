@@ -16,8 +16,14 @@ export function SpecialEventTicketLinks({ tickets, color }: SpecialEventTicketLi
   const ticketOptions = tickets || [];
 
   return (
-    <div className="tickets-link-container grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+    <div
+      className={`tickets-link-container grid grid-cols-1 ${(ticketOptions.length > 1 && ticketOptions[1].label === "hidden") || "" ? "" : "sm:grid-cols-2"}  gap-4 p-4`}
+    >
       {ticketOptions.map((ticket, index) => {
+        const hidden = ticket.label.toLowerCase() === "hidden";
+        if (hidden) {
+          return null;
+        }
         const isDisabled = ticket.url === undefined || ticket.url === "";
         return (
           <Button key={index} color={color} disabled={isDisabled}>

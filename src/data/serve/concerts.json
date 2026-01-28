@@ -2978,10 +2978,11 @@
         "url": "https://ensrq.ticketspice.com/ensrq-presents-now-ensemble"
       },
       {
-        "label": "Members",
-        "price": 20,
-        "url": "https://ensrq.ticketspice.com/ensrq-presents-now-ensemble"
+        "label": "hidden",
+        "price": 0,
+        "url": ""
       }
+      
     ],
     "youTubeUrl": "",
     "streamingPagePassword": "",
