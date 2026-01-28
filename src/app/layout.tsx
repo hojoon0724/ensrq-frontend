@@ -1,10 +1,13 @@
-import { Footer } from "@/components/organisms";
+import { Footer, GlobalPopup } from "@/components/organisms";
 
 import { SideNavBar } from "@/components/organisms";
+import { GlobalPopupProvider } from "@/components/providers";
 import type { Metadata } from "next";
 import Script from "next/script";
 import HojoonKimFooter from "../components/atoms/HojoonKim";
 import "../styles/globals.css";
+import popups from "@/data/popups.json";
+import { GlobalBanner } from "@/components/atoms";
 
 export const metadata: Metadata = {
   title: "ensembleNewSRQ",
@@ -58,10 +61,14 @@ export default function RootLayout({
         </noscript>
       </head>
       <body className="flex flex-col w-screen min-h-screen items-center justify-between">
-        <SideNavBar />
-        <main className="flex-1 lg:ml-20 w-screen lg:w-[calc(100svw-80px)] h-full">{children}</main>
-        <Footer className="lg:ml-20 lg:max-w-[calc(100svw-80px)]" />
-        <HojoonKimFooter className="lg:ml-20 lg:max-w-[calc(100svw-80px)]" />
+        <GlobalPopupProvider>
+          <SideNavBar />
+          <GlobalBanner bannerData={popups} />
+          <main className="flex-1 lg:ml-20 w-screen lg:w-[calc(100svw-80px)] h-full">{children}</main>
+          <Footer className="lg:ml-20 lg:max-w-[calc(100svw-80px)]" />
+          <HojoonKimFooter className="lg:ml-20 lg:max-w-[calc(100svw-80px)]" />
+          <GlobalPopup popupData={popups} />
+        </GlobalPopupProvider>
       </body>
     </html>
   );
