@@ -32,7 +32,7 @@ export function GlobalPopup({ popupData }: GlobalPopupProps) {
   const [mounted, setMounted] = useState(false);
   const [shouldRender, setShouldRender] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-  const dev = true; // Set to true to always show popup in development
+  const dev = false; // Set to true to always show popup in development
 
   const activePopup = popupData?.find((popup) => {
     const now = new Date();
