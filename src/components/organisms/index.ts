@@ -3,6 +3,7 @@ export { Carousel } from "./Carousel";
 export { ConcertLivestream } from "./ConcertLivestream";
 export { Donors } from "./Donors";
 export { Footer } from "./Footer";
+export { GlobalPopup } from "./GlobalPopup";
 export { MatchGame } from "./MatchGame";
 export { MeshGradientCanvas } from "./MeshGradientCanvas";
 export { MeshGradientCurves } from "./MeshGradientCurves";
