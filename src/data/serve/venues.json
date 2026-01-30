@@ -80,6 +80,14 @@
     "zipCode": "34243"
   },
   {
+    "venueId": "michaels-on-east",
+    "name": "Michaels on East",
+    "street": "1212 S East Ave",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34239"
+  },
+  {
     "venueId": "virtual",
     "name": "Virtual",
     "street": "",

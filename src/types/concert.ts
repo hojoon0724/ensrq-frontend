@@ -47,12 +47,13 @@ export interface Concert {
   program: ProgramWork[];
   status: string;
 
-  coPresented: {
+  coPresented?: {
     name: string;
     logoFileName: string;
   }[];
 
   isSpecialEvent?: boolean;
+  isNonConcertEvent?: boolean;
   createdAt?: string;
   updatedAt?: string;
 }

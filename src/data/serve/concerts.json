@@ -3021,6 +3021,38 @@
     "isSpecialEvent": true
   },
   {
+    "concertId":"s10-2026-02-23-sips-and-sounds",
+    "title":"Sips & Sounds: A Decade with enSRQ",
+    "subtitle":"",
+    "description": "Raise a glass with us as we celebrate our 10th Anniversary Season, featuring food, drinks, performances and a look back at our first ten years - plus a few more surprises!",
+    "date": "2026-02-23T12:00:00",
+    "time": "5:00pm",
+    "seasonId": "s10",
+    "venueId": "michaels-on-east",
+    "image": [
+      {
+        "src": "/graphics/s10/sips-and-sounds/ensrq-sips-and-sounds.png",
+        "alt": "Sips and Sounds Image"
+      }
+    ],
+    "program": [],
+    "additionalPhotos": [],
+    "isSpecialEvent": true,
+    "isNonConcertEvent": true,
+    "specialEventTicketsLinks": [
+      {
+        "label": "Get Your Tickets",
+        "price": 150,
+        "url": "https://ensrq.ticketspice.com/sips-and-sounds-a-decade-with-ensrq"
+      },
+      {
+        "label": "hidden",
+        "price": 0,
+        "url": ""
+      }
+    ]
+  },  
+  {
     "concertId": "s10-2026-02-23-retrospektiv",
     "title": "Retrospektiv",
     "subtitle": "",

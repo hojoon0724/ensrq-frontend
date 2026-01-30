@@ -35,10 +35,16 @@ const navItems = links_active
         name: "Season 10 (25-26)",
         url: `/seasons/${descendingSeasons[0].seasonId}`,
         dropdown: true,
-        dropdownItems: descendingSeasons[0].concerts.map((concertId) => ({
-          name: concertData.filter((concert) => concert.concertId === concertId)[0].title,
-          url: `/seasons/${descendingSeasons[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
-        })),
+        dropdownItems: descendingSeasons[0].concerts
+          .map((concertId) => {
+            const concert = concertData.filter((concert) => concert.concertId === concertId)[0];
+            return { concertId, concert };
+          })
+          .filter(({ concert }) => Boolean(concert) && !concert?.isNonConcertEvent)
+          .map(({ concertId, concert }) => ({
+            name: concert.title,
+            url: `/seasons/${descendingSeasons[0].seasonId}/${removeSeasonNumberFromConcertId(concertId)}`,
+          })),
         is_cta: false,
       },
 
@@ -230,7 +236,7 @@ export function SideNavBar() {
                         </div>
                       </Link>
                     </li>
-                  ) : null
+                  ) : null,
                 )}
               </ul>
 
@@ -260,7 +266,7 @@ export function SideNavBar() {
                         ></div>
                       </Link>
                     </li>
-                  ) : null
+                  ) : null,
                 )}
               </ul>
             </nav>
@@ -369,7 +375,7 @@ export function SideNavBar() {
                           {item.name}
                         </Link>
                       </li>
-                    )
+                    ),
                   )}
                 </ul>
                 <ul className="flex flex-col items-end space-y-s p-double museo-slab text-xl">
@@ -385,7 +391,7 @@ export function SideNavBar() {
                           {item.name}
                         </Link>
                       </li>
-                    ) : null
+                    ) : null,
                   )}
                 </ul>
               </div>
