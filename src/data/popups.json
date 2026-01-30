@@ -2,7 +2,7 @@
   {
     "id": "s-10-sips-and-sounds-popup",
     "title": "Sips & Sounds: A Decade with enSRQ",
-    "eventDate": "2026-02-04T12:00:00",
+    "eventDate": "2026-02-23T12:00:00",
     "eventTime": "5:00pm",
     "content": ["Raise a glass with us as we celebrate our 10th Anniversary Season, featuring food, drinks, performances and a look back at our first ten years - plus a few more surprises!"],
     "cta": [
@@ -19,6 +19,6 @@
     ],
     "showOnceEveryHours": 24,
     "startDate": "2026-01-26T00:00:00-05:00",
-    "endDate": "2026-02-04T00:00:00-05:00"
+    "endDate": "2026-02-23T00:00:00-05:00"
   }
 ]
