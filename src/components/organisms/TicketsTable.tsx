@@ -50,7 +50,7 @@ export function IndividualTicket({
             expired ? "opacity-30" : "opacity-100"
           }`}
         >
-          <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
+          <h3 className="text-2xl md:text-3xl text-right">{concert.title}</h3>
           <p>
             {extractDateFromUtc(concert.date)} @ {concert.time}
           </p>
@@ -85,7 +85,39 @@ export function SpecialEventTicket({
   // Only apply expiration for live tickets
   const expired = isConcertExpired(concert.date);
 
-  return (
+  return concert.isNonConcertEvent === true ? (
+    <>
+      <div
+        className={`concert-text-container flex flex-col items-end justify-center ${
+          expired ? "opacity-30" : "opacity-100"
+        }`}
+      >
+        <h3 className="text-2xl md:text-3xl text-right">{concert.title}</h3>
+        <p>
+          {extractDateFromUtc(concert.date)} @ {concert.time}
+        </p>
+      </div>
+      <div className="div">
+        {concert.specialEventTicketsLinks?.map((linkOption, index) => (
+          <div
+            key={index}
+            className={`mb-s last:mb-0 w-full ${linkOption.label.toLowerCase() === "hidden" || "" ? "hidden" : ""}`}
+          >
+            <a href={linkOption.url} target="_blank" rel="noopener noreferrer">
+              <Button
+                disabled={!linkOption.url}
+                size="lg"
+                color={colorTheme}
+                className={`${expired ? "saturate-0" : ""} w-full`}
+              >
+                {expired ? "Event Ended" : !linkOption.url ? "Not Available Yet" : `${linkOption.label}`}
+              </Button>
+            </a>
+          </div>
+        ))}
+      </div>
+    </>
+  ) : (
     <>
       <Link
         href={`/seasons/${concert.seasonId}/${removeSeasonNumberFromConcertId(concert.concertId)}`}
@@ -96,7 +128,7 @@ export function SpecialEventTicket({
             expired ? "opacity-30" : "opacity-100"
           }`}
         >
-          <h3 className="text-2xl md:text-3xl">{concert.title}</h3>
+          <h3 className="text-2xl md:text-3xl text-right">{concert.title}</h3>
           <p>
             {extractDateFromUtc(concert.date)} @ {concert.time}
           </p>
@@ -115,11 +147,7 @@ export function SpecialEventTicket({
                 color={colorTheme}
                 className={`${expired ? "saturate-0" : ""} w-full`}
               >
-                {expired
-                  ? "Event Ended"
-                  : !linkOption.url
-                    ? "Not Available Yet"
-                    : `${linkOption.label} $${linkOption.price}`}
+                {expired ? "Event Ended" : !linkOption.url ? "Not Available Yet" : `${linkOption.label}`}
               </Button>
             </a>
           </div>
@@ -143,6 +171,23 @@ export function TicketsTable({ season }: { season: Season }) {
 
   return (
     <>
+      <SectionEmpty
+        themeColor="sand"
+        className="min-h-[min(60svh,800px)] flex flex-col items-center justify-center w-full"
+      >
+        <a className="anchor scroll-mt-[80px]" id="individual-tickets"></a>
+        <div className="special-events flex flex-col justify-center items-center gap-s text-center">
+          <h2>Special Events</h2>
+          <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
+          <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">
+            {specialEvents.map((concertRef) => {
+              const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
+              if (!matched) return null;
+              return <SpecialEventTicket key={matched.concertId} concert={matched} colorTheme="water" />;
+            })}
+          </div>
+        </div>
+      </SectionEmpty>
       <SectionEmpty themeColor="sky" className="min-h-[min(60svh,800px)] flex flex-col items-center justify-center">
         <a className="anchor scroll-mt-[80px]" id="live-streaming"></a>
         <div className="season-pass-live flex flex-col items-center gap-s text-center">
@@ -200,23 +245,6 @@ export function TicketsTable({ season }: { season: Season }) {
               const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
               if (!matched) return null;
               return <IndividualTicket key={matched.concertId} concert={matched} type="streaming" colorTheme="water" />;
-            })}
-          </div>
-        </div>
-      </SectionEmpty>
-      <SectionEmpty
-        themeColor="sand"
-        className="min-h-[min(60svh,800px)] flex flex-col items-center justify-center w-full"
-      >
-        <a className="anchor scroll-mt-[80px]" id="individual-tickets"></a>
-        <div className="season-pass-streaming flex flex-col justify-center items-center gap-s text-center">
-          <h2>Special Events</h2>
-          <div className="h-[1px] border-t border-gray-900 w-full py-s"></div>
-          <div className="tickets-container grid grid-cols-[auto,1fr] gap-x-double items-center gap-y-s">
-            {specialEvents.map((concertRef) => {
-              const matched = (ConcertData as Concert[]).find((c) => c.concertId === concertRef);
-              if (!matched) return null;
-              return <SpecialEventTicket key={matched.concertId} concert={matched} colorTheme="water" />;
             })}
           </div>
         </div>

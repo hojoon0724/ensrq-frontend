@@ -21,7 +21,7 @@ export default async function SingleSeasonPage({ params }: { params: Promise<{ s
   // Filter concert data from preloaded allConcerts
   const concertData = seasonData.concerts
     ?.map((id: string) => allConcerts.find((c) => c.concertId === id))
-    ?.filter(Boolean) as Concert[];
+    ?.filter((concert) => Boolean(concert) && !concert?.isNonConcertEvent) as Concert[];
 
   return (
     <div>
