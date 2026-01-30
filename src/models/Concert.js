@@ -5,7 +5,7 @@ const ticketLinkSchema = new mongoose.Schema(
     price: { type: Number, min: 0 },
     url: { type: String, trim: true },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const specialEventTicketsOptionSchema = new mongoose.Schema(
@@ -14,7 +14,7 @@ const specialEventTicketsOptionSchema = new mongoose.Schema(
     price: { type: Number, min: 0 },
     url: { type: String, trim: true },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const programItemSchema = new mongoose.Schema(
@@ -32,7 +32,7 @@ const programItemSchema = new mongoose.Schema(
       },
     ],
   },
-  { _id: false }
+  { _id: false },
 );
 
 const concertSchema = new mongoose.Schema(
@@ -72,11 +72,12 @@ const concertSchema = new mongoose.Schema(
       },
     ],
     isSpecialEvent: { type: Boolean, default: false },
+    isNonConcertEvent: { type: Boolean, default: false },
   },
   {
     timestamps: true,
     collection: "concerts",
-  }
+  },
 );
 
 const Concert = mongoose.models.Concert || mongoose.model("Concert", concertSchema);
