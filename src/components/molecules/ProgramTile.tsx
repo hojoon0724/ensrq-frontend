@@ -99,7 +99,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
       <div className="line-1">
         <div className="gap-4 w-full grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] items-start">
           {/* Composer Photo */}
-          <div className="flex-shrink-0 flex flex-col gap-2 h-full justify-center">
+          <div className="flex-shrink-0 flex flex-col gap-2 h-full justify-start">
             {composerPhotoPath && !imageError ? (
               <div
                 className={`relative w-24 h-24 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-md border-2 ${colors.border}`}
@@ -115,7 +115,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
               </div>
             ) : (
               <div
-                className={`w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full ${colors.button} flex items-center justify-center shadow-md font-bold text-lg md:text-2xl lg:text-6xl`}
+                className={`w-24 h-24 md:w-32 md:h-32 lg:w-64 lg:h-64 rounded-full ${colors.button} flex items-center justify-center museo-slab shadow-md font-bold text-lg md:text-2xl lg:text-6xl`}
               >
                 {composer?.name
                   ?.split(" ")
@@ -165,10 +165,10 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
             </div>
 
             {/* Movements Section */}
-            {work?.movements && work.movements.length > 0 && (
+            {/* {work?.movements && work.movements.length > 0 && (
               <div className="px-0 py-4">
-                {/* <h5 className={`text-sm font-semibold ${colors.composer} mb-2`}>Movements:</h5> */}
-                <ul className=" space-y-1">
+                <h5 className={`text-sm font-semibold ${colors.composer} mb-1`}>Movements:</h5>
+                <ul className="">
                   {work.movements.map((movement, index) => (
                     <li key={index} className={`text-sm ${colors.text}`}>
                       {movement}
@@ -176,7 +176,7 @@ export function ProgramTile({ programWork, className = "", color = "sand", tone 
                   ))}
                 </ul>
               </div>
-            )}
+            )} */}
 
             {/* Badges for special designations */}
             <div className="flex gap-1 flex-col items-start pt-4 md:flex-row">

@@ -46,8 +46,8 @@ export function ConcertTile({ concert }: ConcertTileProps) {
 
           return photoExists ? composerPhotoPath : null;
         })
-        .filter(Boolean) as string[]
-    )
+        .filter(Boolean) as string[],
+    ),
   );
 
   return (
@@ -112,6 +112,20 @@ export function ConcertTile({ concert }: ConcertTileProps) {
                     {getWorkData(item.workId)?.title || item.workId}
                     {getWorkData(item.workId)?.year ? " (" + getWorkData(item.workId)!.year + ")" : ""}
                   </p>
+                  {(item.is_commission || item.is_premiere) && (
+                    <div className="commission-premiere-container flex space-x-1 flex-wrap mb-s">
+                      {item.is_premiere && (
+                        <div className="premiere-text text-[10px] text-water-500 font-bold museo uppercase border-2 border-water-500 px-[6px] pt-[3px] pb-[2px] rounded-md">
+                          World Premiere
+                        </div>
+                      )}
+                      {item.is_commission && (
+                        <div className="commission-text text-[10px] text-sky-500 font-bold museo uppercase border-2 border-sky-500 px-[6px] pt-[3px] pb-[2px] rounded-md">
+                          Commission
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

@@ -1,0 +1,98 @@
+[
+  {
+    "venueId": "alfstad-contemporary",
+    "name": "Alfstad& Contemporary",
+    "street": "1419 5th St",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34236"
+  },
+  {
+    "venueId": "first-congregational-church",
+    "name": "First Congregational Church",
+    "street": "1031 S. Euclid Ave.",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34237"
+  },
+  {
+    "venueId": "first-united-methodist-church",
+    "name": "First United Methodist Church",
+    "street": "104 S. Pineapple Ave.",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34236"
+  },
+  {
+    "venueId": "michaels-on-east",
+    "name": "Michaels on East",
+    "street": "1212 S East Ave",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34239"
+  },
+  {
+    "venueId": "mildred-sainer-auditorium",
+    "name": "Mildred Sainer Auditorium",
+    "street": "5313 Bay Shore Rd",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34243"
+  },
+  {
+    "venueId": "sarasota-opera-house",
+    "name": "Sarasota Opera House",
+    "street": "61 N. Pineapple Ave.",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34236"
+  },
+  {
+    "venueId": "southern-methodist-university",
+    "name": "Southern Methodist University",
+    "street": "",
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75205"
+  },
+  {
+    "venueId": "studio-620",
+    "name": "Studio@620",
+    "street": "620 1st Ave S",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "zipCode": "33701"
+  },
+  {
+    "venueId": "tbd",
+    "name": "TBD",
+    "street": "",
+    "city": "",
+    "state": "",
+    "zipCode": ""
+  },
+  {
+    "venueId": "the-hermitage-artist-retreat",
+    "name": "The Hermitage Artist Retreat",
+    "street": "6630 Manasota Key Rd",
+    "city": "Englewood",
+    "state": "FL",
+    "zipCode": "34223"
+  },
+  {
+    "venueId": "the-ringling-museum",
+    "name": "The Ringling Museum",
+    "street": "5401 Bay Shore Rd",
+    "city": "Sarasota",
+    "state": "FL",
+    "zipCode": "34243"
+  },
+  {
+    "venueId": "virtual",
+    "name": "Virtual",
+    "street": "",
+    "city": "",
+    "state": "",
+    "zipCode": ""
+  }
+]
